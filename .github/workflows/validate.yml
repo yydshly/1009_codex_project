@@ -1,0 +1,22 @@
+name: Validate research index
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      # 有需构建的 Pages 子项目时，在校验前添加其构建步骤。
+      - run: npm run check
+      - run: npm run pages:build
