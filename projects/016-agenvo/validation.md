@@ -23,6 +23,16 @@
 - 原图弹窗、Escape / 触摸关闭、下载字节一致、分节定位及总首页往返正常。
 - 无脚本异常或 HTTP 4xx / 5xx 资源错误；已人工查看摘要、手机表格及流程截图。
 
+## 本轮上线与复核
+
+- **网页提交：** `897517c9c64a2ac0b46deafbfd7d6c8773d5e845`，已推送远端 main。
+- **自动校验：** [Validate research index](https://github.com/yydshly/1009_codex_project/actions/runs/38209932676)，成功。
+- **网页部署：** [Publish GitHub Pages](https://github.com/yydshly/1009_codex_project/actions/runs/38209933068)，成功。
+- **在线页面：** [Agenvo 理解指南](https://yydshly.github.io/1009_codex_project/016-agenvo/)，HTTP 200。
+- **线上复核：** 1440、390、320、768 宽度均通过；八项摘要、六步说明、全部原生接入、手机带标签表格、无脚本阅读、图片弹窗与下载、首页往返正常。
+- **素材一致：** 线上下载的引导图与本地原件字节相同。
+- **提交范围：** 仅本次 Agenvo 描述、样式、阅读脚本、说明文档与实际预览图；其他项目未提交。
+
 ## 首次版本浏览器记录
 
 Playwright/Chromium在真实汇总子路径`/016-agenvo/`检查：
