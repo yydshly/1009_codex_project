@@ -8,7 +8,7 @@ https://yydshly.github.io/1009_codex_project/001-example-repo/ # 第一个演示
 https://yydshly.github.io/1009_codex_project/002-another-repo/ # 第二个演示
 ```
 
-以上是规划路径，当前尚未部署。GitHub Pages 托管 HTML、CSS、JavaScript 等静态文件；需要常驻后端的项目应将后端另行部署，并在 `demoUrl` 中记录演示地址。
+以上编号路径是示例。本站采用 GitHub Actions 发布，已接入项目见[总索引](../README.md#有序索引)，Agenvo 研究页路径为 [`016-agenvo/`](https://yydshly.github.io/1009_codex_project/016-agenvo/)。GitHub Pages 托管 HTML、CSS、JavaScript 等静态文件；需要常驻后端的项目应将后端另行部署，并在 `demoUrl` 中记录演示地址。
 
 ## 接入一个子项目
 

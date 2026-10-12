@@ -1,4 +1,26 @@
 {
   "schemaVersion": 1,
-  "projects": []
+  "projects": [
+    {
+      "id": "016",
+      "slug": "agenvo",
+      "title": "Agenvo：远程 Agent 连接与调度研究",
+      "summary": "自托管 MCP 中继，将 Codex、Herdr 中的 Claude Code 及 Paseo、Amp、Lody、OpenCode 接入通用助手；完整梳理能力、客户端/Relay/Connector 内置 Adapter 模块、原生接口与会话路由、部署数量、事件和故障语义、权限边界、官方远控重叠、实际价值及扩展方向。保留中文引导图，补充 v0.2.0 与当前源码变化；完成研究网页，原生 Agent 未独立实测。",
+      "source": "https://github.com/Xuanwo/agenvo",
+      "sourceRef": "68e046a5d8691054f8c134d85ae051988bae3dff",
+      "status": "done",
+      "tags": [
+        "Agent",
+        "MCP",
+        "远程控制",
+        "原生接口",
+        "自托管"
+      ],
+      "addedAt": "2026-10-12",
+      "preview": "assets/agenvo-guide.png",
+      "previewCaption": "原创中文完整引导图，非上游界面；原图基于 2026-10-09 的 4d899e5 快照，网页保留原图并补充 v0.2.0、Codex 独立服务、OpenCode 与 MCP 输出等更新。",
+      "demoUrl": "",
+      "pagesDir": "web/dist"
+    }
+  ]
 }
