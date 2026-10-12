@@ -100,3 +100,14 @@ app/api/iss/route.ts 查询 Open Notify 的经纬度。components/scene.tsx 仅�
 通过 http://127.0.0.1:5248/008-openai-realtime-solar-system/ 对生产汇总执行浏览器验证：11 项检查通过，错误和失败请求均为空，覆盖七区内容、引导图、六类动作、两种图表、未知输入、标签页与键盘、完整自动演示、朗读开关、许可证和 390px 无横向溢出。新截图与报告保存于 assets/verification-2026-10-12/，原有参考截图不覆盖。
 
 引导图的源文件、public 副本与汇总产物 SHA-256 一致：8470fee498cc0329de0e3a7aa19a49b83212c3eac2c176e5c71ae4441971a1e2。
+
+### 远端部署与公开访问结果
+
+- 实现提交：[4688c3b4977a844e3dbd06db63cd90e5b1023498](https://github.com/yydshly/1009_codex_project/commit/4688c3b4977a844e3dbd06db63cd90e5b1023498)，已推送远端 main。
+- [索引与构建校验 38244335569](https://github.com/yydshly/1009_codex_project/actions/runs/38244335569) 成功。
+- [GitHub Pages 部署 38244336197](https://github.com/yydshly/1009_codex_project/actions/runs/38244336197) 的 build 与 deploy 均成功。
+- 公开地址：https://yydshly.github.io/1009_codex_project/008-openai-realtime-solar-system/ 。
+- 公开总索引与引导图均返回 HTTP 200；线上 PNG 哈希与原图一致，总索引包含完整 008 摘要。
+- 针对公开地址执行相同的 11 项浏览器检查，全数通过，错误和失败请求均为空。记录与截图位于 assets/public-verification-2026-10-12/；另通过内置浏览器目视确认引导图与理解说明，并保留网页作为交付。
+
+公开访问验证的是静态研究页和本地规则交互，不证明真实语音、音质、模型工具选择、Open Notify 服务或扩展方案已经运行。部署后的记录补充只更新研究档案和截图，不改变已验证的网页代码。
