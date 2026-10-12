@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "change": "发起播放后加载媒体，15秒缓冲提示与重试；图鉴默认水墨",
+  "media": {
+    "blueprint": {
+      "verified": false,
+      "duration": null,
+      "ready": 0,
+      "time": 0,
+      "width": 0,
+      "frames": 0,
+      "network": 2,
+      "error": null,
+      "status": "上游视频缓冲较慢，可以重试或打开原视频。 重试播放 打开上游视频 ↗"
+    },
+    "feature": {
+      "verified": false,
+      "duration": null,
+      "ready": 0,
+      "time": 0,
+      "width": 0,
+      "frames": 0,
+      "network": 2,
+      "error": null,
+      "status": "上游视频缓冲较慢，可以重试或打开原视频。 重试播放 打开上游视频 ↗"
+    }
+  },
+  "requests": [
+    {
+      "status": 206,
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4"
+    },
+    {
+      "failure": "net::ERR_ABORTED",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4"
+    }
+  ]
+}

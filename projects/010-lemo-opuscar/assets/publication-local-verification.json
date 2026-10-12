@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:4330/1009_codex_project/010-lemo-opuscar/",
+  "checks": [
+    "完整能力、8类模块、执行原理、8项扩展及条件读取并显示",
+    "原始引导PNG/SVG HTTP字节与SHA256一致，1600×4219，展开/收起有效",
+    "原作蓝图画面资源就绪、播放推进、暂停控制有效（外部网络阻断）",
+    "交互版可展开，43种风格入口及完整蓝图规范正常"
+  ],
+  "widths": [
+    {
+      "width": 1440,
+      "scroll": 1440
+    },
+    {
+      "width": 1120,
+      "scroll": 1120
+    },
+    {
+      "width": 900,
+      "scroll": 900
+    },
+    {
+      "width": 390,
+      "scroll": 390
+    }
+  ],
+  "errors": [],
+  "localFailures": [],
+  "originalImages": [
+    {
+      "name": "understanding-overview.png",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 2376057,
+      "sha256": "ff8c29b438498bbd00a6c50eba0812e6a97c000bd7521aa6f9f2c13c801d6303"
+    },
+    {
+      "name": "understanding-overview.svg",
+      "status": 200,
+      "contentType": "image/svg+xml",
+      "bytes": 970917,
+      "sha256": "fac5516e94f768e4da0dd00ecc8f8bdc76321aa555e2d7866b4eed6984e23ecb"
+    }
+  ],
+  "animation": {
+    "ready": true,
+    "time": 10.99809999995232,
+    "running": false,
+    "duration": 46.66666666666667,
+    "frames": 23
+  }
+}

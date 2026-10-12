@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-09",
+  "url": "http://127.0.0.1:4320/1009_codex_project/010-lemo-opuscar/",
+  "checks": [
+    "初始43种风格完整显示",
+    "类别、中文搜索、空结果重置、时长筛选",
+    "样片详情、完整规格、技术说明、带风格进入任务",
+    "导演时间线、五个制作轨道",
+    "98片段完整索引、年代筛选、画风搜索、中文提示词展开",
+    "场景预设、竖屏、声音、分镜选项和真实剪贴板复制",
+    "原生对话框关闭与视频资源释放",
+    "全部141张风格与片段图像可解码",
+    "390px移动端主页、图鉴与详情无横向溢出",
+    "浏览器无脚本异常、本地资源无HTTP失败"
+  ],
+  "errors": [],
+  "media": {
+    "inkWash": {
+      "verified": true,
+      "duration": 48,
+      "width": 1280,
+      "height": 720,
+      "current": 0,
+      "ready": 4
+    },
+    "feature": {
+      "verified": false,
+      "reason": "page.waitForFunction: Timeout 90000ms exceeded."
+    }
+  }
+}

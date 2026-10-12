@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-10",
+  "checks": [
+    "43种风格可页内切换，卡片直接播放，规范保留弹窗，多个播放器互斥",
+    "长片与片段使用正文播放器，跳转请求已触发；未等待验证远端目标画面",
+    "四种屏幕宽度无横向溢出，手机页内播放器可见"
+  ],
+  "media": {
+    "heroInkWash": {
+      "verified": true,
+      "duration": 48,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 0.332768,
+      "ready": 4,
+      "paused": false,
+      "muted": true,
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4",
+      "frames": 12
+    },
+    "heroBlueprint": {
+      "verified": false,
+      "reason": "page.waitForFunction: Timeout 40000ms exceeded.",
+      "duration": null,
+      "width": 0,
+      "height": 0,
+      "currentTime": 0,
+      "ready": 0,
+      "paused": true,
+      "muted": true,
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/blueprint.mp4",
+      "frames": 0
+    },
+    "galleryInkWash": {
+      "verified": true,
+      "duration": 48,
+      "width": 1280,
+      "height": 720,
+      "currentTime": 0.31136,
+      "ready": 3,
+      "paused": false,
+      "muted": true,
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4",
+      "frames": 12
+    },
+    "featureStart": {
+      "verified": false,
+      "reason": "page.waitForFunction: Timeout 40000ms exceeded.",
+      "duration": null,
+      "width": 0,
+      "height": 0,
+      "currentTime": 0,
+      "ready": 0,
+      "paused": true,
+      "muted": true,
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/opuscar98.mp4",
+      "frames": 0
+    },
+    "featureSeek": {
+      "duration": null,
+      "width": 0,
+      "height": 0,
+      "currentTime": 0,
+      "ready": 0,
+      "paused": true,
+      "muted": true,
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/opuscar98.mp4",
+      "frames": 0
+    }
+  },
+  "errors": [],
+  "localFailures": []
+}

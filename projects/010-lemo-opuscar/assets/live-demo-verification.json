@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-10",
+  "checks": [
+    "断开外部网络仍能自动动画、暂停、拖动11秒、跳到20秒，并输出不同实际帧",
+    "原作本地字体和960×540预览合成正常",
+    "1440/1120/900/390px均无页面溢出，手机动态画面和控件完整",
+    "减少动画偏好下不自动播放"
+  ],
+  "errors": [],
+  "localFailures": [],
+  "blockedExternal": [],
+  "viewport": "960×540",
+  "initial": {
+    "ready": true,
+    "time": 9.813000000000006,
+    "running": true,
+    "duration": 46.66666666666667,
+    "frames": 15
+  },
+  "comparison": {
+    "differentRenderedFrames": true,
+    "afterJump": {
+      "ready": true,
+      "time": 21.58279999998807,
+      "running": false,
+      "duration": 46.66666666666667,
+      "frames": 42
+    }
+  }
+}

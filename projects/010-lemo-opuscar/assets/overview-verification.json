@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-10",
+  "url": "http://127.0.0.1:4320/1009_codex_project/010-lemo-opuscar/",
+  "checks": [
+    "单图完整呈现5步创作链路、9类43种风格、6项约束、6类场景、4项价值和5步交付",
+    "总览内风格按钮复用真实风格说明入口",
+    "减少动画偏好下保持静止画面",
+    "断网下原作画面运行、暂停时间不变、11秒与20秒阶段实际画面不同",
+    "PNG真实下载1600px宽完整图，SVG包含全部43种风格且作品图片内嵌，可离线保存",
+    "图末端首个试验按钮填写离心泵任务与蓝图风格",
+    "SVG所有文字均处于画布宽度以内"
+  ],
+  "widths": [
+    {
+      "width": 1440,
+      "viewport": 1440,
+      "document": 1440,
+      "map": 1228
+    },
+    {
+      "width": 1120,
+      "viewport": 1120,
+      "document": 1120,
+      "map": 1056
+    },
+    {
+      "width": 900,
+      "viewport": 900,
+      "document": 900,
+      "map": 836
+    },
+    {
+      "width": 390,
+      "viewport": 390,
+      "document": 390,
+      "map": 348
+    }
+  ],
+  "errors": [],
+  "localFailures": [],
+  "media": {
+    "localBlueprint": {
+      "playing": {
+        "ready": true,
+        "time": 20.695199999976165,
+        "running": true,
+        "duration": 46.66666666666667,
+        "frames": 38
+      },
+      "paused": {
+        "ready": true,
+        "time": 23.344999999976167,
+        "running": false,
+        "duration": 46.66666666666667,
+        "frames": 49
+      },
+      "jumped": {
+        "ready": true,
+        "time": 30.264799999999997,
+        "running": true,
+        "duration": 46.66666666666667,
+        "frames": 86
+      },
+      "differentFrames": true,
+      "externalNetworkBlocked": true
+    }
+  },
+  "export": {
+    "width": 1600,
+    "height": 4219,
+    "bytes": 2376057
+  }
+}

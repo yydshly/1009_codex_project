@@ -1,0 +1,3 @@
+# Retain researched demonstration assets; optional root upstream clones stay ignored.
+!assets/upstream/
+!assets/upstream/**

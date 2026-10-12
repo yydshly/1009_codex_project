@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "story": "阅读官方展示页定位与总库价值，选择首个任务并复制创作描述",
+  "checks": [
+    "主页43种风格、3类入口、4项价值与所有页内锚点正常",
+    "价值区首个任务写入主题和蓝图风格、生成45秒描述并实际复制到剪贴板",
+    "98个长片片段索引仍完整",
+    "1440/1120/900/390px排版无页面溢出，移动端价值按钮可用",
+    "浏览器无脚本异常、本地资源无HTTP失败"
+  ],
+  "errors": [],
+  "failedResources": [],
+  "screenshots": [
+    "preview.png",
+    "official-guide.png",
+    "value.png",
+    "official-guide-mobile.png",
+    "value-mobile.png"
+  ]
+}

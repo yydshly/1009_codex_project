@@ -1,0 +1,5 @@
+# Keep imported source, attribution and the original guide byte-for-byte.
+references/** -text -whitespace
+assets/upstream/** -text -whitespace
+assets/understanding-overview.svg -text
+web/public/demos/blueprint/** -text -whitespace

@@ -1,0 +1,37 @@
+{
+  "date": "2026-10-10",
+  "errors": [],
+  "inkPlayback": {
+    "readyState": 4,
+    "currentTime": 0.321922,
+    "width": 1280,
+    "height": 720,
+    "paused": false,
+    "frames": 12,
+    "src": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4"
+  },
+  "switches": [
+    {
+      "slug": "glass-product",
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/glass-product.mp4",
+      "poster": "http://127.0.0.1:4320/1009_codex_project/010-lemo-opuscar/assets/upstream/frames/glass-product.jpg",
+      "selectionVerified": true,
+      "playbackNotChecked": true
+    },
+    {
+      "slug": "paper-popup",
+      "src": "https://lemomo-ai.github.io/lemo-opuscar/films/paper-popup.mp4",
+      "poster": "http://127.0.0.1:4320/1009_codex_project/010-lemo-opuscar/assets/upstream/frames/paper-popup.jpg",
+      "selectionVerified": true,
+      "playbackNotChecked": true
+    }
+  ],
+  "defaultAnimation": {
+    "ready": true,
+    "time": 10.120300000047683,
+    "running": true,
+    "duration": 46.66666666666667,
+    "frames": 14
+  },
+  "livePausedForVideo": true
+}

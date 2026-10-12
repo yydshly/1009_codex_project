@@ -1,0 +1,358 @@
+{
+  "date": "2026-10-09",
+  "method": "HEAD，无本地视频下载",
+  "results": [
+    {
+      "slug": "art-deco",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/art-deco.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 9822063,
+      "range": "bytes"
+    },
+    {
+      "slug": "ascii-crt",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/ascii-crt.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 5542304,
+      "range": "bytes"
+    },
+    {
+      "slug": "backrooms",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/backrooms.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 12141508,
+      "range": "bytes"
+    },
+    {
+      "slug": "blueprint",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/blueprint.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8202490,
+      "range": "bytes"
+    },
+    {
+      "slug": "brick-toy",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/brick-toy.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6022107,
+      "range": "bytes"
+    },
+    {
+      "slug": "cel-anime-80s",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/cel-anime-80s.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 10054399,
+      "range": "bytes"
+    },
+    {
+      "slug": "crayon-book",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/crayon-book.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 12980661,
+      "range": "bytes"
+    },
+    {
+      "slug": "dark-keynote",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/dark-keynote.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 5355677,
+      "range": "bytes"
+    },
+    {
+      "slug": "dataviz",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/dataviz.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 5466108,
+      "range": "bytes"
+    },
+    {
+      "slug": "engraving",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/engraving.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 5516408,
+      "range": "bytes"
+    },
+    {
+      "slug": "game-show",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/game-show.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 19094614,
+      "range": "bytes"
+    },
+    {
+      "slug": "glass-product",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/glass-product.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 4732458,
+      "range": "bytes"
+    },
+    {
+      "slug": "halftone-dossier",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/halftone-dossier.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 7677858,
+      "range": "bytes"
+    },
+    {
+      "slug": "hd-2d",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/hd-2d.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 11329133,
+      "range": "bytes"
+    },
+    {
+      "slug": "hologram-hud",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/hologram-hud.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 7488113,
+      "range": "bytes"
+    },
+    {
+      "slug": "impasto",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/impasto.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 9090350,
+      "range": "bytes"
+    },
+    {
+      "slug": "ink-wash",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/ink-wash.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6884674,
+      "range": "bytes"
+    },
+    {
+      "slug": "iso-infographic",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/iso-infographic.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8050305,
+      "range": "bytes"
+    },
+    {
+      "slug": "living-screencast",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/living-screencast.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 4416267,
+      "range": "bytes"
+    },
+    {
+      "slug": "lowpoly-island",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/lowpoly-island.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6878067,
+      "range": "bytes"
+    },
+    {
+      "slug": "microgame",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/microgame.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 11290664,
+      "range": "bytes"
+    },
+    {
+      "slug": "midcentury-toon",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/midcentury-toon.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 4303162,
+      "range": "bytes"
+    },
+    {
+      "slug": "one-line",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/one-line.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 3961464,
+      "range": "bytes"
+    },
+    {
+      "slug": "opuscar98",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/opuscar98.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 88674624,
+      "range": "bytes"
+    },
+    {
+      "slug": "paper-lantern",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/paper-lantern.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 14122440,
+      "range": "bytes"
+    },
+    {
+      "slug": "paper-popup",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/paper-popup.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 25920626,
+      "range": "bytes"
+    },
+    {
+      "slug": "papercut-red",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/papercut-red.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 7752934,
+      "range": "bytes"
+    },
+    {
+      "slug": "pictogram-motion",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/pictogram-motion.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 22846413,
+      "range": "bytes"
+    },
+    {
+      "slug": "pixel-rpg",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/pixel-rpg.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 3042781,
+      "range": "bytes"
+    },
+    {
+      "slug": "risograph",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/risograph.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 9542260,
+      "range": "bytes"
+    },
+    {
+      "slug": "rubber-hose",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/rubber-hose.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8551428,
+      "range": "bytes"
+    },
+    {
+      "slug": "scifi-toon",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/scifi-toon.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8110519,
+      "range": "bytes"
+    },
+    {
+      "slug": "shadow-puppet",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/shadow-puppet.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 9896981,
+      "range": "bytes"
+    },
+    {
+      "slug": "silent-film",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/silent-film.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 11514149,
+      "range": "bytes"
+    },
+    {
+      "slug": "silkscreen-poster",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/silkscreen-poster.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 4776541,
+      "range": "bytes"
+    },
+    {
+      "slug": "spy-titles",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/spy-titles.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6565918,
+      "range": "bytes"
+    },
+    {
+      "slug": "stained-glass",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/stained-glass.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8244669,
+      "range": "bytes"
+    },
+    {
+      "slug": "swiss-motion",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/swiss-motion.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 1803113,
+      "range": "bytes"
+    },
+    {
+      "slug": "tilt-shift",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/tilt-shift.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 7484149,
+      "range": "bytes"
+    },
+    {
+      "slug": "ukiyoe",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/ukiyoe.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 6898971,
+      "range": "bytes"
+    },
+    {
+      "slug": "urban-sketch",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/urban-sketch.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 8180597,
+      "range": "bytes"
+    },
+    {
+      "slug": "watercolor",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/watercolor.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 14558372,
+      "range": "bytes"
+    },
+    {
+      "slug": "whiteboard",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/whiteboard.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 11985273,
+      "range": "bytes"
+    },
+    {
+      "slug": "woodcut",
+      "url": "https://lemomo-ai.github.io/lemo-opuscar/films/woodcut.mp4",
+      "status": 200,
+      "type": "video/mp4",
+      "bytes": 13606599,
+      "range": "bytes"
+    }
+  ]
+}
