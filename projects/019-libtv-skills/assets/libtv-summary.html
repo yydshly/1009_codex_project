@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>LibTV Skills 的本质与价值</title>
+<style>
+*{box-sizing:border-box}html{background:#f5f3ed}body{margin:0;color:#183438;font-family:"Microsoft YaHei UI","Microsoft YaHei",sans-serif;font-size:24px;line-height:1.6}main{width:1440px;margin:0 auto;padding:58px 66px 46px;background:radial-gradient(ellipse at 100% 0%,#dfede7 0,transparent 40%),#f5f3ed}.eyebrow{display:flex;justify-content:space-between;align-items:center;color:#54716b;font-size:19px;letter-spacing:2px}.eyebrow strong{letter-spacing:1px;font-size:21px}h1{margin:23px 0 10px;font-size:62px;line-height:1.25;letter-spacing:-1px}h1 span{color:#16836e}.intro{margin:0;color:#52706b;font-size:26px}.verdict{display:flex;align-items:center;gap:24px;margin:32px 0 35px;background:#fbe8d9;border:1px solid #e7c0a2;border-radius:18px;padding:22px 28px}.verdict .tag{background:#9c4b26;color:#fff;border-radius:8px;font-size:20px;padding:5px 13px;white-space:nowrap}.verdict strong{font-size:31px;color:#843e23}.section{margin-top:29px}.section-title{display:flex;align-items:center;gap:14px;margin-bottom:18px}h2{font-size:31px;line-height:1.3;margin:0}.section-num{font-size:18px;background:#e1eae3;color:#296956;border-radius:7px;padding:3px 9px;font-weight:700}.section-note{margin-left:auto;color:#6c7c74;font-size:18px}.flow{display:grid;grid-template-columns:1fr 26px 1fr 26px 1fr 26px 1fr 26px 1fr;align-items:center}.step{height:132px;padding:17px 16px;background:#fffefa;border:1px solid #d8dfd4;border-radius:15px}.step .top{display:flex;align-items:center;gap:10px;margin-bottom:8px}.step .n{font-size:19px;color:#7b9287;font-weight:600}.step strong{font-size:26px}.arrow{text-align:center;font-size:29px;color:#829588}.line-icon{width:33px;height:33px;fill:none;stroke:#27836c;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round}.small-note{font-size:20px;color:#687b72;margin:13px 0 0}.dependencies{background:#fffefa;border:1px solid #d8dfd4;border-radius:18px;padding:20px}.dependency{min-height:133px;border-radius:12px;padding:15px 10px;text-align:center;background:#eeefea;border:1px solid #dbdfd5;display:flex;flex-direction:column;justify-content:center}.dependency strong{font-size:25px;line-height:1.4}.dependency small{font-size:17px;color:#60776e;margin-top:7px}.dependency.client{background:#dbf0e6;border:2px solid #368c72}.dependency.client small{color:#176449}.dependency.cloud{background:#e5edf7;border-color:#b9cddd}.dependency.cloud small{color:#597491}.dependency.result{background:#faeadd;border-color:#ebcdb1}.dependency-legend{display:flex;justify-content:space-between;gap:16px;padding:15px 3px 0;color:#577068;font-size:20px}.dependency-legend b{color:#244e44}.two-col{display:grid;grid-template-columns:1fr 1fr;gap:24px;margin-top:31px}.card{padding:25px 28px;border-radius:18px;background:#fffefa;border:1px solid #d8dfd4}.card h2{font-size:29px}.card .lead{font-size:27px;font-weight:700;margin:19px 0 10px;color:#1c7761}.card p{font-size:23px;margin:9px 0;color:#4d6660}.divider{height:1px;background:#dde2d7;margin:22px 0 19px}.view-line{display:flex;gap:9px;margin:11px 0 0}.view-line span{padding:4px 14px;border:1px solid #d2ded6;border-radius:7px;font-size:19px;color:#506d62}.capabilities{display:grid;grid-template-columns:1fr 1fr;gap:11px;margin-top:20px}.capability{border:1px solid #dce5d8;border-radius:10px;padding:10px 12px;font-size:22px;background:#f1f5ed;display:flex;gap:8px;align-items:center}.capability .dot{width:8px;height:8px;border-radius:50%;background:#27836c;flex-shrink:0}.capability.full{grid-column:1 / -1}.value{margin-top:31px;background:#183d36;color:#fff;border-radius:20px;padding:27px 31px}.value h2{font-size:33px}.value .value-subtitle{color:#c2d4c9;font-size:21px;margin:8px 0 17px}.reason{display:grid;grid-template-columns:120px 1fr;gap:17px;padding:13px 0;border-top:1px solid #426357;align-items:start}.reason strong{font-size:23px;color:#f1c39d}.reason p{font-size:23px;margin:0;color:#f0f3ea}.reason p span{color:#c2d4c9}.takeaway{margin-top:19px;display:flex;gap:16px;align-items:center;color:#dbe8da;font-size:22px}.takeaway b{font-size:20px;white-space:nowrap;border:1px solid #6c8a77;border-radius:6px;padding:3px 9px;color:#e6eee0}.closing{margin-top:21px;border-top:1px solid #426357;padding-top:19px;font-size:26px;font-weight:700;color:#fff3df}.footer{margin-top:29px;display:flex;justify-content:space-between;align-items:flex-start;gap:24px;color:#6c7d71;font-size:17px;line-height:1.7}.footer b{color:#536a5f;font-weight:600}.source{font-family:Consolas,monospace;font-size:17px;color:#47665a}
+</style>
+</head>
+<body>
+<main>
+  <div class="eyebrow"><strong>开源项目研究 / LIBTV SKILLS</strong><span>2026.10.09 · 理解汇总</span></div>
+  <h1>LibTV Skills 的<span>本质与价值</span></h1>
+  <p class="intro">专用接入 Skill，把创作要求交给 LibTV 自家服务端 Agent。</p>
+  <div class="verdict"><span class="tag">我们的判断</span><strong>对我们自建创作系统：直接复用价值有限</strong></div>
+
+  <section class="section">
+    <div class="section-title"><span class="section-num">01</span><h2>短视频创作链条</h2><span class="section-note">内容与制作过程是核心</span></div>
+    <div class="flow">
+      <div class="step"><div class="top"><svg class="line-icon" viewBox="0 0 32 32"><path d="M7 4h13l5 5v19H7zM20 4v6h5M11 15h10M11 20h10M11 25h6"/></svg><span class="n">01</span></div><strong>故事与剧本</strong></div>
+      <span class="arrow">→</span>
+      <div class="step"><div class="top"><svg class="line-icon" viewBox="0 0 32 32"><circle cx="12" cy="10" r="5"/><path d="M3 28v-4c0-5 4-8 9-8s9 3 9 8v4M22 5h7v12h-5M23 22h6v6h-4"/></svg><span class="n">02</span></div><strong>人物与场景</strong></div>
+      <span class="arrow">→</span>
+      <div class="step"><div class="top"><svg class="line-icon" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="22" rx="2"/><path d="M16 5v22M3 16h26M6 13l4-4 3 4M19 24l4-5 3 5"/></svg><span class="n">03</span></div><strong>分镜与参考图</strong></div>
+      <span class="arrow">→</span>
+      <div class="step"><div class="top"><svg class="line-icon" viewBox="0 0 32 32"><rect x="3" y="8" width="18" height="17" rx="3"/><path d="M21 13l8-5v18l-8-5M9 4h6"/></svg><span class="n">04</span></div><strong>视频镜头</strong></div>
+      <span class="arrow">→</span>
+      <div class="step"><div class="top"><svg class="line-icon" viewBox="0 0 32 32"><rect x="3" y="5" width="26" height="22" rx="2"/><path d="M3 11h26M8 5l4 6M17 5l4 6M13 16l7 4-7 4z"/></svg><span class="n">05</span></div><strong>成片与修改</strong></div>
+    </div>
+    <p class="small-note">这是创作流程的概括，具体编排依赖服务端。</p>
+  </section>
+
+  <section class="section">
+    <div class="section-title"><span class="section-num">02</span><h2>实际技术依赖</h2><span class="section-note">生成画面依赖图片／视频模型</span></div>
+    <div class="dependencies">
+      <div class="flow">
+        <div class="dependency"><strong>外部 Agent</strong><small>接收用户要求</small></div><span class="arrow">→</span>
+        <div class="dependency client"><strong>LibTV Skill</strong><small>开源客户端</small></div><span class="arrow">→</span>
+        <div class="dependency cloud"><strong>LibTV 自家<br>服务端 Agent</strong><small>云端创作编排</small></div><span class="arrow">→</span>
+        <div class="dependency cloud"><strong>图片／视频<br>模型</strong><small>实际生成画面</small></div><span class="arrow">→</span>
+        <div class="dependency result"><strong>生成结果</strong><small>图片／视频素材</small></div>
+      </div>
+      <div class="dependency-legend"><span><b>Skill：</b>上传、传话、查询、取件</span><span><b>服务端 Agent：</b>编排创作任务</span><span><b>模型：</b>生成具体画面</span></div>
+    </div>
+  </section>
+
+  <div class="two-col">
+    <section class="card">
+      <div class="section-title"><span class="section-num">03</span><h2>这个库的本质</h2></div>
+      <div class="lead">面向创作调用的动作约束</div>
+      <p>专用创作服务接入 Skill，公开的是<br>技能说明、调用步骤与 Python 脚本。</p>
+      <p>它约束调用方式，创作编排由服务端执行。</p>
+      <div class="divider"></div>
+      <div class="lead">画布是呈现与操作方式</div>
+      <p>产品也可采用其他界面；界面形式<br>与后台创作能力需要分开理解。</p>
+      <div class="view-line"><span>画布</span><span>对话</span><span>表格</span><span>时间线</span></div>
+    </section>
+    <section class="card">
+      <div class="section-title"><span class="section-num">04</span><h2>公开代码能做什么</h2></div>
+      <div class="capabilities">
+        <div class="capability full"><span class="dot"></span>上传参考图片／视频</div>
+        <div class="capability full"><span class="dot"></span>创建会话与发送要求</div>
+        <div class="capability full"><span class="dot"></span>查询进度与增量消息</div>
+        <div class="capability full"><span class="dot"></span>下载图片／视频结果</div>
+        <div class="capability full"><span class="dot"></span>切换项目与返回画布链接</div>
+      </div>
+      <p class="small-note">实际创作效果取决于服务端与模型。</p>
+    </section>
+  </div>
+
+  <section class="value">
+    <h2>为什么对我们的价值有限</h2>
+    <p class="value-subtitle">评价范围：我们要自建、自由接模型、可扩展的创作系统。</p>
+    <div class="reason"><strong>服务耦合</strong><p>原生依赖 LibTV 的接口与服务端 Agent。<br><span>换服务器地址，仍需兼容接口与返回格式。</span></p></div>
+    <div class="reason"><strong>扩展有限</strong><p>自由换后端、换模型，需要额外适配与开发。<br><span>创作能力的扩展主要取决于 LibTV 后端。</span></p></div>
+    <div class="reason"><strong>核心未公开</strong><p>画布、创作编排与模型推理实现未包含在仓库中。<br><span>无法从这个库直接取得完整创作引擎。</span></p></div>
+    <div class="takeaway"><b>可借鉴</b><span>接入方式 · 任务查询 · 结果交付</span></div>
+    <div class="closing">能作为接入样例，直接复用价值有限。</div>
+  </section>
+
+  <footer class="footer"><div><b>依据：公开技能说明与脚本 · 固定提交 c609246</b><br><span class="source">github.com/libtv-labs/libtv-skills</span></div><div>独立研究总结 · 本地排版生成<br>非产品界面或生成效果实测</div></footer>
+</main>
+</body>
+</html>

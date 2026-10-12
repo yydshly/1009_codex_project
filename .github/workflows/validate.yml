@@ -66,5 +66,10 @@ jobs:
           npm run check
       - name: 检查 BeefTV 完整研究与能力展示
         run: npm run check --prefix projects/006-beeftv/web
+      - name: 构建与检查 LibTV Skills 完整研究页
+        working-directory: projects/019-libtv-skills/web
+        run: |
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
