@@ -72,6 +72,19 @@ DUP001 对同语言、同领域的字段定义比较，默认要求至少五个�
 
 本地网页构建与静态检查通过；浏览器验证覆盖 HTTP 200、27/5/22 规则筛选、解释展开、示例切换与方向键、原图放大/关闭/焦点返回，以及 1440、768、390、360 像素视口无横向溢出。原图哈希一致，无脚本、控制台或资源请求错误。实际截图和结果见 assets/site-local-desktop.png、assets/site-local-mobile.png、assets/browser-local-verification.json。统一站点构建通过；远端发布与公开访问结果另行记录。
 
+## 2026-10-12 已验证的远端发布
+
+功能提交为 [7c529b6](https://github.com/yydshly/1009_codex_project/commit/7c529b6c6b21bc2e10e89c10a49043ee00160f4b)，已推送 origin/main。
+
+- [GitHub Pages 发布运行](https://github.com/yydshly/1009_codex_project/actions/runs/38236191537)：构建、校验、上传与部署均成功。
+- [远端研究索引校验运行](https://github.com/yydshly/1009_codex_project/actions/runs/38236190367)：成功。
+- [公开研究页](https://yydshly.github.io/1009_codex_project/007-seiso/)：HTTP 200，规则筛选、解释展开、示例切换/键盘、原图放大与关闭/焦点返回均通过。
+- [公开总索引](https://yydshly.github.io/1009_codex_project/)：HTTP 200，包含 Seiso 编号入口。
+
+公开页面在 1440、768、390、360 像素宽度下无页面横向溢出，图片均成功加载，无脚本、控制台或资源请求错误。远端原图 SHA-256 与本地保留原图完全一致。公开截图和机器可读结果为 assets/site-public-desktop.png、assets/site-public-mobile.png、assets/browser-public-verification.json。
+
+部署验证只证明研究网页及其交互成功发布；上游 Seiso CLI 仍未独立实跑。
+
 ## 固定版本依据
 
 - [包版本](https://github.com/scarletkc/seiso/blob/7e5b3b1b96766e69dedd091dd15ee44db89cf042/Cargo.toml)

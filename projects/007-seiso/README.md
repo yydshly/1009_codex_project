@@ -66,3 +66,7 @@ npm run dev
 ```
 
 构建产物为被忽略的 web/dist，统一 Pages 编号路径为 /1009_codex_project/007-seiso/。根索引摘要按定位、能力、模块、原理、处理与集成、场景、个人价值、扩展、边界九个维度展开。
+
+## 发布与验证
+
+2026-10-12 已完成 [GitHub Pages 发布](https://github.com/yydshly/1009_codex_project/actions/runs/38236191537)和[远端校验](https://github.com/yydshly/1009_codex_project/actions/runs/38236190367)。公开页面与总索引返回 HTTP 200；规则筛选、示例/键盘、原图放大、资源加载及四种视口验证通过，原图 SHA-256 一致。详见 [发布证据](research.md#2026-10-12-已验证的远端发布)。

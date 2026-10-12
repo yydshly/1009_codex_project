@@ -10,3 +10,6 @@
 - browser-local-verification.json：本地页面的 HTTP、交互、四种视口、资源及原图哈希验证结果。
 
 网页截图证明研究页的展示与交互，不代表 Seiso CLI 已被实跑。
+
+- site-public-desktop.png / site-public-mobile.png：GitHub Pages 公开部署的实际桌面与手机截图。
+- browser-public-verification.json：公开部署的 HTTP、资源、交互、原图哈希和四种视口验证结果。
