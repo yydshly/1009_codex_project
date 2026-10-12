@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="完整研究 Awesome GPT-6 Astra 作品合集：175 项样例、六类玩法、五个仓内作品目录，介绍能力、模块、目录与作品原理、成熟度、价值、使用场景、复用流程及扩展方向。沿用中文引导图与真实轨道花园背景。">
+  <meta name="theme-color" content="#080f12">
+  <title>Astra 作品合集 · 完整研究与案例演示 | 005</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="stylesheet" href="./overview.css">
+  <script src="./overview.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#overview">跳到说明图</a>
+  <div class="garden-layer" aria-hidden="true">
+    <iframe id="garden-frame" title="轨道花园背景演示" tabindex="-1" aria-hidden="true" src="./garden-background.html" sandbox="allow-scripts allow-same-origin"></iframe>
+  </div>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="./" aria-label="005 一图理解首页"><img src="./favicon.svg" alt="" width="32" height="32"><span>项目研究<span class="brand-number">005 / ASTRA</span></span></a>
+      <nav aria-label="主要导航"><a href="./" aria-current="page">一图理解</a><a href="#research">完整研究</a><a href="./library.html">175 项样例</a><a href="./about.html#mechanism">交互原理</a></nav>
+      <a class="source-link" href="https://github.com/MartinDelophy/awesome-gpt-6-astra" target="_blank" rel="noopener noreferrer">上游仓库 ↗</a>
+    </div>
+  </header>
+  <main class="overview-shell" id="overview">
+    <div class="overview-toolbar">
+      <div><p class="overview-kicker">COLLECTION / EXPERIMENT / REUSE</p><h1>先看效果，再判断价值。</h1></div>
+      <div class="overview-actions"><a href="./assets/overview-infographic.png" target="_blank" rel="noopener" class="quiet-link">查看高清图 ↗</a><a href="./assets/overview-infographic.png" download="005-astra-作品合集说明图.png" class="quiet-link">下载说明图 ↓</a><button id="view-toggle" class="mode-button" type="button" aria-pressed="false" disabled>只看背景效果</button></div>
+    </div>
+    <section class="understanding-stage" aria-label="仓库说明与背景案例">
+      <figure class="overview-figure" id="overview-figure">
+        <a href="./assets/overview-infographic.png" target="_blank" rel="noopener" aria-label="打开高清仓库说明图，可放大查看"><img src="./assets/overview-infographic.png" width="1536" height="1024" alt="Astra 参与制作的游戏与互动作品合集。175 项入口，六类玩法。它提供作品目录和研究入口，成熟度不一、整体偏实验，质量需逐项验证。价值包括发现创意、追溯实现和筛选案例；适用于 AI 编程学习、游戏和艺术原型、展示教学；可扩展实测分层、技术与许可整理、组件和模板提炼。详细文字见本页图中文字。"></a>
+        <figcaption>研究说明图 · 粒子视觉参考：jackroc / 轨道花园。成熟度表述为研究判断，175 项未逐一实测。</figcaption>
+      </figure>
+      <aside class="garden-controls" aria-labelledby="garden-title">
+        <div class="demo-heading"><p class="overview-kicker">LIVE CASE / ORBITAL GARDEN</p><h2 id="garden-title">让背景解释一个案例。</h2><p class="demo-intro">48,000 颗粒子，实时由代码生成。换形、暂停，观察画面与规则的关系。</p></div>
+        <div class="form-controls" role="group" aria-label="背景粒子形态"><button type="button" data-garden-form="0" aria-pressed="true" disabled><span>01</span>星之花</button><button type="button" data-garden-form="1" aria-pressed="false" disabled><span>02</span>引力环</button><button type="button" data-garden-form="2" aria-pressed="false" disabled><span>03</span>旋涡星系</button></div>
+        <p id="form-explanation" class="form-explanation">数学曲面生成花瓣。同一批粒子可以重新排布成不同形态。</p>
+        <div class="playback-controls"><button id="garden-pause" type="button" aria-pressed="false" disabled>暂停背景</button><button id="garden-burst" type="button" disabled>释放一次引力</button></div>
+        <p id="garden-status" class="garden-status" role="status" aria-live="polite">正在加载本地 WebGL 案例…</p>
+        <p class="demo-boundary">这是原作的本地案例演示，保持静音。运行依赖 WebGL；Astra 参与开发，画面运行时不调用模型。艺术效果并非真实物理模拟。</p>
+        <div class="demo-links"><a href="./demos/orbital-garden/index.html" target="_blank" rel="noopener noreferrer">打开完整原作 ↗</a><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/works/orbital-garden/README.md" target="_blank" rel="noopener noreferrer">作者与源码依据 ↗</a></div>
+      </aside>
+      <p class="effect-hint" id="effect-hint" hidden>拖动旋转 · 双击散开再聚拢 · 用右侧按钮换形<br><span>这一项案例的效果，不能推论整个合集的质量。</span></p>
+    </section>
+    <noscript><p class="noscript-note">说明图可以直接阅读。背景交互需要 JavaScript；可通过“打开完整原作”单独体验。</p></noscript>
+    <article class="research-report" id="research" aria-labelledby="research-title">
+      <header class="report-intro">
+        <p class="overview-kicker">RESEARCH / FROM SHOWCASE TO UNDERSTANDING</p>
+        <h2 id="research-title">作品合集的价值，从一个入口开始。</h2>
+        <p class="report-lead">这个库收集了作者声明由 Astra 参与制作的游戏与互动作品，提供试玩、作者、截图和部分开发资料。它首先帮助你发现作品，再选择有依据的案例做研究。各作品的完整度和稳定性不同，复用需要逐项验证。</p>
+        <div class="report-metrics" aria-label="固定快照统计"><p><strong>175</strong><span>作品入口</span></p><p><strong>6</strong><span>玩法分类</span></p><p><strong>5</strong><span>仓内 works 目录</span></p><p><strong>25</strong><span>条目标注源码入口</span></p></div>
+        <p class="report-footnote">基于固定版本 <code>42ec714</code>。25 为开发资料中的源码链接统计，不等于 25 项已验证的开源项目；175 项未逐一运行。模型参与依据作者说明，并非独立模型评测。<a href="#evidence">查看证据与边界 ↓</a></p>
+        <nav class="report-nav" aria-label="研究章节"><a href="#capabilities">能力</a><a href="#modules">模块</a><a href="#principles">原理</a><a href="#maturity">成熟度</a><a href="#value">价值与场景</a><a href="#reuse">如何使用</a><a href="#roadmap">扩展方向</a><a href="#evidence">来源依据</a></nav>
+      </header>
+
+      <section class="report-section" id="capabilities" aria-labelledby="capabilities-title">
+        <div class="section-heading"><p class="overview-kicker">01 / CAPABILITIES</p><h2 id="capabilities-title">它能帮助你做什么？</h2><p>能力分为目录提供的导航、作品展示的效果，以及公开资料支持的研究。三者需要分别理解。</p></div>
+        <div class="report-grid">
+          <section class="report-card"><span class="card-number">01</span><h3>发现与试玩</h3><p>按玩法找到小游戏、模拟器、互动艺术与多人实验，查看截图、作者和平台，再进入作品网页。目录减少寻找创意与参考效果的时间。</p></section>
+          <section class="report-card"><span class="card-number">02</span><h3>观察实现范围</h3><p>案例涵盖 Canvas / WebGL 图形、交互和规则、程序化音效、界面与生成素材。它展示可能的实现方向，成品效果仍由具体代码、素材和迭代决定。</p></section>
+          <section class="report-card"><span class="card-number">03</span><h3>追溯开发过程</h3><p>部分作品给出 Prompt、模型参与说明、创作记录或源码，可以把需求、实现和成品放在一起分析。许多条目只有入口，不能完整复现开发过程。</p></section>
+          <section class="report-card"><span class="card-number">04</span><h3>选择复用起点</h3><p>对源码和许可明确的案例，可运行、拆解、改参数或提取小模块。仓内五个作品目录提供更直接的研究起点，每项仍有自己的结构与使用条件。</p></section>
+        </div>
+        <div class="category-strip" aria-label="六类作品数量"><span>动作与街机 <b>58</b></span><span>解谜与益智 <b>12</b></span><span>策略与模拟 <b>37</b></span><span>RPG 与冒险 <b>21</b></span><span>平台跳跃与竞速 <b>35</b></span><span>实验与多人 <b>12</b></span></div>
+        <p class="section-link"><a href="./library.html">查看全部 175 项，按分类、关键词与源码入口筛选 →</a></p>
+      </section>
+
+      <section class="report-section" id="modules" aria-labelledby="modules-title">
+        <div class="section-heading"><p class="overview-kicker">02 / MODULES</p><h2 id="modules-title">从清单到作品：有哪些层？</h2><p>上游有作品清单、展示网站、投稿规则和少量仓内作品。本站在固定资料上增加研究说明与本地案例演示。</p></div>
+        <div class="table-scroll"><table class="research-table"><caption>上游组织与本站交付的对应关系</caption><thead><tr><th scope="col">层 / 模块</th><th scope="col">提供什么</th><th scope="col">使用时的边界</th></tr></thead><tbody>
+          <tr><th scope="row">README 清单</th><td>分类、试玩地址、作者、截图、模型参与和开发资料；中文 / 英文入口。</td><td>主要是导航，条目详略不同，外部网站由作者维护。</td></tr>
+          <tr><th scope="row">上游目录网站</th><td>React 界面、Markdown 解析、归类与去重、搜索筛选、缓存及快照回退。</td><td>更新依赖读取与缓存策略，访问得到的内容可能晚于 README。</td></tr>
+          <tr><th scope="row">works/ 五个目录</th><td>apex-club、orbital-garden、sunjing-puzzles、three-kingdoms、thunderfall。</td><td>作品各自运行；并非覆盖全部 175 项的统一组件包。</td></tr>
+          <tr><th scope="row">投稿与来源规则</th><td>规范作者、平台、模型说明和开发资料，组织社区贡献。</td><td>收录不要求每项开源，也没有统一生产质量认证。</td></tr>
+          <tr><th scope="row">本站研究层</th><td>原引导图、完整说明、175 项固定目录、三项案例解读、轨道花园背景。</td><td>属于独立研究网页；固定版本、静态构建，不自动同步上游。</td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section class="report-section" id="principles" aria-labelledby="principles-title">
+        <div class="section-heading"><p class="overview-kicker">03 / PRINCIPLES</p><h2 id="principles-title">目录怎样工作，作品怎样产生？</h2><p>Astra 参与开发是创作阶段的信息；浏览器成品是否需要模型，要看各自运行架构。本页轨道花园运行时不调用模型。</p></div>
+        <div class="principle-block"><h3>目录原理：Markdown 是内容源</h3><ol class="flow-list"><li><strong>社区整理 README</strong><span>作者提交条目，链接到成品与资料。</span></li><li><strong>解析与结构化</strong><span>Node 服务用 unified / remark-parse / remark-gfm 读取列表。</span></li><li><strong>归类、去重、缓存</strong><span>生成稳定标识，整理分类，缓存结果与回退快照。</span></li><li><strong>React 展示与检索</strong><span>界面显示卡片，筛选作品，跳转作者入口。</span></li></ol><p>上游服务采用约 300 秒缓存，刷新按请求触发；前端定期检查更新。这是读取与缓存机制。本地研究页则在构建时解析固定 README，把数据打包进静态文件，浏览时不请求上游目录 API。</p></div>
+        <div class="principle-block"><h3>创作原理：需求、代码和迭代</h3><ol class="flow-list"><li><strong>确定需求与约束</strong><span>选择玩法、画面目标、技术栈与操作方式。</span></li><li><strong>Astra 辅助实现</strong><span>生成或修改代码，部分项目另行生成图像素材。</span></li><li><strong>运行、观察、修正</strong><span>开发者反馈问题，调整规则、性能、画面与交互。</span></li><li><strong>发布并收录</strong><span>成品部署到网页，社区将链接和说明整理进目录。</span></li></ol><p>条目存在单次生成测试，也存在多轮开发。所选深入案例记录了迭代过程；模型、人工反馈和其他工具的分工应按作者资料说明，不能把整个合集视为一次生成能力证明。</p></div>
+        <div class="report-grid case-grid">
+          <section class="report-card"><p class="case-label">本地可交互案例 / jackroc</p><h3>轨道花园</h3><p>原生 WebGL 绘制 48,000 颗粒子；参数曲面生成星之花、环与星系，用五次平滑插值实现连续换形。Web Audio 提供可选声音，Canvas 2D 支持海报导出。</p><p class="card-note">本页背景保留原渲染逻辑，连接三形态、暂停与扰动按钮；默认静音、尊重减少动态效果设置。粒子艺术不等于真实物理模拟。</p><a href="./demos/orbital-garden/index.html" target="_blank" rel="noopener">体验保留源码的完整原作 ↗</a></section>
+          <section class="report-card"><p class="case-label">资料解读案例</p><h3>雷霆战机</h3><p>Canvas 2D 绘制射击游戏，程序生成图形与 Web Audio 音效。适合观察输入、敌机、碰撞、得分和声音如何组合成完整循环。</p><p class="card-note">研究作者公开源码与记录；本站未把该作品作为本地已测试交付。</p><a href="./about.html#cases">查看技术与来源说明 →</a></section>
+          <section class="report-card"><p class="case-label">资料解读案例</p><h3>三分天下</h3><p>React / TypeScript 组织策略规则与界面，头像、地形等素材采用另行生成的工作流。适合研究状态管理、规则与视觉素材如何协作。</p><p class="card-note">代码开发与素材制作需要分别追溯，截图和作者说明不能代替运行验证。</p><a href="./about.html#cases">查看技术与来源说明 →</a></section>
+        </div>
+        <p class="section-link"><a href="./about.html#mechanism">用交互步骤进一步查看输入、处理、产出和证据 →</a></p>
+      </section>
+
+      <section class="report-section" id="maturity" aria-labelledby="maturity-title">
+        <div class="section-heading"><p class="overview-kicker">04 / MATURITY</p><h2 id="maturity-title">能看到效果，还要判断能用到哪里。</h2><p>我们的研究判断：成熟度不一，整体偏实验与原型。这里只给证据范围，不为未实测作品编造分数。</p></div>
+        <div class="report-grid"><section class="report-card"><h3>可观看 / 可试玩</h3><p>入口能够展示核心画面或玩法，适合找灵感。仍要检查链接、操作说明、设备兼容和功能是否完整。</p></section><section class="report-card"><h3>可研究 / 可复现</h3><p>需要源码、运行步骤、依赖和许可；最好同时有 Prompt、改动记录与已知限制。目录提供的资料尚不统一。</p></section><section class="report-card"><h3>可复用 / 可交付</h3><p>还需性能预算、测试、可维护结构、资产许可与部署保障。把这些补齐后，才能按具体业务要求评估。</p></section></div>
+        <div class="research-callout"><strong>证据停在哪里，结论就停在哪里。</strong><p>本站验证研究网页和本地轨道花园，解析并核对 175 项目录。其余作品是作者入口与资料展示，未逐一验收。清单 CC0 许可也不能替代第三方作品的许可。</p></div>
+      </section>
+
+      <section class="report-section" id="value" aria-labelledby="value-title">
+        <div class="section-heading"><p class="overview-kicker">05 / VALUE &amp; USE CASES</p><h2 id="value-title">值得用它来做哪些事？</h2><p>价值主要在降低发现与筛选成本，把效果、实现资料和开发过程连接起来。越接近正式交付，独立验证的工作越多。</p></div>
+        <div class="table-scroll"><table class="research-table"><caption>从使用目标到可获得的结果</caption><thead><tr><th scope="col">场景</th><th scope="col">怎样使用</th><th scope="col">价值 / 所需补充</th></tr></thead><tbody>
+          <tr><th scope="row">个人理解与 AI 编程学习</th><td>选一个资料明确的作品，对照需求、Prompt、代码与效果，再修改一个参数观察变化。</td><td>形成可验证的理解；需要自己的复现笔记，区分作者说明与实测。</td></tr>
+          <tr><th scope="row">小游戏与交互原型</th><td>借鉴玩法循环、反馈、输入和画面，在小范围验证创意。</td><td>缩短从想法到原型的距离；需补完整规则、设备体验和维护结构。</td></tr>
+          <tr><th scope="row">互动艺术与展示</th><td>研究粒子、程序化视觉、声音和鼠标反馈，用可运行案例辅助讲解。</td><td>让抽象技术有直观效果；需评估低性能设备、动态效果与素材许可。</td></tr>
+          <tr><th scope="row">教学、演示与选题</th><td>用引导图说明合集定位，以本页背景演示“换形、暂停、扰动”与代码规则的关系。</td><td>适合个人理解与课堂演示；单个案例不能代表全库或模型总体能力。</td></tr>
+          <tr><th scope="row">团队案例库与技术选型</th><td>筛选公开资料，建立技术栈、许可、测试环境、失败记录和版本档案。</td><td>沉淀可追溯的参考；需持续维护和可重复的验证流程。</td></tr>
+        </tbody></table></div>
+      </section>
+
+      <section class="report-section" id="reuse" aria-labelledby="reuse-title">
+        <div class="section-heading"><p class="overview-kicker">06 / HOW TO USE</p><h2 id="reuse-title">从入口走到自己的可用案例。</h2></div>
+        <ol class="reuse-list"><li><strong>先定问题</strong><p>你要理解的是视觉、交互、游戏规则，还是 AI 开发过程？围绕一个具体问题筛选目录。</p></li><li><strong>筛选证据</strong><p>查看平台、作者、模型说明、源码、运行步骤和许可。资料不足的作品可以保留为效果参考。</p></li><li><strong>运行并记录</strong><p>记录固定版本、浏览器和设备；观察核心操作、错误、帧率与重载行为。把可用与失败都写下来。</p></li><li><strong>做一个小改动</strong><p>从换参数、改形态或交互开始，确认效果与代码的因果关系，再决定是否提炼模块。</p></li><li><strong>形成独立交付</strong><p>补齐说明、依赖、测试和许可，保留来源与已知限制；之后按应用的要求再评估。</p></li></ol>
+        <div class="research-callout"><strong>现在可以做的理解实验</strong><p>切换“星之花 → 引力环 → 旋涡星系”，观察同一批粒子如何排列；暂停后看几何结构；恢复后释放一次引力，观察扰动与回归。切到“只看背景效果”可以旋转，按 Escape 返回说明。这个实验验证当前案例的交互，不涉及模型调用。</p><a href="#overview">回到引导图与背景控件 ↑</a></div>
+      </section>
+
+      <section class="report-section" id="roadmap" aria-labelledby="roadmap-title">
+        <div class="section-heading"><p class="overview-kicker">07 / EXTENSION IDEAS</p><h2 id="roadmap-title">把作品合集扩展成可追溯的研究库。</h2><p>以下是建议方向，尚未作为本站或上游的现成功能实现。优先补证据，再提炼复用资产。</p></div>
+        <div class="report-grid"><section class="report-card"><span class="roadmap-stage">近期 / 资料补齐</span><h3>入口与证据档案</h3><p>定期检查失效链接，记录版本、技术栈、许可、源码与 Prompt；明确“作者自述、资料核对、实际运行”的证据级别。</p></section><section class="report-card"><span class="roadmap-stage">近期 / 实测分层</span><h3>成熟度与兼容性记录</h3><p>统一最小运行步骤，检查核心循环、错误、手机、键盘和性能；按可观看、可复现、可复用分层，记录已知缺陷与测试时间。</p></section><section class="report-card"><span class="roadmap-stage">中期 / 可复用资产</span><h3>组件与模板提炼</h3><p>从已验证案例中提取粒子场景、输入、碰撞、声音、状态等模块，提供参数说明、最小示例、许可与边界。</p></section><section class="report-card"><span class="roadmap-stage">中期 / 对比研究</span><h3>开发过程与效果关联</h3><p>保存需求、Prompt、修改轮次和结果，以相同任务与测试环境比较具体方法，区分模型贡献、人工修正和素材工具。</p></section><section class="report-card"><span class="roadmap-stage">长期 / 持续维护</span><h3>目录同步与变更追踪</h3><p>比较上游快照变化，审查后更新；保留测试历史、来源回链与归档状态，避免只累计数量而失去可用性。</p></section><section class="report-card"><span class="roadmap-stage">长期 / 研究工作台</span><h3>参数实验与案例组合</h3><p>为通过验证的模块加入参数面板、对比视图和导出；在游戏、教学、展示等明确场景里组合应用并再次测试。</p></section></div>
+      </section>
+
+      <section class="report-section evidence-section" id="evidence" aria-labelledby="evidence-title">
+        <div class="section-heading"><p class="overview-kicker">08 / EVIDENCE &amp; LIMITS</p><h2 id="evidence-title">这份理解来自哪里？</h2></div>
+        <dl class="evidence-list"><div><dt>研究基线</dt><dd>上游 commit <code>42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae</code>，资料快照日期 2026-10-09，完整研究整理日期 2026-10-12。数量与分类来自固定 README，不表示上游当前实时数量。</dd></div><div><dt>定位与实现依据</dt><dd>README、CONTRIBUTING、目录网站解析代码与作品 README / 源码。该仓库是社区项目，未与 OpenAI 建立官方关系；模型参与保留作者说明，不能充当独立性能基准。</dd></div><div><dt>本站验证范围</dt><dd>175 项解析、分类与页面交互；本地轨道花园的背景控制、三形态、暂停和纯效果模式。未全面评测全部游戏，未复现上游动态目录服务。</dd></div><div><dt>图片与源码</dt><dd>引导图沿用此前生成的研究信息图，粒子画面参考作者截图，图本身不是运行截图。轨道花园保留作者 jackroc、原始源码与 CC0 LICENSE；第三方作品逐项遵循自己的许可。</dd></div></dl>
+        <div class="reading-sources"><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/README.zh-CN.md" target="_blank" rel="noopener noreferrer">固定版本完整目录 ↗</a><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/website" target="_blank" rel="noopener noreferrer">上游目录网站源码 ↗</a><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a><a href="./demos/orbital-garden/SOURCE.md">本地原作来源记录</a><a href="./licenses/awesome-gpt-6-astra-CC0.txt">清单 CC0 许可</a></div>
+      </section>
+    </article>
+    <details class="reading-panel" id="reading">
+      <summary>图中文字与研究依据 <span>手机阅读 / 无障碍文本</span></summary>
+      <div class="reading-content">
+        <p class="reading-lead">Awesome GPT-6 Astra 是 Astra 参与制作的游戏与互动作品合集。固定研究版本收录 175 项作品入口、六类玩法。作者自述的模型参与不是性能评测。</p>
+        <div class="reading-grid">
+          <section><h2>本质与原理</h2><p>主要提供试玩链接、作者、截图与模型参与说明；部分公开源码、Prompt 和创作记录。需求与创意 → Astra 辅助实现 → 浏览器作品 → 社区收集与导航。上游目录网站解析 README，再归类、缓存和检索。</p></section>
+          <section><h2>成熟度边界</h2><p>成熟度不一，整体偏实验。能试玩不代表稳定可复用；收录不要求开源，功能、兼容性和完整度需逐项验证。此处没有对 175 项进行完整质量评测。</p></section>
+          <section><h2>价值</h2><p>发现创意与交互效果；追溯需求、实现和成品；筛选值得深入的案例。它减少查找成本，后续需要实际验证。</p></section>
+          <section><h2>使用场景</h2><p>学习 AI 辅助编程；小游戏与互动艺术原型；个人作品展示与教学。具体项目的复用仍需检查源码、依赖与许可。</p></section>
+          <section><h2>可扩展方向</h2><p>补充实测记录并做成熟度分层；整理技术栈、源码、Prompt 与许可；从验证过的案例提炼组件和模板。上述是研究建议，当前目录未提供统一质量评分。</p></section>
+          <section><h2>背景演示说明</h2><p>轨道花园由 jackroc 创作，本地保留固定版本原始源码与 CC0 许可。背景适配只隐藏原作界面并连接控件，图中的粒子背景由 imagegen 参考原截图生成，说明图本身不是游戏运行截图。</p></section>
+        </div>
+        <div class="reading-sources"><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/README.zh-CN.md" target="_blank" rel="noopener noreferrer">固定版本目录 ↗</a><a href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">收录规则 ↗</a><a href="./licenses/awesome-gpt-6-astra-CC0.txt">上游 CC0 许可</a><a href="./library.html">继续浏览 175 项入口 →</a></div>
+      </div>
+    </details>
+  </main>
+  <footer class="overview-shell overview-footer"><p>005 / 社区作品收集与研究入口 · 版本 42ec714</p><a href="../">返回项目总索引 ↗</a></footer>
+</body>
+</html>

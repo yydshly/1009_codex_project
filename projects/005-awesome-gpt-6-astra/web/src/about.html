@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="005 号项目研究：用真实作品、交互数据流和场景选择，理解 Awesome GPT-6 Astra 的能力、原理与价值。">
+  <meta name="theme-color" content="#141b20">
+  <title>Awesome GPT-6 Astra · 能力、原理与价值 | 005</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">跳到内容</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="#main" aria-label="005 项目研究首页"><img src="./favicon.svg" alt="" width="36" height="36"><span>项目研究<span class="brand-number">005 / ASTRA</span></span></a>
+      <nav aria-label="主要导航"><a href="./">一图理解</a><a href="./library.html">全部样例</a><a href="#capabilities">能力地图</a><a href="#mechanism">工作原理</a><a href="#value">研究价值</a><a href="#evidence">来源与边界</a></nav>
+      <a class="source-link" href="https://github.com/MartinDelophy/awesome-gpt-6-astra" target="_blank" rel="noopener noreferrer">GitHub 仓库 <span aria-hidden="true">↗</span></a>
+    </div>
+  </header>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="line"></span> AWESOME GPT-6 ASTRA</p>
+        <h1 id="hero-title">从 AI 写代码，<br>到<span class="accent">可以玩的作品。</span></h1>
+        <p class="hero-description">一个社区维护的浏览器游戏与互动作品案例库。体验成品，追溯开发方法，找到下一次创作的起点。</p>
+        <div class="hero-actions"><a class="button primary" href="#capabilities">探索它的能力</a><a class="button secondary" href="#cases">看具体作品</a></div>
+        <div class="hero-stats">
+          <div><strong>175<span> 个</span></strong><p>上游目录收录</p></div>
+          <div><strong>6<span> 类</span></strong><p>游戏目录分类</p></div>
+          <div><strong>5<span> 项</span></strong><p>仓库内置作品目录</p></div>
+        </div>
+        <p class="snapshot-note">目录维护日期 2026.10.08 · 本页研究快照 2026.10.09</p>
+      </div>
+      <figure class="hero-art">
+        <div class="figure-header"><span>CASE STUDY / 01</span><span>原生 WebGL · 生成艺术</span></div>
+        <a href="https://orbital-garden-one.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="在新标签页体验轨道花园"><img src="./assets/orbital-garden.jpg" alt="轨道花园上游实机截图：深色背景中的发光粒子雕塑与形态、时间流速控制台" width="1440" height="900" fetchpriority="high"></a>
+        <figcaption><div><span class="small-label">ORBITAL GARDEN</span><strong>48,000 颗粒子，一个浏览器。</strong></div><span class="figure-index">01</span></figcaption>
+        <p class="image-credit">上游作者提供的运行截图 · 创作者 jackroc · 非本次独立试玩记录</p>
+      </figure>
+    </section>
+
+    <div class="position-strip"><div class="shell"><span class="strip-label">先理解它的定位</span><p><strong>案例库 + 展示网站 + 部分可复用源码。</strong>模型名称说明作者的开发工具；浏览器成品按各自的代码与规则运行。</p></div></div>
+
+    <section id="capabilities" class="section shell" aria-labelledby="capability-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / CAPABILITY MAP</p><h2 id="capability-title">你可以从这个库里获得什么？</h2></div><p>从发现一个作品，走到理解它怎么做。<br>每一层都有不同的入口与证据。</p></div>
+      <div class="capability-tabs" role="tablist" aria-label="选择仓库能力">
+        <button id="cap-tab-catalog" role="tab" aria-selected="true" aria-controls="capability-panel" data-capability="catalog"><span>01</span>发现与体验</button>
+        <button id="cap-tab-process" role="tab" aria-selected="false" aria-controls="capability-panel" tabindex="-1" data-capability="process"><span>02</span>研究开发过程</button>
+        <button id="cap-tab-remix" role="tab" aria-selected="false" aria-controls="capability-panel" tabindex="-1" data-capability="remix"><span>03</span>运行与改造</button>
+        <button id="cap-tab-gallery" role="tab" aria-selected="false" aria-controls="capability-panel" tabindex="-1" data-capability="gallery"><span>04</span>搭建展示目录</button>
+      </div>
+      <div id="capability-panel" class="capability-panel" role="tabpanel" aria-labelledby="cap-tab-catalog" tabindex="0">
+        <div class="capability-copy"><span id="cap-tag" class="pill">体验入口</span><h3 id="cap-title">先玩到成品，再判断想研究什么。</h3><p id="cap-description">目录按动作、解谜、策略、冒险、竞速和实验玩法整理作品。条目记录作者、平台、玩法说明与在线入口，让抽象的 AI 编程成果变成可体验的案例。</p><ul id="cap-points"><li>作品标题直达浏览器体验</li><li>作者署名与模型参与说明</li><li>实机预览和访问条件</li></ul><a id="cap-source" class="text-link" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/README.zh-CN.md" target="_blank" rel="noopener noreferrer">查看这一能力的来源 <span aria-hidden="true">↗</span></a></div>
+        <div class="capability-spec"><p class="small-label">WHERE TO LOOK / 入口位置</p><div id="cap-location" class="location">README<br><span>作品分类 → 条目 → 在线体验</span></div><div class="spec-divider"></div><span class="small-label">阅读时注意</span><p id="cap-boundary">目录收录是一份社区推荐。作品是否兼容你的设备，需要在相应作品中确认。</p><span class="spec-watermark" id="cap-number" aria-hidden="true">01</span></div>
+      </div>
+    </section>
+
+    <section id="cases" class="section cases-section" aria-labelledby="cases-title"><div class="shell">
+      <div class="section-heading"><div><p class="eyebrow">02 / WORKS IN PRACTICE</p><h2 id="cases-title">三个作品，三种实现路径。</h2></div><p>截图来自上游仓库，技术说明来自作品文档。<br>“使用 AI”也可以有不同的分工。</p></div>
+      <div class="case-grid">
+        <article class="case-card"><a class="case-image" href="https://orbital-garden-one.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="体验轨道花园"><img src="./assets/orbital-garden.jpg" alt="轨道花园的粒子雕塑与交互控制台，上游实机截图" width="1440" height="900" loading="lazy"></a><div class="case-body"><p class="case-meta">01 / 创意编程 <span>jackroc</span></p><h3>轨道花园</h3><p>用数学构造与 WebGL 绘制粒子，连续切换花、引力环和星系，并导出海报。</p><div class="tags"><span>原生 WebGL</span><span>单文件 HTML</span></div><p class="case-insight"><span>值得研究</span>把数学、视觉、声音与交互做成完整作品。</p><div class="case-links"><a href="https://orbital-garden-one.vercel.app" target="_blank" rel="noopener noreferrer">在线体验 ↗</a><a data-source="works/orbital-garden/README.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/works/orbital-garden" target="_blank" rel="noopener noreferrer">源码与记录</a></div></div></article>
+        <article class="case-card"><a class="case-image" href="https://thunderfall.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="体验雷霆战机"><img src="./assets/thunderfall.jpg" alt="雷霆战机的纵向弹幕战场，上游实际游戏截图" width="1440" height="900" loading="lazy"></a><div class="case-body"><p class="case-meta">02 / 动作游戏 <span>jackroc</span></p><h3>雷霆战机 · 天穹远征</h3><p>三种战机、五关战役与四色武器，画面由程序绘制，声音在浏览器中实时合成。</p><div class="tags"><span>Canvas 2D</span><span>Web Audio</span></div><p class="case-insight"><span>值得研究</span>游戏规则、完整流程与多轮调试如何配合。</p><div class="case-links"><a href="https://thunderfall.vercel.app" target="_blank" rel="noopener noreferrer">在线体验 ↗</a><a data-source="works/thunderfall/README.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/works/thunderfall" target="_blank" rel="noopener noreferrer">源码与记录</a></div></div></article>
+        <article class="case-card"><a class="case-image" href="https://sanguo-jiangshan.vercel.app" target="_blank" rel="noopener noreferrer" aria-label="体验三分天下"><img src="./assets/three-kingdoms.jpg" alt="三分天下 v0.2.0 的十五座城池战略地图，上游于 2026 年 9 月 8 日拍摄的浏览器截图" width="1440" height="900" loading="lazy"></a><div class="case-body"><p class="case-meta">03 / 策略模拟 <span>MartinDelophy</span></p><h3>三分天下 · 百将风云</h3><p>在十五座城池间经营、调兵与征战。代码开发与生成地形、人物头像分别完成。</p><div class="tags"><span>React / TypeScript</span><span>生成美术</span></div><p class="case-insight"><span>值得研究</span>规则引擎、素材生成与界面的明确分工。</p><div class="case-links"><a href="https://sanguo-jiangshan.vercel.app" target="_blank" rel="noopener noreferrer">在线体验 ↗</a><a data-source="works/three-kingdoms/README.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/works/three-kingdoms" target="_blank" rel="noopener noreferrer">源码与记录</a></div></div></article>
+      </div><p class="section-footnote">模型参与范围依据作者说明；这三项成品的文档均描述迭代开发，不能作为“一条提示词完成”的证明。</p>
+    </div></section>
+
+    <section id="mechanism" class="section shell" aria-labelledby="mechanism-title">
+      <div class="section-heading"><div><p class="eyebrow">03 / HOW IT WORKS</p><h2 id="mechanism-title">把“目录”和“作品”分开看。</h2></div><p>一个负责组织已有成果，<br>一个负责将创意变成程序。</p></div>
+      <div class="flow-tabs" role="tablist" aria-label="选择原理层次"><button id="flow-tab-catalog" data-flow="catalog" role="tab" aria-selected="true" aria-controls="flow-panel">目录如何更新</button><button id="flow-tab-creation" data-flow="creation" role="tab" aria-selected="false" aria-controls="flow-panel" tabindex="-1">作品如何诞生</button></div>
+      <div id="flow-panel" class="flow-panel" role="tabpanel" aria-labelledby="flow-tab-catalog">
+        <div class="flow-intro"><span id="flow-label" class="pill">网站的数据流</span><p id="flow-caption">点击任意步骤，查看输入、处理与产出。这里是原理示意，不会实际请求上游目录。</p></div>
+        <ol id="flow-steps" class="flow-steps"><li><button data-step="0" aria-pressed="true"><span>01</span><strong>维护 README</strong><small>作品条目</small></button></li><li><button data-step="1" aria-pressed="false"><span>02</span><strong>解析与归类</strong><small>结构化目录</small></button></li><li><button data-step="2" aria-pressed="false"><span>03</span><strong>缓存与兜底</strong><small>稳定的数据</small></button></li><li><button data-step="3" aria-pressed="false"><span>04</span><strong>展示与检索</strong><small>可浏览的作品</small></button></li></ol>
+        <div class="step-detail" aria-live="polite"><div class="step-symbol" id="step-symbol" aria-hidden="true">01</div><div><p id="step-kicker" class="small-label">输入 / 作者提交与维护记录</p><h3 id="step-title">README 是目录的数据源。</h3><p id="step-description">维护者按分类记录作品名称、直达链接、作者、平台和预览图片。收录要求可进入浏览器作品，并提供作者的模型参与说明；源码与开发日志是可选资料。</p></div><a id="step-source" class="text-link" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">依据 ↗</a></div>
+        <div class="flow-note"><span>关键区别</span><p id="flow-note">目录网站抓取公开 README 并解析展示；它的自动更新由访问请求驱动，不是实时推送，也不是后台持续抓取。</p></div>
+      </div>
+    </section>
+
+    <section id="value" class="section value-section" aria-labelledby="value-title"><div class="shell value-layout">
+      <div><p class="eyebrow">04 / WHY IT MATTERS</p><h2 id="value-title">价值在于<br><span class="accent">缩短理解与试做的距离。</span></h2><p class="value-lead">成品让你判断方向，记录让你追溯过程，源码让你进入实验。先明确自己的目标，再决定研究哪一层。</p><label for="scenario" class="scenario-label">你现在想做什么？</label><select id="scenario"><option value="learn">学习 AI 辅助开发</option><option value="prototype">做一个小游戏原型</option><option value="art">制作网页互动作品</option><option value="archive">维护自己的项目案例库</option></select></div>
+      <article class="scenario-card" aria-live="polite"><p class="small-label">RECOMMENDED RESEARCH PATH</p><h3 id="scenario-title">从一个完整案例开始。</h3><p id="scenario-description">将需求、实现和成品对照起来，观察 AI 参与了哪些工作，以及人工反馈如何改变结果。</p><ol id="scenario-steps"><li>体验一项作品，记录具体交互。</li><li>阅读创作记录与 Prompt，区分原始输入和整理后的规格。</li><li>打开源码，定位一个机制，做一次小改动。</li></ol><div class="scenario-conclusion"><span>能带走的价值</span><p id="scenario-result">一条可解释、可验证的开发路径，而不是只收藏一个链接。</p></div><a id="scenario-source" class="text-link" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/works/orbital-garden/PROMPT.md" target="_blank" rel="noopener noreferrer">阅读相关资料 ↗</a></article>
+    </div></section>
+
+    <section id="evidence" class="section shell" aria-labelledby="evidence-title"><div class="section-heading"><div><p class="eyebrow">05 / EVIDENCE & BOUNDARIES</p><h2 id="evidence-title">好案例，需要准确地理解。</h2></div><p>把作者声明、源码事实和研究判断分清，<br>才知道哪些结论可以带走。</p></div>
+      <div class="boundary-grid"><article><span class="boundary-number">01</span><h3>展示案例，不提供排名</h3><p>这是社区清单，与 OpenAI 无隶属关系。作者自述的模型参与情况，不能直接当作性能基准。</p></article><article><span class="boundary-number">02</span><h3>有成品，不等于有完整过程</h3><p>收录不要求开源。部分 Prompt 是按最终成品整理的复用规格，相同输入也不保证复现相同结果。</p></article><article><span class="boundary-number">03</span><h3>能参考，复用要看具体许可</h3><p>清单原创内容采用 CC0 1.0；第三方作品、代码和素材继续适用各自许可。需逐项确认可用范围。</p></article></div>
+      <div class="source-panel"><div><span class="small-label">研究基线</span><p>2026.10.09 / commit <code>42ec714</code><br><span>本页为独立制作的中文研究展示，不会自动同步上游收录数量。</span></p></div><div class="source-list"><a data-source="README.zh-CN.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/README.zh-CN.md" target="_blank" rel="noopener noreferrer">目录与项目定位 ↗</a><a data-source="website/server/catalog.js" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/website/server/catalog.js" target="_blank" rel="noopener noreferrer">目录解析源码 ↗</a><a data-source="website/README.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/website/README.md" target="_blank" rel="noopener noreferrer">展示网站架构 ↗</a><a data-source="CONTRIBUTING.md" href="https://github.com/MartinDelophy/awesome-gpt-6-astra/blob/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae/CONTRIBUTING.md" target="_blank" rel="noopener noreferrer">收录规则与许可 ↗</a></div></div>
+    </section>
+  </main>
+  <footer class="shell site-footer"><div><strong>005 / AWESOME GPT-6 ASTRA</strong><p>GitHub 项目研究索引 · 中文能力与价值展示</p></div><a href="../">返回项目总索引 ↗</a><a href="./licenses/awesome-gpt-6-astra-CC0.txt">截图许可 CC0 1.0</a></footer>
+  <noscript><p class="noscript-note">页面主要内容可以直接阅读。启用 JavaScript 后，可切换能力、原理步骤与研究场景。</p></noscript>
+</body>
+</html>

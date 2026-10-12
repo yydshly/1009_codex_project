@@ -245,6 +245,64 @@
       "pagesDir": "web/dist"
     },
     {
+      "id": "005",
+      "slug": "awesome-gpt-6-astra",
+      "title": "Awesome GPT-6 Astra：作品合集、原理与复用研究",
+      "summary": "Astra 参与制作的社区游戏与互动作品合集。固定版本包含 175 项入口、六类玩法、五个仓内作品目录，25 项条目标注源码入口；研究覆盖发现试玩、创作过程与源码复用、README 驱动的目录解析与缓存、WebGL / Canvas / React 案例原理、成熟度与许可边界、学习与原型等场景，以及实测分层、资料检索、组件模板和版本追踪等扩展方向。网页沿用中文引导图，提供完整样例库、交互原理和真实轨道花园背景演示；未逐一验收全部作品。",
+      "source": "https://github.com/MartinDelophy/awesome-gpt-6-astra",
+      "sourceRef": "42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae",
+      "status": "done",
+      "tags": [
+        "AI编程",
+        "浏览器游戏",
+        "案例库",
+        "创意编程"
+      ],
+      "addedAt": "2026-10-09",
+      "preview": "assets/overview-infographic.png",
+      "previewCaption": "AI 生成的中文研究说明图：社区作品收集、成熟度边界、价值、使用场景与扩展方向；粒子视觉参考轨道花园。",
+      "demoUrl": "https://yydshly.github.io/1009_codex_project/005-awesome-gpt-6-astra/",
+      "pagesDir": "web/dist",
+      "summarySections": [
+        {
+          "label": "定位",
+          "text": "社区收集 Astra 参与制作的游戏与互动作品，提供导航与研究入口；非官方性能基准，模型参与按作者资料说明。"
+        },
+        {
+          "label": "能力",
+          "text": "发现试玩、观察视觉与玩法、追溯部分 Prompt 和开发过程、选择公开源码做小范围复现与改造。"
+        },
+        {
+          "label": "模块",
+          "text": "固定快照 175 项、六类玩法、五个 works 目录、25 项标注源码入口；另有 README、React 目录站、投稿规则与开发资料。"
+        },
+        {
+          "label": "原理",
+          "text": "上游 Node 服务解析 Markdown、归类去重、稳定标识、300 秒请求驱动缓存与快照回退；作品经需求、模型辅助、运行反馈和迭代形成。本站构建固定数据，不实时同步。"
+        },
+        {
+          "label": "案例",
+          "text": "轨道花园用 WebGL 绘制 48,000 颗粒子；雷霆战机用 Canvas / Web Audio；三分天下用 React / TypeScript 规则界面与另行生成素材。"
+        },
+        {
+          "label": "价值与场景",
+          "text": "减少寻找创意与资料的成本；用于 AI 编程学习、小游戏与交互原型、互动艺术、个人理解与教学演示、团队案例库。"
+        },
+        {
+          "label": "成熟度与限制",
+          "text": "成熟度不一、整体偏实验；能试玩不等于可稳定复用，25 项源码入口不等于统一开源许可；未逐一实测 175 项，第三方作品各自许可。"
+        },
+        {
+          "label": "扩展方向",
+          "text": "建议补入口可用性与证据档案、统一实测与兼容性记录、成熟度分层、技术栈与许可检索、验证过的组件模板、版本追踪和参数实验。"
+        },
+        {
+          "label": "网页交付",
+          "text": "既有中文引导图、完整研究章节、175 项筛选与详情、交互原理；本地轨道花园三形态、暂停、扰动和纯背景效果，运行不调用模型。"
+        }
+      ]
+    },
+    {
       "id": "016",
       "slug": "agenvo",
       "title": "Agenvo：远程 Agent 连接与调度研究",

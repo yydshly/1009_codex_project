@@ -1,0 +1,8 @@
+/* Presentation adapter only. The original Orbital Garden source is preserved in vendor/. */
+html,body{margin:0;width:100%;height:100%;overflow:hidden;background:#080f12}
+.exhibition{height:100dvh!important;min-height:100dvh!important;max-height:none!important}
+.stage{position:static!important;min-height:0!important}
+.artwork{position:fixed!important;inset:0!important}
+.artwork canvas{width:100%!important;height:100%!important}
+.topbar,.intro,.specimen,.coordinates,.controls,.footer,.art-caption,.orbit-guide,.view-tools,.toast{display:none!important}
+.fallback{inset:40% 12% auto!important;font-size:14px;text-align:center}
