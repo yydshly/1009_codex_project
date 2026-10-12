@@ -30,5 +30,8 @@
 | understanding-summary-desktop.png | 六项理解、四步流程与展开的独立提示词的实际网页截图。 |
 | creative-prompt-mobile.png | 手机端展开的独立提示词、复制与下载入口实际截图。 |
 | overview-verification.json | 总览图交互、下载、剪贴板及回退、两播放器回归、桌面与手机布局验证。 |
+| public-first-screen-desktop.png、public-first-screen-mobile.png | GitHub Pages 公开网页在 1440×1080 与 390×844 视口的真实首屏截图。 |
+| public-modules-desktop.png、public-modules-mobile.png | 公开网页七大模块区的实际桌面／手机截图。 |
+| public-deployment-verification.json | 公开网页、引导图与原创 WAV 字节校验，原曲／原创声音、定位和风格交互、响应式布局及总索引入口验证；含部署提交和运行链接。 |
 
 上游代码许可保留在 web/vendor/functional-emotions/LICENSE。没有复制上游歌曲或完整歌词。构建复制 frames/、demo/ 和 overview/ 资源；页面截图与验证数据属于研究记录。原创 MP4 保存于被忽略的本地导出目录，检测到文件时复制进入被忽略的 dist/；不作为源文件提交。

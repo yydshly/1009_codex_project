@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/",
+  "deployedCommit": "9160082ba157da1179bbb424017b1fcfce42f175",
+  "pagesRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38248870379",
+  "browser": "154.0.8037.99",
+  "resources": [
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/",
+      "status": 200,
+      "bytes": 34490
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/assets/overview/research-overview.png",
+      "status": 200,
+      "bytes": 2227814,
+      "sha256": "921b5563b97a3fdf1235752cda771cb083f8b67a5f5e0648eed539e8578f9f07"
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/previews/009-functional-emotions-video.png",
+      "status": 200,
+      "bytes": 2227814,
+      "sha256": "921b5563b97a3fdf1235752cda771cb083f8b67a5f5e0648eed539e8578f9f07"
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/assets/demo/seed-journey.wav",
+      "status": 200,
+      "bytes": 2822444,
+      "sha256": "aeacd7d1b87fbd3db5ee62e614465d25996efdcf02be4b86a3c8f08f669a4ed0"
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/assets/overview/mv-creative-prompt.txt",
+      "status": 200,
+      "bytes": 918
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/vendor/functional-emotions/LICENSE",
+      "status": 200,
+      "bytes": 1073
+    }
+  ],
+  "results": [
+    {
+      "viewport": "1440x1080",
+      "overflow": false,
+      "guideFirst": true,
+      "modules": 7,
+      "productStages": 3,
+      "modal": "passed",
+      "prompt": "expanded",
+      "original": {
+        "duration": 372.72,
+        "paused": false,
+        "muted": false,
+        "currentTime": 0.515349,
+        "frameTime": 0.503647,
+        "playPause": "passed"
+      },
+      "journey": {
+        "duration": 32,
+        "muted": false,
+        "seek": 24,
+        "styleAndPalette": "passed",
+        "optionalMp4": "hidden as expected on CI"
+      }
+    },
+    {
+      "viewport": "390x844",
+      "overflow": false,
+      "journey": "unmuted playback and pause passed",
+      "modules": "responsive single column"
+    }
+  ],
+  "hubCard": "generated guide image and working demo link",
+  "errors": [],
+  "failures": []
+}

@@ -14,7 +14,7 @@
 | 本地实现 | 原生 HTML / CSS / JavaScript；上游 WebGL2 渲染器与八个章节 |
 | 本机环境 | Windows、Node.js 22.15.0、Chrome、Intel UHD Graphics / ANGLE Direct3D11 |
 | 发布目录 | web/dist/；使用 Node.js 标准库构建，无需安装网页依赖 |
-| Pages 路径 | [公开研究网页](https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/)；部署状态见验证记录 |
+| Pages 路径 | [公开研究网页](https://yydshly.github.io/1009_codex_project/009-functional-emotions-video/)；2026-10-12 已部署并验证 |
 
 ## 引导图
 
