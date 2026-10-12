@@ -10,6 +10,7 @@
 | 研究版本 | [42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae](https://github.com/MartinDelophy/awesome-gpt-6-astra/tree/42ec7142a3da1dcce1846de8a3fc0b4891b4c8ae) |
 | 上游许可证 | 清单原创内容 CC0 1.0；第三方作品各自许可；[保留上游许可](licenses/awesome-gpt-6-astra-CC0.txt) |
 | 收录 / 完整整理日期 | 2026-10-09 / 2026-10-12 |
+| 当前状态 | 完整研究交付、GitHub Pages 部署与公开路径检查通过 |
 | 研究交付范围 | 一图引导、完整研究、175 项目录、交互原理、本地轨道花园背景；未逐项验收全部游戏 |
 | 正式编号路径 | /1009_codex_project/005-awesome-gpt-6-astra/ |
 
