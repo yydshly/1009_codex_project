@@ -4,7 +4,7 @@
 
 | 文件 | 内容 |
 | --- | --- |
-| preview.png | 离心泵装配状态的实际浏览器截图，用于根索引 |
+| preview.png | 离心泵装配状态的实际浏览器截图，曾用于首版根索引；当前索引采用 understanding-map.png |
 | overview.png | 桌面研究页首屏 |
 | scene.png | 装配状态与控件 |
 | exploded.png | 部件展开 |
@@ -24,6 +24,9 @@
 | publish-verification.json | 2026-10-12 完整摘要、模块、价值与扩展、原图保留及本地 / 线上交互验证 |
 | publish-desktop.png | 完整整理版网页的实际桌面首屏 |
 | publish-mobile.png | 完整整理版网页的实际手机首屏 |
+| published-verification.json | GitHub Pages 公开网址的 33 项浏览器验证及原图哈希复核 |
+| published-desktop.png | 线上网页的实际桌面界面 |
+| published-mobile.png | 线上网页的实际手机界面 |
 
 泵体是代码生成的简化教学结构，不代表上游作品、厂商品牌、实物尺寸或工业流场。截图只证明本地页面的可见状态。
 

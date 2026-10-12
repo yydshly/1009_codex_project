@@ -51,7 +51,7 @@ pages.yml 与 validate.yml 均在根校验前执行此项目的 npm ci、npm run
     npm run check
     npm run pages:build
 
-发布目标为 https://yydshly.github.io/1009_codex_project/002-dioramas/。本轮发布状态、提交与线上验证见 ../deployment.md。
+已部署并验证：https://yydshly.github.io/1009_codex_project/002-dioramas/。本轮提交、Actions 运行与线上验证见 ../deployment.md。
 
 ## 边界与验证
 

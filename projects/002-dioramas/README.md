@@ -4,6 +4,8 @@
 
 [返回总索引](../../README.md) · [完整研究记录](research.md) · [Web 运行说明](web/README.md) · [部署与验证记录](deployment.md)
 
+[在线完整研究网页](https://yydshly.github.io/1009_codex_project/002-dioramas/)：2026-10-12 已部署，并完成公开网址的浏览器交互验证。
+
 | 项目 | 信息 |
 | --- | --- |
 | 原仓库 | https://github.com/blendi-remade/dioramas |
@@ -14,7 +16,7 @@
 | 本地环境 | Windows / PowerShell，Node.js 22.15.0，npm 10.9.2 |
 | 本地实现 | 原生 JavaScript、Three.js 0.186.1、Vite 8.3.4 |
 | 验证范围 | 上游文档与源码研究；本地独立实验运行验证 |
-| 发布配置 | 构建到 web/dist，汇总到 /002-dioramas/；实际发布结果见 deployment.md |
+| 发布配置 | GitHub Pages 已部署，编号子路径 /002-dioramas/；实际提交与验证见 deployment.md |
 
 ## 我们形成的理解
 

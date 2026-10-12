@@ -77,7 +77,7 @@
       "addedAt": "2026-10-09",
       "preview": "assets/understanding-map.png",
       "previewCaption": "本次对话生成的完整中文理解总览图，原 SVG 与 PNG 保持不变：外部模型、素材调度、设计、共享引擎、场景代码、网页与验证迭代；非上游官方架构图。",
-      "demoUrl": "",
+      "demoUrl": "https://yydshly.github.io/1009_codex_project/002-dioramas/",
       "pagesDir": "web/dist",
       "summarySections": [
         {

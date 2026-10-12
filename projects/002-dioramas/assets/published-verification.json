@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/002-dioramas/",
+  "scope": "完整摘要、原图、模块与工具、价值和扩展、效果图览、泵交互、移动与生产子路径",
+  "checks": {
+    "nineSummaryDimensions": true,
+    "summaryMatchesCatalog": true,
+    "originalGuideDecoded": true,
+    "originalSvgHash": true,
+    "svgDownloadServed": true,
+    "pngDownloadServed": true,
+    "nineCoreModules": true,
+    "sevenDevelopmentTools": true,
+    "moduleTableAccessible": true,
+    "toolTableAccessible": true,
+    "sixValuePerspectives": true,
+    "sixExtensionsWithAcceptance": true,
+    "existing20Cases": true,
+    "galleryFilter": true,
+    "galleryModal": true,
+    "galleryNext": true,
+    "pumpExplode": true,
+    "pumpPartSelection": true,
+    "pumpCameraDrag": true,
+    "pumpFlowAndTransparency": true,
+    "explodeStopsFlow": true,
+    "pumpReset": true,
+    "desktopNoOverflow": true,
+    "mobileSummaryAndGuide": true,
+    "mobilePumpFlow": true,
+    "mobilePumpReset": true,
+    "mobileNoOverflow": true,
+    "publishedAttribution": true,
+    "relativeAssetsInSubpath": true,
+    "noModelRequests": true,
+    "noExternalRuntimeRequests": true,
+    "noPageErrors": true,
+    "noFailedResponses": true
+  },
+  "pageErrors": [],
+  "failedResponses": [],
+  "browser": "151.0.7922.34",
+  "guide": {
+    "svgSha256": "3ecc3ba2463c5b546afa7e3b08b02605ba1477d65cb6a32bfacef4df3357e07e",
+    "pngSha256": "8cd319155ed9f65cb979fe63737042b04434f83fd52f56c0fc6dad1797e755c8",
+    "unaltered": true
+  },
+  "build": {
+    "htmlBytes": 37099,
+    "scripts": [
+      {
+        "file": "index-CW0wy8jW.js",
+        "bytes": 787600,
+        "gzipBytes": 204309
+      }
+    ]
+  }
+}
