@@ -1,0 +1,678 @@
+{
+  "title": "光种的旅行",
+  "duration": 32,
+  "bpm": 90,
+  "beat": 0.6666666666666666,
+  "key": "D 小调",
+  "description": "原创程序合成器乐：钟琴旋律、和声铺底、低音与轻打击乐。",
+  "shots": [
+    {
+      "title": "夜湖来信",
+      "start": 0,
+      "end": 5.333333333333333,
+      "action": "远景推近；光种沿旋律越过夜湖。",
+      "sync": "钟琴进入，光种随拍点闪动。"
+    },
+    {
+      "title": "光种落水",
+      "start": 5.333333333333333,
+      "end": 10.666666666666666,
+      "action": "镜头切近；光种落入水面，涟漪向外扩散。",
+      "sync": "第二组和弦进入；每拍生成一圈水纹。"
+    },
+    {
+      "title": "水下聚光",
+      "start": 10.666666666666666,
+      "end": 16,
+      "action": "潜入水下；光粒围绕种子聚成根系。",
+      "sync": "低音与鼓点驱动根系和光粒脉冲。"
+    },
+    {
+      "title": "破土抽芽",
+      "start": 16,
+      "end": 21.333333333333332,
+      "action": "回到小岛；树干与枝条逐渐长出。",
+      "sync": "第四乐段切镜，八拍内完成生长。"
+    },
+    {
+      "title": "树冠盛放",
+      "start": 21.333333333333332,
+      "end": 26.666666666666668,
+      "action": "树冠近景；花朵逐拍打开，萤火升起。",
+      "sync": "钟琴高音对应花朵亮起。"
+    },
+    {
+      "title": "把光还给夜空",
+      "start": 26.666666666666668,
+      "end": 32,
+      "action": "镜头拉远；光树与湖中倒影呼应。",
+      "sync": "终止和弦落下，声音与画面一起收束。"
+    }
+  ],
+  "sampleRate": 22050,
+  "channels": 2,
+  "encoding": "PCM 16-bit",
+  "source": "本项目原创乐谱与程序合成，无采样素材或模型音乐接口",
+  "beatTimes": [
+    0,
+    0.6667,
+    1.3333,
+    2,
+    2.6667,
+    3.3333,
+    4,
+    4.6667,
+    5.3333,
+    6,
+    6.6667,
+    7.3333,
+    8,
+    8.6667,
+    9.3333,
+    10,
+    10.6667,
+    11.3333,
+    12,
+    12.6667,
+    13.3333,
+    14,
+    14.6667,
+    15.3333,
+    16,
+    16.6667,
+    17.3333,
+    18,
+    18.6667,
+    19.3333,
+    20,
+    20.6667,
+    21.3333,
+    22,
+    22.6667,
+    23.3333,
+    24,
+    24.6667,
+    25.3333,
+    26,
+    26.6667,
+    27.3333,
+    28,
+    28.6667,
+    29.3333,
+    30,
+    30.6667,
+    31.3333
+  ],
+  "noteEvents": [
+    {
+      "start": 0,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 0,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 0,
+      "midi": 65,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 0,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 1.3333,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 0,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 1,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 1.6667,
+      "midi": 81,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 2.6667,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 2.6667,
+      "midi": 58,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 2.6667,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 2.6667,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 4,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 2.6667,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 3.6667,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 4.3333,
+      "midi": 72,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 5.3333,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 5.3333,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 5.3333,
+      "midi": 60,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 5.3333,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 6.6667,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 5.3333,
+      "midi": 69,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 6.3333,
+      "midi": 72,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 7,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 8,
+      "midi": 55,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 8,
+      "midi": 60,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 8,
+      "midi": 64,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 8,
+      "midi": 36,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 9.3333,
+      "midi": 36,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 8,
+      "midi": 76,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 9,
+      "midi": 72,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 9.6667,
+      "midi": 67,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 10.6667,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 10.6667,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 10.6667,
+      "midi": 65,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 10.6667,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 12,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 10.6667,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 11.6667,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 12.3333,
+      "midi": 79,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 13.3333,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 13.3333,
+      "midi": 58,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 13.3333,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 13.3333,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 14.6667,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 13.3333,
+      "midi": 81,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 14.3333,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 15,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 16,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 16,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 16,
+      "midi": 60,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 16,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 17.3333,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 16,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 17,
+      "midi": 81,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 17.6667,
+      "midi": 84,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 18.6667,
+      "midi": 55,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 18.6667,
+      "midi": 60,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 18.6667,
+      "midi": 64,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 18.6667,
+      "midi": 36,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 20,
+      "midi": 36,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 18.6667,
+      "midi": 79,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 19.6667,
+      "midi": 76,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 20.3333,
+      "midi": 72,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 21.3333,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 21.3333,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 21.3333,
+      "midi": 65,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 21.3333,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 22.6667,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 21.3333,
+      "midi": 81,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 22.3333,
+      "midi": 84,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 23,
+      "midi": 86,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 24,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 24,
+      "midi": 58,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 24,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 24,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 25.3333,
+      "midi": 34,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 24,
+      "midi": 84,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 25,
+      "midi": 81,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 25.6667,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 26.6667,
+      "midi": 53,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 26.6667,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 26.6667,
+      "midi": 60,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 26.6667,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 28,
+      "midi": 29,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 26.6667,
+      "midi": 79,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 27.6667,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 28.3333,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 29.3333,
+      "midi": 57,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 29.3333,
+      "midi": 62,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 29.3333,
+      "midi": 65,
+      "duration": 2.6333333333333333,
+      "voice": "pad"
+    },
+    {
+      "start": 29.3333,
+      "midi": 38,
+      "duration": 1.2,
+      "voice": "bass"
+    },
+    {
+      "start": 29.3333,
+      "midi": 77,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 30.3333,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    },
+    {
+      "start": 31,
+      "midi": 74,
+      "duration": 1.8,
+      "voice": "bell"
+    }
+  ]
+}

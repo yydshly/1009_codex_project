@@ -1,0 +1,51 @@
+{
+  "shots": 168,
+  "duration": 372.7,
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x0000A788) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "frames": [
+    {
+      "t": 30,
+      "captureMs": 444,
+      "bytes": 324910
+    },
+    {
+      "t": 55,
+      "captureMs": 84,
+      "bytes": 415993
+    },
+    {
+      "t": 83,
+      "captureMs": 73,
+      "bytes": 385037
+    },
+    {
+      "t": 120,
+      "captureMs": 77,
+      "bytes": 385385
+    },
+    {
+      "t": 170,
+      "captureMs": 58,
+      "bytes": 471388
+    },
+    {
+      "t": 220,
+      "captureMs": 65,
+      "bytes": 313164
+    },
+    {
+      "t": 290,
+      "captureMs": 53,
+      "bytes": 350592
+    },
+    {
+      "t": 350,
+      "captureMs": 44,
+      "bytes": 251949
+    }
+  ],
+  "deterministicAt30s": true,
+  "errors": [],
+  "audioTested": false,
+  "fullVideoExportTested": false
+}

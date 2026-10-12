@@ -83,6 +83,11 @@ jobs:
           npm ci
           npm run check
           npm run build
+      - name: 构建与检查 Functional Emotions 代码绘画与音乐 MV 研究页
+        working-directory: projects/009-functional-emotions-video/web
+        run: |
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
       - uses: actions/upload-pages-artifact@v4

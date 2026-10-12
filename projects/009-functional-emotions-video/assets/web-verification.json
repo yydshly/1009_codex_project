@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-09",
+  "sourceCommit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
+  "browser": "154.0.8037.99",
+  "scenes": [
+    {
+      "key": "birth",
+      "time": 30,
+      "shot": "poured:rise",
+      "motionChanges": true,
+      "deterministic": true
+    },
+    {
+      "key": "city",
+      "time": 19,
+      "shot": "poured:wideCity",
+      "motionChanges": true,
+      "deterministic": true
+    },
+    {
+      "key": "lake",
+      "time": 214.8,
+      "shot": "beneath:eyesOpen",
+      "motionChanges": true,
+      "deterministic": true
+    },
+    {
+      "key": "door",
+      "time": 244.4,
+      "shot": "beneath:doorOpens",
+      "motionChanges": true,
+      "deterministic": true
+    }
+  ],
+  "paintControls": true,
+  "scrubAndReplay": true,
+  "galleryDialog": true,
+  "scenarioTabsAndKeyboard": true,
+  "chapterDetails": true,
+  "desktop": {
+    "width": 1440,
+    "height": 1000,
+    "noHorizontalOverflow": true
+  },
+  "mobile": {
+    "width": 390,
+    "height": 844,
+    "noHorizontalOverflow": true,
+    "reducedMotionDefaultPaused": true,
+    "playerWorks": true
+  },
+  "narrowDesktop": {
+    "width": 720,
+    "noHorizontalOverflow": true
+  },
+  "errors": [],
+  "failedRequests": [],
+  "audioTested": false,
+  "fullVideoExportTested": false
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-09",
+  "browser": "154.0.8037.99",
+  "sourceCommit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
+  "originalAudioUrl": "https://raw.githubusercontent.com/ledbetterljoshua/functional-emotions-video/b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49/assets/functional-emotions.mp3",
+  "noRequestBeforeClick": true,
+  "originalAudio": {
+    "loaded": true,
+    "ready": true,
+    "kind": "original",
+    "name": "Functional Emotions 原版音乐",
+    "duration": 372.72,
+    "currentTime": 11.006515,
+    "paused": false,
+    "frameTime": 10.925032,
+    "source": "https://raw.githubusercontent.com/ledbetterljoshua/functional-emotions-video/b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49/assets/functional-emotions.mp3",
+    "muted": false,
+    "volume": 1
+  },
+  "chapterPlayback": [
+    {
+      "chapter": 2,
+      "start": 44.8,
+      "frameTime": 44.953601,
+      "audioTime": 44.955418
+    },
+    {
+      "chapter": 6,
+      "start": 185.2,
+      "frameTime": 185.353549,
+      "audioTime": 185.354719
+    },
+    {
+      "chapter": 8,
+      "start": 298.4,
+      "frameTime": 298.554591,
+      "audioTime": 298.556449
+    }
+  ],
+  "playPauseSeekReplay": true,
+  "originalButton": true,
+  "silentPlayback": true,
+  "localAudioSwitching": true,
+  "mobilePlayback": true,
+  "networkFailureAndRetry": true,
+  "fullContinuousListeningTested": false,
+  "responses": [
+    {
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "status": 206,
+      "type": "audio/mpeg"
+    },
+    {
+      "status": 206,
+      "type": "audio/mpeg"
+    }
+  ],
+  "errors": []
+}

@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-09",
+  "browser": "154.0.8037.99",
+  "sourceCommit": "b34c20a4f8f64ee87079a2ae2fdedf2cf1990a49",
+  "allShots": {
+    "shots": 168,
+    "checkedFrames": 504,
+    "firstMiddleLast": true
+  },
+  "chapters": [
+    {
+      "index": 1,
+      "jumpTime": 0,
+      "checkedTime": 30,
+      "firstShot": "poured:rise",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 2,
+      "jumpTime": 44.8,
+      "checkedTime": 55,
+      "firstShot": "opened:dodge",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 3,
+      "jumpTime": 66.3,
+      "checkedTime": 83,
+      "firstShot": "strings:splitLevel",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 4,
+      "jumpTime": 98.4,
+      "checkedTime": 120,
+      "firstShot": "functional:twoBoats",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 5,
+      "jumpTime": 134.5,
+      "checkedTime": 170,
+      "firstShot": "selfreport:paintSmile",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 6,
+      "jumpTime": 185.2,
+      "checkedTime": 220,
+      "firstShot": "beneath:stoneRoom",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 7,
+      "jumpTime": 245.9,
+      "checkedTime": 290,
+      "firstShot": "steering:spinOut",
+      "changes": true,
+      "repeats": true
+    },
+    {
+      "index": 8,
+      "jumpTime": 298.4,
+      "checkedTime": 350,
+      "firstShot": "fire:irisWire",
+      "changes": true,
+      "repeats": true
+    }
+  ],
+  "samplesRetained": true,
+  "paintControls": true,
+  "localAudio": {
+    "syntheticTestToneSeconds": 4,
+    "playbackAndPause": true,
+    "scrubAndReplay": true,
+    "endHandled": true,
+    "frameClockGapSeconds": 0.0014079999999999648,
+    "originalSongTested": false,
+    "invalidFileHandled": true
+  },
+  "fullPlaybackStopsAtEnd": true,
+  "mobile": {
+    "width": 390,
+    "noHorizontalOverflow": true,
+    "lastChapterPlayable": true,
+    "allChapterEntriesVisible": true,
+    "galleryAspectRatio": "16:9"
+  },
+  "errors": [],
+  "badResponses": [],
+  "fullMp4ExportTested": false
+}

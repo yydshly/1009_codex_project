@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-09",
+  "browser": "154.0.8037.99",
+  "music": {
+    "duration": 32,
+    "bpm": 90,
+    "channels": 2,
+    "sampleRate": 22050,
+    "peak": 0.759979248046875,
+    "rms": 0.1511093324202491,
+    "sha256": "aeacd7d1b87fbd3db5ee62e614465d25996efdcf02be4b86a3c8f08f669a4ed0"
+  },
+  "rendererCalls": 72,
+  "renderChecks": [
+    {
+      "shot": 1,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    },
+    {
+      "shot": 2,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    },
+    {
+      "shot": 3,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    },
+    {
+      "shot": 4,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    },
+    {
+      "shot": 5,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    },
+    {
+      "shot": 6,
+      "changes": true,
+      "repeats": true,
+      "colorChanges": true,
+      "styleChanges": true
+    }
+  ],
+  "frameClockGapSeconds": 0.0005030000000001422,
+  "playPauseSeekReplay": true,
+  "colorAndStyleControls": true,
+  "endAndRestart": true,
+  "playersMutuallyPause": true,
+  "mobile": {
+    "width": 390,
+    "playback": true,
+    "lastShot": true,
+    "noOverflow": true
+  },
+  "exported": {
+    "duration": 32,
+    "width": 1280,
+    "height": 720
+  },
+  "errors": [],
+  "failures": []
+}

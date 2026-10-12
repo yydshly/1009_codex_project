@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-12",
+  "browser": "154.0.8037.99",
+  "imageSha256": "921b5563b97a3fdf1235752cda771cb083f8b67a5f5e0648eed539e8578f9f07",
+  "results": [
+    {
+      "viewport": "1440x1080",
+      "overflow": false,
+      "imageDimensions": [
+        941,
+        1672
+      ],
+      "modal": "open/zoom/close/Escape passed",
+      "downloads": "PNG bytes and TXT contents matched",
+      "clipboard": "copy and fallback selection passed",
+      "reference": "silent playback and pause passed",
+      "journey": {
+        "duration": 32,
+        "muted": false,
+        "playback": "play/pause/style passed"
+      }
+    },
+    {
+      "viewport": "390x844",
+      "overflow": false,
+      "modal": "open/close passed",
+      "prompt": "link and direct hash expanded",
+      "txtMime": "text/plain; charset=utf-8"
+    }
+  ],
+  "errors": [],
+  "failures": []
+}
