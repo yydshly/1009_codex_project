@@ -66,3 +66,9 @@
 - ../web/public/assets/research/experiment-log.json：三次实际完成但拒绝接入的测试、320 钻石扣费、音频核对与质量记录。
 - ../web/public/assets/experiments/：三条原始平台输出视频及实际抽帧封面，独立供网页复核；opening-original.mp3 为原歌开头输入，均未加入成片清单。
 - ../web/public/assets/research/*-quality-review.json、*-audio-verification.json 与证据 JPG：原始复核记录的网页副本，SHA-256 与下载输出核对一致。
+
+## 公网发布证据
+
+- deployment-verification.json：成功部署的提交、Pages／校验运行，以及 CUA 实际播放、引用片段、放大和原图哈希。
+- public-asset-verification.json：公网 HTML、摘要、原图与媒体范围请求检查；首次资产核对时的记录。
+- public-page-preview.jpg：最终部署版公网实际截图，由 CUA 直接截取，非本地截图或生成示意。

@@ -84,3 +84,7 @@
 人物视频的原唱音轨核对相关性为 99.30–99.62%，检测到约 23 毫秒编码偏移并修正。此值验证原音频保留与时间尺度，不表示音素和嘴形达到了该精度。水印没有裁剪或遮盖；没有下载本地人物或歌曲生成模型，也没有购买订阅。线上来源、文件哈希和映射见 [制作记录](assets/online-performance.md) 与 [实际结果清单](assets/online-performance-result.json)。
 
 参考视频未提供开源工程或许可证；中文原创作品没有复用其音乐、歌词、人物或视频素材。网页另设原片研究播放器，保留作者版权与来源，不将参考副本称为原创或开源素材。GPT-2 采用 MIT 许可，见 [许可证](licenses/GPT2-LICENSE.txt)。
+
+## 已发布与验证
+
+2026-10-12 已推送 main 并发布 GitHub Pages。公网检查包括十项完整摘要、八模块、四类扩展、真实中文声画播放、两段原片研究引用、矢量放大和原图 SHA-256；发布和校验均成功。三轮新场景口型仍未通过，完整多场景人物演唱继续标为研究中。[发布验收记录](assets/deployment-verification.json) · [实际公网截图](assets/public-page-preview.jpg) · [Pages 发布运行](https://github.com/yydshly/1009_codex_project/actions/runs/38265341942)。

@@ -1,0 +1,63 @@
+{
+  "schemaVersion": 1,
+  "verifiedAt": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/014-chinese-token-cinema/",
+  "overviewUrl": "https://yydshly.github.io/1009_codex_project/014-chinese-token-cinema/overview.html",
+  "repository": "https://github.com/yydshly/1009_codex_project",
+  "deployedCommit": "bd60b8b5a5c46a7c4ef08e0bc642da02791f3c28",
+  "deployment": {
+    "runId": 38265341942,
+    "url": "https://github.com/yydshly/1009_codex_project/actions/runs/38265341942",
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "validation": {
+    "runId": 38265293919,
+    "status": "completed",
+    "conclusion": "success"
+  },
+  "browserVerification": {
+    "method": "Codex in-app browser / CUA, real public page",
+    "summarySections": 10,
+    "moduleRows": 8,
+    "extensionDirections": 4,
+    "chineseCanvasPlayback": {
+      "startedAt": 30,
+      "observedTime": 62,
+      "duration": 135.59,
+      "pausedAfterCheck": true
+    },
+    "referenceClips": [
+      {
+        "src": "assets/reference/token-study.mp4",
+        "duration": 12,
+        "observedTime": 12,
+        "width": 1280,
+        "height": 720,
+        "errorCode": 0
+      },
+      {
+        "src": "assets/reference/shore-study.mp4",
+        "duration": 12,
+        "observedTime": 12,
+        "width": 1280,
+        "height": 720,
+        "errorCode": 0
+      }
+    ],
+    "vectorZoomLabel": "150%",
+    "publicScreenshot": "assets/public-page-preview.jpg"
+  },
+  "guide": {
+    "pngSha256": "f8eaa9a694de854f4ad7d4d499c5f700f5bce0046c4f87b12a789333f97cbcb5",
+    "svgSha256": "560e6affea22bd76d2f7528e3999deb82e46f33037f3a41246b1ff1c2665f04f",
+    "unchangedFromOriginal": true
+  },
+  "referencePublicMode": "Two attributed 12-second research excerpts. Complete author post retained. Full 192 MB local copy excluded from Git.",
+  "limitations": [
+    "Original author CDN failed during first public check; reference study clips now serve from Pages.",
+    "Three new-scene lip-sync pilots remain rejected. Full multiscene performance has not passed.",
+    "Mobile layout was checked locally at 390 and 768 px, not on physical devices."
+  ],
+  "status": "verified_deployed_page_media_guide_and_summary"
+}

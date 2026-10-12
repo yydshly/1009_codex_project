@@ -124,3 +124,7 @@ scene-shot-plan.js 共用 21 镜头分镜；播放器只有读取到实际完成
 研究区原片与样片使用原生媒体控件，和主音轨互斥；保留版本与图层操作，原生视频／音频的键盘不会触发主片快捷键。服务器改为流式范围响应，避免每次原片请求把 192 MB 全量读入内存。check_research_page.mjs 实测原片和三条样片的播放、时间点、声音互斥、原唱输入、移动布局及缺少本地原片的回退；结果与真实截图见 assets/research-page-verification.json 和 research-*.png。
 
 公网入口修复：本地原片和导出检查仅在 localhost 执行，并设 3 秒超时；GitHub Pages 直接使用署名研究引用和 Canvas 播放器。reference-source 与入口脚本加发布版本标记，避免先前访问者继续读取旧缓存。
+
+## 2026-10-12 远端发布与公网验收
+
+已提交 main 并成功部署到 https://yydshly.github.io/1009_codex_project/014-chinese-token-cinema/ 。正式页面对应 bd60b8b，Pages 发布运行 38265341942 与校验运行 38265293919 均成功。公网 CUA 实测中文 Canvas 播放从 00:30 前进到 01:02；两段原片引用均解码为 1280×720／12 秒并播放至末尾，媒体错误为 0；矢量图放大显示 150%。完整摘要为 10 项、模块为 8 行、扩展为 4 类。原 PNG／SVG 与既有图字节一致，保留署名、平台水印和三轮未通过结论。证据见 assets/deployment-verification.json、public-asset-verification.json 和实际公网截图 public-page-preview.jpg。
