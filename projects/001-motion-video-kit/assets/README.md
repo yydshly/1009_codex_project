@@ -8,6 +8,7 @@
 | site-mobile.jpg | 390 × 844 浏览器尺寸测试的实际截图，图像为375 × 812，内容宽375px；播放器、分镜与下一研究章节，无页面横向溢出 |
 | site-overview-desktop.png | 2026-10-12 完整研究页桌面首屏实际截图；已生成的能力全景图作为首屏引导 |
 | site-overview-mobile.png | 2026-10-12 完整研究页窄屏实际截图；同一引导图、可滚动章节目录与摘要，具体像素见验证记录 |
+| site-live-desktop.png | 2026-10-12 GitHub Pages 已部署网页的实际桌面首屏，1265 × 712；用于记录线上引导图与完整研究页 |
 | preview.jpg | 本地实际 MP4 的 18 秒关键帧，1280 × 720；界面为说明性绘制 |
 | demo-contact-sheet.jpg | 本地 MP4 每 2 秒一帧，共 12 帧，按时间顺序从左到右、从上到下排列 |
 | validation.json | HyperFrames 实际运行、布局、对比度与 lint 检查的汇总，含采样时刻 |

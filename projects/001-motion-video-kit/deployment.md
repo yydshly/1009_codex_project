@@ -17,3 +17,13 @@
 独立发布包检查通过：001 的 `npm ci`、build、verify，现有016/017/018的构建检查，以及根目录 index:sync、check、pages:build。发布目录包含4个已登记网页；主工作区18个项目的本地校验与17个Web汇总也通过。主工作区的额外研究仍留在本地，不随此次提交发布。
 
 引导图原版 SHA-256：`c4a1b5a429dcdc91de215c928449cc392938b65e1ba70b355a9fc0539298230c`；发布包图片与原图逐字节一致，project.json 包含9条摘要、renderAvailable=false，符合干净CI环境直接播放代码动画的设计。
+
+## 已完成的远端结果
+
+- 网页源码提交：[9b40f9f](https://github.com/yydshly/1009_codex_project/commit/9b40f9fd4bfb5ec66c3e5e3e7dd02d97272be557)，已推送到远端main。
+- [索引与构建校验](https://github.com/yydshly/1009_codex_project/actions/runs/38218556742)：success。
+- [GitHub Pages部署](https://github.com/yydshly/1009_codex_project/actions/runs/38218559752)：build与deploy均success，2026-10-12 15:35（Asia/Shanghai）完成。
+- 线上index.html、project.json、PNG、SVG、动画页与GSAP资源均HTTP200；线上PNG与SVG与原版逐字节一致。
+- 浏览器实际确认9个章节、9条摘要、3840×2560引导图、1265px桌面无横向溢出、46项状态路径比较一致与演示播放。线上不显示本地MP4下载入口，符合CI设计。
+
+线上首屏实际截图：[site-live-desktop.png](assets/site-live-desktop.png)。后续部署记录与截图的文档提交不改变已经验证的网页构建输入。
