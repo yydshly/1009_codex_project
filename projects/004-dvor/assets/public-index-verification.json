@@ -1,0 +1,10 @@
+{
+  "date": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/?publication=eaeb0fd",
+  "status": "passed",
+  "evidence": [
+    "根汇总站点返回 HTTP 200",
+    "Dvor 编号链接与完整标题出现",
+    "公开首页完整摘要与 projects.json 的 Dvor 摘要一致，涵盖能力/模块/原理/效果/提示词/价值/扩展和边界"
+  ]
+}

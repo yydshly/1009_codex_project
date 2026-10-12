@@ -13,10 +13,10 @@
 | 原仓库 | [amirmushichge/dvor](https://github.com/amirmushichge/dvor) |
 | 研究版本 | [`30d6f684670915865743c79f44f931a43d987113`](https://github.com/amirmushichge/dvor/tree/30d6f684670915865743c79f44f931a43d987113) |
 | 上游许可证 | MIT；[Dvor 声明](LICENSE.dvor)、[Sakura Crossing 声明](LICENSE.sakura-crossing) 均保留 |
-| 研究日期 | 2026-10-09 |
+| 研究日期 | 基线研究 2026-10-09；完整整理与发布 2026-10-12 |
 | 技术栈 | Three.js 0.180.0、Vite 6.4.3、Node.js 22+ |
 | 当前状态 | 完整研究指南、原图导读与真实社区实验完成；10 项场景、7 项提示词和 5 项完整指南检查通过 |
-| 发布方式 | 接入统一 Pages 的 `004-dvor/` 子路径；尚未确认线上部署 |
+| 在线网页 | [GitHub Pages · 完整研究与实验](https://yydshly.github.io/1009_codex_project/004-dvor/)；2026-10-12 部署与公网检查通过 |
 
 ## 网页回答的六个问题
 
@@ -83,6 +83,12 @@ npm run index:sync
 npm run check
 npm run pages:build
 ```
+
+## 发布与验证
+
+源码已提交至总库 `main`，发布源码提交为 [`eaeb0fd`](https://github.com/yydshly/1009_codex_project/commit/eaeb0fdf3d3d10e6552f612223c23685810be866)。[GitHub Pages 发布运行](https://github.com/yydshly/1009_codex_project/actions/runs/38228369558) 与 [索引校验运行](https://github.com/yydshly/1009_codex_project/actions/runs/38228317865) 均成功。
+
+本地 22 项浏览器检查及编号子路径验证通过。公网实际检查确认研究页与 WebGL 初始化、六张样例、原图 SHA-256、模块/价值/扩展/提示词内容、动态原作世界、电车和热点，以及三份 MIT 文件 HTTP 200；根首页完整摘要与 `projects.json` 一致。见 [部署记录](assets/deployment.json)、[公网页面检查](assets/public-pages-verification.json) 和 [公开摘要检查](assets/public-index-verification.json)。
 
 ## 来源与修改
 

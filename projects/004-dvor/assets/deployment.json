@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-12",
+  "provider": "GitHub Pages",
+  "repository": "yydshly/1009_codex_project",
+  "branch": "main",
+  "sourceCommit": "eaeb0fdf3d3d10e6552f612223c23685810be866",
+  "url": "https://yydshly.github.io/1009_codex_project/004-dvor/",
+  "pagesRun": {
+    "id": 38228369558,
+    "conclusion": "success",
+    "url": "https://github.com/yydshly/1009_codex_project/actions/runs/38228369558"
+  },
+  "validationRun": {
+    "id": 38228317865,
+    "conclusion": "success",
+    "url": "https://github.com/yydshly/1009_codex_project/actions/runs/38228317865"
+  },
+  "guideSha256": "e9f77f75007f8e4c772cbc266b589d3f5d6fbd36383dc151a6fc3511adbe6bda",
+  "localBrowserChecks": 22,
+  "publicEvidence": [
+    "public-pages-verification.json",
+    "public-index-verification.json"
+  ],
+  "errors": [],
+  "status": "verified"
+}

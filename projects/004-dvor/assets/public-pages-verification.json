@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/004-dvor/",
+  "browser": "154.0.8037.99",
+  "status": "passed",
+  "evidence": [
+    "编号子路径页面和实际 WebGL 场景加载",
+    "六张本地样例加载且资源路径位于子目录",
+    "完整引导图哈希一致，模块/价值/扩展/提示词内容呈现",
+    "动态导入的上游世界 chunk 能构建电车与注释",
+    "三份完整 MIT 许可证返回 HTTP 200"
+  ],
+  "errors": [],
+  "failed": []
+}

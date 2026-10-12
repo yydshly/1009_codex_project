@@ -1,5 +1,9 @@
 # 图片与验证记录
 
+## 发布证据
+
+2026-10-12 统一 GitHub Pages 已部署成功。`deployment.json` 关联源码提交、发布和校验运行、在线地址与原图哈希；`public-pages-verification.json` 记录公网实际 WebGL、原图、六张样例、完整内容、动态原作与三份许可证检查；`public-index-verification.json` 记录根首页完整摘要和编号链接。公开页面：[004-dvor](https://yydshly.github.io/1009_codex_project/004-dvor/)。
+
 ## 一图总览
 
 `dvor-overview.png` 是本次整理的高清知识长图，包含八个模块：能力、已有视觉效果、渲染管线、世界搭建、本地扩展、可复用模块、应用与未来方向、提示词控制。

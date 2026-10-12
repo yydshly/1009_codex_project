@@ -83,6 +83,8 @@ npm run check
 npm run pages:build
 ```
 
-汇总目录 `_site/004-dvor/index.html`。规划路径为 `/1009_codex_project/004-dvor/`；接入构建不代表已经上线。静态资源不含 `node_modules/`、测试脚本或源码目录，两份许可证会随产物发布。
+汇总目录 `_site/004-dvor/index.html`。在线地址：[完整 Dvor 研究页](https://yydshly.github.io/1009_codex_project/004-dvor/)。2026-10-12 的 GitHub Pages 工作流与公网实际浏览器检查均成功。静态资源不含 `node_modules/`、测试脚本或源码目录；Dvor、Sakura Crossing 和 Three.js 三份许可证随产物发布。
 
 将 `_site/` 通过 HTTP 提供于 `127.0.0.1:5196` 后，可执行 `npm run verify:pages`，检查编号子路径的图片、动态原作 chunk、WebGL 场景与许可证。其他地址使用 `DVOR_PAGES_URL` 指定。
+
+`verify:pages` 同时检查原图哈希与完整研究内容；公网结果写入 `assets/public-pages-verification.json`，本地结果写入 `assets/pages-verification.json`。完整发布记录见 `assets/deployment.json`，此检查不替代真实手机或用户任务测试。
