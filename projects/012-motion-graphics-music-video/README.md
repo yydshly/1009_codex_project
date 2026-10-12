@@ -13,7 +13,7 @@
 | 研究日期 | 2026-10-09；10-10 理解图与样片；10-12 全面汇总及上游 main 复核（Asia/Shanghai） |
 | 完成范围 | 文档与关键源码研究、原创网页、浏览器交互和 Pages 汇总验证 |
 | 上游运行 | 未启动上游、未调用付费模型、未逐帧评审作者样片 |
-| Pages 路径 | /1009_codex_project/012-motion-graphics-music-video/；发布验证记录见 research.md |
+| Pages 发布 | [公开研究网页](https://yydshly.github.io/1009_codex_project/012-motion-graphics-music-video/)；2026-10-12 部署成功并验证，记录见 research.md |
 
 ## 网页汇总
 

@@ -20,7 +20,7 @@
 
 随后在本目录运行 npm.cmd run preview:pages，访问 http://127.0.0.1:4183/012-motion-graphics-music-video/ 。
 
-发布地址：https://yydshly.github.io/1009_codex_project/012-motion-graphics-music-video/ 。通过现有 Publish GitHub Pages 工作流统一发布；部署与公开访问的实际结果记录在 ../research.md。
+发布地址：https://yydshly.github.io/1009_codex_project/012-motion-graphics-music-video/ 。2026-10-12 通过现有 Publish GitHub Pages 工作流部署成功，已核对公开网页、原图、样片图片、实际播放和截图切换；结果记录在 ../research.md。
 
 端口占用时可设置环境变量 PORT，例如 PowerShell：`$env:PORT='4192'` 后运行 dev。Pages 预览同样支持 PORT；服务仅监听 127.0.0.1。
 

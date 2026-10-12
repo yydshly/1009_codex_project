@@ -172,3 +172,15 @@ Agent 负责研究、计划、任务分配和视觉听音审查；Ruby 管理具
 浏览器验证五个制作环节、四个职责面板、场景切换、九个扩展筛选（复用 1／适配 4／新增 4）、三图层关闭与恢复、播放及 End 到 16 秒停止。四张作者截图、六个网页图片引用加载正常；两支第二张截图的时间说明和主预览同步更新。桌面 1280×720 和手机 390×844 无页面横向溢出，移动样片单列；浏览器未见 error／warn，章节锚点完整。截图保存为 preview-20261012.jpg、mobile-20261012.jpg、examples-20261012.jpg。
 
 上述为研究网页验证，不代表上游制作链、模型口型、费用或整曲成片质量实测。两支样片实际播放的既有证据记录在 2026-10-10 一节；本轮公开站点另行验证嵌入与截图交互。
+
+### 远端提交与公开部署验证
+
+- 发布提交：[6caf5a6dc0eca12a37128649511b2289b9769786](https://github.com/yydshly/1009_codex_project/commit/6caf5a6dc0eca12a37128649511b2289b9769786)，已推送至 main。
+- [Pages 工作流 38255884806](https://github.com/yydshly/1009_codex_project/actions/runs/38255884806)：build、deploy 均 success；[校验工作流 38255855392](https://github.com/yydshly/1009_codex_project/actions/runs/38255855392) success。
+- 公开地址：[012 Motion Graphics MV](https://yydshly.github.io/1009_codex_project/012-motion-graphics-music-video/)。统一远端站点本轮包含十五个已发布项目，保留其他项目的既有内容。
+- HTML、CSS、JavaScript、favicon、四张作者截图、总索引及 001／006／009 关联网页均验证 HTTP 200。检查途中一次图片请求遇到 GitHub 临时服务错误；随后以失败即停止的检查重新验证四张图片，全部返回 200／image/jpeg，浏览器六个截图引用全部加载成功。
+- 公开 PNG／SVG 的 SHA-256 与上表原件完全一致；浏览器理解图 naturalWidth=2400，八组模块和九个扩展方向正常展示，完整图默认展开。
+- Math 官方嵌入实播：paused=false、readyState=4、currentTime=39.921401 秒；Fork：paused=false、readyState=4、currentTime=17.480064 秒。自动播放第二支时只保留一个 iframe；收起后 iframe 为零并恢复截图，截图时间说明与选中状态一致。
+- 公开页面未出现横向溢出；首屏实际截图为 assets/published-20261012.jpg。验证后恢复公开首页供阅读。
+
+主工作区保留其他项目的本地草稿；只同步本项目文件与 012 元数据，并成功执行十九项本地总索引的 index:sync、check、pages:build。本轮提交范围是 012、根索引／元数据、两个工作流的 012 检查，以及自动派生的 Oil UI 项目目录快照。部署的是研究网页，未安装上游插件或执行付费制片。
