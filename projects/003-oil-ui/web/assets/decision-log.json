@@ -1,0 +1,15 @@
+{
+  "date":"2026-10-09",
+  "upstreamRef":"7987bb38afeea1ff8e96641b3ffebb5601fe67d2",
+  "selection":"本次自主选定，没有伪造用户选择记录",
+  "stages":[
+    {"stage":"任务","decision":"真实仓库维护场景：查找项目、看来源、保存笔记","basis":"根 README、projects.json 与用户的研究目标"},
+    {"stage":"品类","decision":"内容与对象处理工具，首屏显示项目而非宣传标题","basis":"design-direction.md 内容型首屏规则","limitation":"未完成外部竞品视觉标杆拆解，不宣称逐项执行全部探索协议"},
+    {"stage":"风格","artifact":"lab/styles/style-explorer.html","options":["档案纸张","终端实验室","编辑蓝图","轻盈目录"],"chosen":"档案纸张","reason":"符合长期阅读与来源记录的情境，强调色收敛在主动作"},
+    {"stage":"版式","artifact":"lab/layouts/style-explorer.html","options":["队列与详情","目录网格","单列档案"],"chosen":"队列与详情","reason":"查找对象与记录动作并置，减少桌面上来回跳转"},
+    {"stage":"约定","artifact":"design-contract.json","decision":"固定本次字色、视口、主动作、必要状态与证据范围"},
+    {"stage":"实现","artifact":"demo.html","decision":"用原生 HTML/CSS/JS，实现真实快照筛选、笔记本机保存和导出"},
+    {"stage":"检查","artifact":"verification.json","decision":"程序测试与实际浏览器交互、桌面手机截图结合"},
+    {"stage":"交付","decision":"保留上游许可、研究版本、来源与验证范围，不给予未经独立评审的审美分数"}
+  ]
+}

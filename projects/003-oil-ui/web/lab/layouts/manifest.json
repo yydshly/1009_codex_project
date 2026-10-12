@@ -1,0 +1,66 @@
+{
+  "schemaVersion": 1,
+  "lang": "zh",
+  "project": "研究工作台 · 版式方案",
+  "brief": "相同核心内容、字体和配色，比较三种页面结构。本次自主选定“队列与详情”。",
+  "round": "02",
+  "candidates": [
+    {
+      "id": "queue",
+      "name": "队列与详情",
+      "concept": "当前对象与记录动作就近",
+      "typography": "Georgia / 系统中文衬线标题，Segoe UI / Microsoft YaHei 正文",
+      "palette": [
+        "#f5f3ec",
+        "#242b25",
+        "#2f5941",
+        "#ad8136"
+      ],
+      "traits": [
+        "当前对象与记录动作就近",
+        "真实仓库项目",
+        "字体色彩固定"
+      ],
+      "kind": "html",
+      "source": "queue.html"
+    },
+    {
+      "id": "grid",
+      "name": "目录网格",
+      "concept": "先比较全部项目，再展开记录",
+      "typography": "Georgia / 系统中文衬线标题，Segoe UI / Microsoft YaHei 正文",
+      "palette": [
+        "#f5f3ec",
+        "#242b25",
+        "#2f5941",
+        "#ad8136"
+      ],
+      "traits": [
+        "先比较全部项目，再展开记录",
+        "真实仓库项目",
+        "字体色彩固定"
+      ],
+      "kind": "html",
+      "source": "grid.html"
+    },
+    {
+      "id": "reading",
+      "name": "单列档案",
+      "concept": "按收录顺序阅读连续档案",
+      "typography": "Georgia / 系统中文衬线标题，Segoe UI / Microsoft YaHei 正文",
+      "palette": [
+        "#f5f3ec",
+        "#242b25",
+        "#2f5941",
+        "#ad8136"
+      ],
+      "traits": [
+        "按收录顺序阅读连续档案",
+        "真实仓库项目",
+        "字体色彩固定"
+      ],
+      "kind": "html",
+      "source": "reading.html"
+    }
+  ]
+}

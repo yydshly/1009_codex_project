@@ -35,6 +35,11 @@ jobs:
         run: |
           npm ci
           npm run build
+      - name: 构建与检查 Oil UI 完整研究与工作台
+        run: |
+          node projects/003-oil-ui/scripts/build.mjs
+          node projects/003-oil-ui/scripts/check-web.mjs
+          node --test projects/003-oil-ui/tests/model.test.mjs
       - name: 构建与检查 Agenvo 完整研究页
         working-directory: projects/016-agenvo/web
         run: |

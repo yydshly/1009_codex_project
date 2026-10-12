@@ -1,0 +1,106 @@
+[
+  {
+    "file": "motion-probe",
+    "state": null,
+    "size": "1280x900",
+    "zoom": 1,
+    "motion": {
+      "load": {
+        "elements": 4,
+        "loops": 0,
+        "maxMove": 8,
+        "maxSize": 0,
+        "maxOpacity": 0.78,
+        "top": [
+          {
+            "el": "section.queue",
+            "move": 8,
+            "size": 0,
+            "opacity": 0.78,
+            "loop": false,
+            "sources": [
+              "css:enter"
+            ]
+          },
+          {
+            "el": "section.project-detail",
+            "move": 8,
+            "size": 0,
+            "opacity": 0.78,
+            "loop": false,
+            "sources": [
+              "css:enter"
+            ]
+          },
+          {
+            "el": "section.research-path",
+            "move": 8,
+            "size": 0,
+            "opacity": 0.78,
+            "loop": false,
+            "sources": [
+              "css:enter"
+            ]
+          },
+          {
+            "el": "div.workspace-title",
+            "move": 8,
+            "size": 0,
+            "opacity": 0.77,
+            "loop": false,
+            "sources": [
+              "css:enter"
+            ]
+          }
+        ]
+      },
+      "steps": {
+        "elements": 1,
+        "loops": 0,
+        "maxMove": 6,
+        "maxSize": 0,
+        "maxOpacity": 0.53,
+        "top": [
+          {
+            "el": "div#detail-content.changing",
+            "move": 6,
+            "size": 0,
+            "opacity": 0.53,
+            "loop": false,
+            "sources": [
+              "css:detail-change"
+            ]
+          }
+        ]
+      },
+      "hero": {
+        "elements": 0,
+        "loops": 0,
+        "maxMove": 0,
+        "maxSize": 0,
+        "maxOpacity": 0,
+        "top": [],
+        "layers": 0
+      },
+      "scroll": {
+        "elements": 0,
+        "loops": 0,
+        "maxMove": 0,
+        "maxSize": 0,
+        "maxOpacity": 0,
+        "top": [],
+        "scrollable": true
+      }
+    },
+    "issues": [
+      "滚动：没有检测到随滚动出现的变化；落地页、品牌页、发布页和展览页需要一段滚动叙事"
+    ]
+  },
+  {
+    "file": "page.png",
+    "state": null,
+    "size": "1280x900",
+    "zoom": 1,
+    "issues": []
+  }
+]

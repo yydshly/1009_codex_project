@@ -1,0 +1,85 @@
+{
+  "schemaVersion": 1,
+  "lang": "zh",
+  "project": "项目研究工作台 · 风格探索",
+  "brief": "为当前 GitHub 项目研究队列选择字体、配色、控件与信息密度。",
+  "round": "01",
+  "candidates": [
+    {
+      "id": "archive",
+      "name": "档案纸张",
+      "concept": "像在研究桌面上翻阅有编号的项目档案",
+      "typography": "标题 Georgia · 正文 Segoe UI · 数字 Consolas",
+      "palette": [
+        "#f5f3ec",
+        "#242b25",
+        "#2f5941",
+        "#ad8136"
+      ],
+      "traits": [
+        "纸张暖白",
+        "深绿行动色",
+        "对象与操作并置"
+      ],
+      "kind": "html",
+      "source": "card-archive.html"
+    },
+    {
+      "id": "terminal",
+      "name": "终端实验室",
+      "concept": "深色仪器台，状态与数字高效可扫读",
+      "typography": "标题 Consolas · 正文 Segoe UI · 数字 Consolas",
+      "palette": [
+        "#18211e",
+        "#e5eddf",
+        "#b9da83",
+        "#e0bb70"
+      ],
+      "traits": [
+        "等宽数字",
+        "紧凑密度",
+        "硬朗直角"
+      ],
+      "kind": "html",
+      "source": "card-terminal.html"
+    },
+    {
+      "id": "blueprint",
+      "name": "编辑蓝图",
+      "concept": "清晰的蓝色索引，以排版组织研究内容",
+      "typography": "标题 Georgia · 正文 Segoe UI · 数字 Segoe UI",
+      "palette": [
+        "#eef2f9",
+        "#20365c",
+        "#355fb5",
+        "#ac6b35"
+      ],
+      "traits": [
+        "蓝色索引",
+        "衬线展示字",
+        "宽松分栏"
+      ],
+      "kind": "html",
+      "source": "card-blueprint.html"
+    },
+    {
+      "id": "catalog",
+      "name": "轻盈目录",
+      "concept": "温暖、柔和的卡片目录，便于快速浏览",
+      "typography": "标题 Segoe UI · 正文 Segoe UI · 数字 Georgia",
+      "palette": [
+        "#f7f1ed",
+        "#433333",
+        "#b66345",
+        "#aa7934"
+      ],
+      "traits": [
+        "暖色圆角",
+        "网格浏览",
+        "柔和层级"
+      ],
+      "kind": "html",
+      "source": "card-catalog.html"
+    }
+  ]
+}

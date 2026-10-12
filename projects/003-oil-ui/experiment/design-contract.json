@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "scenario": "当前 GitHub 项目研究仓库的研究工作台",
+  "user": "收录多个开源项目并进行源码研究的仓库维护者",
+  "primaryTask": "查找项目、查看来源与研究状态、记录并保存研究笔记",
+  "source": "projects.json 的构建快照",
+  "northStar": "像在清晰的研究桌面上翻阅有编号的项目档案",
+  "direction": "档案纸张 × 研究桌面",
+  "palette": {"background":"#f5f3ec","surface":"#fcfbf7","text":"#242b25","muted":"#657066","action":"#2f5941","reference":"#ad8136","line":"#dcded4"},
+  "typography": {"display":"Georgia / 系统中文衬线","body":"Segoe UI / Microsoft YaHei","bodyPx":15,"lineHeight":1.75},
+  "layout": {"desktop":"左研究队列，右项目详情与笔记","mobile":"纵向队列与详情，保留全部必要内容","firstScreen":"实际项目对象与搜索筛选"},
+  "states": ["默认","筛选","空结果","项目切换","编辑","保存成功","保存失败","刷新读回"],
+  "motion": ["首次进入时按阅读顺序出场","项目选中后详情轻移并出现","保存按钮按下反馈与成功短脉冲"],
+  "hardRequirements": ["保持编号与原仓库链接","关键信息不裁切","持久化结果重新读取","保存失败保留输入","移动端无横向溢出"],
+  "evidence": ["1280x900 桌面截图","390x844 手机截图","保存读回与失败测试","状态切换与操作证据"],
+  "scope": "笔记保存在浏览器；不写仓库、不接云端。数值为本次设计选择。",
+  "review": "本次由实现 Agent 自检，未独立评审、未给审美分数"
+}

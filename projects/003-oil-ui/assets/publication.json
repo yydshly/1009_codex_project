@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-12",
+  "status": "local-verified",
+  "statusLabel": "本地验证通过，等待部署",
+  "summary": "完整原始引导图和十三个研究章节已完成。模块、模型对照、个人与团队价值和扩展方向均已补齐；本地构建、静态检查、五项业务模型测试及桌面/手机截图检查通过，公开部署尚待确认。",
+  "url": "https://yydshly.github.io/1009_codex_project/003-oil-ui/",
+  "sourceRef": "7987bb38afeea1ff8e96641b3ffebb5601fe67d2",
+  "guide": {"file": "oil-ui-understanding-v1.png", "preserved": true, "sha256": "801a38ee929dbede8ef6ca636a19868603ad78d8df45057f549f0bb210a5966b"},
+  "checks": [
+    {"name": "本地网页", "result": "7 个 HTML、46 项本地资源引用及 13 个章节/导航一致性检查通过"},
+    {"name": "业务模型", "result": "5 项测试通过，覆盖筛选、保存读回、存储失败和损坏数据"},
+    {"name": "发布汇总", "result": "隔离发布工作区的索引同步、根检查和六个已收录站点的 Pages 构建通过"},
+    {"name": "浏览器呈现", "result": "1280×900 桌面、390×844 手机及模块/模型对照章节的 CDP 报告未发现控制台错误、横向溢出或图片加载失败"},
+    {"name": "引导图", "result": "PNG 的 SHA-256 与对话生成的原图一致，未裁切或重新生成"}
+  ],
+  "boundary": "网页检查与部署不等于独立审美评分。上游源码固定于 v0.18.0；原图保留，效果提升与扩展建议未做对照验证。"
+}

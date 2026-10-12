@@ -1,0 +1,106 @@
+Use case: infographic-diagram / compositing.
+Create ONE comprehensive Chinese research overview poster about the GitHub library Oil UI, intended to be read, zoomed, and saved by a Chinese technical researcher. Large high-resolution portrait canvas, approximately 4:5 aspect ratio, aim for 3200x4000 or the highest practical detail. Flat full-bleed infographic, no perspective mockup, no photographed paper, no decorative device frame. Prioritize accurate readable Simplified Chinese, generous line spacing, strong visual hierarchy, logical arrows and aligned modules. Use a warm ivory paper background, near-black text, forest-green section accents and restrained ochre annotations. Titles may use a refined Chinese serif, body must be a highly legible Chinese sans serif. Light editorial grid and fine separators; clean, dense but readable, thoughtfully designed.
+
+Input images are supporting compositing inserts, not the poster to be rewritten:
+Image 1: Oil UI upstream Van Gogh exhibition candidate-comparison screenshot.
+Image 2: Oil UI upstream Mona Lisa exhibition candidate-comparison screenshot.
+Image 3: Oil UI upstream showcase montage, containing learning app, synthesizer product, dashboard, map, and other UI samples.
+Crop and integrate recognizable actual example panels from these supplied images into a tasteful visual strip and selected modular insets. Preserve their recognizable designs and images as closely as possible. Do not invent new purported upstream screenshots. Do not place busy art behind explanatory text. Examples should occupy about 18–22% of the whole poster, enrich it and visually demonstrate varied outcomes. Label the strip "作者展示样例 · 视觉拼贴" with "主题方案 / 产品官网 / 工具界面". Small nearby note: "样例用于观察风格，不证明规则带来的提升。"
+
+Design the infographic as one connected overview, with these clearly numbered modules, exact wording below. Main title large at top:
+"一图读懂 Oil UI"
+Subtitle:
+"AI 前端设计 Skill：能力、原理、差异与复用价值"
+Small version line:
+"研究基线 v0.18.0 · 7987bb38 · 2026-10-09"
+A prominent central takeaway, not a promotional slogan:
+"把专家判断转成可执行步骤，让设计过程有依据可查"
+
+Module 01 header: "能力是什么"
+Short lead: "覆盖生成前、生成中、生成后的设计工作"
+Six compact items:
+"方向探索：从任务、受众与标杆推导表达"
+"方案比较：风格卡片与版式小样"
+"实现指导：排版、视觉语言、素材与动效"
+"规范润色：在现有品牌与组件规则内改善"
+"截图还原：以参考图约束几何与比例"
+"取证评审：看实际画面，提出具体修改"
+Boundary line:
+"业务可靠性与工程质量由项目保障；最终效果依赖模型、素材和实现工具。"
+
+Module 02 header: "原理是什么"
+Show a four-layer architecture with clear relationships:
+"设计协议：SKILL.md + references"
+"宿主执行：模型理解、判断、编码与调用工具"
+"辅助工具：Python 卡片/对比页 + Node 浏览器取证"
+"反馈依据：用户选择、截图、录屏、缺陷与修正"
+Link these to a compact complete workflow ribbon:
+"明确任务 → 4–6 风格卡 → 2–3 版式小样 → 记录方向 → 实现 → 取证 → 评审修正"
+A subtle return arrow from review to implementation, and a separate small selection arrow from user back to direction.
+Important explanatory note:
+"文本规则依赖 Agent 遵守；代码强制部分结构与资源限制，审美仍由人和模型判断。"
+Do NOT visually depict a fully enforced state machine or a new trained model.
+
+Module 03 header: "与模型直接实现的区别"
+Use a balanced two-column comparison, not a winner ranking:
+Left heading "模型直接实现"
+"需求 → 编码 → 查看 → 修改"
+"同样可以产生优秀作品"
+"设计步骤由提示与人工组织"
+Right heading "加入 Oil UI 流程"
+"显式组织任务、候选、取舍与约定"
+"补充对比产物、证据与评审规则"
+"使用同一模型，让过程更可复查"
+Footnote:
+"差异在过程组织；尚未通过对照实验量化质量提升。"
+
+Module 04 header: "约束与创意如何平衡"
+Use two visually differentiated lanes:
+"正确性固定：任务成立、信息可读、保存可靠"
+"表达先开放：构图、色彩、材质、镜头与交互"
+Process phrase:
+"先扩大差异 → 再选择收敛 → 精修保留记忆点"
+Caveat:
+"模板、动效数量与评分包含作者偏好，应按目标取舍。"
+
+Module 05 header: "对我的价值"
+Lead:
+"研究“优秀如何被定义，并被一步步控制”"
+Four method transfers, visually highlight the arrows:
+"模糊感觉 → 可观察的设计决定"
+"重复模板 → 有实质差异的候选"
+"方向漂移 → 有理由的选择与约定"
+"自称完成 → 实际操作与画面证据"
+Closing:
+"沉淀自己的设计控制方法，迁移到 UI、3D 与创意编程。"
+
+Module 06 header: "可扩展方向"
+Small label "研究建议 · 尚未实现"
+Six compact items:
+"设计约定 schema：把部分条件变成校验"
+"阶段状态与门禁：显式记录选择和产物"
+"团队参考库：维护品牌、品味与来源"
+"多维评审：完成度、辨识度、使用代价"
+"联合验收：业务、可访问性、设备性能"
+"工具接入：图像资产、3D 渲染与交互引擎"
+
+Module 07 header: "与已有 3D 研究如何组合"
+Three connected distinct roles:
+"Oil UI：设计决策与评审"
+"Dioramas：资产生成、渲染与编排"
+"Dvor：具体作品与风格化代码"
+A small concrete transfer example:
+"离心泵讲解：固定标注与拆解任务，探索不同镜头和材质，选定后实现，分项验收。"
+Small label:
+"迁移方案待验证；三者没有进行质量排名。"
+
+Near the bottom show an evidence status band, visually calm:
+"已验证：本地工作台操作链与部分工具产物"
+"待验证：约束是否提高质量、是否压低创意上限"
+"下一步：同任务比较自由生成、正确性约束、分阶段流程"
+
+Footer, clearly readable but modest:
+"来源：github.com/oil-oil/oil-ui · 上游示例 © oil-oil / MIT"
+"这张图是研究整理，区分上游事实、我们的判断与扩展建议。"
+
+Constraints: Use the exact Chinese content above, organize with economical line breaks, no meaningless filler text, no fake statistics, no score claims, no guaranteed excellence. No model-versus-method false opposition. Keep all essential modules and caveats. Clear arrow direction, no crossing spaghetti, all text inside canvas, no truncation, no duplicate sections. This is a polished single overview image with recognizable supplied sample art embedded as background/supporting modules.
