@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "舞台方案库、独立项目保存与两种业务共用选择",
+  "storage": {
+    "key": "three-ilda:stage-projects:v1",
+    "scope": "同一浏览器、同一站点",
+    "legacyProjectPreserved": true,
+    "legacyStorageKeyRetained": true,
+    "maximumProjects": 64
+  },
+  "templates": [
+    { "id": "aurora-island", "name": "极光环岛", "objects": 11, "lasers": 4, "screens": 2, "browserLoaded": true, "screenshot": "template-aurora-island.jpg" },
+    { "id": "grand-launch", "name": "镜幕发布厅", "objects": 9, "lasers": 2, "screens": 1, "browserLoaded": true, "screenshot": "template-grand-launch.jpg" },
+    { "id": "runway", "name": "星轨 T 型秀场", "objects": 18, "lasers": 3, "screens": 1, "browserLoaded": true, "screenshot": "template-runway.jpg" },
+    { "id": "exhibition", "name": "三岛环绕展厅", "objects": 12, "lasers": 2, "screens": 3, "browserLoaded": true, "screenshot": "template-exhibition.jpg" },
+    { "id": "studio", "name": "双区直播间", "objects": 10, "lasers": 2, "screens": 2, "browserLoaded": true, "screenshot": "template-studio.jpg" }
+  ],
+  "uiProjects": [
+    {
+      "id": "project-258e284e-8dbe-4f2c-b50e-c8380ab26a41",
+      "name": "星轨秀场 · 定制方案",
+      "revision": 2,
+      "export": "library-project-a.json",
+      "sha256": "17baa7433cff967f5d546b587a1acc2d002b8c92cff8a4420fa7a3ac3d2b9ec2",
+      "rearDeckWidth": 20,
+      "catwalkWidth": 3.6,
+      "frontIslandDepth": 4
+    },
+    {
+      "id": "project-c426ed0a-065b-40b3-939c-519b8d8f2fd8",
+      "name": "星轨秀场 · 宽走台",
+      "revision": 2,
+      "export": "library-project-b.json",
+      "sha256": "74dc350d5fbcc297732ced940a4c58dc82d4b6a0177011addf5175f8698383e5",
+      "rearDeckWidth": 20,
+      "catwalkWidth": 4.8,
+      "frontIslandDepth": 5
+    }
+  ],
+  "browserVerification": {
+    "allFiveTemplatesRenderedAndVisuallyInspected": true,
+    "editedThroughPropertyInputs": true,
+    "saveAsCreatedIndependentId": true,
+    "saveUpdatedSameProjectToRevision2": true,
+    "reopenedOriginalRetainedItsDimensions": true,
+    "exportsValidatedAndComparedWithTemplate": true,
+    "templateRetainedOriginalDimensions": { "rearDeckWidth": 16, "catwalkWidth": 3.6, "frontIslandDepth": 4 },
+    "musicSelectionAutomaticallyUpdatedLaunch": true,
+    "launchSelectionAutomaticallyUpdatedMusic": true,
+    "savingRevision2AutomaticallyUpdatedBothBusinesses": true,
+    "refreshRetainedSharedProjectAndVersion": true,
+    "finalSharedProject": "project-c426ed0a-065b-40b3-939c-519b8d8f2fd8",
+    "finalSharedRevision": 2,
+    "musicTransport": { "playingObservedAtSeconds": [30.1, 49.9], "pausedAtSeconds": 50 },
+    "launchPausedAtSeconds": 10,
+    "consoleWarningsAndErrors": { "builder": [], "music": [], "launch": [] }
+  },
+  "checks": {
+    "nodeTests": { "passed": 78, "failed": 0, "skipped": 0, "newProjectTests": 7 },
+    "viteBuild": "passed",
+    "rootIndexSync": "passed, 15 projects",
+    "rootRepositoryCheck": "passed, 15 projects",
+    "pagesBuild": "passed, 14 local web demos",
+    "developmentHttp": "passed: http://127.0.0.1:5215/",
+    "numberedBuildHttp": "passed: http://127.0.0.1:5217/015-three-ilda/",
+    "httpScope": "22 program hashes and previews, source notices, six pages and linked assets, five template JSON files, 90-second PCM file",
+    "gitDiffCheck": "passed"
+  },
+  "screenshots": ["stage-library.jpg", "stage-library-music.jpg", "stage-library-launch.jpg"],
+  "deliverables": [
+    "http://127.0.0.1:5215/stage.html",
+    "http://127.0.0.1:5215/show.html",
+    "http://127.0.0.1:5215/launch.html"
+  ],
+  "limits": [
+    "项目保存在浏览器本地；没有云端分享、账户或多人协作。",
+    "舞台配置不包含音频、产品、角色或业务时间线。",
+    "本次没有重新验证拖动编辑、全屏、移动端或音频听感。",
+    "五套布局有实际浏览器截图；不表示全部 22 素材已在各布局逐一完成 GPU 验证。"
+  ]
+}

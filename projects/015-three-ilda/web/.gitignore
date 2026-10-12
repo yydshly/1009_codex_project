@@ -1,0 +1,5 @@
+# 上游原始测试路径的自动生成夹具，来源为已保留的 public/upstream/ilda/sylvest.ild
+vendor/three-ilda/examples/
+# These are retained runtime inputs, not the ignored local upstream clone.
+!public/upstream/
+!public/upstream/**

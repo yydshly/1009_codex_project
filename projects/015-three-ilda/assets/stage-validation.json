@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "method": "Node tests with three actual upstream LaserShow instances, delivered PCM WAV and controlled audio context; HTTP delivery and static build; validated serialized stage assets, shared Three.js assembly and independent performance consumption",
+  "nodeTests": {
+    "pass": 65,
+    "fail": 0,
+    "skipped": 0
+  },
+  "stageTests": 6,
+  "verified": [
+    "Five consecutive cue intervals cover all 90 seconds, including exact boundaries and completion",
+    "Three actual LaserShow instances use the same cue-local time and exact scanned sample count after normal playback, pause position, forward/backward seek and replay",
+    "The delivered WAV contains 90 seconds of mono PCM16 at 22050 Hz, a non-silent signal, fades and no clipping",
+    "Controlled audio context verifies pause, seek, volume and mute preserve the master clock semantics",
+    "Pausing during asynchronous decode invalidates stale playback requests",
+    "Completion holds the end position, replay starts at zero and seeking to the end creates no empty playback source",
+    "Stage asset JSON and local storage round-trip with invalid configuration rejection and corruption recovery",
+    "Real Three.js transforms and aperture world coordinates, LaserShow replacement/disposal and pipeline registration cleanup",
+    "Shared layout assembly scans all 22 existing ILDA inputs and an independent performance script consumes five saved devices with individual point rates"
+  ],
+  "pages": [
+    "product.html",
+    "stage.html",
+    "show.html"
+  ],
+  "music": {
+    "file": "stage/aurora-90s.wav",
+    "durationSeconds": 90,
+    "bpm": 112,
+    "sampleRate": 22050,
+    "channels": 1,
+    "bits": 16,
+    "bytes": 3969044,
+    "source": "Original procedural synthesis; no external samples, song, singer or AI voice"
+  },
+  "browserVerification": "Not performed: earlier browser security policy rejected inspection. No new GPU rendering, actual Web Audio playback, screenshots or browser interaction claimed.",
+  "stageLayoutTests": 7
+}

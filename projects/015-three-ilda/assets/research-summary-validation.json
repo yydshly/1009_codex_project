@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10",
+  "change": "汇总既有研究与理解，记录阶段研究完成和后续按需使用；本轮没有新增演出或舞台功能",
+  "page": "web/product.html",
+  "devUrl": "http://127.0.0.1:5215/product.html#summary",
+  "builtUrl": "http://127.0.0.1:5217/015-three-ilda/product.html#summary",
+  "sections": ["阶段结论与三层分工", "后续按需使用的五步流程", "三业务复用实例和已验证能力", "按具体场景扩展与能力边界", "早期讨论备忘录", "示例、配置与研究证据入口"],
+  "changes": ["首页新增阶段汇总入口说明", "根项目摘要更新，done 状态保留", "README、运行说明和研究记录同步", "三张原始截图和五份验证记录随构建交付"],
+  "checks": {
+    "viteBuild": "通过：62 模块、7 HTML 入口",
+    "indexSync": "通过",
+    "rootCheck": "通过：15 个项目",
+    "pagesBuild": "通过：14 个本地 Web 演示",
+    "httpDevAndNumberedPath": "均通过；8 份记录与原始资产逐字节一致，页面相对脚本和样式可请求",
+    "existingNodeSuite": "上轮 104 项已通过，本轮是网页与文档变更，未新增或重复执行 Node 业务测试"
+  },
+  "browser": {
+    "tool": "CUA in-app browser",
+    "verified": ["首屏完成状态和三层关系图实际呈现", "导航到复用实例", "叶轮原始截图加载，naturalWidth=790", "三业务链接指向已有页面", "讨论备忘录展开与收拢", "构建后的编号路径实际呈现阶段结论", "页面无水平溢出，scrollWidth-clientWidth=0"],
+    "consoleErrors": [],
+    "screenshot": "research-summary.jpg"
+  },
+  "limits": ["本轮未重新检查业务播放、GPU 像素或声音听感", "本轮未单独验收手机布局或性能", "只完成本地网页、构建与汇总，未发布线上"]
+}

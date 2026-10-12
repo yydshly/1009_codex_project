@@ -1,0 +1,78 @@
+{
+  "verifiedAt": "2026-10-10T09:31:39.590Z",
+  "task": "002 三维泵接入已有展台：旋转、展开、真实模型点选与屏幕同步讲解",
+  "source": {
+    "model": "projects/002-dioramas/web/pump-model.js",
+    "modelSha256": "e92179c45070a2858dd8cad2564ebc08e746e1fbc409e4f46c94fb1e4953f837",
+    "parts": "projects/002-dioramas/web/pump-parts.js",
+    "partsSha256": "caad38ccbf44f3a0d65174222abdbdf859abe86a6452d454f33f34700e876bcb",
+    "origin": "002 的本地程序生成简化教学模型；没有引入 Dioramas 上游模型或引擎",
+    "three002": "0.186.1",
+    "three015": "0.185.0",
+    "reuse": "002 scene.js 和 015 pump-content.js 直接调用同一源工厂，由各自宿主注入 THREE"
+  },
+  "stage": {
+    "projectId": "project-b9c1be2a-01a1-4090-b65b-a5008408c630",
+    "name": "三岛展台 · 海豚与流光",
+    "revision": 4,
+    "devices": 2,
+    "screens": 3,
+    "slot": "exhibit-slot-1",
+    "effects": [
+      "upstream-dolphin",
+      "upstream-plasma2"
+    ],
+    "configurationSha256": "bd6c17af25f02b045ff548c938bbc0b8a2034d561e7cb767c585ec99e56b8ee7",
+    "savedConfigurationModified": false
+  },
+  "checks": {
+    "node": {
+      "passed": 96,
+      "failed": 0,
+      "newPumpCases": 6
+    },
+    "builds": [
+      "002 Vite 8.3.4: 35 modules",
+      "015 Vite 6.4.3: 59 modules, 7 HTML entries"
+    ],
+    "root": "index:sync/check: 15 projects; pages:build: 14 Web demos",
+    "http": [
+      "http://127.0.0.1:5215/",
+      "http://127.0.0.1:5217/015-three-ilda/"
+    ]
+  },
+  "browser": {
+    "tool": "CUA in-app browser",
+    "dev": "http://127.0.0.1:5215/pump.html#pump-viewport",
+    "production": "http://127.0.0.1:5217/015-three-ilda/pump.html",
+    "consoleErrors": [],
+    "verified": [
+      "整机、展开 100% 和透明流向模式实际渲染",
+      "实际画布点选驱动电机，面板与三屏同步更新",
+      "面板选机械密封与叶轮，屏幕文字同步",
+      "键盘操作旋转滑块至 180°，展开滑块至 100%",
+      "自动旋转后角度持续更新，可停止",
+      "暂停与继续激光效果",
+      "三业务选择器同时从 v4 改为双区直播间，音乐与发布会同步读取 2 激光/2 屏幕",
+      "恢复原 v4 后音乐、发布会与讲解均显示 DOLPHIN / PLASMA2",
+      "编号子路径：默认环岛 4 激光/2 屏幕，展开与叶轮讲解成功",
+      "002 原构建版：结构展开 85%，流向模式收拢至 0%，选择叶轮；无 console error"
+    ],
+    "warnings": [
+      "Windows GPU 编译器的浮点舍入精度 info-log 警告；未出现 shader compile error，实际渲染正常"
+    ],
+    "scope": "本地桌面浏览器实测；没有宣称真实硬件、流体仿真、手机性能或上游 20 案例完整运行"
+  },
+  "screenshots": [
+    {
+      "path": "assets/pump-exhibit-exploded.jpg",
+      "sha256": "6e8e24fbbf047a9ed33bb30b146e52814d27355cfba6073a7d9333f53613dcfb",
+      "description": "实际 v4 展台结构近景：六部件展开、叶轮选中、屏幕同步解释；浏览器原始截图"
+    },
+    {
+      "path": "assets/pump-exhibit-wide.jpg",
+      "sha256": "afcf7e36c61c59b54d51b426079cc774edde3d451d7ca08cd2dc6bf62fdc27ef",
+      "description": "同一 v4 展台的全景；浏览器原始截图"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-10",
+  "scope": "研究理解的一图汇总、实际截图展示与产品探索地图；本轮没有新增所列业务功能",
+  "page": "product.html#overview",
+  "outputs": {
+    "vector": "research-overview.svg",
+    "png": "research-overview.png",
+    "width": 1920,
+    "height": 3780,
+    "browserPosterScreenshot": "research-overview-browser.jpg",
+    "pageScreenshot": "research-overview-page.jpg",
+    "source": "../web/scripts/generate-overview.mjs"
+  },
+  "content": {
+    "libraryValue": "可控制、可嵌入的实时激光效果：ILDA 解析、扫描、轨迹、残影、辉光与空气光束",
+    "localExtension": "可复用舞台搭建、模板与独立项目、设备与内容插槽、效果绑定和 JSON",
+    "verifiedExamples": ["90 秒音乐演出", "60 秒产品发布会", "108 秒 002 泵讲解"],
+    "explorationCategories": 16,
+    "explorationIdeas": 64,
+    "explorationStatus": "延伸设想，尚未完成产品与商业验证",
+    "embeddedOriginalPhotographs": ["preview.jpg", "stage-entry-exhibit.jpg"],
+    "includes": ["已实现与探索分工", "按需使用流程", "素材与授权边界", "技术边界", "可探索商业路径"]
+  },
+  "verification": {
+    "svgNativeNodeGeneration": "passed; self-contained SVG, two original JPEGs embedded as data URLs",
+    "pngExport": "passed; local optional sharp 0.35.5 with Microsoft YaHei",
+    "pngVisualInspection": "passed; Chinese text, photographs and complete poster visible",
+    "browserSvgCategoryCount": 16,
+    "browserSvgIdeaCount": 64,
+    "browserSvgTextOutsideCanvas": [],
+    "viteBuild": "passed; 62 modules, 7 HTML entries",
+    "rootIndexSync": "passed; 15 projects",
+    "rootCheck": "passed",
+    "pagesBuild": "passed; 14 demos",
+    "devHttp": "passed; 12 records delivered byte-for-byte, including PNG and SVG",
+    "numberedHttp": "passed; http://127.0.0.1:5217/015-three-ilda/; 12 records delivered byte-for-byte",
+    "devPagePosterLoaded": true,
+    "numberedPagePosterLoaded": true,
+    "pageHorizontalOverflow": false,
+    "numberedPageHorizontalOverflow": false,
+    "pageConsoleErrors": [],
+    "numberedPageConsoleErrors": [],
+    "vectorLink": "clicked; standalone SVG opened with complete title and description",
+    "downloadLinks": "PNG and SVG href and download attributes present; HTTP bytes verified",
+    "fullPosterBrowserCapture": "passed; numbered SVG rendered and captured at full page"
+  },
+  "notes": [
+    "直接 SVG 预览时记录到一条辅助脚本错误：Cannot use 'in' operator to search for 'animation' in undefined；SVG 本身不包含脚本，文字与图片正常显示。开发与构建主页面未记录控制台错误。",
+    "本轮没有重复既有 104 项 Node 功能测试，没有新增声音听感、全部节目 GPU 或目标设备性能验收。",
+    "临时编号路径服务验证后停止，原 5215 开发服务与用户网页保留。"
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "verifiedOn": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "22 个现有节目可绑定展台激光设备，随独立舞台项目保存，并由音乐演出与产品发布会沿用。",
+  "compatibility": {
+    "schemaVersion": 1,
+    "missingEffectMode": "business",
+    "savedEffectsMode": "stage",
+    "businessCuesMode": "business"
+  },
+  "project": {
+    "id": "project-b9c1be2a-01a1-4090-b65b-a5008408c630",
+    "name": "三岛展台 · 海豚与流光",
+    "revision": 4,
+    "effectMode": "stage",
+    "bindings": [
+      {
+        "device": "laser-1",
+        "program": "upstream-dolphin",
+        "pointRate": 7000,
+        "intensity": 1.2,
+        "beamIntensity": 0.45,
+        "position": [-6, 3.5, -2.4],
+        "size": [3.8, 3.6, 0.1],
+        "rotationY": 20,
+        "aperture": [0, -2.5, 7]
+      },
+      {
+        "device": "laser-2",
+        "program": "upstream-plasma2",
+        "pointRate": 8500,
+        "intensity": 1.2,
+        "beamIntensity": 0.45,
+        "position": [6, 3.5, -2.4],
+        "size": [3.8, 3.6, 0.1],
+        "rotationY": -20,
+        "aperture": [0, -2.5, 7]
+      }
+    ],
+    "export": "stage-effects-export.json",
+    "publicExample": "web/public/stages/exhibition-effects.json",
+    "sha256": "bd6c17af25f02b045ff548c938bbc0b8a2034d561e7cb767c585ec99e56b8ee7",
+    "identicalCopies": ["assets/stage-effects-export.json", "web/public/stages/exhibition-effects.json", "web/dist/stages/exhibition-effects.json", "_site/015-three-ilda/stages/exhibition-effects.json"],
+    "containsBusinessTimelineOrAudio": false
+  },
+  "browser": {
+    "baseUrl": "http://127.0.0.1:5215/",
+    "galleryCount": 22,
+    "observedFlow": [
+      "在展厅模板草稿中对全部设备接入 DOLPHIN，再单独把激光设备 2 改为 PLASMA2。",
+      "另存为独立项目 v1；音乐与发布会选择同一项目，显示沿用展台效果 DOLPHIN / PLASMA2。",
+      "切换业务编排并保存 v2，两个业务页面无需手动刷新就显示光效来源：业务编排。",
+      "切回沿用展台效果并保存 v3，两个业务页面自动恢复同一套 DOLPHIN / PLASMA2。",
+      "通过搭建器修改两台设备的投影面和投影口，使效果位于两侧展台屏幕前；保存 v4，两个业务页面自动收到更新。",
+      "通过搭建器下载最终 JSON，并确认效果、尺寸、位置及设备参数在导出文件中保留。",
+      "重新加载搭建器后仍选中同一 v4 项目，预览可播放。"
+    ],
+    "music": {
+      "page": "show.html",
+      "finalPausedSeconds": 10.1,
+      "observedPlaybackSeconds": [10.1, 75.1],
+      "effectSummary": "沿用展台效果：DOLPHIN / PLASMA2",
+      "consoleWarningsAndErrors": []
+    },
+    "launch": {
+      "page": "launch.html",
+      "finalPausedSeconds": 10,
+      "observedPlaybackSeconds": [10, 60],
+      "effectSummary": "沿用展台效果：DOLPHIN / PLASMA2",
+      "consoleWarningsAndErrors": []
+    },
+    "builderConsoleWarningsAndErrors": [],
+    "screenshots": ["stage-effects-builder.jpg", "stage-effects-music.jpg", "stage-effects-launch.jpg"],
+    "clockPolicy": "舞台配置与设备效果复用；两个业务保留各自的内容和播放时钟，未实现跨页面同步播放。"
+  },
+  "checks": {
+    "tests": {"passed": 84, "failed": 0, "skipped": 0, "newStageEffectTests": 6},
+    "realProgramCoverage": "22 个真实节目均完成加载、解析与扫描验证；包含调色板、有效轨迹、暂停及前后跳转。",
+    "viteBuild": "passed",
+    "indexSync": {"status": "passed", "projects": 15},
+    "repoCheck": {"status": "passed", "projects": 15},
+    "pagesBuild": {"status": "passed", "webProjects": 14},
+    "devHttp": {"status": "passed", "url": "http://127.0.0.1:5215/"},
+    "numberedBuildHttp": {"status": "passed", "url": "http://127.0.0.1:5217/015-three-ilda/"},
+    "gitDiffCheck": "passed"
+  },
+  "verificationLimits": [
+    "实际浏览器视觉验证使用 DOLPHIN 和 PLASMA2；不宣称逐一验证了全部 22 个节目的 GPU 画面。",
+    "未验证真实激光硬件输出、移动端、全屏或音频听感。",
+    "独立项目保存在当前浏览器；JSON 可导出和导入，未增加云端协作。"
+  ]
+}

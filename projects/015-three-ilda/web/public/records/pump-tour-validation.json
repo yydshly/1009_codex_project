@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-10",
+  "scope": "本地自动产品结构讲解；未发布线上",
+  "durationSeconds": 108,
+  "sequence": ["整机", "驱动电机", "联轴器", "机械密封", "叶轮", "叶轮腔", "进水口", "流向总结"],
+  "sharedStage": {
+    "name": "三岛展台 · 海豚与流光",
+    "revision": 4,
+    "lasers": 2,
+    "screens": 3,
+    "slot": "exhibit-slot-1",
+    "programs": ["upstream-dolphin", "upstream-plasma2"],
+    "sourceFile": "web/public/stages/exhibition-effects.json",
+    "sha256": "bd6c17af25f02b045ff548c938bbc0b8a2034d561e7cb767c585ec99e56b8ee7",
+    "configurationUnchanged": true
+  },
+  "browser": {
+    "devUrl": "http://127.0.0.1:5215/pump.html",
+    "builtUrl": "http://127.0.0.1:5217/015-three-ilda/pump.html?tour=1#pump-tour",
+    "continuousRun": "从整机重播，不跳段，连续到 01:48；观察到密封、叶轮腔、流向总结和完成状态，另逐章检查全部六部件的高亮与屏幕文案",
+    "completion": {"time": "01:48 / 01:48", "rotation": "30°", "explode": "0%", "playButton": "再看完整介绍", "note": "完整介绍结束 · 六个部件已介绍完毕，可重播或自由探索"},
+    "pauseResume": "00:57 暂停，后续读数仍为 00:57 / 旋转 -52° / 展开 85%；继续返回叶轮章节",
+    "chapterSeek": "六章节的部件 ID、标题与屏幕一致；播放中跳段继续，暂停跳段保持暂停",
+    "manualTakeover": "点选电机后讲解暂停并同步普通部件说明；继续返回原叶轮章节",
+    "progressAndReplay": "进度条 End 到 01:48 显示完成；播放按钮从整机 00:00 重播",
+    "builtTemplate": "汇总路径实际渲染极光环岛；再切双区直播间，自动讲解重置暂停，开始并跳到密封，产品插槽 product-slot 和两面屏幕同步",
+    "voice": "本机中文声音选项可用，勾选后继续讲解，无错误日志；未试听或验证完整语音听感",
+    "errorLogs": [],
+    "screenshot": "pump-tour-impeller.jpg"
+  },
+  "checks": {
+    "nodeTests": {"passed": 104, "failed": 0, "skipped": 0, "newTourTests": 8},
+    "build": "015 Vite 构建通过，7 个 HTML 入口 / 62 模块",
+    "root": "index:sync、check、pages:build 通过；15 个项目 / 14 个本地 Web 演示",
+    "http": "开发地址与汇总编号子路径通过：22 节目哈希、预览、来源文件、页面控制和入口相对 JS/CSS",
+    "cpuCoverage": "完整脚本与时钟边界、五模板的真实部件世界坐标边界与舞台隔离、本机语音取消 / 过期回调 / 声音消失 / 异常降级"
+  },
+  "limits": ["语音取决于浏览器本机中文声音，未验证听感", "后台暂停处理已实现，未单独通过浏览器切到后台实测", "没有逐一 GPU 检查所有 22 节目在每个部件镜头下的效果", "模型与流向为既有简化教学示意，非实际产品规格或流体仿真"]
+}

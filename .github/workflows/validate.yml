@@ -98,5 +98,11 @@ jobs:
       - name: 检查中文 Token 音乐短片完整研究
         working-directory: projects/014-chinese-token-cinema/web
         run: npm run check
+      - name: 构建与检查 Three ILDA 激光、舞台和内容复用研究
+        working-directory: projects/015-three-ilda/web
+        run: |
+          npm ci
+          npm run check
+          npm run build
       - run: npm run check
       - run: npm run pages:build

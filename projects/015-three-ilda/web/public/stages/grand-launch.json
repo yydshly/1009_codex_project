@@ -1,0 +1,182 @@
+{
+  "kind": "ilda-virtual-stage",
+  "version": 1,
+  "name": "镜幕发布厅",
+  "theme": "gallery",
+  "objects": [
+    {
+      "id": "launch-deck",
+      "type": "platform",
+      "name": "发布会主台",
+      "color": "#253a50",
+      "position": [
+        0,
+        0.3,
+        0
+      ],
+      "size": [
+        18,
+        0.6,
+        9
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "launch-step",
+      "type": "platform",
+      "name": "前侧台阶",
+      "color": "#40586a",
+      "position": [
+        0,
+        0.12,
+        5.3
+      ],
+      "size": [
+        12,
+        0.24,
+        1.5
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "display-plinth",
+      "type": "platform",
+      "name": "右侧产品展台",
+      "color": "#69594a",
+      "position": [
+        3,
+        1,
+        1.5
+      ],
+      "size": [
+        3.2,
+        0.8,
+        3.2
+      ],
+      "rotationY": 0,
+      "shape": "round"
+    },
+    {
+      "id": "product-slot",
+      "type": "slot",
+      "name": "产品内容插槽",
+      "color": "#e8bd85",
+      "position": [
+        3,
+        1.5,
+        1.5
+      ],
+      "size": [
+        2.2,
+        0.15,
+        2.2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "main-screen",
+      "type": "screen",
+      "name": "宽幅发布主屏",
+      "color": "#183e49",
+      "position": [
+        0,
+        4,
+        -3.8
+      ],
+      "size": [
+        15,
+        6,
+        0.2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "left-pillar",
+      "type": "truss",
+      "name": "左侧立柱",
+      "color": "#536f83",
+      "position": [
+        -8,
+        4,
+        -3.8
+      ],
+      "size": [
+        0.3,
+        7.5,
+        0.3
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "right-pillar",
+      "type": "truss",
+      "name": "右侧立柱",
+      "color": "#536f83",
+      "position": [
+        8,
+        4,
+        -3.8
+      ],
+      "size": [
+        0.3,
+        7.5,
+        0.3
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "laser-1",
+      "type": "laser",
+      "name": "激光设备 1",
+      "color": "#8abbe2",
+      "position": [
+        -5,
+        6.8,
+        -3
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": 0,
+      "program": "corners",
+      "aperture": [
+        0,
+        -5.8,
+        7
+      ],
+      "pointRate": 7000,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    },
+    {
+      "id": "laser-2",
+      "type": "laser",
+      "name": "激光设备 2",
+      "color": "#8abbe2",
+      "position": [
+        5,
+        6.8,
+        -3
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": 0,
+      "program": "light-flower",
+      "aperture": [
+        0,
+        -5.8,
+        7
+      ],
+      "pointRate": 8500,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    }
+  ]
+}

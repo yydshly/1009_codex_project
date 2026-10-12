@@ -1,0 +1,194 @@
+{
+  "date": "2026-10-10",
+  "commit": "6044b91d120cc01f73bdaebed4f7e4d03feb0d2f",
+  "upstreamCount": 18,
+  "originalCount": 4,
+  "nodeTests": {
+    "pass": 46,
+    "fail": 0,
+    "skipped": 0
+  },
+  "samples": [
+    {
+      "name": "0HNY",
+      "file": "0HNY.ild",
+      "bytes": 215832,
+      "frames": 25,
+      "points": 26875,
+      "sha256": "2cfe222090276d69316866a4b5b0296b8caf24a878eebb00509562e3ffb8a850",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "BRONCO",
+      "file": "BRONCO.ild",
+      "bytes": 1104872,
+      "frames": 173,
+      "points": 137413,
+      "sha256": "92d5189805c01652d87038060f2c4c0f5fb695cf7949f899448df6ced3cdeda3",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "cogz99",
+      "file": "cogz99.ild",
+      "bytes": 319896,
+      "frames": 25,
+      "points": 39883,
+      "sha256": "38542ce950811cb55142216a83001a209436eea2f8a94e6972045e80ed32ccb0",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "dancer",
+      "file": "dancer.ild",
+      "bytes": 5309368,
+      "frames": 641,
+      "points": 661103,
+      "sha256": "d263580ec3a91fd771f054ba6bd10146e498980935cf1d747ac08bc38cb2aff2",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "djsimple",
+      "file": "djsimple.ild",
+      "bytes": 3935024,
+      "frames": 303,
+      "points": 490662,
+      "sha256": "f014ac689892794fae9f0fb71b9cfb51e19402c10a32ff93160b0cd5e8e19d8a",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "DOLPHIN",
+      "file": "DOLPHIN.ILD",
+      "bytes": 448944,
+      "frames": 64,
+      "points": 55862,
+      "sha256": "c9f583c7761ec2a2725d269e8c33daf645f3480ddb20ebbbd1457ee7a288cfb5",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "LEAP",
+      "file": "LEAP.ild",
+      "bytes": 415808,
+      "frames": 40,
+      "points": 51812,
+      "sha256": "8adc3d4a34e3d76520f105fdf5d372d45b924442681d0c1e6721cac5a55c2be5",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "LILGRL",
+      "file": "LILGRL.ild",
+      "bytes": 140656,
+      "frames": 15,
+      "points": 17518,
+      "sha256": "4794b47eac9a08b60ad0c4dbfb3cfdf9638c7e0115ff7901ad064f50100cac2c",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "motorcycle2",
+      "file": "motorcycle2.ild",
+      "bytes": 4587640,
+      "frames": 517,
+      "points": 571383,
+      "sha256": "60b0da26301113b221d90d4bbef6b73a1539da9ba0a40047f01e66340486edca",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "MSQUITO1",
+      "file": "MSQUITO1.ild",
+      "bytes": 525976,
+      "frames": 58,
+      "points": 65511,
+      "sha256": "5c8397a92acc3342151a0a23eed5183059a8686e72fab80885014a0ad4cca06c",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "OSCRTD",
+      "file": "OSCRTD.ild",
+      "bytes": 4567720,
+      "frames": 467,
+      "points": 569093,
+      "sha256": "e261cb042249b99b95fd680e75ebe03a98746290ea0bae3f3190232c449a8384",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "paperair",
+      "file": "paperair.ild",
+      "bytes": 181112,
+      "frames": 34,
+      "points": 22499,
+      "sha256": "fe424598ef489ec1f8bc48284d7462dcda52b4b52e5e946510266e822870f224",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "PLASMA2",
+      "file": "PLASMA2.ild",
+      "bytes": 631208,
+      "frames": 60,
+      "points": 78657,
+      "sha256": "b17c4895718b53509df21a6a2ffd1c26368f56e3f80f9261b233cb8e1d632289",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "robogirl",
+      "file": "robogirl.ild",
+      "bytes": 4502984,
+      "frames": 428,
+      "points": 561157,
+      "sha256": "a2dc9f63e30a5bd1ecb4beb141db886aa0ca28407f29a2c71922d677c5e8ee46",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "twPOOLIN",
+      "file": "twPOOLIN.ild",
+      "bytes": 481464,
+      "frames": 73,
+      "points": 59887,
+      "sha256": "75cf5d363a5f97440ae5ce81389c786daba4559a111f5320e78e28324776f948",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "weCHIPS6",
+      "file": "weCHIPS6.ild",
+      "bytes": 583096,
+      "frames": 67,
+      "points": 72615,
+      "sha256": "c6ea437c4ed393ed0e01410e1ecc9ea3f382563b4edec5dd102e7b5f2e867dcf",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "WIWilburPlane",
+      "file": "WIWilburPlane.ild",
+      "bytes": 2406920,
+      "frames": 360,
+      "points": 299421,
+      "sha256": "e5a097d908cf00c0c534f24e7bf4f628acaf2da4ad7eaf8e457f987e8064e8a9",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    },
+    {
+      "name": "Sylvester",
+      "file": "sylvest.ild",
+      "bytes": 779440,
+      "frames": 121,
+      "points": 96942,
+      "sha256": "77394624d5a82741931b2fe6a44a1e73a2152ab04f2df15aa0fe3d86d3f1cf42",
+      "matchesUpstream": true,
+      "cpuGeometryTest": "passed"
+    }
+  ],
+  "browserVerification": "新列表未自动操作；先前浏览器安全策略拒绝该页面检查，提示 URL 协议不被允许。初版 GPU 自检保留，不能代表18个新节目已逐个GPU实测。"
+}

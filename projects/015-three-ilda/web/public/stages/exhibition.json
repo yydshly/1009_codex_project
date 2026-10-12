@@ -1,0 +1,234 @@
+{
+  "kind": "ilda-virtual-stage",
+  "version": 1,
+  "name": "三岛环绕展厅",
+  "theme": "gallery",
+  "objects": [
+    {
+      "id": "hall-floor",
+      "type": "platform",
+      "name": "展厅地台",
+      "color": "#213c3c",
+      "position": [
+        0,
+        0.15,
+        0
+      ],
+      "size": [
+        20,
+        0.3,
+        12
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "display-island-0",
+      "type": "platform",
+      "name": "独立展岛 1",
+      "color": "#66553e",
+      "position": [
+        -6,
+        0.8,
+        0
+      ],
+      "size": [
+        4,
+        0.9,
+        4
+      ],
+      "rotationY": 0,
+      "shape": "round"
+    },
+    {
+      "id": "display-island-1",
+      "type": "platform",
+      "name": "独立展岛 2",
+      "color": "#66553e",
+      "position": [
+        0,
+        0.8,
+        1.5
+      ],
+      "size": [
+        4,
+        0.9,
+        4
+      ],
+      "rotationY": 0,
+      "shape": "round"
+    },
+    {
+      "id": "display-island-2",
+      "type": "platform",
+      "name": "独立展岛 3",
+      "color": "#66553e",
+      "position": [
+        6,
+        0.8,
+        0
+      ],
+      "size": [
+        4,
+        0.9,
+        4
+      ],
+      "rotationY": 0,
+      "shape": "round"
+    },
+    {
+      "id": "exhibit-slot-0",
+      "type": "slot",
+      "name": "展品插槽 1",
+      "color": "#e8bd85",
+      "position": [
+        -6,
+        1.4,
+        0
+      ],
+      "size": [
+        2,
+        0.15,
+        2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "exhibit-slot-1",
+      "type": "slot",
+      "name": "展品插槽 2",
+      "color": "#e8bd85",
+      "position": [
+        0,
+        1.4,
+        1.5
+      ],
+      "size": [
+        2,
+        0.15,
+        2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "exhibit-slot-2",
+      "type": "slot",
+      "name": "展品插槽 3",
+      "color": "#e8bd85",
+      "position": [
+        6,
+        1.4,
+        0
+      ],
+      "size": [
+        2,
+        0.15,
+        2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "left-panel",
+      "type": "screen",
+      "name": "展厅左屏",
+      "color": "#183e49",
+      "position": [
+        -6,
+        3.5,
+        -3
+      ],
+      "size": [
+        4,
+        4,
+        0.2
+      ],
+      "rotationY": 18
+    },
+    {
+      "id": "middle-panel",
+      "type": "screen",
+      "name": "展厅中屏",
+      "color": "#183e49",
+      "position": [
+        0,
+        3.5,
+        -2
+      ],
+      "size": [
+        4,
+        4,
+        0.2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "right-panel",
+      "type": "screen",
+      "name": "展厅右屏",
+      "color": "#183e49",
+      "position": [
+        6,
+        3.5,
+        -3
+      ],
+      "size": [
+        4,
+        4,
+        0.2
+      ],
+      "rotationY": -18
+    },
+    {
+      "id": "laser-1",
+      "type": "laser",
+      "name": "激光设备 1",
+      "color": "#8abbe2",
+      "position": [
+        -6,
+        5.8,
+        -2
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": 20,
+      "program": "corners",
+      "aperture": [
+        0,
+        -4.8,
+        7
+      ],
+      "pointRate": 7000,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    },
+    {
+      "id": "laser-2",
+      "type": "laser",
+      "name": "激光设备 2",
+      "color": "#8abbe2",
+      "position": [
+        6,
+        5.8,
+        -2
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": -20,
+      "program": "light-flower",
+      "aperture": [
+        0,
+        -4.8,
+        7
+      ],
+      "pointRate": 8500,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    }
+  ]
+}

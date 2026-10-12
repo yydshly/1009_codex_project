@@ -1,0 +1,4 @@
+# Preserve retained upstream files byte for byte, including line endings.
+vendor/three-ilda/** -text
+public/upstream/** -text
+public/licenses/three-ilda.txt -text

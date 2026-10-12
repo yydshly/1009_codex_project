@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-10",
+  "method": "Node tests scan all 22 actual ILDA files with the upstream LaserScanner and exercise LaserShow playback; no browser automation or GPU execution",
+  "nodeTests": { "pass": 52, "fail": 0, "skipped": 0 },
+  "carouselTests": 6,
+  "verified": [
+    "All 22 actual files scan every point of every frame exactly once before advancing in catalog order and wrapping to the first",
+    "Final update stops at the last point without scanning into the next cycle; final displayed frame remains the last frame",
+    "Paused playback and hidden page preserve integer and fractional scan progress; point-rate changes never truncate the program",
+    "One transition per async load; manual selection starts a fresh full program and continues from its catalog position",
+    "Seek, paused retuning, restart and track changes realign completion to the actual upstream scanner",
+    "Disabling allows the current program to loop; re-enabling restarts it for complete playback",
+    "Single-frame input and fractional-point timing do not cause early completion"
+  ],
+  "default": { "enabled": true, "first": "upstream-0hny", "startFrame": 0, "cyclesPerProgram": 1, "loopAllPrograms": true },
+  "completion": "Actual scanned point count for the selected track, with final update delta capped at the cycle boundary",
+  "browserVerification": "Not performed: prior browser security policy rejected page inspection (URL protocol not allowed)."
+}

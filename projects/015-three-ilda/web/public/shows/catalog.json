@@ -1,0 +1,432 @@
+[
+  {
+    "id": "upstream-0hny",
+    "name": "0HNY",
+    "file": "upstream/ilda/0HNY.ild",
+    "previewFrame": 8,
+    "track": 0,
+    "origin": "upstream",
+    "en": "0HNY.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 25,
+    "totalPoints": 26875,
+    "tracks": [
+      0
+    ],
+    "bytes": 215832,
+    "sha256": "2cfe222090276d69316866a4b5b0296b8caf24a878eebb00509562e3ffb8a850",
+    "note": "25 帧 · 26,875 点",
+    "preview": "previews/upstream-0hny.svg"
+  },
+  {
+    "id": "upstream-bronco",
+    "name": "BRONCO",
+    "file": "upstream/ilda/BRONCO.ild",
+    "previewFrame": 57,
+    "track": 0,
+    "origin": "upstream",
+    "en": "BRONCO.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 173,
+    "totalPoints": 137413,
+    "tracks": [
+      0
+    ],
+    "bytes": 1104872,
+    "sha256": "92d5189805c01652d87038060f2c4c0f5fb695cf7949f899448df6ced3cdeda3",
+    "note": "173 帧 · 137,413 点",
+    "preview": "previews/upstream-bronco.svg"
+  },
+  {
+    "id": "upstream-cogz99",
+    "name": "cogz99",
+    "file": "upstream/ilda/cogz99.ild",
+    "previewFrame": 8,
+    "track": 0,
+    "origin": "upstream",
+    "en": "cogz99.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 25,
+    "totalPoints": 39883,
+    "tracks": [
+      0
+    ],
+    "bytes": 319896,
+    "sha256": "38542ce950811cb55142216a83001a209436eea2f8a94e6972045e80ed32ccb0",
+    "note": "25 帧 · 39,883 点",
+    "preview": "previews/upstream-cogz99.svg"
+  },
+  {
+    "id": "upstream-dancer",
+    "name": "dancer",
+    "file": "upstream/ilda/dancer.ild",
+    "previewFrame": 213,
+    "track": 0,
+    "origin": "upstream",
+    "en": "dancer.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 641,
+    "totalPoints": 661103,
+    "tracks": [
+      0
+    ],
+    "bytes": 5309368,
+    "sha256": "d263580ec3a91fd771f054ba6bd10146e498980935cf1d747ac08bc38cb2aff2",
+    "note": "641 帧 · 661,103 点",
+    "preview": "previews/upstream-dancer.svg"
+  },
+  {
+    "id": "upstream-djsimple",
+    "name": "djsimple",
+    "file": "upstream/ilda/djsimple.ild",
+    "previewFrame": 101,
+    "track": 0,
+    "origin": "upstream",
+    "en": "djsimple.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 303,
+    "totalPoints": 490662,
+    "tracks": [
+      0
+    ],
+    "bytes": 3935024,
+    "sha256": "f014ac689892794fae9f0fb71b9cfb51e19402c10a32ff93160b0cd5e8e19d8a",
+    "note": "303 帧 · 490,662 点",
+    "preview": "previews/upstream-djsimple.svg"
+  },
+  {
+    "id": "upstream-dolphin",
+    "name": "DOLPHIN",
+    "file": "upstream/ilda/DOLPHIN.ILD",
+    "previewFrame": 21,
+    "track": 0,
+    "origin": "upstream",
+    "en": "DOLPHIN.ILD",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 64,
+    "totalPoints": 55862,
+    "tracks": [
+      0
+    ],
+    "bytes": 448944,
+    "sha256": "c9f583c7761ec2a2725d269e8c33daf645f3480ddb20ebbbd1457ee7a288cfb5",
+    "note": "64 帧 · 55,862 点",
+    "preview": "previews/upstream-dolphin.svg"
+  },
+  {
+    "id": "upstream-leap",
+    "name": "LEAP",
+    "file": "upstream/ilda/LEAP.ild",
+    "previewFrame": 13,
+    "track": 0,
+    "origin": "upstream",
+    "en": "LEAP.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 40,
+    "totalPoints": 51812,
+    "tracks": [
+      0
+    ],
+    "bytes": 415808,
+    "sha256": "8adc3d4a34e3d76520f105fdf5d372d45b924442681d0c1e6721cac5a55c2be5",
+    "note": "40 帧 · 51,812 点",
+    "preview": "previews/upstream-leap.svg"
+  },
+  {
+    "id": "upstream-lilgrl",
+    "name": "LILGRL",
+    "file": "upstream/ilda/LILGRL.ild",
+    "previewFrame": 5,
+    "track": 0,
+    "origin": "upstream",
+    "en": "LILGRL.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 15,
+    "totalPoints": 17518,
+    "tracks": [
+      0
+    ],
+    "bytes": 140656,
+    "sha256": "4794b47eac9a08b60ad0c4dbfb3cfdf9638c7e0115ff7901ad064f50100cac2c",
+    "note": "15 帧 · 17,518 点",
+    "preview": "previews/upstream-lilgrl.svg"
+  },
+  {
+    "id": "upstream-motorcycle2",
+    "name": "motorcycle2",
+    "file": "upstream/ilda/motorcycle2.ild",
+    "previewFrame": 172,
+    "track": 0,
+    "origin": "upstream",
+    "en": "motorcycle2.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 517,
+    "totalPoints": 571383,
+    "tracks": [
+      0
+    ],
+    "bytes": 4587640,
+    "sha256": "60b0da26301113b221d90d4bbef6b73a1539da9ba0a40047f01e66340486edca",
+    "note": "517 帧 · 571,383 点",
+    "preview": "previews/upstream-motorcycle2.svg"
+  },
+  {
+    "id": "upstream-msquito1",
+    "name": "MSQUITO1",
+    "file": "upstream/ilda/MSQUITO1.ild",
+    "previewFrame": 19,
+    "track": 0,
+    "origin": "upstream",
+    "en": "MSQUITO1.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 58,
+    "totalPoints": 65511,
+    "tracks": [
+      0
+    ],
+    "bytes": 525976,
+    "sha256": "5c8397a92acc3342151a0a23eed5183059a8686e72fab80885014a0ad4cca06c",
+    "note": "58 帧 · 65,511 点",
+    "preview": "previews/upstream-msquito1.svg"
+  },
+  {
+    "id": "upstream-oscrtd",
+    "name": "OSCRTD",
+    "file": "upstream/ilda/OSCRTD.ild",
+    "previewFrame": 155,
+    "track": 0,
+    "origin": "upstream",
+    "en": "OSCRTD.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 467,
+    "totalPoints": 569093,
+    "tracks": [
+      0
+    ],
+    "bytes": 4567720,
+    "sha256": "e261cb042249b99b95fd680e75ebe03a98746290ea0bae3f3190232c449a8384",
+    "note": "467 帧 · 569,093 点",
+    "preview": "previews/upstream-oscrtd.svg"
+  },
+  {
+    "id": "upstream-paperair",
+    "name": "paperair",
+    "file": "upstream/ilda/paperair.ild",
+    "previewFrame": 11,
+    "track": 0,
+    "origin": "upstream",
+    "en": "paperair.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 34,
+    "totalPoints": 22499,
+    "tracks": [
+      0
+    ],
+    "bytes": 181112,
+    "sha256": "fe424598ef489ec1f8bc48284d7462dcda52b4b52e5e946510266e822870f224",
+    "note": "34 帧 · 22,499 点",
+    "preview": "previews/upstream-paperair.svg"
+  },
+  {
+    "id": "upstream-plasma2",
+    "name": "PLASMA2",
+    "file": "upstream/ilda/PLASMA2.ild",
+    "previewFrame": 20,
+    "track": 0,
+    "origin": "upstream",
+    "en": "PLASMA2.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 60,
+    "totalPoints": 78657,
+    "tracks": [
+      0
+    ],
+    "bytes": 631208,
+    "sha256": "b17c4895718b53509df21a6a2ffd1c26368f56e3f80f9261b233cb8e1d632289",
+    "note": "60 帧 · 78,657 点",
+    "preview": "previews/upstream-plasma2.svg"
+  },
+  {
+    "id": "upstream-robogirl",
+    "name": "robogirl",
+    "file": "upstream/ilda/robogirl.ild",
+    "previewFrame": 142,
+    "track": 0,
+    "origin": "upstream",
+    "en": "robogirl.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 428,
+    "totalPoints": 561157,
+    "tracks": [
+      0
+    ],
+    "bytes": 4502984,
+    "sha256": "a2dc9f63e30a5bd1ecb4beb141db886aa0ca28407f29a2c71922d677c5e8ee46",
+    "note": "428 帧 · 561,157 点",
+    "preview": "previews/upstream-robogirl.svg"
+  },
+  {
+    "id": "upstream-twpoolin",
+    "name": "twPOOLIN",
+    "file": "upstream/ilda/twPOOLIN.ild",
+    "previewFrame": 24,
+    "track": 0,
+    "origin": "upstream",
+    "en": "twPOOLIN.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 73,
+    "totalPoints": 59887,
+    "tracks": [
+      0
+    ],
+    "bytes": 481464,
+    "sha256": "75cf5d363a5f97440ae5ce81389c786daba4559a111f5320e78e28324776f948",
+    "note": "73 帧 · 59,887 点",
+    "preview": "previews/upstream-twpoolin.svg"
+  },
+  {
+    "id": "upstream-wechips6",
+    "name": "weCHIPS6",
+    "file": "upstream/ilda/weCHIPS6.ild",
+    "previewFrame": 22,
+    "track": 0,
+    "origin": "upstream",
+    "en": "weCHIPS6.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 67,
+    "totalPoints": 72615,
+    "tracks": [
+      0
+    ],
+    "bytes": 583096,
+    "sha256": "c6ea437c4ed393ed0e01410e1ecc9ea3f382563b4edec5dd102e7b5f2e867dcf",
+    "note": "67 帧 · 72,615 点",
+    "preview": "previews/upstream-wechips6.svg"
+  },
+  {
+    "id": "upstream-wiwilburplane",
+    "name": "WIWilburPlane",
+    "file": "upstream/ilda/WIWilburPlane.ild",
+    "previewFrame": 120,
+    "track": 0,
+    "origin": "upstream",
+    "en": "WIWilburPlane.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "frames": 360,
+    "totalPoints": 299421,
+    "tracks": [
+      0
+    ],
+    "bytes": 2406920,
+    "sha256": "e5a097d908cf00c0c534f24e7bf4f628acaf2da4ad7eaf8e457f987e8064e8a9",
+    "note": "360 帧 · 299,421 点",
+    "preview": "previews/upstream-wiwilburplane.svg"
+  },
+  {
+    "id": "upstream-sylvester",
+    "name": "Sylvester",
+    "file": "upstream/ilda/sylvest.ild",
+    "tags": [
+      "Character"
+    ],
+    "previewFrame": 55,
+    "palette": "observable-demo",
+    "origin": "upstream",
+    "en": "sylvest.ild",
+    "author": "由上游项目所有者提供；原始作者见来源说明",
+    "track": 0,
+    "frames": 121,
+    "totalPoints": 96942,
+    "tracks": [
+      0
+    ],
+    "bytes": 779440,
+    "sha256": "77394624d5a82741931b2fe6a44a1e73a2152ab04f2df15aa0fe3d86d3f1cf42",
+    "note": "121 帧 · 96,942 点",
+    "preview": "previews/upstream-sylvester.svg"
+  },
+  {
+    "id": "light-flower",
+    "name": "光之花",
+    "en": "LIGHT FLOWER",
+    "note": "72 帧 · 20,808 点",
+    "frames": 72,
+    "file": "shows/light-flower.ild",
+    "origin": "original",
+    "author": "本研究子项目原创，程序生成",
+    "format": 5,
+    "previewFrame": 18,
+    "pointsPerFrame": 289,
+    "bytes": 168800,
+    "track": 0,
+    "totalPoints": 20808,
+    "tracks": [
+      0
+    ],
+    "sha256": "94839a45f99092bc1569fd407b79cf0ae22412ef2d162d4fdb101f23092fe6e1",
+    "preview": "previews/light-flower.svg"
+  },
+  {
+    "id": "corners",
+    "name": "折角与停顿",
+    "en": "CORNERS / DWELL",
+    "note": "48 帧 · 9,888 点",
+    "frames": 48,
+    "file": "shows/corners.ild",
+    "origin": "original",
+    "author": "本研究子项目原创，程序生成",
+    "format": 5,
+    "previewFrame": 18,
+    "pointsPerFrame": 206,
+    "bytes": 80672,
+    "track": 0,
+    "totalPoints": 9888,
+    "tracks": [
+      0
+    ],
+    "sha256": "beaf4b8f0285fbcd53813588e08ad909a667ae2ab1bbad0168e51dfbfbbeab52",
+    "preview": "previews/corners.svg"
+  },
+  {
+    "id": "orbits",
+    "name": "轨道之间",
+    "en": "ORBIT / BLANKING",
+    "note": "60 帧 · 21,900 点",
+    "frames": 60,
+    "file": "shows/orbits.ild",
+    "origin": "original",
+    "author": "本研究子项目原创，程序生成",
+    "format": 5,
+    "previewFrame": 18,
+    "pointsPerFrame": 365,
+    "bytes": 177152,
+    "track": 0,
+    "totalPoints": 21900,
+    "tracks": [
+      0
+    ],
+    "sha256": "8178551edb9e3242cce6159463a39fbf755ebcadb5a5ac4eb9250556d70b5f6d",
+    "preview": "previews/orbits.svg"
+  },
+  {
+    "id": "lab-mark",
+    "name": "光的签名",
+    "en": "LAB / 015",
+    "note": "48 帧 · 14,160 点",
+    "frames": 48,
+    "file": "shows/lab-mark.ild",
+    "origin": "original",
+    "author": "本研究子项目原创，程序生成",
+    "format": 5,
+    "previewFrame": 18,
+    "pointsPerFrame": 295,
+    "bytes": 114848,
+    "track": 0,
+    "totalPoints": 14160,
+    "tracks": [
+      0
+    ],
+    "sha256": "ee533e469efdcb42586858cfa50169e015bd06e87235ac8a3006a8fd8ddd40dd",
+    "preview": "previews/lab-mark.svg"
+  }
+]

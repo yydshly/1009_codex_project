@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "一套新舞台的浏览器导入、保存持久化与音乐 / 发布会真实画面对比",
+  "configuration": {
+    "name": "极光环岛 · 四机双屏",
+    "file": "web/public/stages/aurora-island.json",
+    "export": "assets/stage-reuse-export.json",
+    "canonicalSha256": "2aa0aaf349d08caef2f2bcba7af7e7c93596d93736f8d7a459fa9f830e65125c",
+    "exportMatchesPreset": true,
+    "storageKey": "three-ilda:stage-layout:v1",
+    "origin": "http://127.0.0.1:5215",
+    "objects": 11,
+    "lasers": 4,
+    "screens": 2,
+    "platforms": 2,
+    "trusses": 2,
+    "slots": 1,
+    "description": "18×11 椭圆主台、左侧抬高圆台与内容插槽、双屏、双立柱、四台不同高度 / 朝向 / 点率的激光"
+  },
+  "browser": {
+    "builder": {
+      "url": "http://127.0.0.1:5215/stage.html",
+      "checks": [
+        "通过文件选择器导入 JSON",
+        "点击保存舞台，显示保存成功",
+        "刷新后显示已读取保存的舞台、11 个构件和椭圆台面属性",
+        "点击导出 JSON，导出文件与源配置逐字段一致",
+        "新增公开对比布置下载入口可见"
+      ],
+      "screenshot": "assets/reuse-builder.jpg",
+      "warnErrorLogs": []
+    },
+    "music": {
+      "url": "http://127.0.0.1:5215/show.html",
+      "loadedText": "已保存舞台：极光环岛 · 四机双屏 · 4 台激光",
+      "checks": [
+        "刷新后读取同一保存配置",
+        "点击播放、跳到副歌，播放进度推进",
+        "暂停后保留进度",
+        "实际画面包含椭圆台面、左侧内容台、双屏、双立柱和四台激光"
+      ],
+      "pausedAtSeconds": 44.7,
+      "screenshot": "assets/reuse-music.jpg",
+      "warnErrorLogs": []
+    },
+    "launch": {
+      "url": "http://127.0.0.1:5215/launch.html",
+      "loadedText": "已读取保存舞台：极光环岛 · 四机双屏 · 4 台激光 · 2 面屏幕",
+      "checks": [
+        "刷新和重新读取舞台均加载环岛配置",
+        "暂停并切换揭幕",
+        "产品位于同一左侧内容插槽，两面已有屏幕挂载文案",
+        "实际画面包含与音乐相同的空间布置"
+      ],
+      "pausedAtSeconds": 10,
+      "screenshot": "assets/reuse-launch.jpg",
+      "warnErrorLogs": []
+    },
+    "delivery": "保留搭建器、音乐演出、产品发布会共三个页面；音乐与发布会停在便于对比的全景"
+  },
+  "checks": {
+    "node": {
+      "pass": 71,
+      "fail": 0,
+      "skipped": 0
+    },
+    "stageValidation": true,
+    "exportRoundtrip": true,
+    "viteBuild": true,
+    "indexSync": true,
+    "repositoryCheck": {
+      "projects": 15,
+      "passed": true
+    },
+    "pagesBuild": {
+      "webDemos": 14,
+      "passed": true
+    },
+    "http": [
+      "http://127.0.0.1:5215/",
+      "http://127.0.0.1:5217/015-three-ilda/"
+    ],
+    "presetDeliveredByteForByte": true,
+    "diffWhitespaceCheck": true
+  },
+  "limits": [
+    "本地保存按浏览器和站点来源隔离，其他浏览器或端口需导入保存",
+    "未另行实测拖动编辑、全屏、音频听感、移动视口或全部 22 素材",
+    "原有演出音频测试使用可控上下文；本次浏览器仅验证播放按钮及音频主时钟推进",
+    "真实硬件输出与工程光学仿真未接入",
+    "历史验证报告的范围保留，不追溯扩大"
+  ]
+}

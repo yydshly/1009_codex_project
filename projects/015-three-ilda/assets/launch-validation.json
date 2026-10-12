@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-10",
+  "upstreamCommit": "6044b91d120cc01f73bdaebed4f7e4d03feb0d2f",
+  "pages": [
+    "launch.html",
+    "stage.html",
+    "show.html"
+  ],
+  "nodeTests": {
+    "pass": 71,
+    "fail": 0,
+    "skipped": 0
+  },
+  "launchTests": 6,
+  "stageReuse": {
+    "storageKey": "three-ilda:stage-layout:v1",
+    "assembler": "StageLayout",
+    "validated": "Two real independent layouts consume the same saved configuration, use different ILDA programs, and preserve device count, position, Y rotation, projection size, aperture and point rate; configuration is not rewritten."
+  },
+  "browser": {
+    "provider": "Codex In-app Browser",
+    "url": "http://127.0.0.1:5215/launch.html",
+    "configuration": "Default stage: three lasers, one screen, one content slot. No user stage configuration was modified.",
+    "verified": [
+      "Actual WebGL product, stage, ILDA traces, beams and textured screen rendered",
+      "Reveal and design chapter selection, pause and product close camera",
+      "Manual product structure expansion",
+      "Pearl and mist finishes",
+      "Product name input updates model label and screen content",
+      "Tagline input dispatches immediate content update",
+      "Reload stage action preserves default layout and rebuilds content"
+    ],
+    "consoleWarnings": 0,
+    "consoleErrors": 0,
+    "screenshot": "launch-desktop.jpg",
+    "limits": [
+      "Browser evidence covers this launch page and default configuration; arbitrary saved configuration reuse is covered by Node tests.",
+      "No responsive viewport override, fullscreen, audio or video playback test was performed.",
+      "This evidence does not retroactively verify all 22 programs or the builder/music UI."
+    ]
+  },
+  "delivery": {
+    "viteBuild": "pass, six HTML entries",
+    "repositoryIndexSync": "pass, 15 projects",
+    "repositoryCheck": "pass",
+    "pagesBuild": "pass, 14 local web demos",
+    "http": [
+      "http://127.0.0.1:5215/",
+      "http://127.0.0.1:5217/015-three-ilda/"
+    ],
+    "checks": "22 program bytes/SHA-256/preview files, attribution, notes, builder, music example, launch page, script/CSS references and original WAV"
+  },
+  "content": {
+    "product": "AURA ONE, original procedural concept model",
+    "score": "No audio attached to launch",
+    "timelineSeconds": 60,
+    "externalAssets": false,
+    "modifiesStageConfiguration": false
+  }
+}

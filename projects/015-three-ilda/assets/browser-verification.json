@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "url": "http://127.0.0.1:5215/",
+  "environment": "Windows Chromium 155 / NVIDIA RTX 4070 Laptop / ANGLE D3D11",
+  "nodeTests": { "passed": 27, "excluded": "loads the real demo (requires uncopied sylvest.ild fixture)" },
+  "verified": [
+    "Three stage modes: raw disables gain; scanner disables bloom; full enables light controls",
+    "Pause, seek, restart and gain=0.12 input response",
+    "Four original samples parse and play",
+    "Download original light-flower.ild then import: 72 frames, 20808 points, 1 track",
+    "Invalid local file reports Invalid ILDA signature at byte 0 and keeps previous show",
+    "Local multi-track fixture imports: 4 frames, 1142 points, tracks 0 and 3; selectOption 3 succeeds",
+    "Camera views, bloom, beam and occlusion board controls",
+    "Actual screenshots saved for three stages and occlusion",
+    "Prepare PNG with capture button, then click generated download link; both development and built Pages versions saved real files"
+  ],
+  "mobile": { "viewportWidth": 390, "documentWidth": 375, "canvasWidth": 345, "horizontalOverflow": false },
+  "consoleWarningsAndErrors": [],
+  "gpuReport": "webgl-validation.json",
+  "pngExport": { "developmentBytes": 516353, "productionBytes": 374556, "productionFrame": 52, "format": "PNG" },
+  "production": {
+    "url": "http://127.0.0.1:5217/015-three-ilda/",
+    "tested": ["three display modes", "PNG file download", "390 px layout including visible PNG download link", "validation.html GPU pixel readback"],
+    "gpuPass": true,
+    "consoleWarningsAndErrors": []
+  },
+  "notVerified": ["WebGPU GPU execution and cross-backend parity", "Physical projector output", "Separate quantitative blanking-offset tail comparison"]
+}

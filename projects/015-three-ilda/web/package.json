@@ -1,0 +1,17 @@
+{
+  "name": "three-ilda-research-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "samples": "node scripts/generate-samples.mjs",
+    "dev": "vite --host 127.0.0.1 --port 5215 --strictPort",
+    "build": "npm run samples && vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5216 --strictPort",
+    "preview:pages": "node scripts/serve-summary.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": { "three": "0.185.0" },
+  "devDependencies": { "vite": "6.4.3" }
+}

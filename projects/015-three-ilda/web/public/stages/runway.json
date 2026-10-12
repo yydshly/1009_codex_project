@@ -1,0 +1,354 @@
+{
+  "kind": "ilda-virtual-stage",
+  "version": 1,
+  "name": "星轨 T 型秀场",
+  "theme": "midnight",
+  "objects": [
+    {
+      "id": "rear-deck",
+      "type": "platform",
+      "name": "秀场后场台面",
+      "color": "#362343",
+      "position": [
+        0,
+        0.35,
+        -3
+      ],
+      "size": [
+        16,
+        0.7,
+        4
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "catwalk",
+      "type": "platform",
+      "name": "中央长走台",
+      "color": "#523b63",
+      "position": [
+        0,
+        0.35,
+        2
+      ],
+      "size": [
+        3.6,
+        0.7,
+        9
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "front-island",
+      "type": "platform",
+      "name": "前端圆台",
+      "color": "#71595f",
+      "position": [
+        0,
+        0.35,
+        6.8
+      ],
+      "size": [
+        6,
+        0.7,
+        4
+      ],
+      "rotationY": 0,
+      "shape": "round"
+    },
+    {
+      "id": "front-content",
+      "type": "slot",
+      "name": "走台内容插槽",
+      "color": "#e8bd85",
+      "position": [
+        0,
+        0.8,
+        6.8
+      ],
+      "size": [
+        2.5,
+        0.15,
+        2.5
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "rear-screen",
+      "type": "screen",
+      "name": "秀场背屏",
+      "color": "#183e49",
+      "position": [
+        0,
+        4.2,
+        -4.8
+      ],
+      "size": [
+        10,
+        6,
+        0.2
+      ],
+      "rotationY": 0
+    },
+    {
+      "id": "left-seat-0",
+      "type": "platform",
+      "name": "左侧座席 1",
+      "color": "#202b40",
+      "position": [
+        -5,
+        0.3,
+        -6
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "left-seat-1",
+      "type": "platform",
+      "name": "左侧座席 2",
+      "color": "#202b40",
+      "position": [
+        -5,
+        0.3,
+        -3
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "left-seat-2",
+      "type": "platform",
+      "name": "左侧座席 3",
+      "color": "#202b40",
+      "position": [
+        -5,
+        0.3,
+        0
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "left-seat-3",
+      "type": "platform",
+      "name": "左侧座席 4",
+      "color": "#202b40",
+      "position": [
+        -5,
+        0.3,
+        3
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "left-seat-4",
+      "type": "platform",
+      "name": "左侧座席 5",
+      "color": "#202b40",
+      "position": [
+        -5,
+        0.3,
+        6
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "right-seat-0",
+      "type": "platform",
+      "name": "右侧座席 1",
+      "color": "#202b40",
+      "position": [
+        5,
+        0.3,
+        -6
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "right-seat-1",
+      "type": "platform",
+      "name": "右侧座席 2",
+      "color": "#202b40",
+      "position": [
+        5,
+        0.3,
+        -3
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "right-seat-2",
+      "type": "platform",
+      "name": "右侧座席 3",
+      "color": "#202b40",
+      "position": [
+        5,
+        0.3,
+        0
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "right-seat-3",
+      "type": "platform",
+      "name": "右侧座席 4",
+      "color": "#202b40",
+      "position": [
+        5,
+        0.3,
+        3
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "right-seat-4",
+      "type": "platform",
+      "name": "右侧座席 5",
+      "color": "#202b40",
+      "position": [
+        5,
+        0.3,
+        6
+      ],
+      "size": [
+        3,
+        0.6,
+        1.2
+      ],
+      "rotationY": 0,
+      "shape": "rect"
+    },
+    {
+      "id": "laser-1",
+      "type": "laser",
+      "name": "激光设备 1",
+      "color": "#8abbe2",
+      "position": [
+        -6,
+        5,
+        -3
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": 15,
+      "program": "corners",
+      "aperture": [
+        0,
+        -4,
+        7
+      ],
+      "pointRate": 7000,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    },
+    {
+      "id": "laser-2",
+      "type": "laser",
+      "name": "激光设备 2",
+      "color": "#8abbe2",
+      "position": [
+        0,
+        6.5,
+        -3
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": 0,
+      "program": "light-flower",
+      "aperture": [
+        0,
+        -5.5,
+        7
+      ],
+      "pointRate": 8500,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    },
+    {
+      "id": "laser-3",
+      "type": "laser",
+      "name": "激光设备 3",
+      "color": "#8abbe2",
+      "position": [
+        6,
+        5,
+        -3
+      ],
+      "size": [
+        3.5,
+        2.6,
+        0.1
+      ],
+      "rotationY": -15,
+      "program": "orbits",
+      "aperture": [
+        0,
+        -4,
+        7
+      ],
+      "pointRate": 10000,
+      "intensity": 1.2,
+      "beamIntensity": 0.45
+    }
+  ]
+}

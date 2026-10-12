@@ -1,0 +1,65 @@
+{
+  "verifiedOn": "2026-10-10",
+  "timezone": "Asia/Shanghai",
+  "scope": "完善舞台搭建的效果查找、编辑恢复、保存状态与多编辑页版本提示。",
+  "implemented": [
+    "22 个效果按名称 / ID 搜索，按上游或原创筛选，显示匹配数、空结果和源文件帧数。",
+    "最多 60 步舞台配置撤销重做，连续属性输入与一次拖动合并为一步。",
+    "保存后保留本页撤销历史，按配置内容判断是否回到保存点；无实际修改不增加项目版本。",
+    "多编辑页显示画布实际版本，项目更新后可读取最新或另存草稿。",
+    "保存检查 expectedRevision，拒绝旧版本覆盖；导出前提交属性与名称。",
+    "Ctrl / Command + S 保存、Shift + S 另存；Z 撤销、Shift + Z 重做。"
+  ],
+  "browser": {
+    "baseUrl": "http://127.0.0.1:5215/",
+    "observedFlow": [
+      "选择本地原创并搜索光之花，显示 1 / 22；搜索不存在的效果显示空结果提示。",
+      "把激光设备 2 改为光之花，设备 1 仍为 DOLPHIN；撤销恢复 PLASMA2 和已保存状态，重做再次恢复光之花。",
+      "删除激光设备 2，构件数从 12 降为 11；一次撤销恢复 12 个构件及设备属性。",
+      "连续把设备 2 的 X 从 6 调至 6.5、6.8，一次撤销恢复 6 与原保存状态。",
+      "另存独立编辑工作流示例 v1，在另一个编辑页打开同一项目并保留未保存的业务编排修改。",
+      "原编辑页把地台宽从 20 调为 20.5 并保存 v2；旧页提示已有 v2、画布仍为 v1，保存按钮禁用。",
+      "旧页撤销草稿后读取最新版本，地台宽为 20.5，版本为 v2；音乐与发布会都自动显示同一项目 v2。",
+      "预览服务中断后重新启动，已保存的项目仍存在。再次打开编辑工作流示例 v2，把宽改为 20.8，通过输入框中的 Control + S 保存 v3。",
+      "保存后通过 Control + Z 撤销到宽 20.5，状态为有未保存修改；Control + Shift + Z 重做到 20.8，状态为已保存。",
+      "恢复原来的三岛展台 v4，全部 22 效果显示，开启实际预览；重新打开音乐与发布会，两页仍沿用 DOLPHIN / PLASMA2。"
+    ],
+    "workflowProject": {
+      "id": "project-3ec1aaf1-93e1-4187-b25b-407eefe2e19d",
+      "name": "海豚与流光 · 编辑工作流示例",
+      "revision": 3,
+      "floorWidth": 20.8
+    },
+    "finalProject": {
+      "id": "project-b9c1be2a-01a1-4090-b65b-a5008408c630",
+      "name": "三岛展台 · 海豚与流光",
+      "revision": 4,
+      "effectMode": "stage",
+      "bindings": ["upstream-dolphin", "upstream-plasma2"],
+      "unchangedOriginalFloorWidth": 20,
+      "builderState": "已保存，预览光效开启，坐标轴关闭",
+      "musicPausedSeconds": 10.1,
+      "launchPausedSeconds": 10
+    },
+    "finalConsoleWarningsAndErrors": {"builder": [], "music": [], "launch": []},
+    "screenshot": "stage-editor-builder.jpg",
+    "screenshotFormat": "JPEG",
+    "deliverables": ["stage.html", "show.html", "launch.html"]
+  },
+  "checks": {
+    "tests": {"passed": 90, "failed": 0, "skipped": 0, "newEditorTests": 6},
+    "viteBuild": {"status": "passed", "modules": 52},
+    "indexSync": {"status": "passed", "projects": 15},
+    "repoCheck": {"status": "passed", "projects": 15},
+    "pagesBuild": {"status": "passed", "webProjects": 14},
+    "devHttp": {"status": "passed", "url": "http://127.0.0.1:5215/"},
+    "numberedBuildHttp": {"status": "passed", "url": "http://127.0.0.1:5217/015-three-ilda/"},
+    "gitDiffCheck": "passed"
+  },
+  "verificationLimits": [
+    "一次拖动的历史合并通过 Node 用例验证，本轮未实际拖动画布坐标轴。",
+    "关闭 / 刷新的未保存提示已实现，本轮未触发浏览器离开确认。",
+    "同站点浏览器本地版本检查，未实现云端协作或跨设备事务。",
+    "未新增或宣称真实硬件、移动端、WebGPU 与音频听感验证。"
+  ]
+}

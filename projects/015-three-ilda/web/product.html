@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#07100e"><meta name="description" content="Three ILDA 完整研究：ILDA 解析、扫描与光束渲染的能力、模块和原理；22 节目、五套舞台与三业务复用实例；素材来源、产品价值、16 类 64 项扩展设想及验证边界。"><title>激光、舞台与内容复用 · Three ILDA 完整研究</title><link rel="stylesheet" href="/src/style.css"><link rel="stylesheet" href="/src/product.css"></head>
+<body>
+  <header class="site-header"><a class="brand" href="./"><span class="brand-icon">↗</span> ILDA<span class="brand-light">/ NOTES</span></a><nav><a href="#overview">引导图</a><a href="#modules">模块与原理</a><a href="#exploration">扩展方向</a></nav><a class="source-link" href="./stage.html">进入舞台搭建器 ↗</a></header>
+  <main class="notes-main">
+    <section id="summary" class="notes-hero">
+      <div class="notes-hero-copy">
+        <p class="eyebrow">015 / RESEARCH SUMMARY · 2026.10.12</p>
+        <h1>搭建一次，<span>按场景再启用。</span></h1>
+        <p>库的价值是把已有节目数据实时变成激光效果。我们的扩展是可复用的舞台搭建：22 个节目、五套模板，以及音乐、发布会、三维泵讲解。当前阶段研究已完成，后续有具体场景，再接入内容并验收。</p>
+        <div class="notes-actions"><a class="notes-primary" href="./stage.html">开始搭建舞台 ↗</a><a href="#overview">一图看懂 ↓</a><a href="#understanding">回看研究结论 ↓</a></div>
+        <div class="notes-quick-demos" aria-label="直接观看三种业务示例"><a href="./show.html"><span>01 / MUSIC</span>音乐演出 <small>90 秒 ↗</small></a><a href="./launch.html"><span>02 / LAUNCH</span>产品发布会 <small>60 秒 ↗</small></a><a href="./pump.html?tour=1#pump-tour"><span>03 / PRODUCT</span>自动结构讲解 <small>108 秒 ↗</small></a></div>
+      </div>
+      <div class="notes-hero-showcase">
+        <figure class="notes-stage-cover"><a class="notes-stage-image" href="./pump.html?tour=1#pump-tour"><img src="./records/stage-entry-exhibit.jpg" alt="实际三岛展台运行画面：两台激光照向左右屏幕，中央展台承载 002 三维泵，三面屏幕同步讲解" width="1707" height="1067" fetchpriority="high"><span class="notes-watch">▶ 观看完整结构讲解 <small>1:48</small></span></a><figcaption><span>实际展台 / 三岛展台 · 海豚与流光 · v4</span><a href="./records/stage-entry-exhibit.jpg">查看原图 ↗</a></figcaption></figure>
+        <a class="notes-laser-cover" href="./#experiment"><img src="./records/preview.jpg" alt="真实 three-ilda 光之花效果截图：彩色扫描轨迹、辉光与空气光束" width="1184" height="738"><div><span class="note-tag">THE EFFECTS / 22 PROGRAMS</span><strong>从一束光，到整座舞台。</strong><p>上游 18 个节目 + 本地 4 个样例</p><span class="notes-laser-link">打开激光效果实验台 ↗</span></div></a>
+        <p class="notes-cover-caption">两张图均为实际运行截图 · 展台：2026-10-10；光之花：初版实验台。点击画面进入可交互演示。</p>
+      </div>
+    </section>
+    <div class="record-status"><span>阶段研究完成 · 按需启用</span><span>22 个节目 / 5 套模板 / 3 种业务 / 104 项测试</span></div>
+    <nav class="notes-contents" aria-label="研究内容索引"><a href="#overview">01 引导图</a><a href="#understanding">02 能力与分工</a><a href="#modules">03 模块</a><a href="#mechanism">04 工作原理</a><a href="#reuse">05 使用流程</a><a href="#examples">06 实际效果</a><a href="#value">07 产品价值</a><a href="#exploration">08 扩展目录</a><a href="#boundary">09 验证边界</a><a href="#sources">10 来源与环境</a></nav>
+    <section id="overview" class="notes-section notes-overview">
+      <p class="eyebrow">ONE IMAGE / KEEP THE UNDERSTANDING</p><h2>一张图，回看我们的理解与探索方向。</h2>
+      <p>库实现激光效果；我们扩展可复用的舞台搭建；音乐、发布会、三维讲解等业务负责内容与编排。图中包含实际运行截图、已实现成果，以及 16 类、64 个场景或功能设想。探索方向尚未完成产品与商业验证，后续按具体需求推进。</p>
+      <div class="notes-overview-tools"><a href="./records/research-overview.svg" target="_blank" rel="noopener">查看矢量原图 ↗</a><a href="./records/research-overview.png" download="three-ilda-研究总览.png">下载高清 PNG ↓</a><a href="./records/research-overview.svg" download="three-ilda-研究总览.svg">下载 SVG ↓</a><span>1920 × 3780 · 实际截图原样嵌入</span></div>
+      <figure><a href="./records/research-overview.svg" target="_blank" rel="noopener"><img src="./records/research-overview.png" alt="Three ILDA 一图总览：库提供 ILDA 解析、扫描、轨迹、辉光与光束；本地舞台资产复用空间、设备、屏幕、插槽和效果；音乐、发布会与 002 泵讲解已接入。另整理演出、二人转、皮影戏、教学、产品展示、文化展馆、互动、直播、AI、XR、硬件与资产服务等 16 类、64 个探索设想，并标明素材、技术和商业验证边界。" width="1920" height="3780" loading="lazy"></a><figcaption>2026-10-10 阶段整理 · 矢量排版，截图保持原始内容。绿色部分记录库与本地已实现基础；金色方向为待验证设想。点击图片查看矢量原图。</figcaption></figure>
+    </section>
+    <section id="understanding" class="notes-section">
+      <p class="eyebrow">01 / WHAT WE HAVE LEARNED</p><h2>现阶段已经够用，价值在于组合与复用。</h2>
+      <p>最初看到的是 ILDA 文件的激光动画。通过实际搭建，我们确认：它可以成为三维场景里可控制的显示组件；本项目进一步把空间和设备保存为舞台资产，让不同业务使用同一份布置。当前成果足以支撑本地演示和后续接入研究，正式项目仍需按实际需求验收。</p>
+      <div class="notes-layer-flow" aria-label="激光组件、舞台资产、内容业务三层关系">
+        <article><span class="note-tag">01 / 上游组件</span><h3>three-ilda 负责激光</h3><p>读取 ILDA 坐标、颜色与关光指令，模拟扫描并渲染轨迹、残影、辉光与空气光束。</p><small>输入：节目文件 + 设备参数</small></article>
+        <span class="notes-flow-arrow" aria-hidden="true">→</span>
+        <article><span class="note-tag">02 / 本地扩展</span><h3>搭建器交付舞台资产</h3><p>布置台面、屏幕、激光设备和内容插槽，将位置、尺寸、朝向与效果绑定保存为独立项目。</p><small>产物：可复用的舞台 JSON</small></article>
+        <span class="notes-flow-arrow" aria-hidden="true">→</span>
+        <article><span class="note-tag">03 / 接入业务</span><h3>业务决定舞台讲什么</h3><p>准备音乐、角色、模型、讲义、屏幕内容和时间线，再使用同一份舞台呈现自己的内容。</p><small>已接入：音乐 / 发布会 / 泵讲解</small></article>
+      </div>
+      <p class="notes-callout">我们复用的是空间、设备、内容插槽和激光效果。节目内容、故事、角色和讲解脚本由业务提供；同一配置可以承载不同内容，各业务保留自己的播放时钟。</p>
+      <div class="notes-grid">
+        <article><span class="note-tag">素材从哪里来</span><h3>文件提供图案，代码生成光效</h3><p>目前使用 18 个上游 ILDA 节目和 4 个本地原创样例。光束、扫描与辉光由库实时绘制；库本身不会自动生成歌手、故事或完整演出。新的节目素材需另外制作或导入。</p></article>
+        <article><span class="note-tag">价值在哪里</span><h3>换内容时保留舞台投入</h3><p>同一套空间和设备可以反复使用，修改后另存独立项目；以前研究过的三维内容也能接入插槽，与已有屏幕和激光共同呈现。</p></article>
+        <article><span class="note-tag">如何理解虚拟场景</span><h3>先在网页完成场景呈现</h3><p>当前示例用普通电脑即可观看。实际舞台硬件是另一种接入方向，需要专门的输出和现场工程方案；网页预览已经可以服务于虚拟展览、演出和教学。</p></article>
+      </div>
+    </section>
+    <section id="modules" class="notes-section">
+      <p class="eyebrow">THE MODULES / THREE LAYERS</p><h2>模块如何协作，各自承担什么。</h2>
+      <p>上游核心保持原样引入；实验台、舞台资产和业务编排由本研究项目新增。下面按职责对照源码，避免把演出、模型或 AI 的能力归到激光库。</p>
+      <div class="notes-table-wrap"><table><caption>上游库：从节目数据到画面</caption><thead><tr><th>模块</th><th>职责</th><th>输出与边界</th></tr></thead><tbody>
+        <tr><td>ILDALoader / ILDAAsset</td><td>读取二进制点帧、坐标、颜色、调色板和关光标记，按投影机编号组织轨道。</td><td>可共享的解析数据；输入是点序列，包含动画帧，不是视频。</td></tr>
+        <tr><td>LaserScanner</td><td>CPU 按点率推进 X/Y 位置与速度，补偿关光标记，维护历史与衰减。</td><td>目标点变为实际扫描样本；运动模型是简化近似。</td></tr>
+        <tr><td>LaserShowBase</td><td>提供播放、暂停、跳帧、重置、克隆和释放，将历史压缩为线段和光束三角面。</td><td>可放入 Three.js 场景的对象；同一 asset 可用于独立设备实例。</td></tr>
+        <tr><td>LaserShow 材质</td><td>WebGL 的 GLSL 与 WebGPU 的 TSL 各自实现轨迹、加法混合、噪声雾光与相机深度衰减。</td><td>线条与空气光束；两套入口及材质需匹配渲染器。</td></tr>
+        <tr><td>LaserShowPipeline</td><td>组织场景深度、光束渲染、Bloom、模糊与最终合成。</td><td>完整实时画面；本项目实际运行 WebGL 2，WebGPU 仅研究源码与 CPU 行为。</td></tr>
+      </tbody></table></div>
+      <div class="notes-table-wrap"><table><caption>本地扩展：舞台资产与内容业务</caption><thead><tr><th>模块</th><th>实现</th><th>复用接口</th></tr></thead><tbody>
+        <tr><td>节目实验台</td><td>main / samples / program-loader / program-carousel：22 节目、三阶段、调参、导入下载与完整节目轮播。</td><td>真实 ILDA 数据与统一节目 ID；二维缩略图是目标路线。</td></tr>
+        <tr><td>舞台数据与项目</td><td>stage-definition / stage-templates / stage-projects / stage-picker：五模板、独立项目、版本、迁移、校验与跨页选择。</td><td>舞台 JSON 保存尺寸、位置、旋转、设备参数、效果和内容插槽。</td></tr>
+        <tr><td>编辑与效果</td><td>builder / stage-edit-history / effect-filter / stage-program-library / stage-effects：编辑、撤销重做、冲突提示、22 效果绑定及解析缓存。</td><td>节目 ID + 设备参数；按业务提供的时钟推进，效果绑定随项目保存。</td></tr>
+        <tr><td>共用场景装配</td><td>StageLayout / stage-framing：按配置创建构件、屏幕、激光与内容插槽，适配镜头，释放资源。</td><td>搭建器和三种业务使用同一装配方式；模型挂入插槽，文案写入屏幕。</td></tr>
+        <tr><td>独立业务编排</td><td>stage-plan / stage-audio、launch-plan / launch-content、pump-content / pump-tour：音乐、发布会、产品讲解。</td><td>业务提供自己的素材、时间线、镜头、动作与交互；不写回舞台布置。</td></tr>
+        <tr><td>002 模型适配</td><td>直接引入 002 的 pump-model 与 pump-parts，注入当前 Three.js，复用六部件与模型工厂。</td><td>同一模型源与渲染场景，非 iframe；简化程序模型用于教学示意。</td></tr>
+      </tbody></table></div>
+      <p class="notes-source">逐文件说明与用例范围见 <a href="./research.md" download>详细研究笔记</a>及 <a href="https://github.com/yydshly/1009_codex_project/tree/main/projects/015-three-ilda/web" target="_blank" rel="noreferrer">本项目 Web 源码 ↗</a>。</p>
+    </section>
+    <section id="mechanism" class="notes-section">
+      <p class="eyebrow">HOW IT WORKS / DATA → SCAN → LIGHT</p><h2>一串坐标，为什么能成为激光效果？</h2>
+      <ol class="notes-mechanism">
+        <li><span>01 / 数据</span><h3>文件决定画什么</h3><p>ILDA 点记录描述目标位置、颜色、扫描顺序、关光跳转和帧。18 份上游节目提供现成图案与动画；4 份本地样例由程序生成 format 5 点记录。歌手、音乐、模型、烟雾贴图和舞台布局不在文件里。</p></li>
+        <li><span>02 / 扫描</span><h3>固定点率计算运动</h3><p>每次经过 dt 秒，补算 dt × pointRate 个点并保留小数。X/Y 两轴按速度与位置递推追赶目标，形成滞后、圆角或振荡。点率同时影响节目速度；N 点帧的时间为 N / pointRate 秒，与显示器 FPS 不同。</p><pre>速度 = (旧速度 + (目标位置 − 当前位置) × gain) × dampening
+位置 = 当前位置 + 速度</pre><p>dampening 是保留速度的比例，值越大，阻尼越弱。该模型未描述具体设备的电机、驱动器或校准误差。</p></li>
+        <li><span>03 / 历史</span><h3>关光移动，旧光渐暗</h3><p>关光点仍推动位置，但显示颜色归零，避免连接不相邻图形。blankingOffset 偏移开关标记以近似补偿延迟。环形缓冲保留近期样本，颜色按 lightDecay^(年龄秒数 × 60) 衰减；容量限制可见历史长度。</p></li>
+        <li><span>04 / GPU</span><h3>轨迹与出光口组成画面</h3><p>CPU 整理相邻发光样本为线段，线段和出光口组成三角面；GPU 加入颜色、三维噪声、亮度包络、深度衰减，后处理合成辉光与柔和光束。雾光由着色器绘制，是实时视觉效果。</p></li>
+        <li><span>05 / 应用</span><h3>配置布置，业务驱动内容</h3><p>加载舞台 JSON → StageLayout 装配空间与设备 → 业务将模型放入插槽、文案送入屏幕 → 自己的时钟推进激光、模型、镜头和音频。音乐、发布会、泵讲解共享布置，保留独立的内容流程。</p></li>
+      </ol>
+      <p class="notes-callout">轨迹当前输出 Z = 0，虽然 ILDA 可包含三维坐标；光束遮挡依赖观察相机深度，并非从激光出光口计算的物理光路。网页效果可用于呈现与机制学习，不能据此推断实物设备的安全区域、照度或投影精度。</p>
+    </section>
+    <section id="reuse" class="notes-section">
+      <p class="eyebrow">02 / USE IT WHEN A SCENE IS NEEDED</p><h2>后续按这个流程使用。</h2>
+      <ol class="notes-use-steps">
+        <li><span>01</span><div><h3>先明确内容和场景</h3><p>确定面向谁、讲什么、需要哪些模型 / 屏幕 / 演员，以及观看和交互方式。</p></div></li>
+        <li><span>02</span><div><h3>从五套模板搭建舞台</h3><p>按场景调整布置、内容插槽、设备位置与参数，把需要的激光节目绑定到设备。</p></div></li>
+        <li><span>03</span><div><h3>另存项目并导出配置</h3><p>保留模板和原方案，建立独立舞台项目；需要迁移到另一浏览器或交付时，导出 JSON。</p></div></li>
+        <li><span>04</span><div><h3>由业务接入内容</h3><p>选择同一舞台，将模型挂入内容插槽、文案送入屏幕，由业务安排镜头、音频、动作和时间线。</p></div></li>
+        <li><span>05</span><div><h3>实际预览，再按需求补能力</h3><p>检查完整流程、画面、交互与目标设备性能；只有出现具体需求时，再加入云端分享、协作、人物、AI 或硬件输出。</p></div></li>
+      </ol>
+      <p class="notes-callout">本地项目保存在同一浏览器、同一站点下。需要长期保留或迁移时导出 JSON；配置记录舞台与素材 ID，模型、音频、角色等业务素材仍需一同准备。</p>
+    </section>
+    <section id="examples" class="notes-section">
+      <p class="eyebrow">03 / THREE BUSINESSES, ONE STAGE</p><h2>我们实际验证了什么？</h2>
+      <p>“三岛展台 · 海豚与流光”v4 已被音乐、发布会和泵讲解共同读取：两台激光、三面屏幕，沿用 DOLPHIN / PLASMA2 节目及设备参数。保存或选择项目能让业务重新读取布置；各页面的内容与播放进度独立。</p>
+      <div class="notes-grid notes-example-grid">
+        <article><span class="note-tag">音乐演出 / 90 秒</span><h3>同一舞台承载音乐</h3><p>原创程序合成配乐、五段流程、镜头与互动。业务负责音乐和编排，舞台提供空间与设备。</p><a href="./show.html">打开音乐演出 ↗</a></article>
+        <article><span class="note-tag">产品发布会 / 60 秒</span><h3>同一舞台换成产品发布</h3><p>概念产品、屏幕文案、揭幕和结构展示。产品配色、内容与流程由发布业务提供。</p><a href="./launch.html">打开产品发布会 ↗</a></article>
+        <article><span class="note-tag">002 泵讲解 / 108 秒</span><h3>以前的三维内容真正复用</h3><p>与 002 共用模型组件，支持旋转、展开、部件点选与屏幕同步；自动依次介绍六部件并总结流向。</p><a href="./pump.html?tour=1#pump-tour">打开自动结构讲解 ↗</a></article>
+      </div>
+      <div class="notes-proof">
+        <figure><a href="./records/pump-tour-impeller.jpg"><img src="./records/pump-tour-impeller.jpg" alt="自动介绍叶轮的真实浏览器截图：展开模型、当前章节和屏幕讲解同步" width="790" height="855" loading="lazy"></a><figcaption>2026-10-10 实际浏览器截图 · 叶轮章节 · 同一 v4 舞台。点击查看原图。</figcaption></figure>
+        <div><span class="note-tag">已实现与验证</span><h3>保留可运行的完整基础</h3><ul><li>22 节目直接切换，每个完整播放后轮播。</li><li>五套不同模板、独立项目、版本保存和 JSON 往返。</li><li>设备效果绑定、搜索筛选、撤销重做和版本冲突提示。</li><li>三业务共享配置，002 模型共用工厂接入已有插槽。</li><li>六部件自动介绍、镜头 / 屏幕同步、暂停续播、跳段和重播。</li><li>104 项 Node 测试通过，静态构建与编号子路径检查通过。</li></ul><p>界面实测、CPU 检查和 GPU 自检各有具体范围。尚未逐一验证所有 22 节目在每套舞台上的 GPU 效果，语音听感和手机性能也未完整验收。</p><a href="#resources">查看验证记录与素材入口 ↓</a></div>
+      </div>
+    </section>
+    <section id="value" class="notes-section">
+      <p class="eyebrow">VALUE / FROM COMPONENT TO REUSABLE WORK</p><h2>库的价值，和我们可以继续做的产品。</h2>
+      <div class="notes-grid">
+        <article><span class="note-tag">开发者价值 / 已有实现</span><h3>把激光显示封装成组件</h3><p>省去 ILDA 二进制解析、分轨、固定频率扫描、关光与历史缓冲、几何上传、材质和后处理的重复工作。场景对象、参数及资源生命周期可由应用控制，适合浏览器视觉预览、教学和三维空间。</p></article>
+        <article><span class="note-tag">我们的产品基础 / 已有原型</span><h3>舞台成为可反复使用的资产</h3><p>模板 → 编辑 → 独立项目 → 效果绑定 → 多业务读取，形成可保存的布置。空间投入与内容制作分开，同一配置承载音乐、品牌或教学；接入 002 模型说明以前研究过的三维内容也能组合。</p></article>
+        <article><span class="note-tag">使用方价值 / 待真实项目衡量</span><h3>让方案具体、内容可体验</h3><p>客户可看到实际空间与效果，团队可比较布置，观众可交互查看结构或跟随完整介绍。沟通效率、观看完成率、教学效果与商业转化需要真实项目评估，目前没有量化收益。</p></article>
+      </div>
+      <p>可探索制作工具订阅、模板与素材许可、品牌活动与产品展台交付、教学内容包、定制场景服务和集成支持。先围绕一类用户完成完整交付，记录搭建耗时、修改次数、素材成本、性能、观看行为及实际付费反馈，再决定产品化范围。</p>
+      <p class="notes-callout">舞台回答“在哪里呈现、用什么设备和插槽”；业务回答“讲什么、怎么讲、何时变化”。唱歌、二人转、讲义、皮影戏、AI 演唱会或产品教学各自需要内容团队与业务实现。当前无需为了继续研究一次性补齐所有方向。</p>
+    </section>
+    <section id="exploration" class="notes-section">
+      <p class="eyebrow">EXPLORATION / 16 FAMILIES · 64 IDEAS</p><h2>可扩展方向：以总览图为索引。</h2>
+      <p>以下逐项对应原图的 16 类 / 64 个场景或功能设想。已有三种接入示例只验证部分机制；目录中的完整产品仍需开发与需求验证。每类列出可继承的基础和新增工作，方便未来按需取用。</p>
+      <div class="notes-exploration">
+        <article><span class="note-tag">01 / 舞台工具</span><h3>搭建、评审与协作</h3><ul><li>方案对比评审</li><li>云端保存交付</li><li>多人共同搭建</li><li>设备与构件插件</li></ul><p>复用：模板、编辑、JSON 与本地版本。补充：云端资产、权限、协作状态、评论和插件契约。</p></article>
+        <article><span class="note-tag">02 / 节目创作与管理</span><h3>从播放扩展到创作</h3><ul><li>ILDA 素材库</li><li>文字 / Logo 成光</li><li>图形与动画编辑</li><li>节奏与时间线编排</li></ul><p>复用：解析、预览、搜索与点率实验。补充：内容元数据、扫描点生成、点序优化、编辑器与导出。</p></article>
+        <article><span class="note-tag">03 / 音乐演出</span><h3>歌曲、角色与参与体验</h3><ul><li>原创虚拟歌手</li><li>AI 演唱会</li><li>互动听歌空间</li><li>授权音乐纪念展</li></ul><p>复用：90 秒演出接入、音频时钟与本地应援。补充：歌曲、角色、声音、动作、歌词和授权内容。</p></article>
+        <article><span class="note-tag">04 / 戏剧与传统表演</span><h3>让舞台承载不同叙事</h3><ul><li>二人转</li><li>皮影戏</li><li>戏曲与话剧</li><li>诗歌与故事演绎</li></ul><p>复用：空间、屏幕、激光与内容插槽。补充：人物或影像、唱腔、动作、剧本、幕次和同步播放。</p></article>
+        <article><span class="note-tag">05 / 品牌与活动</span><h3>从方案到活动呈现</h3><ul><li>产品发布会</li><li>品牌快闪</li><li>展会展台</li><li>活动方案预览</li></ul><p>复用：60 秒发布会、揭幕、屏幕和镜头流程。补充：真实品牌素材、产品数据、活动脚本与交付标准。</p></article>
+        <article><span class="note-tag">06 / 产品与电商</span><h3>把产品变成可探索的内容</h3><ul><li>三维产品展厅</li><li>部件拆解讲解</li><li>产品选配展示</li><li>导购与答疑</li></ul><p>复用：泵的点选、展开、六部件与自动讲解机制。补充：产品模型、语义映射、选配规则、目录与答疑资料。</p></article>
+        <article><span class="note-tag">07 / 教育与培训</span><h3>空间化的课程讲解</h3><ul><li>讲义与课堂</li><li>设备结构教学</li><li>科学原理演示</li><li>企业培训</li></ul><p>复用：章节、屏幕、模型、镜头与讲解时钟。补充：课件、教学目标、专业审核、练习与学习反馈。</p></article>
+        <article><span class="note-tag">08 / 工业与设备</span><h3>结构、流程与设备信息</h3><ul><li>设备三维讲解</li><li>操作流程训练</li><li>流程与产线展示</li><li>设备数据接入</li></ul><p>复用：三维装配与结构介绍。补充：准确模型、工艺规则、传感数据、接口与专业验证；当前泵不是工程仿真。</p></article>
+        <article><span class="note-tag">09 / 文化与博物馆</span><h3>藏品和故事的数字空间</h3><ul><li>数字博物馆</li><li>非遗主题展</li><li>历史故事空间</li><li>作品生涯展</li></ul><p>复用：展台、屏幕与章节介绍。补充：有来源的史料、藏品素材、策展结构、导览与内容审核。</p></article>
+        <article><span class="note-tag">10 / 互动与游戏</span><h3>观众参与改变体验</h3><ul><li>节奏互动</li><li>剧情探索</li><li>观众投票</li><li>应援与互动装置</li></ul><p>复用：输入反馈与本地应援视觉。补充：规则、任务、进度、多人事件、同步和滥用处理。</p></article>
+        <article><span class="note-tag">11 / 直播与线上活动</span><h3>同一空间连接远程观众</h3><ul><li>直播视觉舞美</li><li>远程发布直播</li><li>多人线上活动</li><li>虚拟会展</li></ul><p>复用：舞台与业务画面。补充：视频 / 音频流、会话、共享时钟、直播输出和容量验证。</p></article>
+        <article><span class="note-tag">12 / 创意视觉与数据</span><h3>把声音和数据变成光</h3><ul><li>音乐可视化</li><li>生成艺术</li><li>数据光效</li><li>网页品牌视觉</li></ul><p>复用：激光材质、扫描参数与场景集成。补充：音频分析、数据映射、生成规则和可访问的内容表达。</p></article>
+        <article><span class="note-tag">13 / AI 内容与助手</span><h3>辅助策划和内容组织</h3><ul><li>舞台与分镜建议</li><li>讲解脚本生成</li><li>素材检索与编排</li><li>角色对话与答疑</li></ul><p>复用：结构化舞台、节目 ID 与业务章节。补充：模型调用、可靠资料、生成校验、人工修改与成本控制。</p></article>
+        <article><span class="note-tag">14 / XR 与空间媒介</span><h3>走入展览或观察实物</h3><ul><li>VR 展览</li><li>AR 产品讲解</li><li>WebXR 观演</li><li>空间装置互动</li></ul><p>复用：三维场景与内容模型。补充：XR 输入、坐标与锚点、立体渲染、设备适配和舒适性检查。</p></article>
+        <article><span class="note-tag">15 / 硬件与工程</span><h3>从虚拟呈现走向现场</h3><ul><li>真实激光适配</li><li>灯光控制联动</li><li>现场效果预演</li><li>传感器触发</li></ul><p>复用：节目解析、视觉预览和参数认识。补充：独立输出协议、控制服务、校准与现场工程；当前没有硬件接口。</p></article>
+        <article><span class="note-tag">16 / 资产与服务生态</span><h3>可复用成果的交付</h3><ul><li>模板与节目市场</li><li>模型与角色插件</li><li>定制方案服务</li><li>项目交付与协作</li></ul><p>复用：舞台 JSON、素材 ID 和接入方式。补充：资产包、授权台账、版本兼容、质量标准与交易服务。</p></article>
+      </div>
+      <div class="notes-next-work"><h3>出现具体需求时，按依赖扩展。</h3><p>先交付单一场景和真实内容；再补素材清单、打包与配置兼容；需要跨设备时做云端分享；有多人需求时补协作与同步；AI、XR 和硬件各自作为独立适配项。每一步以完整体验和实际验收为依据。</p></div>
+    </section>
+    <section id="boundary" class="notes-section">
+      <p class="eyebrow">04 / EXPAND FROM A REAL NEED</p><h2>接下来让具体场景决定扩展。</h2>
+      <p>唱歌、二人转、讲义、皮影戏、产品模型或其他三维效果，都可以成为下游内容业务。舞台提供空间与呈现位置；每种业务还需要自己的素材、动作、音频、交互和讲解。AI 演唱会、虚拟角色与音乐纪念空间保留为产品假设，当前没有接入 AI 歌手或真实人物重建。</p>
+      <div class="notes-table-wrap"><table><thead><tr><th>具体需求出现时</th><th>已有基础可复用</th><th>按需新增</th></tr></thead><tbody>
+        <tr><td>新的产品展台 / 三维教学</td><td>模板、插槽、屏幕、部件讲解与镜头流程</td><td>实际模型、部件映射、讲解素材与业务交互</td></tr>
+        <tr><td>唱歌 / 二人转 / 皮影戏</td><td>舞台空间、激光设备与效果</td><td>角色或影像、动作、音频、节目脚本与播放同步</td></tr>
+        <tr><td>讲义 / 课程 / 故事展览</td><td>屏幕和内容插槽、章节式介绍</td><td>课件、场景内容、讲解脚本与学习交互</td></tr>
+        <tr><td>多人评审或跨设备交付</td><td>独立项目、版本、JSON 导出</td><td>云端存储、素材打包、权限、分享与协作</td></tr>
+        <tr><td>真实激光设备或工程预演</td><td>节目解析、视觉预览与设备参数理解</td><td>硬件输出适配、工程光学与现场验证</td></tr>
+      </tbody></table></div>
+      <p class="notes-callout">当前光束与遮挡采用视觉近似，扫描轨迹位于二维平面；泵模型与粒子流向是简化教学示意。商业需求、付费意愿与正式项目交付尚未验证。现阶段保留成果，后续用真实场景定义下一项工作。</p>
+    </section>
+    <details class="notes-archive"><summary>早期讨论与扩展设想<span>保留讨论路径；产品假设尚未实现</span></summary>
+    <section id="capability" class="notes-section"><p class="eyebrow">01 / WHAT THE LIBRARY PROVIDES</p><h2>能力与价值：可控制的激光显示组件</h2><p>ILDA 文件存储坐标、颜色与关光指令。three-ilda 解析这些数据，计算简化振镜运动，维护扫描历史，再绘制轨迹、辉光和空气光束。浏览器里的画面由数据实时生成。</p><div class="notes-grid"><article><span class="note-tag">源码核对 / 已验证</span><h3>库提供什么</h3><ul><li>ILDA 解析、调色板与投影设备分轨。</li><li>按点率推进的扫描模拟、残影与关光跳转。</li><li>可嵌入 Three.js 的场景对象与 WebGL / WebGPU 光效实现。</li><li>位置、尺寸、亮度、光束等参数可由程序控制。</li></ul></article><article><span class="note-tag">本项目新增 / 已实现</span><h3>实验台提供什么</h3><ul><li>18 个上游节目与 4 个原创样例，共 22 个。</li><li>三个显示阶段、调参、导入下载、路线对照。</li><li>每个节目从第 1 帧完整播放一次，全部播完再循环。</li><li>节目列表、搜索筛选、轮播与研究界面。</li><li>本地舞台搭建、构件编辑、保存与 JSON 导入导出。</li></ul></article><article><span class="note-tag">明确边界</span><h3>扩展时需要补什么</h3><ul><li>节目编辑、音乐时间线、人物动画与 AI 生成。</li><li>多人同步、账号、云端项目、分享和评论。</li><li>真实设备输出与工程光学仿真。</li><li>WebGPU 的 GPU 行为尚未在本项目实测。</li></ul></article></div><p class="notes-callout">这里的场景首先指网页中的虚拟三维场景，普通电脑即可体验。当前扫描轨迹位于二维平面，光束与遮挡采用视觉近似；节目素材需要另行提供。当前产品方向是搭建可复用的舞台空间，演出内容通过独立业务接入。舞台搭建器是本项目用 Three.js 新增的工具，three-ilda 本身仅负责其中的激光显示。</p></section>
+    <section id="directions" class="notes-section"><p class="eyebrow">02 / PRODUCT HYPOTHESES</p><h2>可扩展的产品方向</h2><p>以下是基于现有能力的产品假设，还没有经过客户访谈或付费验证。</p><div class="notes-table-wrap"><table><thead><tr><th>方向</th><th>潜在用户</th><th>希望解决的问题</th><th>新增工作</th></tr></thead><tbody><tr><td>舞台搭建与复用（当前方向）</td><td>舞台设计师、虚拟场景与内容团队</td><td>搭建一次，输出可被多个业务使用的空间资产</td><td>当前：五套模板、独立项目与版本、效果绑定、本地保存与 JSON；后续：分享与协作</td></tr><tr><td>方案预览与评审</td><td>活动公司、设计师与客户</td><td>链接交付、比较 A/B 方案、减少反复沟通</td><td>舞台模板、布置、版本、分享、时间点评论</td></tr><tr><td>素材管理</td><td>节目创作者与制作团队</td><td>快速找节目，整理、预览并复用资产</td><td>批量导入、标签搜索、项目与版本管理</td></tr><tr><td>轻量创作工具</td><td>制作文字、Logo 和简单动画的人</td><td>把自己的内容变成激光视觉</td><td>SVG / 文字转扫描点、动画编辑、点序优化与导出</td></tr><tr><td>虚拟音乐体验</td><td>音乐人、品牌、内容团队与观众</td><td>让观众进入音乐场景，参与演出与分享</td><td>音频同步、舞美、镜头、互动、后续多人体验</td></tr></tbody></table></div><p>潜在收费方式包括制作工具订阅、项目交付、主题模板或定制音乐体验；这些是待验证的商业模式。QuickShow、BEYOND 已有创作、时间线与现场控制能力，浏览器分享、低门槛协作与参与式体验值得单独验证。<a class="inline-source" href="https://pangolin.com/pages/laser-design-software" target="_blank" rel="noreferrer">Pangolin 官方功能介绍 ↗</a></p></section>
+    <section id="virtual" class="notes-section"><p class="eyebrow">03 / A VIRTUAL MUSIC EXPERIENCE</p><h2>舞台里可以发生什么？</h2><p>搭建器先交付舞台空间、设备和内容插槽。音乐演出、品牌发布会、展览与 AI 角色体验是使用舞台的下游业务。原来的 90 秒演出已保留为<a href="./show.html">独立接入示例 ↗</a>，用于说明如何读取舞台配置并运行自己的编排。</p><p>下面的五段结构是音乐演出业务的一个设想，不属于舞台搭建器的必要能力；歌词、歌手、影像与多人应援仍需另外实现。</p><ol class="performance-flow"><li><span>01 / 开场</span><h3>进入光的空间</h3><p>从暗场逐渐点亮舞台、光线通道与远处轮廓。</p></li><li><span>02 / 主歌</span><h3>靠近音乐情绪</h3><p>柔和扫描和缓慢运动；后续可加入歌词、回忆画面。</p></li><li><span>03 / 副歌</span><h3>让舞台展开</h3><p>多台激光、节奏脉冲与粒子共同变化，应援影响现场视觉。</p></li><li><span>04 / 间奏</span><h3>切换意境</h3><p>在星海与霓虹城市等主题之间切换镜头和空间氛围。</p></li><li><span>05 / 结束</span><h3>留下参与痕迹</h3><p>光线收束；后续可将留言组织成图案或生成分享画面。</p></li></ol><div class="notes-grid"><article><span class="note-tag">three-ilda</span><h3>激光组件层</h3><p>解析与扫描 ILDA，提供轨迹、残影、辉光和空气光束。它可以嵌入任意 Three.js 场景。</p></article><article><span class="note-tag">本项目 / 当前能力</span><h3>舞台搭建层</h3><p>配置空间、台面、屏幕占位、设备和内容插槽，把已有节目绑定设备，连同空间与参数保存为独立 JSON。音乐与发布会可沿用展台效果，或使用自己的编排；泵讲解直接使用设备绑定。</p></article><article><span class="note-tag">独立业务 / 示例与设想</span><h3>演出与内容层</h3><p>读取舞台，再接入音乐、人物、时间线、AI 与互动。90 秒音乐示例负责音频与应援；60 秒发布会示例负责产品、屏幕文案与结构展示。108 秒泵讲解负责六部件教学。三种业务复用同一份舞台配置。</p></article></div></section>
+    <section id="ai" class="notes-section"><p class="eyebrow">04 / AI & MUSIC MEMORY</p><h2>AI 演出与音乐纪念产品</h2><div class="notes-grid"><article><span class="note-tag">产品设想 / 未接入 AI</span><h3>AI 导演助手</h3><p>根据歌曲结构和情绪提出舞台主题、配色、镜头和效果编排，供创作者调整。先准备音频、动作和演出脚本，播放时统一同步。</p></article><article><span class="note-tag">产品设想 / 未实现人物</span><h3>原创虚拟歌手</h3><p>创建原创角色、声音与歌曲，搭配人物动画。用户选择主题，形成自己的音乐体验。</p></article><article><span class="note-tag">内容合作方向 / 待授权</span><h3>已故歌手的音乐纪念空间</h3><p>沉浸式专辑、获准使用的历史录音、线上纪念演出、作品生涯展馆，以及有来源的资料讲解。授权人物重建和合成演唱是进一步的独立工作。</p></article></div><p class="notes-callout">涉及真实歌手的商业内容，需要核实词曲、录音及姓名、形象等权利来源和使用范围。页面应区分历史资料与 AI 合成内容。具体权利与使用范围需按项目核查，下方保留早期讨论参考资料。<a class="inline-source" href="https://tjca.miit.gov.cn/zwgk/zcwj/flfg/art/2020/art_20cf1a2e1b854924b5caa744c8045d1f.html" target="_blank" rel="noreferrer">民法典 ↗</a> <a class="inline-source" href="https://www.ncac.gov.cn/xxfb/flfg/flfg_532/202103/t20210309_50530.html" target="_blank" rel="noreferrer">著作权法 ↗</a></p><p>参与式演出已有历史案例：2021 年 Roblox 与 Twenty One Pilots 的演出包含观众决定歌单、演出前任务与虚拟商品。这个案例支持体验形态的可行性，不代表当前产品的需求与收益已被验证。<a class="inline-source" href="https://about.roblox.com/newsroom/2021/09/roblox-warner-music-group-announce-twenty-one-pilots-concert-experience" target="_blank" rel="noreferrer">Roblox 官方介绍 ↗</a></p></section>
+    </details>
+    <section id="sources" class="notes-section">
+      <p class="eyebrow">SOURCE / BASELINE & EVIDENCE</p><h2>来源、运行环境与验证范围。</h2>
+      <div class="notes-table-wrap"><table><thead><tr><th>记录项</th><th>依据</th></tr></thead><tbody>
+        <tr><td>固定源码</td><td><a class="inline-source" href="https://github.com/artcodev/three-ilda/tree/6044b91d120cc01f73bdaebed4f7e4d03feb0d2f" target="_blank" rel="noreferrer">three-ilda 0.1.0 · 6044b91d120cc01f73bdaebed4f7e4d03feb0d2f ↗</a>；解析支持 ILDA 格式 0、1、2、4、5，上游核心与测试原样保留。</td></tr>
+        <tr><td>许可与素材</td><td>上游源码 MIT © 2026 Artem Korenevych；18 节目由上游提供，CREDITS 未逐一明确最初作者与单独授权范围。4 样例与程序配乐为本地原创；002 泵为共享的简化程序模型。<a class="inline-source" href="./upstream/ATTRIBUTION.md">素材来源</a> / <a class="inline-source" href="./upstream/CREDITS.md">CREDITS</a> / <a class="inline-source" href="./licenses/three-ilda.txt">上游 LICENSE</a>。</td></tr>
+        <tr><td>依赖与部署</td><td>Node.js 22+、Vite 6.4.3、Three.js 0.185.0；纯前端、WebGL 2、静态编号子路径。运行无需 API 密钥；文件导入在浏览器解析。</td></tr>
+        <tr><td>自动测试</td><td>104 项 Node 用例：24 上游、4 原创、18 上游素材、6 轮播、6 演出、7 装配、6 发布会、7 项目、6 效果、6 编辑、6 泵接入、8 自动讲解。覆盖数据、时钟、项目隔离、资源释放与复用。</td></tr>
+        <tr><td>历史画面证据</td><td>2026-10-10，Windows / Chromium 155 / RTX 4070 Laptop / ANGLE D3D11。保留真实 WebGL 像素自检、五模板、项目保存与三业务截图；不代表全部 22 节目 × 五模板均做 GPU 验证。</td></tr>
+        <tr><td>本次网页整理</td><td>2026-10-12（Asia/Shanghai）。沿用 2026-10-10 原始总览 PNG / SVG，补齐模块、原理、价值和文字目录；原图与历史测试报告不改写为新的设备验证。</td></tr>
+      </tbody></table></div>
+      <p class="notes-callout">项目保存在当前浏览器、当前站点，localhost 与线上站点各自独立。新设备需导入 JSON 并保存；配置不打包模型、音频和角色素材。音频需用户启动；中文朗读依赖浏览器语音，默认关闭。WebGPU、目标移动设备性能、音频听感、多人协作、真实设备和商业效果仍需专项验证。</p>
+    </section>
+    <section id="resources" class="notes-section notes-next">
+      <p class="eyebrow">05 / KEEP THE RESULTS READY</p><h2>需要时，从这些入口继续。</h2>
+      <div class="notes-resource-links"><a class="notes-primary" href="./stage.html">舞台方案库与搭建器 ↗</a><a href="./#experiment">22 节目实验台 ↗</a><a href="./research.md" download>详细研究笔记 ↓</a><a href="./stages/exhibition-effects.json" download>三岛效果展台 JSON ↓</a><a href="./stages/aurora-island.json" download>极光环岛 JSON ↓</a></div>
+      <p>本次复用验证使用“三岛展台 · 海豚与流光”v4；要在其他浏览器复现，需导入对应配置并保存，再让业务选择同一项目。模型和业务素材由已有示例提供，JSON 不包含它们。</p>
+      <div class="notes-evidence-links"><a href="./records/stage-library-validation.json">五套模板与项目保存记录</a><a href="./records/stage-effects-validation.json">效果绑定与两业务复用记录</a><a href="./records/pump-exhibit-validation.json">002 模型与三业务复用记录</a><a href="./records/pump-tour-validation.json">自动结构讲解记录</a><a href="./records/webgl-validation.json">WebGL GPU 像素自检</a><a href="./records/stage-effects-music.jpg">音乐实际截图</a><a href="./records/stage-effects-launch.jpg">发布会实际截图</a></div>
+      <p class="notes-source">上游研究固定于 <a href="https://github.com/artcodev/three-ilda/tree/6044b91d120cc01f73bdaebed4f7e4d03feb0d2f" target="_blank" rel="noreferrer">three-ilda / 6044b91 ↗</a>，上游源码与素材的 LICENSE、CREDITS 和来源说明继续保留。测试数量与截图是此次本地记录，不是目标设备的性能保证。</p>
+    </section>
+  </main><footer><span>网页整理 · 2026.10.12 · 后续按具体场景使用</span><div><a href="./">实验台</a><a href="./stage.html">舞台搭建器</a><a href="./research.md" download>研究笔记</a></div></footer>
+</body></html>

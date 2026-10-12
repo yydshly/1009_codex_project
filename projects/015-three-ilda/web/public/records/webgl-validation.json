@@ -1,0 +1,17 @@
+{
+  "backend": "WebGL 2",
+  "fixture": "原创 light-flower.ild",
+  "errors": [],
+  "browser": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/155.0.0.0 Safari/537.36",
+  "gpu": "ANGLE (NVIDIA, NVIDIA GeForce RTX 4070 Laptop GPU (0x00002860) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "frontChangedPixels": 29878,
+  "backChangedPixels": 16597,
+  "disabledRestoresPixels": true,
+  "meanBrightness": {
+    "bloom": 16.9606,
+    "noBloom": 0.9257
+  },
+  "occludedMean": 0,
+  "backgroundPreserved": true,
+  "pass": true
+}

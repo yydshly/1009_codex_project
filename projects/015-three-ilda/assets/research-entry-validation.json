@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-10",
+  "scope": "入口效果展示与导航；没有新增业务播放逻辑或修改已保存舞台配置",
+  "entry": "http://127.0.0.1:5215/product.html",
+  "compatibleBookmark": "product.html#summary",
+  "conclusionsAnchor": "product.html#understanding",
+  "images": [
+    {
+      "file": "stage-entry-exhibit.jpg",
+      "source": "实际泵展台的全屏视口截图，未经图像编辑",
+      "width": 1707,
+      "height": 1067,
+      "stage": "三岛展台 · 海豚与流光 · v4",
+      "effects": ["DOLPHIN", "PLASMA2"]
+    },
+    {
+      "file": "preview.jpg",
+      "source": "既有初版光之花真实 WebGL 截图，未经图像编辑",
+      "width": 1184,
+      "height": 738
+    }
+  ],
+  "verification": {
+    "viteBuild": "passed; 62 modules, 7 HTML entries",
+    "rootIndexSync": "passed; 15 projects",
+    "rootCheck": "passed",
+    "pagesBuild": "passed; 14 local demos",
+    "devHttp": "passed; 22 programs, hashes, previews, entries and 10 records copied byte-for-byte",
+    "numberedHttp": "passed; http://127.0.0.1:5217/015-three-ilda/; 10 records copied byte-for-byte",
+    "heroImagesLoaded": true,
+    "numberedHeroImagesLoaded": true,
+    "horizontalOverflow": false,
+    "numberedHorizontalOverflow": false,
+    "conclusionsLink": "clicked; reached #understanding and its heading",
+    "coverPlaybackLink": "clicked; reached pump.html?tour=1#pump-tour; button aria-pressed=true with 暂停自动讲解; v4 stage selected",
+    "labEntryCard": "actual image source present; clicked cover and reached product.html#summary; image loaded",
+    "consoleErrors": [],
+    "deliveredScreenshot": "research-entry-showcase.jpg"
+  },
+  "limits": [
+    "本轮为展示与导航调整，未重复运行既有 104 项 Node 功能测试",
+    "没有新增全部节目的 GPU、音频听感或手机性能验收",
+    "临时编号路径服务验证后停止，原开发服务保留"
+  ]
+}
