@@ -1,0 +1,18 @@
+{
+  "name": "motion-video-kit-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "dev": "node scripts/serve.mjs",
+    "render": "node scripts/render.mjs",
+    "motion:check": "hyperframes check dist/motion",
+    "verify": "node scripts/verify.mjs"
+  },
+  "devDependencies": {
+    "gsap": "3.15.0",
+    "hyperframes": "0.8.143"
+  }
+}

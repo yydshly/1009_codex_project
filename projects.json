@@ -2,6 +2,64 @@
   "schemaVersion": 1,
   "projects": [
     {
+      "id": "001",
+      "slug": "motion-video-kit",
+      "title": "Motion Video Kit 研究与演示",
+      "summary": "AI商业短片制作方法与质检工作流：1个Skill、11份参考文档、7个测量与音频脚本、2个实验与投影模板；涵盖业务策划、分镜、HTML/SVG与GSAP动画、Three.js结构标注、素材协作、独立评审和混音。模板采用HyperFrames定位时间、Chrome逐帧捕获与FFmpeg编码，并非Remotion封装。以全景图引导，保留24秒真实研究总库流程演示、状态比较与评审记录；梳理SaaS、硬件、家居服务等场景、可追溯制作价值、参数化模板、多画幅、渲染器适配、资产与评审台账及投放实验方向，并区分本地验证、作者案例与尚未实现的设想。",
+      "summarySections": [
+        {
+          "label": "定位",
+          "text": "让AI助手制作15–40秒商业说明片的Skill、参考资料、工具与模板；核心是制作方法和质量闭环。"
+        },
+        {
+          "label": "能力",
+          "text": "业务目标与分镜、HTML/SVG清晰文字、GSAP动效、Three.js结构与投影标注、真实或AI素材组织、独立评审、音效处理与客观测量。"
+        },
+        {
+          "label": "模块",
+          "text": "1个Skill组织9步流程；11份参考文档覆盖业务、动效、三维、质量、音频与案例；7个脚本辅助测量和混音；2个模板提供组件实验与三维锚点投影。"
+        },
+        {
+          "label": "原理",
+          "text": "统一时间t计算场景姿态与标签，HyperFrames定位时间，Chrome逐帧捕获，FFmpeg编码；模板不依赖Remotion，方法可迁移，接口需适配。"
+        },
+        {
+          "label": "演示与证据",
+          "text": "全景图引导中文网页；本地24秒1280×720/30fps静音演示，从GitHub链接到编号研究页，46项DOM状态路径一致、3轮画面评审；ALDER与手机案例仅引用作者复盘。"
+        },
+        {
+          "label": "场景",
+          "text": "SaaS与开发工具发布、硬件与电商结构展示、家居服务过程说明、广告变体与视频改进；适合卖点明确、文字需要准确修改的短片。"
+        },
+        {
+          "label": "价值",
+          "text": "业务先行、确定性画面控制、制作与评审分离、素材与版本可追溯；可借鉴制作方法与质量闭环，已有测量不能证明广告转化。"
+        },
+        {
+          "label": "扩展",
+          "text": "参数化行业模板、统一制作与质检入口、Remotion与多画幅适配、真实GLB与证据管理、时间点人工评审、实际投放实验；均为未来设想。"
+        },
+        {
+          "label": "边界",
+          "text": "不是开箱即用的一键成片服务；场景与评审要配置，模型按需接入，部分脚本带案例固定参数。上游三维、AI素材与混音未在本地完整复现，依赖许可分别适用。"
+        }
+      ],
+      "source": "https://github.com/echris6/motion-video-kit",
+      "sourceRef": "255562b04b1e5ecaa4ba98e5c9aa191d5ba7f6fa",
+      "status": "done",
+      "tags": [
+        "AI视频",
+        "HyperFrames",
+        "GSAP",
+        "研究工作流"
+      ],
+      "addedAt": "2026-10-09",
+      "preview": "assets/capability-map-v1.png",
+      "previewCaption": "原创中文能力全景图：能力、四层原理、模块与场景、参考价值和扩展边界；嵌入本地实际视频帧，屋顶和手机为已标注的机制示意。",
+      "demoUrl": "",
+      "pagesDir": "web/dist"
+    },
+    {
       "id": "016",
       "slug": "agenvo",
       "title": "Agenvo：远程 Agent 连接与调度研究",

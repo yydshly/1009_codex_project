@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Motion Video Kit 完整中文研究：全景图引导，拆解 Skill、11份参考、7个脚本与2个模板，说明 HTML/GSAP/Three.js、HyperFrames/Chrome/FFmpeg 的确定性视频链路；保留真实演示、案例证据、应用场景、制作价值、扩展方向与采用边界。">
+  <meta name="theme-color" content="#101323">
+  <title>Motion Video Kit · 能力、模块、原理与制作价值</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="#overview"><span class="brand-icon">m<span>↗</span></span><span>MOTION <b>RESEARCH</b></span></a>
+    <div class="header-links"><span class="edition">研究编号 001</span><a href="https://github.com/echris6/motion-video-kit" target="_blank" rel="noopener noreferrer">原仓库 <span aria-hidden="true">↗</span></a></div>
+  </header>
+  <div class="layout">
+    <aside class="sidebar" aria-label="文章目录">
+      <p class="eyebrow">FIELD NOTES / 01</p>
+      <p class="side-title">Motion<br>Video Kit<span class="dot">.</span></p>
+      <nav aria-label="研究章节">
+        <a class="active" href="#overview"><span>00</span> 全景引导</a>
+        <a href="#demo"><span>01</span> 实际演示</a>
+        <a href="#capabilities"><span>02</span> 能力边界</a>
+        <a href="#modules"><span>03</span> 模块拆解</a>
+        <a href="#principles"><span>04</span> 底层原理</a>
+        <a href="#examples"><span>05</span> 已有案例</a>
+        <a href="#scenarios"><span>06</span> 使用场景</a>
+        <a href="#value"><span>07</span> 参考价值</a>
+        <a href="#extensions"><span>08</span> 扩展方向</a>
+      </nav>
+      <div class="side-baseline"><span class="status-dot"></span>文档与源码研究<br><code>255562b</code><br><small>2026.10.09 · MIT</small></div>
+    </aside>
+    <main id="main">
+      <section id="overview" class="section overview-section" aria-labelledby="page-title">
+        <div class="intro-line"><span class="pill">001 · 完整研究与可复用方法</span><span class="muted mono">WORKFLOW / CODE / REVIEW</span></div>
+        <h1 id="page-title">把商业短片的制作经验，<br>整理成一套可复用的流程<span class="dot">。</span></h1>
+        <p class="lead">Motion Video Kit 的核心是一套 AI 制作方法与质检工作流。它把业务目标、分镜、代码动画、素材、渲染和独立评审连起来；当前模板采用 HyperFrames，底层不是 Remotion。</p>
+        <figure class="guide-figure">
+          <a href="./capability-map-v1.png" target="_blank" rel="noopener noreferrer" aria-label="打开 Motion Video Kit 能力全景图高清原图"><img src="./capability-map-v1.png" width="3840" height="2560" alt="Motion Video Kit 能力全景图：六类能力、四层原理、实际演示与作者案例、应用场景、扩展方向和参考价值" fetchpriority="high" decoding="async"></a>
+          <figcaption><span>我们的能力全景图 · 嵌入本地实际 MP4 第 18 秒画面；屋顶与手机为已标注的机制示意。</span><a href="./capability-map-v1.png" download>PNG 原图 ↓</a><a href="./capability-map-v1.svg" download>可编辑 SVG ↓</a></figcaption>
+        </figure>
+        <div class="overview-actions"><a class="primary-link" href="#demo">观看真实流程演示 ↓</a><a href="#modules">拆开四类模块</a><a href="#value">理解参考价值</a></div>
+        <div class="summary-heading"><h2>我们的理解，按问题展开</h2><p>以下内容与总库摘要使用同一份项目记录。完整证据保留在各章节。</p></div>
+        <dl id="overview-summary" class="overview-summary" aria-label="完整研究摘要"><div><dt>研究定位</dt><dd>Skill、参考文档、测量脚本与模板组成的制作工作流；关注代码短片与质量闭环。</dd></div></dl>
+        <p class="baseline-note">研究基线：<code>255562b</code>（2026-10-09）；网页整理与部署：2026-10-12。新增内容延续固定版本，不声称已检查上游最新功能。</p>
+      </section>
+
+      <section id="demo" class="section demo-section" aria-labelledby="demo-title">
+        <div class="intro-line"><span class="pill">AI 商业短片 · 工作流研究</span><span class="muted mono">HTML → MOTION → VIDEO</span></div>
+        <h2 id="demo-title">把一个真实流程，<br>变成一段可控的说明<span class="dot">。</span></h2>
+        <p class="lead">Motion Video Kit 把分镜、代码动画和独立评审写成 AI 可执行的制作方法。我们用自己的研究总库，验证这条从网页到视频的路径。</p>
+        <div class="demo-shell">
+          <div class="demo-top"><span><i class="status-dot"></i> 本地实作 / GitHub 研究库</span><span class="mono">24 SEC · CODE MOTION</span></div>
+          <div class="frame-wrap"><iframe id="motion-frame" src="./motion/index.html?embedded=1" title="从 GitHub 链接到编号研究页的 24 秒代码动画" loading="eager"></iframe></div>
+          <div class="player-controls">
+            <button id="play" class="play-button" type="button"><span aria-hidden="true">▶</span> 播放演示</button>
+            <button id="replay" class="icon-button" type="button" aria-label="从头重新播放" title="从头重新播放">↺</button>
+            <label class="sr-only" for="seek">演示时间，单位秒</label>
+            <input id="seek" type="range" min="0" max="24" step="0.01" value="0" aria-valuetext="0 秒，共 24 秒">
+            <output id="time" class="mono">00:00 / 00:24</output>
+            <label class="sr-only" for="speed">播放速度</label>
+            <select id="speed" aria-label="播放速度"><option value="1">1×</option><option value="0.5">0.5×</option><option value="1.5">1.5×</option></select>
+          </div>
+          <div class="chapters" aria-label="跳转到演示章节">
+            <button type="button" data-time="0" class="selected"><span>00:00</span> 真实问题</button>
+            <button type="button" data-time="6.8"><span>00:06</span> 收录链接</button>
+            <button type="button" data-time="11.5"><span>00:11</span> 记录证据</button>
+            <button type="button" data-time="18"><span>00:18</span> 网页呈现</button>
+            <button type="button" data-time="21.5"><span>00:21</span> 开始研究</button>
+          </div>
+        </div>
+        <div class="demo-caption"><p><strong>场景是真的，界面是为说明流程绘制的。</strong>目录、命令和 commit 均来自本仓库。动画表现信息如何衔接，不执行创建或发布操作。无配乐。</p><a id="download" href="./media/research-workflow.mp4" download hidden>下载本地渲染 MP4 ↓</a></div>
+        <div class="proof-strip"><div><strong>HTML + GSAP</strong><span>这一演示的画面实现</span></div><div><strong>HyperFrames</strong><span>实际使用的视频渲染器</span></div><div><strong>真实仓库数据</strong><span>不虚构客户或转化结果</span></div></div>
+      </section>
+
+      <section id="capabilities" class="section" aria-labelledby="capability-title">
+        <div class="section-heading"><p class="eyebrow">02 / CAPABILITIES</p><h2 id="capability-title">它把哪些工作串起来？</h2><p>主体是 Skill、参考文档、脚本与模板。AI 助手负责执行流程，外部工具负责生成素材和渲染成片。</p><p class="source-line"><a href="./capability-map-v1.png" target="_blank" rel="noopener noreferrer">查看能力全景图（3840 × 2560）↗</a> · <a href="./capability-map-v1.svg" download>下载可编辑 SVG ↓</a></p></div>
+        <div class="capability-grid">
+          <article><span class="card-number">01 / PLAN</span><h3>把业务目标写进分镜</h3><p>先确定观众、真实卖点和唯一行动，再规划镜头与转场。让静音观看也能理解业务。</p><a data-source="skill">工作流依据 ↗</a></article>
+          <article><span class="card-number">02 / BUILD</span><h3>用代码构建文字与界面</h3><p>HTML/SVG 保持信息清晰，GSAP 编排速度、位置与转场。三维只用于解释空间和物理结构。</p><a data-source="three">实现约定 ↗</a></article>
+          <article><span class="card-number">03 / SPATIAL</span><h3>产品结构与三维标注</h3><p>拆解层次、旋转产品、演示折叠，并把三维锚点投影成二维标签和照片连接线。</p><a data-source="overlays">标注模板源码 ↗</a></article>
+          <article><span class="card-number">04 / ASSETS</span><h3>真实素材与 AI 素材协作</h3><p>可组织照片、图生视频和生成记录。模型服务需另配，概念素材要标注；真实业务事实由客户确认。</p><a data-source="skill">素材流程 ↗</a></article>
+          <article><span class="card-number">05 / REVIEW</span><h3>独立评审，逐项复验</h3><p>新评审者看实际输出，提出带时间点的问题。修复后重新渲染，用另一轮评审检查回归。</p><a data-source="gauntlet">Gauntlet 机制 ↗</a></article>
+          <article><span class="card-number">06 / AUDIO</span><h3>音效处理与客观测量</h3><p>抽帧、检测近乎静止的画面、测响度、筛选音效和求音量。数值帮助排查，审美仍需人或模型判断。</p><a data-source="audio">音频设计依据 ↗</a></article>
+        </div>
+        <div class="boundary"><span class="small-label">实际边界</span><p>没有完整成片工程随仓库交付。模板需补场景模块，评审流程需助手组织执行；混音脚本含 40 秒案例的固定时间参数，迁移时要修改。</p><a data-source="mix">查看混音参数 ↗</a></div>
+      </section>
+
+      <section id="modules" class="section" aria-labelledby="module-title">
+        <div class="section-heading"><p class="eyebrow">03 / MODULES</p><h2 id="module-title">四类模块，各自解决什么问题？</h2><p>研究版本包含 1 个 Skill、11 份参考文档、7 个工具脚本与 2 个模板。它们组织制作过程，执行还依赖助手、浏览器、渲染器与素材工具。</p></div>
+        <div class="module-grid">
+          <article><span class="card-number">01 / SKILL</span><h3>制作流程的控制入口</h3><p><code>business-motion-film/SKILL.md</code> 指定何时读哪份参考、各阶段要交付什么，以及真实业务信息、静音可理解、确定性动作与独立评审的要求。</p><a data-source="skill">读取流程入口 ↗</a></article>
+          <article><span class="card-number">11 / REFERENCES</span><h3>分阶段读取的经验库</h3><p>业务选题、动效语法、28 部参考片索引、三维约定、产品动作真实性、质量标准、评审规则与提示、音频设计、两个案例复盘。</p><a href="#reference-files">展开全部参考文件 ↓</a></article>
+          <article><span class="card-number">07 / SCRIPTS</span><h3>辅助测量与声音处理</h3><p>抽帧、近静止检测、响度测量、候选音效筛选、逐事件增益、频段与淡化处理、离线混音。数值为评审提供证据，不能自行判定审美。</p><a href="#script-table">查看七个脚本 ↓</a></article>
+          <article><span class="card-number">02 / TEMPLATES</span><h3>组件实验与三维投影</h3><p><code>component-lab.html</code> 提供组件实验起点；<code>projected-overlays.js</code> 把三维锚点投影为二维标注。需要补齐场景，才能进入完整成片。</p><a data-source="lab">查看实验模板 ↗</a></article>
+        </div>
+        <div class="workflow-block"><h3>Skill 组织的九步制作流程</h3><ol class="workflow-steps"><li>需求 Brief</li><li>参考片机制</li><li>分镜与叙事</li><li>素材与记录</li><li>组件实验</li><li>统一时间轴组装</li><li>全片独立评审</li><li>音频与混音</li><li>成片、源码与台账交付</li></ol><p>从需求和素材进入，输出可播放视频、海报帧、接触表、可编辑源码与制作记录。AI 模型是按需接入的素材来源；本地演示使用代码画面，没有调用素材生成模型。</p></div>
+        <details id="reference-files" class="reference-files"><summary>11 份参考文档：按任务查找</summary><ul><li><strong>业务与叙事：</strong><code>business-offers.md</code>、<code>motion-grammar.md</code>、<code>launch-film-notes.md</code></li><li><strong>三维与真实动作：</strong><code>three-js-patterns.md</code>、<code>product-hero-realism.md</code></li><li><strong>质量与评审：</strong><code>quality-bar.md</code>、<code>gauntlet.md</code>、<code>critic-prompts.md</code></li><li><strong>声音与案例：</strong><code>audio.md</code>、<code>case-study-alder.md</code>、<code>case-study-duo.md</code></li></ul></details>
+        <div class="comparison-wrap" id="script-table"><table><caption>七个工具脚本：输入、输出与解释边界</caption><thead><tr><th scope="col">脚本</th><th scope="col">工作</th><th scope="col">结果与边界</th></tr></thead><tbody><tr><th scope="row"><code>contact-sheet.sh</code></th><td>视频 → 定时抽帧</td><td>接触表帮助看全片结构，采样不等于逐帧评审。</td></tr><tr><th scope="row"><code>frozen-time.sh</code></th><td>视频 → 近静止分析</td><td>阈值检测停滞区间，缓慢运动不一定代表信息推进。</td></tr><tr><th scope="row"><code>loudness.sh</code></th><td>音轨 → 响度测量</td><td>响度帮助排查混音，听感仍需实际试听。</td></tr><tr><th scope="row"><code>sfx-candidates.py</code></th><td>候选音效 → 时长与频谱分析</td><td>筛查过长、低频隆隆声与尖锐高频；不替代试听。</td></tr><tr><th scope="row"><code>solve-sfx-gains.py</code></th><td>配乐与事件列表 → 逐事件增益</td><td>按频段能量求相对音量，同时约束敏感高频段。</td></tr><tr><th scope="row"><code>soften-sfx.sh</code></th><td>音效 → 滤波与淡入淡出</td><td>减弱低频、高频和点击声，参数应随素材调整。</td></tr><tr><th scope="row"><code>offline-mix.py</code></th><td>音轨与时间安排 → 离线混音</td><td>包含 40 秒案例的固定配置，不能直接用于任意片长。</td></tr></tbody></table></div>
+        <p class="source-line">依据：<a data-source="skill">Skill 模块导航</a> · <a data-source="scripts">七个脚本源码</a> · <a data-source="overlays">投影标注模板</a></p>
+      </section>
+
+      <section id="principles" class="section" aria-labelledby="principle-title">
+        <div class="section-heading"><p class="eyebrow">04 / UNDER THE HOOD</p><h2 id="principle-title">一帧画面，是时间的函数</h2><p>底层不是 Remotion：本研究版本的模板采用 HyperFrames。两者都使用网页技术按帧生成视频，具体编写方式和时间控制接口不同。</p></div>
+        <div class="architecture" aria-label="从工作流到视频的四层架构">
+          <button type="button" class="layer active" data-layer="workflow"><span>01</span><strong>制作方法</strong><small>Motion Video Kit</small><b>↓</b></button>
+          <button type="button" class="layer" data-layer="scene"><span>02</span><strong>画面与动画</strong><small>HTML / GSAP / Three.js</small><b>↓</b></button>
+          <button type="button" class="layer" data-layer="renderer"><span>03</span><strong>逐帧定位与捕获</strong><small>HyperFrames / Chrome</small><b>↓</b></button>
+          <button type="button" class="layer" data-layer="encode"><span>04</span><strong>编码与混音</strong><small>FFmpeg</small><b>→</b></button>
+        </div>
+        <div id="layer-detail" class="layer-detail" aria-live="polite"></div>
+        <div class="principle-columns">
+          <article class="principle-panel"><span class="small-label">DETERMINISTIC MOTION</span><h3>定位到 8 秒，画面就回到 8 秒</h3><p>动画读取统一时间，不依赖运行了多久。可以跳帧、重渲染、逐帧比较，也能精确定位转场缺陷。</p><div class="formula">frame(t) = render(pose(t))</div><button id="test-seek" type="button" class="outline-button">比较两条定位路径</button><p id="seek-result" class="test-result" role="status">比较同一时刻可见元素的位置与透明度。</p></article>
+          <article class="principle-panel"><span class="small-label">GAUNTLET LOOP</span><h3>制作 → 渲染 → 评审 → 修复</h3><p>评审者看到成片、需求和参考资料，按时间点检查问题。新的一轮逐项确认修复状态，同时发现新缺陷。</p><div class="review-flow"><span>实际输出</span><i>→</i><span>独立判断</span><i>→</i><span>问题清单</span><i>↩</i></div><p class="note">本地实验保留评审与验证记录；上游案例的评审轮数来自作者复盘。</p><a data-source="gauntlet">阅读评审规则 ↗</a></article>
+        </div>
+        <div class="comparison-wrap"><table><caption>与 Remotion 的关系</caption><thead><tr><th scope="col">比较项</th><th scope="col">本项目 / HyperFrames</th><th scope="col">Remotion</th></tr></thead><tbody><tr><th scope="row">编写画面</th><td>HTML、CSS、JS 与可定位动画</td><td>React 组件</td></tr><tr><th scope="row">时间控制</th><td>把动画定位到时间 t，再捕获画面</td><td>读取当前帧号，计算组件状态</td></tr><tr><th scope="row">共同机制</th><td colspan="2">浏览器逐帧绘制，再编码为视频。HyperFrames 官方称其受到 Remotion 启发。</td></tr><tr><th scope="row">Kit 的位置</th><td colspan="2">制作方法位于渲染器之上；方法可迁移，现成模板需要重新适配。</td></tr></tbody></table></div>
+        <p class="source-line">依据：<a data-source="hyperframes">HyperFrames 实现说明</a> · <a data-source="comparison">官方编写方式对比</a> · <a data-source="remotion">Remotion 基础文档</a></p>
+      </section>
+
+      <section id="examples" class="section" aria-labelledby="examples-title">
+        <div class="section-heading"><p class="eyebrow">05 / EXISTING WORK</p><h2 id="examples-title">已有案例，能证明到哪一步？</h2><p>上游给出了两部成片的制作复盘；当前版本未附 MP4 或完整成片源码。以下图形为自绘机制示意，指标为作者记录，未在本地复现。</p></div>
+        <div class="examples-grid">
+          <article class="example-card"><div class="example-art roof-art" role="img" aria-label="屋顶结构的自绘分层示意"><div class="roof-base"></div><div class="roof-layer layer-a"></div><div class="roof-layer layer-b"></div><div class="roof-layer layer-c"></div><span class="art-label">自绘机制示意</span><span class="art-callout">LAYERS → FINDINGS</span></div><div class="example-body"><span class="small-label">CASE 01 / SERVICE</span><h3>ALDER · 屋顶检查服务片</h3><p>屋顶层次展开 → 检查照片绑定位置 → 汇入报告 → 发起检查请求。把服务过程变成具体可见的结果。</p><div class="example-spec"><span>28.6 秒</span><span>1080p60</span><span>虚构品牌概念片</span></div><p class="note">作者记录：多轮改进后，近乎静止的画面累计约 0.7 秒；音效与配乐经历多次返工。</p><a data-source="alder">查看上游案例复盘 ↗</a></div></article>
+          <article class="example-card"><div class="example-art phone-art" role="img" aria-label="折叠设备的自绘展开示意"><div class="phone-half phone-left"><div class="screen-line"></div></div><div class="phone-half phone-right"><div class="screen-orb"></div></div><div class="hinge"></div><span class="art-label">自绘机制示意</span><span class="art-callout">POSE(t) → UNFOLD</span></div><div class="example-body"><span class="small-label">CASE 02 / PRODUCT</span><h3>折叠手机 · 产品概念广告</h3><p>六个 Three.js 画布共享时间轴，展示开合、铰链、材质与屏幕。用逐帧参考校准动作和屏幕连续性。</p><div class="example-spec"><span>40 秒</span><span>画面由代码构建</span><span>非官方概念片</span></div><p class="note">作者记录：约 70 次组件与全片评审；折叠曲线、运动模糊、反射和闭合动作均被逐项修正。</p><a data-source="duo">查看上游案例复盘 ↗</a></div></article>
+        </div>
+        <div class="reference-row"><div><span class="small-label">REFERENCE FILMS</span><h3>可观看的专业参考影片</h3><p>这些是作者研究的原始参考片，归各自作者所有；不代表 Motion Video Kit 的产出。</p></div><div class="reference-links"><a href="https://x.com/MarkKnd/status/2022261281114468759" target="_blank" rel="noopener noreferrer">Work Louder · 分层结构 ↗</a><a href="https://x.com/Replit/status/2060097656207413613" target="_blank" rel="noopener noreferrer">Replit Canvas · 连续画布 ↗</a><a href="https://x.com/boltdotnew/status/2039024467846860972" target="_blank" rel="noopener noreferrer">Bolt · 前景转场 ↗</a></div></div>
+        <div class="local-case"><span class="pill">本地可播放实作</span><h3>研究总库 · 从一个链接，到一份可复用的研究</h3><p>本页实际演示章节的 24 秒动画是本次实验的实际输出，使用真实项目编号、目录和版本。复现范围是 HTML/GSAP 动画与 HyperFrames 渲染，不包含上游三维产品案例。</p><a href="#demo">回到演示 ↑</a></div>
+      </section>
+
+      <section id="scenarios" class="section" aria-labelledby="scenarios-title">
+        <div class="section-heading"><p class="eyebrow">06 / WHERE IT FITS</p><h2 id="scenarios-title">让动作产生一个可见结果</h2><p>适合卖点明确、流程可视化、文案需要准确修改的短片。以下为基于工作流的适用性判断，不代表已验证的商业转化。</p></div>
+        <div class="scenario-list">
+          <article><span>01</span><div><h3>SaaS 与开发工具</h3><p>输入 → 操作 → 结果。发布功能、解释工作流、制作销售演示。与本地研究总库案例最接近。</p></div><span class="fit">优先验证</span></article>
+          <article><span>02</span><div><h3>电商与硬件产品</h3><p>结构 → 材质 → 使用方式。适合分层和机械动作，需要准确资产、三维建模及更多逐帧校准。</p></div><span class="fit">资产要求较高</span></article>
+          <article><span>03</span><div><h3>家居服务与物业</h3><p>现场素材 → 服务过程 → 下一步。用真实照片支撑业务事实，三维图形帮助解释结构与位置。</p></div><span class="fit">真实素材优先</span></article>
+          <article><span>04</span><div><h3>广告变体与已有视频改进</h3><p>复用画面结构，调整开头、文字、结尾与比例；用抽帧和评审找出停顿、碰撞和声音问题。</p></div><span class="fit">可控修改</span></article>
+        </div>
+        <details class="limits"><summary>采用前应验证哪些限制？</summary><p>复杂三维和多轮模型评审会增加制作时间；视频素材的真实性、素材授权与业务文案需要单独核实。停滞、响度和颜色数据不能自动证明审美质量，更不能证明广告转化。长剧情与复杂人物表演不属于这套工作流的重点。</p></details>
+      </section>
+
+      <section id="value" class="section" aria-labelledby="value-title">
+        <div class="section-heading"><p class="eyebrow">07 / REFERENCE VALUE</p><h2 id="value-title">最值得复用的，是制作方法与质量闭环</h2><p>以下是我们的研究判断。代码渲染带来可控修改，真正可迁移的经验还包括业务拆解、组件实验、独立判断与可追溯记录。</p></div>
+        <div class="value-grid"><article><span class="card-number">01 / BUSINESS FIRST</span><h3>用业务目的约束创意</h3><p>先明确观众、可证明事实和唯一 CTA，再选择镜头与素材。对我们而言，适合把研究方法、工具流程和服务结果解释清楚。</p></article><article><span class="card-number">02 / REPEATABLE OUTPUT</span><h3>让修改能定位到时间</h3><p>统一时间控制动作、相机与文字，便于跳帧、替换文案、比较版本和重新输出。本地路径比较验证了 46 项 DOM 状态，未声称逐像素一致。</p></article><article><span class="card-number">03 / INDEPENDENT REVIEW</span><h3>把制作与评审分开</h3><p>新评审者看真实画面与需求，指出时间点、碰撞与阅读问题；修订后逐项复验。可借鉴到其他程序动画和作品交付。</p></article><article><span class="card-number">04 / TRACEABLE WORK</span><h3>把经验留下来</h3><p>素材、版本、抽帧、测量、意见与修复记录关联起来。对研究总库而言，一份可追溯的制作台账比只保存最后一个视频更便于复用。</p></article></div>
+        <div class="boundary"><span class="small-label">采用判断</span><p>优先借鉴 Brief、时间函数、组件实验和评审台账，再按需求适配渲染器与素材工具。字体、浏览器和资产会影响输出；多轮评审与复杂三维仍需投入。测量通过不等于审美达标，制作方法也不等于商业转化。</p><a href="#extensions">下一步可验证什么 ↓</a></div>
+      </section>
+
+      <section id="extensions" class="section" aria-labelledby="extensions-title">
+        <div class="section-heading"><p class="eyebrow">08 / NEXT EXPERIMENTS</p><h2 id="extensions-title">从一次制作，走向可重复生产</h2><p>以下是我们的扩展设想。它们尚未实现，不能当作上游已经具备的功能。</p></div>
+        <div class="extension-grid">
+          <article><span class="priority">P1 · 模板化</span><h3>参数驱动的行业模板</h3><p>把品牌色、卖点、图片和 CTA 分离为 JSON。固定分镜，批量生成不同产品和广告开头。</p><small>验证：修改数据即可生成另一条片，且文字不溢出。</small></article>
+          <article><span class="priority">P1 · 工具化</span><h3>统一渲染与质检入口</h3><p>封装素材校验、渲染、抽帧、响度检测与评审台账，给每次修改留下版本与证据。</p><small>验证：一条命令产出视频、检查结果与可追溯记录。</small></article>
+          <article><span class="priority">P2 · 适配</span><h3>Remotion 与多比例输出</h3><p>保持策划与评审方法，增加 React 组件适配；为 16:9 与 9:16 分别设计文字安全区。</p><small>验证：同一叙事跨渲染器、跨画幅保持可读性。</small></article>
+          <article><span class="priority">P2 · 资产</span><h3>真实三维与证据管理</h3><p>导入产品 GLB，管理素材授权与业务事实来源，替换手工模型和临时生成素材。</p><small>验证：标注跟随模型，产品参数与来源一一对应。</small></article>
+          <article><span class="priority">P3 · 协作</span><h3>按时间点的人工评审</h3><p>客户直接在关键帧上留修改意见。将“太慢”转换为明确时间段，并关联下一版的修复结果。</p><small>验证：评论、版本和修复状态能闭环追踪。</small></article>
+          <article><span class="priority">P3 · 效果</span><h3>连接真实投放数据</h3><p>比较不同开头、CTA 和画面版本，结合实际播放、点击与后续行动数据评估效果。</p><small>验证：使用真实实验数据，区分相关性与因果结论。</small></article>
+        </div>
+      </section>
+
+      <section class="sources-section" id="sources" aria-labelledby="sources-title"><p class="eyebrow">RESEARCH BASELINE</p><h2 id="sources-title">结论有出处，演示可复现</h2><p>读取时间：2026-10-09 · 上游 commit：<code>255562b04b1e5ecaa4ba98e5c9aa191d5ba7f6fa</code> · 上游许可证：MIT。</p><div id="source-list" class="source-list"></div><p class="note">上游案例数字均按作者复盘引用。研究结论与本地验证范围见子项目 research.md；本地截图与视频不表示上游成片已完整复现。第三方影片只链接，不转载。</p></section>
+      <footer><span>001 / MOTION VIDEO KIT</span><a href="#overview">回到全景图 ↑</a><span>GITHUB RESEARCH · 2026</span></footer>
+    </main>
+  </div>
+</body>
+</html>

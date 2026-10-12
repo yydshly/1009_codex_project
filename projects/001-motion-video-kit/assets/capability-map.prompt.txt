@@ -1,0 +1,115 @@
+Use case: infographic-diagram / compositing.
+Asset type: ONE complete Chinese landscape knowledge-map poster for the existing Motion Video Kit research project.
+Primary request: Redesign and expand the supplied local demonstration images into a comprehensive, accurate, publication-quality explanatory infographic. Explain capabilities, implementation principle, existing examples, use scenarios, extension directions, and learning/reference value in one coherent image. All content must fit on ONE image.
+
+Input images:
+Image 1 (preview.jpg): supporting visual insert from the actual locally rendered 24-second demonstration, used as an upper hero panel or softly blended backdrop. The panel contains a research-page browser and a motion-video-kit card. Keep its visual identity; do not replace it with an unrelated mockup. Caption the insert “本地演示画面参考”.
+Image 2 (demo-contact-sheet.jpg): supporting frame-strip reference from the same film. Use a small purposeful strip of the recognizable project-card → file-tree → evidence → research-page → CTA progression. Do not label any redrawn image as an untouched screenshot. No other external imagery.
+These are compositing inputs, not sources of additional facts.
+
+Output and style:
+A high-resolution 3840 × 2160 horizontal poster (16:9). Crisp professional editorial information design, highly legible Chinese sans-serif typography. Match the project's deep navy #101323, indigo #5148e5, lime #d9ff77 and off-white #f1f2f8 palette. A dark top hero, lighter structured content panels, precise thin connectors, generous gutters, small restrained icons. Strong hierarchy: large title, six numbered major modules, readable body text, small but still legible evidence footer. Use diagrams, small labeled scene illustrations, matrix-like cards and timelines; avoid a wall of tiny text. No fake logos, watermark, meaningless decoration, invented metrics or promotional promises. Do not omit required information to make room for ornament.
+
+Layout:
+Upper band about 22% of canvas: large title and positioning on left, demonstration visual on right, three evidence labels. Under it, module 01 CAPABILITIES on left (six compact mini-cards), module 02 PRINCIPLE across the central area (very clear connected layers and independent feedback loop), module 03 EXAMPLES on right. Lower band: module 04 SCENARIOS, module 05 EXTENSIONS, module 06 REFERENCE VALUE. A full-width thin adoption-boundary strip and source footer at bottom. All text on solid or quiet surfaces; the visual background must not impair readability. Clear arrows for causal relationships, not arbitrary crossing arrows. Each major module must appear exactly once.
+
+Render the following exact Chinese and technical text with accurate characters and spelling; line breaks may be adapted for layout. Preserve meanings and evidence labels:
+
+TITLE:
+“Motion Video Kit 能力全景图”
+POSITIONING:
+“把商业目标，变成可控、可评审的代码短片”
+“一套 AI 制作方法与质检工作流”
+“1 个 Skill · 11 份参考文档 · 7 个脚本 · 2 个模板”
+HERO KEY CONCLUSION:
+“底层不是 Remotion”
+“当前模板采用 HyperFrames；共享网页逐帧生成视频的思路，接口与编写方式不同。”
+LEGEND:
+“文档与模板能力” / “本地实际验证” / “扩展设想 · 尚未实现”
+
+01 MODULE:
+“01 能力：把分散的制作环节串起来”
+Six mini-cards:
+“业务策划” — “观众、真实卖点、唯一 CTA；业务流程转成分镜”
+“代码动画” — “HTML / SVG 界面；GSAP 编排文字、动作与转场”
+“三维表达” — “Three.js 产品结构、机械动作；3D 锚点投影成 2D 标注”
+“素材协作” — “真实照片与 AI 素材组织；生成记录、授权与事实来源”
+“独立评审” — “新评审者看实际输出；按时间点记录问题、修复并复验”
+“声音与测量” — “音效、增益与混音；抽帧、冻结检测、响度检查”
+Small note: “能力由助手与外部工具执行，不是自动运行的成片服务。”
+
+02 MODULE:
+“02 原理：一帧画面，是时间的函数”
+Draw four-layer connected architecture:
+“制作方法” / “Motion Video Kit” / “需求 → 分镜 → 组件实验”
+↓
+“画面与动画” / “HTML / SVG + GSAP + Three.js” / “pose(t) / render(t)”
+↓
+“定位与捕获” / “HyperFrames + Chrome” / “定位到时间 t → 逐帧绘制与捕获”
+↓
+“视频输出” / “FFmpeg” / “编码 / 混音 → MP4”
+Formula card: “frame(t) = render(pose(t))”
+“统一时间驱动，不逐帧累加场景状态”
+“可跳帧、重渲染、定位转场与比较同一时刻”
+Feedback loop: “制作 → 实际渲染 → 独立评审 → 修复 → 新一轮复验”
+Remotion small comparison: “Remotion：React + 当前帧号；本链路：HTML + 时间定位”
+“方法可迁移；模板需要重新适配。”
+
+03 MODULE:
+“03 效果与证据：分清来源”
+Three distinct example cards with evidence badges:
+A “本地已验证” — “GitHub 研究总库” — “链接 → 编号目录 → 版本证据 → 研究网页”
+“24 秒 · 1280×720 · 30fps · 静音”
+“HTML + GSAP；HyperFrames 实际导出”
+“46 项 DOM 状态路径比较一致；3 轮独立画面评审”
+B “上游作者复盘” — “ALDER 屋顶检查服务” — “结构分层 → 检查照片 → 报告 → 预约”
+“28.6 秒 · 1080p60 · 虚构品牌概念片”
+C “上游作者复盘” — “折叠手机概念广告” — “开合、铰链、材质与屏幕连续性”
+“40 秒 · 6 个 Three.js 画布 · 非官方概念片”
+Critical note: “上游未附完整成片与 MP4；案例数字未在本地复现。”
+Reference text: “专业参考：Work Louder / Replit Canvas / Bolt”
+“参考影片不是 Kit 的生成成果。”
+
+04 MODULE:
+“04 场景：动作产生可见的业务结果”
+Four rows:
+“SaaS / 开发工具” — “输入 → 操作 → 结果；功能发布、销售演示、流程教程”
+“硬件 / 电商” — “结构 → 材质 → 使用方式；依赖准确三维资产”
+“家居服务 / 物业” — “现场照片 → 检查 → 报告 → 下一步行动”
+“广告变体 / 视频改进” — “开头、文案、CTA 与画幅；用评审定位停顿和碰撞”
+Small note: “优先适合卖点明确、文案需要准确修改的短片。”
+
+05 MODULE:
+“05 扩展：走向可重复生产”
+Heading badge: “我们的设想 · 尚未实现”
+Six rows with priority:
+“P1 参数化模板” — “品牌、卖点、图片、CTA → JSON；数据驱动变体”
+“P1 统一制作入口” — “素材检查、渲染、测量、版本与评审台账”
+“P2 渲染器与画幅” — “Remotion 适配；16:9 / 9:16 分别设计安全区”
+“P2 真实资产与来源” — “GLB 产品模型；授权与业务事实一一对应”
+“P3 人工评审协作” — “按时间点批注；意见 → 版本 → 修复状态”
+“P3 投放效果实验” — “真实播放、点击与后续行动数据；区分相关与因果”
+
+06 MODULE:
+“06 参考价值：最值得借鉴什么”
+Four numbered statements:
+“业务先行” — “先写观众、证据与唯一行动，再安排镜头。”
+“画面可控” — “以确定性时间函数组织组件，让修改可定位、结果可复现。”
+“制作与评审分离” — “判断实际像素而非意图；新评审者发现问题与回归。”
+“证据可追溯” — “版本、素材来源、测量和评审记录形成复用方法。”
+Closing sentence: “最值得迁移的是制作方法与质量闭环，而不是复制一个模板。”
+
+BOTTOM ADOPTION BOUNDARY:
+“采用边界”
+“需自行配置场景模块、模型服务与评审者；部分混音脚本含固定案例时间。”
+“复杂人物表演与长剧情不是重点；字体与浏览器环境影响像素。”
+“测量不等于审美，制作方法不等于商业转化；依赖许可证分别核实。”
+
+SOURCE FOOTER:
+“001 / MOTION VIDEO KIT”
+“来源：github.com/echris6/motion-video-kit”
+“研究基线：255562b · 2026-10-09 · 上游 MIT”
+“依据：SKILL.md / gauntlet.md / three-js-patterns.md / 案例复盘 / 本地验证记录”
+
+Accuracy constraints:
+Do NOT say Remotion is a dependency or underlying engine. Do NOT say this is an autonomous one-click video generator, or all assets/models are included. Distinguish author-written reports, local verification and planned extensions consistently. Do NOT show real customer endorsements, fabricated conversion metrics, or official brand affiliation. This is a knowledge infographic, not a product advertising claim. Chinese wording must be complete and correct; technical names must be spelled exactly.

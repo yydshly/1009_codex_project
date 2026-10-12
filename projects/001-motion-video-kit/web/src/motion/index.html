@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="zh-CN">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>研究总库 · 24 秒代码动画</title><link rel="stylesheet" href="./motion.css"><script src="./vendor/gsap.min.js"></script></head>
+<body>
+<div id="stage" data-composition-id="research-workflow" data-width="1280" data-height="720" data-duration="24" data-fps="30">
+  <div id="ambient" class="clip" data-start="0" data-duration="24" data-track-index="0"><div id="grid" data-state></div><div id="halo" data-state></div><div id="orbit" data-state></div></div>
+  <div id="masthead" class="clip" data-start="0" data-duration="24" data-track-index="1"><span id="mark" data-state>m<span>↗</span></span><span id="masthead-label" data-state>GITHUB RESEARCH HUB</span><span id="masthead-edition" data-state>001 / MOTION VIDEO KIT</span></div>
+  <div id="scene-intro" class="clip scene" data-start="0" data-duration="4.35" data-track-index="2">
+    <div class="eyebrow" id="intro-tag" data-state>从收藏，到理解。</div>
+    <h1 id="intro-title" data-state>一个链接。<br><span>一份可复用的研究。</span></h1>
+    <p id="intro-copy" data-state>优秀项目值得保存，也值得说清楚。</p>
+    <div id="intro-line" data-state><span>能力</span><i></i><span>原理</span><i></i><span>实践</span></div>
+    <div id="intro-ghost" data-state aria-hidden="true"><div></div><div></div><div></div></div>
+  </div>
+  <div id="scene-create" class="clip scene" data-start="4" data-duration="5.4" data-track-index="2">
+    <div id="create-tag" class="eyebrow" data-state>01 / 给研究一个位置</div>
+    <h2 id="create-title" data-state>链接进入，<span>目录生成。</span></h2>
+    <div id="terminal" data-state><div class="terminal-header"><i></i><i></i><i></i><span>命令节选 · 完整参数见研究记录</span></div><div class="command"><b>$</b> npm run project:new --<br><em>--slug</em> motion-video-kit …</div><div id="terminal-result" data-state><span>✓</span> 已创建 001-motion-video-kit</div></div>
+    <div id="file-tree" data-state><div class="tree-path">projects / <b>001-motion-video-kit</b> /</div><div class="file-row" id="file-readme" data-state><span>↳</span><b>README.md</b><small>入口与结论</small></div><div class="file-row" id="file-research" data-state><span>↳</span><b>research.md</b><small>版本与证据</small></div><div class="file-row" id="file-assets" data-state><span>↳</span><b>assets/</b><small>实际截图</small></div><div class="file-row" id="file-web" data-state><span>↳</span><b>web/</b><small>可运行演示</small></div></div>
+    <div id="create-connector" data-state><div></div><span>001</span><div></div></div>
+  </div>
+  <div id="scene-evidence" class="clip scene" data-start="9" data-duration="5.4" data-track-index="2">
+    <div id="evidence-tag" class="eyebrow" data-state>02 / 让每个结论有依据</div>
+    <h2 id="evidence-title" data-state>理解，<span>与证据一起留下。</span></h2>
+    <div id="evidence-card" data-state><div class="evidence-label">RESEARCH BASELINE</div><div class="evidence-row" id="evidence-commit" data-state><span class="evidence-icon">↳</span><div><small>研究版本 · 完整 SHA 见研究记录</small><b>255562b</b></div><i>✓</i></div><div class="evidence-row" id="evidence-license" data-state><span class="evidence-icon">©</span><div><small>上游许可</small><b>MIT · echris6 / 2026</b></div><i>✓</i></div><div class="evidence-row" id="evidence-fact" data-state><span class="evidence-icon">≡</span><div><small>源码依据</small><b>HTML + GSAP → HyperFrames → MP4</b></div><i>✓</i></div></div>
+    <div id="evidence-tabs" data-state><span>来源</span><span>实验</span><span>边界</span></div>
+  </div>
+  <div id="scene-page" class="clip scene" data-start="14" data-duration="6.35" data-track-index="2">
+    <div id="page-tag" class="eyebrow" data-state>03 / 理解变得可浏览</div>
+    <h2 id="page-title" data-state>从文件，<span>到一份研究页。</span></h2>
+    <p id="page-caption" data-state>解释能力。拆开原理。<br>让一个真实场景动起来。</p>
+    <div id="browser" data-state><div class="browser-bar"><span>● ● ●</span><b>/001-motion-video-kit/</b><i>↗</i></div><div class="browser-sidebar"><strong>001</strong><span>能力</span><span>原理</span><span>案例</span><span>实践</span></div><div class="browser-content"><div class="browser-heading">Motion Video Kit<span>研究与演示</span></div><div class="browser-placeholder"></div><div id="browser-feature-a" class="browser-feature" data-state><span>01 / 能力</span><strong>制作方法与质量控制</strong></div><div id="browser-feature-b" class="browser-feature" data-state><span>02 / 原理</span><strong>画面 = 时间的函数</strong></div><div id="browser-feature-c" class="browser-feature" data-state><span>03 / 实践</span><strong>真实流程，可定位播放</strong></div></div></div>
+    <div id="page-chip" data-state><span>✓</span> npm run pages:build → /001-motion-video-kit/</div>
+  </div>
+  <div id="scene-end" class="clip scene" data-start="20" data-duration="4" data-track-index="2">
+    <div id="end-tag" class="eyebrow" data-state>研究一个项目，也留下一个入口。</div>
+    <h2 id="end-title" data-state>让理解，<br><span>留下来。</span></h2>
+    <div id="end-cta" data-state>打开 001 研究页 <span>↗</span></div>
+    <div id="end-path" data-state>/1009_codex_project/001-motion-video-kit/</div>
+  </div>
+  <div id="actor" class="clip" data-start="0" data-duration="24" data-track-index="4" data-state><div class="actor-top"><span id="actor-icon" data-state>↗</span><span>GITHUB / OPEN SOURCE</span><b>001</b></div><div class="actor-body"><small>echris6</small><strong>motion-<br>video-kit</strong><p>AI 商业短片工作流</p><div id="actor-tags" data-state><span>Skill</span><span>MIT</span><span>代码动画</span></div></div><div id="actor-bar" data-state></div></div>
+  <div id="progress" class="clip" data-start="0" data-duration="24" data-track-index="5" data-state></div>
+  <div id="disclaimer" class="clip" data-start="0" data-duration="24" data-track-index="6" data-state>真实仓库流程 · 界面为说明性绘制 · 本地代码动画</div>
+</div>
+<script>window.__timelines = window.__timelines || {};</script><script src="./motion.js"></script>
+</body></html>

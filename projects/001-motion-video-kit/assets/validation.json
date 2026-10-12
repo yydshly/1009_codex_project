@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-09",
+  "tool": "HyperFrames",
+  "version": "0.8.143",
+  "ok": true,
+  "browserSkipped": false,
+  "lint": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 8
+  },
+  "runtime": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0
+  },
+  "layout": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "samples": [
+      0,
+      4.7,
+      5.5,
+      8,
+      9.8,
+      12,
+      14.8,
+      18,
+      20.8,
+      23.5
+    ]
+  },
+  "contrast": {
+    "ok": true,
+    "errorCount": 0,
+    "warningCount": 0,
+    "samples": [
+      0,
+      5.5,
+      9.8,
+      14.8,
+      23.5
+    ],
+    "checked": 114,
+    "passed": 114
+  },
+  "notes": [
+    "8项lint建议针对单文件分镜密度及子合成拆分；没有静态错误。",
+    "仅采样检查，完整转场由独立评审检查实际视频。"
+  ]
+}

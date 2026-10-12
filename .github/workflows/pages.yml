@@ -24,6 +24,12 @@ jobs:
       - uses: actions/configure-pages@v5
       # 构建子项目：在此按各项目文档加入安装与构建步骤。
       # 纯静态 HTML 项目无需构建，pagesDir 指向包含 index.html 的目录。
+      - name: 构建 Motion Video Kit 完整研究与演示
+        working-directory: projects/001-motion-video-kit/web
+        run: |
+          npm ci
+          npm run build
+          npm run verify
       - name: 构建与检查 Agenvo 完整研究页
         working-directory: projects/016-agenvo/web
         run: |

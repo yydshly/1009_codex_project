@@ -1,0 +1,69 @@
+{
+  "round": 3,
+  "artifact": "web/renders/research-workflow.mp4",
+  "sha256": "949b77d7bfcefa19e023a11f933df99c317d8baed851a531dbb50f501c19db8d",
+  "durationSeconds": 24.0,
+  "width": 1280,
+  "height": 720,
+  "fps": 30.0,
+  "decodedFrames": 720,
+  "audioStreams": 0,
+  "lufs": null,
+  "lufsReason": "静音视频，无音频流",
+  "frameDifference": {
+    "method": "Pillow双线性缩放到320x180灰度，计算相邻帧MAE；0–255灰阶",
+    "nearStaticThreshold": {
+      "maeLessThan": 0.1,
+      "pixelDeltaGreaterThan": 2,
+      "changedPixelFractionLessThan": 0.002
+    },
+    "nearStaticTotalSeconds": 7.0,
+    "longestNearStaticRunSeconds": 0.7,
+    "strictStaticMaeLessThan": 0.01,
+    "strictStaticTotalSeconds": 1.9,
+    "strictStaticRunsAtLeast0_33Seconds": [
+      {
+        "start": 14.967,
+        "end": 15.533,
+        "duration": 0.567
+      },
+      {
+        "start": 16.3,
+        "end": 16.833,
+        "duration": 0.533
+      }
+    ],
+    "maximumMae": 57.785781,
+    "maximumMaeAtSeconds": 14.2,
+    "intervalConvention": "每行测量前一帧到该帧的变化；累计时间按帧间隔1/30秒求和。run起点是首个满足阈值的目标帧时刻，终点为最后目标帧后一个帧间隔。"
+  },
+  "reviewFrames": {
+    "directory": "web/review-frames/round03/",
+    "contactIntervalSeconds": 0.2,
+    "contactFrames": 120,
+    "nativeKeyframes": 46,
+    "transitionCentersSeconds": [
+      4,
+      9,
+      14,
+      20
+    ],
+    "transitionRadiusSeconds": 0.5,
+    "transitionIntervalSeconds": 0.03333333333333333,
+    "denseFramesPerTransition": 31,
+    "measurementDetail": "web/review-frames/round03/measurements.json",
+    "frameDifferenceCsv": "web/review-frames/round03/frame-difference.csv"
+  },
+  "factualChecks": {
+    "shortShaMatchesSourceRef": true,
+    "licenseMatches": "MIT; Copyright 2026 echris6",
+    "pagesDir": "web/dist",
+    "builtIndex": "_site/001-motion-video-kit/index.html",
+    "builtIndexExists": true,
+    "builtIndexBytes": 19196
+  },
+  "factualChecksScope": "沿用第2轮只读事实核查，本轮仅独立复核最终影片像素与测量",
+  "verdict": "SHIP",
+  "criticReport": "critic-round-03.md",
+  "scope": "最终影片像素与测量；网页交互和最终Pages构建另验收"
+}

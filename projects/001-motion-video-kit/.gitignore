@@ -1,0 +1,4 @@
+web/renders/
+web/review-frames/
+web/renders-check.json
+web/*.log

@@ -1,0 +1,53 @@
+{
+  "round": 2,
+  "artifact": "web/renders/research-workflow.mp4",
+  "sha256": "0002e319ef5ab7ffc30c2e3709ca8ad31a1115766cece005eaa35c3c9dcb2e2a",
+  "durationSeconds": 24,
+  "width": 1280,
+  "height": 720,
+  "fps": 30,
+  "decodedFrames": 720,
+  "audioStreams": 0,
+  "lufs": null,
+  "lufsReason": "静音视频，无音频流",
+  "frameDifference": {
+    "method": "Pillow双线性缩放到320x180灰度，计算相邻帧MAE；0–255灰阶",
+    "nearStaticThreshold": {
+      "maeLessThan": 0.1,
+      "pixelDeltaGreaterThan": 2,
+      "changedPixelFractionLessThan": 0.002
+    },
+    "nearStaticTotalSeconds": 6.967,
+    "longestNearStaticRunSeconds": 0.7,
+    "strictStaticMaeLessThan": 0.01,
+    "strictStaticTotalSeconds": 1.933,
+    "strictStaticRunsAtLeast0_33Seconds": [
+      {"start": 14.9, "end": 15.5, "duration": 0.6},
+      {"start": 16.267, "end": 16.8, "duration": 0.533}
+    ],
+    "maximumMae": 57.785782,
+    "maximumMaeAtSeconds": 14.2
+  },
+  "reviewFrames": {
+    "directory": "web/review-frames/round02/",
+    "contactIntervalSeconds": 0.2,
+    "contactFrames": 120,
+    "nativeKeyframes": 49,
+    "transitionCentersSeconds": [4, 9, 14, 20],
+    "transitionRadiusSeconds": 0.5,
+    "transitionIntervalSeconds": 0.03333333333333333,
+    "denseFramesPerTransition": 31,
+    "measurementDetail": "web/review-frames/round02/measurements.json",
+    "frameDifferenceCsv": "web/review-frames/round02/frame-difference.csv"
+  },
+  "factualChecks": {
+    "shortShaMatchesSourceRef": true,
+    "licenseMatches": "MIT; Copyright 2026 echris6",
+    "pagesDir": "web/dist",
+    "builtIndex": "_site/001-motion-video-kit/index.html",
+    "builtIndexExists": true,
+    "builtIndexBytes": 19196
+  },
+  "verdict": "SHIP",
+  "scope": "影片像素与测量；网页交互和最终Pages构建另验收"
+}
