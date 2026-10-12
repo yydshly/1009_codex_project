@@ -18,8 +18,10 @@
 - overview-media-verification.json：图中默认实时动画、上游水墨视频与其他作品切换的独立记录；选择成功和实际播放分别记录。
 - publication-local-guide.png、publication-local-modules.png、publication-local-mobile.png：2026-10-12全面整理后原始引导图入口、8类模块和手机网页的实际截图。
 - publication-local-verification.json：原图HTTP字节与哈希、全面章节、展开/收起、断网蓝图动画、规范弹层和4种宽度验证。
+- publication-public-guide.png、publication-public-modules.png、publication-public-mobile.png：GitHub Pages公开地址的引导图入口、模块说明和390px手机实际截图。
+- publication-public-verification.json：2026-10-12线上全面章节、原图SHA-256、蓝图播放/暂停、风格入口与规范、4种宽度及HTTP/脚本复核通过的记录。
 - upstream/frames/：43种风格的上游真实成片静帧。
-- upstream/opuscar98/：98个长片片段截图。
+- upstream/opuscar98/：OPUSCAR98合集中的98个电影致敬动画场景截图；画面由代码重绘。
 - upstream/feature.jpg：上游OPUSCAR 98海报。
 - upstream/LICENSE：保留的MIT和第三方素材说明。
 

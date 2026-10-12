@@ -15,7 +15,7 @@ try {
   await context.route('**/*',route=>new URL(route.request().url()).origin===new URL(url).origin?route.continue():route.abort());
   const page=await context.newPage();page.on('pageerror',e=>report.errors.push(e.message));
   page.on('response',r=>{if(r.url().startsWith(url)&&r.status()>=400)report.localFailures.push({url:r.url(),status:r.status()});});
-  await page.goto(url+'#guide',{waitUntil:'domcontentloaded'});
+  await page.goto(url+'#guide',{waitUntil:'domcontentloaded',timeout:60000});
   await page.waitForSelector('#extension-list article');
   for(const [selector,count] of [['#capability-list article',6],['#module-list article',8],['#principle-list li',6],['#extension-list article',8]])assert.equal(await page.locator(selector).count(),count);
   assert.equal(await page.locator('#guide-updated').textContent(),'2026-10-12');

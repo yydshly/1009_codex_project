@@ -102,6 +102,17 @@ npm run dev --prefix projects/010-lemo-opuscar/web
 
 证据：[本地流程](assets/publication-local-verification.json)、[引导图入口](assets/publication-local-guide.png)、[模块说明](assets/publication-local-modules.png)、[手机网页](assets/publication-local-mobile.png)。此检查不将外部视频全量播放、新题材Agent制片、TTS和音轨合成记为通过。
 
-发布在独立Git工作区从最新origin/main进行，只纳入010源码、该项目元数据、生成索引和两个工作流的010构建步骤。远端其他已发布项目保留，本地其他未提交项目没有纳入此次提交。部署与线上复核结果在实际完成后记录。
+发布在独立Git工作区从最新origin/main进行，只纳入010源码、该项目元数据、生成索引和两个工作流的010构建步骤。远端其他已发布项目保留，本地其他未提交项目没有纳入此次提交。项目内assets/upstream是保留的研究图像与许可证，使用项目级.gitignore例外纳入；可选的上游克隆继续忽略。
 
 复核命令：`node projects/010-lemo-opuscar/scripts/verify-publication.mjs`。通过LEMO_PREVIEW_URL选择本地或公开地址，LEMO_PLAYWRIGHT_PATH指向已有Playwright。此脚本不覆盖原始引导图。
+
+## 2026-10-12 GitHub Pages部署与公开地址复核
+
+- 内容提交：[8feb92c](https://github.com/yydshly/1009_codex_project/commit/8feb92c716a04fc54714aeb0a5d6313499e94bf7)。包含330个文件，只发布010及必要的索引与构建接入。
+- [远端校验38260074109](https://github.com/yydshly/1009_codex_project/actions/runs/38260074109)成功；[Pages构建与部署38260107208](https://github.com/yydshly/1009_codex_project/actions/runs/38260107208)的build/deploy均成功，部署对应上述内容提交。
+- 公开地址：[完整网页与引导图](https://yydshly.github.io/1009_codex_project/010-lemo-opuscar/#guide)。总库首页HTTP200，010入口及全面摘要存在；首页预览previews/010-lemo-opuscar.png的SHA-256与原始PNG一致。
+- 公开页面实际浏览器复核通过：六类能力、八类模块、六项原理、八项扩展完整呈现；原始PNG/SVG均HTTP200、字节和哈希不变，原图展开/收起有效。
+- 阻断外部网络后，公开页面上的原作蓝图代码仍可加载、播放推进和暂停；43种风格交互入口及完整蓝图规范正常。这里验证的是随页面部署的画面代码，不将全部远端视频实际播放记为通过。
+- 1440/1120/900/390px均无横向溢出，脚本异常和本站HTTP失败均为空。首次公开导航在30秒默认等待内超时，独立访问确认HTTP200并成功加载；将检查导航预算改为60秒后完整复核通过。
+
+证据：[线上检查](assets/publication-public-verification.json)、[原图入口](assets/publication-public-guide.png)、[模块说明](assets/publication-public-modules.png)、[手机网页](assets/publication-public-mobile.png)。网页已部署，Agent新题材制片、TTS及音轨合成的边界仍沿用前述记录。

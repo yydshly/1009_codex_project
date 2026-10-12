@@ -99,3 +99,7 @@
 全面摘要和分项说明保存在 `web/data/research-guide.json` 并写入projects.json。进一步说明模型创作与底层工具执行、确定性帧与实时预览的关系，角色与风格规则需要执行/评审，读字、ASR和响度检查只覆盖部分质量。应用价值侧重研究表达、可修改资产与试验方法，未实测传播或商业效率。
 
 发布使用远端现有GitHub Pages统一工作流，独立Git工作区以最新origin/main为基础，只加入010子项目、该项目元数据、生成索引以及该项目构建步骤；其他项目本地未提交成果保持独立。公开验证与提交/发布依据见verification.md。
+
+## 2026-10-12 发布结果
+
+独立发布提交8feb92c已进入远端main。GitHub校验38260074109与Pages部署38260107208成功，公开地址为https://yydshly.github.io/1009_codex_project/010-lemo-opuscar/。线上浏览器复核确认原图字节、完整说明、蓝图播放/暂停、风格规范和390–1440px布局；总库首页预览也与原图SHA-256一致。详细运行和证据见verification.md及assets/publication-public-verification.json。其余未运行的完整制片能力与扩展建议没有改记为已实现。

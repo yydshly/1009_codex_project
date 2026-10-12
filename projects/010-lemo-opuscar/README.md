@@ -12,7 +12,7 @@
 | 研究日期 | 2026-10-09 |
 | 内容补充 | 2026-10-12：全面摘要、能力、8类模块、执行原理、原始引导图、8个扩展方向与发布 |
 | 当前状态 | 中文研究与网页展示完成；完整Agent制片流程未运行 |
-| Pages地址 | [完整研究网页](https://yydshly.github.io/1009_codex_project/010-lemo-opuscar/)；本轮发布结果见验证记录 |
+| Pages地址 | [完整研究网页](https://yydshly.github.io/1009_codex_project/010-lemo-opuscar/#guide)；2026-10-12部署及公开地址复核通过，详见验证记录 |
 
 ## 我们的理解
 
