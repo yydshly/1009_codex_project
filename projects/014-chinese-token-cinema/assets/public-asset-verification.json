@@ -1,0 +1,78 @@
+{
+  "verifiedAt": "2026-10-12",
+  "url": "https://yydshly.github.io/1009_codex_project/014-chinese-token-cinema/",
+  "checks": [
+    {
+      "file": "index.html",
+      "status": 200,
+      "bytes": 25056,
+      "sha256": "077d992820de30a6d393a42711b26811dd0649cf12edc36e3588951454e4f8c0"
+    },
+    {
+      "file": "overview.html",
+      "status": 200,
+      "bytes": 2056,
+      "sha256": "5cc091f923ef8d3a559c1a8938314a4b13d65d9a3d53cca21c8c545f39c82409"
+    },
+    {
+      "file": "assets/research/research-summary.json",
+      "status": 200,
+      "bytes": 7340,
+      "sha256": "26e522052be73d6ea7f956a8f08de62169e9514a234db72f8127baeb8dae43d9"
+    },
+    {
+      "file": "assets/research/reference-source.json",
+      "status": 200,
+      "bytes": 2151,
+      "sha256": "9922759572efba4f24f5f53fa9cde94b219e84c9beaa4d880def33a1d4f23356"
+    },
+    {
+      "file": "assets/overview/overview.png",
+      "status": 200,
+      "bytes": 3926783,
+      "sha256": "f8eaa9a694de854f4ad7d4d499c5f700f5bce0046c4f87b12a789333f97cbcb5"
+    },
+    {
+      "file": "assets/overview/overview.svg",
+      "status": 200,
+      "bytes": 2753101,
+      "sha256": "560e6affea22bd76d2f7528e3999deb82e46f33037f3a41246b1ff1c2665f04f"
+    },
+    {
+      "file": "assets/song.mp3",
+      "status": 206,
+      "contentType": "audio/mp3",
+      "contentRange": "bytes 0-1023/4341227"
+    },
+    {
+      "file": "assets/motion/heygen-batch-a.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/18528047"
+    },
+    {
+      "file": "assets/motion/heygen-batch-b.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/14447240"
+    },
+    {
+      "file": "assets/reference/token-study.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/3013003"
+    },
+    {
+      "file": "assets/reference/shore-study.mp4",
+      "status": 206,
+      "contentType": "video/mp4",
+      "contentRange": "bytes 0-1023/7815778"
+    }
+  ],
+  "summary": {
+    "sections": 10,
+    "modules": 8,
+    "extensions": 4
+  },
+  "status": "verified_public_assets_and_original_guide_bytes"
+}

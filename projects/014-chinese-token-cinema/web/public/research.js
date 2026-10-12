@@ -1,4 +1,5 @@
 const $=id=>document.getElementById(id);
+const localPreview=['127.0.0.1','localhost','::1'].includes(location.hostname);
 const clock=t=>`${String(Math.floor(t/60)).padStart(2,'0')}:${String(Math.floor(t%60)).padStart(2,'0')}`;
 const text=(tag,value,className)=>{const node=document.createElement(tag);node.textContent=value;if(className)node.className=className;return node;};
 const link=(label,href)=>{const a=text('a',label);a.href=href;a.target='_blank';a.rel='noopener';return a;};
@@ -25,9 +26,9 @@ function marker(video,time,label,clip=null){
 }
 
 try{
-  const r=await fetch('./assets/research/reference-source.json');if(!r.ok)throw new Error('原片来源记录不可用');
+  const r=await fetch('./assets/research/reference-source.json?v=20261012-2');if(!r.ok)throw new Error('原片来源记录不可用');
   const source=await r.json(),video=$('reference-video');
-  const local=await fetch(source.localMedia,{method:'HEAD'}).catch(()=>null);
+  const local=localPreview?await fetch(source.localMedia,{method:'HEAD',signal:AbortSignal.timeout(3000)}).catch(()=>null):null;
   const hasLocal=local?.ok&&local.headers.get('content-type')?.includes('video/');
   const firstClip=source.researchClips?.[0];
   video.src=hasLocal?source.localMedia:firstClip?.localMedia||source.publicMedia;video.load();

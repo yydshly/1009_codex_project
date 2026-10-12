@@ -1,7 +1,8 @@
 const $=id=>document.getElementById(id);
+const localPreview=['127.0.0.1','localhost','::1'].includes(location.hostname);
 const setText=(node,text)=>{node.textContent=text;return node;};
 let source;
-async function referenceSource(){if(!source)source=await fetch('./assets/research/reference-source.json').then(r=>{if(!r.ok)throw new Error('来源读取失败');return r.json();});return source;}
+async function referenceSource(){if(!source)source=await fetch('./assets/research/reference-source.json?v=20261012-2').then(r=>{if(!r.ok)throw new Error('来源读取失败');return r.json();});return source;}
 const dialog=document.createElement('dialog');dialog.className='overview-dialog';
 dialog.innerHTML='<div class="overview-dialog-header"><h2 id="overview-media-title">效果播放</h2><button type="button" aria-label="关闭效果播放">关闭 ×</button></div><video id="overview-media" class="review-video" controls playsinline preload="metadata" aria-labelledby="overview-media-title"></video><p id="overview-media-note"></p><p id="overview-media-status" role="status" hidden></p><p><a id="overview-media-fallback" href="./#stage">打开原播放器 ↗</a></p>';
 dialog.setAttribute('aria-labelledby','overview-media-title');document.body.append(dialog);
@@ -23,8 +24,8 @@ document.querySelectorAll('[data-overview-watch]').forEach(button=>button.addEve
     let src,playbackTime=time;
     if(ours){
       src='./exports/wo-hai-zai-zhe-li-motion.mp4';
-      const r=await fetch(src,{method:'HEAD'});
-      if(!r.ok||!r.headers.get('content-type')?.includes('video/')){
+      const r=localPreview?await fetch(src,{method:'HEAD',signal:AbortSignal.timeout(3000)}).catch(()=>null):null;
+      if(!r?.ok||!r.headers.get('content-type')?.includes('video/')){
         if(run!==request||!dialog.open)return;
         dialog.close();
         if(window.filmReady&&window.playFilmAt&&$('work-version')?.value==='motion'){
@@ -34,7 +35,7 @@ document.querySelectorAll('[data-overview-watch]').forEach(button=>button.addEve
       }
     }else{
       const ref=await referenceSource();
-      const local=await fetch(ref.localMedia,{method:'HEAD'}).catch(()=>null);
+      const local=localPreview?await fetch(ref.localMedia,{method:'HEAD',signal:AbortSignal.timeout(3000)}).catch(()=>null):null;
       const hasLocal=local?.ok&&local.headers.get('content-type')?.includes('video/');
       const clip=ref.researchClips?.find(clip=>time>=clip.start&&time<clip.end);
       src=hasLocal?ref.localMedia:clip?clip.localMedia:ref.publicMedia;

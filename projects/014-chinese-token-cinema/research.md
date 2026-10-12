@@ -122,3 +122,5 @@ scene-shot-plan.js 共用 21 镜头分镜；播放器只有读取到实际完成
 结论：字幕与音乐编排可继续用于原创表达，生成表演素材是当前主要限制。原音保留与连续性的改善不保证中文发音、长音和情绪合格；整体偏移能剪辑修正，逐字错误和间奏开口不能用时间平移修好。之前高估了换模型标签与长提示词的效果。三轮均未通过、未继续批量生成；在线分離同一原歌的人声、稳定表演、独立口型、回接原完整歌曲仅为待验证路线。[Sync 模型官方说明](https://sync.so/docs/models/lipsync) 与 [素材建议](https://sync.so/docs/compatibility-and-tips/media-content-tips) 支持人声输入建议，不能据此推断 ChatArt 的内部故障原因，也不能承诺成功。
 
 研究区原片与样片使用原生媒体控件，和主音轨互斥；保留版本与图层操作，原生视频／音频的键盘不会触发主片快捷键。服务器改为流式范围响应，避免每次原片请求把 192 MB 全量读入内存。check_research_page.mjs 实测原片和三条样片的播放、时间点、声音互斥、原唱输入、移动布局及缺少本地原片的回退；结果与真实截图见 assets/research-page-verification.json 和 research-*.png。
+
+公网入口修复：本地原片和导出检查仅在 localhost 执行，并设 3 秒超时；GitHub Pages 直接使用署名研究引用和 Canvas 播放器。reference-source 与入口脚本加发布版本标记，避免先前访问者继续读取旧缓存。

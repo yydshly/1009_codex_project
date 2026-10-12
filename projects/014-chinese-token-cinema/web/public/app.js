@@ -91,7 +91,7 @@ try{
   window.playFilmAt=async time=>{jump(time);if(audio.paused)await toggle();};
   paint();
   requestAnimationFrame(tick);
-  const exported=await fetch($('download-film').getAttribute('href'),{method:'HEAD'}).catch(()=>null);
+  const exported=['127.0.0.1','localhost','::1'].includes(location.hostname)?await fetch($('download-film').getAttribute('href'),{method:'HEAD',signal:AbortSignal.timeout(3000)}).catch(()=>null):null;
   if(exported?.ok&&exported.headers.get('content-type')?.includes('video'))$('download-film').hidden=false;
 }catch(error){$('loading').textContent='短片准备失败';$('error').textContent=error.message;$('error').hidden=false;start.disabled=true;}
 
