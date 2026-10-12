@@ -1,0 +1,44 @@
+{
+  "author": "DJ SHO",
+  "handle": "DJ_SHO974",
+  "title": "Somewhere in the weights",
+  "source": "https://x.com/DJ_SHO974/status/2108569544151146742",
+  "downloadedAt": "2026-10-10",
+  "duration": 276.053333,
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "localMedia": "./assets/reference/dj-sho-slopcore.mp4",
+  "publicMedia": "https://video.twimg.com/amplify_video/2108566371709640704/vid/avc1/1920x1080/gv7QG5nYXO1Lr3cj.mp4?tag=29",
+  "bytes": 191951547,
+  "sha256": "1f34f0023f869f8f8efd5eb08bcbe4e2aaa78d7f62d4f77e6a2fde8b9a61c741",
+  "license": "No public open-source license found; author retains rights. Local research reference copy; not original project material.",
+  "archivePolicy": "MP4 and raw extractor metadata are ignored by Git. Page falls back to the author public media URL if local copy is absent.",
+  "pipelineClaim": "Tool and GPT-2-weight statements are author claims, not independently verified source code.",
+  "watchMarkers": [
+    {
+      "time": 3,
+      "label": "权重式画面"
+    },
+    {
+      "time": 28,
+      "label": "词块与回指"
+    },
+    {
+      "time": 48,
+      "label": "预测面板"
+    },
+    {
+      "time": 116,
+      "label": "全身与遮蔽"
+    },
+    {
+      "time": 180,
+      "label": "人群与大字"
+    },
+    {
+      "time": 228,
+      "label": "海岸与回应"
+    }
+  ]
+}

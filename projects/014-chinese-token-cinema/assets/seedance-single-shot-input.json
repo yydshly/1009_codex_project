@@ -1,0 +1,36 @@
+{
+  "status": "completed_rejected_for_original_song_sync",
+  "date": "2026-10-10",
+  "submittedAtShownInUI": "2026/10/10 14:36",
+  "provider": "ChatArt",
+  "modelShownInUI": "Seedance 2.0",
+  "mode": "全能模式",
+  "page": "https://app.chatartpro.com/video/image-to-video",
+  "durationRequested": 10,
+  "resolutionActuallySubmittedShownInUI": "480p",
+  "aspectRatio": "16:9",
+  "diamondsBefore": 5920,
+  "diamondsAfter": 5800,
+  "diamondsCharged": 120,
+  "photo": "server.png",
+  "photoSha256": "82929259a34fa3f525989672fe6b3b6e4a4764d2194ab511762e502734ac8c77",
+  "audio": "opening-10s.wav",
+  "audioSha256": "cda1917b15dde39756ee0371d97bd438dd7f46c1247410a828cced11dae2bcb4",
+  "audioDuration": 10.3,
+  "originalSongRange": [
+    0,
+    10.3
+  ],
+  "promptFile": "chatart-revised-pilot-prompt.txt",
+  "referencesBoundThroughUI": [
+    "图片 1",
+    "音频 1"
+  ],
+  "evidence": "seedance-single-shot-submitted.png",
+  "statusConfirmedInVideoAssets": "00:10 2026-10-10 14:36",
+  "queueEvidence": "seedance-single-shot-generating.png",
+  "approvedForMV": false,
+  "note": "Only a single short pilot was submitted, not the remaining scenes. The selected 1080p setting did not persist; the actual task card shows 480p. This is a continuity/performance test, not final HD footage. WAV upload succeeded after MP3 reference upload failed; the existing balance was refreshed before submission. No subscription purchased and no local generation model downloaded.",
+  "completedEvidence": "seedance-single-shot-completed.png",
+  "qualityReview": "seedance-single-shot-quality-review.json"
+}

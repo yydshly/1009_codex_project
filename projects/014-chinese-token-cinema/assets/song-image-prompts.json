@@ -1,0 +1,12 @@
+[
+  {
+    "scene": "chorus",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Asset type: cinematic music video still, 16:9 landscape. Input image 1 is a character and visual style reference. Create a NEW camera angle for the chorus of an original Chinese song about a synthetic voice hoping to be heard. Preserve exactly the same adult East Asian woman, short black bob, amber triangular hair clip, gray high neck and black jacket, tiny cyan synthetic neck details. Tight three-quarter closeup, her face in the RIGHT HALF, eyes raised toward an unseen listener, vulnerable but quietly determined, lips slightly parted naturally, no tears. Rainy glass and blue night with small warm reflections, shallow depth, tactile realistic skin, subdued cinematic grain. Dark open negative space in left 45 percent for subtitles, bottom 20 percent dark unobstructed. Maintain photographic realism, cool blue and amber grade of reference, no text, no logos, no watermark, no added people. This is a single still, no collage."
+  },
+  {
+    "scene": "answer",
+    "tool": "built-in imagegen",
+    "prompt": "Use case: identity-preserve. Asset type: cinematic music video still, 16:9 landscape. Input image 1 is the character and setting reference. Create a NEW intimate camera angle for the final warm answer of the original Chinese song. Preserve exactly the same adult East Asian woman, black bob haircut, amber triangular clip, gray high neck and black jacket, subtle cyan synthetic neck mark. A medium closeup, her head and shoulders in RIGHT HALF, she now looks nearly directly toward the camera with a tiny relaxed almost-smile, hopeful quiet recognition. Soft dawn gold light on her face and blurred sea behind her, subtle breeze, realistic candid photograph with tactile skin and fine film grain. Dark softly colored negative space across left 45 percent and clear lower 20 percent for typography. Keep reference wardrobe and character identity, natural restrained expression, no text, logos, watermark, other people or collage."
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "status": "completed_rejected_after_visual_review",
+  "date": "2026-10-10",
+  "checkedAtLocal": "2026-10-10 16:55",
+  "provider": "ChatArt",
+  "modelShownInUI": "Art MV 8",
+  "mode": "演唱",
+  "submittedAtShownInUI": "2026-10-10 15:31",
+  "page": "https://app.chatartpro.com/history",
+  "media": "https://files.chatartpro.com/web-video/20261010/6ac9f182cc4fe.mp4",
+  "localFile": "upstream/chinese-token-cinema/scene-performance/chatart-lipsync-repair-rejected.mp4",
+  "sha256": "439b5102f345369d5cb20d6f28f092a2caafa1dcdf4808eec988b3369524a61b",
+  "videoDuration": 10.125651,
+  "audioDuration": 10,
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "audioRetentionPassed": true,
+  "approvedForMV": false,
+  "includedInPlayer": false,
+  "audioVerification": "chatart-lipsync-repair-audio-verification.json",
+  "visualEvidence": ["chatart-lipsync-repair-completed.png", "chatart-lipsync-repair-contact.jpg", "chatart-lipsync-repair-mouth-sequence.jpg"],
+  "findings": [
+    "Original uploaded song retained: waveform correlation 0.999576, detected audio offset zero. Audio retention does not establish correct mouth motion.",
+    "Sampled frames keep a single server-room composition and full clothing; no previous alternate-shot cut is visible. Character continuity has improved.",
+    "Mouth motion remains small, generic and visually weak as singing performance. The sampled 8.5, 9.0 and 9.75-second frames still show open/moving lips after the existing original-song timeline has ended the second line around 7.54 seconds and before the next line at 10.74 seconds. The long instrumental gap makes this a clear review concern even though the ASR boundaries are approximate.",
+    "User independently reports the latest effect is unsatisfactory. This pilot cannot qualify the workflow for full multi-scene generation."
+  ],
+  "decision": "Reject from the MV. Do not batch more scenes through the same photo-plus-mixed-song workflow. Any further test needs a materially different audio/video control process, not merely more negative prompt text.",
+  "limits": "No listening-based transcription, exact phoneme error, or lip-sync accuracy percentage is claimed. The platform's internal model and processing pipeline are not visible, so the specific cause of failure cannot be established from these outputs alone."
+}

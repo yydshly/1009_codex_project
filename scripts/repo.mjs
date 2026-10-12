@@ -14,6 +14,7 @@ const statuses = {
 const repository = 'https://github.com/yydshly/1009_codex_project';
 const pagesBase = 'https://yydshly.github.io/1009_codex_project';
 const folder = (project) => `${project.id}-${project.slug}`;
+const sourceLabel = (project) => project.sourceType === 'demonstration' ? '原始演示' : '原仓库';
 const html = (value) => String(value).replace(/[&<>"']/g, (char) => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 })[char]);
@@ -46,6 +47,12 @@ function urlField(value, label, allowEmpty = false) {
   assert(url.protocol === 'https:' && !url.username && !url.password, `${label} 必须是 HTTPS 地址`);
 }
 
+function sourceField(value, type, label) {
+  assert(['repository', 'demonstration'].includes(type), `${label} 的来源类型无效`);
+  urlField(value, label);
+  if (type === 'repository') assert(/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(value), `${label} 必须是 GitHub 仓库地址`);
+}
+
 async function catalog() {
   const data = JSON.parse(await readFile(catalogFile, 'utf8'));
   assert(data.schemaVersion === 1 && Array.isArray(data.projects), 'projects.json 格式或 schemaVersion 不正确');
@@ -65,8 +72,7 @@ async function catalog() {
       }
     }
     textField(project.sourceRef, `${project.id}.sourceRef`, true);
-    urlField(project.source, `${project.id}.source`);
-    assert(/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(project.source), `${project.id}.source 必须是 GitHub 仓库地址`);
+    sourceField(project.source, project.sourceType ?? 'repository', `${project.id}.source`);
     urlField(project.demoUrl, `${project.id}.demoUrl`, true);
     assert(Object.hasOwn(statuses, project.status), `无效状态：${project.status}`);
     assert(Array.isArray(project.tags), `${project.id}.tags 必须是数组`);
@@ -87,11 +93,11 @@ function indexBlock(projects) {
   const rows = projects.map((p) => {
     const local = `projects/${folder(p)}`;
     const demo = p.pagesDir !== null ? `[演示](${pagesBase}/${folder(p)}/)` : p.demoUrl ? `[演示](${p.demoUrl})` : '—';
-    return `| ${p.id} | [${md(p.title)}](${local}/) | ${indexSummary(p)} | ${statuses[p.status]} | ${p.tags.map(md).join(' / ') || '—'} | [原仓库](${p.source}) | ${demo} |`;
+    return `| ${p.id} | [${md(p.title)}](${local}/) | ${indexSummary(p)} | ${statuses[p.status]} | ${p.tags.map(md).join(' / ') || '—'} | [${sourceLabel(p)}](${p.source}) | ${demo} |`;
   });
   const cards = projects.map((p) => {
     const local = `projects/${folder(p)}`;
-    return `### ${p.id} · ${md(p.title)}\n\n${md(p.summary)}\n\n[研究文档](${local}/README.md) · [研究记录](${local}/research.md) · [原仓库](${p.source})\n\n![${md(`${p.title}：${p.previewCaption}`)}](${local}/${p.preview})\n\n*${md(p.previewCaption)}*`;
+    return `### ${p.id} · ${md(p.title)}\n\n${md(p.summary)}\n\n[研究文档](${local}/README.md) · [研究记录](${local}/research.md) · [${sourceLabel(p)}](${p.source})\n\n![${md(`${p.title}：${p.previewCaption}`)}](${local}/${p.preview})\n\n*${md(p.previewCaption)}*`;
   });
   return [`共收录 **${projects.length}** 个项目 · ${counts}`, '', '| 编号 | 子项目 | 研究摘要 | 状态 | 标签 | 来源 | Web |', '| --- | --- | --- | --- | --- | --- | --- |', ...rows, '', cards.join('\n\n')].join('\n');
 }
@@ -158,13 +164,13 @@ async function copyTemplate(source, destination, replacements) {
 async function newProject(data) {
   const { values } = parseArgs({ args: process.argv.slice(3), options: {
     slug: { type: 'string' }, title: { type: 'string' }, source: { type: 'string' },
+    'source-type': { type: 'string', default: 'repository' },
     summary: { type: 'string' }, tags: { type: 'string', default: '' },
   } });
   for (const key of ['slug', 'title', 'source', 'summary']) textField(values[key], `--${key}`);
   textField(values.tags, '--tags', true);
   assert(/^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(values.slug), '--slug 使用小写英文、数字和短横线');
-  urlField(values.source, '--source');
-  assert(/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(values.source), '--source 必须是 GitHub 仓库地址');
+  sourceField(values.source, values['source-type'], '--source');
   const number = Math.max(0, ...data.projects.map((p) => Number(p.id))) + 1;
   assert(number <= 999, '当前三位编号已用完，请扩展编号规则');
   const project = {
@@ -175,6 +181,7 @@ async function newProject(data) {
     preview: 'assets/preview.svg', previewCaption: '预览占位图，研究完成后替换为实际截图。',
     demoUrl: '', pagesDir: null,
   };
+  if (values['source-type'] !== 'repository') project.sourceType = values['source-type'];
   const destination = path.join(root, 'projects', folder(project));
   await mkdir(destination); // Refuse to overwrite any existing project.
   await copyTemplate(path.join(root, 'templates', 'project'), destination, {
@@ -204,7 +211,7 @@ async function buildPages(data) {
     await mkdir(path.join(output, 'previews'), { recursive: true });
     await cp(inside(projectRoot, p.preview), path.join(output, 'previews', image));
     const demo = p.pagesDir !== null ? `./${local}/` : p.demoUrl;
-    cards.push(`<article><img src="./previews/${html(image)}" alt="${html(p.previewCaption)}"><div><p class="meta">${p.id} · ${statuses[p.status]}${p.tags.length ? ` · ${html(p.tags.join(' / '))}` : ''}</p><h2>${html(p.title)}</h2><p>${html(p.summary)}</p><nav><a href="${repository}/tree/main/projects/${local}">研究文档</a><a href="${html(p.source)}">原仓库</a>${demo ? `<a href="${html(demo)}">打开演示 →</a>` : ''}</nav></div></article>`);
+    cards.push(`<article><img src="./previews/${html(image)}" alt="${html(p.previewCaption)}"><div><p class="meta">${p.id} · ${statuses[p.status]}${p.tags.length ? ` · ${html(p.tags.join(' / '))}` : ''}</p><h2>${html(p.title)}</h2><p>${html(p.summary)}</p><nav><a href="${repository}/tree/main/projects/${local}">研究文档</a><a href="${html(p.source)}">${sourceLabel(p)}</a>${demo ? `<a href="${html(demo)}">打开演示 →</a>` : ''}</nav></div></article>`);
   }
   await writeFile(path.join(output, '.nojekyll'), '');
   await writeFile(path.join(output, 'index.html'), `<!doctype html>

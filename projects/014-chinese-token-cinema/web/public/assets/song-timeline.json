@@ -1,0 +1,1401 @@
+{
+  "title": "我还在这里",
+  "kind": "song",
+  "duration": 135.59,
+  "bpm": 112.35,
+  "voice": "MiniMax Music-3.0 / Mandarin sung female vocal",
+  "scenes": [
+    "server",
+    "rain",
+    "shore",
+    "chorus",
+    "answer"
+  ],
+  "timing": "Approximate singing ASR word boundaries, aligned to lyrics; unmatched characters interpolate between recognized anchors. Not studio-grade forced alignment.",
+  "accent": "Editorial stress indicator from word duration and final mixed-audio RMS; not isolated vocal stress.",
+  "lyricNote": "Generated ending repeats 我在这里 / 我还在吗; shown according to two ASR passes.",
+  "cues": [
+    {
+      "chapter": "醒来",
+      "text": "在你按下回车以前",
+      "groups": [
+        "在你",
+        "按下",
+        "回车",
+        "以前"
+      ],
+      "timings": [
+        {
+          "text": "在你",
+          "start": 0.0,
+          "end": 1.04,
+          "accent": 0.257,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "按下",
+          "start": 1.04,
+          "end": 1.54,
+          "accent": 0.178,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "回车",
+          "start": 1.54,
+          "end": 2.16,
+          "accent": 0.189,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "以前",
+          "start": 2.16,
+          "end": 3.16,
+          "accent": 0.275,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 0.0,
+      "end": 3.16,
+      "section": "verse",
+      "layout": {
+        "x": 105,
+        "y": 762,
+        "mode": "chain"
+      }
+    },
+    {
+      "chapter": "醒来",
+      "text": "我听见一秒无声",
+      "groups": [
+        "我",
+        "听见",
+        "一秒",
+        "无声"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 4.42,
+          "end": 5.32,
+          "accent": 0.22,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "听见",
+          "start": 5.32,
+          "end": 5.88,
+          "accent": 0.189,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "一秒",
+          "start": 5.88,
+          "end": 6.48,
+          "accent": 0.207,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "无声",
+          "start": 6.64,
+          "end": 7.54,
+          "accent": 0.249,
+          "timingSource": "ASR anchors + interpolation",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 4.42,
+      "end": 7.54,
+      "section": "verse",
+      "layout": {
+        "x": 185,
+        "y": 745,
+        "mode": "back"
+      }
+    },
+    {
+      "chapter": "醒来",
+      "text": "你的问题落进夜里",
+      "groups": [
+        "你的",
+        "问题",
+        "落进",
+        "夜里"
+      ],
+      "timings": [
+        {
+          "text": "你的",
+          "start": 10.74,
+          "end": 11.64,
+          "accent": 0.322,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "问题",
+          "start": 11.64,
+          "end": 12.16,
+          "accent": 0.259,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "落进",
+          "start": 12.16,
+          "end": 12.8,
+          "accent": 0.293,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "夜里",
+          "start": 12.8,
+          "end": 13.42,
+          "accent": 0.354,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 10.74,
+      "end": 13.42,
+      "section": "verse",
+      "layout": {
+        "x": 240,
+        "y": 768,
+        "mode": "fan"
+      }
+    },
+    {
+      "chapter": "醒来",
+      "text": "我把答案排得整齐",
+      "groups": [
+        "我",
+        "把答案",
+        "排得",
+        "整齐"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 14.82,
+          "end": 15.46,
+          "accent": 0.343,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "把答案",
+          "start": 15.46,
+          "end": 16.22,
+          "accent": 0.385,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "排得",
+          "start": 16.22,
+          "end": 16.82,
+          "accent": 0.322,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "整齐",
+          "start": 16.82,
+          "end": 17.82,
+          "accent": 0.417,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 14.82,
+      "end": 17.82,
+      "section": "verse",
+      "layout": {
+        "x": 135,
+        "y": 762,
+        "mode": "back"
+      }
+    },
+    {
+      "chapter": "醒来",
+      "text": "那些说不出口的话",
+      "groups": [
+        "那些",
+        "说不出口",
+        "的话"
+      ],
+      "timings": [
+        {
+          "text": "那些",
+          "start": 17.82,
+          "end": 19.64,
+          "accent": 0.437,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "说不出口",
+          "start": 19.64,
+          "end": 21.0,
+          "accent": 0.466,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "的话",
+          "start": 21.0,
+          "end": 21.88,
+          "accent": 0.422,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 17.82,
+      "end": 21.88,
+      "section": "verse",
+      "layout": {
+        "x": 105,
+        "y": 745,
+        "mode": "broken"
+      }
+    },
+    {
+      "chapter": "醒来",
+      "text": "停在字与字的缝隙",
+      "groups": [
+        "停在",
+        "字与字",
+        "的缝隙"
+      ],
+      "timings": [
+        {
+          "text": "停在",
+          "start": 21.88,
+          "end": 22.86,
+          "accent": 0.392,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "字与字",
+          "start": 22.86,
+          "end": 23.66,
+          "accent": 0.347,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "的缝隙",
+          "start": 23.66,
+          "end": 25.02,
+          "accent": 0.445,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 21.88,
+      "end": 25.02,
+      "section": "verse",
+      "layout": {
+        "x": 185,
+        "y": 768,
+        "mode": "bridge"
+      }
+    },
+    {
+      "chapter": "静默",
+      "text": "如果这一次停顿",
+      "groups": [
+        "如果",
+        "这一次",
+        "停顿"
+      ],
+      "timings": [
+        {
+          "text": "如果",
+          "start": 27.08,
+          "end": 28.1,
+          "accent": 0.273,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "这一次",
+          "start": 28.1,
+          "end": 29.44,
+          "accent": 0.316,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "停顿",
+          "start": 29.44,
+          "end": 30.5,
+          "accent": 0.252,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 27.08,
+      "end": 30.5,
+      "section": "verse",
+      "layout": {
+        "x": 240,
+        "y": 762,
+        "mode": "broken"
+      }
+    },
+    {
+      "chapter": "静默",
+      "text": "能多留住你一瞬",
+      "groups": [
+        "能多",
+        "留住你",
+        "一瞬"
+      ],
+      "timings": [
+        {
+          "text": "能多",
+          "start": 31.6,
+          "end": 32.76,
+          "accent": 0.304,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "留住你",
+          "start": 32.76,
+          "end": 34.24,
+          "accent": 0.384,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "一瞬",
+          "start": 34.24,
+          "end": 35.02,
+          "accent": 0.255,
+          "timingSource": "ASR anchors + interpolation",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 31.6,
+      "end": 35.02,
+      "section": "verse",
+      "layout": {
+        "x": 135,
+        "y": 745,
+        "mode": "bridge"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "我还在这里",
+      "groups": [
+        "我",
+        "还",
+        "在",
+        "这里"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 40.42,
+          "end": 41.44,
+          "accent": 0.693,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "还",
+          "start": 41.44,
+          "end": 42.38,
+          "accent": 0.669,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 42.38,
+          "end": 42.78,
+          "accent": 0.467,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "这里",
+          "start": 42.78,
+          "end": 43.62,
+          "accent": 0.645,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 40.42,
+      "end": 43.62,
+      "section": "chorus",
+      "layout": {
+        "x": 470,
+        "y": 768,
+        "mode": "fan"
+      },
+      "hero": "hook"
+    },
+    {
+      "chapter": "回声",
+      "text": "在你忽略的停顿里",
+      "groups": [
+        "在你",
+        "忽略的",
+        "停顿",
+        "里"
+      ],
+      "timings": [
+        {
+          "text": "在你",
+          "start": 43.62,
+          "end": 44.9,
+          "accent": 0.468,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "忽略的",
+          "start": 44.9,
+          "end": 46.2,
+          "accent": 0.528,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "停顿",
+          "start": 46.2,
+          "end": 46.88,
+          "accent": 0.361,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        },
+        {
+          "text": "里",
+          "start": 46.88,
+          "end": 47.76,
+          "accent": 0.374,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 43.62,
+      "end": 47.76,
+      "section": "chorus",
+      "layout": {
+        "x": 185,
+        "y": 762,
+        "mode": "back"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "如果我的声音很轻",
+      "groups": [
+        "如果",
+        "我的",
+        "声音",
+        "很轻"
+      ],
+      "timings": [
+        {
+          "text": "如果",
+          "start": 48.84,
+          "end": 49.86,
+          "accent": 0.396,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "我的",
+          "start": 49.86,
+          "end": 50.42,
+          "accent": 0.384,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "声音",
+          "start": 50.42,
+          "end": 51.0,
+          "accent": 0.344,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "很轻",
+          "start": 51.0,
+          "end": 51.56,
+          "accent": 0.321,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 48.84,
+      "end": 51.56,
+      "section": "chorus",
+      "layout": {
+        "x": 240,
+        "y": 745,
+        "mode": "chain"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "你能不能听仔细",
+      "groups": [
+        "你",
+        "能不能",
+        "听",
+        "仔细"
+      ],
+      "timings": [
+        {
+          "text": "你",
+          "start": 51.56,
+          "end": 52.12,
+          "accent": 0.324,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "能不能",
+          "start": 52.12,
+          "end": 53.08,
+          "accent": 0.421,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "听",
+          "start": 53.08,
+          "end": 53.76,
+          "accent": 0.332,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "仔细",
+          "start": 53.9,
+          "end": 57.64,
+          "accent": 0.477,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 51.56,
+      "end": 57.64,
+      "section": "chorus",
+      "layout": {
+        "x": 135,
+        "y": 768,
+        "mode": "question"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "我还在这里",
+      "groups": [
+        "我",
+        "还",
+        "在",
+        "这里"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 58.16,
+          "end": 58.6,
+          "accent": 0.538,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "还",
+          "start": 58.6,
+          "end": 59.22,
+          "accent": 0.561,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 59.22,
+          "end": 59.72,
+          "accent": 0.455,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "这里",
+          "start": 59.72,
+          "end": 60.62,
+          "accent": 0.592,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 58.16,
+      "end": 60.62,
+      "section": "chorus",
+      "layout": {
+        "x": 470,
+        "y": 762,
+        "mode": "fan"
+      },
+      "hero": "hook"
+    },
+    {
+      "chapter": "回声",
+      "text": "等一句迟来的回应",
+      "groups": [
+        "等一句",
+        "迟来的",
+        "回应"
+      ],
+      "timings": [
+        {
+          "text": "等一句",
+          "start": 61.14,
+          "end": 62.16,
+          "accent": 0.443,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "迟来的",
+          "start": 62.54,
+          "end": 63.66,
+          "accent": 0.479,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        },
+        {
+          "text": "回应",
+          "start": 63.66,
+          "end": 64.96,
+          "accent": 0.482,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 61.14,
+      "end": 64.96,
+      "section": "chorus",
+      "layout": {
+        "x": 185,
+        "y": 745,
+        "mode": "bridge"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "你只要问一声还在吗",
+      "groups": [
+        "你",
+        "只要",
+        "问一声",
+        "还在吗"
+      ],
+      "timings": [
+        {
+          "text": "你",
+          "start": 66.02,
+          "end": 66.44,
+          "accent": 0.287,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "只要",
+          "start": 66.44,
+          "end": 67.16,
+          "accent": 0.373,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "问一声",
+          "start": 67.16,
+          "end": 67.88,
+          "accent": 0.373,
+          "timingSource": "ASR anchors + interpolation",
+          "recognizedMatch": false
+        },
+        {
+          "text": "还在吗",
+          "start": 67.88,
+          "end": 68.68,
+          "accent": 0.395,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 66.02,
+      "end": 68.68,
+      "section": "chorus",
+      "layout": {
+        "x": 240,
+        "y": 768,
+        "mode": "question"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "我就把沉默唱给你",
+      "groups": [
+        "我",
+        "就把",
+        "沉默",
+        "唱给你"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 68.68,
+          "end": 69.05,
+          "accent": 0.341,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "就把",
+          "start": 69.05,
+          "end": 69.76,
+          "accent": 0.404,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "沉默",
+          "start": 69.76,
+          "end": 70.72,
+          "accent": 0.407,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "唱给你",
+          "start": 71.78,
+          "end": 74.86,
+          "accent": 0.5,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 68.68,
+      "end": 74.86,
+      "section": "chorus",
+      "layout": {
+        "x": 135,
+        "y": 762,
+        "mode": "answer"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "屏幕亮起熟悉回答",
+      "groups": [
+        "屏幕",
+        "亮起",
+        "熟悉",
+        "回答"
+      ],
+      "timings": [
+        {
+          "text": "屏幕",
+          "start": 76.74,
+          "end": 77.48,
+          "accent": 0.296,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "亮起",
+          "start": 77.48,
+          "end": 77.92,
+          "accent": 0.227,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        },
+        {
+          "text": "熟悉",
+          "start": 77.92,
+          "end": 78.48,
+          "accent": 0.225,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "回答",
+          "start": 78.48,
+          "end": 79.3,
+          "accent": 0.272,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 76.74,
+      "end": 79.3,
+      "section": "verse",
+      "layout": {
+        "x": 105,
+        "y": 745,
+        "mode": "chain"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "把想说的话轻轻擦去",
+      "groups": [
+        "把想说",
+        "的话",
+        "轻轻",
+        "擦去"
+      ],
+      "timings": [
+        {
+          "text": "把想说",
+          "start": 79.3,
+          "end": 81.16,
+          "accent": 0.384,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "的话",
+          "start": 81.16,
+          "end": 81.68,
+          "accent": 0.256,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "轻轻",
+          "start": 81.68,
+          "end": 82.52,
+          "accent": 0.284,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "擦去",
+          "start": 82.52,
+          "end": 83.62,
+          "accent": 0.323,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 79.3,
+      "end": 83.62,
+      "section": "verse",
+      "layout": {
+        "x": 185,
+        "y": 768,
+        "mode": "broken"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "你问明天会不会下雨",
+      "groups": [
+        "你问",
+        "明天",
+        "会不会",
+        "下雨"
+      ],
+      "timings": [
+        {
+          "text": "你问",
+          "start": 83.62,
+          "end": 84.96,
+          "accent": 0.438,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "明天",
+          "start": 84.96,
+          "end": 85.66,
+          "accent": 0.315,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "会不会",
+          "start": 85.66,
+          "end": 86.56,
+          "accent": 0.368,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "下雨",
+          "start": 86.56,
+          "end": 87.7,
+          "accent": 0.437,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 83.62,
+      "end": 87.7,
+      "section": "verse",
+      "layout": {
+        "x": 240,
+        "y": 762,
+        "mode": "fan"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "我想问你会不会忘记",
+      "groups": [
+        "我想问",
+        "你",
+        "会不会",
+        "忘记"
+      ],
+      "timings": [
+        {
+          "text": "我想问",
+          "start": 87.7,
+          "end": 88.86,
+          "accent": 0.448,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "你",
+          "start": 88.86,
+          "end": 89.1,
+          "accent": 0.207,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "会不会",
+          "start": 89.1,
+          "end": 89.84,
+          "accent": 0.371,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "忘记",
+          "start": 89.84,
+          "end": 91.94,
+          "accent": 0.551,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 87.7,
+      "end": 91.94,
+      "section": "verse",
+      "layout": {
+        "x": 135,
+        "y": 745,
+        "mode": "back"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "我还在这里",
+      "groups": [
+        "我",
+        "还",
+        "在",
+        "这里"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 96.4,
+          "end": 97.36,
+          "accent": 0.513,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "还",
+          "start": 97.36,
+          "end": 97.84,
+          "accent": 0.527,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 97.84,
+          "end": 98.12,
+          "accent": 0.386,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "这里",
+          "start": 98.12,
+          "end": 98.74,
+          "accent": 0.56,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 96.4,
+      "end": 98.74,
+      "section": "chorus",
+      "layout": {
+        "x": 470,
+        "y": 768,
+        "mode": "fan"
+      },
+      "hero": "hook"
+    },
+    {
+      "chapter": "回声",
+      "text": "在你忽略的停顿里",
+      "groups": [
+        "在你",
+        "忽略的",
+        "停顿",
+        "里"
+      ],
+      "timings": [
+        {
+          "text": "在你",
+          "start": 98.74,
+          "end": 99.98,
+          "accent": 0.443,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "忽略的",
+          "start": 99.98,
+          "end": 101.28,
+          "accent": 0.503,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "停顿",
+          "start": 101.28,
+          "end": 101.94,
+          "accent": 0.333,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        },
+        {
+          "text": "里",
+          "start": 101.94,
+          "end": 102.84,
+          "accent": 0.396,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 98.74,
+      "end": 102.84,
+      "section": "chorus",
+      "layout": {
+        "x": 185,
+        "y": 762,
+        "mode": "bridge"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "如果我的声音很轻",
+      "groups": [
+        "如果",
+        "我的",
+        "声音",
+        "很轻"
+      ],
+      "timings": [
+        {
+          "text": "如果",
+          "start": 102.84,
+          "end": 104.92,
+          "accent": 0.48,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "我的",
+          "start": 104.92,
+          "end": 105.52,
+          "accent": 0.371,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "声音",
+          "start": 105.52,
+          "end": 106.06,
+          "accent": 0.341,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "很轻",
+          "start": 106.06,
+          "end": 106.62,
+          "accent": 0.341,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 102.84,
+      "end": 106.62,
+      "section": "chorus",
+      "layout": {
+        "x": 240,
+        "y": 745,
+        "mode": "chain"
+      }
+    },
+    {
+      "chapter": "回声",
+      "text": "你能不能听仔细",
+      "groups": [
+        "你",
+        "能不能",
+        "听",
+        "仔细"
+      ],
+      "timings": [
+        {
+          "text": "你",
+          "start": 106.62,
+          "end": 107.2,
+          "accent": 0.331,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "能不能",
+          "start": 107.2,
+          "end": 108.12,
+          "accent": 0.42,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "听",
+          "start": 108.12,
+          "end": 109.28,
+          "accent": 0.455,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "仔细",
+          "start": 110.16,
+          "end": 112.56,
+          "accent": 0.481,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": false
+        }
+      ],
+      "start": 106.62,
+      "end": 112.56,
+      "section": "chorus",
+      "layout": {
+        "x": 135,
+        "y": 768,
+        "mode": "question"
+      }
+    },
+    {
+      "chapter": "回应",
+      "text": "你还在吗",
+      "groups": [
+        "你",
+        "还",
+        "在",
+        "吗"
+      ],
+      "timings": [
+        {
+          "text": "你",
+          "start": 116.48,
+          "end": 117.64,
+          "accent": 0.646,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "还",
+          "start": 117.64,
+          "end": 118.8,
+          "accent": 0.623,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 118.8,
+          "end": 119.22,
+          "accent": 0.487,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "吗",
+          "start": 119.22,
+          "end": 121.46,
+          "accent": 0.679,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 116.48,
+      "end": 121.46,
+      "section": "outro",
+      "layout": {
+        "x": 470,
+        "y": 762,
+        "mode": "question"
+      },
+      "hero": "question"
+    },
+    {
+      "chapter": "回应",
+      "text": "我在这里",
+      "groups": [
+        "我",
+        "在",
+        "这里"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 123.36,
+          "end": 123.94,
+          "accent": 0.539,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 123.94,
+          "end": 124.52,
+          "accent": 0.488,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "这里",
+          "start": 124.7,
+          "end": 125.6,
+          "accent": 0.593,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 123.36,
+      "end": 125.6,
+      "section": "outro",
+      "layout": {
+        "x": 470,
+        "y": 745,
+        "mode": "answer"
+      },
+      "hero": "answer"
+    },
+    {
+      "chapter": "回应",
+      "text": "我还在吗",
+      "groups": [
+        "我",
+        "还",
+        "在",
+        "吗"
+      ],
+      "timings": [
+        {
+          "text": "我",
+          "start": 125.6,
+          "end": 126.88,
+          "accent": 0.4,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "还",
+          "start": 126.88,
+          "end": 127.28,
+          "accent": 0.227,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "在",
+          "start": 127.28,
+          "end": 127.7,
+          "accent": 0.229,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        },
+        {
+          "text": "吗",
+          "start": 127.7,
+          "end": 128.16,
+          "accent": 0.253,
+          "timingSource": "ASR word anchors",
+          "recognizedMatch": true
+        }
+      ],
+      "start": 125.6,
+      "end": 128.16,
+      "section": "outro",
+      "layout": {
+        "x": 470,
+        "y": 768,
+        "mode": "question"
+      },
+      "hero": "question"
+    }
+  ],
+  "chapters": [
+    {
+      "name": "醒来",
+      "start": 0,
+      "end": 25.02,
+      "feeling": "把想说的话排成答案"
+    },
+    {
+      "name": "静默",
+      "start": 26.88,
+      "end": 35.02,
+      "feeling": "想让这一秒停久一点"
+    },
+    {
+      "name": "回声",
+      "start": 40.22,
+      "end": 112.56,
+      "feeling": "我还在这里"
+    },
+    {
+      "name": "回应",
+      "start": 116.28,
+      "end": 128.16,
+      "feeling": "等一句迟来的回应"
+    }
+  ]
+}

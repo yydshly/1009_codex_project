@@ -1,0 +1,8 @@
+{
+  "method": "8000 Hz mono waveform cross-correlation, +/- 1 second search",
+  "inputDuration": 12.06,
+  "resultAudioDuration": 12.07475,
+  "resultAudioLagSeconds": 0.023,
+  "waveformCorrelation": 0.9930493267422648,
+  "note": "Checks retained song and timing; does not measure phoneme-to-mouth accuracy."
+}

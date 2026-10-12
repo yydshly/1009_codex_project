@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>我还在这里 · 多场景分镜预览</title>
+  <style>
+    *{box-sizing:border-box}body{margin:0;background:#080d13;color:#e0ebf0;font:15px/1.65 "Microsoft YaHei",sans-serif}main{max-width:1180px;margin:auto;padding:26px 24px 48px}a{color:#9cc8de}header{display:flex;justify-content:space-between;align-items:center;gap:16px}h1{font-size:25px;margin:0}header p{margin:4px 0;color:#a9bdc7}.notice{border-left:3px solid #edb079;background:#211b17;padding:12px 17px;margin:20px 0}.notice strong{color:#f3ba86}.stage{position:relative;background:#02050a;border:1px solid #233642;border-radius:9px;overflow:hidden}canvas{display:block;width:100%;aspect-ratio:16/9}#status{position:absolute;top:13px;left:50%;transform:translateX(-50%);background:#07131ee0;color:#c4dae4;border:1px solid #526775;padding:5px 12px;font-size:12px;border-radius:20px;white-space:nowrap}audio{width:100%;margin-top:12px}nav{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:24px}nav button{font:inherit;color:inherit;text-align:left;background:#101923;border:1px solid #2e414e;border-radius:7px;padding:0;cursor:pointer;overflow:hidden}nav img{width:100%;display:block;aspect-ratio:16/9;object-fit:cover}nav span{display:block;padding:12px 15px}nav b{display:block;font-size:17px}nav small{color:#a6bcc8}button:hover{border-color:#d2a579}.notes{margin:20px 0;color:#a3b7c1;font-size:13px}.error{color:#f4ac88}@media(max-width:650px){main{padding:20px 12px}header{display:block}h1{font-size:21px}nav{grid-template-columns:1fr}#status{font-size:10px;top:5px;padding:2px 7px}.notice{font-size:13px}}
+  </style>
+</head>
+<body>
+<main>
+  <header><div><h1>我还在这里 · 多场景分镜预览</h1><p>机房等待 → 雨夜呼唤 → 海岸回应</p></div><a href="./?version=motion">查看已有完整演唱版 ↗</a></header>
+  <div class="notice"><strong>新人物口型待线上生成。</strong>此页用于查看场景、镜头节奏与原歌曲的对应关系。机房和海岸目前是静帧运镜，雨夜副歌沿用已生成的演唱视频。</div>
+  <div class="stage"><canvas id="film" width="1600" height="900" aria-label="中文音乐短片分镜画面"></canvas><span id="status">准备分镜…</span></div>
+  <audio id="audio" controls preload="metadata" src="./assets/song.mp3" aria-label="播放原中文演唱"></audio>
+  <nav aria-label="跳转到情绪段落">
+    <button data-time="1"><img src="./assets/server.png" alt="冷色机房中的同一角色"><span><b>主歌 · 克制的等待</b><small>冷色机房中景；慢推、走廊细节与呼吸停顿</small></span></button>
+    <button data-time="42"><img src="./assets/chorus.png" alt="雨夜窗边抬头的角色"><span><b>副歌 · 想被听见</b><small>雨夜近景；已生成口型，词块跟随重音与长音</small></span></button>
+    <button data-time="124"><img src="./assets/answer.png" alt="夕阳海岸中的角色近景"><span><b>结尾 · 轻声回应</b><small>暖色海岸近景；放慢变化，留出确认前的空白</small></span></button>
+  </nav>
+  <p class="notes">新镜头使用同一虚构角色的场景照片与原唱音频。完整音轨作为播放时钟；现有雨夜口型不循环、不拉伸。连线是视觉编排，编号与预测沿用真实 GPT-2 推理缓存。HeyGen 原水印保留。</p>
+  <p id="error" class="error" hidden></p>
+</main>
+<script type="module" src="./scene-plan.js"></script>
+</body>
+</html>

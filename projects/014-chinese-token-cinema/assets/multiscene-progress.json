@@ -1,0 +1,81 @@
+{
+  "date": "2026-10-10",
+  "status": "three_pilots_completed_none_approved",
+  "newPerformanceVideosGenerated": 3,
+  "newPerformanceVideosAccepted": 0,
+  "originalFullMVPreserved": true,
+  "localModelsDownloaded": false,
+  "subscriptionPurchased": false,
+  "onlineDraft": {
+    "provider": "HeyGen",
+    "title": "我还在这里 · 机房与海岸多场景",
+    "url": "https://app.heygen.com/create-v4/b5de22edbc264763b6811cd39fa78595",
+    "duration": 52.5,
+    "scenes": 2,
+    "uploadedOriginalSongAudio": [
+      "verse-server.wav",
+      "ending-shore.wav"
+    ],
+    "newLooksCreated": [
+      "server.png",
+      "answer.png"
+    ],
+    "voiceMirroring": false,
+    "blockerShownByUI": "Your free videos are used up for the month",
+    "evidence": "heygen-scene-quota.jpg"
+  },
+  "userDecision": "Use the logged-in ChatArt online tool with existing credits.",
+  "userConfirmed": "The task completed, but the user reported poor visual quality.",
+  "chatartPilot": {
+    "statusShownInVideoAssets": "00:10 2026-10-10 13:38",
+    "submittedAtShownInUI": "2026/10/10 13:38",
+    "modelShownInUI": "Art MV 8",
+    "mode": "演唱",
+    "style": "Performance 演唱",
+    "page": "https://app.chatartpro.com/ai-music/ai-music-video",
+    "history": "https://app.chatartpro.com/history",
+    "inputPhoto": "server.png",
+    "inputAudio": "opening-10s.mp3",
+    "originalSongRange": [
+      0,
+      10.3
+    ],
+    "diamondsChargedShownAtSubmission": 100,
+    "evidence": "chatart-opening-contact.jpg",
+    "qualityReview": "chatart-opening-quality-review.json",
+    "approvedForMV": false,
+    "note": "Actual completed pilot downloaded and reviewed. Original audio retained, but scene cuts change character appearance, clothing and composition. Not included in MV; no duplicate task submitted."
+  },
+  "revisedPilot": {
+    "status": "completed_rejected_for_original_song_sync",
+    "provider": "ChatArt",
+    "modelShownInUI": "Seedance 2.0",
+    "submittedAtShownInUI": "2026/10/10 14:36",
+    "input": "seedance-single-shot-input.json",
+    "evidence": "seedance-single-shot-submitted.png",
+    "statusConfirmedInVideoAssets": "00:10 2026-10-10 14:36",
+    "queueEvidence": "seedance-single-shot-generating.png",
+    "approvedForMV": false,
+    "completedEvidence": "seedance-single-shot-completed.png",
+    "qualityReview": "seedance-single-shot-quality-review.json"
+  },
+  "reviewPage": "../web/public/scene-plan.html",
+  "reviewStatus": "Actual rain lip-sync footage retained; new server and shore scenes are labelled still-image storyboard, not generated performance.",
+  "fullMultisceneGenerationStarted": false,
+  "qualityGateDecision": "Latest pilot retains original song and improves continuity but fails visible singing performance review. No full multi-scene generation. Further test needs a materially different control pipeline.",
+  "currentPilot": {
+    "status": "completed_rejected_after_visual_review",
+    "provider": "ChatArt",
+    "modelShownInUI": "Art MV 8",
+    "mode": "演唱",
+    "submittedAtShownInUI": "2026/10/10 15:31",
+    "input": "chatart-lipsync-repair-input.json",
+    "evidence": "chatart-lipsync-repair-submitted.png",
+    "approvedForMV": false,
+    "statusConfirmedInVideoAssets": "00:10 2026-10-10 15:31",
+    "queueEvidence": "chatart-lipsync-repair-generating.png",
+    "lastStatusCheckedAtLocal": "2026-10-10 16:55",
+    "outputVideoAvailableForReview": true,
+    "qualityReview": "chatart-lipsync-repair-quality-review.json"
+  }
+}

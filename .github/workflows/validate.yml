@@ -95,5 +95,8 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 检查中文 Token 音乐短片完整研究
+        working-directory: projects/014-chinese-token-cinema/web
+        run: npm run check
       - run: npm run check
       - run: npm run pages:build

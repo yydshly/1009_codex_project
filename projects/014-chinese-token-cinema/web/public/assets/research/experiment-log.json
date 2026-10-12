@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-10",
+  "status": "three_pilots_completed_none_approved",
+  "originalSongRange": [
+    0,
+    10.3
+  ],
+  "originalSongSha256": "580d151da7dac601330b0ce75347c19c947f9cf589a49ddf926a2795a83d57b2",
+  "originalInputSha256": "548624c1a546404e2cc77e47f0b2316c3bbf5b721737a98f3a02d5e6aae0393f",
+  "totalCostDiamonds": 320,
+  "newAccepted": 0,
+  "fullMultisceneGenerationStarted": false,
+  "measurementLimit": "Waveform correlation verifies recording retention, not phoneme-to-mouth accuracy. ASR lyric boundaries are approximate.",
+  "tests": [
+    {
+      "id": "chatart-opening",
+      "title": "Art MV 8 · 第一轮",
+      "submittedAt": "13:38",
+      "date": "2026-10-10",
+      "costDiamonds": 100,
+      "mode": "演唱 / Performance",
+      "duration": 10.125651,
+      "width": 1280,
+      "height": 720,
+      "sha256": "19e0ff8259a85d5a00ac042a8e89e59ee4e71e9d84bf6adedd929ac322350820",
+      "localMedia": "./assets/experiments/chatart-opening-rejected.mp4",
+      "poster": "./assets/experiments/chatart-opening-rejected.jpg",
+      "publicMedia": "https://files.chatartpro.com/web-video/20261010/6ac9d6f83b542.mp4",
+      "waveformCorrelation": 0.9995763964856342,
+      "audioRetentionPassed": true,
+      "approvedForMV": false,
+      "includedInPlayer": false,
+      "findings": [
+        "原音保留，但约 4 秒、8 秒出现非预期切镜。",
+        "人物由右侧移到居中，脸部观感、服装与构图改变；演唱情绪偏弱。"
+      ],
+      "watchTime": 4.2,
+      "watchLabel": "看人物与服装切换",
+      "frameEvidence": "./assets/research/chatart-opening-contact.jpg",
+      "review": "./assets/research/chatart-opening-quality-review.json",
+      "audioVerification": "./assets/research/chatart-opening-audio-verification.json"
+    },
+    {
+      "id": "seedance-single-shot",
+      "title": "Seedance 2.0 · 单镜头",
+      "submittedAt": "14:36",
+      "date": "2026-10-10",
+      "costDiamonds": 120,
+      "mode": "图片＋原唱 WAV 参考",
+      "duration": 10.041667,
+      "width": 864,
+      "height": 496,
+      "sha256": "048bd5fd35efb3ffef7f4744db2c681d6f40b56d577873b1d8403fcf767be7f9",
+      "localMedia": "./assets/experiments/seedance-single-shot-rejected.mp4",
+      "poster": "./assets/experiments/seedance-single-shot-rejected.jpg",
+      "publicMedia": "https://files.chatartpro.com/web-video/20261010/6ac9e4c46a6ab.mp4",
+      "waveformCorrelation": 0.1052483113902299,
+      "audioRetentionPassed": false,
+      "approvedForMV": false,
+      "includedInPlayer": false,
+      "findings": [
+        "人物、服装和机房构图稳定，连续性改善。",
+        "输出音轨未通过原唱保留检查，不能确认原歌时间尺度；低相关性下的偏移不能用于口型校正。",
+        "实际输出为 864×496（任务显示 480p），只作样片复核。"
+      ],
+      "watchTime": 4,
+      "watchLabel": "看连续性与嘴形",
+      "frameEvidence": "./assets/research/seedance-single-shot-mouth-sequence.jpg",
+      "review": "./assets/research/seedance-single-shot-quality-review.json",
+      "audioVerification": "./assets/research/seedance-single-shot-audio-verification.json"
+    },
+    {
+      "id": "chatart-lipsync-repair",
+      "title": "Art MV 8 · 口型修复",
+      "submittedAt": "15:31",
+      "date": "2026-10-10",
+      "costDiamonds": 100,
+      "mode": "演唱 / 固定机位",
+      "duration": 10.125651,
+      "width": 1280,
+      "height": 720,
+      "sha256": "439b5102f345369d5cb20d6f28f092a2caafa1dcdf4808eec988b3369524a61b",
+      "localMedia": "./assets/experiments/chatart-lipsync-repair-rejected.mp4",
+      "poster": "./assets/experiments/chatart-lipsync-repair-rejected.jpg",
+      "publicMedia": "https://files.chatartpro.com/web-video/20261010/6ac9f182cc4fe.mp4",
+      "waveformCorrelation": 0.9995763964856342,
+      "audioRetentionPassed": true,
+      "approvedForMV": false,
+      "includedInPlayer": false,
+      "findings": [
+        "原音保留，单镜头与人物连续性改善。",
+        "第二句约 7.54 秒结束后，8.5、9.0、9.75 秒抽帧仍有嘴形开合；无人声间隔没有自然停下。",
+        "演唱动作小且泛化，中文嘴形和情绪仍未通过。"
+      ],
+      "watchTime": 8.5,
+      "watchLabel": "看无人声处嘴形",
+      "frameEvidence": "./assets/research/chatart-lipsync-repair-mouth-sequence.jpg",
+      "review": "./assets/research/chatart-lipsync-repair-quality-review.json",
+      "audioVerification": "./assets/research/chatart-lipsync-repair-audio-verification.json"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-12T14:24:34.427Z",
+  "errors": [],
+  "media": [
+    {
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/reference/dj-sho-slopcore.mp4",
+      "duration": 276.053333,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/experiments/chatart-opening-rejected.mp4",
+      "duration": 10.125651,
+      "width": 1280,
+      "height": 720
+    },
+    {
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/experiments/seedance-single-shot-rejected.mp4",
+      "duration": 10.08,
+      "width": 864,
+      "height": 496
+    },
+    {
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/experiments/chatart-lipsync-repair-rejected.mp4",
+      "duration": 10.125651,
+      "width": 1280,
+      "height": 720
+    }
+  ],
+  "rangeStreaming": true,
+  "mainPausesReference": true,
+  "pilotsPlayable": true,
+  "pilotsPauseMainAndEachOther": true,
+  "nativeKeyboardDoesNotStartMain": true,
+  "originalInputPlayable": true,
+  "mobile": [
+    {
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "width": 768,
+      "overflow": false
+    }
+  ],
+  "missingLocalReferenceFallback": true,
+  "status": "verified_reference_and_three_rejected_pilots"
+}

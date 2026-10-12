@@ -1,0 +1,298 @@
+{
+  "playback": {
+    "paused": false,
+    "time": 0.913623,
+    "duration": 135.601633
+  },
+  "chapter": {
+    "time": 116.33,
+    "active": "回应"
+  },
+  "classic": {
+    "cue": 2,
+    "chapter": 0,
+    "time": 11,
+    "subtitleMode": "classic",
+    "audioEnergy": 0.09616000205278397,
+    "beatPulse": 0.10635209908638658,
+    "shot": 1,
+    "performanceFrame": false
+  },
+  "modes": [
+    {
+      "cue": 0,
+      "chapter": 0,
+      "time": 1.58,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.30399999022483826,
+      "beatPulse": 0,
+      "shot": 0,
+      "performanceFrame": false
+    },
+    {
+      "cue": 1,
+      "chapter": 0,
+      "time": 5.98,
+      "subtitleMode": "back",
+      "audioEnergy": 0.12064000219106674,
+      "beatPulse": 0.9910403787728806,
+      "shot": 0,
+      "performanceFrame": false
+    },
+    {
+      "cue": 2,
+      "chapter": 0,
+      "time": 12.08,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.10447999835014343,
+      "beatPulse": 0.09546457907824576,
+      "shot": 1,
+      "performanceFrame": false
+    },
+    {
+      "cue": 3,
+      "chapter": 0,
+      "time": 16.32,
+      "subtitleMode": "back",
+      "audioEnergy": 0.5953599810600281,
+      "beatPulse": 0.14184788896532433,
+      "shot": 1,
+      "performanceFrame": false
+    },
+    {
+      "cue": 4,
+      "chapter": 0,
+      "time": 19.85,
+      "subtitleMode": "broken",
+      "audioEnergy": 0.9426000118255615,
+      "beatPulse": 0.6790910949266196,
+      "shot": 2,
+      "performanceFrame": false
+    },
+    {
+      "cue": 5,
+      "chapter": 0,
+      "time": 23.45,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.20280000567436218,
+      "beatPulse": 0.017266276761846652,
+      "shot": 2,
+      "performanceFrame": false
+    },
+    {
+      "cue": 6,
+      "chapter": 1,
+      "time": 28.79,
+      "subtitleMode": "broken",
+      "audioEnergy": 0.1260800063610077,
+      "beatPulse": 0.010337264500294279,
+      "shot": 3,
+      "performanceFrame": false
+    },
+    {
+      "cue": 7,
+      "chapter": 1,
+      "time": 33.31,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.26072001457214355,
+      "beatPulse": 0.20700755268114468,
+      "shot": 4,
+      "performanceFrame": false
+    },
+    {
+      "cue": 8,
+      "chapter": 2,
+      "time": 42.019999999999996,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.6226800084114075,
+      "beatPulse": 0.012046272536131655,
+      "shot": 5,
+      "performanceFrame": false
+    },
+    {
+      "cue": 9,
+      "chapter": 2,
+      "time": 45.69,
+      "subtitleMode": "back",
+      "audioEnergy": 0.9072800278663635,
+      "beatPulse": 0.02221472326045639,
+      "shot": 5,
+      "performanceFrame": false
+    },
+    {
+      "cue": 10,
+      "chapter": 2,
+      "time": 50.2,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.8311200141906738,
+      "beatPulse": 0.23480497570613743,
+      "shot": 6,
+      "performanceFrame": false
+    },
+    {
+      "cue": 11,
+      "chapter": 2,
+      "time": 54.6,
+      "subtitleMode": "question",
+      "audioEnergy": 1,
+      "beatPulse": 0.0546394024449064,
+      "shot": 6,
+      "performanceFrame": false
+    },
+    {
+      "cue": 12,
+      "chapter": 2,
+      "time": 59.39,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.2727999985218048,
+      "beatPulse": 0.030439931387972408,
+      "shot": 7,
+      "performanceFrame": false
+    },
+    {
+      "cue": 13,
+      "chapter": 2,
+      "time": 63.05,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.8436400294303894,
+      "beatPulse": 0.0614212139150028,
+      "shot": 7,
+      "performanceFrame": false
+    },
+    {
+      "cue": 14,
+      "chapter": 2,
+      "time": 67.35,
+      "subtitleMode": "question",
+      "audioEnergy": 0.7961199879646301,
+      "beatPulse": 0.03515459302455749,
+      "shot": 8,
+      "performanceFrame": false
+    },
+    {
+      "cue": 15,
+      "chapter": 2,
+      "time": 71.77000000000001,
+      "subtitleMode": "answer",
+      "audioEnergy": 0.5566800236701965,
+      "beatPulse": 0.7497615922389692,
+      "shot": 9,
+      "performanceFrame": false
+    },
+    {
+      "cue": 16,
+      "chapter": 2,
+      "time": 78.02,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.23396000266075134,
+      "beatPulse": 0.018723048012614728,
+      "shot": 10,
+      "performanceFrame": false
+    },
+    {
+      "cue": 17,
+      "chapter": 2,
+      "time": 81.46000000000001,
+      "subtitleMode": "broken",
+      "audioEnergy": 0.45019999146461487,
+      "beatPulse": 0.19968782637156646,
+      "shot": 10,
+      "performanceFrame": false
+    },
+    {
+      "cue": 18,
+      "chapter": 2,
+      "time": 85.66,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.5672399997711182,
+      "beatPulse": 0.22855006266941744,
+      "shot": 11,
+      "performanceFrame": false
+    },
+    {
+      "cue": 19,
+      "chapter": 2,
+      "time": 89.82,
+      "subtitleMode": "back",
+      "audioEnergy": 0.9505599737167358,
+      "beatPulse": 0.6262535236575982,
+      "shot": 12,
+      "performanceFrame": false
+    },
+    {
+      "cue": 20,
+      "chapter": 2,
+      "time": 97.57,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.7797999978065491,
+      "beatPulse": 0.03184101628552969,
+      "shot": 13,
+      "performanceFrame": false
+    },
+    {
+      "cue": 21,
+      "chapter": 2,
+      "time": 100.78999999999999,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.6967599987983704,
+      "beatPulse": 0.020302728359901597,
+      "shot": 13,
+      "performanceFrame": false
+    },
+    {
+      "cue": 22,
+      "chapter": 2,
+      "time": 104.73,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.6415600180625916,
+      "beatPulse": 0.29405160495165217,
+      "shot": 14,
+      "performanceFrame": false
+    },
+    {
+      "cue": 23,
+      "chapter": 2,
+      "time": 109.59,
+      "subtitleMode": "question",
+      "audioEnergy": 0.18671999871730804,
+      "beatPulse": 0.10828376975109828,
+      "shot": 15,
+      "performanceFrame": false
+    },
+    {
+      "cue": 24,
+      "chapter": 3,
+      "time": 118.97,
+      "subtitleMode": "question",
+      "audioEnergy": 0.4721199870109558,
+      "beatPulse": 0.42528319108227847,
+      "shot": 16,
+      "performanceFrame": false
+    },
+    {
+      "cue": 25,
+      "chapter": 3,
+      "time": 124.47999999999999,
+      "subtitleMode": "answer",
+      "audioEnergy": 1,
+      "beatPulse": 0.0490458354870195,
+      "shot": 17,
+      "performanceFrame": false
+    },
+    {
+      "cue": 26,
+      "chapter": 3,
+      "time": 126.88,
+      "subtitleMode": "question",
+      "audioEnergy": 0.46667999029159546,
+      "beatPulse": 0.4102453022590826,
+      "shot": 18,
+      "performanceFrame": false
+    }
+  ],
+  "musicSwitch": false,
+  "workSwitch": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "date": "2026-10-10T04:45:54.269Z"
+}

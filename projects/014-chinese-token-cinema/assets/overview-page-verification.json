@@ -1,0 +1,64 @@
+{
+  "date": "2026-10-12T14:26:46.907Z",
+  "errors": [],
+  "media": [
+    {
+      "kind": "reference",
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/reference/dj-sho-slopcore.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 276.053333,
+      "time": 28.110583
+    },
+    {
+      "kind": "ours",
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/exports/wo-hai-zai-zhe-li-motion.mp4",
+      "width": 1280,
+      "height": 720,
+      "duration": 135.589002,
+      "time": 30.11666
+    },
+    {
+      "kind": "reference",
+      "src": "http://127.0.0.1:4324/1009_codex_project/014-chinese-token-cinema/assets/reference/dj-sho-slopcore.mp4",
+      "width": 1920,
+      "height": 1080,
+      "duration": 276.053333,
+      "time": 228.124014
+    }
+  ],
+  "responsive": [
+    {
+      "page": "home",
+      "width": 390,
+      "overflow": false
+    },
+    {
+      "page": "home",
+      "width": 768,
+      "overflow": false
+    },
+    {
+      "page": "viewer",
+      "width": 390,
+      "overflow": false,
+      "panInContainer": true
+    },
+    {
+      "page": "viewer",
+      "width": 768,
+      "overflow": false,
+      "panInContainer": true
+    }
+  ],
+  "completeSummaryAndGuideFirst": true,
+  "homeImage": {
+    "width": 2880,
+    "height": 6795
+  },
+  "previewPlaybackAndIsolation": true,
+  "missingExportFallback": true,
+  "vectorZoom": true,
+  "fullscreen": true,
+  "status": "verified_infographic_zoom_real_media_and_mobile"
+}

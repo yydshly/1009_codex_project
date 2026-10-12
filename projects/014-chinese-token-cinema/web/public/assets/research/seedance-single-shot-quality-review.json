@@ -1,0 +1,47 @@
+{
+  "status": "completed_rejected_for_original_song_sync",
+  "date": "2026-10-10",
+  "checkedAtLocal": "2026-10-10 15:20",
+  "provider": "ChatArt",
+  "modelShownInUI": "Seedance 2.0",
+  "submittedAtShownInUI": "2026-10-10 14:36",
+  "page": "https://app.chatartpro.com/history",
+  "media": "https://files.chatartpro.com/web-video/20261010/6ac9e4c46a6ab.mp4",
+  "localFile": "upstream/chinese-token-cinema/scene-performance/seedance-single-shot-rejected.mp4",
+  "sha256": "048bd5fd35efb3ffef7f4744db2c681d6f40b56d577873b1d8403fcf767be7f9",
+  "videoDuration": 10.041667,
+  "audioDuration": 10.08,
+  "width": 864,
+  "height": 496,
+  "fps": 24,
+  "approvedForMV": false,
+  "includedInPlayer": false,
+  "characterContinuity": "pass_for_pilot_visual_review",
+  "originalSongSync": "not_passed",
+  "audioVerification": "seedance-single-shot-audio-verification.json",
+  "visualEvidence": [
+    "seedance-single-shot-completed.png",
+    "seedance-single-shot-contact.jpg",
+    "seedance-single-shot-mouth-sequence.jpg"
+  ],
+  "findings": [
+    {
+      "range": [0, 10.041667],
+      "finding": "Actual sampled frames preserve the face, bob hairstyle, orange triangular hair clip, full high-neck clothing and right-side server-room composition. No abrupt alternate scene or wardrobe change is visible in this review. Clear improvement over the previous Art MV pilot."
+    },
+    {
+      "range": [0, 7.75],
+      "finding": "Continuous singing-like mouth changes, blinking and restrained facial acting are visible. The mouth reopens around 4.0 seconds, before the original song's approximate 4.42-second second-line anchor; it relaxes around 7.25 seconds, before the approximate 7.54-second line end. These samples flag timing concerns, not a precise phoneme error measurement."
+    },
+    {
+      "range": [0, 10.08],
+      "finding": "The returned audio fails original-song retention verification: waveform correlation 0.105248 against the uploaded WAV. This is insufficient to establish preserved singing or its time scale. The correlation peak lag is unreliable at this low similarity and must not be applied as a corrective mouth offset."
+    },
+    {
+      "range": [0, 10.041667],
+      "finding": "Actual 864 x 496 output is a low-resolution pilot, not final HD material."
+    }
+  ],
+  "decision": "Do not generate the remaining scenes or compose this pilot into the original-song MV. Character continuity has improved; Mandarin singing sync to the original master has not passed.",
+  "limits": "No phoneme-level accuracy percentage or listening-based lyric transcription is claimed. Review uses actual frame sequences and waveform comparison with the original audio. No new online generation was submitted during this check."
+}

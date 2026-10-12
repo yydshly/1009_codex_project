@@ -1,0 +1,28 @@
+{
+  "status": "completed_rejected_after_review",
+  "date": "2026-10-10",
+  "provider": "ChatArt",
+  "modelShownInUI": "Art MV 8",
+  "page": "https://app.chatartpro.com/history",
+  "submittedAtShownInUI": "2026-10-10 13:38",
+  "media": "https://files.chatartpro.com/web-video/20261010/6ac9d6f83b542.mp4",
+  "localFile": "chatart-opening-rejected.mp4",
+  "localFileLocation": "ignored upstream/chinese-token-cinema/scene-performance",
+  "sha256": "19e0ff8259a85d5a00ac042a8e89e59ee4e71e9d84bf6adedd929ac322350820",
+  "videoDuration": 10.125651,
+  "audioDuration": 10.0,
+  "width": 1280,
+  "height": 720,
+  "fps": "approximately 24",
+  "approvedForMV": false,
+  "includedInPlayer": false,
+  "audioVerification": "chatart-opening-audio-verification.json",
+  "visualEvidence": ["chatart-opening-contact.jpg", "chatart-opening-face-contact.jpg"],
+  "issues": [
+    {"range": [0, 4], "finding": "Generated clothing already differs from the gray high-neck reference, exposing midriff in several frames."},
+    {"range": [4, 8], "finding": "An unrequested cut relocates the character to the center. Face appearance, lighting and clothing differ from the first shot; composition pushes rapidly toward a close-up."},
+    {"range": [8, 10.125651], "finding": "Another cut returns to a composition similar to the opening, weakening continuous emotional performance."},
+    {"range": [0, 10.125651], "finding": "Facial acting is restrained and generic. Mouth movement exists; sampled frames alone do not establish phoneme-level lip-sync accuracy."}
+  ],
+  "note": "Original song waveform correlation is 0.99958 with zero detected lag. This confirms retained audio, not lip-sync quality. User reported poor visual quality; actual frames substantiate continuity and camera-control problems. Rejected from the MV; the separate revised pilot uses the Seedance reference-input route."
+}

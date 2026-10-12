@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-10",
+  "composition": "Node.js SVG typesetting and embedded real frames; Chrome PNG export",
+  "sourceDocument": "assets/overview-source.md",
+  "records": [
+    {
+      "file": "abstract-background.png",
+      "method": "Built-in imagegen, copied without pixel edits",
+      "kind": "artistic illustration, not model data",
+      "bytes": 1731978,
+      "sha256": "9f18401f7eec32b1b931daa97701732a6e1c6341956935a013a46d65f6659ea4"
+    },
+    {
+      "file": "reference-tokens.jpg",
+      "method": "Copied actual source frame at 28 seconds",
+      "author": "DJ SHO",
+      "time": 28,
+      "bytes": 39686,
+      "sha256": "d6ff16b93b2f7a27ed62fb640a0b1d81d5f6fd43816482b442f8121108328511"
+    },
+    {
+      "file": "our-performance.jpg",
+      "method": "Copied assets/motion-frame-3.jpg, actual Canvas output",
+      "author": "Chinese original / HeyGen performance, watermark retained",
+      "time": 30,
+      "bytes": 213826,
+      "sha256": "dbb8670d415e1ce792c68e93a416847c378298469247a6d15f342c53af660849"
+    },
+    {
+      "file": "reference-shore.jpg",
+      "method": "FFmpeg actual frame at 228 seconds, proportional resize only",
+      "author": "DJ SHO",
+      "time": 228,
+      "bytes": 53421,
+      "sha256": "7361ebf70563f4a48d246b70a218b9329758eb20706195bff5c4131a6144de06"
+    }
+  ]
+}

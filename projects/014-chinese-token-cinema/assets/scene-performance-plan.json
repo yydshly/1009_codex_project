@@ -1,0 +1,51 @@
+{
+  "status": "prepared_not_generated",
+  "date": "2026-10-10",
+  "duration": 52.5,
+  "sourceSongSha256": "580d151da7dac601330b0ce75347c19c947f9cf589a49ddf926a2795a83d57b2",
+  "scenes": [
+    {
+      "id": "verse-server",
+      "emotion": "冷色机房，中景，克制的等待",
+      "photo": "server.png",
+      "photoSha256": "82929259a34fa3f525989672fe6b3b6e4a4764d2194ab511762e502734ac8c77",
+      "duration": 39.3,
+      "audioFile": "verse-server.wav",
+      "audioSha256": "117666564dbfd6ff3f2238f27caad901dfa030ad9065990f234c57fe6698c11f",
+      "mapping": [
+        {
+          "start": 0,
+          "end": 8,
+          "offset": 0
+        },
+        {
+          "start": 10.3,
+          "end": 25.6,
+          "offset": 8.0
+        },
+        {
+          "start": 76.2,
+          "end": 92.2,
+          "offset": 23.3
+        }
+      ]
+    },
+    {
+      "id": "ending-shore",
+      "emotion": "暖色海岸，近景，轻声确认与停顿",
+      "photo": "answer.png",
+      "photoSha256": "3c0f752f6d9a1914ef867e1d67eee0416d9c4507874aea6fb219872a1ccfe900",
+      "duration": 13.2,
+      "audioFile": "ending-shore.wav",
+      "audioSha256": "3a8636e1950a544fd38b5957d85a226f3bc21f758b5414e810701fa2ce41cd65",
+      "mapping": [
+        {
+          "start": 115.8,
+          "end": 129,
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "note": "Original Mandarin recording, no TTS or model download. Keep existing rain chorus; generate server verse and warm-shore ending online."
+}

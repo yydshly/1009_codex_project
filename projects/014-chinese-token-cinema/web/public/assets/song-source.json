@@ -1,0 +1,16 @@
+{
+  "title": "我还在这里",
+  "provider": "MiniMax",
+  "model": "Music-3.0",
+  "generated": "2026-10-10",
+  "page": "https://www.minimax.cn/audio/music",
+  "duration": 135.59,
+  "sampleRate": 44100,
+  "channels": 2,
+  "sha256": "580d151da7dac601330b0ce75347c19c947f9cf589a49ddf926a2795a83d57b2",
+  "download": "Official UI / MP3 without audible watermark; original AIGC metadata retained.",
+  "analysisModel": "Systran/faster-whisper-base (ASR only; cached under ignored upstream)",
+  "analysisRevision": "ebe41f70d5b6dfa9166e2c581c45c9c0cfc57b66",
+  "submittedLyrics": "../../../assets/minimax-lyrics.txt",
+  "submittedStyle": "../../../assets/minimax-style.txt"
+}

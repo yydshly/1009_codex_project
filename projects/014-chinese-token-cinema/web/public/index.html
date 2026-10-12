@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#090d12">
+  <meta name="description" content="字间：从参考原片到中文演唱，全面理解音乐、人物视频与口型模型、真实 Token 数据、七态字幕与情绪镜头、同步合成工程、三轮失败结论、价值和扩展方向。沿用完整研究引导图，直接对照真实效果。">
+  <title>字间 · 中文演唱与 Token 视觉完整研究</title>
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./versions.css">
+  <link rel="stylesheet" href="./research.css">
+  <link rel="stylesheet" href="./overview.css">
+</head>
+<body>
+  <main>
+    <header class="masthead">
+      <a class="brand" href="./" aria-label="字间首页"><span class="mark">✳</span><strong>字间</strong><span class="brand-en">BETWEEN TOKENS</span></a>
+      <div class="edition"><span class="dot"></span><span id="edition">014 / 中文叙事短片</span></div>
+      <div class="header-actions"><a class="text-button" href="#overview">一图总览 ↓</a><a class="text-button" href="#capabilities">完整摘要 ↓</a><a class="text-button" href="#research">原片与研究记录 ↓</a><button id="about-button" class="text-button" aria-controls="about" aria-expanded="false">创作说明 <span>↗</span></button></div>
+    </header>
+
+    <section id="overview" class="overview-home" aria-labelledby="overview-title">
+      <div class="overview-heading"><div><p class="eyebrow">完整理解与研究入口 / 014</p><h2 id="overview-title">音乐、人物与文字视觉，如何一起工作？</h2><p>这是一套从参考作品走向中文声画创作的研究工程。先用我们已生成的完整图看清效果与模型分工，再对照真实视频、能力模块、字幕价值、情绪与底层依赖、失败结论和扩展条件。</p></div><a href="./overview.html" class="overview-open">放大 / 全屏阅读 ↗</a></div>
+      <nav class="overview-contents" aria-label="完整研究导览"><a href="#stage">中文作品</a><a href="#capabilities">能力与完整摘要</a><a href="#module-map">模块与原理</a><a href="#extension-values">价值与扩展</a><a href="#reference">参考原片</a><a href="#experiments">三轮真实测试</a><a href="#conclusion">最终结论</a></nav>
+      <div class="overview-actions" aria-label="总览图和效果"><button type="button" data-overview-watch="reference" data-time="28">▶ 播放原片 · 词块与人物</button><button type="button" data-overview-watch="ours" data-time="30">▶ 播放中文研究效果</button><button type="button" data-overview-watch="reference" data-time="228">▶ 原片 · 海岸回应</button><a href="./assets/overview/overview.png" download="字间-完整研究总览.png">下载高清 PNG ↓</a><a href="./assets/overview/overview.svg" download="字间-完整研究总览.svg">下载矢量 SVG ↓</a></div>
+      <figure class="overview-figure"><a href="./overview.html" aria-label="打开完整研究总览图并放大阅读"><img src="./assets/overview/overview.png" width="2880" height="6795" decoding="async" fetchpriority="high" alt="字间完整研究总览：原片与中文成片真实帧，音乐、人物、口型、字幕四环节，底层依赖、真实数据边界、七态字幕、情绪、已实现能力、三轮失败与未来扩展。"></a><figcaption>沿用原完整图，点击进入八模块矢量阅读器；这里展示上部预览。三张画面来自实际原片和中文播放器，抽象背景为视觉示意。完整多场景表演尚未通过，扩展方案标为待验证。</figcaption></figure>
+      <details class="overview-readable"><summary>查看图中文字与资料来源</summary><div id="overview-transcript"></div><div id="overview-sources" class="overview-sources"></div></details>
+      <a class="overview-detail-link" href="#research">继续看原片、逐轮样片与详细记录 ↓</a>
+    </section>
+    <section class="cinema" aria-label="我还在这里短片播放器">
+      <div id="stage" class="stage">
+        <canvas id="film" width="1600" height="900" aria-label="中文叙事短片画面"></canvas>
+        <button id="start" class="start-button" aria-label="播放中文短片"><span>▶</span><span>播放短片</span><small>62 秒 · 建议开启声音</small></button>
+        <p id="loading" role="status">正在准备画面与声音…</p>
+      </div>
+      <div class="transport">
+        <button id="play" class="play-button" aria-label="播放" disabled>▶</button>
+        <button id="restart" class="icon-button" aria-label="从头播放" title="从头播放">↺</button>
+        <span id="time" class="time">00:00 <span>/ 01:02</span></span>
+        <input id="seek" class="seek" type="range" min="0" max="62" step="0.01" value="0" aria-label="播放进度">
+        <button id="mute" class="icon-button" aria-label="静音" aria-pressed="false" title="静音">♪</button>
+        <button id="fullscreen" class="icon-button" aria-label="全屏播放" title="全屏播放">⛶</button>
+      </div>
+    </section>
+
+    <section class="film-meta" aria-label="短片信息">
+      <div><p id="eyebrow" class="eyebrow">一段藏在回答之间的独白</p><h1>我还在这里<span> / A VOICE BETWEEN WORDS</span></h1></div>
+      <div class="meta-right"><span id="voice-label">中文旁白</span><span id="soundtrack-label">情绪配乐 · 四段编排</span><a id="download-film" href="./exports/wo-hai-zai-zhe-li-v2.mp4" download hidden>下载情绪版 MP4 ↓</a></div>
+    </section>
+
+    <nav id="chapters" class="chapters" aria-label="镜头章节"></nav>
+
+    <div class="view-options" aria-label="显示设置">
+      <label id="work-version-label" class="version-label" hidden>作品 <select id="work-version" aria-label="作品版本"><option value="cinema" id="cinema-option" hidden>多场景演唱版</option><option value="motion" id="motion-option" hidden>初版动态演唱</option><option value="song">静帧演唱版</option><option value="narration">旁白版</option></select></label>
+      <label class="version-label">字幕 <select id="subtitle-style" aria-label="字幕版本"><option value="expressive">多态版</option><option value="classic">初版</option></select></label>
+      <label class="version-label">配乐 <select id="soundtrack" aria-label="配乐版本"><option value="emotional">情绪版</option><option value="original">初版</option></select></label>
+      <label><input type="checkbox" id="show-words" checked><span>词块字幕</span></label>
+      <label><input type="checkbox" id="show-data" checked><span>预测面板</span></label>
+      <label><input type="checkbox" id="show-links" checked><span>关联弧线</span></label>
+      <span class="shortcut">空格 播放 / 暂停 <span>← → 跳转</span></span>
+    </div>
+
+    <section id="about" class="about" hidden>
+      <h2>把一句人话，呈现成机器里的文字。</h2>
+      <p id="about-intro">参考 DJ SHO 的词块字幕、技术界面与冷暖色调，使用原创中文故事和独立生成的场景。旁白与配乐同步，人物画面采用静帧运镜、点阵转场及代码合成。</p>
+      <dl>
+        <div><dt>真实数据</dt><dd>字幕编号来自 GPT-2 的字节级分词；预测面板为本片文本的实际 GPT-2 推理缓存。中文词组通常对应多个编号。</dd></div>
+        <div><dt>视觉表达</dt><dd id="about-timing">每次突出 3–4 个词块，连线包含链式、回指、分叉、断续和回应。箭头与粒子位置为视觉编排，词块时间按字数编辑，未表示真实注意力数值。</dd></div>
+        <div><dt>声音与画面</dt><dd id="about-sound">中文合成旁白、78 BPM 原创立体声配乐：试探、压抑、抬升、释然四段；问句处音乐退下，回答后和声展开。三张 imagegen 静帧运镜；当前仍为旁白器乐短片。</dd></div>
+      </dl>
+      <div class="source-links"><a href="https://x.com/DJ_SHO974/status/2108569544151146742" target="_blank" rel="noopener">参考原片 ↗</a><a id="model-download" href="./assets/model-data.json" download>下载推理数据 ↓</a><a id="timeline-download" href="./assets/timeline.json" download>下载字幕时间线 ↓</a></div>
+    </section>
+    <section id="capabilities" class="research research-summary" aria-labelledby="capabilities-title">
+      <div class="research-heading"><div><p class="eyebrow">能力 / 模块 / 原理 / 价值 / 扩展 · 2026.10.12 整理</p><h2 id="capabilities-title">我们形成了什么，又依赖什么？</h2><p>网页与同步合成工程已经可用；人物演唱的质量仍由实际生成素材决定。下面把参考作品、已实现结果、解释判断和未来建议分开讲清。</p></div></div>
+      <div id="summary-cards" class="summary-grid"></div>
+      <section id="module-map" class="research-section" aria-labelledby="module-map-title"><div class="section-heading"><div><p class="eyebrow">输入到输出</p><h3 id="module-map-title">八个模块如何衔接</h3></div></div><div class="table-scroll"><table><thead><tr><th scope="col">模块</th><th scope="col">输入</th><th scope="col">输出</th><th scope="col">实现与边界</th></tr></thead><tbody id="summary-module-rows"></tbody></table></div><p class="research-note">音乐模型负责声音，人物／口型模型负责表演，代码负责同步和视觉编排。GPT-2 不生成这首歌，也不会修正人物嘴形。原歌是本片的唯一时钟。</p></section>
+      <section id="extension-values" class="research-section" aria-labelledby="extension-values-title"><div class="section-heading"><div><p class="eyebrow">复用价值与扩展条件</p><h3 id="extension-values-title">可从这里延伸的四种方向</h3></div><span class="small-label">新增路线尚未实施</span></div><div id="summary-extensions" class="summary-grid"></div></section>
+    </section>
+    <section id="research" class="research" aria-labelledby="research-title">
+      <div class="research-heading"><div><p class="eyebrow">从参考作品到中文实验 / 2026.10.10</p><h2 id="research-title">看过效果，再判断这条路。</h2><p>我们做成了歌曲和文字视觉，也遇到了人物演唱的边界。这里保留理解的变化、实际样片与验收结论。</p></div><a class="research-link" href="./scene-plan.html">查看多场景分镜 ↗<small>含待生成标记</small></a></div>
+      <div class="research-status"><span class="status-dot"></span><p><strong>当前播放器是初版 HeyGen 演唱。</strong> 全部唱词已有对应人物视频，但演唱主要在同一雨夜场景。新增机房、海岸的完整多场景版尚未通过；下面三条测试仅供复核。</p></div>
+      <nav class="research-nav" aria-label="研究内容"><a href="#reference">01 参考原片</a><a href="#understanding">02 我们的理解</a><a href="#process">03 制作过程</a><a href="#experiments">04 真实测试</a><a href="#conclusion">05 最终结论</a></nav>
+
+      <section id="reference" class="research-section" aria-labelledby="reference-title">
+        <div class="section-heading"><span class="section-number">01</span><div><p class="eyebrow">先看原作</p><h3 id="reference-title">Somewhere in the weights</h3></div><span id="reference-status" class="small-label" role="status">正在检查原片…</span></div>
+        <div class="reference-layout"><div class="reference-media"><video id="reference-video" class="review-video" controls playsinline preload="metadata" poster="./assets/reference/poster.jpg" aria-label="DJ SHO 参考原片，4 分 36 秒"></video><p id="reference-media-error" class="media-error" role="status" hidden>当前无法加载视频，可以前往作者原帖观看。</p><div id="reference-markers" class="watch-markers" aria-label="原片观看重点"></div><p class="media-credit">DJ SHO · @DJ_SHO974 · 4:36 · <a href="https://x.com/DJ_SHO974/status/2108569544151146742" target="_blank" rel="noopener">作者原帖 ↗</a> <a id="reference-download" href="./assets/reference/dj-sho-slopcore.mp4" download hidden>下载参考副本 ↓</a></p></div><div class="reference-notes"><h4>值得参考的是组合方式。</h4><p>词块、编号、预测面板、权重般的点阵与人物镜头共同构成一支音乐短片。可见唱词从“回答、预测”走向“我在这里”，把机器回应写成一种关于存在感的虚构表达。</p><dl class="reference-points"><div><dt>字幕成为画面的一部分</dt><dd>少量大词块、跨词弧线、橙色自我指代与独立预测词交替出现。它既帮助读词，也参与节奏和叙事。</dd></div><div><dt>技术界面与人物互相映照</dt><dd>机房里的冷光、近景的眼神、海岸的暖色，与编号、概率和遮蔽界面形成情绪张力。</dd></div><div><dt>情绪通过段落和景别展开</dt><dd>近景、全身、拥挤人群和空旷海岸轮换；“回应”被留给最后的大字和长镜头。</dd></div></dl><details><summary>原片数据与来源的边界</summary><p>作者在原帖列出 Claude Opus 5.5、Higgsfield 上的 Wan 3.0、Suno V6、Blender，并称使用真实 GPT-2 权重接收歌词。这是作者的制作说明；我们没有其源码或完整计算记录，无法独立核验每条弧线、面板数值和画面粒子的映射。</p><p>参考副本保留完整画面与声音，仅作为本地研究对照。未发现公开的开源许可证；作者作品不属于我们的原创素材。</p></details></div></div>
+      </section>
+
+      <section id="understanding" class="research-section" aria-labelledby="understanding-title">
+        <div class="section-heading"><span class="section-number">02</span><div><p class="eyebrow">理解与价值</p><h3 id="understanding-title">文字有数据，情绪靠编排。</h3></div></div>
+        <div class="understanding-grid"><article><span class="small-label">字幕 / 箭头</span><h4>把抽象的预测变成可感受的过程</h4><p>编号让文字显露出机器处理的痕迹；词块强调、回指、断续与回应让观众感到停顿、犹豫和等待。箭头的形态和出现时机，比“每个词都连一根线”更有表达力。</p></article><article><span class="small-label">音乐 / 叙事</span><h4>《我还在这里》唱的是等待被听见</h4><p>以一个回答者的虚构独白，把“整理答案”与“想得到回应”放在一起。主歌克制，副歌反复确认存在，结尾轻声问答。它是中文原创歌曲，不是 GPT-2 把数据自动唱成故事。</p></article><article><span class="small-label">画面 / 风格</span><h4>冷暖、景别和留白服务同一条情绪线</h4><p>冷色机房对应秩序与距离，雨夜近景对应压抑和倾诉，暖色海岸对应回应与释然。镜头切换应跟随唱词和段落，人物的表情、动作也要支持这条情绪线。</p></article></div>
+        <div class="data-boundary"><h4>我们的版本：哪些是真的，哪些是视觉表达？</h4><div class="table-scroll"><table><thead><tr><th scope="col">画面元素</th><th scope="col">实际来源</th><th scope="col">能说明什么</th></tr></thead><tbody><tr><th scope="row">字幕 Token ID</th><td>实际 GPT-2 字节级分词</td><td>中文词组通常有多个 ID；ID 是词表索引，不是模型权重。</td></tr><tr><th scope="row">下一片段概率 / Top 3</th><td>歌词连续上下文的真实前向推理缓存</td><td>模型根据前文预测后续片段；没有随机填写概率。</td></tr><tr><th scope="row">箭头、点阵与空间位置</th><td>七种连线状态和代码视觉编排</td><td>表达文字关系与情绪；没有展示真实注意力或权重空间。</td></tr><tr><th scope="row">字幕与音乐重音</th><td>ASR 近似边界、部分插值；实测拍点、起音、混音 RMS</td><td>驱动画面节奏，存在字词时间误差；不是独立人声重音或精确音素对齐。</td></tr><tr><th scope="row">歌曲 / 人物演唱</th><td>MiniMax 原歌、HeyGen 在线表演视频</td><td>音乐与视频是独立素材；GPT-2 不负责写故事、唱歌或生成嘴形。</td></tr></tbody></table></div></div>
+        <p class="research-note">创作价值：把“回答之间的停顿”转化成音乐和画面，让人感到被忽略、等待与回应。作品里的自我表达属于虚构叙事，不能用来证明模型具有意识。</p>
+      </section>
+
+      <section id="process" class="research-section" aria-labelledby="process-title">
+        <div class="section-heading"><span class="section-number">03</span><div><p class="eyebrow">制作与迭代</p><h3 id="process-title">从能讲述，到试着真正演唱。</h3></div></div>
+        <div class="research-stats"><div><strong>135.59<span>s</span></strong><small>最终中文歌曲</small></div><div><strong>27<span>行</span></strong><small>实际唱词</small></div><div><strong>3<span>条</span></strong><small>新场景测试，全部未通过</small></div><div><strong>320<span>钻石</span></strong><small>三轮测试实际扣费</small></div></div>
+        <ol class="process-list"><li><span class="step-index">01</span><div><h4>旁白基线 <span>已完成 · 62 秒</span></h4><p>原创中文独白、静帧场景、真实 GPT-2 分词与预测。先验证词块和技术界面能否承载中文叙事。</p></div><a href="?version=narration">看旁白版 ↗</a></li><li><span class="step-index">02</span><div><h4>箭头与情绪编排 <span>已完成</span></h4><p>根据“箭头太单一”的反馈，增加链式、回指、分叉、断续、桥接、问句、回应七种状态。配乐加入试探、压抑、抬升、释然四段。</p></div></li><li><span class="step-index">03</span><div><h4>在线生成完整中文歌 <span>已完成 · MiniMax Music-3.0</span></h4><p>《我还在这里》由叙述变成真正演唱。分析最终音轨后，让字幕、弧线和 19 个镜头随实际歌声与节奏变化；自动 BPM 估值约 112.35，不把提示词设定当作实测结果。</p></div><a href="?version=song">看静帧演唱 ↗</a></li><li><span class="step-index">04</span><div><h4>接入线上人物表演 <span>初版完成 · HeyGen</span></h4><p>三条真实视频映射为八段，114.70 秒表演覆盖全部唱词。原曲是唯一音轨，保留水印；表演主要来自同一张雨夜角色图，场景单调和口型质量仍有限。</p></div><a href="?version=motion">看动态初版 ↗</a></li><li><span class="step-index">05</span><div><h4>扩展机房、雨夜、海岸 <span>分镜完成 · 新表演未通过</span></h4><p>21 镜头分镜已准备，机房与海岸仍为静帧占位并标注待生成。Higgsfield 人物功能要求付费订阅；HeyGen 新场景草稿遇到免费次数用尽。随后用 ChatArt 进行下面三轮约 10 秒测试。</p></div><a href="./scene-plan.html">看分镜预览 ↗</a></li></ol>
+        <details class="lyrics-detail"><summary>展开实际演唱歌词（含结尾重复）</summary><div id="research-lyrics" class="lyrics-list">正在读取唱词…</div></details>
+      </section>
+
+      <section id="experiments" class="research-section" aria-labelledby="experiments-title">
+        <div class="section-heading"><span class="section-number">04</span><div><p class="eyebrow">看真实结果</p><h3 id="experiments-title">同一段原唱，三次不同的失败。</h3></div><span class="verdict rejected">0 / 3 通过</span></div>
+        <p class="section-intro">均以机房角色图和原歌开头约 10 秒为输入。下面播放的是平台实际输出，包含各自返回的声音，方便判断保留原歌与嘴形的区别；它们没有接入上方成片。</p>
+        <div class="original-audio-test"><div><strong>原始中文演唱：开头 0–10.3 秒</strong><small>第二句约在 7.54 秒结束，之后有较长的无人声间隔。字幕时间是近似边界。</small></div><audio id="test-original-audio" controls preload="metadata" src="./assets/experiments/opening-original.mp3" aria-label="三轮测试的原始中文演唱输入"></audio></div>
+        <div id="experiment-cards" class="experiment-grid"></div>
+        <p class="research-note">波形相关性用于检查原录音与时间尺度是否保留，数值不是“口型准确率”。固定的整体偏移可以剪辑校正；每个字嘴形不对、无人声处仍然开合，不能靠整体平移修好。</p>
+      </section>
+
+      <section id="conclusion" class="research-section conclusion" aria-labelledby="conclusion-title">
+        <div class="section-heading"><span class="section-number">05</span><div><p class="eyebrow">本轮结论</p><h3 id="conclusion-title">创作方向有价值，人物演唱尚不可靠。</h3></div></div>
+        <div class="conclusion-grid"><article><h4>可以继续使用的部分</h4><p>中文歌曲、词块字幕、真实编号与预测展示、音乐驱动的弧线和镜头，已经形成可运行的表达方式。它们能服务原创音乐短片、技术艺术与情绪叙事。</p></article><article><h4>当前最大的瓶颈</h4><p>是生成出来的人物表演素材。字幕播放器能按时间播放视频，却不能把错误嘴形变成正确演唱。三轮测试分别改善了连续性或原音保留，仍未获得同时可信的角色、中文嘴形和情绪。</p></article><article><h4>我们需要修正的判断</h4><p>之前高估了换平台、换模型标签和补长提示词的作用。“理解要求”不等于“逐字控制得住”。平台内部流程不可见，不能把失败简单归因于中文、模型不聪明或某个具体算法。</p></article></div>
+        <div class="decision-box"><span class="verdict rejected">完整多场景版：尚未通过</span><p>保留现有初版与分镜。三条新样片均拒绝接入，未批量生成剩余镜头。继续用同一种“照片＋整首混音歌曲”方式盲试，没有足够依据。</p></div>
+        <div class="next-route"><div><span class="small-label">后续路线 · 尚未测试</span><h4>让口型处理成为独立步骤</h4><p>可尝试在线分离同一原歌的人声，用稳定的人物视频做独立口型处理，最后回接原始完整歌曲。人声分离仅用于驱动，最终声音仍保留原演唱；每次先复核 10 秒，再决定是否扩展。</p><p class="research-note">这是待验证方案，不保证成功。Sync 官方文档说明音乐可能干扰口型驱动、歌唱建议使用分离人声；这只支持输入处理建议，不能解释 ChatArt 内部的失败原因。<a href="https://sync.so/docs/models/lipsync" target="_blank" rel="noopener">模型说明 ↗</a> · <a href="https://sync.so/docs/compatibility-and-tips/media-content-tips" target="_blank" rel="noopener">素材建议 ↗</a></p></div><ol class="route-steps"><li>原歌分离人声 <span>线上</span></li><li>稳定人物视频 <span>保持身份与场景</span></li><li>独立口型处理 <span>逐句检查起止和长音</span></li><li>回接原始完整歌曲 <span>验收后再扩展场景</span></li></ol></div>
+        <details class="quality-detail"><summary>下一次测试的验收门槛</summary><ul><li>原演唱保留，不改调、不变速；音频相关性只是其中一项检查。</li><li>人物、服装、构图连续；没有非预期换脸和突切。</li><li>有声处跟随发音起止、长音和闭口，无人声处嘴形自然停下。</li><li>头部、眼神、身体动作支持歌词情绪，不能仅有机械嘴部开合。</li><li>先逐句观看 10 秒测试，通过后再生成主歌、连接镜头和结尾。</li></ul><p>如果继续创作，也可用少量已核验的正面演唱，穿插侧身、环境和文字镜头组织情绪。此剪辑方向尚未实施。</p></details>
+      </section>
+      <div class="research-sources"><span>可复核的记录</span><a href="./assets/research/experiment-log.json" download>测试与来源清单 ↓</a><a href="./assets/research/reference-source.json" download>原片来源记录 ↓</a><a href="./assets/song-timeline.json" download>唱词时间线 ↓</a><a href="./assets/song-model-data.json" download>真实 GPT-2 数据 ↓</a><a href="#stage">回到作品 ↑</a></div>
+    </section>
+    <footer><span>字间 · 原创中文视觉实验 / 参考作品署名 DJ SHO</span><span>FICTION / EXPRESSION / COMPUTATION</span></footer>
+    <p id="error" role="alert" hidden></p>
+  </main>
+  <audio id="audio" preload="auto" src="./assets/story-emotional.mp3"></audio>
+  <script type="module" src="./app.js"></script>
+  <script type="module" src="./research.js"></script>
+  <script type="module" src="./overview.js"></script>
+  <script type="module" src="./summary.js"></script>
+</body>
+</html>

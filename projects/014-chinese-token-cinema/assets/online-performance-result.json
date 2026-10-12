@@ -1,0 +1,155 @@
+{
+  "status": "complete_vocal_coverage",
+  "date": "2026-10-10",
+  "duration": 135.59,
+  "songSha256": "580d151da7dac601330b0ce75347c19c947f9cf589a49ddf926a2795a83d57b2",
+  "performanceDuration": 114.7,
+  "note": "Original full song is the master clock. Online videos are muted, never looped or stretched. Instrumental gaps use original scene art. Audio lag correction is not a phoneme-to-mouth accuracy measurement.",
+  "sources": [
+    {
+      "id": "pilot",
+      "provider": "HeyGen",
+      "url": "https://app.heygen.com/videos/e53dd97ebaff43fdbfffbf353defdb00",
+      "engineShownInUI": "Avatar V",
+      "watermark": true,
+      "customMotionPromptApplied": false,
+      "customMotionNote": "Custom prompt triggered a paid upsell and was not applied.",
+      "voiceMirroring": false,
+      "inputAudio": "pilot-12s.wav",
+      "inputAudioSha256": "d4b96832af012985a55fbadb6a64b25624fde2e6fcde6ab14b7d1cff0e8db051",
+      "inputPhoto": "chorus.png",
+      "inputPhotoSha256": "60decd7f69f719b40f85d5a6729ad227cbbf3e20163f4cfb66c6e6c873c90a75",
+      "file": "motion/heygen-pilot.mp4",
+      "sha256": "280faab1ab675b37217b98f9b86cdfdcb0f141a330a9c89b55cc8ab418e0d571",
+      "width": 1280,
+      "height": 720,
+      "fps": "25/1",
+      "videoDuration": 12.04,
+      "terminalFrameHoldSeconds": 0.043,
+      "audioVerification": {
+        "method": "8000 Hz mono waveform cross-correlation, +/- 1 second search",
+        "inputDuration": 12.06,
+        "resultAudioDuration": 12.07475,
+        "resultAudioLagSeconds": 0.023,
+        "waveformCorrelation": 0.9930493267422648,
+        "note": "Checks retained song and timing; does not measure phoneme-to-mouth accuracy."
+      }
+    },
+    {
+      "id": "batch-a",
+      "provider": "HeyGen",
+      "url": "https://app.heygen.com/videos/a-068eae4d12984e0cbf28ea600be688b7",
+      "engineShownInUI": "Avatar V",
+      "watermark": true,
+      "customMotionPromptApplied": false,
+      "customMotionNote": "Custom prompt triggered a paid upsell and was not applied.",
+      "voiceMirroring": false,
+      "inputAudio": "batch-a.wav",
+      "inputAudioSha256": "ac8ace15e6b46dcfc9d948d4f9be07050eb50fce6379200aec500f14d6ce2e5d",
+      "inputPhoto": "chorus.png",
+      "inputPhotoSha256": "60decd7f69f719b40f85d5a6729ad227cbbf3e20163f4cfb66c6e6c873c90a75",
+      "file": "motion/heygen-batch-a.mp4",
+      "sha256": "9bdfc0a658e17f8f99d34c399b061bcb3657dbb3db67617c84bf2234a0c6549d",
+      "width": 1280,
+      "height": 720,
+      "fps": "25/1",
+      "videoDuration": 56.0,
+      "terminalFrameHoldSeconds": 0.063,
+      "audioVerification": {
+        "method": "8000 Hz mono waveform cross-correlation, +/- 1 second search",
+        "inputDuration": 56.04,
+        "resultAudioDuration": 56.04275,
+        "resultAudioLagSeconds": 0.023,
+        "waveformCorrelation": 0.9962390376681445,
+        "note": "Checks retained song and timing; does not measure phoneme-to-mouth accuracy."
+      }
+    },
+    {
+      "id": "batch-b",
+      "provider": "HeyGen",
+      "url": "https://app.heygen.com/videos/b-15eb802542dc43668d16cd7019ae73e3",
+      "engineShownInUI": "Avatar V",
+      "watermark": true,
+      "customMotionPromptApplied": false,
+      "customMotionNote": "Custom prompt triggered a paid upsell and was not applied.",
+      "voiceMirroring": false,
+      "inputAudio": "batch-b.wav",
+      "inputAudioSha256": "803ceb8af2d3f55ba55c91ca0a3532a65ac2c0e63608c8f6840d56b55226932c",
+      "inputPhoto": "chorus.png",
+      "inputPhotoSha256": "60decd7f69f719b40f85d5a6729ad227cbbf3e20163f4cfb66c6e6c873c90a75",
+      "file": "motion/heygen-batch-b.mp4",
+      "sha256": "92d0d6b79d322d27519ae38bfb613487fd60437e58978846c43b105de35748de",
+      "width": 1280,
+      "height": 720,
+      "fps": "25/1",
+      "videoDuration": 46.56,
+      "terminalFrameHoldSeconds": 0.063,
+      "audioVerification": {
+        "method": "8000 Hz mono waveform cross-correlation, +/- 1 second search",
+        "inputDuration": 46.6,
+        "resultAudioDuration": 46.613375,
+        "resultAudioLagSeconds": 0.023,
+        "waveformCorrelation": 0.9957624200445886,
+        "note": "Checks retained song and timing; does not measure phoneme-to-mouth accuracy."
+      }
+    }
+  ],
+  "clips": [
+    {
+      "start": 0,
+      "end": 8,
+      "offset": 0.023,
+      "src": "./assets/motion/heygen-batch-a.mp4",
+      "source": "batch-a"
+    },
+    {
+      "start": 10.3,
+      "end": 25.6,
+      "offset": 8.023,
+      "src": "./assets/motion/heygen-batch-a.mp4",
+      "source": "batch-a"
+    },
+    {
+      "start": 26.5,
+      "end": 35.6,
+      "offset": 23.323,
+      "src": "./assets/motion/heygen-batch-a.mp4",
+      "source": "batch-a"
+    },
+    {
+      "start": 39.5,
+      "end": 51.56,
+      "offset": 0.023,
+      "src": "./assets/motion/heygen-pilot.mp4",
+      "source": "pilot"
+    },
+    {
+      "start": 51.56,
+      "end": 75.2,
+      "offset": 32.423,
+      "src": "./assets/motion/heygen-batch-a.mp4",
+      "source": "batch-a"
+    },
+    {
+      "start": 76.2,
+      "end": 92.2,
+      "offset": 0.023,
+      "src": "./assets/motion/heygen-batch-b.mp4",
+      "source": "batch-b"
+    },
+    {
+      "start": 95.8,
+      "end": 113.2,
+      "offset": 16.023,
+      "src": "./assets/motion/heygen-batch-b.mp4",
+      "source": "batch-b"
+    },
+    {
+      "start": 115.8,
+      "end": 129,
+      "offset": 33.423,
+      "src": "./assets/motion/heygen-batch-b.mp4",
+      "source": "batch-b"
+    }
+  ]
+}

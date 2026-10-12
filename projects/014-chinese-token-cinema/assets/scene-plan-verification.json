@@ -1,0 +1,58 @@
+{
+  "status": "storyboard_verified_not_new_video",
+  "frames": [
+    {
+      "id": "verse",
+      "time": 1,
+      "state": {
+        "cue": 0,
+        "chapter": 0,
+        "time": 1,
+        "subtitleMode": "chain",
+        "audioEnergy": 0.20047999918460846,
+        "beatPulse": 0,
+        "shot": 0,
+        "performanceFrame": false,
+        "label": "机房主歌 · 静帧分镜 / 口型待生成"
+      }
+    },
+    {
+      "id": "chorus",
+      "time": 42,
+      "state": {
+        "cue": 8,
+        "chapter": 2,
+        "time": 42,
+        "subtitleMode": "fan",
+        "audioEnergy": 0.6226800084114075,
+        "beatPulse": 0.014422006641153702,
+        "shot": 7,
+        "performanceFrame": true,
+        "label": "雨夜演唱 · 已生成口型"
+      }
+    },
+    {
+      "id": "ending",
+      "time": 124,
+      "state": {
+        "cue": 25,
+        "chapter": 3,
+        "time": 124,
+        "subtitleMode": "answer",
+        "audioEnergy": 0.4320400059223175,
+        "beatPulse": 0.030167201132557397,
+        "shot": 19,
+        "performanceFrame": false,
+        "label": "海岸结尾 · 静帧分镜 / 口型待生成"
+      }
+    }
+  ],
+  "playback": {
+    "paused": false,
+    "time": 1.557215,
+    "duration": 135.601633
+  },
+  "mobileOverflow": false,
+  "errors": [],
+  "date": "2026-10-10T05:53:07.297Z"
+}

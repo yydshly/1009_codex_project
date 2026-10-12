@@ -1,0 +1,69 @@
+{
+  "status": "prepared_inputs",
+  "date": "2026-10-10",
+  "provider": "ChatArt",
+  "modelShownInUI": "Art MV 8",
+  "mode": "演唱",
+  "style": "Performance 演唱",
+  "page": "https://app.chatartpro.com/ai-music/ai-music-video",
+  "originalSongSha256": "580d151da7dac601330b0ce75347c19c947f9cf589a49ddf926a2795a83d57b2",
+  "jobs": [
+    {
+      "id": "opening-10s",
+      "photo": "server.png",
+      "photoSha256": "82929259a34fa3f525989672fe6b3b6e4a4764d2194ab511762e502734ac8c77",
+      "coreDuration": 10.3,
+      "paddingSilenceSeconds": 0,
+      "inputDuration": 10.3,
+      "audioFile": "opening-10s.mp3",
+      "audioSha256": "548624c1a546404e2cc77e47f0b2316c3bbf5b721737a98f3a02d5e6aae0393f",
+      "mapping": [
+        {
+          "start": 0,
+          "end": 10.3,
+          "offset": 0
+        }
+      ]
+    },
+    {
+      "id": "verse-rest",
+      "photo": "server.png",
+      "photoSha256": "82929259a34fa3f525989672fe6b3b6e4a4764d2194ab511762e502734ac8c77",
+      "coreDuration": 31.3,
+      "paddingSilenceSeconds": 0.7,
+      "inputDuration": 32.0,
+      "audioFile": "verse-rest-chatart.mp3",
+      "audioSha256": "d8d7426dc3702c7f74ef99a7721a4a7ddca8880b645b533a10c213ee564a5260",
+      "mapping": [
+        {
+          "start": 10.3,
+          "end": 25.6,
+          "offset": 0
+        },
+        {
+          "start": 76.2,
+          "end": 92.2,
+          "offset": 15.3
+        }
+      ]
+    },
+    {
+      "id": "ending-shore",
+      "photo": "answer.png",
+      "photoSha256": "3c0f752f6d9a1914ef867e1d67eee0416d9c4507874aea6fb219872a1ccfe900",
+      "coreDuration": 13.2,
+      "paddingSilenceSeconds": 0.8,
+      "inputDuration": 14.0,
+      "audioFile": "ending-shore-chatart.mp3",
+      "audioSha256": "bfa0b3afd390217777d23be93e0732589d8b7c35b834e38c0e80438bf6f9484a",
+      "mapping": [
+        {
+          "start": 115.8,
+          "end": 129,
+          "offset": 0
+        }
+      ]
+    }
+  ],
+  "note": "Platform accepts MP3 and requires at least 10 seconds. Tail silence pads two jobs to whole seconds; no lyric, tempo or pitch change. Inputs are not generation results."
+}

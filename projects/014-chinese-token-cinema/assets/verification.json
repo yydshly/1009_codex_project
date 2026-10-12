@@ -1,0 +1,134 @@
+{
+  "playback": {
+    "paused": false,
+    "time": 0.723168,
+    "duration": 62
+  },
+  "chapter": {
+    "time": 46.029999,
+    "active": "回应"
+  },
+  "classic": {
+    "cue": 1,
+    "chapter": 0,
+    "time": 11,
+    "subtitleMode": "classic",
+    "audioEnergy": 0.10112,
+    "beatPulse": 0,
+    "shot": null
+  },
+  "modes": [
+    {
+      "cue": 0,
+      "chapter": 0,
+      "time": 5,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.08624,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 1,
+      "chapter": 0,
+      "time": 11,
+      "subtitleMode": "back",
+      "audioEnergy": 0.10112,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 2,
+      "chapter": 0,
+      "time": 16,
+      "subtitleMode": "chain",
+      "audioEnergy": 0.30484,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 3,
+      "chapter": 1,
+      "time": 23,
+      "subtitleMode": "back",
+      "audioEnergy": 0.17428,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 4,
+      "chapter": 1,
+      "time": 27,
+      "subtitleMode": "broken",
+      "audioEnergy": 0.08592,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 5,
+      "chapter": 1,
+      "time": 30,
+      "subtitleMode": "broken",
+      "audioEnergy": 0.09108,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 6,
+      "chapter": 2,
+      "time": 34,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.52292,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 7,
+      "chapter": 2,
+      "time": 39,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.36464,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 8,
+      "chapter": 2,
+      "time": 44,
+      "subtitleMode": "fan",
+      "audioEnergy": 0.47384,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 9,
+      "chapter": 3,
+      "time": 49,
+      "subtitleMode": "bridge",
+      "audioEnergy": 0.391,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 10,
+      "chapter": 3,
+      "time": 54,
+      "subtitleMode": "question",
+      "audioEnergy": 0.25696,
+      "beatPulse": 0,
+      "shot": null
+    },
+    {
+      "cue": 11,
+      "chapter": 3,
+      "time": 57,
+      "subtitleMode": "answer",
+      "audioEnergy": 0.2196,
+      "beatPulse": 0,
+      "shot": null
+    }
+  ],
+  "musicSwitch": true,
+  "mobileOverflow": false,
+  "errors": [],
+  "date": "2026-10-10T03:54:55.070Z"
+}

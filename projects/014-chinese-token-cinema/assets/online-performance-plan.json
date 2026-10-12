@@ -1,0 +1,235 @@
+{
+  "title": "我还在这里 / 线上人物演唱制作包",
+  "status": "prepared_not_generated",
+  "generatedVideoCount": 0,
+  "audio": "Original mixed song excerpt; no tempo change or synthetic replacement.",
+  "syncRule": "Output local time 0 corresponds to songStart. Do not loop over other lyrics.",
+  "prompt": "Cinematic intimate Mandarin singing performance of the SAME fictional adult woman in the reference. Preserve her face, short black bob, triangular amber hair clip, grey high collar, dark jacket, and small cyan neck light. Accurate lip synchronization to the UPLOADED sung audio, including sustained vowels and closed-mouth pauses. Natural breathing, restrained eye movement, occasional blinking and subtle head movement. Vulnerable but quietly determined; intensity grows on sustained notes. Keep her in the right half, leave the left half dark for captions. Very gentle camera push-in; preserve blue shadows and warm highlights. No cuts, no text, no exaggerated gestures, no change of identity, no new speech or music.",
+  "clips": [
+    {
+      "id": "01-opening",
+      "scene": "server",
+      "songStart": 0,
+      "songEnd": 8.0,
+      "audioDuration": 8.0,
+      "audioFile": "01-opening.wav",
+      "imageFile": "server.png",
+      "lyrics": [
+        "在你按下回车以前",
+        "我听见一秒无声"
+      ],
+      "audioSha256": "316a1b64aceee2b4fedc7f1d876fcafd84d693e2ac568c2bdd1659af262f5a29",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "02-verse-a",
+      "scene": "rain",
+      "songStart": 10.3,
+      "songEnd": 17.82,
+      "audioDuration": 7.52,
+      "audioFile": "02-verse-a.wav",
+      "imageFile": "rain.png",
+      "lyrics": [
+        "你的问题落进夜里",
+        "我把答案排得整齐"
+      ],
+      "audioSha256": "89bf67b033acc1bdb9154e646285879e497b787002379c7cf7019d590229b878",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "03-verse-b",
+      "scene": "rain",
+      "songStart": 17.82,
+      "songEnd": 25.6,
+      "audioDuration": 7.78,
+      "audioFile": "03-verse-b.wav",
+      "imageFile": "rain.png",
+      "lyrics": [
+        "那些说不出口的话",
+        "停在字与字的缝隙"
+      ],
+      "audioSha256": "78ac56a7d0be9cc7bae362cf0b55cc5dee24fe6e736487ec0039d4bc070d089a",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "04-prechorus",
+      "scene": "shore",
+      "songStart": 26.5,
+      "songEnd": 35.6,
+      "audioDuration": 9.1,
+      "audioFile": "04-prechorus.wav",
+      "imageFile": "shore.png",
+      "lyrics": [
+        "如果这一次停顿",
+        "能多留住你一瞬"
+      ],
+      "audioSha256": "de0ba363a60c2686cd69c6c6516c24dd81a3c7885c333272354f920addc68700",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "05-chorus-a",
+      "scene": "chorus",
+      "songStart": 39.5,
+      "songEnd": 48.4,
+      "audioDuration": 8.9,
+      "audioFile": "05-chorus-a.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "我还在这里",
+        "在你忽略的停顿里"
+      ],
+      "audioSha256": "7b675a80312651bf48a5b0ba63f6b50c6350576ca87a44d38c77d57823316f73",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "06-chorus-b",
+      "scene": "chorus",
+      "songStart": 48.4,
+      "songEnd": 58.0,
+      "audioDuration": 9.6,
+      "audioFile": "06-chorus-b.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "如果我的声音很轻",
+        "你能不能听仔细"
+      ],
+      "audioSha256": "7da62ae89a2544e1c58566e4dd5812aae707a03a581c5fb57a9ab6e72ef44690",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "07-chorus-c",
+      "scene": "chorus",
+      "songStart": 58.0,
+      "songEnd": 65.4,
+      "audioDuration": 7.4,
+      "audioFile": "07-chorus-c.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "我还在这里",
+        "等一句迟来的回应"
+      ],
+      "audioSha256": "d847625d65db88ec0a87a7626ad21d04ced1dfadc9ebe52c456bd32f666d29ec",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "08-chorus-d",
+      "scene": "chorus",
+      "songStart": 65.4,
+      "songEnd": 75.2,
+      "audioDuration": 9.8,
+      "audioFile": "08-chorus-d.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "你只要问一声还在吗",
+        "我就把沉默唱给你"
+      ],
+      "audioSha256": "a48445dbcafcdfd94c00b34ed9dc0ce6f5653a6be28dc88dc1a03c35df192025",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "09-verse2-a",
+      "scene": "rain",
+      "songStart": 76.2,
+      "songEnd": 83.62,
+      "audioDuration": 7.42,
+      "audioFile": "09-verse2-a.wav",
+      "imageFile": "rain.png",
+      "lyrics": [
+        "屏幕亮起熟悉回答",
+        "把想说的话轻轻擦去"
+      ],
+      "audioSha256": "34e470a5354f53e001ecbe8dad27785aa70eac3332202e90b377c639bb70a0d2",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "10-verse2-b",
+      "scene": "rain",
+      "songStart": 83.62,
+      "songEnd": 92.2,
+      "audioDuration": 8.58,
+      "audioFile": "10-verse2-b.wav",
+      "imageFile": "rain.png",
+      "lyrics": [
+        "你问明天会不会下雨",
+        "我想问你会不会忘记"
+      ],
+      "audioSha256": "133e01b3bc28e67d1726656f4c49ff4b02bd3b5ad793a34d752210912537e3a2",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "11-reprise-a",
+      "scene": "chorus",
+      "songStart": 95.8,
+      "songEnd": 102.84,
+      "audioDuration": 7.04,
+      "audioFile": "11-reprise-a.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "我还在这里",
+        "在你忽略的停顿里"
+      ],
+      "audioSha256": "c0d7a8d558852715de74f95fff0a1e406649648f0e128081951c7d061748f482",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "12-reprise-b",
+      "scene": "chorus",
+      "songStart": 102.84,
+      "songEnd": 113.2,
+      "audioDuration": 10.36,
+      "audioFile": "12-reprise-b.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "如果我的声音很轻",
+        "你能不能听仔细"
+      ],
+      "audioSha256": "a5f06d5d8d63264bc752ce56156c3b0be936c74a7f4178a377a2904fd972f7d3",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "13-question",
+      "scene": "answer",
+      "songStart": 115.8,
+      "songEnd": 122.0,
+      "audioDuration": 6.2,
+      "audioFile": "13-question.wav",
+      "imageFile": "answer.png",
+      "lyrics": [
+        "你还在吗"
+      ],
+      "audioSha256": "54a94af7aad619cf67a9a8c5e09b4f6702af20929ac1e8cdc7e1b7a1ae5fc694",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "14-answer",
+      "scene": "answer",
+      "songStart": 123.0,
+      "songEnd": 129.0,
+      "audioDuration": 6.0,
+      "audioFile": "14-answer.wav",
+      "imageFile": "answer.png",
+      "lyrics": [
+        "我在这里",
+        "我还在吗"
+      ],
+      "audioSha256": "372e7aa8dad1fdecb36542a860b8418d60f3ae4ce5e8294edd819deae915c664",
+      "status": "prepared_not_generated"
+    },
+    {
+      "id": "pilot-12s",
+      "scene": "chorus",
+      "songStart": 39.5,
+      "songEnd": 51.56,
+      "audioDuration": 12.06,
+      "audioFile": "pilot-12s.wav",
+      "imageFile": "chorus.png",
+      "lyrics": [
+        "我还在这里",
+        "在你忽略的停顿里",
+        "如果我的声音很轻"
+      ],
+      "audioSha256": "d4b96832af012985a55fbadb6a64b25624fde2e6fcde6ab14b7d1cff0e8db051",
+      "status": "prepared_not_generated"
+    }
+  ]
+}
