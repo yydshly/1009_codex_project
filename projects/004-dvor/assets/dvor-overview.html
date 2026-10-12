@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dvor · 一张图读懂风格化世界</title>
+  <style>
+    :root{--paper:#f4efdf;--card:#fffdf5;--ink:#244338;--muted:#667569;--line:#ccd3c1;--olive:#90a85c;--teal:#5b8087;--warm:#b86d49;--light:#edf0e4}
+    *{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:"Microsoft YaHei","PingFang SC",sans-serif;font-size:24px;line-height:1.58;-webkit-font-smoothing:antialiased}main{width:1600px;padding:52px 58px 40px;margin:0 auto}h1,h2,h3,p,figure{margin:0}h1{font-size:70px;line-height:1.2;letter-spacing:-2px;font-weight:700}h1 span{font-size:94px;margin-right:20px}h2{font-size:34px;line-height:1.35;letter-spacing:-.5px}h3{font-size:25px;line-height:1.4}small{font-size:18px}strong{font-weight:700}.eyebrow{font-size:19px;letter-spacing:3px;margin-bottom:10px;color:var(--muted)}.header-top{display:flex;align-items:center;justify-content:space-between}.date{font-size:18px;border:1px solid var(--line);padding:8px 14px;border-radius:30px}.subtitle{margin-top:13px;font-size:25px;color:var(--muted);letter-spacing:2px}.definition{font-size:26px;margin-top:22px;max-width:1330px}.legend{display:flex;gap:24px;align-items:center;margin-top:19px;font-size:19px}.legend span{display:flex;gap:8px;align-items:center}.dot{width:12px;height:12px;background:var(--ink);border-radius:50%}.dot.orange{background:var(--warm)}.dot.future{border:2px dashed var(--teal);background:transparent;border-radius:3px;width:18px;height:14px}.reference{display:grid;grid-template-columns:1fr .9fr 1.5fr;gap:15px;margin-top:28px}.shot{background:var(--card);border:1px solid var(--line);border-radius:15px;overflow:hidden}.shot img{display:block;width:100%;height:270px;object-fit:cover}.shot.planet img{object-fit:cover}.shot.community img{object-position:left;object-fit:cover}.shot figcaption{padding:14px 17px;line-height:1.4}.shot figcaption b{font-size:23px}.shot figcaption span{display:block;font-size:18px;color:var(--muted);margin-top:4px}.reference-note{font-size:18px;color:var(--muted);margin-top:10px}.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:22px}.card{border:1px solid var(--line);background:var(--card);border-radius:17px;padding:25px 27px;position:relative}.section-head{display:flex;gap:16px;align-items:center;margin-bottom:18px}.num{font-family:Georgia,serif;font-size:37px;line-height:1;color:var(--olive);font-style:italic}.local .num{color:var(--warm)}.tag{font-size:17px;background:var(--light);padding:3px 10px;border-radius:20px;white-space:nowrap;margin-left:auto}.local .tag{background:#f7e7d7;color:#8f573b}.facts{display:grid;gap:9px}.fact{display:grid;grid-template-columns:120px 1fr;gap:14px;font-size:23px}.fact b{font-size:23px}.subline{font-size:20px;line-height:1.6;color:var(--muted);margin-top:15px}.note{border-top:1px solid var(--line);padding-top:13px;margin-top:16px;font-size:20px;color:var(--muted)}.effect-head{font-size:23px;line-height:1.5;margin-top:-2px}.samples{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:17px}.samples figure{border:1px solid var(--line);border-radius:9px;overflow:hidden;background:var(--light)}.samples img{width:100%;height:84px;object-fit:cover;display:block}.samples figcaption{font-size:17px;padding:4px 9px}.wide{margin-top:22px}.pipeline{display:flex;align-items:stretch;gap:9px;margin-top:17px}.stage{border:1px solid var(--line);background:var(--light);border-radius:10px;padding:15px 9px;text-align:center;flex:1;font-size:22px;line-height:1.45;display:flex;flex-direction:column;justify-content:center;min-width:0}.stage.scene{flex:1.25;background:#edf1de}.stage small{color:var(--muted);font-size:17px;line-height:1.45;margin-top:5px}.arrow{color:var(--warm);align-self:center;font-size:28px;line-height:1}.render-notes{display:grid;grid-template-columns:1fr 1fr 1fr;gap:26px;margin-top:20px}.render-note{font-size:22px;line-height:1.5}.render-note b{display:block;font-size:24px;margin-bottom:7px}.ramp{display:flex;gap:4px;margin-top:11px;height:24px}.ramp span{flex:1;border-radius:3px}.world-steps{display:grid;grid-template-columns:repeat(5,1fr);gap:13px}.world-step{border-top:3px solid var(--olive);padding-top:11px;position:relative}.world-step:not(:last-child):after{content:'→';position:absolute;right:-12px;top:9px;font-size:25px;color:var(--warm)}.world-step h3{font-size:24px;margin-bottom:8px}.world-step p{font-size:21px;color:var(--muted);line-height:1.5;padding-right:13px}.world-bottom{display:grid;grid-template-columns:1fr 455px;align-items:center;gap:24px;margin-top:17px}.world-bottom p{font-size:23px;line-height:1.6}.planet-diagram{width:455px;height:149px;background:var(--light);border-radius:10px}.route{display:flex;align-items:center;gap:9px;margin:15px 0 20px}.stop{font-size:22px;background:#f8ebdd;color:#8a573c;padding:9px 12px;border-radius:8px;flex:1;text-align:center;white-space:nowrap}.local-facts{display:grid;gap:11px;font-size:22px}.local-facts b{font-size:22px;color:#8e553a}.module{display:grid;grid-template-columns:220px 1fr;gap:15px;align-items:center;border-bottom:1px solid #e0e5d7;padding:6px 0;font-size:22px}.module:first-child{padding-top:0}.module:last-child{border:0}.module code{font-family:"Consolas",monospace;font-size:23px;font-weight:bold;color:var(--teal)}.future-card{border:2px dashed #a8b6a1}.future-columns{display:grid;grid-template-columns:.9fr 1.2fr;gap:35px}.future-columns h3{margin-bottom:9px}.future-columns p{font-size:23px;line-height:1.7}.future-columns p span{display:block}.future-list{border-left:1px solid var(--line);padding-left:30px}.prompt{border:2px solid #79926e}.prompt-intro{font-size:27px;font-weight:700;margin-top:-5px}.specs{display:flex;gap:10px;margin-top:16px}.spec{font-size:21px;background:var(--light);padding:7px 17px;border-radius:7px}.palette{display:flex;gap:21px;margin-top:17px;font-size:19px;align-items:center}.swatch{display:inline-block;width:27px;height:27px;border:1px solid #9aa18e;border-radius:5px;vertical-align:middle;margin-right:8px}.prompt-body{display:grid;grid-template-columns:1.22fr 1fr;gap:25px;margin-top:19px}.prompt-example{background:#eaf0df;border-radius:12px;padding:21px 23px;font-size:24px;line-height:1.75}.label{font-size:17px;color:var(--muted);letter-spacing:2px;margin-bottom:9px}.prompt-aside{font-size:22px;display:grid;gap:12px}.model-note{border-bottom:1px solid var(--line);padding-bottom:12px}.model-note b{display:block;font-size:24px;margin-bottom:5px}.revision{background:#f8ecdf;padding:13px 17px;border-radius:9px;font-size:22px}.prompt-flow{display:flex;gap:10px;align-items:center;margin-top:19px}.prompt-flow span:not(.arrow){padding:10px 12px;background:var(--light);font-size:22px;flex:1;text-align:center;border-radius:8px}.prompt-foot{display:grid;grid-template-columns:1.25fr 1fr;gap:25px;font-size:20px;color:var(--muted);margin-top:14px}.boundary{margin-top:24px;background:#e4e9db;border-radius:12px;padding:17px 22px;display:grid;grid-template-columns:95px 1fr;gap:16px;font-size:21px;line-height:1.65}.source{margin-top:20px;border-top:1px solid #bac5b2;padding-top:17px;display:grid;grid-template-columns:1fr auto;font-size:18px;line-height:1.7;color:var(--muted)}.source b{color:var(--ink);font-size:19px}.source-right{text-align:right}.source-url{font-family:Consolas,monospace;font-size:18px}.caption-tag{color:var(--warm);font-weight:700}
+  </style>
+</head>
+<body>
+<main id="poster">
+  <header>
+    <div class="header-top"><p class="eyebrow">004 / GITHUB 项目研究 · 知识全景图</p><span class="date">2026.10.09</span></div>
+    <h1><span>DVOR</span>一张图读懂风格化世界</h1>
+    <p class="subtitle">能力 · 渲染原理 · 世界搭建 · 效果复用 · 提示词控制</p>
+    <p class="definition">浏览器中的可漫游 3D 作品源码。模型与纹理由代码生成，<strong>布局、构图和叙事由作者设计。</strong></p>
+    <div class="legend"><span><i class="dot"></i>原作已实现</span><span><i class="dot orange"></i>我们已完成的扩展</span><span><i class="dot future"></i>可扩展方向建议</span></div>
+  </header>
+
+  <div class="reference">
+    <figure class="shot"><img src="../web/public/samples/01-arch.jpg" alt="上游原作的通道与庭院截图"><figcaption><b>原作｜通道与庭院</b><span>围合构图、生活纹理、冷影暖光</span></figcaption></figure>
+    <figure class="shot planet"><img src="../web/public/samples/06-planet.jpg" alt="上游原作的小行星截图"><figcaption><b>原作｜小行星远景</b><span>平面世界弯到球面，环线电车</span></figcaption></figure>
+    <figure class="shot community"><img src="preview.png" alt="本地社区扩展的真实截图"><figcaption><b class="caption-tag">我们的扩展｜社区导览</b><span>真实 WebGL 截图：地点、路线、书屋与休息区</span></figcaption></figure>
+  </div>
+  <p class="reference-note">原作描绘想象中的 2001 年后苏联庭院；本地“柳荫里”是虚构社区，用来演示实际访客任务。上方场景均为已有真实截图，按图稿等比例裁切。</p>
+
+  <div class="grid">
+    <section class="card" data-section="01">
+      <div class="section-head"><span class="num">01</span><h2>库的能力是什么？</h2><span class="tag">原作能力</span></div>
+      <div class="facts">
+        <p class="fact"><b>自由漫游</b><span>鼠标 + WASD，跑步、碰撞与台阶</span></p>
+        <p class="fact"><b>空间注释</b><span>按 E 读取预设翻译与文化背景</span></p>
+        <p class="fact"><b>环境互动</b><span>设施动画、杨絮、电车运行与停靠</span></p>
+        <p class="fact"><b>球面世界</b><span>近景行走与小行星远景</span></p>
+        <p class="fact"><b>风格管线</b><span>卡通明暗、描边、冷暖与空气透视</span></p>
+      </div>
+      <p class="note"><strong>提供可改造源码。</strong>当前是完整作品，不具备通用场景编辑器；轻量控制与完整游戏引擎的范围不同。</p>
+    </section>
+    <section class="card" data-section="02">
+      <div class="section-head"><span class="num">02</span><h2>能做出哪些效果？</h2></div>
+      <p class="effect-head"><strong>手绘动画背景观感：</strong>明确体块、大块明暗、冷影暖光、细轮廓、远景层次、生活纹理。</p>
+      <div class="samples">
+        <figure><img src="../web/public/samples/01-arch.jpg" alt="通道"><figcaption>通道构图</figcaption></figure>
+        <figure><img src="../web/public/samples/04-panel.jpg" alt="住宅"><figcaption>住宅立面</figcaption></figure>
+        <figure><img src="../web/public/samples/02-playground.jpg" alt="游乐设施"><figcaption>游乐设施</figcaption></figure>
+        <figure><img src="../web/public/samples/03-garages.jpg" alt="车库"><figcaption>车库生活</figcaption></figure>
+        <figure><img src="../web/public/samples/05-tram.jpg" alt="电车"><figcaption>环线电车</figcaption></figure>
+        <figure><img src="../web/public/samples/06-planet.jpg" alt="小行星"><figcaption>小行星</figcaption></figure>
+      </div>
+      <p class="subline">六张图均为上游截图。观感来自造型、配色、布局与渲染共同作用。</p>
+    </section>
+  </div>
+
+  <section class="card wide" data-section="03">
+    <div class="section-head"><span class="num">03</span><h2>风格怎样渲染？</h2><span class="tag">Three.js · WebGL</span></div>
+    <div class="pipeline">
+      <div class="stage">几何与<br>Canvas 纹理<small>形体 / 色彩 / 标识</small></div><span class="arrow">→</span>
+      <div class="stage scene">色带光照<br>阴影偏色 + 雾<small>场景材质阶段</small></div><span class="arrow">→</span>
+      <div class="stage">颜色 / 深度<br>纹理<small>离屏渲染</small></div><span class="arrow">→</span>
+      <div class="stage">深度描边<small>主要轮廓</small></div><span class="arrow">→</span>
+      <div class="stage">冷暖调色<small>sRGB 输出</small></div><span class="arrow">→</span>
+      <div class="stage">FXAA<small>抗锯齿</small></div><span class="arrow">→</span>
+      <div class="stage">屏幕<small>最终画面</small></div>
+    </div>
+    <div class="render-notes">
+      <div class="render-note"><b>色带：把光照压成明暗档位</b>MeshToonMaterial + DataTexture。不同法线方向形成整块明暗。<div class="ramp" aria-label="三档明暗示意"><span style="background:#5b8087"></span><span style="background:#9dac74"></span><span style="background:#ecd3ab"></span></div></div>
+      <div class="render-note"><b>描边：从深度变化提取轮廓</b>使用深度二阶差分，凹角较轻、远处减弱；重要物件另加背面外壳。</div>
+      <div class="render-note"><b>调色：建立冷影与暖光关系</b>控制饱和度、暖度、暗部抬升与暗角；负责 linear → sRGB 输出。</div>
+    </div>
+    <p class="subline">雾在场景阶段处理；色带与阴影偏色的 Shader 补丁依赖 Three.js 版本。造型与构图仍是最终风格的重要输入。</p>
+  </section>
+
+  <section class="card wide" data-section="04">
+    <div class="section-head"><span class="num">04</span><h2>世界怎样搭建？</h2><span class="tag">代码生成部件 · 作者编排世界</span></div>
+    <div class="world-steps">
+      <div class="world-step"><h3>① 基础积木</h3><p>盒体、圆柱、管道、曲线、贴图平面</p></div>
+      <div class="world-step"><h3>② 参数化部件</h3><p>窗户重复、树冠种子、Canvas2D 文字</p></div>
+      <div class="world-step"><h3>③ 人工布局</h3><p>物件坐标、初始镜头、地点叙事</p></div>
+      <div class="world-step"><h3>④ 运行数据</h3><p>碰撞体、高度面、热点、更新回调</p></div>
+      <div class="world-step"><h3>⑤ 球面投影</h3><p>平面 XZ 映射到球面，动画保留局部坐标</p></div>
+    </div>
+    <div class="world-bottom">
+      <div><p><strong>Batch</strong> 合并静态几何；<strong>InstancedMesh</strong> 复用树冠。核心世界不依赖预制 glTF。种子使局部差异可复现。</p><p class="subline">玩家碰撞与高度查询仍在平面 XZ；相机显示球面位置和方向。改布局时需同步碰撞、热点与镜头。</p></div>
+      <svg class="planet-diagram" viewBox="0 0 455 149" role="img" aria-label="平面逻辑坐标映射到球面显示示意">
+        <g fill="none" stroke="#789267" stroke-width="1.6"><path d="M30 83 99 48 168 83 99 117Z"/><path d="M53 72 122 106M76 60 145 94M53 94 122 60M76 106 145 72"/></g>
+        <path d="m222 65 20 10-20 10m-35-10h55" fill="none" stroke="#b86d49" stroke-width="3"/>
+        <circle cx="342" cy="70" r="45" fill="#90a85c" stroke="#5b8087" stroke-width="2"/><ellipse cx="342" cy="70" rx="45" ry="13" fill="none" stroke="#5b8087" stroke-width="2"/><path d="M313 54v-15h16v14m13-6V28h15v21m8 13V45h14v22" fill="#d9c39e" stroke="#5b8087" stroke-width="2"/>
+        <text x="22" y="137" fill="#244338" font-size="18">平面逻辑坐标</text><text x="281" y="137" fill="#244338" font-size="18">球面显示 · R = 150</text>
+      </svg>
+    </div>
+  </section>
+
+  <div class="grid">
+    <section class="card local" data-section="05">
+      <div class="section-head"><span class="num">05</span><h2>我们已完成的实际扩展</h2><span class="tag">本地验证</span></div>
+      <h3>“柳荫里社区开放日” · 第一次到访社区</h3>
+      <div class="route"><span class="stop">入口</span><span class="arrow">→</span><span class="stop">活动公告</span><span class="arrow">→</span><span class="stop">邻里书屋</span><span class="arrow">→</span><span class="stop">树荫休息</span></div>
+      <div class="local-facts">
+        <p><b>新建几何：</b>入口、书屋、公告板、步道、围栏与住宅。</p>
+        <p><b>真实交互：</b>四站导览、地点点击、镜头定位、中英说明、漫游与设施互动。</p>
+        <p><b>风格实验：</b>三套预设、2–5 档明暗、太阳高度、阴影色、描边、雾、杨絮。</p>
+        <p><b>参数复用：</b>浏览器保存 + JSON 导出；当前没有 JSON 导入按钮。</p>
+      </div>
+      <p class="note">社区名称、布局与活动为演示数据。现有场景复用了上游模块；风格参数保存不包含世界布局。</p>
+    </section>
+    <section class="card" data-section="06">
+      <div class="section-head"><span class="num">06</span><h2>可复用的是哪些模块？</h2></div>
+      <div class="modules">
+        <p class="module"><code>toon + palette</code><span>统一材质、色带与配色</span></p>
+        <p class="module"><code>Pipeline</code><span>深度描边、调色与抗锯齿</span></p>
+        <p class="module"><code>Batch + decal</code><span>参数化建模与标牌</span></p>
+        <p class="module"><code>planet</code><span>平面到球面的空间映射</span></p>
+        <p class="module"><code>nature</code><span>树木、灌木与杨絮</span></p>
+        <p class="module"><code>yard + player</code><span>设施动画、漫游与碰撞</span></p>
+        <p class="module"><strong>地点数据 + 注释</strong><span>导览镜头、多语言内容</span></p>
+      </div>
+      <p class="note">移植时同步碰撞、热点、相机、场景尺度与 Three.js 兼容；静态几何合并后修改部件通常需要重建批次。</p>
+    </section>
+  </div>
+
+  <section class="card wide future-card" data-section="07">
+    <div class="section-head"><span class="num">07</span><h2>使用场景与可扩展方向</h2><span class="tag">基于源码与实验的推导</span></div>
+    <div class="future-columns">
+      <div><h3>应用场景</h3><p><span>城市记忆与文化展览 · 社区 / 校园导览</span><span>语言学习与空间叙事 · 品牌体验与风格原型</span></p></div>
+      <div class="future-list"><h3>未来可扩展</h3><p><span>真实场地数据 / 内容编辑 / 多语言与语音 / 任务进度</span><span>glTF 导入 / 布局编辑 / 触屏与无障碍</span><span>LOD / 分区加载 / 性能分档</span></p></div>
+    </div>
+    <p class="subline">上述是产品方向建议，并非上游已有功能。真实导览需验证空间准确性、通行条件和内容维护机制。</p>
+  </section>
+
+  <section class="card wide prompt local" data-section="08">
+    <div class="section-head"><span class="num">08</span><h2>不参考原作，如何用提示词控制？</h2><span class="tag">独立创作方法</span></div>
+    <p class="prompt-intro">把审美要求写成可执行规格，再用实际截图校准。</p>
+    <div class="specs"><span class="spec">造型</span><span class="spec">构图</span><span class="spec">配色</span><span class="spec">明暗</span><span class="spec">灯光</span><span class="spec">描边</span><span class="spec">氛围</span></div>
+    <div class="palette">
+      <span><i class="swatch" style="background:#d9c39e"></i>建筑 #D9C39E</span><span><i class="swatch" style="background:#90a85c"></i>植被 #90A85C</span><span><i class="swatch" style="background:#5b8087"></i>阴影 #5B8087</span><span><i class="swatch" style="background:#ecd3ab"></i>天空 #ECD3AB</span><span><i class="swatch" style="background:#b86d49"></i>点缀 #B86D49</span>
+    </div>
+    <div class="prompt-body">
+      <div class="prompt-example"><div class="label">可直接使用的最小场景提示词</div>独立创建 Three.js 庭院：地面 + 一栋住宅 + 三棵树 + 长椅 + 公告板；三档明暗，太阳约 30°，冷青阴影，细轮廓，轻雾。用 styleConfig 集中参数并实时调节；固定镜头、布局和种子，提交实际浏览器截图。</div>
+      <div class="prompt-aside">
+        <div class="model-note"><b>交给编程模型</b>生成几何、渲染规则、参数面板与真实交互。</div>
+        <div class="model-note"><b>交给图像模型</b>生成艺术方向参考图；后续 3D 工程仍需实现。</div>
+        <div class="revision"><b>逐轮修正例</b><br>保留镜头和布局，只抬亮暗部并改成蓝绿色；输出同镜头对比。</div>
+      </div>
+    </div>
+    <div class="prompt-flow"><span>最小场景</span><span class="arrow">→</span><span>模型实现</span><span class="arrow">→</span><span>同镜头截图</span><span class="arrow">→</span><span>单项修正</span><span class="arrow">→</span><span>保存预设</span><span class="arrow">→</span><span>扩展世界</span></div>
+    <div class="prompt-foot"><p>网页已提供两类完整模板、编辑 / 复制 / TXT 下载，以及实验区当前参数带入。</p><p>提示词规定方向；描边、雾距离和暖度需按工程重新标定，实际结果以截图为准。</p></div>
+  </section>
+
+  <div class="boundary"><strong>能力边界</strong><p>轻量碰撞；桌面键鼠优先；翻译为预设内容；基线无完整物理、多人、任务系统与场景编辑器。需要 WebGL，尚无跨硬件性能保证。</p></div>
+  <footer class="source">
+    <div><b>依据：固定提交源码 + 本地实际运行验证 + 我们的研究记录</b><br><span class="source-url">github.com/amirmushichge/dvor</span> · 基线 30d6f6846709 · MIT<br>Dvor：Amir Mušić；部分基础改编自 Kenton Wang 的 Sakura Crossing。</div>
+    <div class="source-right">研究与本地扩展：004-dvor<br>图解以研究记录和网页实际运行结果为准<br>真实截图 + 可编辑排版 · 2026-10-09</div>
+  </footer>
+</main>
+</body>
+</html>

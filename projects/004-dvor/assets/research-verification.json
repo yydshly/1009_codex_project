@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:5195/",
+  "browser": "154.0.8037.99",
+  "guideSha256": "e9f77f75007f8e4c772cbc266b589d3f5d6fbd36383dc151a6fc3511adbe6bda",
+  "checks": [
+    {
+      "name": "原始引导图完整保留",
+      "status": "passed",
+      "evidence": "HTTP 图片 SHA-256 与原 PNG 完全一致；2400×6357，展示为 contain"
+    },
+    {
+      "name": "完整图阅读与下载",
+      "status": "passed",
+      "evidence": "模态阅读、原 PNG 下载、Esc 关闭与焦点返回均可操作"
+    },
+    {
+      "name": "研究内容与九个导航入口",
+      "status": "passed",
+      "evidence": "导读、能力、九组模块、原理、样例、实验、价值、提示词和扩展锚点全部可达"
+    },
+    {
+      "name": "事实与建议边界",
+      "status": "passed",
+      "evidence": "来源固定、雾位于场景阶段、编辑/LOD 为建议、价值与模型生成质量边界清楚"
+    },
+    {
+      "name": "响应式完整阅读",
+      "status": "passed",
+      "evidence": "1024/768/390/320px 无页面横向溢出；模块表与公式在自身区域滚动"
+    }
+  ],
+  "errors": [],
+  "failed": []
+}

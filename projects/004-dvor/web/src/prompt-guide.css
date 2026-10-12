@@ -1,0 +1,54 @@
+.prompt-section{background:#f3f2e9;border-top:1px solid var(--line)}
+.prompt-section .section-heading{max-width:860px}
+.prompt-paths{display:grid;grid-template-columns:1fr 1fr;gap:30px;margin-bottom:38px}
+.prompt-paths article{border-top:1px solid #cdd3c5;padding-top:19px}
+.prompt-paths span,.prompt-iterations article>span{font-size:10px;color:#829074;letter-spacing:.05em}
+.prompt-paths h3{font-size:18px;margin:9px 0}
+.prompt-paths p{font-size:13px;color:#697360;max-width:510px}
+.prompt-subheading{margin:38px 0 18px}
+.prompt-subheading h3{font-size:20px;margin-bottom:8px}
+.prompt-subheading p{font-size:12px;color:var(--muted)}
+.prompt-table-wrap{overflow:auto;max-width:100%;border-top:1px solid #cbd2c1}
+.prompt-table{border-collapse:collapse;width:100%;font-size:12px;text-align:left;min-width:680px}
+.prompt-table th,.prompt-table td{padding:15px 19px 15px 0;border-bottom:1px solid #d9dece;line-height:1.8;vertical-align:top}
+.prompt-table thead th{font-size:10px;color:#79866e;font-weight:500}
+.prompt-table tbody th{width:95px;font-weight:500;white-space:nowrap}
+.prompt-table td:last-child{width:32%;color:#7d856d}
+.prompt-table a{text-decoration:underline;text-underline-offset:4px;color:#47694e}
+.prompt-workbench{display:grid;grid-template-columns:290px minmax(0,1fr);gap:35px;margin-top:38px}
+.prompt-instructions{min-width:0;padding-top:10px}
+.prompt-instructions h3{font-size:24px;margin-top:10px}
+.prompt-instructions ol{padding-left:20px;margin:22px 0;font-size:13px;line-height:2.2;color:#647059}
+.prompt-instructions p:not(.eyebrow){font-size:12px;color:#758067}
+.prompt-instructions button{width:100%;margin:22px 0 11px;padding:13px 16px;background:#dfe7d3;border:1px solid #b9c6aa;border-radius:3px;font-size:12px;text-align:left}
+.prompt-instructions button:disabled{opacity:.5;cursor:default}
+.prompt-instructions small{display:block;font-size:10px;line-height:1.8;color:#849079}
+.prompt-instructions>a{display:inline-block;font-size:11px;margin-top:22px;text-decoration:underline;text-underline-offset:4px}
+.prompt-editor{min-width:0;border:1px solid #d4dbc9;border-radius:4px;padding:23px;background:#fafbf5}
+.prompt-modes{display:flex;gap:7px;flex-wrap:wrap;margin-bottom:22px}
+.prompt-modes button{padding:10px 15px;background:#edf0e3;border-radius:3px;font-size:12px}
+.prompt-modes button[aria-pressed=true]{background:var(--green);color:#fff7e7}
+.prompt-editor-label{display:flex;justify-content:space-between;gap:15px;margin-bottom:11px;font-size:11px;color:#768369}
+.prompt-editor-label output{white-space:nowrap;font-variant-numeric:tabular-nums}
+#prompt-text{width:100%;height:590px;min-height:300px;resize:vertical;padding:22px;border:1px solid #dce0d3;border-radius:3px;background:#f1f4e9;color:#3e5748;font:12px/1.95 "Microsoft YaHei",system-ui,sans-serif;display:block}
+.prompt-editor textarea:focus-visible,.prompt-copy-fallback textarea:focus-visible{outline:3px solid #be9852;outline-offset:3px}
+#prompt-edit-help{font-size:10px;color:#879078;line-height:1.8;margin:13px 0 19px}
+.prompt-actions{display:flex;gap:10px;flex-wrap:wrap}
+.prompt-actions button{font-size:11px;padding:11px 14px;border:1px solid #c6d0bc;background:transparent;border-radius:3px}
+.prompt-actions #copy-prompt{background:var(--green);color:#fff7e7;border-color:var(--green)}
+.prompt-status{font-size:11px;color:#69845e;min-height:22px;margin-top:15px}
+.prompt-copy-fallback{background:#f9faf2;border:1px solid #c9d2bd;padding:20px;margin-top:12px}
+.prompt-copy-fallback label{font-size:12px;display:block;margin-bottom:12px}
+.prompt-copy-fallback textarea{width:100%;height:160px;resize:vertical;font:12px/1.7 system-ui,sans-serif;padding:14px;background:#f4f6eb;border:1px solid #d3ddc8;color:#354f40}
+.prompt-iterations{display:grid;grid-template-columns:1fr 1fr;gap:28px 35px}
+.prompt-iterations article{border-top:1px solid #cad3bd;padding-top:18px}
+.prompt-iterations h4{font-size:17px;margin:10px 0 11px}
+.prompt-iterations p{font-size:12px;line-height:1.95;color:#69765e}
+.prompt-iterations button{margin-top:16px;font-size:11px;background:transparent;padding:0;text-decoration:underline;text-underline-offset:4px;color:#496b49}
+.prompt-checks{border-top:1px solid #cbd4bf;margin-top:38px;padding-top:26px}
+.prompt-checks h3{font-size:19px}
+.prompt-checks ul{display:grid;grid-template-columns:1fr 1fr;gap:11px 30px;margin:20px 0;padding-left:17px;font-size:12px;line-height:1.85;color:#65755a}
+.prompt-checks>p{font-size:11px;color:#8a927b;max-width:960px}
+@media(max-width:1080px){.prompt-workbench{grid-template-columns:250px minmax(0,1fr);gap:25px}}
+@media(max-width:800px){.prompt-workbench{grid-template-columns:1fr;gap:22px}.prompt-instructions ol{margin:13px 0}.prompt-instructions h3{font-size:22px}.prompt-instructions button{width:auto;margin-top:16px}.prompt-instructions small{max-width:600px}.prompt-instructions>a{margin-top:12px}.prompt-paths{gap:22px}.prompt-iterations{gap:23px}.prompt-editor{padding:21px}#prompt-text{height:500px}}
+@media(max-width:520px){.prompt-paths,.prompt-iterations,.prompt-checks ul{grid-template-columns:1fr}.prompt-paths{gap:23px;margin-bottom:28px}.prompt-paths h3{font-size:17px}.prompt-subheading h3{font-size:19px}.prompt-editor{padding:16px}.prompt-modes button{font-size:11px;padding:9px 11px}.prompt-editor-label{font-size:10px;gap:8px}#prompt-text{padding:15px;font-size:11px;height:470px}.prompt-table{min-width:610px;font-size:11px}.prompt-table th,.prompt-table td{padding:12px 14px 12px 0}.prompt-actions{gap:8px}.prompt-actions button{padding:10px 12px;font-size:10px}.prompt-status{font-size:10px}.prompt-copy-fallback{padding:16px}.prompt-checks ul{gap:9px}.prompt-iterations h4{font-size:16px}}

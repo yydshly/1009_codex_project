@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:5195/",
+  "browser": "154.0.8037.99",
+  "results": [
+    {
+      "name": "研究页与实际 WebGL 场景加载",
+      "status": "passed",
+      "evidence": "六个上游截图、场景非空，社区世界已初始化"
+    },
+    {
+      "name": "真实几何热点 → 注释数据 → 页面说明",
+      "status": "passed",
+      "evidence": "鼠标射线命中公告平面，呈现对应英文内容"
+    },
+    {
+      "name": "四站导览、双语切换与实际动画",
+      "status": "passed",
+      "evidence": "进度 4/4，英文说明正确，场景动画组发生旋转"
+    },
+    {
+      "name": "参数 → 材质 / 渲染管线 → 保存与导出",
+      "status": "passed",
+      "evidence": "色带与灯光生效，原色对照关闭描边；预设重载完整恢复并可下载"
+    },
+    {
+      "name": "小行星视角与上游完整世界复现",
+      "status": "passed",
+      "evidence": "球面远景可用，上游热点与电车被构建且可呼叫"
+    },
+    {
+      "name": "键鼠漫游",
+      "status": "passed",
+      "evidence": "Pointer Lock 生效，W 实际改变玩家位置，Esc 退出"
+    },
+    {
+      "name": "响应式 768px",
+      "status": "passed",
+      "evidence": "无横向溢出；3D 画布重新适配尺寸"
+    },
+    {
+      "name": "响应式 390px",
+      "status": "passed",
+      "evidence": "无横向溢出；3D 画布重新适配尺寸"
+    },
+    {
+      "name": "响应式 320px",
+      "status": "passed",
+      "evidence": "无横向溢出；3D 画布重新适配尺寸"
+    },
+    {
+      "name": "原始样例放大与关闭",
+      "status": "passed",
+      "evidence": "原生对话框可打开，Esc 可关闭"
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "requests": []
+}

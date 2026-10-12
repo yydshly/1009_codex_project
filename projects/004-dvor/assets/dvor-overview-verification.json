@@ -1,0 +1,71 @@
+{
+  "generatedAt": "2026-10-09T06:54:32.828Z",
+  "method": "Native HTML/CSS layout of verified screenshots, exported by Chromium; no AI-reconstructed scene images",
+  "sections": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08"
+  ],
+  "images": [
+    {
+      "src": "../web/public/samples/01-arch.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/06-planet.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "preview.png",
+      "complete": true,
+      "width": 1240
+    },
+    {
+      "src": "../web/public/samples/01-arch.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/04-panel.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/02-playground.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/03-garages.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/05-tram.jpg",
+      "complete": true,
+      "width": 1600
+    },
+    {
+      "src": "../web/public/samples/06-planet.jpg",
+      "complete": true,
+      "width": 1600
+    }
+  ],
+  "width": 1600,
+  "height": 4237.859375,
+  "overflow": false,
+  "clipped": [],
+  "pixels": {
+    "width": 2400,
+    "height": 6357
+  },
+  "errors": [],
+  "status": "passed"
+}

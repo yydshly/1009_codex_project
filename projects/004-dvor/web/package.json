@@ -1,0 +1,25 @@
+{
+  "name": "dvor-research-lab",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5194 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5195 --strictPort",
+    "verify": "node tests/verify.mjs",
+    "verify:pages": "node tests/verify-pages.mjs",
+    "verify:prompts": "node tests/verify-prompts.mjs",
+    "verify:research": "node tests/verify-research.mjs"
+  },
+  "dependencies": {
+    "three": "0.180.0"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1",
+    "vite": "6.4.3"
+  }
+}
