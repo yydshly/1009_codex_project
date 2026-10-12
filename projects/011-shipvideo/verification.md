@@ -73,3 +73,15 @@
 本轮 Windows 浏览器自动操作被自动审批拒绝：无法可靠确认当前浏览器地址。已停止该操作；没有新增浏览器截图或移动端交互验收，2026-10-10 截图保留为历史记录。
 
 本次部署范围为静态研究网页，不包含上游 Agent 服务。没有运行模型、生成上游 MP4 或实测质量、费用、速度及业务收益。远端发布结果将在本节后追加。
+
+## 2026-10-12：已完成远端发布与公开地址核验
+
+- 页面提交：[6ce3ddc69d1d6de57add52ee353030dfab1ad213](https://github.com/yydshly/1009_codex_project/commit/6ce3ddc69d1d6de57add52ee353030dfab1ad213)，已推送远端 main。
+- [Validate research index #38251912552](https://github.com/yydshly/1009_codex_project/actions/runs/38251912552)：success。
+- [Publish GitHub Pages #38251944706](https://github.com/yydshly/1009_codex_project/actions/runs/38251944706)：build 和 deploy 均为 success，部署完成时间 2026-10-12 20:54:34（Asia/Shanghai）。工作流对 14 个项目执行干净构建、校验和 Pages 汇总。
+- [公开研究页](https://yydshly.github.io/1009_codex_project/011-shipvideo/)：HTTP 200；十项完整摘要、模块、效果、价值与扩展章节均存在，流程借鉴结论存在，HTML 与提交源文件字节一致。
+- app.js、styles.css、favicon.svg、引导图 PNG 与 SVG 均为 HTTP 200，MIME 正确，与提交源文件逐字节一致。原图 SHA-256 与 2026-10-10 保留值一致；.gitattributes 固定 SVG 字节，避免 Git 换行转换。
+- [总站入口](https://yydshly.github.io/1009_codex_project/)：HTTP 200，包含 011 ShipVideo 和研究页入口。
+- 可复核的响应状态、字节数及哈希见 [public-verification-2026-10-12.json](assets/public-verification-2026-10-12.json)。
+
+上述验证确认发布文件与内容交付成功；新增布局的浏览器交互验收未执行，上游生成与业务指标仍未实测。

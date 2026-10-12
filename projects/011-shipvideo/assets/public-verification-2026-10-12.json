@@ -1,0 +1,70 @@
+{
+  "checkedAt": "2026-10-12T12:55:07.989Z",
+  "sourceCommit": "6ce3ddc69d1d6de57add52ee353030dfab1ad213",
+  "deploymentRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38251944706",
+  "resources": [
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 37373,
+      "sha256": "9b7cf6d0d58be7552de31064ac51039dc11dacd2465f3f8ad135be8c9f67cba7",
+      "matchesSource": true,
+      "summaryItems": 10,
+      "sections": true,
+      "currentMeaning": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/app.js",
+      "status": 200,
+      "type": "application/javascript; charset=utf-8",
+      "bytes": 17072,
+      "sha256": "b9d02762522cd4413f94336017b73857033bcb4b021d1b6aa632ff293a06e0c6",
+      "matchesSource": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/styles.css",
+      "status": 200,
+      "type": "text/css; charset=utf-8",
+      "bytes": 32876,
+      "sha256": "779260c1eec43a91b213df31043c4ac78fe7717490e5d99bf97d3fc644b1b5f1",
+      "matchesSource": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/favicon.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 163,
+      "sha256": "dbe491a83efa94e9c99b7184fef21fcb7522e520e6f3ab8cc9bcde6409046f19",
+      "matchesSource": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/assets/overview-infographic.png",
+      "status": 200,
+      "type": "image/png",
+      "bytes": 733138,
+      "sha256": "ee01856297e065785626001de01539df77098870c75888221c01bb9b58f66ef6",
+      "matchesSource": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/011-shipvideo/assets/overview-infographic.svg",
+      "status": 200,
+      "type": "image/svg+xml",
+      "bytes": 22713,
+      "sha256": "8e63f0c73781957997c38341d383123be6180c1fba29ad0893bf6fb17e685e42",
+      "matchesSource": true
+    },
+    {
+      "url": "https://yydshly.github.io/1009_codex_project/",
+      "status": 200,
+      "type": "text/html; charset=utf-8",
+      "bytes": 20879,
+      "sha256": "c4dad2928af0b9b517b5356425daa9a7ab83265edeedd66ca33d5b0c5185400e",
+      "hasShipvideo": true
+    }
+  ],
+  "validationRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38251912552",
+  "validationConclusion": "success",
+  "deploymentConclusion": "success",
+  "browserVerification": "not performed in this turn: Windows browser current URL could not be confirmed by automatic approval"
+}

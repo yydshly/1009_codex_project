@@ -6,8 +6,8 @@
 
 在总库根目录执行：
 
-    npm.cmd run check --prefix projects/011-shipvideo/web
     npm.cmd run build --prefix projects/011-shipvideo/web
+    npm.cmd run check --prefix projects/011-shipvideo/web
     npm.cmd run dev --prefix projects/011-shipvideo/web
 
 打开 http://127.0.0.1:4321/1009_codex_project/011-shipvideo/ 。

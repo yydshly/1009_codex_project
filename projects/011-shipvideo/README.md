@@ -19,9 +19,9 @@
 | 研究日期 | 2026-10-09，Asia/Shanghai |
 | 内容更新 | 2026-10-12：补全十项理解摘要、八类模块、任务链路和效果边界；复核上游提交未变，原始引导图保持不变 |
 | 上游许可证 | 研究提交未发现 LICENSE，GitHub 仓库元数据 license 为 null；本子项目未引入上游实现代码 |
-| 本地环境 | Windows、Node.js 22.15.0、Codex 内置浏览器 Chromium |
+| 本地环境 | Windows、Node.js 22.15.0；2026-10-10 使用内置浏览器，2026-10-12 使用静态和 HTTP 检查 |
 | 实现 | 原生 HTML / CSS / JavaScript；Node.js 标准库预览与检查，无第三方依赖 |
-| 完成范围 | 源码研究、原创讲解网页、桌面与手机交互验证、总索引与 Pages 汇总 |
+| 完成范围 | 源码研究、原图保留、完整研究网页、摘要和索引同步、静态及 HTTP 核验；既有交互验证见日期记录 |
 | 尚未验证 | 上游 Agent 运行、模型付费生成、中文成片质量、耗时及成本 |
 | Pages 目录 | web/public/；[在线研究页](https://yydshly.github.io/1009_codex_project/011-shipvideo/)；发布验证结果见 verification.md |
 
@@ -29,7 +29,7 @@
 
 ![本地中文能力汇总网页实际截图](assets/preview.jpg)
 
-*本地研究网页实际桌面截图。画面中的代码动画为本项目原创机制示意，不是上游生成结果，也不执行 MP4 生成。*
+*2026-10-10 的本地研究网页实际桌面截图，未包含 2026-10-12 新增模块。代码动画为本项目原创机制示意，不是上游生成结果。*
 
 [业务价值模块截图](assets/business-value.jpg) · [完整桌面截图](assets/overview-desktop.jpg) · [完整手机截图](assets/overview-mobile.jpg) · [图片说明](assets/README.md)
 
