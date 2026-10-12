@@ -15,7 +15,7 @@
 
 | 编号 | 子项目 | 研究摘要 | 状态 | 标签 | 来源 | Web |
 | --- | --- | --- | --- | --- | --- | --- |
-| 016 | [Agenvo：远程 Agent 连接与调度研究](projects/016-agenvo/) | 自托管 MCP 中继，将 Codex、Herdr 中的 Claude Code 及 Paseo、Amp、Lody、OpenCode 接入通用助手；完整梳理能力、客户端/Relay/Connector 内置 Adapter 模块、原生接口与会话路由、部署数量、事件和故障语义、权限边界、官方远控重叠、实际价值及扩展方向。保留中文引导图，补充 v0.2.0 与当前源码变化；完成研究网页，原生 Agent 未独立实测。 | 已完成 | Agent / MCP / 远程控制 / 原生接口 / 自托管 | [原仓库](https://github.com/Xuanwo/agenvo) | [演示](https://yydshly.github.io/1009_codex_project/016-agenvo/) |
+| 016 | [Agenvo：远程 Agent 连接与调度研究](projects/016-agenvo/) | **定位：** 自托管 MCP 中继，让通用助手远程接入 Codex、Herdr 中的 Claude Code，以及 Paseo、Amp、Lody、OpenCode。<br>**能力：** 发现实例与方法、创建或恢复会话、发任务、读进度与结果、追加指令、响应交互、中断与订阅变化；具体动作取决于运行时。<br>**模块：** 客户端负责决策；Relay 管连接、授权与路由；Connector 内置 Adapter 转接原生接口；真实 Agent 负责执行与会话历史。<br>**原理：** Connector 主动 WSS 连接 Relay，按设备与实例 ID 找 Adapter，再用原生会话 ID 定位任务。Codex 附着独立 app-server；Claude Code 经 Herdr CLI / Socket 接入。<br>**部署：** 通常一个 Relay，目标侧按运行时安装 Connector；Adapter 随包提供，一个实例可管理多个会话，每个任务无须重复部署。Agent 与模型认证另行准备。<br>**价值：** 跨 Agent 统一入口，复用自建助手与自动化系统的接入能力，支持自托管与二次开发；只为手机继续使用 Codex，新增价值有限。<br>**边界：** 单所有者，无统一业务调度器或成功判定；原生权限各自管理，脚本隔离不等于执行沙箱，Relay 可见流量。<br>**扩展：** 连接与证据面板、客户端验收、更多运行时适配、上层任务编排、故障恢复、细粒度授权；均为建议或待验证方向。<br>**交付与依据：** 保留完整中文引导图，补充 v0.2.0 与固定源码快照；研究文档、网页及部署已完成，真实 Agent 未独立实测。 | 已完成 | Agent / MCP / 远程控制 / 原生接口 / 自托管 | [原仓库](https://github.com/Xuanwo/agenvo) | [演示](https://yydshly.github.io/1009_codex_project/016-agenvo/) |
 
 ### 016 · Agenvo：远程 Agent 连接与调度研究
 

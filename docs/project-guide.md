@@ -34,6 +34,7 @@ projects/001-example-repo/
 | `id` | 三位数字编号，创建后固定 |
 | `slug` | 简短目录名，组合成 `id-slug` |
 | `title` / `summary` | 项目名称 / 一句话研究价值 |
+| `summarySections` | 可选，按 `{ "label": "能力", "text": "说明" }` 分项填写；仅根 README 索引表的摘要使用加粗标签与单元格换行 |
 | `source` / `sourceRef` | 原 GitHub 仓库 / 研究时的 tag 或 commit |
 | `status` | `queued` 待研究、`researching` 研究中、`prototyping` 复现中、`done` 已完成、`archived` 已归档 |
 | `tags` | 技术或主题标签数组 |

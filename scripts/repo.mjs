@@ -18,6 +18,9 @@ const html = (value) => String(value).replace(/[&<>"']/g, (char) => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;',
 })[char]);
 const md = (value) => String(value).replace(/[\\`*_{}\[\]<>()#!|]/g, '\\$&');
+const indexSummary = (project) => project.summarySections
+  ? project.summarySections.map(({ label, text }) => `**${md(label)}：** ${md(text)}`).join('<br>')
+  : md(project.summary);
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -53,6 +56,14 @@ async function catalog() {
     ids.add(project.id);
     assert(typeof project.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(project.slug), `无效 slug：${project.slug}`);
     for (const key of ['title', 'summary', 'previewCaption']) textField(project[key], `${project.id}.${key}`);
+    if (project.summarySections !== undefined) {
+      assert(Array.isArray(project.summarySections) && project.summarySections.length > 0, `${project.id}.summarySections 必须是非空数组`);
+      for (const section of project.summarySections) {
+        assert(section && typeof section === 'object', `${project.id}.summarySections 必须包含标签与说明`);
+        textField(section.label, `${project.id}.summarySections.label`);
+        textField(section.text, `${project.id}.summarySections.text`);
+      }
+    }
     textField(project.sourceRef, `${project.id}.sourceRef`, true);
     urlField(project.source, `${project.id}.source`);
     assert(/^https:\/\/github\.com\/[\w.-]+\/[\w.-]+\/?$/.test(project.source), `${project.id}.source 必须是 GitHub 仓库地址`);
@@ -76,7 +87,7 @@ function indexBlock(projects) {
   const rows = projects.map((p) => {
     const local = `projects/${folder(p)}`;
     const demo = p.pagesDir !== null ? `[演示](${pagesBase}/${folder(p)}/)` : p.demoUrl ? `[演示](${p.demoUrl})` : '—';
-    return `| ${p.id} | [${md(p.title)}](${local}/) | ${md(p.summary)} | ${statuses[p.status]} | ${p.tags.map(md).join(' / ') || '—'} | [原仓库](${p.source}) | ${demo} |`;
+    return `| ${p.id} | [${md(p.title)}](${local}/) | ${indexSummary(p)} | ${statuses[p.status]} | ${p.tags.map(md).join(' / ') || '—'} | [原仓库](${p.source}) | ${demo} |`;
   });
   const cards = projects.map((p) => {
     const local = `projects/${folder(p)}`;
