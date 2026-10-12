@@ -12,4 +12,14 @@
 
 ## 网页预览
 
-`web-desktop.png`、`web-mobile.png`、`web-request-flow.png`与`web-mobile-guide.png`为原创研究网页本地实际截图，不是上游Agenvo界面或连接真实Agent的证据。
+以下为 2026-10-12 说明排版调整后的本地实际截图，均来自原创研究网页。
+
+- **`web-desktop.png`：** 桌面页面开头与完整摘要。
+- **`web-summary.png`：** 桌面完整摘要，按八项标签分行说明。
+- **`web-mobile.png`：** 手机页面开头。
+- **`web-mobile-summary.png`：** 手机完整摘要，逐项展示。
+- **`web-request-flow.png`：** 六步调用路径的逐项说明。
+- **`web-mobile-guide.png`：** 手机原引导图及版本补充。
+- **`web-mobile-modules.png`：** 手机模块表，按列名分行展示。
+
+这些是本站页面截图，不是上游 Agenvo 界面，也不是连接真实 Agent 的执行证据。

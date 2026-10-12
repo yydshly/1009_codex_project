@@ -12,14 +12,33 @@
 <header class="site-head"><a class="brand" href="#top"><span class="brand-mark">A</span>Agenvo<span class="brand-sub">研究手记 / 016</span></a><div class="head-links"><a href="../">项目索引 ↗</a><a href="https://github.com/Xuanwo/agenvo" target="_blank" rel="noopener">上游 GitHub ↗</a></div></header>
 <main id="main">
 <section class="hero wrap" id="top">
- <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> NATIVE AGENTS · ONE ASSISTANT</p><h1>让一个助手，<br>接通多种<br><span>编程 Agent。</span></h1><p class="hero-lead">Agenvo 是一个<strong>自托管 MCP 中继</strong>。它把你的助手接到电脑或服务器上的 Codex、Herdr 中的 Claude Code 等原生运行时，让助手远程查询、下达指令、读取结果并继续推进工作。</p><div class="hero-actions"><a class="button primary" href="#guide">看完整引导图 <span>↓</span></a><a class="button plain" href="#value">先看对我们的价值 →</a></div><p class="hero-foot">连接与调用由 Agenvo 提供 · 决策由上层助手完成 · 执行与历史归原生运行时</p></div>
- <a class="guide-peek" href="#guide" aria-label="查看我们生成的完整 Agenvo 引导图"><div class="peek-top"><span>我们的理解 · 一张图总览</span><span>↗</span></div><img src="assets/agenvo-guide.png" width="2200" height="3420" alt="此前生成的 Agenvo 中文完整引导图缩略图"><div class="peek-bottom">保留原图 · 可放大与下载</div></a>
+ <div class="hero-copy"><p class="eyebrow"><span class="dot"></span> 016 / 能力 · 模块 · 原理 · 价值 · 扩展</p><h1>Agenvo 理解指南</h1><p class="hero-lead">Agenvo 是一个<strong>自托管 MCP 中继</strong>。它把你的助手接到电脑或服务器上的 Codex、Herdr 中的 Claude Code 等原生运行时，让助手远程查询、下达指令、读取结果并继续推进工作。</p><div class="hero-actions"><a class="button primary" href="#overview">读完整摘要 <span>↓</span></a><a class="button secondary" href="#guide">看原引导图 ↓</a><a class="button plain" href="#value">对我们的价值 →</a></div></div>
 </section>
-<div class="thesis wrap"><span>先记住这句话</span><p><strong>它的主要价值是把不同原生 Agent 接到通用助手和你自己的自动化系统。</strong>如果你只是从手机继续使用 Codex，官方远控已经覆盖了很多需求。</p></div>
+
+<aside class="overview wrap" id="overview" aria-labelledby="overview-title">
+ <div class="overview-heading"><span class="badge mint">完整摘要</span><h2 id="overview-title">一眼读懂 Agenvo</h2><p>先看定位与价值，再沿目录了解实现细节。</p></div>
+ <dl class="description-list overview-facts">
+  <div><dt>定位</dt><dd><strong>远程 Agent 接入层。</strong>自托管 MCP 中继，让通用助手连接 Codex、Herdr 中的 Claude Code 等原生 Agent。</dd></div>
+  <div><dt>能力</dt><dd><strong>发现、发任务、看结果、继续与中断。</strong>还可响应原生交互请求、订阅变化；具体动作取决于各运行时。</dd></div>
+  <div><dt>模块</dt><dd><strong>客户端 → Relay → Connector / Adapter → 原生 Agent。</strong>客户端做决策，Relay 管连接与授权，内置 Adapter 转接原生接口，Agent 执行。</dd></div>
+  <div><dt>原理</dt><dd><strong>通过配置与原生 ID 找到目标。</strong>Connector 主动连接 Relay；按 deviceId / instanceId 找 Adapter，再按 threadId、session / name 等找到会话。</dd></div>
+  <div><dt>部署</dt><dd><strong>通常一个 Relay，目标侧按运行时安装 Connector。</strong>Adapter 随包提供；每个任务或聊天无需单独部署。Agent 和模型认证需自行准备。</dd></div>
+  <div><dt>价值</dt><dd><strong>跨 Agent 统一入口，复用接入基础设施。</strong>适合自建助手、自动化与二次开发；只为手机继续用 Codex，新增价值有限。</dd></div>
+  <div><dt>边界</dt><dd><strong>单所有者；没有统一任务调度器或业务成功判定。</strong>脚本隔离不等于 Agent 执行隔离；Relay 可见流量。本站未独立实测原生 Agent。</dd></div>
+  <div><dt>扩展</dt><dd><strong>连接与证据面板、客户端验收、新运行时适配、任务编排、故障恢复、细粒度权限。</strong>这些是我们的建议，尚待设计或验证。</dd></div>
+</dl>
+ <p class="overview-foot"><strong>资料基线：</strong>2026-10-12 · 源码 <code>68e046a</code> · 已发布 v0.2.0 · 原引导图保留 2026-10-09 快照。</p>
+</aside>
 <nav class="toc" aria-label="阅读目录"><div class="wrap"><a href="#guide">01 引导图</a><a href="#abilities">02 能力</a><a href="#modules">03 模块</a><a href="#flow">04 调用路径</a><a href="#native">05 原生接入</a><a href="#deploy">06 部署</a><a href="#events">07 事件与状态</a><a href="#boundaries">08 边界</a><a href="#value">09 价值</a><a href="#extensions">10 扩展</a><a href="#evidence">11 依据</a></div></nav>
 <div class="wrap body-content">
 <section id="guide" class="section guide-section">
- <div class="section-intro"><p class="eyebrow">01 / THE BIG PICTURE</p><h2>从完整引导图开始</h2><p>沿用我们生成的图片，先理解能力、连接关系、部署数量和价值，再往下阅读细节。</p><div class="guide-actions"><button class="button primary" id="open-guide" type="button">放大阅读 ↗</button><a class="button secondary" href="assets/agenvo-guide.png" download="agenvo-guide.png">下载原图 ↓</a></div><p class="small">原创研究说明图，非上游产品界面。图中文字基于 2026-10-09 的 <code>4d899e5</code> 快照。</p><aside class="version-note"><span class="badge coral">版本补充 · 2026-10-12</span><h3>原图保留，正文更新</h3><p>上游已发布 <a href="https://github.com/Xuanwo/agenvo/releases/tag/v0.2.0" target="_blank" rel="noopener">v0.2.0</a>，并提供 npm 包；新增 OpenCode 接入。当前 Codex Connector 连接独立 app-server，已移除早期由 Connector 启动 stdio 子进程的方式。</p><p>Herdr 的类型与启动参数现在交由 Herdr 判断；调用不再要求传 <code>backendGeneration</code>。search 默认返回方法摘要，完整参数需 <code>includeSchema: true</code>；execute 正常响应直接交付脚本返回内容。</p><p>因此，原图中的“未正式发布”等版本相关表述请以本页补充为准。正文源码固定为 <a href="https://github.com/Xuanwo/agenvo/tree/__REF__" target="_blank" rel="noopener"><code>68e046a</code></a>，不把 main 和发布包视为完全相同。</p></aside></div>
+ <div class="section-intro"><p class="eyebrow">01 / THE BIG PICTURE</p><h2>从完整引导图开始</h2><p>沿用我们生成的图片，先理解能力、连接关系、部署数量和价值，再往下阅读细节。</p><div class="guide-actions"><button class="button primary" id="open-guide" type="button">放大阅读 ↗</button><a class="button secondary" href="assets/agenvo-guide.png" download="agenvo-guide.png">下载原图 ↓</a></div><p class="small">原创研究说明图，非上游产品界面。图中文字基于 2026-10-09 的 <code>4d899e5</code> 快照。</p><aside class="version-note"><span class="badge coral">版本补充 · 2026-10-12</span><h3>原图保留，正文更新</h3><dl class="description-list">
+  <div><dt>发行</dt><dd>已发布 <a href="https://github.com/Xuanwo/agenvo/releases/tag/v0.2.0" target="_blank" rel="noopener">v0.2.0</a>，提供 npm 包，并新增 OpenCode 接入。</dd></div>
+  <div><dt>Codex</dt><dd>当前 Connector 附着独立 app-server；早期启动 stdio 子进程的方式已移除。</dd></div>
+  <div><dt>Herdr</dt><dd>类型与启动参数交由 Herdr 判断；调用不再要求传 <code>backendGeneration</code>。</dd></div>
+  <div><dt>MCP</dt><dd><code>search</code> 默认返回方法摘要，完整参数需 <code>includeSchema: true</code>；<code>execute</code> 正常响应直接交付脚本返回内容。</dd></div>
+  <div><dt>依据</dt><dd>正文固定为 <a href="https://github.com/Xuanwo/agenvo/tree/__REF__" target="_blank" rel="noopener"><code>68e046a</code></a>。原图中的“未正式发布”等旧表述请以本页补充为准；main 与发行包有各自版本。</dd></div>
+</dl></aside></div>
  <figure class="full-guide"><a href="assets/agenvo-guide.png" target="_blank" rel="noopener" aria-label="在新页查看完整引导图"><img src="assets/agenvo-guide.png" width="2200" height="3420" loading="lazy" alt="Agenvo 完整中文引导图：远程能力、客户端与中继、Connector 内置适配器、Codex 与 Herdr、部署步骤、实际价值和边界"></a><figcaption>我们生成的完整引导图 · 2200 × 3420 · 原图未改动</figcaption></figure>
 </section>
 <section id="abilities" class="section">
@@ -42,76 +61,162 @@
   <article><span class="role-no">C</span><div><h3>Connector + 内置 Adapter</h3><p>通常运行在目标电脑，主动 WSS 连接 Relay。每个配置实例创建一个 Adapter，按实例 ID 分发并翻译成原生调用。</p></div><span class="role-label">原生连接与桥接</span></article>
   <article><span class="role-no">D</span><div><h3>真实 Agent / 原生运行时</h3><p>Codex app-server、Herdr、Paseo daemon 等使用自己的身份、模型凭据、项目、工具、权限与会话历史执行工作。</p></div><span class="role-label">任务与会话状态</span></article>
  </div>
- <details class="detail"><summary>展开源码模块与职责</summary><div class="table-scroll"><table><thead><tr><th>模块</th><th>职责</th><th>不负责的部分</th></tr></thead><tbody>
- <tr><td><code>packages/protocol</code></td><td>消息类型、校验、地址、限制、Outcome</td><td>Agent 决策与原生任务状态</td></tr>
- <tr><td><code>packages/connector</code></td><td>CLI、配置锁、配对、WSS、心跳重连、调用分发、状态文件</td><td>通用 AI 推理与各平台内部任务库</td></tr>
- <tr><td><code>packages/relay</code></td><td>MCP search/execute、QuickJS、授权、请求关联、管理页面、事件、版本提示</td><td>替代原生会话与业务验收</td></tr>
- <tr><td><code>apps/codex-app-server</code> 等</td><td>各自配置 schema、原生方法与连接、错误语义、事件桥接</td><td>强行统一不同运行时的全部语义</td></tr>
- <tr><td><code>apps/cloudflare</code></td><td>Workers + Durable Objects SQLite + 可休眠 WebSocket</td><td>跨宿主自动迁移</td></tr>
- <tr><td><code>apps/server</code></td><td>单 Node 进程 + SQLite + HTTP/WS + OAuth；HTTPS 由代理或 TLS 提供</td><td>多副本集群与网络文件系统部署</td></tr>
+ <details class="detail" open><summary>源码模块与职责</summary><div class="table-scroll"><table><thead><tr><th>模块</th><th>职责</th><th>不负责的部分</th></tr></thead><tbody>
+ <tr><td data-label="模块"><code>packages/protocol</code></td><td data-label="职责">消息类型、校验、地址、限制、Outcome</td><td data-label="不负责的部分">Agent 决策与原生任务状态</td></tr>
+ <tr><td data-label="模块"><code>packages/connector</code></td><td data-label="职责">CLI、配置锁、配对、WSS、心跳重连、调用分发、状态文件</td><td data-label="不负责的部分">通用 AI 推理与各平台内部任务库</td></tr>
+ <tr><td data-label="模块"><code>packages/relay</code></td><td data-label="职责">MCP search/execute、QuickJS、授权、请求关联、管理页面、事件、版本提示</td><td data-label="不负责的部分">替代原生会话与业务验收</td></tr>
+ <tr><td data-label="模块"><code>apps/codex-app-server</code> 等</td><td data-label="职责">各自配置 schema、原生方法与连接、错误语义、事件桥接</td><td data-label="不负责的部分">强行统一不同运行时的全部语义</td></tr>
+ <tr><td data-label="模块"><code>apps/cloudflare</code></td><td data-label="职责">Workers + Durable Objects SQLite + 可休眠 WebSocket</td><td data-label="不负责的部分">跨宿主自动迁移</td></tr>
+ <tr><td data-label="模块"><code>apps/server</code></td><td data-label="职责">单 Node 进程 + SQLite + HTTP/WS + OAuth；HTTPS 由代理或 TLS 提供</td><td data-label="不负责的部分">多副本集群与网络文件系统部署</td></tr>
  </tbody></table></div><p class="small">Relay 核心通过 RecordStore / RelayHost / RelaySocket 接口复用。后端经静态 Backend 接口接入共享 Connector，没有动态插件扫描加载。</p></details>
- <p class="source-line">依据：<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/architecture.zh-CN.md" target="_blank" rel="noopener">架构与状态归属 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/connector/src/main.ts" target="_blank" rel="noopener">实例创建 Adapter 的源码 ↗</a></p>
+ <div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/architecture.zh-CN.md" target="_blank" rel="noopener">架构与状态归属 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/connector/src/main.ts" target="_blank" rel="noopener">实例创建 Adapter 的源码 ↗</a></div></div>
 </section>
 <section id="flow" class="section">
- <div class="section-title"><p class="eyebrow">04 / FOLLOW ONE REQUEST</p><h2>一条指令，如何找到真实的 Agent？</h2><p>用“让服务器上的 Codex 修复测试”走一遍路径。点击步骤看各层如何处理；这是源码流程示意，没有连接真实 Agent。</p></div>
- <div class="walkthrough"><div class="flow-tabs" aria-label="调用步骤"><button type="button" data-step="0" aria-pressed="true">1 发现</button><button type="button" data-step="1" aria-pressed="false">2 选择</button><button type="button" data-step="2" aria-pressed="false">3 中继</button><button type="button" data-step="3" aria-pressed="false">4 分发</button><button type="button" data-step="4" aria-pressed="false">5 原生</button><button type="button" data-step="5" aria-pressed="false">6 观察</button></div><div class="flow-detail" aria-live="polite"><p class="eyebrow" id="step-kicker">STEP 01 / 客户端 → Relay → Connector</p><h3 id="step-title">先发现获准的实例和原生方法</h3><p id="step-description">助手调用 search。Relay 检查 OAuth 授权；Connector 根据运行时类型、方法名和描述做关键词匹配。默认给出方法摘要，需要参数时用 includeSchema: true。</p><pre><code id="step-code">search({ query: "thread/start", includeSchema: true })</code></pre><p class="step-note" id="step-note">search 是不区分大小写的关键词 AND 匹配，并非语义检索。空 query 只列实例。</p></div><div class="flow-footer"><span id="step-count">01 / 06</span><button id="next-step" class="button secondary" type="button">下一步 →</button></div></div>
+ <div class="section-title"><p class="eyebrow">04 / FOLLOW ONE REQUEST</p><h2>一条指令，如何找到真实的 Agent？</h2><p>用“让服务器上的 Codex 修复测试”走一遍路径。按下面六步阅读各层的职责与关联方式。这是源码流程说明，未连接真实 Agent。</p></div>
+ <ol class="request-steps" aria-label="一条指令的六步调用路径">
+  <li><span class="step-number">01</span><div><p class="step-route">客户端 → Relay → Connector</p><h3>发现可用实例与原生方法</h3><dl class="description-list">
+  <div><dt>动作</dt><dd>助手通过 MCP 调用 <code>search</code>，发现获准实例，以及该运行时提供的方法。</dd></div>
+  <div><dt>发现规则</dt><dd>按运行时类型、方法名、描述做关键词 AND 匹配；空 query 只列实例。完整参数需 <code>includeSchema: true</code>。</dd></div>
+</dl></div></li>
+  <li><span class="step-number">02</span><div><p class="step-route">助手选择实例与会话</p><h3>取得目标的原生身份</h3><dl class="description-list">
+  <div><dt>目标</dt><dd>用 <code>deviceId + instanceId</code> 选中服务器上的 Codex 配置。实例 context 帮助选择环境。</dd></div>
+  <div><dt>会话</dt><dd>新任务先调用 <code>thread/start</code> 并保留原生返回的 <code>threadId</code>；继续旧会话则查询并按需 resume。</dd></div>
+</dl></div></li>
+  <li><span class="step-number">03</span><div><p class="step-route">客户端 → HTTPS /mcp → Relay</p><h3>中继找到当前 Connector 连接</h3><dl class="description-list">
+  <div><dt>提交</dt><dd>助手用 <code>execute</code> 运行短脚本，调用原生方法，例如 <code>turn/start</code> 提交“修复测试”。</dd></div>
+  <div><dt>关联</dt><dd>Relay 检查授权、实例范围与在线连接，记录 <code>requestId</code> 和连接代次，再通过对应 Connector 的 WSS 发送。</dd></div>
+</dl></div></li>
+  <li><span class="step-number">04</span><div><p class="step-route">Relay → 目标侧 Connector</p><h3>内置 Adapter 接到这次调用</h3><dl class="description-list">
+  <div><dt>分发</dt><dd>Connector 校验消息、重复请求、获准范围与可用性，按 <code>instanceId</code> 取出启动时创建的 Adapter。</dd></div>
+  <div><dt>转交</dt><dd>调用 <code>adapter.call(method, params)</code>。Adapter 是进程内对象，无须另装一个服务；Relay 也不用扫描进程猜目标。</dd></div>
+</dl></div></li>
+  <li><span class="step-number">05</span><div><p class="step-route">Codex Adapter → 独立 app-server</p><h3>原生接口定位具体工作上下文</h3><dl class="description-list">
+  <div><dt>接口</dt><dd>Adapter 校验原生 schema，通过已初始化的本机 WebSocket / Unix socket 发送 JSON-RPC；当前 Connector 不启动 Codex 进程。</dd></div>
+  <div><dt>原生路由</dt><dd><code>threadId</code> 找到会话，<code>RPC id</code> 匹配应答，返回的 <code>turnId</code> 用于观察或中断本轮执行。</dd></div>
+</dl></div></li>
+  <li><span class="step-number">06</span><div><p class="step-route">原生结果 → Connector → Relay → 助手</p><h3>读取进度，验证实际结果</h3><dl class="description-list">
+  <div><dt>应答</dt><dd>原生 RPC 应答经 Adapter 返回；Relay 用 <code>requestId</code> 匹配等待项，再次检查授权与连接代次，交付脚本所选内容。</dd></div>
+  <div><dt>跟进</dt><dd>助手在收到变化或稍后发起新调用，读取状态、输出、测试和产物。<code>accepted</code> 只表示接受输入；<code>unknown</code> 时先查证，再考虑重试。</dd></div>
+</dl></div></li>
+ </ol>
  <div class="table-scroll identity-table"><table><thead><tr><th>标识</th><th>找到什么</th><th>关键区别</th></tr></thead><tbody>
- <tr><td><code>deviceId</code></td><td>一份已配对 Connector</td><td>不是物理电脑 ID；同机多个 Connector 有多个身份</td></tr>
- <tr><td><code>instanceId</code></td><td>Connector 内的一项运行时配置和 Adapter</td><td>不是每一个任务；一个实例可有许多会话</td></tr>
- <tr><td><code>threadId / turnId</code></td><td>Codex 原生会话 / 本轮执行</td><td>由 Codex 返回；steer / interrupt 按原生字段定位</td></tr>
- <tr><td><code>session / name / paneId</code></td><td>Herdr 服务 / Agent 名称 / 终端窗格</td><td>名称与 ID 可能复用；不能当作永久会话身份</td></tr>
- <tr><td><code>requestId / RPC id</code></td><td>Agenvo 调用 / 原生 JSON-RPC 请求</td><td>关联两层应答，不代表业务任务 ID</td></tr>
- <tr><td><code>fingerprint / epoch</code></td><td>获准实例范围 / 当前连接代次</td><td>防范围变化与旧连接结果串入；不提供任务级幂等</td></tr>
+ <tr><td data-label="标识"><code>deviceId</code></td><td data-label="找到什么">一份已配对 Connector</td><td data-label="关键区别">不是物理电脑 ID；同机多个 Connector 有多个身份</td></tr>
+ <tr><td data-label="标识"><code>instanceId</code></td><td data-label="找到什么">Connector 内的一项运行时配置和 Adapter</td><td data-label="关键区别">不是每一个任务；一个实例可有许多会话</td></tr>
+ <tr><td data-label="标识"><code>threadId / turnId</code></td><td data-label="找到什么">Codex 原生会话 / 本轮执行</td><td data-label="关键区别">由 Codex 返回；steer / interrupt 按原生字段定位</td></tr>
+ <tr><td data-label="标识"><code>session / name / paneId</code></td><td data-label="找到什么">Herdr 服务 / Agent 名称 / 终端窗格</td><td data-label="关键区别">名称与 ID 可能复用；不能当作永久会话身份</td></tr>
+ <tr><td data-label="标识"><code>requestId / RPC id</code></td><td data-label="找到什么">Agenvo 调用 / 原生 JSON-RPC 请求</td><td data-label="关键区别">关联两层应答，不代表业务任务 ID</td></tr>
+ <tr><td data-label="标识"><code>fingerprint / epoch</code></td><td data-label="找到什么">获准实例范围 / 当前连接代次</td><td data-label="关键区别">防范围变化与旧连接结果串入；不提供任务级幂等</td></tr>
  </tbody></table></div>
- <p class="source-line">依据：<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/core.ts" target="_blank" rel="noopener">Relay 请求关联 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/connector/src/dispatch.ts" target="_blank" rel="noopener">adapters.get(instanceId) 分发 ↗</a></p>
+ <div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/core.ts" target="_blank" rel="noopener">Relay 请求关联 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/connector/src/dispatch.ts" target="_blank" rel="noopener">adapters.get(instanceId) 分发 ↗</a></div></div>
 </section>
 <section id="native" class="section">
  <div class="section-title"><p class="eyebrow">05 / NATIVE INTEGRATIONS</p><h2>Codex 是技术接口，Claude Code 经原生管理器接入</h2><p>不同 Adapter 使用不同接入方式。Agenvo 依赖已有原生能力，把网络、授权、发现和调用链补齐。</p></div>
- <div class="native-tabs" role="tablist" aria-label="原生接入方式"><button type="button" id="tab-codex" role="tab" aria-selected="true" aria-controls="panel-codex" tabindex="0">Codex</button><button type="button" id="tab-herdr" role="tab" aria-selected="false" aria-controls="panel-herdr" tabindex="-1">Herdr / Claude Code</button><button type="button" id="tab-others" role="tab" aria-selected="false" aria-controls="panel-others" tabindex="-1">其他运行时</button></div>
- <div id="panel-codex" class="native-panel" role="tabpanel" aria-labelledby="tab-codex"><div class="native-heading"><span class="badge mint">原生双向 JSON-RPC</span><h3>先独立运行 app-server，Connector 再连接</h3></div><div class="two-col"><div><p>当前实现通过 <strong>Unix socket 上的 WebSocket</strong>或 <strong>loopback WebSocket</strong>附着 Codex app-server。Windows 使用 loopback；Connector 不启动或停止 Codex 进程。</p><p>连接后 <code>initialize → initialized</code>，核对服务报告的 codexHome 与配置；生成 RPC id、记录 pending，按应答 ID 匹配。通知和待响应请求分别处理。</p><p>原生 <code>thread/start</code> 创建会话，<code>turn/start</code> 带 threadId 提交输入。未加载会话先 resume，再操作；返回 turnId 用于后续定位。</p></div><div class="code-card"><p>当前 Windows / loopback 路径示例</p><pre><code># 原生服务：由另一个终端或服务管理器持有
+ <nav class="native-links" aria-label="原生接入阅读定位"><a href="#panel-codex">Codex</a><a href="#panel-herdr">Herdr / Claude Code</a><a href="#panel-others">其他运行时</a></nav>
+ <div id="panel-codex" class="native-panel"><div class="native-heading"><span class="badge mint">原生双向 JSON-RPC</span><h3>先独立运行 app-server，Connector 再连接</h3></div><div class="two-col"><div><dl class="description-list">
+  <div><dt>连接方式</dt><dd><strong>Unix socket 上的 WebSocket</strong>，或 <strong>loopback WebSocket</strong>。Windows 使用 loopback；Connector 不启动或停止 Codex 进程。</dd></div>
+  <div><dt>初始化</dt><dd><code>initialize → initialized</code>，核对服务报告的 codexHome 与配置。</dd></div>
+  <div><dt>请求关联</dt><dd>生成 RPC id、记录 pending，按应答 ID 匹配；通知与待响应请求分别处理。</dd></div>
+  <div><dt>原生会话</dt><dd><code>thread/start</code> 创建会话；<code>turn/start</code> 带 threadId 提交输入。未加载的会话先 resume；返回 turnId 用于后续定位。</dd></div>
+</dl></div><div class="code-card"><p>当前 Windows / loopback 路径示例</p><pre><code># 原生服务：由另一个终端或服务管理器持有
 codex app-server --listen ws://127.0.0.1:4500
 
 # Connector 指向已存在的 home 和服务
-agenvo-codex-app-server instance add \
-  --id coding --home /existing/codex-home \
-  --endpoint ws://127.0.0.1:4500 --cwd /project</code></pre><p class="small">命令为说明性示例；Windows 将路径改为实际本机路径、按 PowerShell 语法换行。Node.js 要求 24.13+。</p></div></div><div class="callout"><strong>桌面 App 的已有聊天不会自动被接管。</strong><p>Connector 共享的是所连接端点可访问的会话。另开 app-server 是另一个服务；桌面 stdio 进程没有自动提供兼容监听端点。原生 stdio 接口仍存在，但当前 Agenvo Codex Connector 使用附着模式。</p></div><p class="small">创建、恢复、输入使用 full access / never；原生执行权限请求自动回答，用户问题和动态工具调用仍需内容。原生 schema 包含 experimental 能力，方法可发现不等于在所有版本中可用。通知是连接内有界缓存；历史读取取决于原生服务支持。</p><p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/codex-app-server/src/connection.ts" target="_blank" rel="noopener">连接与 RPC ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/codex-connector.zh-CN.md" target="_blank" rel="noopener">Codex 设计与验证边界 ↗</a> · <a href="https://learn.chatgpt.com/docs/app-server" target="_blank" rel="noopener">官方 App Server 接口 ↗</a></p></div>
- <div id="panel-herdr" class="native-panel" role="tabpanel" aria-labelledby="tab-herdr" hidden><div class="native-heading"><span class="badge mint">原生 CLI + Socket 事件</span><h3>用 session 找服务，用 name / paneId 找 Agent</h3></div><div class="two-col"><div><p>Herdr 是独立运行的终端 Agent 管理服务，可管理 Claude Code、Codex 等。Agenvo 附着其实际配置目录，发现 default 与 sessions 内的服务，也能发现外部客户端创建的 Agent。</p><p>操作主要执行原生 Herdr CLI。Adapter 把 <code>agent.prompt</code> 转成 <code>herdr agent prompt NAME TEXT</code>，并通过环境变量指向正确服务；CLI 再与原生服务通信。事件订阅直接走原生 socket。</p><p><code>agent.start</code> 在已有 pane 启动进程，由 Herdr 判断 kind；args 原样转发，当前 Agenvo 不维护类型白名单、不注入固定权限参数。</p></div><div class="code-card"><p>绑定原生 Herdr 服务</p><pre><code>HERDR_SOCKET_PATH = session 对应的 socket
+agenvo-codex-app-server instance add --id coding --home "C:\Users\you\.codex" --endpoint ws://127.0.0.1:4500 --cwd "C:\repo"</code></pre><p class="small">说明性示例：请替换 home 和项目路径。Connector 要求 Node.js 24.13+；服务由另一个终端或服务管理器持有。</p></div></div><div class="callout"><strong>桌面 App 的已有聊天不会自动被接管。</strong><p>Connector 共享的是所连接端点可访问的会话。另开 app-server 是另一个服务；桌面 stdio 进程没有自动提供兼容监听端点。原生 stdio 接口仍存在，但当前 Agenvo Codex Connector 使用附着模式。</p></div><dl class="description-list note-facts">
+  <div><dt>权限</dt><dd>创建、恢复、输入使用 full access / never；原生执行权限请求自动回答。用户问题与动态工具调用仍需提供内容。</dd></div>
+  <div><dt>兼容</dt><dd>原生 schema 含 experimental 能力；发现到方法，不代表所有版本都能使用。</dd></div>
+  <div><dt>记录</dt><dd>通知是连接内的有界缓存；历史读取取决于原生服务支持。</dd></div>
+</dl><div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/codex-app-server/src/connection.ts" target="_blank" rel="noopener">连接与 RPC ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/codex-connector.zh-CN.md" target="_blank" rel="noopener">Codex 设计与验证边界 ↗</a>
+<a href="https://learn.chatgpt.com/docs/app-server" target="_blank" rel="noopener">官方 App Server 接口 ↗</a></div></div></div>
+ <div id="panel-herdr" class="native-panel"><div class="native-heading"><span class="badge mint">原生 CLI + Socket 事件</span><h3>用 session 找服务，用 name / paneId 找 Agent</h3></div><div class="two-col"><div><dl class="description-list">
+  <div><dt>原生服务</dt><dd>Herdr 是独立运行的终端 Agent 管理服务，可管理 Claude Code、Codex 等。</dd></div>
+  <div><dt>发现目标</dt><dd>Agenvo 附着实际配置目录，发现 default 与 sessions 服务，也能发现外部客户端创建的 Agent。</dd></div>
+  <div><dt>执行调用</dt><dd>主要执行 Herdr CLI：<code>agent.prompt</code> 转为 <code>herdr agent prompt NAME TEXT</code>，环境变量指向正确服务。事件直接订阅原生 socket。</dd></div>
+  <div><dt>启动进程</dt><dd><code>agent.start</code> 在已有 pane 启动，由 Herdr 判断 kind。args 原样转发；当前 Agenvo 不维护类型白名单，也不注入固定权限参数。</dd></div>
+</dl></div><div class="code-card"><p>绑定原生 Herdr 服务</p><pre><code>HERDR_SOCKET_PATH = session 对应的 socket
 HERDR_CONFIG_PATH = configRoot/config.toml
 XDG_CONFIG_HOME   = configRoot 的父目录
 HERDR_SESSION    = 当前原生 session
 
 agent.prompt({ session, name, text })
 → herdr agent prompt NAME TEXT
-→ 原生服务 → 对应 pane 里的 Claude Code</code></pre></div></div><div class="callout"><strong>无需为每个 Claude Code 任务部署 Adapter。</strong><p>一个 Herdr Connector 的实例可以暴露多个 session / workspace / pane / Agent。权限由原生参数与配置决定；实例 context 是给调用者看的说明，并不强制权限。</p></div><p class="small">agent.read / pane.read 是终端快照，不等于完整聊天历史。异步启动可能返回 starting，需按 session + name 查询；超时后进程可能仍在。当前调用不传 backendGeneration；内部仍用服务代次隔离启动记录与事件订阅。</p><p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/herdr/src/herdr.ts" target="_blank" rel="noopener">CLI 执行源码 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/herdr/src/services.ts" target="_blank" rel="noopener">session / endpoint 选择 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/herdr-connector.zh-CN.md" target="_blank" rel="noopener">原生语义 ↗</a></p></div>
- <div id="panel-others" class="native-panel" role="tabpanel" aria-labelledby="tab-others" hidden><div class="table-scroll"><table><thead><tr><th>运行时</th><th>如何关联</th><th>边界</th></tr></thead><tbody><tr><td>Paseo</td><td>附着现有 daemon 的直接 WebSocket；记录原生 server ID、使用原生 Agent ID</td><td>不接入 Paseo relay/E2EE 地址；恢复可能返回新 ID，输入与 steer 语义依 provider 而异</td></tr><tr><td>Amp · 实验性</td><td>本地插件通过鉴权 WebSocket 连接 Connector；插件宿主是原生 service</td><td>协议与插件加载测试不等于已验证真实云模型账户执行</td></tr><tr><td>Lody</td><td>连接 cloud workspace，或附着本机 daemon；原生同步与 RPC</td><td>云端账户执行未独立验收；本地测试平台适配与原样 OSS 发行版有差别</td></tr><tr><td>OpenCode</td><td>独立 HTTP 服务的原生 API，SSE 获取变化；sessionID + directory 路由</td><td>异步 204 仅确认派发；SSE 无历史重放；已有 TUI 需连接其服务地址</td></tr></tbody></table></div><p class="small">v0.2.0 发布记录和 npm registry 已核对 OpenCode 包。main 中个别文档还写“未发布”，不能据此否认实际发行。以上兼容边界依据上游文档，本站未运行这些原生 Agent。</p><p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/usage.zh-CN.md" target="_blank" rel="noopener">各运行时使用方式 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/opencode.zh-CN.md" target="_blank" rel="noopener">OpenCode HTTP / SSE ↗</a> · <a href="https://github.com/Xuanwo/agenvo/releases/tag/v0.2.0" target="_blank" rel="noopener">v0.2.0 发行说明 ↗</a></p></div>
+→ 原生服务 → 对应 pane 里的 Claude Code</code></pre></div></div><div class="callout"><strong>无需为每个 Claude Code 任务部署 Adapter。</strong><p>一个 Herdr Connector 的实例可以暴露多个 session / workspace / pane / Agent。权限由原生参数与配置决定；实例 context 是给调用者看的说明，并不强制权限。</p></div><dl class="description-list note-facts">
+  <div><dt>读取</dt><dd><code>agent.read / pane.read</code> 返回终端快照，不能当作完整聊天历史。</dd></div>
+  <div><dt>启动状态</dt><dd>异步启动可能返回 <code>starting</code>，需按 session + name 查询；超时后进程可能仍在。</dd></div>
+  <div><dt>代次</dt><dd>当前调用不传 <code>backendGeneration</code>；内部仍用服务代次隔离启动记录和事件订阅。</dd></div>
+</dl><div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/herdr/src/herdr.ts" target="_blank" rel="noopener">CLI 执行源码 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/apps/herdr/src/services.ts" target="_blank" rel="noopener">session / endpoint 选择 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/herdr-connector.zh-CN.md" target="_blank" rel="noopener">原生语义 ↗</a></div></div></div>
+ <div id="panel-others" class="native-panel"><div class="native-heading"><span class="badge mint">按原生接口适配</span><h3>其他运行时：连接方式与限制逐项说明</h3></div><div class="table-scroll"><table><thead><tr><th>运行时</th><th>如何关联</th><th>边界</th></tr></thead><tbody><tr><td data-label="运行时">Paseo</td><td data-label="如何关联">附着现有 daemon 的直接 WebSocket；记录原生 server ID、使用原生 Agent ID</td><td data-label="边界">不接入 Paseo relay/E2EE 地址；恢复可能返回新 ID，输入与 steer 语义依 provider 而异</td></tr><tr><td data-label="运行时">Amp · 实验性</td><td data-label="如何关联">本地插件通过鉴权 WebSocket 连接 Connector；插件宿主是原生 service</td><td data-label="边界">协议与插件加载测试不等于已验证真实云模型账户执行</td></tr><tr><td data-label="运行时">Lody</td><td data-label="如何关联">连接 cloud workspace，或附着本机 daemon；原生同步与 RPC</td><td data-label="边界">云端账户执行未独立验收；本地测试平台适配与原样 OSS 发行版有差别</td></tr><tr><td data-label="运行时">OpenCode</td><td data-label="如何关联">独立 HTTP 服务的原生 API，SSE 获取变化；sessionID + directory 路由</td><td data-label="边界">异步 204 仅确认派发；SSE 无历史重放；已有 TUI 需连接其服务地址</td></tr></tbody></table></div><p class="small">v0.2.0 发布记录和 npm registry 已核对 OpenCode 包。main 中个别文档还写“未发布”，不能据此否认实际发行。以上兼容边界依据上游文档，本站未运行这些原生 Agent。</p><div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/usage.zh-CN.md" target="_blank" rel="noopener">各运行时使用方式 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/opencode.zh-CN.md" target="_blank" rel="noopener">OpenCode HTTP / SSE ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/releases/tag/v0.2.0" target="_blank" rel="noopener">v0.2.0 发行说明 ↗</a></div></div></div>
 </section>
 <section id="deploy" class="section">
  <div class="section-title"><p class="eyebrow">06 / DEPLOYMENT</p><h2>一个中继，按运行时部署 Connector</h2><p>通常每台需要接入的目标电脑安装对应 Connector；Adapter 随 Connector 打包。原生 Agent、模型认证和运行环境分别准备。</p></div>
  <div class="deploy-grid"><article><span class="number">01</span><h3>准备原生运行时</h3><p>独立安装、认证、启动 Codex app-server / Herdr 等，确认项目、工具和端点可用。</p></article><article><span class="number">02</span><h3>部署 Relay</h3><p>Cloudflare 或单 Linux VPS；配置公网 HTTPS/WSS、管理员密钥与持久存储。</p></article><article><span class="number">03</span><h3>配置并配对</h3><p>按 backend 添加实例；Connector 发起 WSS，所有者核对设备指纹并批准实例范围。</p></article><article><span class="number">04</span><h3>授权客户端</h3><p>支持相应 MCP 的助手连接 Relay /mcp，经 OAuth 授权后发现方法、提交任务与读结果。</p></article></div>
- <div class="deployment-example"><strong>例：2 台电脑 + 3 类原生运行时</strong><p>笔记本接 Herdr 和 Codex，服务器接 Codex：通常部署 <b>1 个 Relay + 3 份 Connector 安装</b>。各 Connector 可配置多个实例；Codex 里的 20 个 thread 不需要 20 份 Connector。</p><p class="small">这是部署例子，不是数量公式。一个电脑可有多个独立安装；Paseo / OpenCode 等允许远程端点，Lody 的执行主机也由它自身管理，因此 Connector 未必与最终执行机一一对应。</p></div>
- <div class="table-scroll"><table><thead><tr><th>谁需要部署什么</th><th>数量与放置</th></tr></thead><tbody><tr><td>使用者设备 / 手机</td><td>使用兼容 MCP 的客户端；Agenvo 本身没有独立手机遥控 App</td></tr><tr><td>公共入口</td><td>个人部署通常一个 Relay；Cloudflare 与 VPS 是两种宿主实现，迁移需重新配对和授权</td></tr><tr><td>运行时可访问侧</td><td>所需 backend 的 Connector；不同 Connector 各自配置目录、配对凭据、锁与服务</td></tr><tr><td>每项实例配置</td><td>内部创建 Adapter 对象；它不是要单独安装的服务</td></tr><tr><td>每个原生任务 / 会话</td><td>使用原生 thread、Agent、pane 等身份；无须再安装 Connector</td></tr></tbody></table></div>
- <p class="small">目标电脑不需要向公网开放入站端口，需能主动出站连接 Relay；原生运行时的本机监听应保持在受保护的本机范围。npm 包不会替你安装 Agent 或模型服务。Agenvo 需要 Node.js 24.13+，本站静态构建需要 Node.js 22+。</p>
- <p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/installation.zh-CN.md" target="_blank" rel="noopener">安装与包边界 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/deployment-cloudflare.zh-CN.md" target="_blank" rel="noopener">Cloudflare ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/deployment-vps.zh-CN.md" target="_blank" rel="noopener">VPS ↗</a></p>
+ <div class="deployment-example"><strong>部署例子：2 台电脑，3 份 Connector 安装</strong><dl class="description-list">
+  <div><dt>笔记本</dt><dd>连接 Herdr 与 Codex：两份对应的 Connector。</dd></div>
+  <div><dt>服务器</dt><dd>连接 Codex：一份 Codex Connector。</dd></div>
+  <div><dt>共享入口</dt><dd><b>一个 Relay</b>。每份 Connector 可配置多个实例；20 个 Codex thread 无须安装 20 份 Connector。</dd></div>
+  <div><dt>数量说明</dt><dd>这是例子，不是固定公式。Paseo / OpenCode 可用远程端点，Lody 自行管理执行主机；Connector 与最终执行机未必一一对应。</dd></div>
+</dl></div>
+ <div class="table-scroll"><table><thead><tr><th>谁需要部署什么</th><th>数量与放置</th></tr></thead><tbody><tr><td data-label="谁需要部署什么">使用者设备 / 手机</td><td data-label="数量与放置">使用兼容 MCP 的客户端；Agenvo 本身没有独立手机遥控 App</td></tr><tr><td data-label="谁需要部署什么">公共入口</td><td data-label="数量与放置">个人部署通常一个 Relay；Cloudflare 与 VPS 是两种宿主实现，迁移需重新配对和授权</td></tr><tr><td data-label="谁需要部署什么">运行时可访问侧</td><td data-label="数量与放置">所需 backend 的 Connector；不同 Connector 各自配置目录、配对凭据、锁与服务</td></tr><tr><td data-label="谁需要部署什么">每项实例配置</td><td data-label="数量与放置">内部创建 Adapter 对象；它不是要单独安装的服务</td></tr><tr><td data-label="谁需要部署什么">每个原生任务 / 会话</td><td data-label="数量与放置">使用原生 thread、Agent、pane 等身份；无须再安装 Connector</td></tr></tbody></table></div>
+ <dl class="description-list note-facts">
+  <div><dt>网络</dt><dd>目标侧主动出站连接 Relay，无须开放公网入站端口；原生本机监听应保持在受保护范围。</dd></div>
+  <div><dt>准备工作</dt><dd>npm 包不会替你安装 Agent 或模型服务；原生运行时与模型凭据需分别准备。</dd></div>
+  <div><dt>运行环境</dt><dd>Agenvo：Node.js 24.13+。本站静态网页构建：Node.js 22+。</dd></div>
+</dl>
+ <div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/installation.zh-CN.md" target="_blank" rel="noopener">安装与包边界 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/deployment-cloudflare.zh-CN.md" target="_blank" rel="noopener">Cloudflare ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/deployment-vps.zh-CN.md" target="_blank" rel="noopener">VPS ↗</a></div></div>
 </section>
 <section id="events" class="section">
  <div class="section-title"><p class="eyebrow">07 / OBSERVE, THEN DECIDE</p><h2>提交确认、运行结束、业务成功，是三件事</h2><p>状态来自原生服务。收到事件后，助手还需要读取证据、检查测试或产物，再决定是否完成。</p></div>
  <div class="status-list"><div><code>not_started</code><span>已知未派发 → 修正条件后重新提交</span></div><div><code>starting</code><span>已开始异步操作 → 按返回的查询键观察</span></div><div><code>accepted</code><span>原生端接受 → 使用原生 ID 继续读状态</span></div><div><code>rejected</code><span>明确拒绝 → 根据原生错误处理</span></div><div><code>unknown</code><span>无法确定是否执行 → 先查状态，再决定是否重试写操作</span></div></div>
- <div class="two-col"><article class="text-panel"><h3>事件只是继续观察的触发器</h3><p>原生变化 → Connector → Relay → 已授权的 HTTPS 签名 webhook → 支持 MCP Events 的客户端。过滤可指定 deviceId、instanceId、serviceId、threadId 和原生事件类型。</p><p>Relay 持久保存订阅，但事件可能重复、乱序；瞬时失败最多尝试五次，重试沿用事件 ID。没有历史重放，收到 <code>agenvo.resync_required</code> 应重新发现、读取当前状态。</p><p>普通 MCP 调用支持不代表客户端支持事件唤醒。dot 自动跟进还取决于客户端能力、订阅和用户的后续处理指令。</p></article><article class="text-panel"><h3>短调用连接长任务</h3><p>execute 脚本上限 30 秒；Relay 原生确认上限 10 秒；Codex RPC 确认约 8 秒。这些是接口保护时间，不能当作整个编程任务的时限。</p><p>提交后及时返回；调用方等待或接收事件，再用另一次 execute 读结果。脚本没有 sleep / setTimeout，不能在内部忙等任务完成。</p><p>断线不会自动重发输入，也不等于任务取消。当前 Connector 关闭只释放连接，独立原生服务继续运行；取消需显式调用原生能力。</p></article></div>
- <details class="detail"><summary>execute 的脚本隔离与返回规则</summary><p>两种 Relay 共用 QuickJS WebAssembly 模块，同一宿主可复用引擎模块，但每次创建独立 runtime/context。脚本没有宿主文件、网络、环境变量或模块加载器；它通过受控 call 调用原生方法。</p><p>脚本中的 call 返回 Outcome，包含 execution、requestId、result 和可选 nativeIds/error。v0.2.0 正常 execute 响应直接交付脚本所选内容：字符串原样返回，其他 JSON 值序列化，没有 return 则为 null。需要完整确认时显式 return await call(...)。</p><p>脚本失败会给出诊断与已派发调用的确认信息；前面的写入可能已经发生。各调用独立，没有事务、回滚或自动幂等。被脚本省略的原生拒绝也不会自动让正常 MCP 响应变成 isError。</p><p>原生 Connector 通信帧通常为 64 KiB，解析硬上限 1 MiB。大结果需分页 / 缩小读取，nativeIds 可在超限错误中保留。脚本最终返回内容不经过这条 Connector 通道，不能把帧限制套到所有 MCP 输出上。</p></details>
- <p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/events.zh-CN.md" target="_blank" rel="noopener">事件契约 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/mcp-execution.zh-CN.md" target="_blank" rel="noopener">执行器与输出语义 ↗</a></p>
+ <div class="two-col"><article class="text-panel"><h3>事件只是继续观察的触发器</h3><dl class="description-list">
+  <div><dt>投递路径</dt><dd>原生变化 → Connector → Relay → 已授权 HTTPS 签名 webhook → 支持 MCP Events 的客户端。</dd></div>
+  <div><dt>过滤范围</dt><dd>可按 deviceId、instanceId、serviceId、threadId 和原生事件类型过滤。</dd></div>
+  <div><dt>可靠性</dt><dd>持久保存订阅；事件可能重复、乱序。瞬时失败最多尝试五次，重试沿用事件 ID。</dd></div>
+  <div><dt>恢复</dt><dd>没有历史重放。收到 <code>agenvo.resync_required</code> 后，重新发现并读取当前状态。</dd></div>
+  <div><dt>客户端条件</dt><dd>普通 MCP 调用支持不代表事件唤醒可用。dot 跟进还依赖客户端能力、订阅与用户后续指令。</dd></div>
+</dl></article><article class="text-panel"><h3>短调用连接长任务</h3><dl class="description-list">
+  <div><dt>接口时限</dt><dd>execute：30 秒；Relay 原生确认：10 秒；Codex RPC 确认：约 8 秒。均不是整个编程任务的时限。</dd></div>
+  <div><dt>长任务</dt><dd>提交后返回；调用方等待或接收事件，再用另一调用读结果。脚本没有 sleep / setTimeout，不能在内部忙等。</dd></div>
+  <div><dt>断线</dt><dd>不会自动重发输入，也不等于取消任务。</dd></div>
+  <div><dt>取消</dt><dd>Connector 关闭只释放连接，独立原生服务继续运行；需显式调用原生取消能力。</dd></div>
+</dl></article></div>
+<details class="detail" open><summary>execute 的脚本隔离与返回规则</summary><dl class="description-list">
+  <div><dt>隔离方式</dt><dd>两种 Relay 共用 QuickJS WebAssembly 模块。宿主可复用引擎模块，每次调用仍创建独立 runtime / context。</dd></div>
+  <div><dt>可用能力</dt><dd>没有宿主文件、网络、环境变量或模块加载器；脚本通过受控 <code>call</code> 调用原生方法。</dd></div>
+  <div><dt>原生确认</dt><dd><code>call</code> 返回 Outcome：execution、requestId、result，以及可选 nativeIds / error。</dd></div>
+  <div><dt>正常输出</dt><dd>v0.2.0 的 execute 直接交付脚本所选内容：字符串原样返回，其他 JSON 值序列化，没有 return 则为 null。需完整确认时显式 <code>return await call(...)</code>。</dd></div>
+  <div><dt>异常与写入</dt><dd>脚本失败返回诊断和已派发调用的确认信息；此前写入可能已发生。各调用独立，没有事务、回滚或自动幂等。脚本省略的原生拒绝不会自动把正常 MCP 响应变为 isError。</dd></div>
+  <div><dt>帧大小</dt><dd>Connector 通信帧通常 64 KiB，解析硬上限 1 MiB；大结果需分页或缩小读取，超限错误可保留 nativeIds。脚本最终输出不经该通道，不能把帧限制套到所有 MCP 输出。</dd></div>
+</dl></details>
+ <div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/docs/events.zh-CN.md" target="_blank" rel="noopener">事件契约 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/mcp-execution.zh-CN.md" target="_blank" rel="noopener">执行器与输出语义 ↗</a></div></div>
 </section>
 <section id="boundaries" class="section">
  <div class="section-title"><p class="eyebrow">08 / TRUST BOUNDARIES</p><h2>自托管带来控制权，也带来维护责任</h2><p>这些边界决定它适合个人可信环境，还是需要进一步改造。</p></div>
  <div class="boundary-grid"><article><span class="badge coral">单所有者</span><h3>已授权客户端共享获准实例</h3><p>有效 MCP 客户端可访问全部已批准实例，包括未来批准的实例。当前没有多租户隔离或逐客户端实例 ACL。</p></article><article><span class="badge coral">运行时权限</span><h3>脚本隔离不等于执行沙箱</h3><p>Codex 路径使用 full access / never。Herdr 当前参数原样转发，最终权限由原生 Agent 配置与调用参数决定；工作目录不是安全沙箱。</p></article><article><span class="badge coral">中继可信</span><h3>Relay 运维者能看到流量</h3><p>HTTPS/WSS 保护传输，未提供针对 Relay 运维者的端到端加密。自托管表示你控制中继基础设施，并非无需信任它。</p></article><article><span class="badge coral">失效与恢复</span><h3>撤销权限不会取消已有任务</h3><p>撤销会阻止新访问和在途结果交付；已经开始的原生工作继续运行。设备、实例批准、OAuth grant 和管理员会话分别管理。</p></article></div>
- <p class="small">OAuth 使用动态注册与 S256 PKCE；实例范围变更需重新批准。context 是自由文本指导，不是实时能力或权限保证。项目仍处于早期版本；发布记录比未同步的“尚未发布”文档更准确，发行与独立安全审计是不同事实。</p>
- <p class="source-line"><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/SECURITY.zh-CN.md" target="_blank" rel="noopener">安全与信任边界 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/access.ts" target="_blank" rel="noopener">授权实现 ↗</a> · <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/herdr-connector.zh-CN.md" target="_blank" rel="noopener">Herdr 当前权限参数语义 ↗</a></p>
+ <dl class="description-list note-facts">
+  <div><dt>授权</dt><dd>OAuth 动态注册 + S256 PKCE；实例范围变更需重新批准。</dd></div>
+  <div><dt>说明文本</dt><dd>context 是自由文本指导，不能作为实时能力或权限保证。</dd></div>
+  <div><dt>成熟度</dt><dd>项目仍处早期版本。发行记录与当前源码需分别核对；发布不等于完成独立安全审计。</dd></div>
+</dl>
+ <div class="source-line"><span class="source-label">资料依据</span><div><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/SECURITY.zh-CN.md" target="_blank" rel="noopener">安全与信任边界 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/access.ts" target="_blank" rel="noopener">授权实现 ↗</a>
+<a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/herdr-connector.zh-CN.md" target="_blank" rel="noopener">Herdr 当前权限参数语义 ↗</a></div></div>
 </section>
 <section id="value" class="section">
  <div class="section-title"><p class="eyebrow">09 / VALUE TO US</p><h2>官方能远控了，为什么还看 Agenvo？</h2><p>先承认功能重叠，再看我们是否需要跨运行时、通用 MCP 接口和可修改的中继。</p></div>
  <div class="value-statement"><span class="badge mint">我们的判断</span><h3>只为手机继续用 Codex：新增价值有限。<br>要连接多种 Agent 与自己的系统：值得评估。</h3><p>价值来自已有接入链和基础设施控制权。原生平台本身也有 API、SDK、MCP 与扩展能力；Agenvo 把这些接入模式做成了可部署的统一入口。</p></div>
- <div class="table-scroll"><table class="compare"><thead><tr><th>需求</th><th>官方 Codex 远控 / 接口</th><th>Agenvo 带来的选择</th></tr></thead><tbody><tr><td>手机发指令、看进展、继续聊</td><td>官方远控已支持，受账户、工作区与可用性影响</td><td>经 MCP 助手调用，额外维护 Relay / Connector；不是独有能力</td></tr><tr><td>多主机、通知、查看产物</td><td>官方支持主机切换、任务通知、输出 / diff / 测试 / 终端等</td><td>有多实例发现与变化事件；具体读取语义由 Adapter 决定</td></tr><tr><td>Codex + Claude Code 等混用</td><td>官方 Codex 体验主要围绕自身运行时；其他平台各有接入体系</td><td>同一入口接多类原生服务，助手可以跨实例安排工作</td></tr><tr><td>自建助手 / 自动化系统</td><td>可用 app-server、SDK 等自行接入</td><td>直接复用 MCP、连接、授权、发现与多个 Adapter，减少接入重复工作</td></tr><tr><td>控制接入基础设施</td><td>使用平台提供的服务与账户体系</td><td>自托管 Relay，阅读并修改源码；原生模型服务仍需各自凭据</td></tr><tr><td>团队权限、可靠任务编排</td><td>按平台产品能力评估</td><td>当前单所有者，无统一任务状态和隔离 ACL；需要新设计与验证</td></tr></tbody></table></div>
+ <div class="table-scroll"><table class="compare"><thead><tr><th>需求</th><th>官方 Codex 远控 / 接口</th><th>Agenvo 带来的选择</th></tr></thead><tbody><tr><td data-label="需求">手机发指令、看进展、继续聊</td><td data-label="官方 Codex 远控 / 接口">官方远控已支持，受账户、工作区与可用性影响</td><td data-label="Agenvo 带来的选择">经 MCP 助手调用，额外维护 Relay / Connector；不是独有能力</td></tr><tr><td data-label="需求">多主机、通知、查看产物</td><td data-label="官方 Codex 远控 / 接口">官方支持主机切换、任务通知、输出 / diff / 测试 / 终端等</td><td data-label="Agenvo 带来的选择">有多实例发现与变化事件；具体读取语义由 Adapter 决定</td></tr><tr><td data-label="需求">Codex + Claude Code 等混用</td><td data-label="官方 Codex 远控 / 接口">官方 Codex 体验主要围绕自身运行时；其他平台各有接入体系</td><td data-label="Agenvo 带来的选择">同一入口接多类原生服务，助手可以跨实例安排工作</td></tr><tr><td data-label="需求">自建助手 / 自动化系统</td><td data-label="官方 Codex 远控 / 接口">可用 app-server、SDK 等自行接入</td><td data-label="Agenvo 带来的选择">直接复用 MCP、连接、授权、发现与多个 Adapter，减少接入重复工作</td></tr><tr><td data-label="需求">控制接入基础设施</td><td data-label="官方 Codex 远控 / 接口">使用平台提供的服务与账户体系</td><td data-label="Agenvo 带来的选择">自托管 Relay，阅读并修改源码；原生模型服务仍需各自凭据</td></tr><tr><td data-label="需求">团队权限、可靠任务编排</td><td data-label="官方 Codex 远控 / 接口">按平台产品能力评估</td><td data-label="Agenvo 带来的选择">当前单所有者，无统一任务状态和隔离 ACL；需要新设计与验证</td></tr></tbody></table></div>
  <div class="scenario-grid"><article><span>场景 A</span><h3>我们当前主要用 Codex</h3><p>先用官方远控。只有确实需要另一种 MCP 客户端、跨运行时入口或自建控制流程时，再增加部署。</p><b>直接使用价值：较低</b></article><article><span>场景 B</span><h3>一个助手管理多种 Agent</h3><p>例如服务器 Codex 修测试、笔记本 Herdr 中的 Claude 分析方案，由助手分别读取证据、继续推进。</p><b>集成价值：较高</b></article><article><span>场景 C</span><h3>学习或开发 Agent 平台</h3><p>研究原生接口适配、长连接路由、请求关联、权限批准、事件恢复和故障语义；可作为接入层参考。</p><b>研究与二次开发价值：较高</b></article></div>
- <p class="source-line">官方能力已核对：<a href="https://learn.chatgpt.com/docs/remote-connections" target="_blank" rel="noopener">Remote connections ↗</a> · <a href="https://learn.chatgpt.com/docs/app-server" target="_blank" rel="noopener">Codex App Server ↗</a>。上表的价值分级为我们的场景判断，不是上游性能结论。</p>
+ <div class="source-line"><span class="source-label">资料依据</span><div>官方能力已核对：<a href="https://learn.chatgpt.com/docs/remote-connections" target="_blank" rel="noopener">Remote connections ↗</a>
+<a href="https://learn.chatgpt.com/docs/app-server" target="_blank" rel="noopener">Codex App Server ↗</a>。上表的价值分级为我们的场景判断，不是上游性能结论。</div></div>
 </section>
 <section id="extensions" class="section">
  <div class="section-title"><p class="eyebrow">10 / WHERE TO EXTEND</p><h2>先补可观测与验收，再扩展任务编排</h2><p>下面是我们的扩展建议，全部标为“待设计 / 待验证”。它们不是当前库已经具备的功能。</p></div>
@@ -119,9 +224,9 @@ agent.prompt({ session, name, text })
  <div class="callout"><strong>对我们的优先顺序：</strong><p>先完成真实客户端 + 原生运行时的一次端到端验收，记录提交、断线恢复、结果读取与业务验证，再决定是否构建多 Agent 编排。本站完成的是研究整理与静态网页发布。</p></div>
 </section>
 <section id="evidence" class="section evidence">
- <div class="section-title"><p class="eyebrow">11 / EVIDENCE & SCOPE</p><h2>可追溯的源码，明确的验证范围</h2><p>资料核对：2026-10-12。正文以固定提交为依据；引导图保留此前快照。页面交互都是阅读辅助示意。</p></div>
+ <div class="section-title"><p class="eyebrow">11 / EVIDENCE & SCOPE</p><h2>可追溯的源码，明确的验证范围</h2><p>资料核对：2026-10-12。正文以固定提交为依据；引导图保留此前快照。页面以逐项说明展示全部内容；图片支持放大与下载。</p></div>
  <div class="evidence-grid"><article><span>上游版本</span><h3>main · 68e046a</h3><p>完整 SHA：<code>68e046a5d8691054f8c134d85ae051988bae3dff</code>。正式发行 v0.2.0 的 tag 独立可查。</p><a href="https://github.com/Xuanwo/agenvo/tree/__REF__" target="_blank" rel="noopener">固定源码快照 ↗</a><a href="https://github.com/Xuanwo/agenvo/releases/tag/v0.2.0" target="_blank" rel="noopener">正式发行记录 ↗</a></article><article><span>研究环境</span><h3>静态源码研究</h3><p>Windows / PowerShell；阅读 TypeScript、原生协议、上游设计与测试。Agenvo 要求 Node.js 24.13+；上游测试基线 Codex 0.160.1、Herdr 0.9.3、Paseo 0.11.1，并非版本白名单。</p></article><article><span>验证与归属</span><h3>网页已构建，Agent 未实测</h3><p>本站为原创中文研究内容与静态交互，未引入上游执行源码。上游 Apache-2.0。原图 SHA-256 与来源见素材说明；兼容与运行证据引用上游，不冒充本站独立验收。</p><a href="https://github.com/yydshly/1009_codex_project/tree/main/projects/016-agenvo" target="_blank" rel="noopener">完整研究文档与网页源码 ↗</a></article></div>
- <details class="detail"><summary>阅读清单与尚需实际验证的问题</summary><ul><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/agent-management.zh-CN.md" target="_blank" rel="noopener">MCP / Connector 原则</a>：保留原生语义，不虚构共同任务模型。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/mcp.ts" target="_blank" rel="noopener">MCP 工具入口</a>与 <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/catalog.ts" target="_blank" rel="noopener">目录发现</a>：方法摘要、includeSchema 与版本提示。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/code.ts" target="_blank" rel="noopener">QuickJS 执行器</a>：隔离、超时、输出选择和异常确认。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/CHANGELOG.md" target="_blank" rel="noopener">变更记录</a>：v0.2.0 的 breaking changes；旧调用方须刷新工具描述与返回格式。</li><li>独立实测仍需：目标客户端 OAuth / 工具发现、真实 dot 或事件唤醒、真实原生 Agent 的执行与断线恢复、实际模型凭据与业务产物验收。</li><li>当前 SECURITY 与 OpenCode 个别“未发布 / 固定启动权限”描述落后于发行或实现；本页分别依据 release、registry 和当前 methods 源码处理冲突。</li></ul></details>
+ <details class="detail" open><summary>阅读清单与尚需实际验证的问题</summary><ul><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/design/agent-management.zh-CN.md" target="_blank" rel="noopener">MCP / Connector 原则</a>：保留原生语义，不虚构共同任务模型。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/mcp.ts" target="_blank" rel="noopener">MCP 工具入口</a>与 <a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/catalog.ts" target="_blank" rel="noopener">目录发现</a>：方法摘要、includeSchema 与版本提示。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/packages/relay/src/code.ts" target="_blank" rel="noopener">QuickJS 执行器</a>：隔离、超时、输出选择和异常确认。</li><li><a href="https://github.com/Xuanwo/agenvo/blob/__REF__/CHANGELOG.md" target="_blank" rel="noopener">变更记录</a>：v0.2.0 的 breaking changes；旧调用方须刷新工具描述与返回格式。</li><li>独立实测仍需：目标客户端 OAuth / 工具发现、真实 dot 或事件唤醒、真实原生 Agent 的执行与断线恢复、实际模型凭据与业务产物验收。</li><li>当前 SECURITY 与 OpenCode 个别“未发布 / 固定启动权限”描述落后于发行或实现；本页分别依据 release、registry 和当前 methods 源码处理冲突。</li></ul></details>
 </section>
 </div>
 <footer class="site-footer wrap"><div><strong>Agenvo / 理解指南</strong><p>从能力到原理，从原理到价值。</p></div><div><a href="https://github.com/yydshly/1009_codex_project/tree/main/projects/016-agenvo" target="_blank" rel="noopener">研究源码 ↗</a><a href="#top">回到顶部 ↑</a><p>016 · 2026-10-12 · 原创整理 / 上游 Apache-2.0</p></div></footer>
