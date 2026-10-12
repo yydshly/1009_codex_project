@@ -1,0 +1,17 @@
+{
+  "name": "realtime-solar-system-research",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5198 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host 127.0.0.1 --port 5199 --strictPort",
+    "preview:pages": "node scripts/serve-pages.mjs",
+    "check": "node --check main.js && node --check scene.js && node --check content.js",
+    "verify": "node tests/verify.mjs"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "vite": "6.4.3", "playwright": "1.62.1" }
+}

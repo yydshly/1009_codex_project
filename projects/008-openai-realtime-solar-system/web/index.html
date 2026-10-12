@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#080d16">
+  <meta name="description" content="Realtime Solar System 完整中文研究：语音问答与六个场景工具、WebRTC 会话、短期凭据、工具协议、Spline 动画、图表和 ISS 模块；用理解汇总图与可操作示意说明效果、原理、适用场景、个人价值、扩展路线和验证边界。">
+  <title>008 · Realtime Solar System — 语音与 3D 场景联动</title>
+  <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#demo">跳到交互演示</a>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="返回页面顶部"><span class="brand-mark" aria-hidden="true">◎</span><span>REALTIME <b>SOLAR SYSTEM</b></span></a>
+    <nav aria-label="页面导航"><a href="#overview">一图读懂</a><a href="#demo">交互演示</a><a href="#mechanism">能力与边界</a><a href="#modules">模块与原理</a><a href="#extensions">场景与价值</a><a href="#roadmap">扩展方向</a><a href="#evidence">研究依据</a></nav>
+    <span class="project-number">研究档案 / 008</span>
+  </header>
+
+  <main id="top">
+    <section class="intro wrap">
+      <div><p class="eyebrow">OPENAI / REALTIME API / TOOL CALLING</p><h1>一句指令，场景随之响应。</h1><p class="intro-copy">用自然语言选择已配置的对象、视角、动画与图表。它展示实时语音如何接到网页操作：能力来自 Realtime 与 Spline，仓库的增量是会话、工具协议和动作适配。</p></div>
+      <div class="intro-note"><span class="small-label">项目定位</span><strong>工程集成示范</strong><span>研究价值在连接方式<br>技术深度集中在外部服务</span></div>
+    </section>
+
+    <section class="wrap overview-section" id="overview" aria-label="项目理解汇总图">
+      <div class="section-line"><h2><span>00</span> 一图汇总我们的理解</h2><a href="./assets/overview-infographic.png" target="_blank" rel="noreferrer">打开高清图</a></div>
+      <figure><a href="./assets/overview-infographic.png" target="_blank" rel="noreferrer" aria-label="打开高清理解汇总图"><img src="./assets/overview-infographic.png" alt="Realtime Solar System 汇总图：效果、已有能力、执行链路、可扩展场景、个人价值与边界；工程集成示范，算法研究深度有限"></a><figcaption>AI 生成研究说明图，效果区域参考上游与本地截图；扩展场景需要新增开发，真实语音体验尚未实测。原始截图及源码依据见下方研究依据。</figcaption></figure>
+      <div class="reading-summary"><p class="eyebrow">我们的理解</p><p>对你最有用的是把已有 3D 项目接上语音操作的连接方式。太阳系只是题材，前端也可以换成普通网页组件。若目标是新算法、自动建模或物理仿真，本库的研究优先级较低。</p><div class="summary-facts"><span>语音问答 + 6 个工具</span><span>预制对象与动画</span><span>工程集成可迁移</span><span>真实语音收益待验证</span></div></div>
+    </section>
+
+    <section class="wrap demo-section" id="demo" aria-label="交互效果展示">
+      <div class="section-line"><h2><span>01</span> 先看效果</h2><span class="mode-label">原创交互示意 · 无模型调用</span></div>
+      <div class="demo-grid">
+        <div class="scene-column">
+          <div class="scene-host" id="scene-host">
+            <canvas id="solar-canvas" aria-label="可交互的简化太阳系，使用下方指令按钮控制视角"></canvas>
+            <div id="planet-labels" class="planet-labels" aria-hidden="true"></div>
+            <div class="scene-top"><span class="scene-kicker">SOLAR SYSTEM / INTERACTIVE STUDY</span><span id="view-label">全景视角</span></div>
+            <div id="scene-fallback" class="scene-fallback" hidden><strong>当前浏览器无法显示 WebGL 场景</strong><p>指令、图表与原理说明仍可使用。下方提供上游截图。</p></div>
+            <div class="scene-bottom"><span>尺寸、距离与运动均为展示示意</span><button id="motion-toggle" class="text-button" aria-pressed="false">暂停自转</button></div>
+          </div>
+          <div class="command-area">
+            <div class="command-heading"><span class="small-label">试一句指令</span><span>点选，或输入含关键词的文字</span></div>
+            <div class="presets" id="presets" aria-label="示例指令"></div>
+            <form id="command-form"><label class="sr-only" for="command-input">输入演示指令</label><input id="command-input" maxlength="160" autocomplete="off" placeholder="例如：看看土星 / 地球陆海比例 / 木星的卫星"><button class="primary-button" type="submit">执行指令</button></form>
+            <p class="command-footnote">本页用本地关键词规则代替语音模型；上游通过麦克风与 Realtime API 理解意图。</p>
+          </div>
+        </div>
+        <aside class="response-panel" aria-label="指令执行结果">
+          <div class="response-top"><span class="small-label">指令怎样变成画面</span><span id="demo-progress">等待指令</span></div>
+          <ol class="mini-flow"><li><span>01</span> 指令</li><li><span>02</span> 工具参数</li><li><span>03</span> 场景动作</li></ol>
+          <div class="utterance"><span class="small-label">当前指令</span><p id="utterance">“看看土星”</p></div>
+          <div class="reply"><span class="small-label">示例解说</span><p id="reply" role="status" aria-live="polite"></p></div>
+          <div id="chart-panel" class="chart-panel" hidden></div>
+          <div class="tool-output"><div><span class="small-label">调用预设工具</span><span class="tiny-badge">演示参数</span></div><pre id="tool-code" tabindex="0" aria-label="工具名称与参数"></pre><p id="action-result"></p></div>
+          <div class="demo-controls"><button id="tour-toggle" class="secondary-button" aria-pressed="false">播放 6 步演示</button><button id="read-toggle" class="text-button" aria-pressed="false">开启浏览器朗读</button></div>
+          <p class="tts-note" id="tts-note">朗读使用系统语音，声音与响应速度不代表 Realtime API。</p>
+        </aside>
+      </div>
+    </section>
+
+    <section class="wrap content-section" id="mechanism">
+      <div class="section-line"><h2><span>02</span> 能力、效果与边界</h2><span class="section-tag">语音会话 + 6 个工具</span></div>
+      <div class="mechanism-head"><h3>模型选动作，代码执行动作。</h3><p>3D 场景和动画提前制作；模型返回工具名称与参数，前端把它们映射到确定的动画或图表。太阳系是演示题材，连接方式可以迁移。</p></div>
+      <div class="architecture" aria-label="上游实际架构"><div><span>输入</span><strong>麦克风音频</strong><small>浏览器采集</small></div><div><span>连接</span><strong>WebRTC</strong><small>音频 + 事件通道</small></div><div class="accent-cell"><span>理解与选择</span><strong>Realtime 模型</strong><small>语音回答 + 工具参数</small></div><div><span>应用执行</span><strong>前端工具处理</strong><small>函数调用结果回传</small></div><div><span>呈现</span><strong>Spline / 图表</strong><small>动画、镜头、数据</small></div></div>
+      <div class="capability-grid" id="capability-grid"></div>
+      <div class="speech-explainer"><h3>语音对话是入口，画面变化是执行结果。</h3><p>上游包含会话连接、麦克风开关、模型语音播放和事件日志。用户说出需求，模型根据工具定义选择动作并生成参数；前端执行已配置的动画或图表，再把工具结果回传。它展示的是语音、解释与网页行为的联动。</p><p>本页保留可操作的 Three.js 示意：文字关键词 → 工具参数 → 镜头、卫星与图表变化。系统朗读仅辅助阅读；真实 Realtime 的意图识别、音质、响应速度、打断表现和多轮效果尚未实测。</p></div>
+      <div class="table-scroll" tabindex="0" aria-label="上游与本地展示的验证范围"><table class="research-table"><caption>上游能力与本页展示分别证明什么</caption><thead><tr><th scope="col">项目</th><th scope="col">上游源码实现</th><th scope="col">本页可验证</th></tr></thead><tbody><tr><th scope="row">输入与回答</th><td>麦克风音频、Realtime 语音输入输出</td><td>有限文字关键词、固定解说、可选系统朗读</td></tr><tr><th scope="row">场景效果</th><td>Spline 预制对象、事件和镜头动画</td><td>独立 Three.js 太阳系与六类动作示意</td></tr><tr><th scope="row">数据展示</th><td>模型传值生成饼图 / 柱状图</td><td>固定陆海比例 71% / 29%，注明 NASA 来源</td></tr><tr><th scope="row">外部查询</th><td>服务器查询 ISS 经纬度并回传模型</td><td>固定坐标示例，不访问 ISS 接口</td></tr><tr><th scope="row">证据范围</th><td>固定提交源码 + 上游自带截图</td><td>浏览器交互、布局、资源与发布路径检查</td></tr></tbody></table></div>
+      <div class="depth-panel"><div><p class="eyebrow">TECHNICAL DEPTH</p><h3>有集成价值，算法研究深度有限。</h3><p>它把现成的语音模型与 3D 场景连接起来。阅读重点是会话、工具协议与事件适配。</p></div><div class="depth-rows"><div><span>语音理解</span><strong>OpenAI Realtime 提供</strong></div><div><span>3D 渲染与动画</span><strong>Spline 提供</strong></div><div><span>本仓库主要实现</span><strong>会话连接、工具定义、动作映射</strong></div><div><span>尚未实现</span><strong>任意场景理解、生成建模、物理模拟</strong></div></div></div>
+      <div class="boundary-grid"><article><span class="card-index">边界 / 01</span><h3>动画范围有限</h3><p>工具枚举包含金星和天王星，但 README 未列出它们的聚焦动画。可调用名称不等于场景动作已完成。</p></article><article><span class="card-index">边界 / 02</span><h3>图表不会自动校验事实</h3><p>上游直接使用模型传入的数值。这里采用固定的陆海比例示例；正式教学应接可信数据源。</p></article><article><span class="card-index">边界 / 03</span><h3>ISS 查询与空间定位有缺口</h3><p>上游查询经纬度供模型播报，画面只触发预设 ISS 动画，没有按坐标更新位置。</p></article></div>
+      <div class="boundary-grid"><article><span class="card-index">边界 / 04</span><h3>成功回报没有确认动画完成</h3><p>前端先更新场景状态，再默认回传工具成功。它没有读取最终画面或等待动画完成来验证效果。</p></article><article><span class="card-index">边界 / 05</span><h3>只取响应中的首个工具调用</h3><p>会话处理用 find 取第一个 function_call。复杂指令的多个动作需要另做调用遍历、顺序、取消与失败处理。</p></article><article><span class="card-index">边界 / 06</span><h3>基础能力来自外部组件</h3><p>没有新语音算法、通用 3D 理解、自动建模或物理模拟。工程价值集中在连接和调度，不能直接推导教学或商业收益。</p></article></div>
+    </section>
+
+    <section class="wrap content-section" id="modules">
+      <div class="section-line"><h2><span>03</span> 模块与执行原理</h2><span class="section-tag">固定源码的职责分工</span></div>
+      <div class="mechanism-head"><h3>动作范围由开发者准备。</h3><p>工具定义告诉模型“可以做什么”；参数把用户表达变成对象名称；场景适配把名称映射到事件。对象、动画、解释资料与数据源都需要预先配置。</p></div>
+      <div class="table-scroll" tabindex="0" aria-label="上游模块分工表"><table class="research-table"><caption>7 组模块：连接、协议、呈现和外部数据</caption><thead><tr><th scope="col">模块 / 源码入口</th><th scope="col">职责</th><th scope="col">迁移时要改什么</th></tr></thead><tbody>
+        <tr><th scope="row">凭据接口<code>app/api/session/route.ts</code></th><td>服务端读取 API Key，签发短期 Realtime 凭据；固定提交配置 600 秒有效期。</td><td>服务器部署、访问控制与额度；600 秒是凭据有效期，不是会话时长。</td></tr>
+        <tr><th scope="row">实时会话<code>components/app.tsx</code></th><td>麦克风、音频播放、WebRTC / SDP、oai-events、事件处理、连接与释放。</td><td>断线、错误、麦克风状态、多个调用和真实执行反馈。</td></tr>
+        <tr><th scope="row">工具与提示词<code>lib/config.ts · constants.ts</code></th><td>角色说明、六个工具、参数枚举、模型与声音配置。</td><td>领域对象、允许动作、可信解释范围；上游配置不代表当前推荐。</td></tr>
+        <tr><th scope="row">场景适配<code>components/scene.tsx</code></th><td>加载 Spline 场景，解析参数，用 emitEvent('mouseDown', 对象名) 触发预制动画。</td><td>对象 ID、镜头和动画；可改成已有 Three.js 场景的操作接口。</td></tr>
+        <tr><th scope="row">数据组件<code>lib/components-mapping.tsx · components/charts/</code></th><td>按 chart 参数选择饼图 / 柱状图，显示模型传入的数据。</td><td>数据校验、单位、来源与更新时间，替换领域图表。</td></tr>
+        <tr><th scope="row">外部数据接口<code>app/api/iss/route.ts</code></th><td>查询 Open Notify 的 ISS 位置，结果由会话模块交给模型。</td><td>领域接口、超时 / 失败处理；实时位置需另加坐标到场景映射。</td></tr>
+        <tr><th scope="row">控制与观察<code>components/controls.tsx · logs.tsx</code></th><td>连接按钮、麦克风开关和响应事件日志。</td><td>用户可理解的状态、纠错入口和可追踪的调用记录。</td></tr>
+      </tbody></table></div>
+      <h3 class="subsection-title">一句“看看土星”，经过哪些步骤</h3>
+      <ol class="execution-steps">
+        <li><strong>建立连接</strong><p>浏览器请求 /api/session；服务器用正式 Key 换取短期凭据。浏览器采集音频，创建 WebRTC 音频轨道和 oai-events 数据通道，用 SDP 完成连接。</p></li>
+        <li><strong>声明动作范围</strong><p>通道打开后发送 session.update，注册提示词与 TOOLS。模型知道可用动作和参数枚举；它不会因此获得所有场景的通用理解。</p></li>
+        <li><strong>理解用户表达</strong><p>语音模型接收音频，给出语音回答或工具调用。工具参数把“土星”转换为 focus_planet 与 planet: Saturn。</p></li>
+        <li><strong>分发调用</strong><p>客户端读取 response.done 中的 function_call，更新 React 状态；参数以 JSON 字符串传给场景适配器。</p></li>
+        <li><strong>执行预设动作</strong><p>场景组件解析参数，触发名为 Saturn 的 Spline mouseDown 事件。图表则进入组件映射；ISS 同时查询服务器接口。</p></li>
+        <li><strong>回传结果</strong><p>客户端用对应 call_id 发送 function_call_output。ISS 与图表调用还触发 response.create，让模型继续回答。上游默认成功信息不等于动画验收。</p></li>
+        <li><strong>结束与释放</strong><p>结束会话时关闭连接和数据通道，停止音频轨道并清空状态。正式扩展还要验证中断、失败与取消后的状态一致性。</p></li>
+      </ol>
+      <div class="deployment-note"><strong>这条链路为什么有用</strong><p>模型处理多种表达方式，应用保留明确的操作范围和渲染逻辑。更换工具、对象映射和资料，就能把同一连接思路迁移到设备、产品或普通网页；迁移收益需要真实任务验证。</p></div>
+    </section>
+
+    <section class="wrap content-section" id="extensions">
+      <div class="section-line"><h2><span>04</span> 使用场景与对你的价值</h2><span class="section-tag">扩展方案，需要新增开发</span></div>
+      <div class="extension-layout">
+        <div class="scenario-tabs" role="tablist" aria-label="可扩展场景" id="scenario-tabs"></div>
+        <article class="scenario-detail" id="scenario-detail" role="tabpanel" tabindex="0"></article>
+      </div>
+      <div class="value-grid"><article><span class="value-label">对研究的价值</span><h3>补齐语音交互这一层</h3><p>Dioramas、Dvor 已提供 3D 画面；这个样例提供把用户表达接到场景操作的方法。</p></article><article><span class="value-label">对演示的价值</span><h3>让提问带动画面变化</h3><p>讲解对象、视角和图表随问题变化，适合对象清晰、动作有限的教学或展示。</p></article><article><span class="value-label">投入判断</span><h3>先做三个动作就够</h3><p>优先验证对象聚焦、播放动画、展示可信数据。若目标是研究新算法，可降低本项目优先级。</p></article></div>
+      <div class="table-scroll" tabindex="0" aria-label="研究投入与适用条件"><table class="research-table"><caption>什么时候值得投入，价值怎样验证</caption><thead><tr><th scope="col">你的目标</th><th scope="col">投入判断</th><th scope="col">需要的条件 / 验证</th></tr></thead><tbody><tr><th scope="row">已有 3D 页面，希望能边问边操作</th><td>工程参考价值较高，可先做小规模接入。</td><td>明确对象 ID、有限动作、真实任务；对比按钮操作与语音操作的完成率和时间。</td></tr><tr><th scope="row">理解语音 Agent 如何控制界面</th><td>适合作为协议与适配入门样例。</td><td>读会话、工具定义和场景分发；记录请求、参数、执行状态与回答是否一致。</td></tr><tr><th scope="row">研究语音 / 图形新算法</th><td>优先级较低，核心模型和渲染来自外部。</td><td>转向模型、渲染或仿真本身的研究；本库可作为交互层参考。</td></tr><tr><th scope="row">发布可靠的教学或产品应用</th><td>还需要领域资产、资料、后端与验证。</td><td>核验内容、错误与纠正流程、延迟和成本；当前示意没有证明学习收益或商业转化。</td></tr></tbody></table></div>
+      <div class="speech-explainer"><h3>适合对象明确、动作有限、问答有帮助的场景。</h3><p>课堂演示、设备培训、产品售前、展馆导览和研究内容检索都可以借鉴。基础 3D 展示本身已有其他项目可用；增加语音是否值得，应看访客能否更快找到对象、理解内容并完成任务。</p><p>投入包括场景和动画制作、领域资料整理、API 使用、服务器和数据接口维护，以及参数、错误和效果验证。本次没有量化这些成本，也没有证明语音一定比按钮方便。</p></div>
+      <div class="deployment-note"><strong>接入你现有的 Pages 展示</strong><p>前端可以继续用 Three.js。真实语音需要另外部署短期凭据接口、配置服务端 API Key，并处理调用预算、参数校验和执行反馈。本页无需密钥，构建后可直接放到编号子路径。</p></div>
+    </section>
+
+    <section class="wrap content-section" id="roadmap">
+      <div class="section-line"><h2><span>05</span> 可扩展方向与验证路线</h2><span class="section-tag">开发建议，尚未实现</span></div>
+      <div class="roadmap-grid">
+        <article><span class="card-index">优先 / 01</span><h3>接通真实语音的小实验</h3><p>选对象聚焦、动画播放、可信图表三个动作，接入短期凭据与 Realtime。用真实提问测试识别、延迟、打断和纠错，对比现有按钮入口。</p></article>
+        <article><span class="card-index">优先 / 02</span><h3>工具执行反馈与状态一致</h3><p>加入参数验证、对象存在检查、动画完成或失败回报；遍历多个调用，处理顺序、取消、重复调用和超时，避免回答与画面不一致。</p></article>
+        <article><span class="card-index">优先 / 03</span><h3>可信资料与数据来源</h3><p>接入教材、规格或结构化研究记录，让回答与图表显示来源、单位和更新时间；检索与引用组件需要新建。</p></article>
+        <article><span class="card-index">迁移 / 04</span><h3>通用场景操作适配器</h3><p>把 focus、play、reset 等动作抽成明确接口，分别适配 Spline、Three.js 或普通网页组件。建立对象名称、别名与允许动作映射。</p></article>
+        <article><span class="card-index">深化 / 05</span><h3>真实数据驱动场景</h3><p>给 ISS 加经纬度到三维坐标的映射，或将设备状态接到画面。加入刷新、插值和过期状态；仿真与诊断需独立模型和验证。</p></article>
+        <article><span class="card-index">交付 / 06</span><h3>运行记录与替代操作</h3><p>保留按钮和文字入口，记录任务成功率、纠错次数、延迟分布与每次任务成本；补齐连接、麦克风、字幕和失败状态，并验证不同设备。</p></article>
+      </div>
+      <div class="deployment-note"><strong>建议顺序</strong><p>先在一个已有场景完成三个动作 → 核对执行与回答 → 接可信资料 → 测真实用户任务 → 再扩展对象、数据与场景。效果改善、教学收益和商业价值都以实验结果为依据。</p></div>
+    </section>
+
+    <section class="wrap content-section evidence-section" id="evidence">
+      <div class="section-line"><h2><span>06</span> 对照上游与研究依据</h2><a href="https://github.com/openai/openai-realtime-solar-system" target="_blank" rel="noreferrer">查看原仓库</a></div>
+      <div class="evidence-grid"><figure><img src="./assets/upstream-screenshot.png" alt="上游仓库自带截图：太阳系场景与右上角会话、麦克风控制" loading="lazy" width="3018" height="1472"><figcaption>上游自带截图，非本次复现。上方交互区为独立编写的 Three.js 示意场景。</figcaption></figure><div class="evidence-copy"><p class="eyebrow">SOURCE BASELINE</p><h3>结论固定到一个提交</h3><p><code>18025b656a5c7a5e9f52dddfe3981da808ae30bb</code></p><dl><div><dt>提交日期</dt><dd>2026-03-04</dd></div><div><dt>研究 / 整理日期</dt><dd>2026-10-09 / 2026-10-12</dd></div><div><dt>上游许可</dt><dd>MIT · Copyright © 2025 OpenAI</dd></div><div><dt>验证范围</dt><dd>源码核查 + 本地示意交互；未接通上游语音</dd></div></dl><div id="source-links" class="source-links"></div></div></div>
+      <p class="evidence-scope">本页前端：Vite 6.4.3 / Three.js 0.180.0 / Node.js 22+。上游：Next.js 15 / React 19 / Spline / Recharts；固定提交使用 gpt-realtime-1.5 与 coral。真实语音、模型工具选择与 Open Notify 当前可用性未独立验证；本页不读取麦克风、不调用模型、不使用真实凭据。</p>
+    </section>
+  </main>
+  <footer class="wrap footer"><span>008 · Realtime Solar System 研究与演示</span><a href="https://github.com/yydshly/1009_codex_project">研究总库</a><a href="./licenses/openai-LICENSE.txt">OpenAI MIT</a><a href="./licenses/three-LICENSE.txt">Three.js MIT</a></footer>
+  <noscript><p class="wrap">交互演示需要 JavaScript；能力、原理与技术边界仍可直接阅读。</p></noscript>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

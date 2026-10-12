@@ -426,6 +426,73 @@
       ]
     },
     {
+      "id": "008",
+      "slug": "openai-realtime-solar-system",
+      "title": "Realtime Solar System：实时语音、工具调用与 3D 场景联动研究",
+      "summary": "OpenAI 实时语音与 3D 网页的工程集成样例：语音问答联动天体聚焦、卫星、轨道、镜头复位、饼图 / 柱状图和 ISS 查询六个工具。完整拆解短期凭据、WebRTC / SDP、会话与事件、工具和提示词、Spline 动画适配、图表组件、外部数据及控制日志模块，说明语音 → 参数 → 场景动作 → 结果回传原理。沿用已生成的中文引导图，保留可操作的独立 Three.js 示意；梳理设备教学、社区导览、产品结构与研究总库场景、对已有 3D 项目的语音增量、投入条件和验证方法，以及真实语音接入、执行反馈、可信资料、通用适配、实时数据和任务评测方向。工程连接可参考，算法研究深度有限；本页使用本地关键词与系统朗读，未接通 Realtime，扩展和收益仍待开发验证。",
+      "source": "https://github.com/openai/openai-realtime-solar-system",
+      "sourceRef": "18025b656a5c7a5e9f52dddfe3981da808ae30bb",
+      "status": "done",
+      "tags": [
+        "Realtime API",
+        "WebRTC",
+        "工具调用",
+        "Spline",
+        "语音交互"
+      ],
+      "addedAt": "2026-10-09",
+      "preview": "assets/overview-infographic.png",
+      "previewCaption": "AI 生成的中文理解汇总图：参考上游及本地效果，说明能力、场景、个人价值与边界；非原生软件截图。",
+      "demoUrl": "https://yydshly.github.io/1009_codex_project/008-openai-realtime-solar-system/",
+      "pagesDir": "web/dist",
+      "summarySections": [
+        {
+          "label": "定位",
+          "text": "现成 Realtime 语音模型与 Spline 预制场景的工程集成样例；太阳系是演示题材，核心增量是会话、工具协议和动作映射。"
+        },
+        {
+          "label": "能力",
+          "text": "实时语音输入输出；focus_planet、display_data、show_moons、show_orbit、get_iss_position、reset_camera 六个工具，联动对象、镜头、动画、图表与外部查询。"
+        },
+        {
+          "label": "模块",
+          "text": "7 组职责：短期凭据接口、实时会话、工具与提示词、场景适配、图表组件、ISS 数据接口、控制与日志；底层语音来自 OpenAI，渲染与动画来自 Spline。"
+        },
+        {
+          "label": "原理",
+          "text": "服务器签发短期凭据，浏览器以 WebRTC 音频轨道与 oai-events 传输；注册工具，读取 response.done 调用参数，触发 Spline 事件或图表，按 call_id 回传工具结果。"
+        },
+        {
+          "label": "效果与证据",
+          "text": "沿用原始中文理解汇总图，保留上游署名截图与独立 Three.js 六类动作、两种图表、自动演示和系统朗读；本地关键词替代模型，真实语音效果未实测。"
+        },
+        {
+          "label": "使用场景",
+          "text": "对象清晰、动作有限的课堂演示、设备培训、社区 / 展馆导览、产品结构讲解和研究内容检索；关联已有 002、004 及总库，迁移需要对象与资料配置。"
+        },
+        {
+          "label": "对你的价值",
+          "text": "学习语音 Agent 控制界面的连接方式，为已有 3D 页面补语音入口；若研究新算法、建模或仿真，优先级较低。语音便利性、教学收益与商业价值需真实任务对比。"
+        },
+        {
+          "label": "投入条件",
+          "text": "需要场景与动画资产、领域对象 ID、可信内容、短期凭据服务器、API 与数据维护，并处理参数、失败与状态；静态研究页可由 Pages 发布。"
+        },
+        {
+          "label": "可扩展方向",
+          "text": "三动作真实语音实验、参数验证与执行反馈、多调用顺序与取消、可信资料和引用、Spline / Three.js / 普通网页适配、坐标驱动画面、延迟 / 成本 / 成功率评测；均待实现。"
+        },
+        {
+          "label": "技术边界",
+          "text": "没有新语音算法、通用场景理解、3D 生成或物理模拟；模型图表值未核验，ISS 只触发预设动画，默认成功未验收画面，响应只取首个调用。"
+        },
+        {
+          "label": "依据",
+          "text": "结论固定到 18025b6（2026-03-04），研究于 2026-10-09、整理于 2026-10-12；保留 MIT 许可，区分源码核查、本地交互验证和未接通的上游语音。"
+        }
+      ]
+    },
+    {
       "id": "016",
       "slug": "agenvo",
       "title": "Agenvo：远程 Agent 连接与调度研究",

@@ -77,6 +77,12 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 构建 Realtime Solar System 完整研究与交互演示
+        working-directory: projects/008-openai-realtime-solar-system/web
+        run: |
+          npm ci
+          npm run check
+          npm run build
       - run: npm run check
       - run: npm run pages:build
       - uses: actions/upload-pages-artifact@v4
