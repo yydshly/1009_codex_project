@@ -1,0 +1,1 @@
+{"name":"shipvideo-research","private":true,"type":"module","scripts":{"dev":"node scripts/serve.mjs","build":"node scripts/sync-summary.mjs","check":"node scripts/check.mjs"},"engines":{"node":">=22"}}

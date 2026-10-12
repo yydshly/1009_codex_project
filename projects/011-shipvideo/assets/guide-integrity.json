@@ -1,0 +1,10 @@
+{
+  "createdAt": "2026-10-10",
+  "verifiedAt": "2026-10-12",
+  "sourceRef": "53d7c6f752fb85b449de8cf806b77ad21808a8f1",
+  "method": "original code drawing; imagegen attempts failed; no upstream video generation",
+  "files": [
+    {"path": "overview-infographic.png", "width": 2160, "height": 3552, "sha256": "ee01856297e065785626001de01539df77098870c75888221c01bb9b58f66ef6"},
+    {"path": "overview-infographic.svg", "sha256": "8e63f0c73781957997c38341d383123be6180c1fba29ad0893bf6fb17e685e42"}
+  ]
+}

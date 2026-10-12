@@ -1,0 +1,3 @@
+# Preserve original guide SVG bytes across Windows and Linux checkouts.
+assets/overview-infographic.svg -text
+web/public/assets/overview-infographic.svg -text
