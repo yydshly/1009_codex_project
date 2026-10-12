@@ -10,6 +10,7 @@
 - `verification.json`：本地程序与浏览器验证摘要，不是审美评分。
 - `captures/publication-overview/`、`publication-modules/`、`publication-comparison/`：2026-10-12 发布版本的实际浏览器截图与 CDP 报告，覆盖桌面、手机、模块及模型对照章节；未报告控制台错误、横向溢出或图片加载失败。截图用于检查呈现，不是独立审美评价。
 - `publication.json`：本次本地检查、远端提交与公开部署记录；状态随实际证据更新。
+- `captures/public-overview/`：2026-10-12 GitHub Pages 公开网址的桌面/手机实际截图、CDP 报告与 HTTP 检查；对应内容提交 `72a019a`，8 个资源返回 200，13 个唯一章节及公开原图 SHA-256 均已核验。
 - `favicon.svg`：本地绘制的静态标识。
 - `preview.svg`：脚手架原始占位图，当前索引不使用它。
 

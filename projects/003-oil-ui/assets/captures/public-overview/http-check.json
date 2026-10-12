@@ -1,0 +1,64 @@
+{
+  "checkedAt": "2026-10-12T08:38:59.993Z",
+  "url": "https://yydshly.github.io/1009_codex_project/003-oil-ui/",
+  "sourceCommit": "72a019a91b4aa0213707a6cf53e00ee9f8003371",
+  "resources": [
+    {
+      "path": "",
+      "status": 200,
+      "bytes": 43916
+    },
+    {
+      "path": "demo.html",
+      "status": 200,
+      "bytes": 3741
+    },
+    {
+      "path": "app.mjs",
+      "status": 200,
+      "bytes": 10321
+    },
+    {
+      "path": "assets/projects-snapshot.json",
+      "status": 200,
+      "bytes": 23850
+    },
+    {
+      "path": "assets/publication.json",
+      "status": 200,
+      "bytes": 1518
+    },
+    {
+      "path": "lab/styles/style-explorer.html",
+      "status": 200,
+      "bytes": 281810
+    },
+    {
+      "path": "lab/layouts/style-explorer.html",
+      "status": 200,
+      "bytes": 258860
+    },
+    {
+      "path": "assets/oil-ui-understanding-v1.png",
+      "status": 200,
+      "bytes": 2111750
+    }
+  ],
+  "chapters": [
+    "overview",
+    "modules",
+    "architecture",
+    "constraints",
+    "quality",
+    "process",
+    "comparison",
+    "examples",
+    "scenario",
+    "value",
+    "extension",
+    "evidence",
+    "summary"
+  ],
+  "guideSha256": "801a38ee929dbede8ef6ca636a19868603ad78d8df45057f549f0bb210a5966b",
+  "snapshotProjects": 6
+}

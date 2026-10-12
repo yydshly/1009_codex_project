@@ -1,9 +1,13 @@
 {
   "date": "2026-10-12",
-  "status": "local-verified",
-  "statusLabel": "本地验证通过，等待部署",
-  "summary": "完整原始引导图和十三个研究章节已完成。模块、模型对照、个人与团队价值和扩展方向均已补齐；本地构建、静态检查、五项业务模型测试及桌面/手机截图检查通过，公开部署尚待确认。",
+  "status": "deployed",
+  "statusLabel": "已发布并公开核验",
+  "summary": "完整原始引导图和十三个研究章节已发布到 GitHub Pages。能力、模块、原理、约束、正确与优秀、创意平衡、模型对照、实际工作台、个人与团队价值、使用场景和扩展方向均已整理，远端构建与公开资源核验通过。",
   "url": "https://yydshly.github.io/1009_codex_project/003-oil-ui/",
+  "verifiedAt": "2026-10-12T08:38:59.993Z",
+  "contentCommit": "72a019a91b4aa0213707a6cf53e00ee9f8003371",
+  "deploymentRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38224608156",
+  "validationRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38224575016",
   "sourceRef": "7987bb38afeea1ff8e96641b3ffebb5601fe67d2",
   "guide": {"file": "oil-ui-understanding-v1.png", "preserved": true, "sha256": "801a38ee929dbede8ef6ca636a19868603ad78d8df45057f549f0bb210a5966b"},
   "checks": [
@@ -11,7 +15,10 @@
     {"name": "业务模型", "result": "5 项测试通过，覆盖筛选、保存读回、存储失败和损坏数据"},
     {"name": "发布汇总", "result": "隔离发布工作区的索引同步、根检查和六个已收录站点的 Pages 构建通过"},
     {"name": "浏览器呈现", "result": "1280×900 桌面、390×844 手机及模块/模型对照章节的 CDP 报告未发现控制台错误、横向溢出或图片加载失败"},
-    {"name": "引导图", "result": "PNG 的 SHA-256 与对话生成的原图一致，未裁切或重新生成"}
+    {"name": "引导图", "result": "本地与公开 PNG 的 SHA-256 均与对话生成的原图一致，未裁切或重新生成"},
+    {"name": "远端发布", "result": "内容提交 72a019a 的 Validate research index 和 Publish GitHub Pages 均成功"},
+    {"name": "公开资源", "result": "入口、工作台、主脚本、项目快照、发布记录、风格与版式对比及原图共 8 个资源返回 HTTP 200；公开入口包含 13 个唯一章节"},
+    {"name": "公开浏览器", "result": "公开网址桌面/手机实际截图及 CDP 报告通过；原始报告与 HTTP 检查记录位于 captures/public-overview/"}
   ],
   "boundary": "网页检查与部署不等于独立审美评分。上游源码固定于 v0.18.0；原图保留，效果提升与扩展建议未做对照验证。"
 }
