@@ -29,6 +29,11 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 构建与检查 Alook 完整研究页
+        working-directory: projects/017-alook/web
+        run: |
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
       - uses: actions/upload-pages-artifact@v4

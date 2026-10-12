@@ -1,0 +1,273 @@
+{
+  "date": "2026-10-12",
+  "url": "http://127.0.0.1:4197/017-alook/",
+  "indexUrl": "http://127.0.0.1:4197/",
+  "indexEntry": true,
+  "scope": "仅验证原创研究网页，未运行 Alook/模型/Agent",
+  "results": [
+    {
+      "viewport": {
+        "name": "desktop",
+        "width": 1440,
+        "height": 1000
+      },
+      "status": 200,
+      "title": "Alook：群聊共享 Agent 与持续协作研究 · 017",
+      "sections": 13,
+      "images": [
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "overflow": false,
+      "nav": true,
+      "factualLabels": [
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "托管入口",
+        "自托管",
+        "分析判断",
+        "分析判断",
+        "分析判断",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "建议 · 首先验证",
+        "建议 · 需额外设计",
+        "建议 · 团队使用重点",
+        "建议 · 区分消息队列",
+        "建议 · 降低迁移成本",
+        "建议 · 交付标准"
+      ],
+      "guideOpenCloseAndFocus": true,
+      "stepTitles": [
+        "成员提出需求",
+        "存储并检查策略",
+        "传递唤醒通知",
+        "接入现有会话",
+        "拉取内容并执行",
+        "回传并人工验收"
+      ],
+      "downloads": [
+        {
+          "resource": "assets/alook-guide.png",
+          "status": 200,
+          "bytes": 1926347
+        },
+        {
+          "resource": "README.md",
+          "status": 200,
+          "bytes": 5962
+        },
+        {
+          "resource": "research.md",
+          "status": 200,
+          "bytes": 29743
+        },
+        {
+          "resource": "favicon.svg",
+          "status": 200,
+          "bytes": 198
+        }
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "mobile",
+        "width": 390,
+        "height": 844
+      },
+      "status": 200,
+      "title": "Alook：群聊共享 Agent 与持续协作研究 · 017",
+      "sections": 13,
+      "images": [
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "overflow": false,
+      "nav": true,
+      "factualLabels": [
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "托管入口",
+        "自托管",
+        "分析判断",
+        "分析判断",
+        "分析判断",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "建议 · 首先验证",
+        "建议 · 需额外设计",
+        "建议 · 团队使用重点",
+        "建议 · 区分消息队列",
+        "建议 · 降低迁移成本",
+        "建议 · 交付标准"
+      ],
+      "guideOpenCloseAndFocus": true,
+      "stepTitles": [
+        "成员提出需求",
+        "存储并检查策略",
+        "传递唤醒通知",
+        "接入现有会话",
+        "拉取内容并执行",
+        "回传并人工验收"
+      ],
+      "downloads": [
+        {
+          "resource": "assets/alook-guide.png",
+          "status": 200,
+          "bytes": 1926347
+        },
+        {
+          "resource": "README.md",
+          "status": 200,
+          "bytes": 5962
+        },
+        {
+          "resource": "research.md",
+          "status": 200,
+          "bytes": 29743
+        },
+        {
+          "resource": "favicon.svg",
+          "status": 200,
+          "bytes": 198
+        }
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    },
+    {
+      "viewport": {
+        "name": "narrow",
+        "width": 320,
+        "height": 720
+      },
+      "status": 200,
+      "title": "Alook：群聊共享 Agent 与持续协作研究 · 017",
+      "sections": 13,
+      "images": [
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        },
+        {
+          "src": "./assets/alook-guide.png",
+          "loaded": true,
+          "width": 1086,
+          "height": 1448
+        }
+      ],
+      "overflow": false,
+      "nav": true,
+      "factualLabels": [
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "源码能力",
+        "托管入口",
+        "自托管",
+        "分析判断",
+        "分析判断",
+        "分析判断",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "示例场景",
+        "建议 · 首先验证",
+        "建议 · 需额外设计",
+        "建议 · 团队使用重点",
+        "建议 · 区分消息队列",
+        "建议 · 降低迁移成本",
+        "建议 · 交付标准"
+      ],
+      "guideOpenCloseAndFocus": true,
+      "stepTitles": [
+        "成员提出需求",
+        "存储并检查策略",
+        "传递唤醒通知",
+        "接入现有会话",
+        "拉取内容并执行",
+        "回传并人工验收"
+      ],
+      "downloads": [
+        {
+          "resource": "assets/alook-guide.png",
+          "status": 200,
+          "bytes": 1926347
+        },
+        {
+          "resource": "README.md",
+          "status": 200,
+          "bytes": 5962
+        },
+        {
+          "resource": "research.md",
+          "status": 200,
+          "bytes": 29743
+        },
+        {
+          "resource": "favicon.svg",
+          "status": 200,
+          "bytes": 198
+        }
+      ],
+      "consoleErrors": [],
+      "failedRequests": []
+    }
+  ]
+}
