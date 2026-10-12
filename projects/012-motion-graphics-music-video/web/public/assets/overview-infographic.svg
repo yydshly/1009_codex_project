@@ -1,0 +1,408 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2400" height="3500" viewBox="0 0 2400 3500"><defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto"><path d="M0 0L10 5L0 10Z" fill="#dbfb74"/></marker><pattern id="grid" width="56" height="56" patternUnits="userSpaceOnUse"><path d="M56 0H0V56" stroke="#536044" stroke-width="1" opacity=".2" fill="none"/></pattern></defs><rect width="2400" height="3500" fill="#151919"/><g font-family="Microsoft YaHei, Noto Sans SC, sans-serif">
+<rect x="100" y="60" width="96" height="64" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="148" y="104" font-size="35" font-weight="700" fill="#253224" text-anchor="middle">012</text>
+<text x="220" y="104" font-size="27" font-weight="500" fill="#b2beb1" text-anchor="start">GITHUB RESEARCH / 理解全景</text>
+<text x="100" y="211" font-size="88" font-weight="700" fill="#f0f3e9" text-anchor="start">从一首歌，到一支完整 MV</text>
+<text x="103" y="283" font-size="35" font-weight="500" fill="#dbfb74" text-anchor="start">Opus 做导演与工程师  /  模型生成素材  /  代码编排成片</text>
+<text x="2260" y="105" font-size="28" font-weight="500" fill="#b2beb1" text-anchor="end">Motion Graphics Music Video Skill</text>
+<rect x="100" y="345" width="1370" height="400" rx="24" fill="#202724" stroke="#455044" stroke-width="2"/>
+<rect x="140" y="374" width="1290" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="140" y="384" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="170" y="425" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">01</text>
+<text x="222" y="425" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">目标与实现效果</text>
+<text x="145" y="483" font-size="31" font-weight="400" fill="#f0f3e9" text-anchor="start">从一首已有歌曲和创意，制作具有统一风格的完整音乐 MV。</text>
+<g transform="translate(145 523)" fill="none" stroke="#ff987c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="25" cy="12" r="11"/><path d="M5 51v-7q20-26 40 0v7M15 53v15m20-15v15"/>
+</g>
+<text x="213" y="565" font-size="25" font-weight="500" fill="#f0f3e9" text-anchor="start">角色表演与歌唱</text>
+<g transform="translate(466 523)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="4" width="52" height="53" rx="5"/><path d="M12 17h30M27 17v27m-9 0h18"/>
+</g>
+<text x="534" y="565" font-size="25" font-weight="500" fill="#f0f3e9" text-anchor="start">歌词与图形动效</text>
+<g transform="translate(787 523)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="13" width="38" height="38" rx="6"/><path d="M39 23l17-10v38L39 41M10 4h25"/>
+</g>
+<text x="855" y="565" font-size="25" font-weight="500" fill="#f0f3e9" text-anchor="start">节拍、镜头与转场</text>
+<g transform="translate(1108 523)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="27" cy="30" r="26"/><path d="M14 30l9 9 18-20"/>
+</g>
+<text x="1176" y="565" font-size="25" font-weight="500" fill="#f0f3e9" text-anchor="start">可审查、局部修改</text>
+<rect x="145" y="622" width="618" height="78" rx="12" fill="#e8dfbd" stroke="#e8dfbd" stroke-width="2"/>
+<path d="M164 623L164 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M209 623L209 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M254 623L254 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M299 623L299 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M344 623L344 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M389 623L389 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M434 623L434 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M479 623L479 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M524 623L524 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M569 623L569 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M614 623L614 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M659 623L659 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M704 623L704 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<path d="M749 623L749 698" fill="none" stroke="#c6bc98" stroke-width="1" />
+<text x="172" y="680" font-size="55" font-weight="600" fill="#b94c3f" text-anchor="start">∫</text>
+<text x="247" y="672" font-size="31" font-weight="600" fill="#2b342b" text-anchor="start">纸感插画 ＋ 数学隐喻</text>
+<rect x="783" y="622" width="640" height="78" rx="12" fill="#edce51" stroke="#edce51" stroke-width="2"/>
+<path d="M800 631h600m-600 60h600" stroke="#292d23" stroke-width="9" stroke-dasharray="20 9"/>
+<text x="815" y="673" font-size="31" font-weight="700" fill="#262b23" text-anchor="start">漫画大字 ＋ 场景笑点</text>
+<text x="145" y="727" font-size="24" font-weight="400" fill="#b2beb1" text-anchor="start">音乐提供时间轴；效果由素材、编排与创作判断共同形成。</text>
+<rect x="1510" y="345" width="790" height="400" rx="24" fill="#202724" stroke="#455044" stroke-width="2"/>
+<rect x="1550" y="374" width="710" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="1550" y="384" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="1580" y="425" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">02</text>
+<text x="1632" y="425" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">输入：你提供什么</text>
+<text x="1555" y="480" font-size="25" font-weight="650" fill="#dbfb74" text-anchor="start">核心</text>
+<text x="1635" y="480" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">已有歌曲 MP3 / WAV / M4A ＋ 主题与创意</text>
+<text x="1555" y="537" font-size="25" font-weight="650" fill="#dbfb74" text-anchor="start">补充</text>
+<text x="1635" y="537" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">歌词、角色设定、参考图／视频、风格与受众</text>
+<text x="1555" y="594" font-size="25" font-weight="650" fill="#dbfb74" text-anchor="start">约束</text>
+<text x="1635" y="594" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">预算、重试额度、片段长度、画幅与帧率</text>
+<text x="1555" y="651" font-size="25" font-weight="650" fill="#dbfb74" text-anchor="start">运行</text>
+<text x="1635" y="651" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">Claude Code、Fal 凭据与本地工具链</text>
+<text x="1555" y="727" font-size="24" font-weight="400" fill="#b2beb1" text-anchor="start">已有音乐作为入口，原曲保留为连续主音轨。</text>
+<rect x="100" y="785" width="2200" height="1140" rx="24" fill="#1b231e" stroke="#50613e" stroke-width="2"/>
+<rect x="145" y="814" width="2100" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="145" y="824" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="175" y="865" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">03</text>
+<text x="227" y="865" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">底层原理：导演、模型与代码协作</text>
+<rect x="155" y="915" width="2090" height="172" rx="18" fill="#2c3826" stroke="#8eaa56" stroke-width="2"/>
+<text x="190" y="967" font-size="42" font-weight="700" fill="#dbfb74" text-anchor="start">Opus / Claude Code</text>
+<rect x="1904" y="937" width="300" height="45" rx="9" fill="#2a3427" stroke="#dbfb74" stroke-width="2"/>
+<text x="2054" y="968" font-size="23" font-weight="500" fill="#dbfb74" text-anchor="middle">导演 ＋ 工程师</text>
+<text x="206" y="1040" font-size="32" font-weight="600" fill="#f0f3e9" text-anchor="start">研究与创意</text>
+<text x="556" y="1040" font-size="36" font-weight="400" fill="#dbfb74" text-anchor="start">→</text>
+<text x="724" y="1040" font-size="32" font-weight="600" fill="#f0f3e9" text-anchor="start">风格与分镜</text>
+<text x="1074" y="1040" font-size="36" font-weight="400" fill="#dbfb74" text-anchor="start">→</text>
+<text x="1242" y="1040" font-size="32" font-weight="600" fill="#f0f3e9" text-anchor="start">写代码与调度</text>
+<text x="1592" y="1040" font-size="36" font-weight="400" fill="#dbfb74" text-anchor="start">→</text>
+<text x="1760" y="1040" font-size="32" font-weight="600" fill="#f0f3e9" text-anchor="start">审查与修订</text>
+<path d="M1200 1088L1200 1120" fill="none" stroke="#dbfb74" stroke-width="3" marker-end="url(#arrow)"/>
+<rect x="155" y="1136" width="2090" height="72" rx="12" fill="#232c24" stroke="#546348" stroke-width="2"/>
+<text x="189" y="1185" font-size="30" font-weight="700" fill="#f0f3e9" text-anchor="start">Ruby CLI / MCP</text>
+<text x="620" y="1185" font-size="28" font-weight="400" fill="#b2beb1" text-anchor="start">工具适配  ·  任务依赖  ·  请求记录  ·  素材版本</text>
+<path d="M1200 1208L1200 1227" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M354 1227L2046 1227" fill="none" stroke="#dbfb74" stroke-width="2" />
+<path d="M354 1227L354 1247" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M777 1227L777 1247" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1200 1227L1200 1247" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M1623 1227L1623 1247" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<path d="M2046 1227L2046 1247" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="155" y="1250" width="398" height="306" rx="17" fill="#243128" stroke="#93ccb8" stroke-width="2"/>
+<text x="180" y="1295" font-size="27" font-weight="700" fill="#93ccb8" text-anchor="start">1</text>
+<g transform="translate(468 1277)" fill="none" stroke="#93ccb8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 7q15-7 29 0q15-7 29 0v49q-15-7-29 0q-14-7-29 0ZM29 7v49M8 19h13m-13 12h13m15-12h14m-14 12h14"/>
+</g>
+<text x="180" y="1347" font-size="37" font-weight="650" fill="#f0f3e9" text-anchor="start">分析音乐</text>
+<text x="180" y="1400" font-size="29" font-weight="600" fill="#93ccb8" text-anchor="start">Python</text>
+<text x="180" y="1451" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">节拍、起音、能量</text>
+<text x="180" y="1491" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">歌词另行对齐</text>
+<path d="M556 1404L573 1404" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="578" y="1250" width="398" height="306" rx="17" fill="#382d26" stroke="#ff987c" stroke-width="2"/>
+<text x="603" y="1295" font-size="27" font-weight="700" fill="#ff987c" text-anchor="start">2</text>
+<g transform="translate(891 1277)" fill="none" stroke="#ff987c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="25" cy="12" r="11"/><path d="M5 51v-7q20-26 40 0v7M15 53v15m20-15v15"/>
+</g>
+<text x="603" y="1347" font-size="37" font-weight="650" fill="#f0f3e9" text-anchor="start">生成图像</text>
+<text x="603" y="1400" font-size="29" font-weight="600" fill="#ff987c" text-anchor="start">GPT Image 2.5</text>
+<text x="603" y="1451" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">Sunburst</text>
+<text x="603" y="1491" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">角色参考、关键帧与编辑</text>
+<path d="M979 1404L996 1404" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1001" y="1250" width="398" height="306" rx="17" fill="#382d26" stroke="#ff987c" stroke-width="2"/>
+<text x="1026" y="1295" font-size="27" font-weight="700" fill="#ff987c" text-anchor="start">3</text>
+<g transform="translate(1314 1277)" fill="none" stroke="#ff987c" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="1" y="13" width="38" height="38" rx="6"/><path d="M39 23l17-10v38L39 41M10 4h25"/>
+</g>
+<text x="1026" y="1347" font-size="37" font-weight="650" fill="#f0f3e9" text-anchor="start">生成表演</text>
+<text x="1026" y="1400" font-size="29" font-weight="600" fill="#ff987c" text-anchor="start">MiniMax H3 Max</text>
+<text x="1026" y="1451" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">单角色、绿幕、锁定镜头</text>
+<text x="1026" y="1491" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">动作与歌唱表演</text>
+<path d="M1402 1404L1419 1404" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1424" y="1250" width="398" height="306" rx="17" fill="#243128" stroke="#93ccb8" stroke-width="2"/>
+<text x="1449" y="1295" font-size="27" font-weight="700" fill="#93ccb8" text-anchor="start">4</text>
+<g transform="translate(1737 1277)" fill="none" stroke="#93ccb8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1 16l28-14 28 14-28 14ZM1 30l28 14 28-14M1 44l28 14 28-14"/>
+</g>
+<text x="1449" y="1347" font-size="37" font-weight="650" fill="#f0f3e9" text-anchor="start">抠图与编排</text>
+<text x="1449" y="1400" font-size="29" font-weight="600" fill="#93ccb8" text-anchor="start">Python → p5.js</text>
+<text x="1449" y="1451" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">字幕、图形、图层、镜头</text>
+<text x="1449" y="1491" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">逐帧时间线与透明帧合成</text>
+<path d="M1825 1404L1842 1404" fill="none" stroke="#dbfb74" stroke-width="2" marker-end="url(#arrow)"/>
+<rect x="1847" y="1250" width="398" height="306" rx="17" fill="#243128" stroke="#93ccb8" stroke-width="2"/>
+<text x="1872" y="1295" font-size="27" font-weight="700" fill="#93ccb8" text-anchor="start">5</text>
+<g transform="translate(2160 1277)" fill="none" stroke="#93ccb8" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="15" y="0" width="28" height="20" rx="4"/><rect x="0" y="42" width="22" height="18" rx="4"/><rect x="38" y="42" width="22" height="18" rx="4"/><path d="M29 20v11H11v11m18-11h20v11"/>
+</g>
+<text x="1872" y="1347" font-size="37" font-weight="650" fill="#f0f3e9" text-anchor="start">后期与合成</text>
+<text x="1872" y="1400" font-size="29" font-weight="600" fill="#93ccb8" text-anchor="start">FFmpeg 输出</text>
+<text x="1872" y="1451" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">Python 音效／混音</text>
+<text x="1872" y="1491" font-size="26" font-weight="400" fill="#b2beb1" text-anchor="start">Swift VFX 后期特效</text>
+<path d="M165 1590H2240" stroke="#dbfb74" stroke-width="2" fill="none"/>
+<path d="M170 1581L170 1599" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M183 1566.4421291198041L183 1613.5578708801959" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M196 1562.0010197797956L196 1617.9989802202044" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M209 1569.4322760751504L209 1610.5677239248496" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M222 1580.75372041002L222 1599.24627958998" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M235 1574.1112581089196L235 1605.8887418910804" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M248 1575.7903020008844L248 1604.2096979991156" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M261 1580.5577334979587L261 1599.4422665020413" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M274 1580.8546290305358L274 1599.1453709694642" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M287 1574.8522395013104L287 1605.1477604986896" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M300 1568.6545599893495L300 1611.3454400106505" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M313 1570.4302228461227L313 1609.5697771538773" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M326 1579.9837036012304L326 1600.0162963987696" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M339 1565.9082841737693L339 1614.0917158262307" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M352 1560.0833051610177L352 1619.9166948389823" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M365 1567.3829634628264L365 1612.6170365371736" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M378 1579.5644691503808L378 1600.4355308496192" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M391 1567.8097419441497L391 1612.1902580558503" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M404 1566.6981246283685L404 1613.3018753716315" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M417 1574.149609442519L417 1605.850390557481" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M430 1580.4068340829258L430 1599.5931659170742" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M443 1579.504251975062L443 1600.495748024938" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M456 1578.3411206740668L456 1601.6588793259332" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M469 1576.5042699300716L469 1603.4957300699284" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M482 1579.7556193495852L482 1600.2443806504148" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M495 1569.3383708616752L495 1610.6616291383248" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M508 1563.37021215604L508 1616.62978784396" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M521 1568.8574088444095L521 1611.1425911555905" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M534 1578.3220490554743L534 1601.6779509445257" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M547 1564.3851608396565L547 1615.6148391603435" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M560 1561.2349758997905L560 1618.7650241002095" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M573 1570.1832641662L573 1609.8167358338" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M586 1578.759834512844L586 1601.240165487156" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M599 1571.527833291786L599 1608.472166708214" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M612 1573.4218939810587L612 1606.5781060189413" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M625 1579.1172291148905L625 1600.8827708851095" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M638 1580.7715380566028L638 1599.2284619433972" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M651 1576.1612042352085L651 1603.8387957647915" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M664 1570.9765656248117L664 1609.0234343751883" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M677 1573.0597863559901L677 1606.9402136440099" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M690 1577.8823609769033L690 1602.1176390230967" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M703 1565.0329244230304L703 1614.9670755769696" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M716 1560.7418442688697L716 1619.2581557311303" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M729 1569.3669636191582L729 1610.6330363808418" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M742 1576.9136962127868L742 1603.0863037872132" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M755 1565.3635054662045L755 1614.6364945337955" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M768 1565.2338202632413L768 1614.7661797367587" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M781 1574.10125635877L781 1605.89874364123" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M794 1579.0586855494976L794 1600.9413144505024" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M807 1577.193845167962L807 1602.806154832038" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M820 1580.9095097245788L820 1599.0904902754212" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M833 1578.554427086506L833 1601.445572913494" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M846 1578.8600264582133L846 1601.1399735417867" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M859 1569.9037493372323L859 1610.0962506627677" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M872 1565.2544158902695L872 1614.7455841097305" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M885 1571.4803932054342L885 1608.5196067945658" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M898 1575.809552377036L898 1604.190447622964" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M911 1562.8144882274769L911 1617.1855117725231" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M924 1561.122125708011L924 1618.877874291989" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M937 1571.5476176205214L937 1608.4523823794786" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M950 1576.3863786093325L950 1603.6136213906675" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M963 1568.9184888546843L963 1611.0815111453157" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M976 1571.3892156269633L976 1608.6107843730367" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M989 1578.2679015075232L989 1601.7320984924768" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1002 1580.651709125892L1002 1599.348290874108" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1015 1577.9902419006921L1015 1602.0097580993079" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1028 1573.5144948442132L1028 1606.4855051557868" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1041 1575.5327179054893L1041 1604.4672820945107" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1054 1576.2608866607738L1054 1603.7391133392262" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1067 1564.8090250722528L1067 1615.1909749277472" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1080 1562.0173326855752L1080 1617.9826673144248" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1093 1571.7381148031657L1093 1608.2618851968343" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1106 1574.2280965946502L1106 1605.7719034053498" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1119 1563.2456864156056L1119 1616.7543135843944" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1132 1564.357124563758L1132 1615.642875436242" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1145 1574.7137736640993L1145 1605.2862263359007" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1158 1577.185299920272L1158 1602.814700079728" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1171 1574.6597092728664L1171 1605.3402907271336" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1184 1578.6704765127245L1184 1601.3295234872755" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1197 1580.1309719829908L1197 1599.8690280170092" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1210 1578.6137255273861L1210 1601.3862744726139" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1223 1571.0889566676772L1223 1608.9110433323228" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1236 1567.532971068426L1236 1612.467028931574" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1249 1574.1473691331746L1249 1605.8526308668254" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1262 1573.6175097982582L1262 1606.3824902017418" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1275 1561.8273860512911L1275 1618.1726139487089" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1288 1561.6712601936235L1288 1618.3287398063765" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1301 1573.4428644781585L1301 1606.5571355218415" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1314 1573.781008957579L1314 1606.218991042421" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1327 1566.449376003213L1327 1613.550623996787" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1340 1569.8243768063332L1340 1610.1756231936668" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1353 1578.0660474804008L1353 1601.9339525195992" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1366 1579.4524288862542L1366 1600.5475711137458" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1379 1580.220222042581L1379 1599.779777957419" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1392 1576.1050708021871L1392 1603.8949291978129" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1405 1577.693221160962L1405 1602.306778839038" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1418 1575.2183338327177L1418 1604.7816661672823" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1431 1565.2475746525952L1431 1614.7524253474048" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1444 1563.8292187456834L1444 1616.1707812543166" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1457 1574.3497954457232L1457 1605.6502045542768" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1470 1571.673999304525L1470 1608.326000695475" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1483 1561.589727271239L1483 1618.410272728761" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1496 1564.1263991090202L1496 1615.8736008909798" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1509 1575.9519891552236L1509 1604.0480108447764" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1522 1574.9042606858322L1522 1605.0957393141678" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1535 1572.0646591482175L1535 1607.9353408517825" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1548 1576.5554033715416L1548 1603.4445966284584" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1561 1580.8669066874454L1561 1599.1330933125546" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1574 1579.0298978751384L1574 1600.9701021248616" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1587 1572.8153755242995L1587 1607.1846244757005" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1600 1570.0603191860328L1600 1609.9396808139672" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1613 1576.6918617634647L1613 1603.3081382365353" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1626 1571.8806728715563L1626 1608.1193271284437" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1639 1561.4842731894348L1639 1618.5157268105652" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1652 1562.8493606137338L1652 1617.1506393862662" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1665 1575.7529893664696L1665 1604.2470106335304" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1678 1571.1060525466432L1678 1608.8939474533568" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1691 1564.277805140998L1691 1615.722194859002" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1704 1568.8299305026374L1704 1611.1700694973626" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1717 1578.5270367020798L1717 1601.4729632979202" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1730 1577.7072939057268L1730 1602.2927060942732" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1743 1579.2933268996367L1743 1600.7066731003633" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1756 1578.5817035605896L1756 1601.4182964394104" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1769 1579.4052623062555L1769 1600.5947376937445" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1782 1574.8171664076574L1782 1605.1828335923426" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1795 1566.3177151342034L1795 1613.6822848657966" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1808 1566.0630787312982L1808 1613.9369212687018" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1821 1577.0401967174598L1821 1602.9598032825402" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1834 1569.4094336334535L1834 1610.5905663665465" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1847 1560.4999081742105L1847 1619.5000918257895" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1860 1564.5592016010912L1860 1615.4407983989088" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1873 1577.7411873230049L1873 1602.2588126769951" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1886 1572.3589305575522L1886 1607.6410694424478" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1899 1569.575373455416L1899 1610.424626544584" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1912 1574.8825628484071L1912 1605.1174371515929" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1925 1580.5037039445133L1925 1599.4962960554867" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1938 1580.0798487149798L1938 1599.9201512850202" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1951 1574.9701937940024L1951 1605.0298062059976" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1964 1572.6752005993574L1964 1607.3247994006426" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1977 1578.955153413717L1977 1601.044846586283" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M1990 1570.7050304469979L1990 1609.2949695530021" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2003 1561.8048950076256L2003 1618.1951049923744" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2016 1564.5836847936648L2016 1615.4163152063352" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2029 1578.3357640395177L2029 1601.6642359604823" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2042 1568.528250220347L2042 1611.471749779653" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2055 1562.5423058609465L2055 1617.4576941390535" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2068 1568.472392685161L2068 1611.527607314839" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2081 1579.624340458442L2081 1600.375659541558" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2094 1575.5274884346638L2094 1604.4725115653362" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2107 1576.7110887576905L2107 1603.2889112423095" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2120 1580.785016494396L2120 1599.214983505604" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2133 1580.5611655914167L2133 1599.4388344085833" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2146 1575.079312239807L2146 1604.920687760193" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2159 1567.9486918525495L2159 1612.0513081474505" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2172 1568.5778469576394L2172 1611.4221530423606" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2185 1579.642546634588L2185 1600.357453365412" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2198 1567.5741438712257L2198 1612.4258561287743" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2211 1560.044757793472L2211 1619.955242206528" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2224 1565.6311763514286L2224 1614.3688236485714" fill="none" stroke="#dbfb74" stroke-width="3" />
+<path d="M2237 1579.9718302856884L2237 1600.0281697143116" fill="none" stroke="#dbfb74" stroke-width="3" />
+<rect x="910" y="1570" width="590" height="40" rx="6" fill="#1b231e" stroke="none" stroke-width="2"/>
+<text x="1205" y="1599" font-size="27" font-weight="600" fill="#dbfb74" text-anchor="middle">完整原曲贯穿时间轴</text>
+<rect x="155" y="1650" width="1250" height="148" rx="14" fill="#2a3026" stroke="#798757" stroke-width="2"/>
+<text x="181" y="1693" font-size="30" font-weight="700" fill="#f0f3e9" text-anchor="start">歌唱与口型</text>
+<text x="181" y="1737" font-size="28" font-weight="500" fill="#f0f3e9" text-anchor="start">分离人声 → 对齐片段 → 音频约束表演 → 看／听检查</text>
+<text x="181" y="1779" font-size="25" font-weight="500" fill="#ff987c" text-anchor="start">绑定音频不等于精准口型；专门口型模型属于扩展适配。</text>
+<rect x="1440" y="1650" width="805" height="148" rx="14" fill="#232d25" stroke="#51644b" stroke-width="2"/>
+<text x="1467" y="1697" font-size="28" font-weight="600" fill="#dbfb74" text-anchor="start">先试代表片段 → 审查 → 扩大生成</text>
+<text x="1467" y="1740" font-size="27" font-weight="400" fill="#f0f3e9" text-anchor="start">版本记录 ＋ 请求恢复 ＋ 局部修订</text>
+<text x="1467" y="1779" font-size="25" font-weight="400" fill="#b2beb1" text-anchor="start">Agent 与人共同检查素材、音画和交付。</text>
+<rect x="155" y="1833" width="671" height="56" rx="10" fill="#263027" stroke="#41503b" stroke-width="2"/>
+<text x="174" y="1871" font-size="26" font-weight="650" fill="#ff987c" text-anchor="start">模型</text>
+<text x="249" y="1871" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">外观、细节、动作与表演</text>
+<rect x="865" y="1833" width="671" height="56" rx="10" fill="#263027" stroke="#41503b" stroke-width="2"/>
+<text x="884" y="1871" font-size="26" font-weight="650" fill="#93ccb8" text-anchor="start">代码</text>
+<text x="959" y="1871" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">布局、文字、图形与时序</text>
+<rect x="1575" y="1833" width="671" height="56" rx="10" fill="#263027" stroke="#41503b" stroke-width="2"/>
+<text x="1594" y="1871" font-size="26" font-weight="650" fill="#dbfb74" text-anchor="start">Agent 与人</text>
+<text x="1752" y="1871" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">风格、叙事、选择与验收</text>
+<rect x="100" y="1965" width="880" height="410" rx="24" fill="#202724" stroke="#455044" stroke-width="2"/>
+<rect x="140" y="1990" width="800" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="140" y="2000" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="170" y="2041" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">04</text>
+<text x="222" y="2041" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">输出：你拿到什么</text>
+<text x="145" y="2102" font-size="25" font-weight="600" fill="#dbfb74" text-anchor="start">成片</text>
+<text x="228" y="2102" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">默认 16:9 / 24fps / 1080p MP4，原曲连续</text>
+<text x="145" y="2145" font-size="25" font-weight="600" fill="#dbfb74" text-anchor="start">素材</text>
+<text x="228" y="2145" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">角色参考、关键帧、表演、透明帧、背景动效</text>
+<text x="145" y="2188" font-size="25" font-weight="600" fill="#dbfb74" text-anchor="start">记录</text>
+<text x="228" y="2188" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">分镜、提示词、配置、时间线、依赖与审查</text>
+<text x="145" y="2231" font-size="25" font-weight="600" fill="#dbfb74" text-anchor="start">溯源</text>
+<text x="228" y="2231" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">素材版本、模型请求 ID、历次尝试与恢复</text>
+<text x="145" y="2274" font-size="25" font-weight="600" fill="#dbfb74" text-anchor="start">版本</text>
+<text x="228" y="2274" font-size="25" font-weight="400" fill="#f0f3e9" text-anchor="start">清洁版、按计划制作的音效／特效版</text>
+<text x="145" y="2338" font-size="25" font-weight="400" fill="#b2beb1" text-anchor="start">支持局部修改；受影响的合成与交付仍需重做。</text>
+<rect x="1020" y="1965" width="1280" height="410" rx="24" fill="#202724" stroke="#455044" stroke-width="2"/>
+<rect x="1060" y="1990" width="1200" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="1060" y="2000" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="1090" y="2041" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">05</text>
+<text x="1142" y="2041" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">可用与可扩展场景</text>
+<rect x="1065" y="2092" width="136" height="45" rx="9" fill="#2a3427" stroke="#dbfb74" stroke-width="2"/>
+<text x="1133" y="2123" font-size="23" font-weight="500" fill="#dbfb74" text-anchor="middle">已有</text>
+<text x="1225" y="2123" font-size="27" font-weight="400" fill="#f0f3e9" text-anchor="start">原创歌曲 MV、歌词动画、角色表演音乐短片</text>
+<rect x="1065" y="2170" width="136" height="45" rx="9" fill="#2a3427" stroke="#ff987c" stroke-width="2"/>
+<text x="1133" y="2201" font-size="23" font-weight="500" fill="#ff987c" text-anchor="middle">需适配</text>
+<text x="1225" y="2201" font-size="27" font-weight="400" fill="#f0f3e9" text-anchor="start">知识歌曲与项目导览、品牌音乐短片、竖屏、不同帧率、Windows、替换模型</text>
+<rect x="1065" y="2248" width="136" height="45" rx="9" fill="#2a3427" stroke="#93ccb8" stroke-width="2"/>
+<text x="1133" y="2279" font-size="23" font-weight="500" fill="#93ccb8" text-anchor="middle">需新增</text>
+<text x="1225" y="2279" font-size="27" font-weight="400" fill="#f0f3e9" text-anchor="start">可视化制作工作台、实际费用台账与硬限制、专门口型校正服务</text>
+<text x="1065" y="2338" font-size="25" font-weight="400" fill="#b2beb1" text-anchor="start">场景建议并非现成产品；改平台、画幅或模型需验证整条链路。</text>
+<rect x="100" y="2415" width="2200" height="530" rx="24" fill="#202724" stroke="#455044" stroke-width="2"/>
+<rect x="145" y="2440" width="2100" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="145" y="2450" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="175" y="2491" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">06</text>
+<text x="227" y="2491" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">对你的价值：把生成能力组织成作品</text>
+<rect x="145" y="2540" width="505" height="280" rx="16" fill="#263026" stroke="#465542" stroke-width="2"/>
+<g transform="translate(169 2568)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M0 7q15-7 29 0q15-7 29 0v49q-15-7-29 0q-14-7-29 0ZM29 7v49M8 19h13m-13 12h13m15-12h14m-14 12h14"/>
+</g>
+<text x="251" y="2606" font-size="30" font-weight="650" fill="#f0f3e9" text-anchor="start">把研究变成传播</text>
+<text x="170" y="2674" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">把 GitHub 能力、原理与关键结论</text>
+<text x="170" y="2720" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">编排为音乐导览；事实与出处仍留</text>
+<text x="170" y="2766" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">在网页。</text>
+<rect x="676" y="2540" width="505" height="280" rx="16" fill="#263026" stroke="#465542" stroke-width="2"/>
+<g transform="translate(700 2568)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<path d="M1 16l28-14 28 14-28 14ZM1 30l28 14 28-14M1 44l28 14 28-14"/>
+</g>
+<text x="782" y="2606" font-size="30" font-weight="650" fill="#f0f3e9" text-anchor="start">积累个人制作资产</text>
+<text x="701" y="2674" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">角色参考、动效模板、分镜协议、</text>
+<text x="701" y="2720" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">时间线与审查方法，可以跨主题复</text>
+<text x="701" y="2766" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">用。</text>
+<rect x="1207" y="2540" width="505" height="280" rx="16" fill="#263026" stroke="#465542" stroke-width="2"/>
+<g transform="translate(1231 2568)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<circle cx="23" cy="23" r="21"/><path d="M39 39l20 20M13 23h20m-10-10v20"/>
+</g>
+<text x="1313" y="2606" font-size="30" font-weight="650" fill="#f0f3e9" text-anchor="start">看懂问题来自哪里</text>
+<text x="1232" y="2674" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">脸与动作回到素材；布局与节拍回</text>
+<text x="1232" y="2720" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">到代码；风格与叙事回到导演判断。</text>
+<rect x="1738" y="2540" width="505" height="280" rx="16" fill="#263026" stroke="#465542" stroke-width="2"/>
+<g transform="translate(1762 2568)" fill="none" stroke="#dbfb74" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+<rect x="15" y="0" width="28" height="20" rx="4"/><rect x="0" y="42" width="22" height="18" rx="4"/><rect x="38" y="42" width="22" height="18" rx="4"/><path d="M29 20v11H11v11m18-11h20v11"/>
+</g>
+<text x="1844" y="2606" font-size="30" font-weight="650" fill="#f0f3e9" text-anchor="start">建立可演进的流程</text>
+<text x="1763" y="2674" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">更换模型，继续沿用版本、依赖、</text>
+<text x="1763" y="2720" font-size="29" font-weight="400" fill="#b2beb1" text-anchor="start">恢复与审查；减少盲目重复生成。</text>
+<rect x="145" y="2855" width="2107" height="54" rx="10" fill="#39452b" stroke="#667c44" stroke-width="2"/>
+<text x="175" y="2893" font-size="30" font-weight="600" fill="#dbfb74" text-anchor="start">价值核心：可控制、可修改、可复用的制作流程；模型升级后，制作方法仍可沿用。</text>
+<rect x="100" y="2985" width="2200" height="310" rx="24" fill="#242b23" stroke="#5f6c48" stroke-width="2"/>
+<rect x="145" y="3008" width="2100" height="86" rx="0" fill="none" stroke="none" stroke-width="2"/>
+<rect x="145" y="3018" width="60" height="60" rx="14" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="175" y="3059" font-size="30" font-weight="700" fill="#253224" text-anchor="middle">07</text>
+<text x="227" y="3059" font-size="43" font-weight="650" fill="#f0f3e9" text-anchor="start">边界与建议起点</text>
+<text x="145" y="3120" font-size="28" font-weight="650" fill="#ff987c" text-anchor="start">实际效果要验收</text>
+<text x="145" y="3161" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">口型、角色一致性、抠图边缘与节拍，需要实际观看、</text>
+<text x="145" y="3200" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">听音和校准。</text>
+<text x="855" y="3120" font-size="28" font-weight="650" fill="#ff987c" text-anchor="start">预算要看真实用量</text>
+<text x="855" y="3161" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">生成依赖云端 API；费用受时长、Agent 用量和重试影</text>
+<text x="855" y="3200" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">响。</text>
+<text x="1565" y="3120" font-size="28" font-weight="650" fill="#ff987c" text-anchor="start">改环境要适配</text>
+<text x="1565" y="3161" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">Swift 特效依赖 macOS；Windows、竖屏与新模型需要</text>
+<text x="1565" y="3200" font-size="27" font-weight="400" fill="#b2beb1" text-anchor="start">适配。</text>
+<rect x="145" y="3233" width="2107" height="45" rx="8" fill="#dbfb74" stroke="#dbfb74" stroke-width="2"/>
+<text x="1198" y="3266" font-size="30" font-weight="650" fill="#253224" text-anchor="middle">先做 15–30 秒 → 检查素材、口型与合成 → 再决定是否制作整曲</text>
+<text x="100" y="3351" font-size="25" font-weight="400" fill="#b2beb1" text-anchor="start">研究基线：759ba6a（2026-10-05）｜模型名称按上游约定；未验证当前可用性、费用或上游生产运行。</text>
+<text x="100" y="3400" font-size="25" font-weight="400" fill="#b2beb1" text-anchor="start">来源：github.com/makevoid/motion-graphics-music-video-skill</text>
+<text x="2300" y="3447" font-size="24" font-weight="400" fill="#b2beb1" text-anchor="end">本地排版理解图 · 风格示意并非作者成片 · 2026-10-10</text>
+</g></svg>

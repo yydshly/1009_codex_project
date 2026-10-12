@@ -1,0 +1,94 @@
+Use case: infographic-diagram.
+Asset type: one comprehensive Chinese knowledge poster for a GitHub research subproject.
+Primary request: Generate ONE finished, high-resolution infographic summarizing our evidence-based understanding of makevoid/motion-graphics-music-video-skill. The audience is a Chinese-speaking creator collecting GitHub projects who wants to understand the goal, actual visual results, inputs, outputs, how Opus and multiple models and code cooperate, extensible scenarios, personal value, and practical limits.
+
+Composition: a single portrait 3:4 poster, prefer 2400×3200 or the highest available readable resolution. Dense but meticulously organized editorial information design, with seven logical panels and generous spacing. The core production diagram is the largest visual centerpiece. Large legible Chinese typography, clear grid alignment, short rows, numbered headers, clean arrows. No tiny illegible prose. All essential supplied text must be represented accurately. Do not invent claims, percentages, dates, prices, capabilities, model names, or additional labels. Preserve the labels “已有 / 需适配 / 需新增” in the extension panel.
+
+Visual style: match the established research website: deep charcoal #151919, warm white typography, neon lime #dbfb74 for flow and confirmed capability, coral #ff987c for generative models, mint #93ccb8 for local code. Calm, professional, polished studio-diagram aesthetic. Crisp thin diagram connectors, filmstrip/time-axis, small waveform and layer-stack motifs. No glowing spaghetti, no fake app screenshot, no brand logos. Two tiny, clearly labelled original visual-style illustrations near the goal may depict a cream-grid mathematical editorial frame and a yellow-black manga typographic frame. These are schematic visual thumbnails, not copies or claimed screenshots of the author’s videos. The infographic itself must dominate, not the illustration.
+
+Exact Chinese content and hierarchy:
+
+TITLE:
+“音乐驱动的 AI MV 制作工作流”
+SUBTITLE:
+“012 · Motion Graphics Music Video Skill”
+“Opus 做导演与工程师｜模型生成素材｜代码编排成片”
+
+PANEL 01 “目标与实现效果”
+“从一首已有歌曲和创意，制作具有统一风格的完整音乐 MV。”
+Four compact badges: “角色表演与歌唱” “歌词与图形动效” “节拍、镜头与转场” “可审查、可局部修改”
+Style thumbnail captions: “纸感插画＋数学隐喻” and “漫画大字＋场景笑点”
+Clarifying sentence: “这是 Agent 制作工具链；音乐提供时间轴，成片效果由素材、编排与创作判断共同形成。”
+
+PANEL 02 “输入：你提供什么”
+“核心：已有歌曲（MP3 / WAV / M4A）＋主题与创意”
+“补充：歌词、角色设定、参考图／视频、风格与受众”
+“约束：预算、重试额度、片段长度、画幅与帧率”
+“运行：Claude Code、Fal 凭据与本地工具链”
+Note: “默认从已有音乐出发；原曲作为连续主音轨。”
+
+PANEL 03 “底层原理：导演、模型、代码协作”
+Render a CENTRAL CLEAR PIPELINE with explicit arrows and branches, not a flat list. Put Opus as a director node supervising the whole pipeline (planning plus review arrows), and Ruby CLI / MCP as the execution/record layer underneath; Opus must NOT appear as the image/video renderer.
+Director node:
+“Opus / Claude Code”
+“研究与创意 → 风格与分镜 → 写代码与调度 → 审查与修订”
+Execution strip:
+“Ruby CLI / MCP：工具适配、任务依赖、请求记录、素材版本”
+Main pipeline stages with short subtitles:
+1 “分析音乐” / “Python：节拍、起音、能量；歌词另行对齐”
+2 “生成图像” / “GPT Image 2.5 Sunburst：角色参考、关键帧与编辑”
+3 “生成表演” / “MiniMax H3：单角色、绿幕、锁定镜头”
+4 “抠图与编排” / “Python 抠图 → p5.js：字幕、图形、图层、镜头、逐帧时间线”
+5 “后期与合成” / “Python 音效／混音＋Swift VFX → FFmpeg”
+Song waveform below flows continuously across the composition and final assembly, labelled “完整原曲贯穿时间轴”.
+A prominent small branch from the singing stage:
+“歌唱与口型：分离人声 → 对齐片段 → 音频约束表演 → 看／听检查”
+“绑定音频不等于精准口型；独立口型模型属于扩展适配。”
+A slim loop arrow labelled “先试代表片段 → 审查 → 扩大生成 → 局部修订”
+Three contribution chips under the pipeline:
+“模型：外观、细节、动作与表演”
+“代码：布局、文字、图形与时序”
+“Agent 与人：风格、叙事、选择与验收”
+
+PANEL 04 “输出：你最终拿到什么”
+“成片：默认 16:9 / 24fps / 1080p MP4；原曲连续”
+“素材：角色参考、关键帧、表演片段、透明角色帧、背景与动效”
+“制作记录：分镜、提示词、时间线、配置、依赖与审查”
+“溯源：素材版本、模型请求 ID、尝试记录，支持恢复与局部重做”
+“清洁版，以及按计划制作的音效／特效版”
+
+PANEL 05 “可用与可扩展场景”
+Organize in three clear rows labelled by implementation status:
+“已有 / 最接近默认流程”
+“原创歌曲 MV、歌词动画、角色表演音乐短片”
+“需适配 / 新内容与运行方式”
+“知识歌曲与项目导览、品牌音乐短片、竖屏、不同帧率、Windows、替换模型”
+“需新增 / 产品与工具”
+“可视化制作工作台、实际费用台账与硬限制、专门口型校正服务”
+Tiny note: “场景建议不等于现成产品；换画幅、平台或模型需验证整条链路。”
+
+PANEL 06 “对你的价值”
+Use four concise distinct cards:
+“把研究变成传播”
+“把 GitHub 能力、原理与关键结论编排为音乐导览；事实与出处仍留在网页。”
+“积累个人制作资产”
+“角色参考、动效模板、分镜协议、时间线与审查方法，可跨主题复用。”
+“看懂问题来自哪里”
+“脸与动作问题回到素材；布局与节拍问题回到代码；叙事问题回到导演判断。”
+“建立可演进的生产流程”
+“换模型继续沿用版本、依赖、恢复与审查；减少盲目重复生成。”
+Highlight: “价值核心：把生成能力组织成可控制、可修改、可复用的作品流程。”
+
+PANEL 07 “边界与建议起点”
+“口型、角色一致性、抠图边缘与节拍需要实际验收。”
+“生成依赖云端 API；实际费用受时长、Agent 用量与重试影响。”
+“Swift 特效依赖 macOS；Windows、竖屏与新模型需要适配。”
+Big final action strip:
+“先做 15–30 秒 → 检查素材、口型与合成 → 再决定是否制作整曲”
+
+FOOTER, readable small type, no extra paragraph:
+“研究基线：759ba6a（2026-10-05）｜模型名称按上游约定；未验证当前可用性或费用”
+“来源：github.com/makevoid/motion-graphics-music-video-skill”
+“AI 生成理解汇总图｜风格缩略为示意，非上游成片｜2026-10-10”
+
+Accuracy constraints: do not present this as an end-to-end video model or a trained model. Do not claim Opus generates the pixels or H3 generates all final text/background graphics. Do not claim phoneme-accurate lipsync is guaranteed. Do not represent extensions as already implemented. No claimed monetary savings or cost quote. Text must be correct Simplified Chinese and all named tools correctly spelled.

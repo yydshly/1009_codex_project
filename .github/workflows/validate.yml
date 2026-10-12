@@ -87,5 +87,8 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 检查 Motion Graphics MV 完整研究页与交互
+        working-directory: projects/012-motion-graphics-music-video/web
+        run: npm run check
       - run: npm run check
       - run: npm run pages:build
