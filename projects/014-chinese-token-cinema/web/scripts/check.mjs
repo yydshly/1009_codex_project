@@ -64,6 +64,11 @@ assert.equal(overviewPng.readUInt32BE(16),overview.width*1.5);
 assert.equal(overviewPng.readUInt32BE(20),overview.height*1.5);
 console.log('一图总览通过：八个模块、自包含矢量、高清 PNG 与真实实验结论。');
 assert.equal(new URL(reference.publicMedia).hostname,'video.twimg.com');
+assert.equal(reference.researchClips.length,2);
+for(const clip of reference.researchClips){
+  assert.equal(clip.end-clip.start,12);assert.equal(clip.duration,12);
+  assert.equal(createHash('sha256').update(await fs.readFile(path.join(root,clip.localMedia))).digest('hex'),clip.sha256);
+}
 assert(reference.watchMarkers.every(marker=>marker.time>=0&&marker.time<reference.duration));
 const referenceFile=path.join(root,reference.localMedia);
 if(await fs.stat(referenceFile).catch(()=>null)){

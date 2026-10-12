@@ -57,6 +57,8 @@
 
 ## 网页研究区
 
+- ../web/public/assets/reference/token-study.mp4、shore-study.mp4：各 12 秒的真实原片研究引用，保留原声、完整画面与作者署名；分别来自原片 00:24–00:36、03:44–03:56，非完整原片，哈希与来源在 reference-source.json。
+
 - research-preview.png、research-tests-preview.png、research-mobile.png：研究区实际桌面、三轮测试与手机截图；原片播放器保留 DJ SHO 署名。
 - reference-contact.jpg：从实际下载的 DJ SHO 原片抽取九个时间点，用于确认字幕、人物、技术界面及镜头变化；不是独立生成图。
 - research-page-verification.json：原片和三条拒绝样片的真实播放、定位、音频互斥、键盘、范围请求、缺少本地原片时的回退及手机布局检查。

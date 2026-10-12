@@ -79,8 +79,11 @@ try{
   await page.route('**/assets/reference/dj-sho-slopcore.mp4',route=>route.fulfill({status:404,body:'Not found'}));
   await page.route('https://video.twimg.com/**',route=>route.abort());
   await page.reload();await page.waitForFunction(()=>window.researchReady);
-  assert.match(await page.locator('#reference-status').textContent(),/公开视频源|暂不可用/);
+  assert.match(await page.locator('#reference-status').textContent(),/网页研究片段/);
   assert(await page.locator('#reference-download').isHidden());
+  await page.getByRole('button',{name:'播放词块与回指，00:28'}).click();
+  await page.waitForFunction(()=>{const v=document.getElementById('reference-video');return v.videoWidth>0&&v.duration===12&&!v.paused&&v.currentTime>4.1;});
+  await page.locator('#reference-video').evaluate(v=>v.pause());
   report.missingLocalReferenceFallback=true;
   assert.equal(report.errors.length,0);
   report.status='verified_reference_and_three_rejected_pilots';

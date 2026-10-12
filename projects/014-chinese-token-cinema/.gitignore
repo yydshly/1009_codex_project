@@ -1,3 +1,5 @@
 web/public/exports/
 web/public/assets/reference/*.mp4
 web/public/assets/reference/*.info.json
+!web/public/assets/reference/token-study.mp4
+!web/public/assets/reference/shore-study.mp4

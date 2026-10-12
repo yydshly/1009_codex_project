@@ -20,7 +20,7 @@ document.querySelectorAll('[data-overview-watch]').forEach(button=>button.addEve
   $('overview-media-fallback').href=ours?'./?version=motion#stage':'./#reference';
   status.hidden=true;dialog.showModal();
   try{
-    let src;
+    let src,playbackTime=time;
     if(ours){
       src='./exports/wo-hai-zai-zhe-li-motion.mp4';
       const r=await fetch(src,{method:'HEAD'});
@@ -35,7 +35,10 @@ document.querySelectorAll('[data-overview-watch]').forEach(button=>button.addEve
     }else{
       const ref=await referenceSource();
       const local=await fetch(ref.localMedia,{method:'HEAD'}).catch(()=>null);
-      src=local?.ok&&local.headers.get('content-type')?.includes('video/')?ref.localMedia:ref.publicMedia;
+      const hasLocal=local?.ok&&local.headers.get('content-type')?.includes('video/');
+      const clip=ref.researchClips?.find(clip=>time>=clip.start&&time<clip.end);
+      src=hasLocal?ref.localMedia:clip?clip.localMedia:ref.publicMedia;
+      if(!hasLocal&&clip){playbackTime=time-clip.start;$('overview-media-note').textContent='DJ SHO 原片研究引用：'+clip.label+'，截取原片 '+clip.rangeLabel+'；保留原声、完整画面和作者署名。完整原片请通过作者入口观看。';}
     }
     if(run!==request||!dialog.open)return;
     media.src=src;
@@ -46,7 +49,7 @@ document.querySelectorAll('[data-overview-watch]').forEach(button=>button.addEve
       media.addEventListener('loadedmetadata',loaded);media.addEventListener('error',failed);media.load();
     });
     if(run!==request||!dialog.open)return;
-    media.currentTime=Math.min(time,media.duration-.05);
+    media.currentTime=Math.min(playbackTime,media.duration-.05);
     try{await media.play();}catch{status.textContent='点击视频中的播放键开始观看。';status.hidden=false;}
   }catch(error){if(run===request){status.textContent=error.message;status.hidden=false;}}
 }));

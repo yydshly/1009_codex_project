@@ -13,7 +13,7 @@
   "bytes": 191951547,
   "sha256": "1f34f0023f869f8f8efd5eb08bcbe4e2aaa78d7f62d4f77e6a2fde8b9a61c741",
   "license": "No public open-source license found; author retains rights. Local research reference copy; not original project material.",
-  "archivePolicy": "MP4 and raw extractor metadata are ignored by Git. Page falls back to the author public media URL if local copy is absent.",
+  "archivePolicy": "Full MP4 and raw extractor metadata are ignored by Git. Static Pages includes two 12-second attributed research excerpts; the full author post and public media source remain recorded.",
   "pipelineClaim": "Tool and GPT-2-weight statements are author claims, not independently verified source code.",
   "watchMarkers": [
     {
@@ -39,6 +39,32 @@
     {
       "time": 228,
       "label": "海岸与回应"
+    }
+  ],
+  "researchClips": [
+    {
+      "localMedia": "./assets/reference/token-study.mp4",
+      "start": 24,
+      "end": 36,
+      "rangeLabel": "00:24–00:36",
+      "label": "词块、弧线与人物",
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "bytes": 3013003,
+      "sha256": "9eadeef1ba6c25d458908ec2d7063b6d92f1c31ea7df06b64112e24a4d410c51"
+    },
+    {
+      "localMedia": "./assets/reference/shore-study.mp4",
+      "start": 224,
+      "end": 236,
+      "rangeLabel": "03:44–03:56",
+      "label": "海岸情绪与回应",
+      "duration": 12,
+      "width": 1280,
+      "height": 720,
+      "bytes": 7815778,
+      "sha256": "3d72fe44478bf5a37ec89be895fd2883f4bd05f6ad2860520013d89d8b670c61"
     }
   ]
 }

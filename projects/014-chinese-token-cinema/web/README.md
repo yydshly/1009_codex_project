@@ -36,6 +36,8 @@ MP4 情绪版保存到 public/exports/wo-hai-zai-zhe-li-v2.mp4，页面自动出
 
 ## 研究区与参考播放器
 
+2026-10-12 公网验收发现 video.twimg.com 媒体源无法内嵌播放。静态站增加两段各 12 秒的署名真实研究引用：assets/reference/token-study.mp4（原片 00:24–00:36）、shore-study.mp4（03:44–03:56）。它们是保留原声与完整画面的证据素材，非模型生成或网页构建产物；来源、时间区间与 SHA-256 存于 reference-source.json。没有完整研究副本时优先展示片段，两个观看点按原片时间偏移正确定位；本地完整原片和六点导航仍保留，完整观看走作者原帖。
+
 首页 #research 汇总理解、过程、结果、三轮未通过测试、最终结论与待验证路线；#reference 可直接观看原片，#experiments 对照原唱输入和实际平台输出。播放器互斥，原片不自动播放；原有主播放器和版本切换保留。
 
 assets/reference/dj-sho-slopcore.mp4 为用户授权下载的原片研究副本，1920×1080、30 FPS、276.053333 秒，191,951,547 字节，作者 DJ SHO，未发现开源授权。该 MP4 与 .info.json 已忽略；不作为中文原创片素材。assets/research/reference-source.json 保存来源与哈希，缺少本地副本时尝试作者的公开视频地址；远端失效时页面显示错误并保留原帖入口。
