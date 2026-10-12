@@ -1,0 +1,12 @@
+{
+  "name": "beeftv-research-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "dev": "node scripts/serve.mjs",
+    "preview:pages": "node scripts/serve.mjs --site",
+    "check": "node scripts/check.mjs"
+  }
+}

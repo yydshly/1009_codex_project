@@ -64,5 +64,7 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 检查 BeefTV 完整研究与能力展示
+        run: npm run check --prefix projects/006-beeftv/web
       - run: npm run check
       - run: npm run pages:build
