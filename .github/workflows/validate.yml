@@ -28,5 +28,10 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 构建与检查抖音内容工作流研究页
+        working-directory: projects/018-ah-douyin-clean-downloader/web
+        run: |
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
