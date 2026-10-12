@@ -38,3 +38,9 @@
 | `stage-editor-validation.json` | 编辑流程的实际交互与多页版本提示、原方案保留、90 项 Node 和构建 / 交付检查记录 |
 
 2026-10-10（Asia/Shanghai）在 Windows / Chromium 155 / RTX 4070 Laptop / ANGLE D3D11 保存。只能证明该环境和输入；不证明真实设备准确度或 WebGPU 等价性。原始 `preview.svg` 占位图已被真实截图替换。
+
+## 2026-10-12 公开发布
+
+- `publication-validation.json`：源提交、成功的 GitHub 校验与 Pages 工作流、104 测试、编号路径 / 公开 HTTP 资源核验、原图哈希及浏览器实际范围。
+- `publication-webpage.jpg`：正式研究网页的实际浏览器截图，停在原始引导图位置；不是图像生成稿。
+- `publication-pump.jpg`：公开站点的实际默认极光环岛泵展台，选中叶轮并同步讲解；线上站点没有本地 v4 保存项目，因此与历史三岛截图布置不同。

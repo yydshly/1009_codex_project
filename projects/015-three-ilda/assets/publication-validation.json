@@ -1,0 +1,100 @@
+{
+  "date": "2026-10-12",
+  "timezone": "Asia/Shanghai",
+  "sourceCommit": "70e5a40786b46cf30075e335a0b28373162a9afa",
+  "publicUrl": "https://yydshly.github.io/1009_codex_project/015-three-ilda/product.html",
+  "repository": "https://github.com/yydshly/1009_codex_project",
+  "actions": {
+    "validation": {
+      "id": 38268803740,
+      "conclusion": "success"
+    },
+    "pages": {
+      "id": 38268808187,
+      "conclusion": "success",
+      "buildCompletedAt": "2026-10-12T15:15:40Z",
+      "deployCompletedAt": "2026-10-12T15:15:58Z"
+    }
+  },
+  "content": {
+    "sections": [
+      "summary",
+      "overview",
+      "understanding",
+      "modules",
+      "mechanism",
+      "reuse",
+      "examples",
+      "value",
+      "exploration",
+      "boundary",
+      "sources",
+      "resources"
+    ],
+    "explorationGroups": 16,
+    "explorationItems": 64,
+    "metadataSummarySections": 11,
+    "guide": "Original 2026-10-10 PNG/SVG retained; no regeneration",
+    "guideSHA256": {
+      "research-overview.png": "f2a679b69dc51cfe6f5ff02459b22daf98383e73fe07547afec6d06a414d9c56",
+      "research-overview.svg": "9b3cbac09864a96d4ea371f1e6f3da08eb4a66fbc73048afa858b0a1efc7803f"
+    }
+  },
+  "local": {
+    "nodeTests": {
+      "tests": 104,
+      "pass": 104,
+      "fail": 0,
+      "skipped": 0
+    },
+    "build": "passed",
+    "catalogCheck": "passed",
+    "pagesBuild": "passed",
+    "numberedPath": "http://127.0.0.1:5217/015-three-ilda/",
+    "httpVerification": "passed"
+  },
+  "publicHttp": {
+    "verification": "passed",
+    "scope": [
+      "22 program files, hashes and previews",
+      "licenses and attribution",
+      "12 original record files compared byte for byte",
+      "five templates and saved exhibition configuration",
+      "research, builder, music, launch and pump pages",
+      "referenced JS/CSS",
+      "90-second PCM WAV"
+    ],
+    "transport": "Initial concurrent request encountered TLS ECONNRESET. Full verification then passed with concurrency 3 and bounded transport retries; one file required retry. No certificate checks bypassed."
+  },
+  "browser": {
+    "notes": {
+      "title": "激光、舞台与内容复用 · Three ILDA 完整研究",
+      "groups": 16,
+      "items": 64,
+      "guideLoaded": true,
+      "guideWidth": 1920,
+      "viewportWidth": 1265,
+      "horizontalOverflow": false,
+      "consoleErrors": []
+    },
+    "pump": {
+      "ready": true,
+      "template": "aurora-island",
+      "partCount": 6,
+      "selectedPart": "叶轮",
+      "screenTitle": "04 · 叶轮",
+      "consoleErrors": []
+    }
+  },
+  "fixes": [
+    "Preserve public/upstream runtime inputs despite root upstream ignore rule",
+    "Retain upstream byte content and line endings with local .gitattributes"
+  ],
+  "limits": [
+    "This publication did not re-test all 22 programs across five templates on GPU",
+    "No new audio listening, WebGPU GPU, mobile GPU, cloud collaboration or real laser hardware validation",
+    "Fresh public-origin browser uses built-in template; v4 exhibition reproduction requires importing and saving provided JSON",
+    "Historical 2026-10-10 screenshots and reports retain their original scope and date",
+    "Post-deployment documentation records the verified source commit and does not claim a new GPU experiment"
+  ]
+}

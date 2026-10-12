@@ -58,7 +58,7 @@ three-ilda 将 ILDA 节目的坐标、颜色与关光指令变为可嵌入 Three
 | GPU 实测 | Chromium 155 / NVIDIA RTX 4070 Laptop / ANGLE D3D11 |
 | 研究日期 | 2026-10-10（Asia/Shanghai） |
 | WebGPU | 已研究源码和 CPU 用例；未执行 WebGPU GPU 渲染或双后端比较 |
-| Pages 输出 | `web/dist`；编号子路径 `/1009_codex_project/015-three-ilda/`；沿用总库 GitHub Pages 工作流，部署核验记录单独保存 |
+| Pages 输出 | `web/dist`；编号子路径 `/1009_codex_project/015-three-ilda/`；GitHub Pages 已发布；2026-10-12 公开页面、素材和交互核验通过 |
 
 ## 运行
 
@@ -111,3 +111,11 @@ npm run dev
 ![002 泵模型接入已有三岛展台](assets/pump-exhibit-exploded.jpg)
 
 *2026-10-10 本地浏览器实际截图：原 v4 舞台、展开泵模型、叶轮选择与三屏同步讲解。模型为既有本地简化教学示意。全景见 assets/pump-exhibit-wide.jpg，验证范围见 [运行记录](assets/pump-exhibit-validation.json)。*
+
+## 2026-10-12 网页发布与完整记录
+
+[打开完整研究网页](https://yydshly.github.io/1009_codex_project/015-three-ilda/product.html) · [激光实验台](https://yydshly.github.io/1009_codex_project/015-three-ilda/) · [部署核验记录](assets/publication-validation.json)
+
+源提交 `70e5a40786b46cf30075e335a0b28373162a9afa` 已推送到 main。[GitHub 校验](https://github.com/yydshly/1009_codex_project/actions/runs/38268803740) 与 [Pages 部署](https://github.com/yydshly/1009_codex_project/actions/runs/38268808187) 均成功。104 项 Node 通过，干净检出构建、总库编号汇总和公开 HTTP 资源检查通过；引导 PNG / SVG 与原始文件逐字节一致。线上研究页确认 16 类 / 64 项目录，无水平溢出；泵示例就绪并验证叶轮点选与屏幕讲解同步。
+
+本次完整摘要含能力、模块、原理、素材、效果与复用、价值、16 类方向、使用流程及依据边界。网页保留原始理解图、实际截图、三业务入口和下载资料。运行与交付仍有历史记录中列明的专项验证边界；本次发布不是全部 GPU 场景或商业产品验收。
