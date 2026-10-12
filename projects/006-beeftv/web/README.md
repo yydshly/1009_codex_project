@@ -25,6 +25,6 @@ public/ 是可直接发布目录，所有站内资源用相对路径，适配统
 
 总库根目录执行 index:sync、check 与 pages:build。再从本目录运行 npm.cmd run preview:pages，访问 http://127.0.0.1:4177/006-beeftv/。
 
-公开地址：https://yydshly.github.io/1009_codex_project/006-beeftv/ 。实际部署状态与运行编号记录在 ../research.md。
+公开地址：https://yydshly.github.io/1009_codex_project/006-beeftv/ 。2026-10-12 已部署成功，公开 HTTP / 浏览器检查通过；工作流运行编号与证据记录在 ../research.md。
 
 原图和其 HTML 排版源在 ../assets/，发布副本为 public/assets/beeftv-overview.png。原图属于保留素材，请保持字节不变；新页面截图使用独立文件名。research.css 为完整研究章节样式，guide.js 为图像阅读交互，app.js 为原流程讲解。
