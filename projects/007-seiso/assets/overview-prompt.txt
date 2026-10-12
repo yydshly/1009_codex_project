@@ -1,0 +1,113 @@
+Use case: infographic-diagram
+Asset type: one comprehensive Chinese technical infographic for a GitHub project research repository.
+Primary request: Create ONE complete, highly legible Chinese infographic explaining Seiso's principles, current capabilities, use cases, specific value to the user's GitHub research hub, expansion possibilities, and boundaries. No illustrations of a database product or autonomous LLM performing seiso checks. The factual meaning is crucial: this is a deterministic Markdown static checker; metadata selects rules; prose and structure are inspected too; it is NOT arbitrary user field validation out of the box.
+Style: polished editorial technical diagram, clean white/off-white paper background, dark navy text, restrained teal for stable capabilities, amber for preview capabilities, blue for configuration extensions, purple for custom development. Modern Chinese sans serif, sharp vector-like icons and cards. No decorative art or fake UI screenshots. Dense but readable, generous margins and consistent grid. Produce a high resolution portrait poster with a roughly 4:5 aspect ratio; all Chinese characters must be accurate and large enough to read when zoomed. Small monochrome icons for document, settings, magnifier, links, report, and code.
+Composition: Clear top title and explanatory formula. One horizontal execution flow below. Then a 2-column x 2-row grid: capabilities, use scenarios, user value, expansion. A wide practical workflow strip and boundary strip at bottom. Every listed content block must be present. Keep text concise exactly as below; avoid extra filler, invented stats or capabilities. Do not turn preview features into stable features, and do not turn development proposals into existing features. Headings and status chips clearly separated.
+Text to render verbatim (layout may change but preserve every meaning and all status distinctions):
+
+TITLE:
+Seiso 文档规则检查全景图
+SUBTITLE:
+让反复维护的 Markdown 文档接受统一检查
+
+CORE BOX:
+Markdown 类型与元数据 ＋ 文档结构与正文 ＋ 配置规则 → 识别问题 → 输出诊断与有限修复
+字段决定如何查，正文与结构决定查什么
+kind：文档用途　lang：语言　canonical：权威来源
+类型也可按文件路径配置；自定义任意业务字段需另加检查器
+
+SECTION 01:
+原理：本地规则与算法，不调用大模型
+FLOW, five connected steps:
+读取 Markdown 与 seiso.toml
+→ 解析标题、段落、表格、链接与位置
+→ 解析类型、语言并建立文档索引
+→ 运行规则、词表、正则与集合相似度
+→ 输出位置、关联来源和修改建议
+small notes:
+单文件：类型、表达、文件链接、例外
+跨文件：标题锚点、重复定义、相似段落
+重复检测：标识符或字符片段的 Jaccard 相似度
+
+SECTION 02:
+现有能力
+GREEN stable box:
+默认稳定
+• 文档类型缺失或无效
+• 本地文件链接目标不存在
+• 例外声明无效或已经失效
+AMBER preview box:
+开启预览
+• 当前版本、部署状态等易变快照
+• 对话残留、步骤前铺垫和章节混杂
+• 重复字段定义、相似段落与归属歧义
+• 本地标题锚点缺失、含糊的引用
+• 比较性评价附近缺少证据
+OUTPUT box:
+处理结果
+文本 / JSON / SARIF / GitHub 注解
+--fix 主要清理确认失效的例外
+内容改写由人或外部 AI 决定
+
+SECTION 03:
+适合的使用场景
+• AI 写文档：编辑后反馈，提交前再检查
+• 多人协作：共同执行文档维护规则
+• 多文档项目：配置说明集中，其他页面引用
+• 操作手册：减少易变状态和含糊指向
+• 文档站点：配置路由，检查本地引用
+• 工程流程：pre-commit 与 CI 自动检查
+SCENE NOTE:
+适合反复检查且标准明确的文档；少量随手笔记收益有限
+
+SECTION 04:
+对你的 GitHub 研究总库的价值
+EXISTING muted row:
+已有：projects.json 保存项目元数据
+npm run check 校验编号、目录、预览与索引
+SEISO VALUE:
+• 检查 README、research.md 与 AGENTS.md 的文档问题
+• 用类型映射区分入口、参考、操作与决策
+• 用领域划分减少不同项目之间的误判
+• 让重复说明集中到权威文档，降低多处维护成本
+• 把部分检查结果交给 AI，形成修改反馈
+• 对“更快、更好”等评价提示补充可核查依据
+IMPORTANT NOTE:
+固定研究 commit 是复现依据，可按用途保留并填写有理由的例外
+Seiso 不替代现有元数据与索引校验
+
+SECTION 05:
+可扩展场景
+BLUE CONFIG box:
+现有配置可实现
+• 路径类型映射与规则选择
+• 中英日词表扩展、重复检测阈值
+• 比较领域、文档站点路由
+• 权威来源与有理由的例外
+BLUE INTEGRATION box:
+外部集成可实现
+• Codex / 其他 Agent 调用 CLI
+• 提交与发布检查、编辑器反馈
+• 汇总 JSON / SARIF 形成质检报告
+PURPLE DEVELOPMENT box:
+需要新增规则或配套脚本
+• 校验来源、commit、许可证、环境、证据字段
+• 检查 projects.json 与研究说明的一致性
+• 校验图片说明、实验记录与发布清单
+• 接入模型做语义审阅，再由人确认
+• 接入检索或知识图谱，须另建索引与存储
+
+BOTTOM PRACTICAL WORKFLOW:
+你的落地流程
+研究模板 → 人或 AI 写 Markdown → 总库校验 ＋ Seiso 检查 → 修复并复查 → 提交
+先启用稳定规则；预览规则经本地评估后再纳入流程
+
+BOUNDARIES:
+能力边界
+不是数据库或知识检索系统｜不保证技术事实正确
+不验证证据质量｜不抓取外部 URL｜不自动改写文档含义
+预览规则可能误报；业务字段规范不会自动变成可执行规则
+
+FOOTER:
+依据：scarletkc/seiso · commit 7e5b3b1 · 源码版本 0.3.0 · MIT
+核查日期：2026-10-09　图为研究说明，非软件界面

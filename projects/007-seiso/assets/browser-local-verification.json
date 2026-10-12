@@ -1,0 +1,43 @@
+{
+  "verifiedAt": "2026-10-12T10:23:39.985Z",
+  "url": "http://127.0.0.1:4317/1009_codex_project/007-seiso/",
+  "guideSha256": "7949dbb60ecbf34292670be52ba9eb588224eeb49b2566feb4157bc4297ed97c",
+  "checks": [
+    "HTTP 200",
+    "27/5/22 规则筛选",
+    "规则解释展开",
+    "示例切换与方向键",
+    "原图放大与 Escape/按钮关闭及焦点返回",
+    "桌面、平板、手机无页面水平溢出",
+    "全部图片加载与原图 SHA-256",
+    "无脚本、控制台、资源请求错误"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "scroll": 1440,
+      "viewport": 1440,
+      "images": true
+    },
+    {
+      "width": 768,
+      "scroll": 768,
+      "viewport": 768,
+      "images": true
+    },
+    {
+      "width": 390,
+      "scroll": 390,
+      "viewport": 390,
+      "images": true
+    },
+    {
+      "width": 360,
+      "scroll": 360,
+      "viewport": 360,
+      "images": true
+    }
+  ],
+  "errors": [],
+  "failedResources": []
+}

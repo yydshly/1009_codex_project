@@ -59,5 +59,10 @@ jobs:
         run: |
           npm run build
           npm run check
+      - name: 构建与检查 Seiso 完整研究页
+        working-directory: projects/007-seiso/web
+        run: |
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
