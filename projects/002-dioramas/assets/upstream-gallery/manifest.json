@@ -1,0 +1,129 @@
+{
+  "repository": "blendi-remade/dioramas",
+  "commit": "868539fb5b64a843071a2247d5d8bacb706a07b1",
+  "kind": "上游案例截图 / public/img/index",
+  "license": "CC BY 4.0",
+  "credit": "Dioramas (github.com/blendi-remade/dioramas)",
+  "files": [
+    {
+      "name": "abyssal.webp",
+      "bytes": 129754,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/abyssal.webp",
+      "sha": "62e075da87a6ab18d4306f71eaff539f2bbc6210"
+    },
+    {
+      "name": "artemis.webp",
+      "bytes": 124572,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/artemis.webp",
+      "sha": "fdddba668f712adffd3d71baec860198b50736e3"
+    },
+    {
+      "name": "atlas.webp",
+      "bytes": 77806,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/atlas.webp",
+      "sha": "73df086c8013dba6ee11284d4416f17cc233de26"
+    },
+    {
+      "name": "ember.webp",
+      "bytes": 121474,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/ember.webp",
+      "sha": "606fb5471e9f574752e11498acc786477596c367"
+    },
+    {
+      "name": "florae.webp",
+      "bytes": 91790,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/florae.webp",
+      "sha": "e94e61775d09e563ec86acc3e27b40e5d3f80fe0"
+    },
+    {
+      "name": "gambit.webp",
+      "bytes": 62718,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/gambit.webp",
+      "sha": "349369ee6bfb747764f1183c1ee6250be5806e42"
+    },
+    {
+      "name": "hangar.webp",
+      "bytes": 97258,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/hangar.webp",
+      "sha": "e99f0cfd88415b402c18780836b0bbd279288ceb"
+    },
+    {
+      "name": "horologie.webp",
+      "bytes": 74282,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/horologie.webp",
+      "sha": "b31b8ec83f499746af411e7e4f14fc9fdd297e1c"
+    },
+    {
+      "name": "keeper.webp",
+      "bytes": 91048,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/keeper.webp",
+      "sha": "17cd370171b62c2e9eae8210299148aaf03492c3"
+    },
+    {
+      "name": "koen.webp",
+      "bytes": 89914,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/koen.webp",
+      "sha": "3a385b212311bc2ff829b52797139ebe6555f4a6"
+    },
+    {
+      "name": "koi.webp",
+      "bytes": 181244,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/koi.webp",
+      "sha": "9c6b724b52e7e4463e80bb93323a3ce8048dcd36"
+    },
+    {
+      "name": "lithos.webp",
+      "bytes": 63406,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/lithos.webp",
+      "sha": "ac9b78b27c9832c50898ff80ee3ab0cdaf686ebd"
+    },
+    {
+      "name": "lowfreq.webp",
+      "bytes": 71656,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/lowfreq.webp",
+      "sha": "443fc4f895160f1e28e08f0d7eaf8b54f3b04619"
+    },
+    {
+      "name": "monolith.webp",
+      "bytes": 83722,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/monolith.webp",
+      "sha": "c373e5b6c2afcfe703e1be02fa8e3d419a62cff2"
+    },
+    {
+      "name": "nocturne.webp",
+      "bytes": 53914,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/nocturne.webp",
+      "sha": "ab76f0ffdf74abe0f4cbf39afebcb3b3cd3e6a89"
+    },
+    {
+      "name": "racer.webp",
+      "bytes": 104026,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/racer.webp",
+      "sha": "7dd75e0ee08b7766cc5c788204cf363cda80f44b"
+    },
+    {
+      "name": "reliquary.webp",
+      "bytes": 50048,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/reliquary.webp",
+      "sha": "238fae0ba9c855ced22eaa9a5a8b32a506fe969a"
+    },
+    {
+      "name": "sucre.webp",
+      "bytes": 99446,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/sucre.webp",
+      "sha": "15dcab755d4218ac8ddf160a22cae122f5778f60"
+    },
+    {
+      "name": "terrarium.webp",
+      "bytes": 56594,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/terrarium.webp",
+      "sha": "9101447d95a90e3ebf487219c48f420db80cace5"
+    },
+    {
+      "name": "velocity.webp",
+      "bytes": 66658,
+      "source": "https://raw.githubusercontent.com/blendi-remade/dioramas/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index/velocity.webp",
+      "sha": "5409b16cd76d83e4b1a19fe464a8bb69cd47fdfb"
+    }
+  ]
+}

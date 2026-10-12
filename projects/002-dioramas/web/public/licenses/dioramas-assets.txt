@@ -1,0 +1,15 @@
+Dioramas upstream gallery images
+
+Credit: Dioramas (github.com/blendi-remade/dioramas)
+Repository: https://github.com/blendi-remade/dioramas
+Commit: 868539fb5b64a843071a2247d5d8bacb706a07b1
+Original files: public/img/index/*.webp (20 images)
+Changes: None. Original image bytes are preserved.
+
+License: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Source license statement:
+https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/ASSET-LICENSES.md
+
+Only small static gallery images are included. No upstream 3D model files or engine code are included.

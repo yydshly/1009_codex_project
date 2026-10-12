@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Dioramas 完整研究：AI 素材调度与优化、9 个共享引擎模块、开发工具、20 个案例、浏览器实时控制、设计价值、复用与扩展；沿用理解总览图，并以离心泵交互实验验证方法。">
+  <meta name="theme-color" content="#f0eee7">
+  <title>Dioramas · 从素材到交互作品</title>
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='8' fill='%231d3936'/%3E%3Cpath d='M8 22V10h7c9 0 9 12 0 12Z' fill='none' stroke='%23e7b388' stroke-width='3'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <aside class="sidebar" aria-label="研究导航">
+    <a class="brand" href="#overview"><span class="brand-mark">D.</span><span>开源研究室<small>RESEARCH / 002</small></span></a>
+    <div class="side-title">研究档案</div>
+    <nav>
+      <a href="#understanding"><span>01</span>总览与摘要</a>
+      <a href="#capabilities"><span>02</span>能力与模块</a>
+      <a href="#principle"><span>03</span>底层原理</a>
+      <a href="#effects"><span>04</span>已有效果</a>
+      <a href="#scenarios"><span>05</span>使用场景</a>
+      <a href="#value"><span>06</span>价值与复用</a>
+      <a href="#lab"><span>07</span>真实场景实验<i>LIVE</i></a>
+      <a href="#extend"><span>08</span>扩展方向</a>
+      <a href="#evidence"><span>09</span>来源与边界</a>
+    </nav>
+    <div class="side-note"><span class="status-dot"></span>源码研究 + 本地实验<p>整理 / 2026.10.12<br>基线 / 868539f</p><a href="https://github.com/blendi-remade/dioramas" target="_blank" rel="noreferrer">查看原仓库 ↗</a></div>
+  </aside>
+  <main id="main">
+    <header class="topbar"><span>GITHUB RESEARCH <b>/</b> DIORAMAS</span><a href="#evidence">查看研究依据 ↗</a></header>
+    <section class="hero" id="overview">
+      <div>
+        <p class="eyebrow"><span></span>一个关于「最终作品如何形成」的研究</p>
+        <h1>把 3D 素材，<br>编排成<span>体验。</span></h1>
+        <p class="lede">Dioramas 将素材流水线、共享实时引擎与 20 个网页案例连接起来。外部模型生产素材，设计与代码定义画面、行为和内容。我们研究的是：<strong>同一份素材，如何被持续设计与控制，形成完整网页。</strong></p>
+        <div class="hero-links"><a class="text-link" href="#understanding">一张图理解完整链路 <span>↓</span></a><a class="text-link" href="#lab">进入离心泵交互实验 <span>↓</span></a></div>
+      </div>
+      <div class="thesis">
+        <p class="eyebrow">我们形成的理解</p>
+        <div><span>01</span><h3>素材决定形状</h3><p>模型提供几何、贴图与可选动画</p></div>
+        <div><span>02</span><h3>渲染决定观感</h3><p>材质、灯光、阴影与后期共同塑形</p></div>
+        <div><span>03</span><h3>控制决定体验</h3><p>镜头、场景状态与交互建立叙事</p></div>
+        <small>工程整合与视觉实现，是它的主要可迁移价值。</small>
+      </div>
+    </section>
+
+    <section class="section understanding" id="understanding" aria-labelledby="understanding-title">
+      <div class="section-heading"><div><p class="eyebrow">01 / OUR UNDERSTANDING</p><h2 id="understanding-title">从 AI 素材，到可交互网页。</h2></div><span class="pill outline">沿用我们的原图</span></div>
+      <p class="section-intro understanding-lede">我们的理解是：<strong>调用生图与图转 3D 模型生产素材，处理成网页可用资产，再通过设计、共享引擎、场景代码和 HTML 内容，形成最终的网页效果。</strong>这里的“生成”分为模型生成素材与浏览器计算画面；两者发生在不同阶段。</p>
+      <div class="understanding-equation"><span>作品如何形成</span><p>设计目标 <i>+</i> 可用素材 <i>+</i> 共享引擎 <i>+</i> 场景代码 <i>+</i> HTML 内容 <i>+</i> 测试迭代</p></div>
+      <figure class="understanding-figure" aria-describedby="map-caption">
+        <a data-map-full target="_blank" rel="noreferrer" aria-label="打开 Dioramas 完整理解总览图，可缩放查看"><img id="understanding-map" src="../assets/understanding-map.svg" width="1600" height="1940" alt="完整链路：设计需求驱动外部生图和图转三维服务，Dioramas 脚本调度并优化素材；通过共享引擎、场景代码与 HTML 界面实现设计，输入驱动状态与实时渲染，经过截图、移动测试和评审迭代成为完整交互网页。也可直接接入已有授权素材或程序几何。"></a>
+        <figcaption id="map-caption"><span>点击图片打开大图；手机可缩放查看。下方提供分层文字说明。</span><div class="map-downloads"><a data-map-svg download="dioramas-understanding.svg">下载 SVG ↗</a><a data-map-png download="dioramas-understanding.png">下载 PNG ↗</a></div></figcaption>
+      </figure>
+      <div class="understanding-grid">
+        <article><span class="card-index">01 / 模型的贡献</span><h3>提供形状与视觉素材</h3><p>生图模型提供参考图、背景或产品图片；图转 3D 服务提供几何与 PBR 贴图。部分角色资产还可带骨骼或动画。生成能力来自外部服务，模型并不包含完整的网页设计与交互规则。</p></article>
+        <article><span class="card-index">02 / 本库的贡献</span><h3>调度、处理、编排与实现</h3><p>开发脚本组织生成任务、参数、结果记录与素材优化；共享代码管理渲染和输入；案例代码实现专属效果。模型接入后的材质调整、镜头、灯光、状态和内容关联，都有具体工程工作。</p></article>
+        <article><span class="card-index">03 / 设计的贡献</span><h3>决定最终作品如何表达</h3><p>对象放在哪里、用什么灯光、滚动时看哪里、点击后发生什么、文字怎样排布，需要设计并落实到代码。生成任务脚本的输出是素材；优秀的页面由构图、叙事、内容和迭代共同形成。</p></article>
+        <article><span class="card-index">04 / 运行的方式</span><h3>浏览器持续计算画面</h3><p>成品加载已有资产，用户输入改变场景状态，程序逐帧更新镜头、物体与效果参数，WebGL / GPU 绘制画面，HTML 同步说明与界面。普通浏览、滚动和点击通常无需再调用生成模型。</p></article>
+      </div>
+      <div class="understanding-takeaway"><b>可迁移价值</b><p>素材生产流水线、渲染底座、输入与滚动、状态控制、特效实现、完整页面案例和开发工具，都可按需求迁移。已有授权 GLB、CAD 导出或程序几何也能接入；特定效果需要抽取案例逻辑、准备合适资产并适配。</p></div>
+      <p class="source-caption">总览图为本次研究整理，依据固定提交的 <a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/gen.mjs" target="_blank" rel="noreferrer">素材脚本</a>、<a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/docs/ENGINE.md" target="_blank" rel="noreferrer">引擎文档</a>、案例代码与开发工具；并非上游官方架构图。</p>
+      <div class="research-abstract" id="summary"><p class="eyebrow">RESEARCH ABSTRACT / 完整研究摘要</p><h3>能力、模块、原理与价值，一起看清。</h3><p id="research-summary-text"></p><div id="research-summary-grid" class="research-summary-grid"></div></div>
+    </section>
+
+    <section class="section" id="capabilities">
+      <div class="section-heading"><div><p class="eyebrow">02 / CAPABILITIES & MODULES</p><h2>它提供什么能力？</h2></div><span class="section-counter">3 层工程能力</span></div>
+      <div class="capability-grid">
+        <article class="capability"><span class="card-index">A / ASSETS</span><h3>组织素材生产</h3><p>调用生图与图转 3D 服务，记录任务状态，下载结果并优化模型。AI 生成算法来自外部服务。</p><ul><li>Nano Banana 2 → 参考图片</li><li>Meshy 7.1 → 带材质的 GLB</li><li>meshopt + WebP → 网页素材</li></ul><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/gen.mjs" target="_blank" rel="noreferrer">素材流水线源码 ↗</a></article>
+        <article class="capability"><span class="card-index">B / RENDERING</span><h3>建立画面风格</h3><p>在 Three.js 上封装渲染循环、环境光、模型处理与后期；部分光束、反射和程序纹理由自定义代码提供。</p><ul><li>PBR 材质与环境光</li><li>环境遮蔽、辉光、色调映射</li><li>平面反射与体积光</li></ul><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/src/core/engine.js" target="_blank" rel="noreferrer">共享渲染核心 ↗</a></article>
+        <article class="capability"><span class="card-index">C / CHOREOGRAPHY</span><h3>编排完整体验</h3><p>把滚动、鼠标与触摸转成镜头、物体和场景变化。20 个案例提供各自的叙事与交互实现。</p><ul><li>Lenis + GSAP 滚动控制</li><li>独立页面中的特殊交互</li><li>加载、导航与截图评审</li></ul><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/docs/ENGINE.md" target="_blank" rel="noreferrer">开发与质量说明 ↗</a></article>
+      </div>
+      <div class="insight"><span>研究判断</span><p>它的工程价值在于<strong>组织素材、封装表现、控制状态、编排叙事</strong>。部分能力来自成熟库，部分效果由项目自行实现；许多特殊交互位于示例目录，提炼成通用模块仍需要开发。</p></div>
+      <details class="tool-explainer core-directory"><summary>模块地图：9 个共享核心文件如何分工 <span>+</span></summary><div class="tool-content"><p>共享文件提供多个作品都能使用的能力。素材任务与截图工具运行在开发阶段，作品专属规则和网页内容位于案例目录。</p><div class="table-scroll"><table><thead><tr><th>模块</th><th>已有职责</th><th>作品仍需配置或实现</th></tr></thead><tbody>
+        <tr><td>engine.js</td><td>渲染器、相机、帧循环、尺寸适配、环境与后期、模型规范化。</td><td>场景对象、视觉参数、灯光构图与每帧更新逻辑。</td></tr>
+        <tr><td>assets.js</td><td>GLB / 贴图加载与解码、进度、模型表面采样。</td><td>资产地址、对象选择、部件语义与加载策略。</td></tr>
+        <tr><td>input.js</td><td>指针位置、速度、按下状态与平滑值。</td><td>命中检测、输入到行为的映射、限制和反馈。</td></tr>
+        <tr><td>scroll.js</td><td>Lenis 与 GSAP、页面 / 元素进度、文字显现。</td><td>章节范围、镜头路径、关键状态与叙事节奏。</td></tr>
+        <tr><td>ui.js</td><td>加载界面、光标、磁吸按钮、案例导航。</td><td>文案、排版、按钮逻辑、触摸与键盘等效操作。</td></tr>
+        <tr><td>reflector.js</td><td>平面镜像渲染，材质反射接入与粗糙度模糊。</td><td>反射面、隐藏对象、扭曲、分辨率与性能预算。</td></tr>
+        <tr><td>volumetric.js</td><td>结合深度的射线步进光束与雾感。</td><td>光源、密度、范围、噪声与场景接入。</td></tr>
+        <tr><td>textures.js</td><td>GPU 烘焙的程序噪声纹理与法线。</td><td>具体材质公式、尺度与视觉参数。</td></tr>
+        <tr><td>worlds.js</td><td>20 个案例的名称、标识与导航信息。</td><td>新增作品的入口、内容与场景实现。</td></tr>
+      </tbody></table></div><p class="source-caption">依据 <a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/docs/ENGINE.md" target="_blank" rel="noreferrer">ENGINE.md / Core API</a>。水波、液体、机芯分解、物理、音频和规则等特殊效果还需阅读案例辅助模块。</p></div></details>
+    </section>
+
+    <section class="section" id="principle">
+      <div class="section-heading"><div><p class="eyebrow">03 / UNDER THE HOOD</p><h2>作品在两条链路里形成。</h2></div><span class="section-counter">点击节点查看职责</span></div>
+      <div class="pipeline-box"><p class="pipeline-caption">制作阶段 <span>生成与处理素材</span></p><div class="pipeline"><button class="active" data-step="image" aria-pressed="true"><small>01</small><b>生成参考图片</b><span>Nano Banana 2 / fal</span></button><i>→</i><button data-step="mesh" aria-pressed="false"><small>02</small><b>图片转 3D</b><span>Meshy 7.1 / fal</span></button><i>→</i><button data-step="optimize" aria-pressed="false"><small>03</small><b>优化素材</b><span>glTF Transform / meshopt</span></button></div><p class="pipeline-caption second">访问阶段 <span>浏览器实时运行</span></p><div class="pipeline"><button data-step="render" aria-pressed="false"><small>04</small><b>加载与渲染</b><span>Three.js / WebGL</span></button><i>→</i><button data-step="control" aria-pressed="false"><small>05</small><b>更新场景状态</b><span>输入 / 镜头 / 动画</span></button><i>→</i><button data-step="compose" aria-pressed="false"><small>06</small><b>形成网页体验</b><span>3D + HTML + 内容</span></button></div></div>
+      <article id="pipeline-detail" class="pipeline-detail" aria-live="polite"></article>
+      <div class="principle-notes"><p><b>AI 在制作阶段参与</b><span>成品网页读取已生成素材。普通滚动与点击由浏览器代码执行，无需每次访问调用 AI。</span></p><p><b>视觉互动由程序定义</b><span>模型具有形状与材质；水波、分解、镜头路径和触发条件需要对应实现。</span></p><p><b>页面仍有 HTML 内容</b><span>固定的 3D 画布承载场景，文字、按钮和章节在 HTML 层排布与滚动。</span></p></div>
+      <div class="engine-explainer">
+        <p class="eyebrow">SHARED ENGINE / 对“引擎”的理解</p><h3>把通用代码组织为多个作品的运行底座。</h3>
+        <p>底层的 Three.js / WebGL 提供图形能力，Dioramas 在其上封装共同的运行机制。每个作品继续添加自己的状态、效果和内容。页面的排版、触发条件与行为规则由对应代码定义。</p>
+        <div class="engine-stack"><span>Three.js / WebGL / GPU</span><i>→</i><span>共享引擎 src/core/*</span><i>→</i><span>场景代码 + HTML / CSS</span><i>→</i><span>最终作品</span></div>
+        <div class="engine-modules">
+          <article><h4>渲染与资源</h4><p>engine.js：相机、帧循环、尺寸适配、环境光与后期。assets.js：模型 / 贴图加载、进度和表面采样。</p></article>
+          <article><h4>输入与滚动</h4><p>input.js：指针位置、速度、按下状态和平滑值。scroll.js：Lenis、GSAP、章节进度与文字显现。</p></article>
+          <article><h4>通用界面</h4><p>ui.js：加载界面、光标、磁吸按钮与案例导航。具体网页布局和内容仍在各案例中实现。</p></article>
+          <article><h4>可选视觉效果</h4><p>reflector.js：平面反射；volumetric.js：体积光；textures.js：程序纹理。案例按需接入与调参。</p></article>
+        </div>
+        <div class="control-example"><b>例：按住鼠标，让机甲蓄力</b><p>指针模块提供按下状态 → 场景代码累计蓄力值 → 更新发光、灯光、粒子与动画 → 引擎绘制新画面。蓄力速度、上限、释放行为和提示文字，属于这个作品的设计与专属代码。</p></div>
+        <p class="source-caption">共享模块依据 <a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/docs/ENGINE.md" target="_blank" rel="noreferrer">ENGINE.md 的 Core API</a>。上例是对职责的解释，具体效果以案例实现为准。特殊水波、液体、分解、音频和游戏规则分布在各案例与依赖中。</p>
+      </div>
+      <details class="tool-explainer" id="development-tools"><summary>开发工具：帮助生产素材、优化、截图与检查 <span>+</span></summary><div class="tool-content"><p>这些工具主要在开发阶段运行，协助制作与评审网页。浏览器访问成品时主要运行场景和界面代码。</p><div class="table-scroll"><table><thead><tr><th>工具</th><th>做什么</th><th>产出 / 使用边界</th></tr></thead><tbody>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/gen.mjs" target="_blank" rel="noreferrer">gen.mjs</a></td><td>按任务配置调用生图与图转 3D 服务，保存结果；Meshy 任务记录 ID 并轮询。</td><td>参考图、原始 GLB、manifest；生成算法与费用来自外部服务。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/optimize.mjs" target="_blank" rel="noreferrer">optimize.mjs</a></td><td>去重、焊接、可选减面、量化、meshopt 与 WebP 压缩。</td><td>适合网页传输的模型；压缩结果仍需在目标设备测试。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/optimize-all.mjs" target="_blank" rel="noreferrer">optimize-all.mjs</a></td><td>批量优化模型并按案例整理，跳过已更新的输出。</td><td>各案例的优化模型目录；更换项目时需调整目录映射。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/shot.mjs" target="_blank" rel="noreferrer">shot.mjs</a></td><td>在指定视口、滚动位置与鼠标 / 点击状态下截图，采集报错和运行信息。</td><td>状态截图、帧率等证据；用于检查实际可见结果。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/review.mjs" target="_blank" rel="noreferrer">review.mjs</a></td><td>拍摄多个桌面滚动状态与手机页面，汇总截图、帧率和报错。</td><td>评审图与运行记录；审美、完整性和交互质量还需要评审。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/contact.mjs" target="_blank" rel="noreferrer">contact.mjs</a></td><td>把多张截图拼成一张联系表，方便比较状态与构图。</td><td>评审拼图；帮助发现变化和问题。</td></tr>
+        <tr><td><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/scripts/thumbs.mjs" target="_blank" rel="noreferrer">thumbs.mjs</a></td><td>捕获各案例指定画面，输出图库缩略图。</td><td>当前“已有效果”中的 20 张上游图片来自该截图链路。</td></tr>
+      </tbody></table></div><p class="source-caption">工具含上游目录、端口及 Chrome / GPU 参数，迁移时需要适配环境。本次没有执行上游素材生成或下载模型；图示是制作机制的说明。</p></div></details>
+    </section>
+
+    <section class="section" id="effects">
+      <div class="section-heading"><div><p class="eyebrow">04 / EXISTING WORK</p><h2>上游已经做出了哪些效果？</h2></div><span class="pill outline">20 个案例</span></div>
+      <p class="section-intro">直接浏览全部 20 个案例的上游截图，点击画面可放大并切换案例。图片每张约 50–181 KB，总计约 1.8 MB；不加载模型。特色交互按 README 整理，完整交互可沿源码继续研究。</p>
+      <div class="effect-scope"><b>这些作品以 3D 为主，效果包含多个层面。</b><p>几何与材质、着色器与粒子、镜头与状态动画、HTML / CSS 与文字滚动共同构成页面；部分案例还接入物理、音频或游戏规则。原项目展示的是完整网页，当前图库呈现其静态画面。</p></div>
+      <div class="filters" role="group" aria-label="筛选效果"><button class="active" data-filter="all" aria-pressed="true">全部案例</button><button data-filter="product" aria-pressed="false">产品与材质</button><button data-filter="nature" aria-pressed="false">自然与粒子</button><button data-filter="story" aria-pressed="false">探索与叙事</button></div>
+      <div id="effect-grid" class="effect-grid"></div>
+      <p class="source-caption">图源：<a href="https://github.com/blendi-remade/dioramas/tree/868539fb5b64a843071a2247d5d8bacb706a07b1/public/img/index" target="_blank" rel="noreferrer">Dioramas / 上游案例截图</a>，CC BY 4.0，未修改。静态截图呈现画面；本次未逐一运行上游网站。“已阅读源码”表示检查了相关代码。</p>
+    </section>
+
+    <dialog id="effect-dialog" class="effect-dialog" aria-labelledby="effect-dialog-title">
+      <div class="viewer-header"><div><p class="eyebrow">DIORAMAS / 上游案例截图</p><h3 id="effect-dialog-title"></h3></div><button id="close-effect" class="viewer-close" aria-label="关闭预览">×</button></div>
+      <figure><img id="effect-dialog-image" width="1280" height="800" alt=""><figcaption>上游静态截图 · 不加载模型或完整 3D 场景</figcaption></figure>
+      <div class="viewer-body"><p id="effect-dialog-description"></p><p id="effect-dialog-technique"></p></div>
+      <div class="viewer-footer"><div class="viewer-navigation"><button id="previous-effect" aria-label="上一案例">←</button><span id="effect-dialog-position"></span><button id="next-effect" aria-label="下一案例">→</button></div><div class="viewer-links"><a id="effect-dialog-source" target="_blank" rel="noreferrer">原图来源 ↗</a><a id="effect-dialog-code" target="_blank" rel="noreferrer">交互源码 ↗</a></div></div>
+      <p class="viewer-credit">Dioramas (github.com/blendi-remade/dioramas) · CC BY 4.0 · 图片未修改</p>
+    </dialog>
+
+    <section class="section" id="scenarios">
+      <div class="section-heading"><div><p class="eyebrow">05 / WHEN TO USE IT</p><h2>当体验本身，也是内容。</h2></div></div>
+      <div class="scenario-grid"><article><span>01 / 品牌与产品</span><h3>让产品成为页面主角</h3><p>香水、手表、鞋、机械设备的新品介绍。通过镜头与局部互动突出材质、结构和品牌氛围。</p></article><article><span>02 / 展览与传播</span><h3>让访客参与故事</h3><p>线上展览、文物讲解、艺术专题、活动体验。用探索、灯光与章节状态组织叙事。</p></article><article><span>03 / 设备与培训</span><h3>把结构变成可探索内容</h3><p>产品售前与部件认知。需要有结构信息的分件模型，再增加热点、分解动画和内容映射。</p></article></div>
+      <div class="boundary"><b>适用性判断</b><p>重视视觉体验与探索的场景更容易受益。表格后台、快速信息检索和低性能设备优先的业务页面，采用这套重视觉方案前需要权衡加载、易用性与开发成本。</p></div>
+    </section>
+
+    <section class="section" id="value">
+      <div class="section-heading"><div><p class="eyebrow">06 / VALUE & TRANSFER</p><h2>价值在于，素材能被持续设计与控制。</h2></div><span class="pill outline">研究判断</span></div>
+      <p class="section-intro">它提供了从素材到体验的工程连接，也保留具体作品的实现参考。下面说明可借鉴的价值与成立条件；本次没有验证效率提升、营销转化或所有设备的性能。</p>
+      <div class="value-grid">
+        <article><span class="card-index">01 / 素材与体验解耦</span><h3>同一资产，可以有不同表达。</h3><p>更换灯光、镜头、材质、状态与文字，就能形成产品展示、结构讲解或主题叙事。已有授权素材与程序几何也能接入，素材来源有选择空间。</p><small>成立条件：资产质量、结构和授权满足场景需求。</small></article>
+        <article><span class="card-index">02 / 通用机制复用</span><h3>把重复工程组织起来。</h3><p>共享资源加载、渲染循环、尺寸适配、后期、输入和滚动，让新作品沿用共同的运行接口。场景与设备参数依然需要单独配置。</p><small>成立条件：明确模块接口、版本和性能预算。</small></article>
+        <article><span class="card-index">03 / 设计能被精确修改</span><h3>画面与行为由参数和规则定义。</h3><p>镜头看哪里、何时展开、长按多久、粒子如何变化、内容何时出现，都能在代码中定位和调整。最终质量来自设计判断与持续检查。</p><small>成立条件：开发者理解视觉、动画和交互关系。</small></article>
+        <article><span class="card-index">04 / 空间对象与内容关联</span><h3>让用户操作产生明确反馈。</h3><p>将命中的部件或场景状态映射到文字、热点与界面，适合产品探索和结构认知。本地泵实验用部件 ID、展开比例和流向状态验证了这条连接。</p><small>成立条件：准确语义、可发现的操作和等效输入。</small></article>
+        <article><span class="card-index">05 / 开发过程有证据</span><h3>保留任务记录与实际画面。</h3><p>生成记录、优化结果、指定状态截图、移动界面与报错信息，帮助追踪素材和发现实现问题。工具采集证据，评审判断作品是否完整、好用和美观。</p><small>成立条件：记录版本与环境，针对意见再次验证。</small></article>
+        <article><span class="card-index">06 / 对我们的复用意义</span><h3>先迁移控制方法，再扩大资产。</h3><p>从现有几何开始，保留对象 ID、状态、镜头、说明与清理接口，再替换适合的素材。泵模型已拆成独立工厂与部件说明，可由宿主传入 Three.js。</p><small>下一步：用另一份授权资产验证接口与效果适配。</small></article>
+      </div>
+      <div class="boundary"><b>采用建议</b><p>先明确用户要看什么、操作什么、获得什么说明；选一份合适素材，完成一个关键交互并实测，再扩展视觉效果。设备参数、数据接入与专业仿真需另外提供；项目的素材与引擎能力不能自动保证这些结果。</p></div>
+      <a class="text-link" href="#reuse">查看具体技术与迁移条件 <span>↓</span></a>
+    </section>
+
+    <section class="section" id="reuse">
+      <div class="section-heading"><div><p class="eyebrow">06 / REUSABLE BUILDING BLOCKS</p><h2>哪些技术能带到自己的项目？</h2></div></div>
+      <div class="table-scroll"><table><thead><tr><th>技术 / 效果</th><th>上游位置与来源</th><th>如何迁移</th><th>本次实验</th></tr></thead><tbody id="reuse-rows"></tbody></table></div>
+      <p class="source-caption">“独立实现”表示参考原理重新编写，本实验没有直接复制 Dioramas 引擎代码。第三方库保留各自许可。</p>
+    </section>
+
+    <section class="lab section" id="lab" aria-labelledby="lab-title">
+      <div class="section-heading"><div><p class="eyebrow">07 / SCENE LAB</p><h2 id="lab-title">让一台泵，把原理讲清楚。</h2></div><span class="pill">本次独立实现</span></div>
+      <p class="section-intro">真实需求：设备供应商向客户介绍供水泵，培训人员认识主要部件。把产品展示、结构讲解与流向说明放在同一个交互场景里。</p>
+      <div class="lab-frame">
+        <div class="stage-wrap">
+          <div class="stage-header"><div><span class="live-dot"></span>FLOW—01 <span class="stage-subtitle">离心泵结构讲解</span></div><span id="render-status" role="status">正在准备场景</span></div>
+          <div id="stage" class="stage" role="img" aria-label="可旋转、展开并查看流向的简化离心泵三维示意。也可使用下方和右侧控件操作。"><canvas id="pump-canvas" aria-hidden="true"></canvas><div id="fallback" hidden>当前设备未能启用 WebGL。您仍可通过右侧部件列表阅读结构说明。</div><div class="stage-label"><b>LIGHTWEIGHT / PROCEDURAL</b><span>代码生成几何 · 无模型下载</span></div><div class="stage-hint">拖动旋转 · 点击部件查看说明</div></div>
+          <div class="scene-presets" role="group" aria-label="演示阶段">
+            <button class="active" data-preset="showcase" aria-pressed="true"><span>01</span>产品展示</button>
+            <button data-preset="structure" aria-pressed="false"><span>02</span>结构展开</button>
+            <button data-preset="flow" aria-pressed="false"><span>03</span>流向讲解</button>
+          </div>
+        </div>
+        <div class="lab-panel">
+          <p class="eyebrow">场景控制</p>
+          <label class="range-label" for="explode">部件展开 <output id="explode-value">0%</output></label>
+          <input id="explode" type="range" min="0" max="100" value="0">
+          <div class="switch-row"><span>外壳显示</span><div class="segmented" role="group" aria-label="外壳显示"><button data-shell="solid" class="active" aria-pressed="true">实体</button><button data-shell="transparent" aria-pressed="false">透视</button></div></div>
+          <label class="check-row"><span>流向粒子</span><input id="flow-toggle" type="checkbox"></label>
+          <div class="panel-divider"></div>
+          <p class="eyebrow">认识部件 <span class="small-muted">/ 可直接选择</span></p>
+          <div id="part-list" class="part-list" role="group" aria-label="选择泵部件"></div>
+          <article class="part-detail" aria-live="polite"><span id="part-number">01 / MOTOR</span><h3 id="part-title">驱动电机</h3><p id="part-description">提供旋转动力，通过联轴器带动泵轴与叶轮。</p><p id="part-tech" class="part-tech">技术：分组几何 + PBR 金属材质</p></article>
+          <button id="reset-scene" class="reset-button">↺ 重置视角与状态</button>
+        </div>
+      </div>
+      <div class="lab-footnote"><span class="notice-dot">i</span><p>这是面向真实使用场景的<strong>简化结构实验</strong>，没有对应品牌或型号。展开距离、粒子轨迹和转动速度用于视觉讲解；不计算流量、扬程或检修参数。流向说明在装配状态下呈现。</p></div>
+      <details class="implementation"><summary>展开实现说明：这份素材如何被编排成作品 <span>+</span></summary><div class="implementation-grid"><div><h4>素材层</h4><p>圆柱、环、挤出曲面生成电机、叶轮腔、叶轮、联轴器、密封和进水口；各部件保留独立 ID。</p></div><div><h4>表现层</h4><p>环境光、方向光、PBR 材质、地面阴影；射线拾取后以发光材质高亮选中部件。</p></div><div><h4>控制层</h4><p>统一状态管理展开比例、外壳透明度、流向、选中部件和镜头预设；逐帧平滑插值。</p></div><div><h4>内容层</h4><p>把部件 ID 映射到用途说明。更换真实模型后，保留这套状态与说明结构即可迁移。</p></div></div><pre>部件位置 = 装配位置 + 展开方向 × 展开比例
+用户操作 → 场景状态 → 插值更新 → 3D 渲染 + HTML 说明</pre></details>
+    </section>
+
+    <section class="section" id="extend">
+      <div class="section-heading"><div><p class="eyebrow">08 / NEXT POSSIBILITIES</p><h2>把一个作品，扩展成可复用系统。</h2></div><span class="pill outline">后续方向 · 尚未实现</span></div>
+      <p class="section-intro">这些方向需要新增数据、接口或验证工作。下面给出具体下一步与验收标准，帮助区分已有能力和未来设想。</p>
+      <div class="roadmap">
+        <article><span>01</span><div><h3>授权资产与部件语义</h3><p>用授权分件 GLB 替换程序几何，记录部件 ID、装配位置、展开方向、热点、来源与许可。整体网格先分件或补充结构资产。</p><small>验证：另一产品正确装配、选择与展开，说明和许可可追溯。</small></div></article>
+        <article><span>02</span><div><h3>SceneConfig 与编辑界面</h3><p>将模型来源、主题、镜头关键帧、热点内容和触发条件配置化；增加校验、预览和保存，供新产品复用控制层。</p><small>验证：修改一份配置生成第二场景，错误配置得到明确提示。</small></div></article>
+        <article><span>03</span><div><h3>特效与交互模块化</h3><p>从案例提炼水波、粒子、长按蓄力、液体和分解控制，定义输入、更新、尺寸适配与释放接口，并标明依赖和预算。</p><small>验证：同一模块运行在两个场景，切换和销毁不遗留资源。</small></div></article>
+        <article><span>04</span><div><h3>专业审核的教学任务</h3><p>增加识别题、任务状态与学习记录。设备信息由专业人员审核，实际测量数据、仿真结果和维护规则由独立来源提供。</p><small>验证：内容审核通过，任务反馈与真实数据来源明确对应。</small></div></article>
+        <article><span>05</span><div><h3>设备分级与替代视图</h3><p>按需加载、模型 / 贴图分级、后期开关、触摸与键盘操作、减少运动与静态视图，用目标设备实测决定策略。</p><small>验证：手机与笔记本达到各自预算，关闭 3D 后主要内容仍可读。</small></div></article>
+        <article><span>06</span><div><h3>素材与质量追踪台账</h3><p>把请求 ID、参数、来源、费用、优化结果、版本、截图和评审意见关联起来；检查关键交互状态与布局回归。</p><small>验证：能追踪一次修改的输入、输出与修复证据，失败任务可定位。</small></div></article>
+      </div>
+    </section>
+
+    <section class="section evidence" id="evidence">
+      <div class="section-heading"><div><p class="eyebrow">09 / EVIDENCE & LIMITS</p><h2>结论有来源，实验有边界。</h2></div></div>
+      <div class="evidence-grid"><article><h3>研究基线</h3><dl><dt>原仓库</dt><dd><a href="https://github.com/blendi-remade/dioramas" target="_blank" rel="noreferrer">blendi-remade / dioramas ↗</a></dd><dt>固定提交</dt><dd><a href="https://github.com/blendi-remade/dioramas/commit/868539fb5b64a843071a2247d5d8bacb706a07b1" target="_blank" rel="noreferrer">868539fb5b64… ↗</a></dd><dt>上游栈</dt><dd>Three.js / postprocessing / N8AO / GSAP / Lenis / Vite</dd><dt>上游代码 / 素材</dt><dd>MIT / CC BY 4.0</dd><dt>本地扩展</dt><dd>原生 JS + Three.js；程序生成结构；独立实现</dd></dl></article><article><h3>验证范围</h3><ul class="verification-list"><li><b>源码依据</b>已阅读生成、优化、渲染核心、资源加载与部分案例代码。</li><li><b>本地实验</b>验证旋转、部件选择、展开、透视、流向与重置。</li><li><b>上游运行</b>未逐一运行案例，未下载上游模型。</li><li><b>性能边界</b>上游 60 fps 是开发目标，文档以 RTX 4090 为基准；普通设备需另测。</li><li><b>成本边界</b>现成素材可本地加载；生成新素材涉及外部 API 费用。</li></ul></article></div>
+      <div class="reference-links"><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/docs/ENGINE.md" target="_blank" rel="noreferrer">引擎与开发方法 ↗</a><a href="https://github.com/blendi-remade/dioramas/blob/868539fb5b64a843071a2247d5d8bacb706a07b1/ASSET-LICENSES.md" target="_blank" rel="noreferrer">素材许可 ↗</a><a href="https://threejs.org/docs/" target="_blank" rel="noreferrer">Three.js 文档 ↗</a><a href="https://www.ksb.com/en-global/centrifugal-pump-lexicon/article/impeller-1116078" target="_blank" rel="noreferrer">KSB：叶轮原理 ↗</a><a href="https://www.ksb.com/en-global/centrifugal-pump-lexicon/article/mechanical-seal-1117958" target="_blank" rel="noreferrer">KSB：机械密封 ↗</a></div>
+    </section>
+    <footer><a class="brand-footer" href="#overview">D.</a><p>002 / DIORAMAS RESEARCH<br><span>2026.10.12 整理 · 基于固定源码 · 从素材到作品，研究能迁移的实现方法。</span></p><a href="#overview">回到顶部 ↑</a></footer>
+  </main>
+  <script type="module" src="./main.js"></script>
+</body>
+</html>

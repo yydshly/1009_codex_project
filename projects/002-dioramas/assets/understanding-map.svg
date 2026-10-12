@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1940" viewBox="0 0 1600 1940" role="img" aria-labelledby="title desc">
+  <title id="title">Dioramas：从 AI 素材到交互网页的完整链路</title>
+  <desc id="desc">设计目标驱动外部生图与图转三维模型服务。Dioramas 的开发脚本调度生成、记录任务并优化素材。开发者把素材接入共享引擎、场景专属代码和 HTML 界面，用状态控制与实时渲染实现设计，经过截图与移动端测试反复迭代，形成完整的交互网页。生成服务提供素材，网页效果由设计、工程与浏览器共同实现；也能使用已有授权素材或程序几何。</desc>
+  <defs>
+    <style>
+      text{font-family:"Microsoft YaHei","PingFang SC",sans-serif;fill:#253d38}
+      .eyebrow{font-size:18px;letter-spacing:2px;fill:#69756e}.title{font-size:54px;font-weight:700}
+      .subtitle{font-size:25px;fill:#69756e}.lane{font-size:29px;font-weight:700}.step{font-size:17px;letter-spacing:1px;fill:#8e5d3d}
+      .head{font-size:27px;font-weight:700}.body{font-size:22px}.small{font-size:19px;fill:#69756e}.white{fill:#faf9f5}
+      .green{fill:#28594d}.copper{fill:#a9663d}.label{font-size:20px;font-weight:700}.mono{font-size:18px;font-family:Consolas,monospace;fill:#69756e}
+    </style>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse"><path d="M0 0 10 5 0 10Z" fill="#87988b"/></marker>
+    <marker id="copper-arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0 10 5 0 10Z" fill="#c18157"/></marker>
+  </defs>
+  <rect width="1600" height="1940" fill="#f0eee7"/>
+  <text x="68" y="65" class="eyebrow">RESEARCH / 002 · DIORAMAS · 我们形成的理解</text>
+  <text x="68" y="139" class="title">从 AI 素材，到可交互网页。</text>
+  <text x="68" y="190" class="subtitle">模型提供形状与贴图，设计与代码决定它们如何形成最终作品。</text>
+  <rect x="68" y="224" width="1464" height="66" rx="12" fill="#253d38"/>
+  <text x="98" y="267" class="white body">最终作品 = 设计目标 + 可用素材 + 共享引擎 + 场景代码 + HTML 内容 + 测试迭代</text>
+
+  <rect x="68" y="318" width="1464" height="456" rx="18" fill="#f8efe5" stroke="#dbc8b5"/>
+  <text x="98" y="362" class="lane">A / 素材生产：开发阶段调用外部模型</text>
+  <text x="1502" y="360" text-anchor="end" class="small">脚本调度 · 生成算法来自服务商</text>
+  <rect x="98" y="385" width="1404" height="61" rx="8" fill="#eadbc9"/>
+  <text x="120" y="423" class="body">输入：产品 / 品牌 / 展览需求 → 风格、对象描述、参考图、多视角与任务配置</text>
+  <path d="M308 446V472" fill="none" stroke="#c18157" stroke-width="3" marker-end="url(#copper-arrow)"/>
+  <rect x="98" y="482" width="426" height="185" rx="10" fill="#faf9f5" stroke="#dbc8b5"/>
+  <text x="120" y="515" class="step">01 / 外部生图能力</text>
+  <text x="120" y="554" class="head">生成参考图片</text>
+  <text x="120" y="591" class="body">Nano Banana 2，经 fal 调用</text>
+  <text x="120" y="624" class="small">主体图，也可生成背景与 2D 素材</text>
+  <text x="120" y="651" class="mono">scripts/gen.mjs · images</text>
+  <path d="M536 575H568" fill="none" stroke="#c18157" stroke-width="3" marker-end="url(#copper-arrow)"/>
+  <rect x="587" y="482" width="426" height="185" rx="10" fill="#faf9f5" stroke="#dbc8b5"/>
+  <text x="609" y="515" class="step">02 / 外部图转 3D 能力</text>
+  <text x="609" y="554" class="head">生成几何与材质</text>
+  <text x="609" y="591" class="body">Meshy 7.1，经 fal 调用</text>
+  <text x="609" y="624" class="small">输出 GLB 模型与 PBR 贴图</text>
+  <text x="609" y="651" class="mono">任务 ID / 轮询 / 结果记录</text>
+  <path d="M1025 575H1057" fill="none" stroke="#c18157" stroke-width="3" marker-end="url(#copper-arrow)"/>
+  <rect x="1076" y="482" width="426" height="185" rx="10" fill="#faf9f5" stroke="#dbc8b5"/>
+  <text x="1098" y="515" class="step">03 / 本库素材处理能力</text>
+  <text x="1098" y="554" class="head">整理为网页可用资产</text>
+  <text x="1098" y="591" class="body">去重、焊接、可选减面、量化</text>
+  <text x="1098" y="624" class="small">meshopt 压缩 + WebP 贴图</text>
+  <text x="1098" y="651" class="mono">gen / optimize / optimize-all</text>
+  <rect x="98" y="688" width="1404" height="62" rx="8" fill="#eee3d4"/>
+  <text x="120" y="714" class="label">素材出口：图片 / 贴图 / 优化 GLB / 素材与任务记录</text>
+  <text x="120" y="739" class="small">已有授权素材、CAD 导出和程序几何，也可以直接接入后面的设计与运行链路。</text>
+
+  <path d="M800 774V801" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="68" y="816" width="1464" height="586" rx="18" fill="#e5ebdf" stroke="#bacab8"/>
+  <text x="98" y="860" class="lane">B / 作品实现：把素材接入设计与代码</text>
+  <text x="1502" y="858" text-anchor="end" class="small">设计 / 开发 → 成品访问时实时运行</text>
+  <rect x="98" y="884" width="1404" height="106" rx="10" fill="#28594d"/>
+  <text x="120" y="921" class="white head">04 / 设计并实现最终体验</text>
+  <text x="120" y="961" class="white body">视觉：灯光 / 材质 / 构图　　叙事：章节 / 镜头 / 动画　　内容：文案 / 排版 / 交互提示</text>
+  <path d="M311 990V1014" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M800 990V1014" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+  <path d="M1289 990V1014" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+
+  <rect x="98" y="1028" width="426" height="199" rx="10" fill="#faf9f5" stroke="#bacab8"/>
+  <text x="120" y="1064" class="step green">05 / 共享引擎 · 通用底座</text>
+  <text x="120" y="1104" class="head">组织渲染与通用交互</text>
+  <text x="120" y="1142" class="body">资源加载、相机、帧循环、resize</text>
+  <text x="120" y="1174" class="small">阴影 / AO / 辉光 / 反射 / 体积光</text>
+  <text x="120" y="1203" class="mono">src/core/* · 输入 / 滚动 / UI</text>
+  <rect x="587" y="1028" width="426" height="199" rx="10" fill="#faf9f5" stroke="#bacab8"/>
+  <text x="609" y="1064" class="step green">06 / 专属场景代码 · 作品差异</text>
+  <text x="609" y="1104" class="head">定义效果、状态与规则</text>
+  <text x="609" y="1142" class="body">镜头路径、分解、粒子、水波</text>
+  <text x="609" y="1174" class="small">按需接入骨骼、物理、音频与规则</text>
+  <text x="609" y="1203" class="mono">examples/&lt;slug&gt;/* · 自定义代码</text>
+  <rect x="1076" y="1028" width="426" height="199" rx="10" fill="#faf9f5" stroke="#bacab8"/>
+  <text x="1098" y="1064" class="step green">07 / HTML 与 CSS · 内容界面</text>
+  <text x="1098" y="1104" class="head">把场景组织成完整网页</text>
+  <text x="1098" y="1142" class="body">导航、章节、文字、按钮与 CTA</text>
+  <text x="1098" y="1174" class="small">3D 画布与 HTML 内容同步变化</text>
+  <text x="1098" y="1203" class="mono">index.html / style.css / main.js</text>
+
+  <path d="M311 1227V1243" fill="none" stroke="#87988b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M800 1227V1243" fill="none" stroke="#87988b" stroke-width="2" marker-end="url(#arrow)"/>
+  <path d="M1289 1227V1243" fill="none" stroke="#87988b" stroke-width="2" marker-end="url(#arrow)"/>
+  <rect x="98" y="1248" width="1404" height="95" rx="9" fill="#d1dfca"/>
+  <text x="120" y="1284" class="label">实时控制：用户输入 → 场景状态 → 镜头 / 物体 / 效果参数 → WebGL 画面 + HTML 反馈</text>
+  <text x="120" y="1320" class="small">滚动、点击、拖动、长按、触摸驱动代码；每次访问通常直接读取素材，无需重新调用 AI 生成。</text>
+  <text x="98" y="1376" class="small">底层依赖：Three.js / WebGL / GPU、postprocessing / N8AO、GSAP / Lenis；各库与项目代码共同完成效果。</text>
+
+  <path d="M800 1402V1428" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="68" y="1442" width="1464" height="267" rx="18" fill="#e5e9e8" stroke="#c1ccca"/>
+  <text x="98" y="1484" class="lane">C / 验证与交付：迭代成为优秀作品</text>
+  <rect x="98" y="1507" width="665" height="129" rx="10" fill="#faf9f5" stroke="#c1ccca"/>
+  <text x="120" y="1544" class="head">08 / 截图、测试与设计评审</text>
+  <text x="120" y="1581" class="body">检查关键状态、手机布局、交互与报错</text>
+  <text x="120" y="1612" class="small">shot / review / thumbs：提供截图与运行证据</text>
+  <path d="M776 1573H813" fill="none" stroke="#87988b" stroke-width="3" marker-end="url(#arrow)"/>
+  <rect x="829" y="1507" width="673" height="129" rx="10" fill="#253d38"/>
+  <text x="851" y="1544" class="head white">09 / 最终网页体验</text>
+  <text x="851" y="1581" class="body white">3D 视觉 + 2D 内容 + 交互 + 叙事 + 响应式布局</text>
+  <text x="851" y="1612" class="white small">20 个完整案例：产品展示、自然粒子、探索叙事</text>
+  <path d="M121 1668H169" fill="none" stroke="#87988b" stroke-width="3" stroke-dasharray="6 5" marker-end="url(#arrow)"/>
+  <text x="184" y="1674" class="small">反馈回路：检查结果 → 调整素材、设计与控制代码 → 再验证。审美与质量仍需要评审。</text>
+
+  <text x="68" y="1770" class="label">它的主要价值</text>
+  <text x="68" y="1810" class="body">组织素材生产 · 封装渲染表现 · 控制场景状态 · 编排网页叙事 · 支持开发迭代</text>
+  <text x="68" y="1851" class="small">复用：素材流水线 / 渲染底座 / 输入与滚动 / 效果代码 / 页面案例；特殊效果需抽取并适配。</text>
+  <path d="M68 1881H1532" stroke="#d5d7cc"/>
+  <text x="68" y="1911" class="small">依据：Dioramas 源码与 ENGINE.md · 固定提交 868539fb5b64 · 本图为研究整理，非上游官方架构图</text>
+</svg>

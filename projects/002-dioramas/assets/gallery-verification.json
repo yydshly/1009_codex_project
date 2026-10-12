@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-09",
+  "browser": "151.0.7922.34",
+  "scope": "上游静态截图呈现，未运行原有 3D 交互",
+  "checks": {
+    "all20ImagesDecoded": true,
+    "dimensions1280x800": true,
+    "modalPreview": true,
+    "previousAndNext": true,
+    "keyboardArrowsAndEscape": true,
+    "focusRestored": true,
+    "filteredGalleryWrap": true,
+    "mobilePreview": true,
+    "noHorizontalOverflow": true,
+    "pumpRegression": true,
+    "noModelRequests": true,
+    "noExternalRuntimeRequests": true,
+    "productionSubpath": true,
+    "publishedAttribution": true
+  },
+  "images": {
+    "count": 20,
+    "totalOriginalBytes": 1791330,
+    "maxFileBytes": 181244,
+    "unaltered": true,
+    "gitBlobHashesVerified": true
+  },
+  "pageErrors": [],
+  "failedResponses": []
+}

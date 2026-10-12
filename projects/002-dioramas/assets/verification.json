@@ -1,0 +1,107 @@
+{
+  "date": "2026-10-09",
+  "browser": "151.0.7922.34",
+  "scope": "独立实验；未运行上游案例",
+  "checks": {
+    "contentAndFilters": true,
+    "explodeUpdatesGeometry": true,
+    "partSelection": true,
+    "flowRestoresAssemblyAndShowsParticles": true,
+    "sliderCancelsFlow": true,
+    "reset": true,
+    "dragRotatesCamera": true,
+    "rayPicking": true,
+    "desktopNoHorizontalOverflow": true,
+    "mobileControlsAndLayout": true,
+    "reducedMotion": true,
+    "webglFallbackKeepsContent": true,
+    "noModelOrExternalAssetRequests": true,
+    "productionSubpath": true
+  },
+  "pageErrors": [],
+  "failedRequests": [],
+  "sceneStats": {
+    "ready": true,
+    "selected": "motor",
+    "explode": 0,
+    "shell": "solid",
+    "flow": false,
+    "currentExplode": 0.00008932948437450497,
+    "camera": [
+      -6.403976138618339,
+      4.500502024752718,
+      7.401497847773528
+    ],
+    "groups": [
+      {
+        "id": "motor",
+        "position": [
+          1.7001250612781242,
+          1.1500446647421871,
+          0
+        ]
+      },
+      {
+        "id": "coupling",
+        "position": [
+          0.3000357317937498,
+          1.150147393649218,
+          0.000031265319531076735
+        ]
+      },
+      {
+        "id": "seal",
+        "position": [
+          -0.22,
+          1.1500759300617183,
+          -0.00008486301015577972
+        ]
+      },
+      {
+        "id": "casing",
+        "position": [
+          -1.020049131216406,
+          1.1500267988453123,
+          -0.00015632659765538369
+        ]
+      },
+      {
+        "id": "impeller",
+        "position": [
+          -1.020066997113281,
+          1.1500401982679684,
+          0.00013846070078048271
+        ]
+      },
+      {
+        "id": "inlet",
+        "position": [
+          -1.8201429271749994,
+          1.150013399422656,
+          0
+        ]
+      }
+    ],
+    "flowVisible": false,
+    "calls": 140,
+    "triangles": 52376
+  },
+  "productionURL": "http://127.0.0.1:5194/002-dioramas/",
+  "build": {
+    "node": "22.15.0",
+    "vite": "8.3.4",
+    "three": "0.186.1",
+    "htmlBytes": 18353,
+    "cssBytes": 18583,
+    "javascriptBytes": 623214,
+    "javascriptGzipBytes": 160021,
+    "modelFiles": 0
+  },
+  "fixedIssue": "将初始 RAF 时间步限制为非负，避免流向曲线接收负进度。",
+  "repositoryChecks": {
+    "indexSync": true,
+    "check": true,
+    "pagesBuild": true,
+    "diffCheck": true
+  }
+}

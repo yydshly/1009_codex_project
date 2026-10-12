@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-09",
+  "scope": "理解总览图、共享引擎与工具说明、既有交互回归和生产子路径",
+  "checks": {
+    "mapDecodedAt1600x1940": true,
+    "fourResponsibilityExplanations": true,
+    "clearExternalModelAndRuntimeBoundary": true,
+    "completeSvgContentAndTextBounds": true,
+    "summaryNavigation": true,
+    "svgDownloadExactFile": true,
+    "pngDownloadExactFile": true,
+    "fullSizeImageOpens": true,
+    "sevenDevelopmentToolsAccessible": true,
+    "fourSharedEngineModuleGroups": true,
+    "desktopNoHorizontalOverflow": true,
+    "galleryFilterRegression": true,
+    "galleryModalRegression": true,
+    "all20GalleryCardsPreserved": true,
+    "pumpFlowRegression": true,
+    "pumpResetRegression": true,
+    "mobileMapAndTextVisible": true,
+    "mobileToolsNoPageOverflow": true,
+    "productionRelativeSubpath": true,
+    "productionSvgServed": true,
+    "productionPngServed": true,
+    "productionSummaryAndTools": true,
+    "productionPumpRegression": true,
+    "noModelRequests": true,
+    "noExternalRuntimeRequests": true,
+    "noPageErrors": true,
+    "noFailedResponses": true
+  },
+  "pageErrors": [],
+  "failedResponses": [],
+  "browser": "151.0.7922.34",
+  "images": {
+    "svgBytes": 10247,
+    "pngBytes": 373947,
+    "dimensions": [
+      1600,
+      1940
+    ],
+    "generatedLocally": true,
+    "upstreamModelsDownloaded": false
+  }
+}

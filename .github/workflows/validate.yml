@@ -24,6 +24,11 @@ jobs:
           npm ci
           npm run build
           npm run verify
+      - name: 构建 Dioramas 完整研究与场景实验
+        working-directory: projects/002-dioramas/web
+        run: |
+          npm ci
+          npm run build
       - name: 构建与检查 Agenvo 完整研究页
         working-directory: projects/016-agenvo/web
         run: |
