@@ -624,7 +624,7 @@
       "addedAt": "2026-10-12",
       "preview": "assets/libtv-summary.png",
       "previewCaption": "本次对话 2026-10-09 制作的完整中文总结图，原 PNG 与 HTML 保留：创作链、外部 Agent／专用 Skill／LibTV 服务端 Agent／模型依赖、公开能力及对自建系统有限价值；独立说明图，非产品界面或生成效果实测。",
-      "demoUrl": "",
+      "demoUrl": "https://yydshly.github.io/1009_codex_project/019-libtv-skills/",
       "pagesDir": "web/dist",
       "summarySections": [
         {

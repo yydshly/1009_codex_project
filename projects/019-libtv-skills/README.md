@@ -246,3 +246,9 @@ LIBTV_ACCESS_KEY 用于 Bearer 鉴权。默认 https://im.liblib.tv，可通过 
 [正式阅读地址](https://yydshly.github.io/1009_codex_project/019-libtv-skills/) · [运行与发布说明](web/README.md)
 
 网页提供完整引导图放大／下载、两条流程切换、模块展开、章节导航、来源链接和文档下载。它是研究展示，不调用模型或接收密钥。
+
+## 部署记录
+
+正式网页：[019 · LibTV Skills](https://yydshly.github.io/1009_codex_project/019-libtv-skills/)。
+
+内容提交 [bbd5844](https://github.com/yydshly/1009_codex_project/commit/bbd5844c495124594defaa50f6f8845b9db075c0) 已推送到 main；[Pages 构建与部署](https://github.com/yydshly/1009_codex_project/actions/runs/38241858905)和[仓库验证](https://github.com/yydshly/1009_codex_project/actions/runs/38241857175)均成功。2026-10-12 正式网址 HTTP 200，线上四种视口、导航与交互、原图下载哈希和无 JS 阅读复核通过。详细记录见 research.md。

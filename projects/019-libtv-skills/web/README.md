@@ -16,7 +16,7 @@ npm run dev
 
 ## 文档与摘要
 
-修改 content.mjs 后，可执行 node scripts/write-docs.mjs 生成项目 README、研究基线与 projects.json 的全面摘要；补录的交付记录需要保留，不应在交付后无条件重新生成。
+修改 content.mjs 后，可执行 node scripts/write-docs.mjs 生成项目 README、研究基线与 projects.json 的全面摘要；脚本保留 README 的部署记录和 research.md 的本次验证及后续发布记录。
 
 ## 引导图
 

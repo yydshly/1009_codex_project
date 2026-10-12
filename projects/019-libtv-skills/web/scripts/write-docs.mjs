@@ -50,7 +50,9 @@ const readme = [
   '## 网页', '[正式阅读地址](https://yydshly.github.io/1009_codex_project/019-libtv-skills/) · [运行与发布说明](web/README.md)',
   '网页提供完整引导图放大／下载、两条流程切换、模块展开、章节导航、来源链接和文档下载。它是研究展示，不调用模型或接收密钥。'
 ].join('\n\n') + '\n';
-await writeFile(path.join(project, 'README.md'), readme);
+const previousReadme = await readFile(path.join(project, 'README.md'), 'utf8');
+const readmeLogStart = previousReadme.indexOf('## 部署记录');
+await writeFile(path.join(project, 'README.md'), readme + (readmeLogStart >= 0 ? '\n' + previousReadme.slice(readmeLogStart) : ''));
 const research = [
   '# 019 · LibTV Skills 研究记录',
   '## 研究目标与结论',
@@ -88,7 +90,9 @@ const research = [
   '统一 GitHub Pages 路径：/019-libtv-skills/。源码在 web/src，构建到被忽略的 web/dist。根 projects.json 的 summary 与 summarySections 覆盖本质、能力、模块、原理、场景、价值、耦合、扩展与证据。',
   '独立工作树基于最新 origin/main，仅提交 019 与必要的根索引、目录和工作流变更。主工作区中其他未提交项目保持独立。实际提交与部署结果在完成后补录。'
 ].join('\n\n') + '\n';
-await writeFile(path.join(project, 'research.md'), research);
+const previousResearch = await readFile(path.join(project, 'research.md'), 'utf8');
+const researchLogStart = previousResearch.indexOf('## 本次网页实际验证');
+await writeFile(path.join(project, 'research.md'), research + (researchLogStart >= 0 ? '\n' + previousResearch.slice(researchLogStart) : ''));
 const catalogFile = path.join(root, 'projects.json');
 const catalog = JSON.parse(await readFile(catalogFile, 'utf8'));
 const entry = catalog.projects.find(item => item.id === '019' && item.slug === 'libtv-skills');

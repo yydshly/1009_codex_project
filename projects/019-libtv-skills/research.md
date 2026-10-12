@@ -97,3 +97,15 @@
 | 发布汇总 | npm run pages:build 通过，汇总产物包含 /019-libtv-skills/index.html |
 
 浏览器验证脚本为 web/scripts/verify-browser.cjs，需通过参数指定可用 Playwright 包，使用本机 Chrome。它是交付验证辅助，不属于网页运行依赖。
+
+## 远端发布与正式站点复核（2026-10-12）
+
+- 内容提交：[bbd5844](https://github.com/yydshly/1009_codex_project/commit/bbd5844c495124594defaa50f6f8845b9db075c0)，已推送至 origin/main。
+- 首次 Pages 构建与部署：[38241858905](https://github.com/yydshly/1009_codex_project/actions/runs/38241858905)，build 与 deploy 均成功，2026-10-12 19:19:40（Asia/Shanghai）完成部署。
+- 同提交仓库验证：[38241857175](https://github.com/yydshly/1009_codex_project/actions/runs/38241857175)，成功。
+- 正式网址：https://yydshly.github.io/1009_codex_project/019-libtv-skills/。
+- 线上 HTTP 200；标题、固定来源提交和有限复用结论与交付一致。对正式网址再次执行浏览器验证：11 个章节、四个视口、流程与键盘、模块展开、原图窗口／缩放／Escape／焦点、PNG 下载哈希、研究记录下载和无 JS 阅读全部通过，页面错误与 4xx/5xx 为 0。
+- 全面摘要与 10 项结构化摘要写入 projects.json，根 README 索引自动同步；demoUrl 在正式网址验证成功后填写。
+- 本地主工作区同步了 019 源码、素材、文档和必要工作流步骤，保留其他项目与未提交内容；本地索引共 19 个项目，根校验通过。
+
+后续的部署记录补录提交不改变核心研究结论与原始引导图；下载文档会随该次补录发布更新。
