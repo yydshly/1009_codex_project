@@ -25,4 +25,13 @@ Playwright/Chromium在真实汇总子路径`/016-agenvo/`检查：
 
 ## 独立验收限制
 
-未启动Agenvo Relay、Connector、真实Codex/Claude或云模型，不宣称真实任务、MCP客户端发现、OAuth和dot事件唤醒已独立验收。上游测试仅作为来源依据。线上发布与访问结果在交付时另行验证。
+未启动Agenvo Relay、Connector、真实Codex/Claude或云模型，不宣称真实任务、MCP客户端发现、OAuth和dot事件唤醒已独立验收。上游测试仅作为来源依据。
+
+## 线上发布与复核
+
+- 网页代码提交：`fe4fe30fe80e02da7772d71d82934ba92d7775b2`，已推送远端main。
+- [GitHub校验](https://github.com/yydshly/1009_codex_project/actions/runs/38208155317)与[Pages构建/部署](https://github.com/yydshly/1009_codex_project/actions/runs/38208228391)均成功，部署于2026-10-12完成。
+- [在线研究页](https://yydshly.github.io/1009_codex_project/016-agenvo/)和总首页、CSS、JavaScript、原图均返回HTTP200。
+- 线上原图1254025字节，SHA-256与原件相同。
+- 线上再次检查1440/390/320视口、步骤、标签与键盘、图片弹窗/下载、首页导航；无脚本或资源错误。
+- 只提交本次Agenvo及必要索引/发布配置；其他本地未提交项目与改动完整保留。
