@@ -152,8 +152,8 @@ li{margin:12px 0}ul,ol{padding-left:25px}code{font-size:.85em;overflow-wrap:anyw
 @media(max-width:760px){.stage-document{padding:23px 20px 50px;font-size:16px}h1{font-size:31px}h2{font-size:23px}.status-grid{grid-template-columns:1fr;gap:10px}.status-grid>div{padding:13px 16px}.status-grid span{display:inline;margin-right:12px}.status-grid p{margin:6px 0 0}.product-structure{grid-template-columns:1fr;gap:12px;padding:20px 0}.product-structure p{margin:0}.reading-intro{font-size:17px}.step-card summary{font-size:17px;padding:15px}.step-body{padding:4px 16px 12px}.plan-hero{padding-top:22px}.guide-section{padding-top:32px}}
 @media print{details:not([open])>.step-body{display:block}.document-actions,.guide-links,.back-top{display:none}.step-card{break-inside:avoid}body{background:white}}
 </style></head><body>
-<header class="site-header"><a class="wordmark" href="./overview.html#stage-review">◈ 新疆3D沙盘 · 后续开发</a><a class="header-action" href="./?learn=world">打开现有3D平台 ↗</a></header>
-<main class="stage-document"><nav class="document-actions" aria-label="指南资料"><a href="./assets/records/next-development-task.md" download>下载下一轮任务书</a><a href="./assets/records/stage-retrospective.md" download>下载完整指南</a><a href="./overview.html#archive">查看过程记录</a></nav>
+<header class="site-header"><a class="wordmark" href="./stage-summary.html">◈ 新疆3D沙盘 · 阶段总结</a><a class="header-action" href="./?learn=world">打开现有3D平台 ↗</a></header>
+<main class="stage-document"><nav class="document-actions" aria-label="指南资料"><a href="./stage-summary.html">阶段理解总图</a><a href="./assets/records/next-development-task.md" download>下载下一轮任务书</a><a href="./assets/records/stage-retrospective.md" download>下载完整指南</a><a href="./overview.html#archive">查看过程记录</a></nav>
 ''' + body + '</main></body></html>\n'
 (PUBLIC / 'stage-review.html').write_text(page, encoding='utf-8')
 print('Rendered implementation guide and task brief from the retrospective source.')

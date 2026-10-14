@@ -2,6 +2,28 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-98",
+      "label": "R98",
+      "title": "总图与十个分支接入阶段总结网页",
+      "phase": "space",
+      "summary": "把R97会话内理解总图导出为stage-summary.html，保留十个可点选分支，并从同一份作者源生成全部可展开说明和完整下载文稿。页面明确列出已有能力、当前问题与后续指导；参考演示、当前原型与待实施方案分清。",
+      "fileCount": 885,
+      "mediaCount": 371,
+      "manifest": "./assets/records/round-98.json",
+      "notes": "./assets/records/round-98.md"
+    },
+    {
+      "id": "round-97",
+      "label": "R97",
+      "title": "用一张理解总图整理对照与后续方向",
+      "phase": "space",
+      "summary": "用户要求全面整理原演示思路和介绍效果、我们的实现思路和效果、价值、优缺点、当前问题、未来优化、AI下发指导及地域扩展。本轮创建会话内可点选的总图：以全球认识、自然条件、人文联系为认识主干，另列空间尺度与共同状态，避免把一条样板线路当作完整产品。",
+      "fileCount": 878,
+      "mediaCount": 372,
+      "manifest": "./assets/records/round-97.json",
+      "notes": "./assets/records/round-97.md"
+    },
+    {
       "id": "round-96",
       "label": "R96",
       "title": "把反思改成可执行的后续开发指南",

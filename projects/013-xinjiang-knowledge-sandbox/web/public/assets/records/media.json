@@ -677,6 +677,34 @@
       "storage": "shared-hardlink"
     },
     {
+      "url": "./assets/records/round-98.json",
+      "source": "process/round-98/retention.json",
+      "size": 232296,
+      "sha256": "e7aade7b0e78407d4975f85a74cab0395148e04c406cbf5985173c88a87f5a24",
+      "storage": "shared-hardlink"
+    },
+    {
+      "url": "./assets/records/round-98.md",
+      "source": "process/round-98/README.md",
+      "size": 1530,
+      "sha256": "890c3257bc80315970c733fe66a67f1a930034c7198e13745792f0405fb64358",
+      "storage": "shared-hardlink"
+    },
+    {
+      "url": "./assets/records/round-97.json",
+      "source": "process/round-97/retention.json",
+      "size": 230221,
+      "sha256": "697b68e83df1e434a912a4382159830c96031c7f7ceb0fe7559656e76d29ec4e",
+      "storage": "shared-hardlink"
+    },
+    {
+      "url": "./assets/records/round-97.md",
+      "source": "process/round-97/README.md",
+      "size": 1235,
+      "sha256": "31c79ff75dc031a75dfecb5d6b4713f2aa3d4c1ee708c1cdcbf34e70befc799e",
+      "storage": "shared-hardlink"
+    },
+    {
       "url": "./assets/records/round-96.json",
       "source": "process/round-96/retention.json",
       "size": 229916,
