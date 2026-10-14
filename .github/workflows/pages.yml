@@ -110,6 +110,12 @@ jobs:
           npm ci
           npm run check
           npm run build
+      - name: 构建与检查新疆3D探索及阶段总结
+        working-directory: projects/013-xinjiang-knowledge-sandbox/web
+        run: |
+          npm ci
+          npm run build
+          npm run check
       - run: npm run check
       - run: npm run pages:build
       - uses: actions/upload-pages-artifact@v4

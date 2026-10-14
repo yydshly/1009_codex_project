@@ -1,0 +1,3 @@
+# STAC responses are retained evidence; preserve the bytes in their source hashes.
+/web/public/assets/tianchi-sentinel-stac.json -text whitespace=cr-at-eol
+/web/public/assets/glacier-sentinel-stac.json -text whitespace=cr-at-eol

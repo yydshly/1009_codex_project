@@ -99,10 +99,11 @@ for (const filename of ['audio-mixer.js','audio-design.js','actor-rig.js','app.j
 for (const filename of ['film-reading.js', 'overview.js','workbench.js','platform-blueprint.js','history-content.js','history-platform.js','history-map-layer.js','history-process.js','history-event-objects.js','event-reading.js','exploration-journey.js','exploration-memory.js','region-boundary.js','region-atlas-content.js','region-atlas.js','region-atlas-map.js','passage-data.js','geographic-explorer.js','knowledge-content.js','knowledge-scenes.js','knowledge-guide.js','karez-inquiry.js','karez-station.js']) execFileSync(process.execPath, ['--check', path.join(root, filename)]);
 for (const page of ['index.html', 'research.html','explorations.html','overview.html']) {
 const html = await fs.readFile(path.join(root, page), 'utf8');
-const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(match => match[1]);
+const ids = [...html.matchAll(/(?:^|\s)id="([^"]+)"/g)].map(match => match[1]);
 assert.equal(ids.length, new Set(ids).size, 'HTML ID 重复');
 for (const link of html.matchAll(/href="#([^"]+)"/g)) assert(ids.includes(link[1]), `无效锚点 ${link[1]}`);
-for (const resource of html.matchAll(/(?:src|href)="\.\/([^"#]+)"/g)) await fs.access(path.join(root, resource[1].split('?')[0]||'index.html'));
+// Inspect actual resource attributes; data-local-src is a local-only adapter.
+for (const resource of html.matchAll(/(?:^|\s)(?:src|href)="\.\/([^"#]+)"/g)) await fs.access(path.join(root, resource[1].split('?')[0]||'index.html'));
 }
 assert.equal(capabilities.length, 10);
 assert.deepEqual([...new Set(capabilities.map(item => item.level))].sort(), ['observed', 'stated', 'unknown']);
