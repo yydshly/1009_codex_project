@@ -22,6 +22,29 @@ const md = (value) => String(value).replace(/[\\`*_{}\[\]<>()#!|]/g, '\\$&');
 const indexSummary = (project) => project.summarySections
   ? project.summarySections.map(({ label, text }) => `**${md(label)}：** ${md(text)}`).join('<br>')
   : md(project.summary);
+const describedProjects = (projects) => projects.filter((project) => project.entryOverview);
+const overviewReading = '每项按“能力 → 我们的研究 → 借鉴意义”阅读，点击名称继续了解项目；具体实验与未验证范围见各项目记录。';
+
+function readmeOverview(projects) {
+  const entries = describedProjects(projects);
+  if (!entries.length) return [];
+  return [
+    `### ${entries.length}个项目研究概览`, '', overviewReading, '',
+    ...entries.map((project) => {
+      const { shortName, capability, research, value } = project.entryOverview;
+      return `- **${project.id} · [${md(shortName)}](projects/${folder(project)}/)**：**能力：** ${md(capability)}；**研究：** ${md(research)}；**意义：** ${md(value)}。`;
+    }), '', '### 详细索引', '',
+  ];
+}
+
+function webOverview(projects) {
+  const entries = describedProjects(projects);
+  if (!entries.length) return '';
+  return `<section class="research-overview" aria-labelledby="research-overview-title"><h2 id="research-overview-title">${entries.length}个项目研究概览</h2><p>${html(overviewReading)}</p><ol class="overview-list">${entries.map((project) => {
+    const { shortName, capability, research, value } = project.entryOverview;
+    return `<li><a href="#project-${project.id}"><strong>${project.id} · ${html(shortName)}</strong></a><p><b>能力：</b> ${html(capability)}；<b>研究：</b> ${html(research)}；<b>意义：</b> ${html(value)}。</p></li>`;
+  }).join('')}</ol><a href="#detailed-projects">继续看研究文档与演示 ↓</a></section>`;
+}
 
 function assert(condition, message) {
   if (!condition) throw new Error(message);
@@ -63,6 +86,10 @@ async function catalog() {
     ids.add(project.id);
     assert(typeof project.slug === 'string' && /^[a-z0-9]+(?:-[a-z0-9]+)*$/.test(project.slug), `无效 slug：${project.slug}`);
     for (const key of ['title', 'summary', 'previewCaption']) textField(project[key], `${project.id}.${key}`);
+    if (project.entryOverview !== undefined) {
+      assert(project.entryOverview && typeof project.entryOverview === 'object' && !Array.isArray(project.entryOverview), `${project.id}.entryOverview 必须包含简称、能力、研究与意义`);
+      for (const key of ['shortName', 'capability', 'research', 'value']) textField(project.entryOverview[key], `${project.id}.entryOverview.${key}`);
+    }
     if (project.summarySections !== undefined) {
       assert(Array.isArray(project.summarySections) && project.summarySections.length > 0, `${project.id}.summarySections 必须是非空数组`);
       for (const section of project.summarySections) {
@@ -92,14 +119,15 @@ function indexBlock(projects) {
   const counts = Object.entries(statuses).map(([key, label]) => `${label} ${projects.filter((p) => p.status === key).length}`).join(' · ');
   const rows = projects.map((p) => {
     const local = `projects/${folder(p)}`;
-    const demo = p.pagesDir !== null ? `[演示](${pagesBase}/${folder(p)}/)` : p.demoUrl ? `[演示](${p.demoUrl})` : '—';
+    const demoUrl = p.demoUrl || (p.pagesDir !== null ? `${pagesBase}/${folder(p)}/` : '');
+    const demo = demoUrl ? `[演示](${demoUrl})` : '—';
     return `| ${p.id} | [${md(p.title)}](${local}/) | ${indexSummary(p)} | ${statuses[p.status]} | ${p.tags.map(md).join(' / ') || '—'} | [${sourceLabel(p)}](${p.source}) | ${demo} |`;
   });
   const cards = projects.map((p) => {
     const local = `projects/${folder(p)}`;
     return `### ${p.id} · ${md(p.title)}\n\n${md(p.summary)}\n\n[研究文档](${local}/README.md) · [研究记录](${local}/research.md) · [${sourceLabel(p)}](${p.source})\n\n![${md(`${p.title}：${p.previewCaption}`)}](${local}/${p.preview})\n\n*${md(p.previewCaption)}*`;
   });
-  return [`共收录 **${projects.length}** 个项目 · ${counts}`, '', '| 编号 | 子项目 | 研究摘要 | 状态 | 标签 | 来源 | Web |', '| --- | --- | --- | --- | --- | --- | --- |', ...rows, '', cards.join('\n\n')].join('\n');
+  return [`共收录 **${projects.length}** 个项目 · ${counts}`, '', ...readmeOverview(projects), '| 编号 | 子项目 | 研究摘要 | 状态 | 标签 | 来源 | Web |', '| --- | --- | --- | --- | --- | --- | --- |', ...rows, '', cards.join('\n\n')].join('\n');
 }
 
 async function renderedReadme(projects) {
@@ -210,14 +238,14 @@ async function buildPages(data) {
     const image = `${local}${path.extname(p.preview)}`;
     await mkdir(path.join(output, 'previews'), { recursive: true });
     await cp(inside(projectRoot, p.preview), path.join(output, 'previews', image));
-    const demo = p.pagesDir !== null ? `./${local}/` : p.demoUrl;
-    cards.push(`<article><img src="./previews/${html(image)}" alt="${html(p.previewCaption)}"><div><p class="meta">${p.id} · ${statuses[p.status]}${p.tags.length ? ` · ${html(p.tags.join(' / '))}` : ''}</p><h2>${html(p.title)}</h2><p>${html(p.summary)}</p><nav><a href="${repository}/tree/main/projects/${local}">研究文档</a><a href="${html(p.source)}">${sourceLabel(p)}</a>${demo ? `<a href="${html(demo)}">打开演示 →</a>` : ''}</nav></div></article>`);
+    const demo = p.demoUrl || (p.pagesDir !== null ? `./${local}/` : '');
+    cards.push(`<article id="project-${p.id}"><img src="./previews/${html(image)}" alt="${html(p.previewCaption)}"><div><p class="meta">${p.id} · ${statuses[p.status]}${p.tags.length ? ` · ${html(p.tags.join(' / '))}` : ''}</p><h2>${html(p.title)}</h2><p>${html(p.summary)}</p><nav><a href="${repository}/tree/main/projects/${local}">研究文档</a><a href="${html(p.source)}">${sourceLabel(p)}</a>${demo ? `<a href="${html(demo)}">打开演示 →</a>` : ''}</nav></div></article>`);
   }
   await writeFile(path.join(output, '.nojekyll'), '');
   await writeFile(path.join(output, 'index.html'), `<!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>GitHub 项目研究索引</title>
-<style>body{margin:0;background:#f5f7fb;color:#172b4d;font:16px/1.7 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:56px 24px}h1{font-size:clamp(28px,5vw,44px);line-height:1.3}h2{margin:0;font-size:24px}a{color:#245bd6}header{margin-bottom:40px}.meta{color:#596c85;font-size:14px}article{background:white;border:1px solid #dce3ed;border-radius:16px;overflow:hidden;margin:24px 0;display:grid;grid-template-columns:38% 1fr}article img{width:100%;height:100%;object-fit:contain;background:#edf2f8}article div{padding:24px}nav{display:flex;gap:20px;flex-wrap:wrap}a:focus-visible{outline:3px solid #245bd6;outline-offset:4px}@media(max-width:640px){article{grid-template-columns:1fr}article img{max-height:240px}main{padding:32px 18px}}</style></head>
-<body><main><header><p class="meta">GITHUB RESEARCH · ${data.projects.length} 个项目</p><h1>GitHub 项目研究索引</h1><p>记录值得研究的开源项目、复现过程与 Web 演示，按收录编号依次浏览。</p><a href="${repository}">查看总仓库 →</a></header>${cards.join('\n') || '<p>暂未收录项目，研究记录与演示将在这里按编号展示。</p>'}</main></body></html>\n`);
+<style>body{margin:0;background:#f5f7fb;color:#172b4d;font:16px/1.7 system-ui,sans-serif}main{max-width:1000px;margin:auto;padding:56px 24px}h1{font-size:clamp(28px,5vw,44px);line-height:1.3}h2{margin:0;font-size:24px}a{color:#245bd6}header{margin-bottom:40px}.meta{color:#596c85;font-size:14px}.research-overview{background:white;border:1px solid #dce3ed;border-radius:16px;padding:28px;margin-bottom:40px}.overview-list{list-style:none;padding:0;margin:24px 0}.overview-list li{padding:16px 0;border-top:1px solid #e4e9f1}.overview-list p{margin:6px 0 0;font-size:15px}.overview-list b{color:#314c70}article{background:white;border:1px solid #dce3ed;border-radius:16px;overflow:hidden;margin:24px 0;display:grid;grid-template-columns:38% 1fr;scroll-margin-top:20px}article img{width:100%;height:100%;object-fit:contain;background:#edf2f8}article div{padding:24px}nav{display:flex;gap:20px;flex-wrap:wrap}a:focus-visible{outline:3px solid #245bd6;outline-offset:4px}@media(max-width:640px){article{grid-template-columns:1fr}article img{max-height:240px}main{padding:32px 18px}.research-overview{padding:20px}}</style></head>
+<body><main><header><p class="meta">GITHUB RESEARCH · ${data.projects.length} 个项目</p><h1>GitHub 项目研究索引</h1><p>从代码库与参考演示研究视频制作、3D网页、设计方法和Agent协作。先看能力与研究概览，再进入具体项目。</p><a href="${repository}">查看总仓库 →</a></header>${webOverview(data.projects)}<section id="detailed-projects" aria-labelledby="detailed-projects-title"><h2 id="detailed-projects-title">研究文档与演示</h2>${cards.join('\n') || '<p>暂未收录项目，研究记录与演示将在这里按编号展示。</p>'}</section></main></body></html>\n`);
   console.log(`站点已汇总到 _site/：${data.projects.filter((p) => p.pagesDir !== null).length} 个本地 Web 演示。`);
 }
 

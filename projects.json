@@ -57,7 +57,13 @@
       "preview": "assets/capability-map-v1.png",
       "previewCaption": "原创中文能力全景图：能力、四层原理、模块与场景、参考价值和扩展边界；嵌入本地实际视频帧，屋顶和手机为已标注的机制示意。",
       "demoUrl": "",
-      "pagesDir": "web/dist"
+      "pagesDir": "web/dist",
+      "entryOverview": {
+        "shortName": "Motion Video Kit",
+        "capability": "提供商业短片策划、代码动画与独立评审工作流",
+        "research": "制作24秒本地代码短片，验证时间定位、渲染与画面评审",
+        "value": "借鉴业务先行、可控修改和制作质检闭环"
+      }
     },
     {
       "id": "002",
@@ -116,7 +122,13 @@
           "label": "边界",
           "text": "生成算法来自外部服务，成熟图形库提供底层能力；专属效果和网页设计仍需开发，整体网格不自动分件；无上游模型下载、工业仿真或全部案例运行保证。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Dioramas",
+        "capability": "编排外部生成素材、共享三维引擎与网页交互",
+        "research": "整理20个案例，以简化离心泵验证旋转、展开和流向",
+        "value": "指导素材与体验解耦、状态控制和设备讲解页面开发"
+      }
     },
     {
       "id": "003",
@@ -182,7 +194,13 @@
           "label": "依据与边界",
           "text": "固定 v0.18.0 / 7987bb38，保留 MIT/OFL 与原图。已有本地功能和工具验证，未独立审美评分、未量化质量提升；动效证据仍有缺口，上游作品未完整走查。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Oil UI",
+        "capability": "组织前端设计方向探索、方案比较、取证与评审",
+        "research": "制作风格卡与版式小样，实现可保存笔记的研究工作台",
+        "value": "借鉴设计约定与决策记录，让探索和修改有依据"
+      }
     },
     {
       "id": "004",
@@ -242,7 +260,13 @@
       "preview": "assets/dvor-overview.png",
       "previewCaption": "沿用本次对话整理的完整中文全景图，原 PNG 字节保留：能力、渲染与世界原理、六类原作效果、社区扩展、复用、场景与提示词；采用真实署名截图和讲解示意，区别已实现与扩展建议。",
       "demoUrl": "https://yydshly.github.io/1009_codex_project/004-dvor/",
-      "pagesDir": "web/dist"
+      "pagesDir": "web/dist",
+      "entryOverview": {
+        "shortName": "Dvor",
+        "capability": "以程序建模与风格化渲染构成可漫游的三维庭院",
+        "research": "完成四站社区导览，验证风格调参、保存与提示词工具",
+        "value": "指导视觉规则复用及地点、镜头和内容的关联"
+      }
     },
     {
       "id": "005",
@@ -300,7 +324,13 @@
           "label": "网页交付",
           "text": "既有中文引导图、完整研究章节、175 项筛选与详情、交互原理；本地轨道花园三形态、暂停、扰动和纯背景效果，运行不调用模型。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Awesome GPT-6 Astra",
+        "capability": "收集模型参与制作的游戏与互动作品，提供试玩和部分源码入口",
+        "research": "整理175项目录，本地运行轨道花园并适配交互背景",
+        "value": "发现创意和可研究案例，复用前逐项核对源码与许可"
+      }
     },
     {
       "id": "006",
@@ -364,7 +394,13 @@
           "label": "边界",
           "text": "默认单用户本地工作区，生成可能向供应商发送参考且收费；工具非任意 shell，模型发现不等于生成验证；VERSION v1.7.14 的发行状态在固定验收中未完成；高级合成、团队协作与端到端性能需另验。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "BeefTV",
+        "capability": "把画布、模型任务、助手操作与剪辑连接为视频工作台",
+        "research": "拆解本地架构与受控操作，验证交互说明页（未运行桌面生成）",
+        "value": "指导异步生成、资产追踪与统一剪辑流程设计"
+      }
     },
     {
       "id": "007",
@@ -423,7 +459,13 @@
           "label": "边界与交付",
           "text": "不是数据库、知识检索或任意 schema 验证器，不抓取外部 URL，不保证事实与证据质量；固定 7e5b3b1 / 0.3.0 / MIT，原始引导图保留，网页与发布可验证，上游 CLI 未独立实跑。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Seiso 文档检查",
+        "capability": "检查Markdown结构、引用和重复维护问题",
+        "research": "拆解27条规则与配置边界，完成研究网页（未实跑CLI）",
+        "value": "为总库文档内容检查、事实归属和复现记录提供参考"
+      }
     },
     {
       "id": "008",
@@ -490,7 +532,13 @@
           "label": "依据",
           "text": "结论固定到 18025b6（2026-03-04），研究于 2026-10-09、整理于 2026-10-12；保留 MIT 许可，区分源码核查、本地交互验证和未接通的上游语音。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Realtime 语音与3D联动",
+        "capability": "让实时语音通过工具调用联动对象、镜头、动画与图表",
+        "research": "制作关键词驱动的Three.js交互示意（未接通真实语音）",
+        "value": "指导语音会话、动作映射与可见反馈的联动设计"
+      }
     },
     {
       "id": "009",
@@ -549,7 +597,13 @@
           "label": "验证与边界",
           "text": "原镜头 504 次采样及原创镜头、音频和交互已验证，原创 MP4 在本机完成导出；公开站默认实时演示。通用自动成片和业务扩展待建设，替换伴奏不会自动改编画面；上游音乐不随 MIT 代码分发。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Functional Emotions 油画MV",
+        "capability": "逐帧程序绘画，以音乐时间同步油画笔触、镜头和动作",
+        "research": "验证原版八章，制作并导出32秒原创有声短片",
+        "value": "复用油画渲染、确定性时间轴与可修改的代码动画"
+      }
     },
     {
       "id": "010",
@@ -616,7 +670,13 @@
           "label": "依据与引导图",
           "text": "固定研究a75e2b3384cded87955c8743b5a59db06ea491a8；保留MIT、CREDITS和字体OFL，第三方素材沿用各自归属。沿用2026-10-10生成的1600×4219中文全景图，2026-10-12补齐全面说明与Pages发布。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Lemo-Opuscar 风格与制片",
+        "capability": "提供43种风格规范、导演编排与代码短片制片工具",
+        "research": "整理样片索引并运行蓝图画面（完整Agent制片未复跑）",
+        "value": "沉淀审美与叙事规范，建立可修改、可重渲染的短片流程"
+      }
     },
     {
       "id": "011",
@@ -679,7 +739,13 @@
       "preview": "assets/overview-infographic.png",
       "previewCaption": "原创代码绘制的中文全景图：能力、原理、效果示意、输入输出、价值边界和仅借鉴流程的结论；非上游实际成片。",
       "demoUrl": "https://yydshly.github.io/1009_codex_project/011-shipvideo/",
-      "pagesDir": "web/public"
+      "pagesDir": "web/public",
+      "entryOverview": {
+        "shortName": "ShipVideo 网页信息转短片",
+        "capability": "从网页或简报组织叙事，生成代码绘制的静音解释片",
+        "research": "拆解任务链与虚拟时钟，完成研究网页（上游生成未运行）",
+        "value": "借鉴资料读取、内容编排、动画代码与稳定渲染的流程"
+      }
     },
     {
       "id": "012",
@@ -750,7 +816,13 @@
       "preview": "assets/overview-infographic.png",
       "previewCaption": "2026-10-10 完成的完整中文理解图，PNG/SVG 原样保留：目标效果、输入输出、Opus 导演、模型生成、口型、代码编排、价值与扩展；本地原创排版，风格缩略为示意，非上游成片或界面。",
       "demoUrl": "https://yydshly.github.io/1009_codex_project/012-motion-graphics-music-video/",
-      "pagesDir": "web/public"
+      "pagesDir": "web/public",
+      "entryOverview": {
+        "shortName": "Motion Graphics 音乐MV",
+        "capability": "以已有歌曲为时间轴，组织模型素材、代码编排与合成",
+        "research": "拆解制作协议与素材任务管理，展示作者样片（未运行制作）",
+        "value": "借鉴模型与代码分工、音乐同步、局部修订和问题追踪"
+      }
     },
     {
       "id": "013",
@@ -802,7 +874,13 @@
           "label": "当前边界",
           "text": "完整五带、气候专题、区域与聚落细图及通用地域框架仍待建设；真实地表与解释模型分开。自然条件提供背景，历史与文化还需制度、交流、技术和人的行动等独立证据。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "新疆互动知识沙盘",
+        "capability": "参考视频从全球定位、自然条件和人文联系逐层认识地方",
+        "research": "独立实现地球与DEM原型、四主题52幕及自由接管（源库未确认）",
+        "value": "先设计认识问题、证据和地图层级，再制作模型与表现"
+      }
     },
     {
       "id": "014",
@@ -867,7 +945,13 @@
           "label": "交付与依据",
           "text": "沿用 2026-10-10 的完整 PNG／SVG 引导图，保留原片和中文真实帧、作者署名与平台水印。原片工具与真实权重为作者说明，具体口型流程未公开；机制引用官方资料，结果依据缓存、媒体哈希和逐帧复核。研究网页可部署静态 Pages；完整多场景人物演唱仍处于研究中。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "中文Token叙事短片",
+        "capability": "参考音乐短片以人物演唱与词块编号组织技术叙事",
+        "research": "制作中文演唱与分词字幕初版，保留未达标的口型同步测试",
+        "value": "指导声画同步、技术叙事与素材质量验收"
+      }
     },
     {
       "id": "015",
@@ -934,7 +1018,13 @@
           "label": "依据与边界",
           "text": "固定 6044b91、MIT 与 CREDITS；104 项 Node 及既有 WebGL/浏览器证据。扫描 Z=0，相机深度非物理光路，本地存储无云端；WebGPU GPU、全部组合、移动性能及商业产品仍待验证。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Three ILDA 激光与舞台",
+        "capability": "将激光点序列转为三维场景中的扫描、余辉与光束",
+        "research": "完成激光节目实验、五套舞台模板及三类内容共享配置",
+        "value": "指导激光组件、舞台资产与业务内容的分工复用"
+      }
     },
     {
       "id": "016",
@@ -993,7 +1083,13 @@
       "preview": "assets/agenvo-guide.png",
       "previewCaption": "原创中文完整引导图，非上游界面；原图基于 2026-10-09 的 4d899e5 快照，网页保留原图并补充 v0.2.0、Codex 独立服务、OpenCode 与 MCP 输出等更新。",
       "demoUrl": "",
-      "pagesDir": "web/dist"
+      "pagesDir": "web/dist",
+      "entryOverview": {
+        "shortName": "Agenvo 远程Agent连接",
+        "capability": "通过自托管MCP中继远程接入多种原生Agent会话",
+        "research": "核查连接、适配与权限机制，完成研究网页（未实跑Agent）",
+        "value": "指导统一接入、自托管部署与上层任务编排的边界"
+      }
     },
     {
       "id": "017",
@@ -1052,7 +1148,13 @@
           "label": "个人意义与依据",
           "text": "优先研究驱动、消息调度和上下文恢复，可试做 GitHub 项目研究助手；保留 2026-10-09 原图，正文依据 f4265de 固定快照，区分源码事实、分析判断、示例和待验证建议。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "Alook 群聊共享Agent",
+        "capability": "让获准群聊成员共同调用本地Agent并共享上下文",
+        "research": "梳理消息唤醒、驱动与记忆恢复，完成网页（未实跑Agent）",
+        "value": "指导共享研究助手的消息流、持续协作与业务验收"
+      }
     },
     {
       "id": "018",
@@ -1115,7 +1217,13 @@
           "label": "依据与交付",
           "text": "固定研究 feat/creator-batch-offline 的 v0.5.0 / dbd22a4，保留 2026-10-09 生成的完整原图，2026-10-12 复核；交付研究文档、响应式网页和 Pages 发布，未登录抖音或实跑下载/识别。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "抖音内容工作流",
+        "capability": "串联视频采集、本地识别、资料归档与口播改写",
+        "research": "核查采集分工、环境和续跑流程，完成网页（未实跑下载识别）",
+        "value": "指导素材来源记录、恢复检查点与跨平台选型"
+      }
     },
     {
       "id": "019",
@@ -1178,7 +1286,13 @@
           "label": "研究基线",
           "text": "固定 main 提交 c609246，2026-10-12 复核仍为同一 HEAD，MIT；Windows／Node.js 22+ 原创静态网页，无根级依赖；未配置 API Key、未运行真实生成，官方描述与用户反馈均不等同于本地实测。"
         }
-      ]
+      ],
+      "entryOverview": {
+        "shortName": "LibTV Skills 创作服务接入",
+        "capability": "提供专用云端创作服务的上传、会话查询与结果下载入口",
+        "research": "拆解客户端与云端分工、接口耦合，完成网页（未实测生成）",
+        "value": "参考素材与会话交付，对自建创作系统的直接复用价值有限"
+      }
     }
   ]
 }

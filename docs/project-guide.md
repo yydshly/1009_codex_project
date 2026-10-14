@@ -35,15 +35,18 @@ projects/001-example-repo/
 | `slug` | 简短目录名，组合成 `id-slug` |
 | `title` / `summary` | 项目名称 / 一句话研究价值 |
 | `summarySections` | 可选，按 `{ "label": "能力", "text": "说明" }` 分项填写；仅根 README 索引表的摘要使用加粗标签与单元格换行 |
+| `entryOverview` | 可选，`shortName` 简称、`capability` 原库／参考作品能力、`research` 我们实际研究与实验、`value` 借鉴意义；生成索引表上方与网页首页的简洁概览 |
 | `source` / `sourceRef` | 原 GitHub 仓库 / 研究时的 tag 或 commit |
 | `status` | `queued` 待研究、`researching` 研究中、`prototyping` 复现中、`done` 已完成、`archived` 已归档 |
 | `tags` | 技术或主题标签数组 |
 | `addedAt` | 收录日期，`YYYY-MM-DD` |
 | `preview` / `previewCaption` | 相对子项目目录的图片路径 / 图片说明 |
-| `demoUrl` | 外部演示的 HTTPS 地址，没有时留空 |
+| `demoUrl` | 明确指定的演示 HTTPS 地址，可指外部演示或编号下的具体页面；优先使用，留空时采用本地编号目录首页 |
 | `pagesDir` | 相对子项目目录的静态发布目录；不发布时为 `null` |
 
 图片建议使用 16:9 比例，名称使用小写英文，例如 `preview.png`、`architecture.svg`。初始 `preview.svg` 只是占位图，不能作为已实现界面的证据。
+
+入口概览每项用一句话串联“能力 → 研究 → 意义”，每个字段尽量15–40字；区分源码拆解、说明页、实际实验和完整复跑，不把后续设想写成已有能力。修改`entryOverview`后运行`npm run index:sync`与`npm run check`；网页概览由`npm run pages:build`读取同一份元数据生成。
 
 ## 一次完整研究
 
