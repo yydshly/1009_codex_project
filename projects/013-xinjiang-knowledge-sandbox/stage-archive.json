@@ -4,7 +4,7 @@
   "status": "archived",
   "archivedAt": "2026-10-14",
   "runtimeBaseline": "round-90",
-  "reviewSnapshot": "round-100",
+  "reviewSnapshot": "round-101",
   "gitCheckpointTag": "xinjiang-stage-r90",
   "project": {
     "id": "013",
@@ -77,6 +77,9 @@
     "round-97": "Interactive comparative understanding map with ten branches",
     "round-98": "Stage-summary webpage integrates the complete map, all branch notes and preserved video/demo navigation",
     "round-99": "Visible, reciprocal summary navigation across the 3D homepage, legacy demo, overview, guide and research pages",
-    "round-100": "Standalone complete summary PNG for repository READMEs, all ten branches plus source boundaries; original runtime preview retained"
-  }
+    "round-100": "Standalone complete summary PNG for repository READMEs, all ten branches plus source boundaries; original runtime preview retained",
+    "round-101": "Value-first global/natural/human learning summary, complete README and website guidance, isolated remote publication and playable public historical film"
+  },
+  "valueBrief": "tools/learning-value-summary.json",
+  "summaryImage": "assets/stage-summary-full.png"
 }

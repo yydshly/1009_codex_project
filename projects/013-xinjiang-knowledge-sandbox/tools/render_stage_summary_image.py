@@ -128,11 +128,20 @@ class Poster:
         self.sections.append({'id': identity, 'title': view['title'], 'top': start, 'bottom': self.y,
                               'rows': len(view['rows']), 'notes': len(view['points'])})
 
-    def cover(self):
+    def cover(self, brief):
         self.paragraph('013 / 新疆互动沙盘 · 阶段探索全量总结', 34, GREEN, True)
-        self.paragraph('认识一个地方，先建立位置，再理解差异与联系', 60, INK, True)
-        self.paragraph('供外部 README 独立阅读：参考呈现、已有能力、研究信息、问题、优化、AI任务与地域扩展。十个分支全部展开，无需点击。', 32)
-        self.paragraph('运行基线 R90  ｜  总结与入口整理 R97–R99  ｜  整理日期 2026-10-14', 29)
+        self.paragraph(brief['title'], 60, INK, True)
+        self.paragraph(brief['intro'], 32)
+        self.paragraph('运行基线 R90  ｜  阶段总结与发布整理 R97–R101  ｜  整理日期 2026-10-14', 29)
+        gap, w = 28, (CONTENT_WIDTH - 56) // 3
+        for i, step in enumerate(brief['steps']):
+            x, color = MARGIN + i * (w + gap), [GREEN, BLUE, AMBER][i]
+            self.rect(x, self.y, w, 275, '#ffffff', 12, '#d0dbd0')
+            self.text(str(i + 1) + ' / ' + step['title'], x + 25, self.y + 20, w - 50, 37, color, True)
+            self.text(step['content'], x + 25, self.y + 84, w - 50, 32, INK)
+            self.text(step['question'], x + 25, self.y + 179, w - 50, 29, MUTED)
+        self.y += 305
+        self.paragraph('从宏观定位到逐层引导，从条件到过程与结果；每一层都说明为什么靠近下一层。', 34, GREEN, True)
         columns = [
             ('已有并阶段验证', '地球与全域定位、4主题52幕导演、15场景、自由操作、语音字幕、观察保存恢复。', GREEN),
             ('当前不足', '中间细地图、自然专题、真实故事过程、地点与场景联系、近景年代细节和统一表现。', AMBER),
@@ -147,6 +156,9 @@ class Poster:
             self.text(title, x + 25, self.y + 20, w - 50, 34, color, True)
             self.text(text, x + 25, self.y + 83, w - 50, 30, MUTED)
         self.y += h + 35
+        for item in brief['sections']:
+            self.y += self.text(item['label'], MARGIN, self.y, 210, 32, GREEN, True) + 2
+            self.y += self.text(item['text'], MARGIN, self.y, CONTENT_WIDTH, 30, MUTED) + 15
         self.paragraph('价值主线：建立位置  →  看见差异  →  理解联系  →  自主观察', 37, GREEN, True)
         self.paragraph('空间层级：地球  ↔  全域  ↔  区域／河谷  ↔  县域／历史聚落  ↔  地点／活动', 33, INK, True)
         self.paragraph('区域与聚落独立细图是主要缺口。模型必须回答一个问题，并交代它位于哪里、属于何时、依据什么、如何返回。', 30)
@@ -224,10 +236,12 @@ def main():
                          input='process.stdout.write(JSON.stringify(' + match[1] + '));',
                          text=True, encoding='utf-8', capture_output=True, check=True)
     views = json.loads(raw.stdout)
+    brief_source = SOURCE.with_name('learning-value-summary.json')
+    brief = json.loads(brief_source.read_text('utf-8'))
     if len(views) != 10:
         raise ValueError('All ten branches are required')
     poster = Poster(args.font, args.bold_font)
-    poster.cover()
+    poster.cover(brief)
     for n, (identity, view) in enumerate(views.items(), 1):
         if identity in GROUPS:
             poster.group(*GROUPS[identity])
@@ -239,6 +253,8 @@ def main():
     report = {
         'kind': 'complete-static-summary', 'source': 'tools/stage-summary-source.html',
         'sourceSha256': hashlib.sha256(SOURCE.read_bytes()).hexdigest(),
+        'valueBriefSource': 'tools/learning-value-summary.json',
+        'valueBriefSha256': hashlib.sha256(brief_source.read_bytes()).hexdigest(),
         'output': args.output.relative_to(PROJECT).as_posix(), 'size': final.size,
         'bytes': args.output.stat().st_size,
         'sha256': hashlib.sha256(args.output.read_bytes()).hexdigest(),

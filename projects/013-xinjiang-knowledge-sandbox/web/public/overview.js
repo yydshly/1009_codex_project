@@ -1,10 +1,34 @@
 import {installBlueprint} from './platform-blueprint.js';
 installBlueprint(document.getElementById('platform-blueprint'));
 import {installFilmReading} from './film-reading.js';
+const localResearch = ['localhost','127.0.0.1','::1','[::1]'].includes(location.hostname);
+const reference = document.getElementById('reference-video');
+const remoteReference = document.getElementById('reference-remote');
+if (reference) {
+  reference.hidden = !localResearch;
+  const source = reference.querySelector('source');
+  if (localResearch && source?.dataset.localSrc) {
+    source.src = source.dataset.localSrc;
+    reference.load();
+  }
+}
+if (remoteReference) remoteReference.hidden = localResearch;
+document.querySelector('[data-reference-cues]')?.toggleAttribute('hidden', !localResearch);
+document.getElementById('reference-load')?.addEventListener('click', event => {
+  event.currentTarget.disabled = true;
+  event.currentTarget.textContent = '正在加载原帖；也可直接打开原帖';
+  const embed = document.getElementById('reference-embed');
+  if (embed) embed.hidden = false;
+  const script = document.createElement('script');
+  script.src = 'https://platform.twitter.com/widgets.js';
+  script.async = true;
+  script.onerror = () => { event.currentTarget.textContent = '原帖嵌入暂不可用，请打开原帖'; };
+  document.head.append(script);
+});
 const players = new Map([
-  ['reference', document.getElementById('reference-video')],
+  ['reference', localResearch ? reference : null],
   ['current', document.getElementById('current-video')],
-]);
+].filter(([,player]) => player));
 installFilmReading(players.get('current'));
 for (const [id, player] of players) {
   player.addEventListener('play', () => {
@@ -12,18 +36,20 @@ for (const [id, player] of players) {
   });
   const showError = () => {
     const status = document.getElementById(`${id}-status`);
+    if (!status) return;
     status.hidden = false;
     status.textContent = id === 'reference'
       ? '本地原片未能加载，请通过下方原帖入口查看。'
-      : '本地成片未能加载，仍可通过下方入口进入完整交互体验。';
+      : '成片暂未能加载，可重试播放或进入下方完整交互体验。';
   };
   player.addEventListener('error', showError);
-  player.querySelector('source').addEventListener('error', showError);
+  player.querySelector('source')?.addEventListener('error', showError);
 }
 for (const button of document.querySelectorAll('[data-player]')) {
   button.setAttribute('aria-pressed', 'false');
   button.addEventListener('click', () => {
     const player = players.get(button.dataset.player);
+    if (!player) return;
     const seek = () => {
       player.currentTime = Math.min(Number(button.dataset.time), player.duration || Infinity);
       // Keep audio playback user controlled; a time label positions the paused frame.

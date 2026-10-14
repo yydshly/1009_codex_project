@@ -981,6 +981,17 @@
       "notes": "./assets/records/round-11.md"
     },
     {
+      "id": "round-101",
+      "label": "R101",
+      "title": "把核心认识方法放到首读摘要，并准备独立发布",
+      "phase": "space",
+      "summary": "本次最大的研究价值由用户明确为：全球认识（地球、五带、国界）建立位置与尺度；自然条件（西风、温度、降水、地形）理解地区差异；人文联系（丝绸之路、历史、宗教、地域特色与景点）进一步认识地方。从整体到细节、从宏观定位到逐层引导，用条件、过程和结果组织认识。自然提供背景，历史文化仍需独立证据。",
+      "fileCount": 901,
+      "mediaCount": 374,
+      "manifest": "./assets/records/round-101.json",
+      "notes": "./assets/records/round-101.md"
+    },
+    {
       "id": "round-100",
       "label": "R100",
       "title": "外部README可独立阅读的全量总结图片",

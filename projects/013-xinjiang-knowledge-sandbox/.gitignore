@@ -10,6 +10,9 @@
 !/process/round-*/retention.json
 /process/.store/
 
+# One complete, compressed delivery film is included for public playback.
+!web/public/assets/media/current-r31-web.mp4
+
 # Historical editing helpers and storage audit payloads stay local.
 /storage/**
 !/storage/**/

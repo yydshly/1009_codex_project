@@ -8,3 +8,5 @@
 .hero-figure img[src*="r73-director.png"],.hero-figure img[src*="r74-guided-map.png"]{aspect-ratio:852/871;object-fit:contain;background:#081014}
 
 .retained-research{margin-top:28px;border-top:1px solid #bcc9b8;padding:18px 0}.retained-research>summary{font-size:14px;cursor:pointer}.retained-research>.section{padding:30px 0}.site-header nav{flex-wrap:wrap;gap:12px 20px}
+.film video[hidden],.reference-remote[hidden],[data-reference-cues][hidden],#reference-embed[hidden]{display:none!important}
+.reference-remote img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}.reference-remote p{font-size:12px;color:var(--muted)}.reference-actions{display:flex;flex-wrap:wrap;gap:12px;align-items:center}.reference-actions .primary{font-size:12px;padding:9px 12px}.reference-actions button{font-size:11px;padding:8px 11px;border:1px solid var(--line);border-radius:4px;color:var(--ink);background:var(--soft);cursor:pointer}#reference-embed{margin-top:15px;max-width:550px}
