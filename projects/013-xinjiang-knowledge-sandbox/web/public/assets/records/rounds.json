@@ -981,6 +981,17 @@
       "notes": "./assets/records/round-11.md"
     },
     {
+      "id": "round-100",
+      "label": "R100",
+      "title": "外部README可独立阅读的全量总结图片",
+      "phase": "space",
+      "summary": "用户要求将交互总图转换为全量静态总结图片，在外部README引导理解能力与研究信息。本轮从原始十分支内容直接排版：完整保留10个标题与简介、57条表格记录、25条补充说明；另加四主题52幕及15场景能力范围5条、数据与历史资料边界7条。所有内容同时可见，不受网页分支状态影响。PNG为2800×14292，约4.76MB；图片不是界面截图，也不是原产品官方架构… 完整记录见下方入口。",
+      "fileCount": 890,
+      "mediaCount": 370,
+      "manifest": "./assets/records/round-100.json",
+      "notes": "./assets/records/round-100.md"
+    },
+    {
       "id": "round-10",
       "label": "R10",
       "title": "让故事在场景中发生",

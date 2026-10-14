@@ -1,5 +1,19 @@
 # 013 · 新疆互动沙盘：地理、历史与多尺度知识展示
 
+## 先看全量总结图
+
+这张长图完整展开网页总图的 **十个分支、57条对照与任务记录、25条补充说明**，另外整理真实地表、历史资料、声音与留档的研究边界。直接在仓库README中阅读即可；点击图片打开原图并放大，不需要本地服务或逐项点击网页。
+
+[![新疆3D探索的全量阶段总结：参考与当前原型对照、已有能力与缺口、价值、全球认识—自然条件—人文联系、平台结构、优化与验收、AI任务、地域扩展及研究依据；非原产品官方架构或实际界面截图。](assets/stage-summary-full.png)](assets/stage-summary-full.png)
+
+[打开／保存完整图片](assets/stage-summary-full.png) · [阅读完整文字总结](web/public/assets/records/stage-summary-notes.md) · [研究记录](research.md) · [原始演示](https://x.com/readyfor2025/status/2108409664018977249) · [过程素材与恢复](storage/README.md)
+
+在线页面：[3D演示](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/) · [交互阶段总结](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/stage-summary.html) · [原视频与成片](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/overview.html#watch) · [后续开发指南](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/stage-review.html)。这些地址由统一Pages站点发布后更新；图片与文字总结无需等待网页发布。
+
+图中的三类信息分别是**已有并阶段验证／当前不足／后续待实施**。运行能力仍以R90为基线：四主题52幕，15个工作场景并非全部有独立导演。原视频对应的GitHub源码及内部技术尚未确认；完整五带、气候专题、区域与聚落细图、通用地域架构仍属待开发方向。
+
+本图从[总图内容源](tools/stage-summary-source.html)生成，不依赖网页当前选中的分支；维护方式见[图片生成器](tools/render_stage_summary_image.py)。原[R90实际3D网页截图](assets/preview-r90.png)继续保留，避免把总结图当作产品效果图。
+
 R92反思补充：用户指出原演示的地球、五带、西风、丝绸之路、温度降水、国界、景点与文化宗教专题呈现更清楚。后续优先建立全球与区域地理认知，再选择历史文化和地点探索；详细说明见阶段总结的“参考演示带来的主线修正”。
 
 ## 阶段归档与后续设计
