@@ -2,6 +2,17 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-94",
+      "label": "R94",
+      "title": "AI开发指导与跨地域扩展",
+      "phase": "space",
+      "summary": "按用户本轮问题，补充AI任务输入、分阶段产出与验收、可复用任务说明，以及通用能力与各地域内容配置的组织、扩展顺序、尺度数据和性能预算。",
+      "fileCount": 870,
+      "mediaCount": 369,
+      "manifest": "./assets/records/round-94.json",
+      "notes": "./assets/records/round-94.md"
+    },
+    {
       "id": "round-93",
       "label": "R93",
       "title": "地理认知反思的核验补充",

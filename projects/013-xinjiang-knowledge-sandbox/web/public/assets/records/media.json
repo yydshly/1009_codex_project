@@ -677,6 +677,20 @@
       "storage": "shared-hardlink"
     },
     {
+      "url": "./assets/records/round-94.json",
+      "source": "process/round-94/retention.json",
+      "size": 228425,
+      "sha256": "5121abf5ae8a26110c3776bb5027c494bdb8c1283cfb30ed3b8f4678fc94012e",
+      "storage": "shared-hardlink"
+    },
+    {
+      "url": "./assets/records/round-94.md",
+      "source": "process/round-94/README.md",
+      "size": 618,
+      "sha256": "0eea287c690daa0308e9487ad9ded0e9c8876234621ef9521144099467c44dc9",
+      "storage": "shared-hardlink"
+    },
+    {
       "url": "./assets/records/round-93.json",
       "source": "process/round-93/retention.json",
       "size": 227132,

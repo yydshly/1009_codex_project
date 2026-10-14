@@ -27,7 +27,10 @@ def render(lines):
         heading = re.match(r'^(#{1,3}) (.+)$', line)
         if heading:
             level = len(heading[1])
-            parts.append(f'<h{level}>{inline(heading[2])}</h{level}>')
+            anchors = {'如何指导 AI 开发同类项目': 'ai-development',
+                       '如何扩展到其他地域': 'regional-expansion'}
+            anchor = ' id="' + anchors[heading[2]] + '"' if heading[2] in anchors else ''
+            parts.append(f'<h{level}{anchor}>{inline(heading[2])}</h{level}>')
             i += 1
         elif line.startswith('|'):
             rows = []
