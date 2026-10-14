@@ -2,6 +2,17 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-95",
+      "label": "R95",
+      "title": "用具体步骤重写开发说明",
+      "phase": "space",
+      "summary": "用户表示原说明看不懂。本轮用新疆举例，改为认识顺序、第一轮地球和全图、第二轮自然条件、第三轮真实故事与地点，附四个观看检查问题和可直接使用的任务文字。跨地域部分改为可以沿用的操作、需要重新准备的内容和完整路线。",
+      "fileCount": 872,
+      "mediaCount": 370,
+      "manifest": "./assets/records/round-95.json",
+      "notes": "./assets/records/round-95.md"
+    },
+    {
       "id": "round-94",
       "label": "R94",
       "title": "AI开发指导与跨地域扩展",
