@@ -1,0 +1,8 @@
+/* Project entry remains visible beside the brand, outside the compact controls. */
+.wb-project-home{display:flex;align-items:center;gap:12px;flex:0 0 auto}
+.wb-header .project-summary-link,.demo-mode .demo-header-actions>a.project-summary-link{display:inline-flex;align-items:center;justify-content:center;flex:0 0 auto;white-space:nowrap;font-size:12px;line-height:1.5;padding:8px 10px;border:1px solid #91ad9266;border-radius:4px;color:#e5ead5;background:#273a30;text-decoration:none;pointer-events:auto}
+.project-summary-link:focus-visible{outline:2px solid #e0cc94;outline-offset:3px}
+.wb-header .project-overview-link,.demo-mode .demo-header-actions>a.project-overview-link{display:inline-flex;align-items:center;flex:0 0 auto;white-space:nowrap;color:#c2d3c3;font-size:12px;text-decoration:none;pointer-events:auto;padding:8px 2px}
+.project-overview-link:focus-visible{outline:2px solid #e0cc94;outline-offset:3px}
+.wb-header .project-summary-link:hover,.demo-mode .demo-header-actions>a.project-summary-link:hover{background:#365243;color:#fff6da}
+@media(max-width:700px){.wb-project-home{gap:7px}.wb-header .project-summary-link,.demo-mode .demo-header-actions>a.project-summary-link{font-size:11px;padding:7px 8px;min-height:32px}.project-link-detail{display:none}.wb-header .project-overview-link,.demo-mode .demo-header-actions>a.project-overview-link{font-size:11px}}

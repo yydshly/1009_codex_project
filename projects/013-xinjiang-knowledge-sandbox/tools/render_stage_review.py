@@ -153,7 +153,7 @@ li{margin:12px 0}ul,ol{padding-left:25px}code{font-size:.85em;overflow-wrap:anyw
 @media print{details:not([open])>.step-body{display:block}.document-actions,.guide-links,.back-top{display:none}.step-card{break-inside:avoid}body{background:white}}
 </style></head><body>
 <header class="site-header"><a class="wordmark" href="./stage-summary.html">◈ 新疆3D沙盘 · 阶段总结</a><a class="header-action" href="./?learn=world">打开现有3D平台 ↗</a></header>
-<main class="stage-document"><nav class="document-actions" aria-label="指南资料"><a href="./stage-summary.html">阶段理解总图</a><a href="./assets/records/next-development-task.md" download>下载下一轮任务书</a><a href="./assets/records/stage-retrospective.md" download>下载完整指南</a><a href="./overview.html#archive">查看过程记录</a></nav>
+<main class="stage-document"><nav class="document-actions" aria-label="指南资料"><a href="./stage-summary.html">阶段理解总图</a><a href="./overview.html">项目总览与原视频</a><a href="./assets/records/next-development-task.md" download>下载下一轮任务书</a><a href="./assets/records/stage-retrospective.md" download>下载完整指南</a><a href="./overview.html#archive">查看过程记录</a></nav>
 ''' + body + '</main></body></html>\n'
 (PUBLIC / 'stage-review.html').write_text(page, encoding='utf-8')
 print('Rendered implementation guide and task brief from the retrospective source.')

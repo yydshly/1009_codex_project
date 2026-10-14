@@ -2,6 +2,17 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-99",
+      "label": "R99",
+      "title": "演示首页与总结等页面互相关联",
+      "phase": "space",
+      "summary": "用户要求演示首页关联总结、各页都能相互到达。发现R98虽已添加总结链接，但kg-active及小屏历史导航会隐藏nav内文字链接。将总结与总览入口移到工作台品牌旁，独立于可滚动工具导航；旧demo增加受保护的总结与总览链接，研究及手记也增加总结入口。总结页明确提供3D首页、项目总览、原视频和指南；指南补明确总览链接。",
+      "fileCount": 887,
+      "mediaCount": 372,
+      "manifest": "./assets/records/round-99.json",
+      "notes": "./assets/records/round-99.md"
+    },
+    {
       "id": "round-98",
       "label": "R98",
       "title": "总图与十个分支接入阶段总结网页",

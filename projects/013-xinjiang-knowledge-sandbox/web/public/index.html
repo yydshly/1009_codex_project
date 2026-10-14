@@ -25,13 +25,14 @@
 <link rel="stylesheet" href="./envoy-journey.css">
 <link rel="stylesheet" href="./settlement-story.css">
 <link rel="stylesheet" href="./local-observation.css">
+<link rel="stylesheet" href="./project-navigation.css">
 </head>
 <body>
 <main class="experience">
   <section class="viewport" id="viewport" aria-label="交互三维沙盘">
     <div id="canvas-host"></div><canvas id="transition-frame" aria-hidden="true"></canvas><div class="scene-shade"></div>
     <section id="demo-player" class="demo-player" aria-label="完整演示" hidden>
-      <header class="demo-header"><a href="./" class="demo-brand">◈ <span>山河之间<small>新疆 · 连接之地</small></span></a><div class="demo-header-actions"><a href="./overview.html">项目总览 · 原视频 ↗</a><button id="demo-sound" aria-pressed="false" title="旁白、环境与原创教学节奏，可随时关闭">开启声音</button><button id="demo-voice" hidden aria-pressed="false" title="使用本机中文语音朗读；可随时关闭">朗读关</button><button id="journey-map-open">探索地图 ↗</button><button id="demo-relations">关系图 ↗</button><button id="demo-data">画面来源 ⓘ</button><button id="demo-explore">暂停探索</button><button id="atlas-home">返回地球</button></div></header>
+      <header class="demo-header"><a href="./" class="demo-brand">◈ <span>山河之间<small>新疆 · 连接之地</small></span></a><div class="demo-header-actions"><a class="project-summary-link" href="./stage-summary.html">阶段总结 ↗</a><a class="project-overview-link" href="./overview.html" aria-label="项目总览与原视频">总览<span class="project-link-detail"> / 原视频</span></a><button id="demo-sound" aria-pressed="false" title="旁白、环境与原创教学节奏，可随时关闭">开启声音</button><button id="demo-voice" hidden aria-pressed="false" title="使用本机中文语音朗读；可随时关闭">朗读关</button><button id="journey-map-open">探索地图 ↗</button><button id="demo-relations">关系图 ↗</button><button id="demo-data">画面来源 ⓘ</button><button id="demo-explore">暂停探索</button><button id="atlas-home">返回地球</button></div></header>
       <div class="demo-cover" id="demo-cover">
         <div class="demo-cover-copy"><p class="demo-eyebrow">XINJIANG / AN INTERACTIVE ATLAS</p><h1>从地球出发<span>来到新疆，再走进一个地点。</span></h1><p>人怎样在这片土地上生活，<br>并与外界建立联系？<br>沿水、道路与人的选择，带着问题走进去。</p><div class="atlas-actions"><button id="atlas-resume" hidden>回到刚才的地点 ↗</button><button id="demo-start">跟随空间旅行 ↗</button><button id="atlas-region">先看新疆地图 →</button><button id="atlas-film">观看完整故事 ▷</button></div><div class="demo-cover-meta"><span>地球 → 区域 → 地点</span><span id="demo-duration">完整故事约 8 分钟</span></div></div>
         <div class="atlas-map-note"><strong>真实高程 · 影像地形</strong><span>拖动环视 · 点选地标进入<br>地标定位案例，生活场景为原创叙事</span></div>
@@ -48,7 +49,7 @@
     <header class="topbar">
       <a class="brand" href="./" aria-label="沙盘首页">◈ <span>地球上的新疆</span></a>
       <nav class="mode-nav" aria-label="场景分类"><button data-category="all" aria-pressed="true">全部场景 <small>9</small></button><button data-category="geography" aria-pressed="false">地理与历史 <small>4</small></button><button data-category="local" aria-pressed="false">微观场景 <small>3</small></button><button data-category="model" aria-pressed="false">原理模型 <small>2</small></button></nav>
-      <div class="research-links"><a href="./overview.html">总览与原视频 ↗</a><a href="./explorations.html">探索手记 ↗</a><a class="research-link" href="./research.html" title="原演示研究与来源">案例研究 ↗</a></div>
+      <div class="research-links"><a href="./stage-summary.html">阶段总结 ↗</a><a href="./overview.html">总览与原视频 ↗</a><a href="./explorations.html">探索手记 ↗</a><a class="research-link" href="./research.html" title="原演示研究与来源">案例研究 ↗</a></div>
     </header>
     <div class="scene-banner"><span id="scale-badge">全球尺度</span><b id="top-scene">地球上的新疆</b></div>
     <aside class="story-panel">
