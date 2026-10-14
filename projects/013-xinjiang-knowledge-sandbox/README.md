@@ -23,6 +23,8 @@
 
 [进入3D平台](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/) · [四主题导演](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/overview.html#auto-director) · [原视频与成片](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/overview.html#watch) · [查看能力与问题的完整对照](web/public/assets/records/stage-summary-notes.md)
 
+2026-10-14已提交远端并部署：[在线阶段总结](https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/stage-summary.html)为首读入口，与3D首页、原视频、历史成片和开发指南互相关联。公网已检查总结十个分支、地球加载、四主题导演入口、字幕推进与暂停返回、成片播放与章节定位；运行能力仍以R90及其既有验收为准。[发布与增量归档记录](process/round-102/README.md)。
+
 ## 我们参考了什么
 
 参考对象是[原始演示视频](https://x.com/readyfor2025/status/2108409664018977249)中的呈现思路：地图建立位置，专题解释差异，地点与3D效果帮助观察具体对象。这里总结的是**从演示观察到、对我们有指导意义的组织方法**；其GitHub源码、内部架构与数据精度尚未确认。本项目是独立探索，引用的数据、史料及表示范围见[研究记录](research.md)。

@@ -4,7 +4,7 @@
   "status": "archived",
   "archivedAt": "2026-10-14",
   "runtimeBaseline": "round-90",
-  "reviewSnapshot": "round-101",
+  "reviewSnapshot": "round-102",
   "gitCheckpointTag": "xinjiang-stage-r90",
   "project": {
     "id": "013",
@@ -64,7 +64,17 @@
     "fullRecoveryNeedsLocalObjects": true
   },
   "personalObservations": "Browser-local; export platform configuration separately when moving machines.",
-  "publication": "Local checkpoint only; no remote push or deployment.",
+  "publication": {
+    "status": "published",
+    "publishedAt": "2026-10-14",
+    "sourceCommit": "94673584778fb730a44e6884ed182cff6b88207d",
+    "workflowRun": "https://github.com/yydshly/1009_codex_project/actions/runs/38549572813",
+    "workflowConclusion": "success",
+    "summaryUrl": "https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/stage-summary.html",
+    "demoUrl": "https://yydshly.github.io/1009_codex_project/013-xinjiang-knowledge-sandbox/",
+    "evidence": "process/round-102/README.md",
+    "scope": "Summary, retained R90 exploration and complete R31 public delivery film; deployment smoke tests do not replace all 52 prior shot checks."
+  },
   "readableReview": "web/public/stage-review.html",
   "readableSummary": "web/public/stage-summary.html",
   "summaryAuthoringSource": "tools/stage-summary-source.html",
@@ -78,7 +88,8 @@
     "round-98": "Stage-summary webpage integrates the complete map, all branch notes and preserved video/demo navigation",
     "round-99": "Visible, reciprocal summary navigation across the 3D homepage, legacy demo, overview, guide and research pages",
     "round-100": "Standalone complete summary PNG for repository READMEs, all ten branches plus source boundaries; original runtime preview retained",
-    "round-101": "Value-first global/natural/human learning summary, complete README and website guidance, isolated remote publication and playable public historical film"
+    "round-101": "Value-first global/natural/human learning summary, complete README and website guidance, isolated remote publication and playable public historical film",
+    "round-102": "Successful remote Pages publication, clean-checkout resource checks, public summary and 3D/video verification; historical records remain immutable"
   },
   "valueBrief": "tools/learning-value-summary.json",
   "summaryImage": "assets/stage-summary-full.png"

@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-14",
+  "sourceCommit": "94673584778fb730a44e6884ed182cff6b88207d",
+  "workflow": {
+    "runId": 38549572813,
+    "conclusion": "success",
+    "url": "https://github.com/yydshly/1009_codex_project/actions/runs/38549572813"
+  },
+  "publicChecks": [
+    {
+      "name": "summary",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 138999,
+      "sha256": "7f85fdba2c1741317d79a70dca57252a0ff47565483274497bd799befd0e614c",
+      "matchesReleaseSource": true
+    },
+    {
+      "name": "guide",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 51416,
+      "sha256": "652eb9e05188626582c6aa639618aab513e2e7afd3c0291b948220f8a8f71a99",
+      "matchesReleaseSource": true
+    },
+    {
+      "name": "overview",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "bytes": 106329,
+      "sha256": "53b2177baaa181b3acf51ffbdd7d3675b863400a5e5cf4e3172e641aef392b30",
+      "matchesReleaseSource": true
+    },
+    {
+      "name": "complete-notes",
+      "status": 200,
+      "contentType": "text/markdown; charset=utf-8",
+      "bytes": 19704,
+      "sha256": "63d3089c6fefd4e357cdd00d8d662ed1370ab9a0f2826961dc4972386a9891bf",
+      "matchesReleaseSource": true
+    },
+    {
+      "name": "complete-image",
+      "status": 200,
+      "contentType": "image/png",
+      "bytes": 5158591,
+      "sha256": "f5aa0837dfa43bc24c0ad54266fc97864097088f997acbcffef19df6504d8f77",
+      "matchesReleaseSource": true
+    },
+    {
+      "name": "director-voice",
+      "status": 200,
+      "contentType": "audio/mp3",
+      "bytes": 209652,
+      "sha256": "0613ba6e4c72b4e964c5c2de4cc60ee5ac97fc38706f97a48a16ef9d68cae171",
+      "matchesReleaseSource": true
+    }
+  ],
+  "filmRangeRequest": {
+    "status": 206,
+    "contentType": "video/mp4",
+    "contentRange": "bytes 0-4095/35851148",
+    "sampleBytes": 4096
+  },
+  "nativeBrowser": {
+    "summaryCoreValueAndFiveSections": true,
+    "allTenBranchesExpanded": true,
+    "reciprocalDemoSummaryOverviewNavigation": true,
+    "globeRendered": true,
+    "globeRendererState": "ready",
+    "fourDirectorThemesListed": true,
+    "zhangStartedAndSubtitlesAdvanced": true,
+    "zhangPauseAndReturn": true,
+    "r31FilmStarted": true,
+    "r31FilmDurationSeconds": 646.933333,
+    "r31WaterChapterPausedAtSeconds": 100.86,
+    "r31ChapterExplanationUpdated": true,
+    "publicOriginalPostAdapterVisible": true
+  },
+  "validationScope": "Publication smoke tests; detached director audio was not listened to by this check. Voice file integrity checked; original X playback depends on that platform. Retained R90 prior checks cover complete directors, not re-run all 52 shots here.",
+  "cleanCheckout": {
+    "webTestsPassed": 130,
+    "webTestsFailed": 0,
+    "otherProjectsBuiltAndChecked": 18,
+    "totalPublishedProjects": 19,
+    "pagesBuildBytes": 348218548
+  },
+  "fixedForPublication": [
+    "Resource attribute regex excludes data-local-src",
+    "Two original STAC JSON byte hashes preserved across Git checkout"
+  ],
+  "runtimeBaseline": "R90",
+  "historicalFilm": "R31",
+  "record": "process/round-102/README.md"
+}
