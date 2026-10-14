@@ -2,6 +2,28 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-93",
+      "label": "R93",
+      "title": "地理认知反思的核验补充",
+      "phase": "space",
+      "summary": "R92网页与设计说明已冻结。初次校验误将带查询参数的3D入口判为缺失文件，校验中断但源码归档继续完成；因此R92说明中提到的validation.json和source-extra实际在本轮补充。原R92快照保持只读。",
+      "fileCount": 867,
+      "mediaCount": 369,
+      "manifest": "./assets/records/round-93.json",
+      "notes": "./assets/records/round-93.md"
+    },
+    {
+      "id": "round-92",
+      "label": "R92",
+      "title": "以地理认知主线修正后续设计",
+      "phase": "space",
+      "summary": "记录用户对原演示地球、五带、西风、丝绸之路、地形、温度降水、国界、特色、景点与宗教等呈现的反馈。补充阶段反思的认识层次、专题变化与后续优先级，更新可读设计说明和总览摘要。运行基线保持R90。",
+      "fileCount": 862,
+      "mediaCount": 369,
+      "manifest": "./assets/records/round-92.json",
+      "notes": "./assets/records/round-92.md"
+    },
+    {
       "id": "round-91",
       "label": "R91",
       "title": "R91 阶段归档与后续设计反思",

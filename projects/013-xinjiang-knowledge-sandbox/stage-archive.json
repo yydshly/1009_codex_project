@@ -4,7 +4,7 @@
   "status": "archived",
   "archivedAt": "2026-10-14",
   "runtimeBaseline": "round-90",
-  "reviewSnapshot": "round-91",
+  "reviewSnapshot": "round-93",
   "gitCheckpointTag": "xinjiang-stage-r90",
   "project": {
     "id": "013",
@@ -50,6 +50,7 @@
     "process/round-88/README.md"
   ],
   "nextDesign": [
+    "global and regional geography learning before thematic historical narratives",
     "source-backed event nodes",
     "regional and county or historical settlement maps",
     "geography and action causality",
@@ -64,5 +65,9 @@
   },
   "personalObservations": "Browser-local; export platform configuration separately when moving machines.",
   "publication": "Local checkpoint only; no remote push or deployment.",
-  "readableReview": "web/public/stage-review.html"
+  "readableReview": "web/public/stage-review.html",
+  "reviewSupplements": {
+    "round-92": "geographic learning structure and user feedback",
+    "round-93": "validation and root-document retention supplement"
+  }
 }
