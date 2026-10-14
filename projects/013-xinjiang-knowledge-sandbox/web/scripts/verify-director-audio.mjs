@@ -1,0 +1,32 @@
+import fs from 'node:fs/promises';
+import path from 'node:path';
+import {fileURLToPath} from 'node:url';
+import {createHash} from 'node:crypto';
+import {spawnSync} from 'node:child_process';
+const outputFlag=process.argv.indexOf('--output');
+if(outputFlag<0||!process.argv[outputFlag+1])throw Error('Supply --output with a new writable verification directory.');
+const output=path.resolve(process.argv[outputFlag+1]);
+const assets=path.resolve(path.dirname(fileURLToPath(import.meta.url)),'../public/assets/audio/director');
+const manifest=JSON.parse(await fs.readFile(path.join(assets,'manifest.json'),'utf8'));
+const ffmpeg='D:/26project/26audio_and_video_project/ffmpeg-n6.1.3-win64-gpl-shared-6.1/bin/ffmpeg.exe';
+const pathFlag=process.argv.indexOf('--path'),selected=pathFlag>=0?process.argv[pathFlag+1]:null;
+const candidates=manifest.clips.filter(c=>!c.reused&&(!selected||c.event===selected));
+const measurements=[];
+for(const clip of candidates){
+ const file=path.join(assets,clip.file),bytes=await fs.readFile(file);
+ const run=spawnSync(ffmpeg,['-hide_banner','-nostats','-i',file,'-af','loudnorm=I=-18:TP=-1.5:LRA=7:print_format=json','-f','null','NUL'],{encoding:'utf8'});
+ if(run.status!==0)throw new Error(`Decode/measurement failed for ${clip.id}`);
+ const measured=JSON.parse(run.stderr.match(/\{\s*"input_i"[\s\S]*?\}/)?.[0]||'null');
+ if(!measured)throw new Error(`Missing loudness measurements for ${clip.id}`);
+ const digest=createHash('sha256').update(bytes).digest('hex');
+ const cues=clip.subtitles||[];
+ const validCues=cues.length>0&&cues.every((c,i)=>c.time_begin>=0&&c.time_end>c.time_begin&&c.time_end<=clip.duration*1000+100&&(!i||c.time_begin>=cues[i-1].time_end));
+ const entry={id:clip.id,duration:clip.duration,bytes:bytes.length,sha256:digest,hashMatches:digest===clip.sha256,integratedLUFS:Number(measured.input_i),truePeakDBTP:Number(measured.input_tp),loudnessRange:Number(measured.input_lra),subtitleEntries:cues.length,subtitleTimingValid:validCues,textMatches:cues.map(c=>c.text).join('')===clip.text};
+ entry.pass=entry.hashMatches&&Math.abs(entry.integratedLUFS+18)<=1&&entry.truePeakDBTP<=-.5&&entry.subtitleTimingValid&&entry.textMatches;
+ measurements.push(entry);
+}
+const loudnessSpread=Math.max(...measurements.map(m=>m.integratedLUFS))-Math.min(...measurements.map(m=>m.integratedLUFS));
+const result={pass:measurements.length===candidates.length&&measurements.every(m=>m.pass)&&loudnessSpread<=1,generatedAt:new Date().toISOString(),method:'ffmpeg loudnorm analysis of delivered MP3; decoded signal loudness/peak and MiniMax subtitle timing validity',acceptance:{targetLUFS:-18,toleranceLU:1,maximumSpreadLU:1,maximumTruePeakDBTP:-.5},loudnessSpreadLU:loudnessSpread,totalDuration:measurements.reduce((n,m)=>n+m.duration,0),totalBytes:measurements.reduce((n,m)=>n+m.bytes,0),measurements};
+await fs.writeFile(path.join(output,'verification.json'),JSON.stringify(result,null,2)+'\n');
+console.log(JSON.stringify({pass:result.pass,clips:measurements.length,loudnessSpreadLU:result.loudnessSpreadLU,totalDuration:result.totalDuration,failed:measurements.filter(m=>!m.pass)},null,2));
+if(!result.pass)process.exitCode=1;

@@ -1,0 +1,35 @@
+{
+  "edition": "R53",
+  "date": "2026-10-13",
+  "implementation": "Three.js 0.186.1 / spherical-history.js + existing reversible history-process.js",
+  "events": [
+    {
+      "id": "zhang",
+      "source": "https://whc.unesco.org/en/list/1442/",
+      "scope": "外交与交流背景；教学联系线不证明张骞逐站行程，网络是长期机制。"
+    },
+    {
+      "id": "protectorate",
+      "source": "https://wlt.xinjiang.gov.cn/wlt/mtbd/202303/2c41806b10f84069bbbe1adb542db056.shtml",
+      "scope": "前60年与乌垒考古背景；现代轮台位置、机构符号和联络线不作遗址或辖境复原。"
+    },
+    {
+      "id": "xibe",
+      "source": "https://www.neac.gov.cn/seac/ztzl/201806/1067551.shtml",
+      "additionalSources": [
+        "https://www.xjaa.gov.cn/content/21/522.html",
+        "https://czt.xinjiang.gov.cn/xjczt/c115020/202508/233609176d4e4c7b94132bc34df5176a.shtml"
+      ],
+      "scope": "1764出发、1765抵伊犁、1766安置；后期修渠分开。球面仅表现起讫方向，原创家庭不是实景复原。"
+    }
+  ],
+  "geography": "沿用regional-surface-sources.json。固定193×129区域网格，显示高程6倍夸张；范围外保持全球球面，未增加全球DEM。",
+  "representation": "弧线按经纬位置沿球面采样；径向放置城门、聚落、田垄与交接符号。符号非等比例，观察时钟不是历史速度。",
+  "interaction": "默认连续地理空间；阶段/进度可逆，用户主动选点、打开分析或近景；会话返回恢复镜头，URL保留事件/进程/节点/视图。",
+  "limits": [
+    "三个可操作历史过程；其他时代为索引",
+    "非全球流式瓦片和连续LOD",
+    "本轮不新增实景扫描、历史测绘、写实资产、声音或影片"
+  ],
+  "retention": "process_store.py save --round round-53 --base round-52，旧媒体共享，冻结素材只读。"
+}

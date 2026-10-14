@@ -1,0 +1,165 @@
+{
+  "method": "New extraction of retained actual video in R30; no image enhancement; individual frames at native 1280x720. Sheets downsample for navigation only.",
+  "frames": [
+    {
+      "source": "reference",
+      "second": 2,
+      "file": "frames/reference-002.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 10,
+      "file": "frames/reference-010.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 18,
+      "file": "frames/reference-018.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 47,
+      "file": "frames/reference-047.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 65,
+      "file": "frames/reference-065.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 87,
+      "file": "frames/reference-087.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 96,
+      "file": "frames/reference-096.jpg"
+    },
+    {
+      "source": "reference",
+      "second": 112,
+      "file": "frames/reference-112.jpg"
+    },
+    {
+      "source": "current",
+      "second": 2,
+      "file": "frames/current-002.jpg"
+    },
+    {
+      "source": "current",
+      "second": 24,
+      "file": "frames/current-024.jpg"
+    },
+    {
+      "source": "current",
+      "second": 32,
+      "file": "frames/current-032.jpg"
+    },
+    {
+      "source": "current",
+      "second": 54,
+      "file": "frames/current-054.jpg"
+    },
+    {
+      "source": "current",
+      "second": 65,
+      "file": "frames/current-065.jpg"
+    },
+    {
+      "source": "current",
+      "second": 83,
+      "file": "frames/current-083.jpg"
+    },
+    {
+      "source": "current",
+      "second": 114,
+      "file": "frames/current-114.jpg"
+    },
+    {
+      "source": "current",
+      "second": 169,
+      "file": "frames/current-169.jpg"
+    },
+    {
+      "source": "current",
+      "second": 207,
+      "file": "frames/current-207.jpg"
+    },
+    {
+      "source": "current",
+      "second": 254,
+      "file": "frames/current-254.jpg"
+    },
+    {
+      "source": "current",
+      "second": 270,
+      "file": "frames/current-270.jpg"
+    },
+    {
+      "source": "current",
+      "second": 295,
+      "file": "frames/current-295.jpg"
+    },
+    {
+      "source": "current",
+      "second": 319,
+      "file": "frames/current-319.jpg"
+    },
+    {
+      "source": "current",
+      "second": 340,
+      "file": "frames/current-340.jpg"
+    },
+    {
+      "source": "current",
+      "second": 376,
+      "file": "frames/current-376.jpg"
+    },
+    {
+      "source": "current",
+      "second": 397,
+      "file": "frames/current-397.jpg"
+    },
+    {
+      "source": "current",
+      "second": 422,
+      "file": "frames/current-422.jpg"
+    },
+    {
+      "source": "current",
+      "second": 435,
+      "file": "frames/current-435.jpg"
+    },
+    {
+      "source": "current",
+      "second": 475,
+      "file": "frames/current-475.jpg"
+    },
+    {
+      "source": "current",
+      "second": 510,
+      "file": "frames/current-510.jpg"
+    },
+    {
+      "source": "current",
+      "second": 549,
+      "file": "frames/current-549.jpg"
+    },
+    {
+      "source": "current",
+      "second": 574,
+      "file": "frames/current-574.jpg"
+    },
+    {
+      "source": "current",
+      "second": 609,
+      "file": "frames/current-609.jpg"
+    },
+    {
+      "source": "current",
+      "second": 631,
+      "file": "frames/current-631.jpg"
+    }
+  ]
+}

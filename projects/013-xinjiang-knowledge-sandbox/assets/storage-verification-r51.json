@@ -1,0 +1,18 @@
+{
+  "edition": "R51",
+  "newReferencedHashesVerified": 56,
+  "newObjects": 56,
+  "newBytes": 2561436,
+  "retainedPaths": 624,
+  "oldMediaUnchanged": 59,
+  "previewSharedHardlink": true,
+  "publicResources200": [
+    "assets/process/r51-water.png",
+    "assets/process/r51-oasis.png",
+    "assets/records/round-51.md",
+    "assets/records/round-51.json",
+    "assets/karez-inquiry-sources.json"
+  ],
+  "sourceUnchanged": 562,
+  "videoBytesCopied": 0
+}

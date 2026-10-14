@@ -1,0 +1,16 @@
+{
+  "name": "xinjiang-sandbox-research",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "dev": "node scripts/vendor.mjs && node scripts/serve.mjs",
+    "build": "node scripts/vendor.mjs",
+    "check": "node scripts/check.mjs"
+  },
+  "dependencies": {
+    "three": "0.186.1"
+  }
+}

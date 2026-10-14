@@ -1,0 +1,11 @@
+import fs from 'node:fs/promises';
+import {cues} from '../public/journey.js';
+import {pendingNarration} from '../public/narration-revision.js';
+const script=JSON.parse(await fs.readFile(new URL('../public/assets/audio-script.json',import.meta.url),'utf8'));
+const clips=cues.filter(c=>pendingNarration.has(c.id)).map(c=>({id:c.id,kind:'narration',role:'空间导览',text:script[c.id],voice_id:'Chinese (Mandarin)_Gentleman',speed:1.04,maxDuration:c.duration-.9}));
+const base=process.env.MINIMAX_API_BASE||'https://api.minimaxi.com';
+const endpoint=new URL('/v1/t2a_v2',base).href;
+if(!['https://api.minimaxi.com/v1/t2a_v2','https://api.minimax.cn/v1/t2a_v2','https://api.minimax.io/v1/t2a_v2'].includes(endpoint))throw Error('Use an official MiniMax endpoint.');
+const file=process.argv[2];if(!file)throw Error('Supply the work-order output path.');
+await fs.writeFile(file,JSON.stringify({provider:'MiniMax',model:'speech-2.8-hd',version:'R25',createdAt:'2026-10-11',endpoint,characterCount:clips.reduce((n,c)=>n+c.text.length,0),clips},null,2)+'\n');
+console.log(`Prepared ${clips.length} spatial narrations; credentials excluded.`);

@@ -1,0 +1,21 @@
+{
+  "edition": "R66",
+  "checkedAt": "2026-10-13",
+  "geography": {
+    "source": "https://www.xinjiang.gov.cn/xinjiang/c112848/xjsghdf.shtml",
+    "scope": "页面新疆概况与自然地理条目，资料年份2022；采用中国西北、欧亚内陆、八个邻国与三山两盆认识线索，不采用页面实时经济或人口数据。"
+  },
+  "imagery": {
+    "source": "https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/",
+    "asset": "earth-blue-marble.jpg",
+    "observation": "2004-06",
+    "reuse": "与既有assets/data-sources.json的4096×2048全球影像共享，未下载新副本。"
+  },
+  "labels": "大陆、海洋、城市与山系锚点沿用既有现代方位参照；国家与地区中文标签来自Natural Earth，显示别名和锚点调整见world-countries-source.json。标签不是首都。新疆轮廓继续沿用既有DataV定位数据。",
+  "relief": "球面山系概括线与盆地标签只作位置教学，不提供全球高程；详细高程在下一层区域地图中使用既有DEM。",
+  "distance": "采用半径6371.0088 km的球面，两点夹角与球面插值由world-content.js计算；大圆比较线不表示历史行程、贸易量、交通线或出行距离。",
+  "boundaries": {
+    "manifest": "world-countries-source.json",
+    "scope": "Natural Earth 1:50m现代国家与地区轮廓，保留其默认实际控制范围表示。争议/未定段叠加虚线；不当作历史疆域。"
+  }
+}

@@ -1,0 +1,26 @@
+/* Viewing gives the actors space; pausing exposes the full controls and sources. */
+.demo-header-actions #demo-sound{border:1px solid #b2c8ab55;padding:8px 12px;min-height:36px;border-radius:18px;color:#dce7ce}
+.demo-header-actions #demo-sound[aria-pressed=true]{background:#29453e;border-color:#a4c4b1}
+.story-state{font-size:13px!important;line-height:1.8!important;color:#f0e2b7!important;padding:10px 0;border-top:1px solid #c3c9a44a;margin:0 0 12px}
+.lived-controls{width:232px;right:30px;top:112px;padding:15px;max-height:calc(100% - 290px);background:#102422e8;border-left-color:#c6d4b1}
+.lived-controls button{min-height:38px;font-size:12px}.lived-controls label{font-size:12px}.lived-controls output{font-size:11px}.lived-controls #lived-observation{font-size:11px}
+.lived-controls small{font-size:10px}.lived-controls a{font-size:10px}.lived-controls .demo-eyebrow{font-size:10px}
+.viewport[data-demo=playing] .lived-controls h2,.viewport[data-demo=playing] .lived-controls small,.viewport[data-demo=playing] .lived-controls>a,.viewport[data-demo=playing] .lived-controls #lived-focus,.viewport[data-demo=playing] .lived-controls #lived-observation{display:none}
+.lived-scene .demo-caption{max-width:760px;bottom:160px}.lived-scene .demo-caption h2{font-size:29px}.demo-caption #demo-text{font-size:14px;line-height:1.9;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}.demo-caption small{font-size:10px}
+#demo-chapters button{font-size:11px}#demo-chapters button span{font-size:10px}
+.demo-mode button:focus-visible,.demo-mode input:focus-visible,.demo-mode a:focus-visible{outline:2px solid #e4daac;outline-offset:4px}
+.observation-journal>p,#observation-cases span{font-size:11px}.observation-journal h3{font-size:17px}
+@media(max-width:1050px) and (min-width:701px){.lived-controls{right:20px;width:210px}.lived-scene .demo-caption{width:68%;bottom:150px}}
+@media(max-width:700px){
+ .demo-header-actions{gap:6px}.demo-header-actions #demo-sound{font-size:10px;min-height:36px;padding:5px 9px}.demo-header-actions #demo-data{display:none}
+ .lived-controls{top:82px;left:16px;right:16px;width:auto;max-height:170px;padding:9px 12px}.lived-controls .story-state{font-size:11px!important;line-height:1.65!important;padding:5px 0;margin:0 0 7px}
+ .lived-controls button{min-height:36px;font-size:11px;padding:6px 9px}.lived-controls #lived-observation,.lived-controls small,.lived-controls>a{display:none}.lived-controls label{font-size:11px}
+ .lived-controls h2{display:none}.lived-controls .demo-eyebrow{display:none}.lived-controls .lived-button-row{margin:0 7px 0 0}
+ .lived-scene .demo-caption{bottom:144px;width:auto}.lived-scene .demo-caption h2{font-size:21px}.demo-caption #demo-text{font-size:12px;line-height:1.8}.demo-caption small{font-size:8px}
+ #demo-chapters button{font-size:10px}#demo-chapters button span{font-size:9px}.demo-caption .demo-connection{display:none}
+}
+@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}.story-bridge{transition:none}}
+
+.lived-controls small,.lived-controls>a{display:none}.lived-controls h2{font-size:14px;margin:6px 0 10px}.lived-controls .lived-button-row button{flex:1;padding:6px;min-height:36px}.viewport[data-stage=people] #dispatch-live,.viewport[data-stage=people] #settle-live{display:none}
+.social-choices{border-bottom:1px solid #c2cba737;margin-bottom:10px}.social-choices select{display:block;width:100%;margin:6px 0;padding:8px;border:1px solid #bdceaa55;border-radius:3px;background:#24413b;color:#edf0d9;font:inherit;min-height:36px}.social-note{font-size:10px!important;line-height:1.7!important;color:#afc6ae!important;margin:5px 0 10px}.social-label{font-size:11px;color:#d8d5b3}.social-voices button{font-size:10px!important}.social-dialogue{position:absolute;left:36px;top:164px;width:min(380px,calc(100% - 72px));padding:14px 16px;border-left:2px solid #d7c790;background:#132c29ed;white-space:pre-line;font-size:16px;line-height:1.85;color:#eeeeda;pointer-events:none;box-shadow:0 10px 32px #0003}.social-dialogue[hidden]{display:none}.viewport[data-demo=playing] .lived-controls #lived-inputs{display:none}.viewport[data-demo=playing] .lived-controls{max-height:180px}.viewport[data-demo=paused] .social-dialogue{top:110px;width:340px}
+@media(max-width:700px){.social-dialogue,.viewport[data-demo=paused] .social-dialogue{left:18px;right:18px;top:275px;width:auto;font-size:12px;padding:9px 12px;line-height:1.8}.viewport[data-demo=playing] .social-dialogue{top:160px}.social-choices select{font-size:11px}.social-note{font-size:10px!important}.social-voices{display:flex!important}.social-voices button{flex:1}.lived-controls{max-height:185px}}

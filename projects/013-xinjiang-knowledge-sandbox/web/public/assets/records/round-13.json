@@ -1,0 +1,2095 @@
+{
+  "schemaVersion": 1,
+  "id": "round-13",
+  "kind": "process-snapshot",
+  "createdAt": "2026-10-11T11:41:58.391937+00:00",
+  "files": [
+    {
+      "path": "round-13/README.md",
+      "sha256": "0d815cbbefac2b01ddf6447e8d870efde18786f6b119cd6cacf0f87f150c4249",
+      "bytes": 7484,
+      "crc32": 2632583713,
+      "mtimeNs": 1791639418904622700
+    },
+    {
+      "path": "round-13/after/01-nature.png",
+      "sha256": "6a79ec33b6cab5e4f492c067bd6c5b7840c057812fcc255704a730b441518e03",
+      "bytes": 80299,
+      "crc32": 3963222916,
+      "mtimeNs": 1791637190238339600
+    },
+    {
+      "path": "round-13/after/02-market-needs.png",
+      "sha256": "4a5b9b8d035fb983fa9271cbbc69feab3e45b4eaca3791f1f597e0794131823d",
+      "bytes": 111798,
+      "crc32": 2616543567,
+      "mtimeNs": 1791637200737998100
+    },
+    {
+      "path": "round-13/after/03-cloth-response-v1.png",
+      "sha256": "32c946f4c99469d64001822316b1cccda937bbb62d38a47424a45fb117fdc0f1",
+      "bytes": 98740,
+      "crc32": 382111434,
+      "mtimeNs": 1791637240880336100
+    },
+    {
+      "path": "round-13/after/04-household.png",
+      "sha256": "2b581c209450f0a8ebf405b87a4e7ec9876ee58654483ebfb54e9d82e733d504",
+      "bytes": 89142,
+      "crc32": 1381577280,
+      "mtimeNs": 1791637255220433900
+    },
+    {
+      "path": "round-13/after/05-home-response.png",
+      "sha256": "5be3a86446a1a0be9cf38d1a3ed9116c3e2b8e130dc961d91819cd02cabf69c5",
+      "bytes": 85660,
+      "crc32": 1339045149,
+      "mtimeNs": 1791637340677135300
+    },
+    {
+      "path": "round-13/after/06-courtyard.png",
+      "sha256": "3c26df95ed4c0a611731c34dcfb257d9e0c4300e924218e6b3cf519f538d26c2",
+      "bytes": 111202,
+      "crc32": 3937577528,
+      "mtimeNs": 1791637428038187400
+    },
+    {
+      "path": "round-13/after/07-gate-v1.png",
+      "sha256": "3f5433387b3f9bc8568e9be5a9450c54c210d44db2d3548368c970169b38ccde",
+      "bytes": 99828,
+      "crc32": 1198943657,
+      "mtimeNs": 1791637489843798000
+    },
+    {
+      "path": "round-13/after/08-personal-result.png",
+      "sha256": "39593e34fe575cb98bef4331f1160863af45beb6850bb400696084c79c188177",
+      "bytes": 75576,
+      "crc32": 2177665833,
+      "mtimeNs": 1791637506055478500
+    },
+    {
+      "path": "round-13/after/09-continuous-household.png.png",
+      "sha256": "bdb9d28fcd7752d4c33b92d095966c487f6af1d0962fef13a8d05d826d0af448",
+      "bytes": 86460,
+      "crc32": 521655651,
+      "mtimeNs": 1791637786679377900
+    },
+    {
+      "path": "round-13/after/10-final-opening.png.png",
+      "sha256": "9d80196976b47eeedbeb17a1e43213ae56bf1ce7cd91cabba60f66238479f165",
+      "bytes": 70506,
+      "crc32": 712611819,
+      "mtimeNs": 1791637858367646900
+    },
+    {
+      "path": "round-13/after/11-final-landscape.png.png",
+      "sha256": "2ba43e4a2268a4a415406ad3d74bb3ca9c807c72144169b58423fdd3bf1b2cd3",
+      "bytes": 62157,
+      "crc32": 3018130374,
+      "mtimeNs": 1791637886017121100
+    },
+    {
+      "path": "round-13/after/12-final-market.png.png",
+      "sha256": "3027a7894ea347994e5cc921bb69b5660c1d11ac119c246009325480da6d83ad",
+      "bytes": 89480,
+      "crc32": 1808985612,
+      "mtimeNs": 1791638021084403300
+    },
+    {
+      "path": "round-13/after/13-final-household.png.png",
+      "sha256": "f51681cd2d964ca05041f32264c1cea9fbcc8836def23f9fd17d1a3384d49af2",
+      "bytes": 69604,
+      "crc32": 2770556567,
+      "mtimeNs": 1791638081470087000
+    },
+    {
+      "path": "round-13/after/14-final-arrival.png.png",
+      "sha256": "df7a34eecf52c5487d77ce0d3f45952ba8a71063c6edff1750f5d1e34f4a86b2",
+      "bytes": 85208,
+      "crc32": 2774841940,
+      "mtimeNs": 1791638103112642800
+    },
+    {
+      "path": "round-13/after/15-final-courtyard.png.png",
+      "sha256": "482fe6d65cdd2fb9c4862c9717ebbaf21b89ebb74ada0ab227043aba7edb2bbd",
+      "bytes": 86275,
+      "crc32": 1056573948,
+      "mtimeNs": 1791638174371384800
+    },
+    {
+      "path": "round-13/after/16-final-revisit.png.png",
+      "sha256": "f6f2244aec241d4e45c994a5080b6aac5765a749701816d15e264fd0578d7d46",
+      "bytes": 73277,
+      "crc32": 4275242227,
+      "mtimeNs": 1791638263560406900
+    },
+    {
+      "path": "round-13/after/17-final-overview.png.png",
+      "sha256": "4abfece9a9ade1a5a1e27d1b5e60c54dfd094c50aaf0db2b67836e72c65c459d",
+      "bytes": 90333,
+      "crc32": 3387889127,
+      "mtimeNs": 1791638274322966900
+    },
+    {
+      "path": "round-13/after/18-final-natural-result.png.png",
+      "sha256": "d45b32a77d5d991f28c18a90f528205aee4643bbda92542b1c2b9d27ad991906",
+      "bytes": 67143,
+      "crc32": 1773048631,
+      "mtimeNs": 1791638300939352600
+    },
+    {
+      "path": "round-13/after/19-final-entry.png",
+      "sha256": "43a68a1c5d96b1782335cd23b69e4a2cc8d5ee11560bdcdd42010fce1236e174",
+      "bytes": 56946,
+      "crc32": 3419783739,
+      "mtimeNs": 1791638369264748700
+    },
+    {
+      "path": "round-13/after/20-final-cloth-response.png",
+      "sha256": "9312fb64d722de16d3a00c0e1531ecae26fb91ad9a19fa9cde67c66aa1a84b83",
+      "bytes": 97016,
+      "crc32": 27330641,
+      "mtimeNs": 1791638413734955000
+    },
+    {
+      "path": "round-13/after/21-final-home-first.png",
+      "sha256": "d23a1ba6ea236289265d868c2572812df1acc32b7175a3877e19f93c45958674",
+      "bytes": 91565,
+      "crc32": 224349949,
+      "mtimeNs": 1791638435059398300
+    },
+    {
+      "path": "round-13/after/22-final-visible-family.png",
+      "sha256": "817b92c800c6c6224c0b2fbd684ce4bb77a0ebfb19ae2da4730817c175d3936e",
+      "bytes": 87592,
+      "crc32": 2247051451,
+      "mtimeNs": 1791638540512372700
+    },
+    {
+      "path": "round-13/after/23-final-family-at-door.png",
+      "sha256": "12d0caae5430998c7cb22598e45e3ddde163f4580fc86ebc90b727986741d10f",
+      "bytes": 94429,
+      "crc32": 1882634036,
+      "mtimeNs": 1791638628112216400
+    },
+    {
+      "path": "round-13/after/24-final-culture-response.png",
+      "sha256": "68bbe240209105ab1317d237e11f21734a7f66c5923b3dcfba722304413b8da3",
+      "bytes": 109739,
+      "crc32": 3522080708,
+      "mtimeNs": 1791638648400664400
+    },
+    {
+      "path": "round-13/after/25-final-entry.png",
+      "sha256": "a47953c1f6484381f3d996b8095931655181610c176873f86855ef9561bf6fdd",
+      "bytes": 30952,
+      "crc32": 2025755753,
+      "mtimeNs": 1791638648835003200
+    },
+    {
+      "path": "round-13/after/26-final-ready-entry.png",
+      "sha256": "c0fd71195a98693885ab5739085ff0732bfbd83bda1b389276d0172b04d77937",
+      "bytes": 72444,
+      "crc32": 2240752982,
+      "mtimeNs": 1791638660614946400
+    },
+    {
+      "path": "round-13/after/27-final-continuous-family.png",
+      "sha256": "5d173c1cc079a426bb6a31f7cddcad58bbc1e0b7000786f82831c5bc7df55dd7",
+      "bytes": 101902,
+      "crc32": 2354634891,
+      "mtimeNs": 1791638925351614200
+    },
+    {
+      "path": "round-13/after/28-final-gate-choice.png",
+      "sha256": "f51a120f96129943fef1fe0860b0612676ec059bf1ae69d2269ce9fbcff96388",
+      "bytes": 103809,
+      "crc32": 594669620,
+      "mtimeNs": 1791639270458141300
+    },
+    {
+      "path": "round-13/after/29-final-observations.png",
+      "sha256": "2414c112afecc8162b60fe75c5fec022b0a95d783d1c57a878d5adb8f23b0dd4",
+      "bytes": 87466,
+      "crc32": 2658750914,
+      "mtimeNs": 1791639292307950100
+    },
+    {
+      "path": "round-13/after/30-final-mobile-family.png",
+      "sha256": "f5608acfb4277e455dacf267a9638912282afb5f883d2c647153eee1d707676b",
+      "bytes": 44718,
+      "crc32": 1607621230,
+      "mtimeNs": 1791639331290655100
+    },
+    {
+      "path": "round-13/after/31-final-journal-mobile.png",
+      "sha256": "7f4934633755b02f9673328a35e7ab44d969925f568d9e6efe9e621e46424d06",
+      "bytes": 36110,
+      "crc32": 1450080438,
+      "mtimeNs": 1791639375794645200
+    },
+    {
+      "path": "round-13/after/32-delivery-running.png",
+      "sha256": "c474930e54c350c7c5e531c8de640294d5e20c19916a0ccae07cd8b825413e1c",
+      "bytes": 50439,
+      "crc32": 3345554009,
+      "mtimeNs": 1791639468689840100
+    },
+    {
+      "path": "round-13/after/index.json",
+      "sha256": "122ea75ed219261fc1d5049694a4ddb2abc69888e326a0691e87445225220436",
+      "bytes": 9057,
+      "crc32": 1103490264,
+      "mtimeNs": 1791639540550770000
+    },
+    {
+      "path": "round-13/audio-source/exchange-city.wav",
+      "sha256": "fa4085e4967f081d02a95df61945962d9116f32bff6183a7b90acd7f353a4479",
+      "bytes": 415964,
+      "crc32": 241625123,
+      "mtimeNs": 1791637011167326400
+    },
+    {
+      "path": "round-13/audio-source/exchange-goods.wav",
+      "sha256": "749f70c8235832610579319e77add3afe79ab74e640d3b8c5993b598a64afe2b",
+      "bytes": 466572,
+      "crc32": 4084959322,
+      "mtimeNs": 1791637011070348000
+    },
+    {
+      "path": "round-13/audio-source/exchange-network.wav",
+      "sha256": "e40b1924269a1c973ddc079b6c58d1b2169935e87289bccb6527b9b83d370c95",
+      "bytes": 373428,
+      "crc32": 2832889752,
+      "mtimeNs": 1791637010892877200
+    },
+    {
+      "path": "round-13/audio-source/exchange-question.wav",
+      "sha256": "0e90333738cb0e95e0737ebb4de2b6cf00940445d1213c132fea7b3317096ef8",
+      "bytes": 381168,
+      "crc32": 865876170,
+      "mtimeNs": 1791637011252194900
+    },
+    {
+      "path": "round-13/audio-source/exchange-stops.wav",
+      "sha256": "77dc6b87ae4ef69b592a3aeab85f901befe122a6c0ca61bd4d3c0797c6359402",
+      "bytes": 418680,
+      "crc32": 3171090816,
+      "mtimeNs": 1791637010989612000
+    },
+    {
+      "path": "round-13/audio-source/future-budget.wav",
+      "sha256": "8fa614a336caee89b6bdea0b044b7ad52818bd6284a39bdc6f5f259198866274",
+      "bytes": 405960,
+      "crc32": 6058828,
+      "mtimeNs": 1791637012267623200
+    },
+    {
+      "path": "round-13/audio-source/future-evidence.wav",
+      "sha256": "f4962c327bf5c21d0c9ae69c9ac331e20cac12245f04d512d22d241cd77b39d2",
+      "bytes": 462742,
+      "crc32": 535872958,
+      "mtimeNs": 1791637012355350800
+    },
+    {
+      "path": "round-13/audio-source/future-landscape.wav",
+      "sha256": "ebff4aaaf7120f6d5edd52d867c31c2bd12a59b6e845779a94340a2db47c837a",
+      "bytes": 374072,
+      "crc32": 237068592,
+      "mtimeNs": 1791637012183154000
+    },
+    {
+      "path": "round-13/audio-source/future-result.wav",
+      "sha256": "006050dfec6779749cb07ba73afe832c29c84e86524de645cd57e78080952ee5",
+      "bytes": 427302,
+      "crc32": 1602121342,
+      "mtimeNs": 1791637012535903100
+    },
+    {
+      "path": "round-13/audio-source/future-synthesis.wav",
+      "sha256": "b8afb97f53da03dffe57269eafb9f9efa3fed7e32c274990bf64216202b3c188",
+      "bytes": 650288,
+      "crc32": 2347139977,
+      "mtimeNs": 1791637012442273400
+    },
+    {
+      "path": "round-13/audio-source/memory-arrival.wav",
+      "sha256": "8d6c8b14e12d6b762f3092a4609763db0712707352790bf6975bfd0dd67feb2e",
+      "bytes": 482318,
+      "crc32": 3204631887,
+      "mtimeNs": 1791637011527118000
+    },
+    {
+      "path": "round-13/audio-source/memory-departure.wav",
+      "sha256": "fc992d25787cde82fe7265acbc582b0de0ab64853467a15bb750f7433a27c3ce",
+      "bytes": 433280,
+      "crc32": 2371074006,
+      "mtimeNs": 1791637011334563700
+    },
+    {
+      "path": "round-13/audio-source/memory-journey.wav",
+      "sha256": "2adbf9752757760fbecb80ce167ec168f8c304420729697fe5596877f9eb1bf1",
+      "bytes": 443660,
+      "crc32": 3917190329,
+      "mtimeNs": 1791637011433420800
+    },
+    {
+      "path": "round-13/audio-source/memory-muqam.wav",
+      "sha256": "a59dfb5ea17c9de05c76ea2e2d37c1ce031beadfece1ef16ed41348b7dfcf21a",
+      "bytes": 442786,
+      "crc32": 985324120,
+      "mtimeNs": 1791637011623873700
+    },
+    {
+      "path": "round-13/audio-source/memory-practice.wav",
+      "sha256": "b6b0648d598d4fbc512e87f8b0e038b4a2c027ed5802591443917a441596f407",
+      "bytes": 485082,
+      "crc32": 2659528819,
+      "mtimeNs": 1791637011724243500
+    },
+    {
+      "path": "round-13/audio-source/modern-hubs.wav",
+      "sha256": "198d8f6e404ec4bf976f5298e3ab2972ecb8df5f6f66361da6d48def0accedd0",
+      "bytes": 408316,
+      "crc32": 2372004565,
+      "mtimeNs": 1791637011805649300
+    },
+    {
+      "path": "round-13/audio-source/modern-kashgar.wav",
+      "sha256": "f3b6371b1efe14a92c6631b243eb1f1b216c6c96c5e15555227cd084b21277cb",
+      "bytes": 396594,
+      "crc32": 698208507,
+      "mtimeNs": 1791637011954988600
+    },
+    {
+      "path": "round-13/audio-source/modern-limit.wav",
+      "sha256": "ce7463eb071d293a2829c3cecd7e36041fb0ad24d2732b388a59bf69815c9a46",
+      "bytes": 405546,
+      "crc32": 684974711,
+      "mtimeNs": 1791637012108836900
+    },
+    {
+      "path": "round-13/audio-source/modern-rules.wav",
+      "sha256": "b443c8285b7d5bca05cd04efce7bfb402e9679905bd1d4fde27428177d9afc4c",
+      "bytes": 446066,
+      "crc32": 4132700873,
+      "mtimeNs": 1791637012030275400
+    },
+    {
+      "path": "round-13/audio-source/modern-urumqi.wav",
+      "sha256": "7c1e5e64407e37e230f5034dbb164ed05455191b2392fb7f32d6f33b1026b493",
+      "bytes": 369662,
+      "crc32": 214374509,
+      "mtimeNs": 1791637011880450300
+    },
+    {
+      "path": "round-13/audio-source/oasis-dry.wav",
+      "sha256": "c583cf3b9f70c23bd15b18338c4b818573cd4a726f1183a088b22698d96447fb",
+      "bytes": 364934,
+      "crc32": 822458295,
+      "mtimeNs": 1791637010391577800
+    },
+    {
+      "path": "round-13/audio-source/oasis-engineering.wav",
+      "sha256": "2ecc1ec5fdc20331cfd9b0663be3495b1a7a1a4d01eb27cb7d4f3c7e1421207e",
+      "bytes": 378020,
+      "crc32": 3479654739,
+      "mtimeNs": 1791637010535569500
+    },
+    {
+      "path": "round-13/audio-source/oasis-nodes.wav",
+      "sha256": "f3baf53ddcf9e9e9c549b50406afb84e0894b129aa5e0da6ee236c010163e510",
+      "bytes": 346922,
+      "crc32": 2562979686,
+      "mtimeNs": 1791637010788744600
+    },
+    {
+      "path": "round-13/audio-source/oasis-use.wav",
+      "sha256": "ae0928299cb60376557df47041c3de3f3ca9e8605e1001c8df36c8a8a113b8d0",
+      "bytes": 366338,
+      "crc32": 2739286763,
+      "mtimeNs": 1791637010661365900
+    },
+    {
+      "path": "round-13/audio-source/oasis-wind.wav",
+      "sha256": "e3a45553dbf19279fcf700e6e6a94b22431f2e6fdb7d2070c0263a0d02132861",
+      "bytes": 390472,
+      "crc32": 2647055987,
+      "mtimeNs": 1791637010455282600
+    },
+    {
+      "path": "round-13/audio-source/voice-duration.json",
+      "sha256": "71da24821043940501138628511da54a09006a5d58749d092263898af099eb10",
+      "bytes": 2625,
+      "crc32": 3321322232,
+      "mtimeNs": 1791637172268514300
+    },
+    {
+      "path": "round-13/audio-source/water-flow.wav",
+      "sha256": "25ea72bc77070a52437093b6b92b7d6dcd7e8ae5e95f899ce19c1804b6569fa2",
+      "bytes": 427020,
+      "crc32": 4051383345,
+      "mtimeNs": 1791637010239876400
+    },
+    {
+      "path": "round-13/audio-source/water-ice.wav",
+      "sha256": "fb71da17ac483e3f8325393be942b7460ba75dcf54055942e775f94595bb59be",
+      "bytes": 363488,
+      "crc32": 1412703371,
+      "mtimeNs": 1791637010156343300
+    },
+    {
+      "path": "round-13/audio-source/water-inland.wav",
+      "sha256": "2b24001958bca3af6935b6778c4034835c6714008e94060065acf90657f9368c",
+      "bytes": 378616,
+      "crc32": 2183814757,
+      "mtimeNs": 1791637009855218200
+    },
+    {
+      "path": "round-13/audio-source/water-mountains.wav",
+      "sha256": "1df7acf577be9f76ed464ef8c9a6d84eee6029d7009bd127cd7e874ef0a4ba1a",
+      "bytes": 398992,
+      "crc32": 32485115,
+      "mtimeNs": 1791637010079918200
+    },
+    {
+      "path": "round-13/audio-source/water-valley.wav",
+      "sha256": "35862e3570db03d2129ce59f771205a702beb9b6ef963071cd0da4c6e824fc39",
+      "bytes": 416564,
+      "crc32": 3714590510,
+      "mtimeNs": 1791637010320993900
+    },
+    {
+      "path": "round-13/audio-verification.json",
+      "sha256": "e91494cd8cfbde928ce8d47f371fb4830c393db72fa393687512873e9afda2d9",
+      "bytes": 6303,
+      "crc32": 1328977004,
+      "mtimeNs": 1791639540352471300
+    },
+    {
+      "path": "round-13/before-after.jpg",
+      "sha256": "4fea43c3c05f4fb2bf3eec9f180377a493b6bb442451ebf5dc8ed953dd6366b8",
+      "bytes": 581365,
+      "crc32": 517847673,
+      "mtimeNs": 1791638785736601600
+    },
+    {
+      "path": "round-13/before/00-current-window.png",
+      "sha256": "9cbe419f5c557f1b9c23e385ef90b2d573da8ae7716b60f1c927b398a8ef00bb",
+      "bytes": 64019,
+      "crc32": 1723413969,
+      "mtimeNs": 1791636138148355100
+    },
+    {
+      "path": "round-13/before/01-entry.png",
+      "sha256": "65b36c296ea3acd197782412778b0425c15dc1d28b29afd847cc7bd33e9f6f5c",
+      "bytes": 73682,
+      "crc32": 2941300664,
+      "mtimeNs": 1791636151421031500
+    },
+    {
+      "path": "round-13/before/02-nature.png",
+      "sha256": "f6ff7f1c8cd31a84150c2abf6c8a67ec651b32422c57baa8aaf5d541127cdc2b",
+      "bytes": 76812,
+      "crc32": 3798130666,
+      "mtimeNs": 1791636178492788200
+    },
+    {
+      "path": "round-13/before/03-market.png",
+      "sha256": "336da586bf8809835b8fdb915cd78d6c32c40e73536f5a552d8abd50f49a0d1f",
+      "bytes": 99840,
+      "crc32": 59258438,
+      "mtimeNs": 1791636193172394900
+    },
+    {
+      "path": "round-13/before/03b-market-choice.png",
+      "sha256": "b6219c478c947c3b6f0fc52e40305cd6ebb4cdc6f1e3d006788526551cb21af3",
+      "bytes": 103402,
+      "crc32": 3498588601,
+      "mtimeNs": 1791636200169243400
+    },
+    {
+      "path": "round-13/before/04-family.png",
+      "sha256": "8a32cb4174812366be339b02a6232d6ed5c3db340a4d5f60be364f76d604be22",
+      "bytes": 92514,
+      "crc32": 223733068,
+      "mtimeNs": 1791636210174313900
+    },
+    {
+      "path": "round-13/before/05-courtyard.png",
+      "sha256": "54fcf044406540f2a1d6a07ae4e4ec134681f675950b8200c4ac032e45d7b539",
+      "bytes": 92617,
+      "crc32": 865979497,
+      "mtimeNs": 1791636219964470300
+    },
+    {
+      "path": "round-13/before/05b-courtyard-participation.png",
+      "sha256": "0c2d12bd9bdf12fc3dc7074023d8ce941ab1c3733169a16853773b9a222611d9",
+      "bytes": 93281,
+      "crc32": 1340190689,
+      "mtimeNs": 1791636236806162600
+    },
+    {
+      "path": "round-13/before/06-gate.png",
+      "sha256": "a8684b331afac5700164df4352ccd1790436f4cc9985097a7267a9767818bffc",
+      "bytes": 101933,
+      "crc32": 2751158982,
+      "mtimeNs": 1791636248786248700
+    },
+    {
+      "path": "round-13/before/06b-gate-choice.png",
+      "sha256": "3374a57cebe3f24b1d09a04d51cb4f7caf130dfb43d6862092bf0411c0ae96ae",
+      "bytes": 103685,
+      "crc32": 8250230,
+      "mtimeNs": 1791636262842922500
+    },
+    {
+      "path": "round-13/before/07-overview.png",
+      "sha256": "a68ecee207ae07032c19354f5ad8e2c1479d0c18fceab63d9fc92686e1e108e2",
+      "bytes": 54837,
+      "crc32": 804335087,
+      "mtimeNs": 1791636281018022900
+    },
+    {
+      "path": "round-13/before/08-result.png",
+      "sha256": "3e02c34121888ed7799ce4b0a0b2fa68a54978f52159958cd7a359f1ed7fe821",
+      "bytes": 75716,
+      "crc32": 161333026,
+      "mtimeNs": 1791636293459599400
+    },
+    {
+      "path": "round-13/before/mobile-r11.png",
+      "sha256": "c3c5b10e47eb19659539ccb559a5c4393fc0504f70855ca3a327cb77de456d86",
+      "bytes": 42250,
+      "crc32": 3596953504,
+      "mtimeNs": 1791628650428230300
+    },
+    {
+      "path": "round-13/before/preview-r12.png",
+      "sha256": "ece42f3ca0ce3b15e6c29da99a8bd173635db6be15406524f4df907ec2765e58",
+      "bytes": 70034,
+      "crc32": 2169526592,
+      "mtimeNs": 1791628650427230800
+    },
+    {
+      "path": "round-13/build-verification.json",
+      "sha256": "2401b7482a6dafdb0ba31b90a39b4e35a3436234bc796f1056b7b83e1deaed2f",
+      "bytes": 3852,
+      "crc32": 2085410696,
+      "mtimeNs": 1791639538899485900
+    },
+    {
+      "path": "round-13/checks-summary.json",
+      "sha256": "8889a14ede8960ac98b8851fe7b119c40809f09d310c699036d564f6c0554685",
+      "bytes": 1291,
+      "crc32": 2929807879,
+      "mtimeNs": 1791639577262476300
+    },
+    {
+      "path": "round-13/comparison-frames.json",
+      "sha256": "6dce05867b003f7c0bfd3042adbec1ca80b9691755591bd8c3e69024bc9bc232",
+      "bytes": 744,
+      "crc32": 723064513,
+      "mtimeNs": 1791638785737549600
+    },
+    {
+      "path": "round-13/delivery-state.json",
+      "sha256": "f5511abcc051561908b1211027f4ad63a2babdbeda5f43f0a9d66701e70162d8",
+      "bytes": 776,
+      "crc32": 2708434378,
+      "mtimeNs": 1791639468759132000
+    },
+    {
+      "path": "round-13/freeze-delivery.py",
+      "sha256": "5c7d30b2db36db4ba1b9c97c6dcbab85c30f4df02d4aec7902294822de329fed",
+      "bytes": 1809,
+      "crc32": 3229995154,
+      "mtimeNs": 1791638224924266400
+    },
+    {
+      "path": "round-13/implement-runtime.py",
+      "sha256": "a55987026111bb73b41dced613ba3455bae6a3545fdaef7d6fba9afe3b01d66e",
+      "bytes": 5479,
+      "crc32": 1477563329,
+      "mtimeNs": 1791637071907080700
+    },
+    {
+      "path": "round-13/implement-scenes.py",
+      "sha256": "c119d8363acd9e60bb89943389665540878a8cebd55519e23e5ce6f9acf96bd5",
+      "bytes": 11289,
+      "crc32": 3316361102,
+      "mtimeNs": 1791636902833938600
+    },
+    {
+      "path": "round-13/index-screenshots.py",
+      "sha256": "68dcb9873216e60f0274cd1e7c9de3efc5107639e258d6cb0bed17fb6912d4d3",
+      "bytes": 3003,
+      "crc32": 474558034,
+      "mtimeNs": 1791638974187011800
+    },
+    {
+      "path": "round-13/make-comparison.py",
+      "sha256": "b31da6f43060fd67cc2d143beea9bbbc191519904340ec83ac904c41c1fb6044",
+      "bytes": 1567,
+      "crc32": 2213458111,
+      "mtimeNs": 1791638783443384300
+    },
+    {
+      "path": "round-13/recordings/browser-logs.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "crc32": 223132457,
+      "mtimeNs": 1791639127323043300
+    },
+    {
+      "path": "round-13/recordings/chapters.ffmetadata",
+      "sha256": "60a28dea13d16866d0304bc7067a131001890fab689d9ebe924beb2f3deed386",
+      "bytes": 733,
+      "crc32": 757222703,
+      "mtimeNs": 1791639133194394800
+    },
+    {
+      "path": "round-13/recordings/continuous-browser-states.json",
+      "sha256": "1eb16b1a0cafbd5eced9d5af11ff50f151bd0864de7bc1900b2aca6987af2f80",
+      "bytes": 7698,
+      "crc32": 250302492,
+      "mtimeNs": 1791639127290744800
+    },
+    {
+      "path": "round-13/recordings/decode-check.log",
+      "sha256": "d07503dd8d9d21132c8f9ad9dbd9b347d08ac93fb74a1f7e76d9cd57ad724ee2",
+      "bytes": 5932,
+      "crc32": 2919807278,
+      "mtimeNs": 1791639212603548100
+    },
+    {
+      "path": "round-13/recordings/encode.log",
+      "sha256": "3a6a0a7ce330fdb2068b25ca153396f18ccdaa509af68938909182440ff4390b",
+      "bytes": 20437,
+      "crc32": 3115347441,
+      "mtimeNs": 1791639206333990600
+    },
+    {
+      "path": "round-13/recordings/media-verification.json",
+      "sha256": "36aaa1cc441e7669928943fadee6fad3630566989d9e2285d56988ae19c839f7",
+      "bytes": 8237,
+      "crc32": 2133577960,
+      "mtimeNs": 1791639218563189100
+    },
+    {
+      "path": "round-13/recordings/v1/browser-logs.json",
+      "sha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945",
+      "bytes": 2,
+      "crc32": 223132457,
+      "mtimeNs": 1791638306587885000
+    },
+    {
+      "path": "round-13/recordings/v1/chapters.ffmetadata",
+      "sha256": "ed054566a716dcf4af20880d26f083b0a2a9addf5f01300ad6b673adcc65865b",
+      "bytes": 732,
+      "crc32": 2294764661,
+      "mtimeNs": 1791638316416718600
+    },
+    {
+      "path": "round-13/recordings/v1/continuous-browser-states.json",
+      "sha256": "68f58e1f1d8b1885b266f666b815af47b01ba98fef8598b8d69a6b475664d2d6",
+      "bytes": 11891,
+      "crc32": 2996417788,
+      "mtimeNs": 1791638306552497000
+    },
+    {
+      "path": "round-13/recordings/v1/decode-check.log",
+      "sha256": "0a51c0d335ed0b8555cb6e69ae45b0d253907b8134b6c64f29c27ed61faff000",
+      "bytes": 6032,
+      "crc32": 4182235179,
+      "mtimeNs": 1791638388717168800
+    },
+    {
+      "path": "round-13/recordings/v1/encode.log",
+      "sha256": "305fcd65f21f698c8350a6f3cf14dd85074bea268eec3530224d0d57e32a0e04",
+      "bytes": 19065,
+      "crc32": 1815632854,
+      "mtimeNs": 1791638381983542200
+    },
+    {
+      "path": "round-13/recordings/v1/media-verification.json",
+      "sha256": "06c4e09de7bffac4f040c9dd82185102c0721686ab95be3eb582b9aff3782dcd",
+      "bytes": 8247,
+      "crc32": 3945937522,
+      "mtimeNs": 1791638396426780500
+    },
+    {
+      "path": "round-13/recordings/v1/xinjiang-journey-cues.json",
+      "sha256": "3d5b24c7f5acedb4f9ee76239df8f2031e32b45a5915a8e8104601064720fa3e",
+      "bytes": 73308,
+      "crc32": 1564898799,
+      "mtimeNs": 1791638306474565300
+    },
+    {
+      "path": "round-13/recordings/v1/xinjiang-lived-story.mp4",
+      "sha256": "8a594f6c19c4125ba028a8941551de133c7f80c97b1e5a499b332b041a210c46",
+      "bytes": 78130685,
+      "crc32": 274287921,
+      "mtimeNs": 1791638381922501300
+    },
+    {
+      "path": "round-13/recordings/v1/xinjiang-lived-story.webm",
+      "sha256": "dff3a56e964c2f5c14eec6353e17c32f63b5ddd4b6139171183d622e8049d582",
+      "bytes": 325535352,
+      "crc32": 2553943401,
+      "mtimeNs": 1791638304811343500
+    },
+    {
+      "path": "round-13/recordings/visual-sound-check-cues.json",
+      "sha256": "0ab16c01d14aa21615ed555b83a5b6d62419b2db3b99617f92a720f0c36b1480",
+      "bytes": 41466,
+      "crc32": 1949581703,
+      "mtimeNs": 1791637808805088400
+    },
+    {
+      "path": "round-13/recordings/visual-sound-check.webm",
+      "sha256": "46c52055fc6cdb6fe2ed26b30f1b05b107af5f112813f1c5f3668dea95fa6dc0",
+      "bytes": 188986094,
+      "crc32": 2027500398,
+      "mtimeNs": 1791637802261661200
+    },
+    {
+      "path": "round-13/recordings/xinjiang-journey-cues.json",
+      "sha256": "bf894098149fd127a83bd1615361ab60ca17336bcce44a3fb32527cf63017aba",
+      "bytes": 73266,
+      "crc32": 1280076650,
+      "mtimeNs": 1791639127203661000
+    },
+    {
+      "path": "round-13/recordings/xinjiang-lived-story.mp4",
+      "sha256": "a3d0aaf36abb3a1621bdbc6df89e170b7ea3e5867f18b21ecdc9b2fa921afdc9",
+      "bytes": 78576499,
+      "crc32": 210800688,
+      "mtimeNs": 1791639206285077000
+    },
+    {
+      "path": "round-13/recordings/xinjiang-lived-story.webm",
+      "sha256": "d261aad950be9a0faaeef6a3ce5d01b50895f1a1a73dd7c72c1ca68204698eee",
+      "bytes": 319264126,
+      "crc32": 2242648080,
+      "mtimeNs": 1791639126308563200
+    },
+    {
+      "path": "round-13/render-narration.ps1",
+      "sha256": "eb07b06211706eaf1f1fba09df89cb147fa7305b695268a490e570bb5a853642",
+      "bytes": 1208,
+      "crc32": 1249935658,
+      "mtimeNs": 1791637009512666000
+    },
+    {
+      "path": "round-13/render-recording.py",
+      "sha256": "62a5a056704de846424176d3236bd3effd0ba7d6c7ae32c53a4a03d61781d199",
+      "bytes": 5194,
+      "crc32": 2269361030,
+      "mtimeNs": 1791638686173177000
+    },
+    {
+      "path": "round-13/review-motion.py",
+      "sha256": "33a9192efbcf9400b15bcd492f518ac1f0fcfc904024945c94250dd1cddeb42f",
+      "bytes": 2026,
+      "crc32": 246819235,
+      "mtimeNs": 1791638911636077000
+    },
+    {
+      "path": "round-13/source-before/ATTRIBUTION.md",
+      "sha256": "e87299d87c989c10dccf97486ef61b6bda8d905a8c239290647615dbe063861c",
+      "bytes": 9948,
+      "crc32": 3928714067,
+      "mtimeNs": 1791626522811957900
+    },
+    {
+      "path": "round-13/source-before/app.js",
+      "sha256": "d2dd099ecd3e568786e6a75417030e8963411e98d2d321ca6d07f81c10425c37",
+      "bytes": 2253,
+      "crc32": 2210610571,
+      "mtimeNs": 1791559687062736700
+    },
+    {
+      "path": "round-13/source-before/capture.js",
+      "sha256": "d375801e3b2513d6a4d796226c1f6633f3f533abfacd866f014e907fa12916ab",
+      "bytes": 4197,
+      "crc32": 2759180440,
+      "mtimeNs": 1791617059222203100
+    },
+    {
+      "path": "round-13/source-before/connections.js",
+      "sha256": "bbc0f8f3669dcfbe0d0f00d083a814f1335cf22ad23c6816587d31e1c4c19337",
+      "bytes": 5944,
+      "crc32": 702351060,
+      "mtimeNs": 1791617217184457500
+    },
+    {
+      "path": "round-13/source-before/continuity.css",
+      "sha256": "3ee2649b57b2aea79fe6f9edef4919b38b40ef590419ee6ca82ac08aedf00632",
+      "bytes": 681,
+      "crc32": 1792588244,
+      "mtimeNs": 1791627792279157400
+    },
+    {
+      "path": "round-13/source-before/continuity.js",
+      "sha256": "9289190ea4920342706f71fc7e4e685c7ff329353056711a78deb77795d4a063",
+      "bytes": 1805,
+      "crc32": 2702946551,
+      "mtimeNs": 1791627593430731300
+    },
+    {
+      "path": "round-13/source-before/data.js",
+      "sha256": "e6e057ecad51f93ca5131c7989dffa5a63c5715a8936060a61e19cb2a3d97b85",
+      "bytes": 6189,
+      "crc32": 854762947,
+      "mtimeNs": 1791559687060409700
+    },
+    {
+      "path": "round-13/source-before/explorations.css",
+      "sha256": "d39c2fa23e93e2f034b39df18e775f60edc655b89f71470306f85f07040633e7",
+      "bytes": 6528,
+      "crc32": 1968140589,
+      "mtimeNs": 1791623701112241700
+    },
+    {
+      "path": "round-13/source-before/explorations.html",
+      "sha256": "44dd68b1e099118acff88726e1fc307839f7075793865b0241374dd45857f390",
+      "bytes": 14132,
+      "crc32": 2811502092,
+      "mtimeNs": 1791628650429080600
+    },
+    {
+      "path": "round-13/source-before/explorations.js",
+      "sha256": "13869ac9c43d80548631bb3615d381a1d6e75dc4f1e31a312f7f89962bc731b9",
+      "bytes": 1422,
+      "crc32": 688082437,
+      "mtimeNs": 1791611974623632300
+    },
+    {
+      "path": "round-13/source-before/film.js",
+      "sha256": "c60f86a9a56f4d1ee0bf7e45a446659b5b5eee1284f82b45946186686aa1acdf",
+      "bytes": 5891,
+      "crc32": 3415448709,
+      "mtimeNs": 1791628359363252400
+    },
+    {
+      "path": "round-13/source-before/geo.js",
+      "sha256": "61acbc998227d1faeefdc0459e074a32c3e6f4e3051f720bb6d3eefe2e1491de",
+      "bytes": 2138,
+      "crc32": 3373936774,
+      "mtimeNs": 1791600603484970900
+    },
+    {
+      "path": "round-13/source-before/glacier.js",
+      "sha256": "2dd43339a9aa233196bab8e7beb8cde78390d6941f7f0e3cacd88a812aca615e",
+      "bytes": 3888,
+      "crc32": 1302177656,
+      "mtimeNs": 1791612064465510400
+    },
+    {
+      "path": "round-13/source-before/index.html",
+      "sha256": "41bc4dd6ca5b9dfbf05fdb09d36655f8bfc22c01c984e5ac4847f64e62bbe6f5",
+      "bytes": 9812,
+      "crc32": 2486958234,
+      "mtimeNs": 1791628117479648500
+    },
+    {
+      "path": "round-13/source-before/journey.js",
+      "sha256": "b13a799d91be3c7b7ddbdd59b64bf067cea2c7ad407e81e42b561263604e4859",
+      "bytes": 12225,
+      "crc32": 1658379155,
+      "mtimeNs": 1791627792280239000
+    },
+    {
+      "path": "round-13/source-before/landscape.js",
+      "sha256": "fcd3228063c31b8c88626eb6ad473734007e6d9c6220b24885d61e0d2153f622",
+      "bytes": 3297,
+      "crc32": 3755333886,
+      "mtimeNs": 1791606513666133100
+    },
+    {
+      "path": "round-13/source-before/lessons.js",
+      "sha256": "483d69812af2043d2f56f897128f11eaa236dd83ba8db8635341277924e247da",
+      "bytes": 12810,
+      "crc32": 3792290768,
+      "mtimeNs": 1791611787052258600
+    },
+    {
+      "path": "round-13/source-before/lived-model.js",
+      "sha256": "7cbdd37d439d1c41df52a3951e4c752bc79c0bc2417e53d04eda0711b70b3a6d",
+      "bytes": 3710,
+      "crc32": 1658375514,
+      "mtimeNs": 1791627593430731300
+    },
+    {
+      "path": "round-13/source-before/lived-process.js",
+      "sha256": "90b525f0cc4ce8b67682980fd4ace87367e60c966f510f747afdd66dd789ea71",
+      "bytes": 3286,
+      "crc32": 1250629765,
+      "mtimeNs": 1791625375099629700
+    },
+    {
+      "path": "round-13/source-before/lived-scenes.js",
+      "sha256": "320709e30434806fe13b742ed655fb7599547861894653919825360974f9a81b",
+      "bytes": 38846,
+      "crc32": 3079233879,
+      "mtimeNs": 1791628992261379300
+    },
+    {
+      "path": "round-13/source-before/motion.js",
+      "sha256": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "bytes": 1072,
+      "crc32": 1268095807,
+      "mtimeNs": 1791600097839152800
+    },
+    {
+      "path": "round-13/source-before/narrative-ui.js",
+      "sha256": "b62997876e0079b691d02311aae3a2113657eaa8f891f15b4ae4779148500a01",
+      "bytes": 4890,
+      "crc32": 4105942192,
+      "mtimeNs": 1791625991254528700
+    },
+    {
+      "path": "round-13/source-before/research.html",
+      "sha256": "5f368aba01ee4aa66af05c6e2383242584a7ad5ab5fdb7dd79e9628a698669c0",
+      "bytes": 10624,
+      "crc32": 1805852179,
+      "mtimeNs": 1791611974684689400
+    },
+    {
+      "path": "round-13/source-before/sandbox.css",
+      "sha256": "e125403dec22bcc01df67bac8f5947749c8e842e196c27844b87234328a11ed2",
+      "bytes": 40621,
+      "crc32": 546876247,
+      "mtimeNs": 1791625494693509800
+    },
+    {
+      "path": "round-13/source-before/sandbox.js",
+      "sha256": "7db004d78b73d9c0393e73b640925806556071dc4107ffbd04af0587c5dbdfb9",
+      "bytes": 104182,
+      "crc32": 2833207409,
+      "mtimeNs": 1791628992260315200
+    },
+    {
+      "path": "round-13/source-before/story.js",
+      "sha256": "9f1bc7510c07ec06d0406c4b1f44e0479af2f8c39e5ba5f13c0ce2e9d57ca5c8",
+      "bytes": 11965,
+      "crc32": 1446051081,
+      "mtimeNs": 1791612065597967800
+    },
+    {
+      "path": "round-13/source-before/styles.css",
+      "sha256": "fbaf54a415d2500e20fd76cb8ade2799eb5364a1a3e3bf063e03ac0e8759e333",
+      "bytes": 14295,
+      "crc32": 4214606884,
+      "mtimeNs": 1791560137300350500
+    },
+    {
+      "path": "round-13/source-before/surface.js",
+      "sha256": "5c3317be4501daf492bd888997ba93a2b5cc025968e6ff8b273e4600aed41c21",
+      "bytes": 4770,
+      "crc32": 3908575464,
+      "mtimeNs": 1791611788235733000
+    },
+    {
+      "path": "round-13/source-recorded/ATTRIBUTION.md",
+      "sha256": "d73bbf10c9199d925461c53c25473fc03b077b21a483fbb32a8d23505b969dd6",
+      "bytes": 11008,
+      "crc32": 1907509769,
+      "mtimeNs": 1791637974802213800
+    },
+    {
+      "path": "round-13/source-recorded/app.js",
+      "sha256": "d2dd099ecd3e568786e6a75417030e8963411e98d2d321ca6d07f81c10425c37",
+      "bytes": 2253,
+      "crc32": 2210610571,
+      "mtimeNs": 1791559687062736700
+    },
+    {
+      "path": "round-13/source-recorded/capture.js",
+      "sha256": "f3a37fb356fe5ab88714dbd5bdb2c1c9422d98d91d26d3644f3def6e08ea14b7",
+      "bytes": 4478,
+      "crc32": 726599764,
+      "mtimeNs": 1791637540540192600
+    },
+    {
+      "path": "round-13/source-recorded/connections.js",
+      "sha256": "bbc0f8f3669dcfbe0d0f00d083a814f1335cf22ad23c6816587d31e1c4c19337",
+      "bytes": 5944,
+      "crc32": 702351060,
+      "mtimeNs": 1791617217184457500
+    },
+    {
+      "path": "round-13/source-recorded/continuity.css",
+      "sha256": "3ee2649b57b2aea79fe6f9edef4919b38b40ef590419ee6ca82ac08aedf00632",
+      "bytes": 681,
+      "crc32": 1792588244,
+      "mtimeNs": 1791627792279157400
+    },
+    {
+      "path": "round-13/source-recorded/continuity.js",
+      "sha256": "9289190ea4920342706f71fc7e4e685c7ff329353056711a78deb77795d4a063",
+      "bytes": 1805,
+      "crc32": 2702946551,
+      "mtimeNs": 1791627593430731300
+    },
+    {
+      "path": "round-13/source-recorded/data.js",
+      "sha256": "e6e057ecad51f93ca5131c7989dffa5a63c5715a8936060a61e19cb2a3d97b85",
+      "bytes": 6189,
+      "crc32": 854762947,
+      "mtimeNs": 1791559687060409700
+    },
+    {
+      "path": "round-13/source-recorded/explorations.css",
+      "sha256": "d39c2fa23e93e2f034b39df18e775f60edc655b89f71470306f85f07040633e7",
+      "bytes": 6528,
+      "crc32": 1968140589,
+      "mtimeNs": 1791623701112241700
+    },
+    {
+      "path": "round-13/source-recorded/explorations.html",
+      "sha256": "8fc61bb8f9a8e06a72d0fe5a2f177b4705312efd967f1cee1509f2cda476319f",
+      "bytes": 17494,
+      "crc32": 3088249671,
+      "mtimeNs": 1791638075501470200
+    },
+    {
+      "path": "round-13/source-recorded/explorations.js",
+      "sha256": "13869ac9c43d80548631bb3615d381a1d6e75dc4f1e31a312f7f89962bc731b9",
+      "bytes": 1422,
+      "crc32": 688082437,
+      "mtimeNs": 1791611974623632300
+    },
+    {
+      "path": "round-13/source-recorded/film.js",
+      "sha256": "1c2e0be90534c0b044626598fdacac15fbaaefb641fb6b23055404f7df706fe9",
+      "bytes": 6256,
+      "crc32": 2349251295,
+      "mtimeNs": 1791637071954185100
+    },
+    {
+      "path": "round-13/source-recorded/geo.js",
+      "sha256": "61acbc998227d1faeefdc0459e074a32c3e6f4e3051f720bb6d3eefe2e1491de",
+      "bytes": 2138,
+      "crc32": 3373936774,
+      "mtimeNs": 1791600603484970900
+    },
+    {
+      "path": "round-13/source-recorded/glacier.js",
+      "sha256": "2dd43339a9aa233196bab8e7beb8cde78390d6941f7f0e3cacd88a812aca615e",
+      "bytes": 3888,
+      "crc32": 1302177656,
+      "mtimeNs": 1791612064465510400
+    },
+    {
+      "path": "round-13/source-recorded/index.html",
+      "sha256": "a446fc039b08bec3f7d6dbf534c89fadc5d247417a6aab318f58c116e4cee927",
+      "bytes": 10102,
+      "crc32": 4103690367,
+      "mtimeNs": 1791637137668631300
+    },
+    {
+      "path": "round-13/source-recorded/journey.js",
+      "sha256": "37abab796c77f6d25b519d1fb5efb752f5c80d838806d09d28c379c9619cc580",
+      "bytes": 12281,
+      "crc32": 3974668734,
+      "mtimeNs": 1791636902886379000
+    },
+    {
+      "path": "round-13/source-recorded/landscape.js",
+      "sha256": "fcd3228063c31b8c88626eb6ad473734007e6d9c6220b24885d61e0d2153f622",
+      "bytes": 3297,
+      "crc32": 3755333886,
+      "mtimeNs": 1791606513666133100
+    },
+    {
+      "path": "round-13/source-recorded/lessons.js",
+      "sha256": "483d69812af2043d2f56f897128f11eaa236dd83ba8db8635341277924e247da",
+      "bytes": 12810,
+      "crc32": 3792290768,
+      "mtimeNs": 1791611787052258600
+    },
+    {
+      "path": "round-13/source-recorded/lived-detail.js",
+      "sha256": "9237579e7714ae4b7555f374305bd2de3bba7f3d851524b6bb8f7623b6a6a484",
+      "bytes": 11104,
+      "crc32": 3544043583,
+      "mtimeNs": 1791638489992009300
+    },
+    {
+      "path": "round-13/source-recorded/lived-model.js",
+      "sha256": "e6b125fdbb60ea9d38ea05fe5d978349cbd1d5c2f7565d7be5e159c6ef274298",
+      "bytes": 3771,
+      "crc32": 2291904729,
+      "mtimeNs": 1791637373428032500
+    },
+    {
+      "path": "round-13/source-recorded/lived-process.js",
+      "sha256": "8a5c611dd36ba29b1a111f4486a5f82793effcb70b54b8bde4bfaa9a4ad38d4e",
+      "bytes": 3382,
+      "crc32": 3472704852,
+      "mtimeNs": 1791636902886379000
+    },
+    {
+      "path": "round-13/source-recorded/lived-scenes.js",
+      "sha256": "9ba700767aee88b8fcf99f3df9f2a1fc6c0d977a539dc2538a18056d2ca4ee82",
+      "bytes": 42157,
+      "crc32": 2486204425,
+      "mtimeNs": 1791638606332103300
+    },
+    {
+      "path": "round-13/source-recorded/motion.js",
+      "sha256": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "bytes": 1072,
+      "crc32": 1268095807,
+      "mtimeNs": 1791600097839152800
+    },
+    {
+      "path": "round-13/source-recorded/narrative-ui.js",
+      "sha256": "b62997876e0079b691d02311aae3a2113657eaa8f891f15b4ae4779148500a01",
+      "bytes": 4890,
+      "crc32": 4105942192,
+      "mtimeNs": 1791625991254528700
+    },
+    {
+      "path": "round-13/source-recorded/research.html",
+      "sha256": "5f368aba01ee4aa66af05c6e2383242584a7ad5ab5fdb7dd79e9628a698669c0",
+      "bytes": 10624,
+      "crc32": 1805852179,
+      "mtimeNs": 1791611974684689400
+    },
+    {
+      "path": "round-13/source-recorded/runtime-equality.json",
+      "sha256": "1bed7928fe7f1ccb28e376b95b1a746b23c991d31c26d194531d07ef5689ff0d",
+      "bytes": 3845,
+      "crc32": 3930543677,
+      "mtimeNs": 1791639536688312300
+    },
+    {
+      "path": "round-13/source-recorded/sandbox.css",
+      "sha256": "e125403dec22bcc01df67bac8f5947749c8e842e196c27844b87234328a11ed2",
+      "bytes": 40621,
+      "crc32": 546876247,
+      "mtimeNs": 1791625494693509800
+    },
+    {
+      "path": "round-13/source-recorded/sandbox.js",
+      "sha256": "053c8cacac3d29a7807c65ff34532dced14ecf5364ef3fcea222a049542b9ee4",
+      "bytes": 105013,
+      "crc32": 2562769738,
+      "mtimeNs": 1791637540539655600
+    },
+    {
+      "path": "round-13/source-recorded/soundscape.js",
+      "sha256": "5e43b9f4d568e98fd5e4903663faea7953df55694297d2007cc946cb9f2f18d2",
+      "bytes": 4069,
+      "crc32": 280550476,
+      "mtimeNs": 1791636987792093400
+    },
+    {
+      "path": "round-13/source-recorded/story-finish.css",
+      "sha256": "6bf45b587a854f2c7ec1bcad0a4c9bb8968cf9625acf33cdbc3c0dc4097ce8c1",
+      "bytes": 3340,
+      "crc32": 3493234835,
+      "mtimeNs": 1791637373428032500
+    },
+    {
+      "path": "round-13/source-recorded/story-outcomes.js",
+      "sha256": "8810736eda000e52aa18b0f26bc160ef5767d03381b04ee4c382e3985df937b7",
+      "bytes": 2560,
+      "crc32": 2277569388,
+      "mtimeNs": 1791636653318150300
+    },
+    {
+      "path": "round-13/source-recorded/story.js",
+      "sha256": "9f1bc7510c07ec06d0406c4b1f44e0479af2f8c39e5ba5f13c0ce2e9d57ca5c8",
+      "bytes": 11965,
+      "crc32": 1446051081,
+      "mtimeNs": 1791612065597967800
+    },
+    {
+      "path": "round-13/source-recorded/styles.css",
+      "sha256": "fbaf54a415d2500e20fd76cb8ade2799eb5364a1a3e3bf063e03ac0e8759e333",
+      "bytes": 14295,
+      "crc32": 4214606884,
+      "mtimeNs": 1791560137300350500
+    },
+    {
+      "path": "round-13/source-recorded/surface.js",
+      "sha256": "ef184436547781ee3326405a7de0a88c66aa47af95f8a558a0ded836180e6906",
+      "bytes": 4987,
+      "crc32": 1587960287,
+      "mtimeNs": 1791637478503083400
+    },
+    {
+      "path": "round-13/source-v1/ATTRIBUTION.md",
+      "sha256": "e87299d87c989c10dccf97486ef61b6bda8d905a8c239290647615dbe063861c",
+      "bytes": 9948,
+      "crc32": 3928714067,
+      "mtimeNs": 1791626522811957900
+    },
+    {
+      "path": "round-13/source-v1/app.js",
+      "sha256": "d2dd099ecd3e568786e6a75417030e8963411e98d2d321ca6d07f81c10425c37",
+      "bytes": 2253,
+      "crc32": 2210610571,
+      "mtimeNs": 1791559687062736700
+    },
+    {
+      "path": "round-13/source-v1/capture.js",
+      "sha256": "f3a37fb356fe5ab88714dbd5bdb2c1c9422d98d91d26d3644f3def6e08ea14b7",
+      "bytes": 4478,
+      "crc32": 726599764,
+      "mtimeNs": 1791637540540192600
+    },
+    {
+      "path": "round-13/source-v1/connections.js",
+      "sha256": "bbc0f8f3669dcfbe0d0f00d083a814f1335cf22ad23c6816587d31e1c4c19337",
+      "bytes": 5944,
+      "crc32": 702351060,
+      "mtimeNs": 1791617217184457500
+    },
+    {
+      "path": "round-13/source-v1/continuity.css",
+      "sha256": "3ee2649b57b2aea79fe6f9edef4919b38b40ef590419ee6ca82ac08aedf00632",
+      "bytes": 681,
+      "crc32": 1792588244,
+      "mtimeNs": 1791627792279157400
+    },
+    {
+      "path": "round-13/source-v1/continuity.js",
+      "sha256": "9289190ea4920342706f71fc7e4e685c7ff329353056711a78deb77795d4a063",
+      "bytes": 1805,
+      "crc32": 2702946551,
+      "mtimeNs": 1791627593430731300
+    },
+    {
+      "path": "round-13/source-v1/data.js",
+      "sha256": "e6e057ecad51f93ca5131c7989dffa5a63c5715a8936060a61e19cb2a3d97b85",
+      "bytes": 6189,
+      "crc32": 854762947,
+      "mtimeNs": 1791559687060409700
+    },
+    {
+      "path": "round-13/source-v1/explorations.css",
+      "sha256": "d39c2fa23e93e2f034b39df18e775f60edc655b89f71470306f85f07040633e7",
+      "bytes": 6528,
+      "crc32": 1968140589,
+      "mtimeNs": 1791623701112241700
+    },
+    {
+      "path": "round-13/source-v1/explorations.html",
+      "sha256": "44dd68b1e099118acff88726e1fc307839f7075793865b0241374dd45857f390",
+      "bytes": 14132,
+      "crc32": 2811502092,
+      "mtimeNs": 1791628650429080600
+    },
+    {
+      "path": "round-13/source-v1/explorations.js",
+      "sha256": "13869ac9c43d80548631bb3615d381a1d6e75dc4f1e31a312f7f89962bc731b9",
+      "bytes": 1422,
+      "crc32": 688082437,
+      "mtimeNs": 1791611974623632300
+    },
+    {
+      "path": "round-13/source-v1/film.js",
+      "sha256": "1c2e0be90534c0b044626598fdacac15fbaaefb641fb6b23055404f7df706fe9",
+      "bytes": 6256,
+      "crc32": 2349251295,
+      "mtimeNs": 1791637071954185100
+    },
+    {
+      "path": "round-13/source-v1/geo.js",
+      "sha256": "61acbc998227d1faeefdc0459e074a32c3e6f4e3051f720bb6d3eefe2e1491de",
+      "bytes": 2138,
+      "crc32": 3373936774,
+      "mtimeNs": 1791600603484970900
+    },
+    {
+      "path": "round-13/source-v1/glacier.js",
+      "sha256": "2dd43339a9aa233196bab8e7beb8cde78390d6941f7f0e3cacd88a812aca615e",
+      "bytes": 3888,
+      "crc32": 1302177656,
+      "mtimeNs": 1791612064465510400
+    },
+    {
+      "path": "round-13/source-v1/index.html",
+      "sha256": "a446fc039b08bec3f7d6dbf534c89fadc5d247417a6aab318f58c116e4cee927",
+      "bytes": 10102,
+      "crc32": 4103690367,
+      "mtimeNs": 1791637137668631300
+    },
+    {
+      "path": "round-13/source-v1/journey.js",
+      "sha256": "37abab796c77f6d25b519d1fb5efb752f5c80d838806d09d28c379c9619cc580",
+      "bytes": 12281,
+      "crc32": 3974668734,
+      "mtimeNs": 1791636902886379000
+    },
+    {
+      "path": "round-13/source-v1/landscape.js",
+      "sha256": "fcd3228063c31b8c88626eb6ad473734007e6d9c6220b24885d61e0d2153f622",
+      "bytes": 3297,
+      "crc32": 3755333886,
+      "mtimeNs": 1791606513666133100
+    },
+    {
+      "path": "round-13/source-v1/lessons.js",
+      "sha256": "483d69812af2043d2f56f897128f11eaa236dd83ba8db8635341277924e247da",
+      "bytes": 12810,
+      "crc32": 3792290768,
+      "mtimeNs": 1791611787052258600
+    },
+    {
+      "path": "round-13/source-v1/lived-detail.js",
+      "sha256": "e67e75cf0cad8cd7c25a2a57b0e091ea3dc29eb5098d8139edb1c2f32fff0b10",
+      "bytes": 11107,
+      "crc32": 1852840777,
+      "mtimeNs": 1791637824613431000
+    },
+    {
+      "path": "round-13/source-v1/lived-model.js",
+      "sha256": "e6b125fdbb60ea9d38ea05fe5d978349cbd1d5c2f7565d7be5e159c6ef274298",
+      "bytes": 3771,
+      "crc32": 2291904729,
+      "mtimeNs": 1791637373428032500
+    },
+    {
+      "path": "round-13/source-v1/lived-process.js",
+      "sha256": "8a5c611dd36ba29b1a111f4486a5f82793effcb70b54b8bde4bfaa9a4ad38d4e",
+      "bytes": 3382,
+      "crc32": 3472704852,
+      "mtimeNs": 1791636902886379000
+    },
+    {
+      "path": "round-13/source-v1/lived-scenes.js",
+      "sha256": "a43d1342de89bcb8c1f1402816092d76a50207044778e1e74dd7418b1917c4bb",
+      "bytes": 42085,
+      "crc32": 2147278296,
+      "mtimeNs": 1791637540538572800
+    },
+    {
+      "path": "round-13/source-v1/motion.js",
+      "sha256": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "bytes": 1072,
+      "crc32": 1268095807,
+      "mtimeNs": 1791600097839152800
+    },
+    {
+      "path": "round-13/source-v1/narrative-ui.js",
+      "sha256": "b62997876e0079b691d02311aae3a2113657eaa8f891f15b4ae4779148500a01",
+      "bytes": 4890,
+      "crc32": 4105942192,
+      "mtimeNs": 1791625991254528700
+    },
+    {
+      "path": "round-13/source-v1/research.html",
+      "sha256": "5f368aba01ee4aa66af05c6e2383242584a7ad5ab5fdb7dd79e9628a698669c0",
+      "bytes": 10624,
+      "crc32": 1805852179,
+      "mtimeNs": 1791611974684689400
+    },
+    {
+      "path": "round-13/source-v1/sandbox.css",
+      "sha256": "e125403dec22bcc01df67bac8f5947749c8e842e196c27844b87234328a11ed2",
+      "bytes": 40621,
+      "crc32": 546876247,
+      "mtimeNs": 1791625494693509800
+    },
+    {
+      "path": "round-13/source-v1/sandbox.js",
+      "sha256": "053c8cacac3d29a7807c65ff34532dced14ecf5364ef3fcea222a049542b9ee4",
+      "bytes": 105013,
+      "crc32": 2562769738,
+      "mtimeNs": 1791637540539655600
+    },
+    {
+      "path": "round-13/source-v1/soundscape.js",
+      "sha256": "5e43b9f4d568e98fd5e4903663faea7953df55694297d2007cc946cb9f2f18d2",
+      "bytes": 4069,
+      "crc32": 280550476,
+      "mtimeNs": 1791636987792093400
+    },
+    {
+      "path": "round-13/source-v1/story-finish.css",
+      "sha256": "6bf45b587a854f2c7ec1bcad0a4c9bb8968cf9625acf33cdbc3c0dc4097ce8c1",
+      "bytes": 3340,
+      "crc32": 3493234835,
+      "mtimeNs": 1791637373428032500
+    },
+    {
+      "path": "round-13/source-v1/story-outcomes.js",
+      "sha256": "8810736eda000e52aa18b0f26bc160ef5767d03381b04ee4c382e3985df937b7",
+      "bytes": 2560,
+      "crc32": 2277569388,
+      "mtimeNs": 1791636653318150300
+    },
+    {
+      "path": "round-13/source-v1/story.js",
+      "sha256": "9f1bc7510c07ec06d0406c4b1f44e0479af2f8c39e5ba5f13c0ce2e9d57ca5c8",
+      "bytes": 11965,
+      "crc32": 1446051081,
+      "mtimeNs": 1791612065597967800
+    },
+    {
+      "path": "round-13/source-v1/styles.css",
+      "sha256": "fbaf54a415d2500e20fd76cb8ade2799eb5364a1a3e3bf063e03ac0e8759e333",
+      "bytes": 14295,
+      "crc32": 4214606884,
+      "mtimeNs": 1791560137300350500
+    },
+    {
+      "path": "round-13/source-v1/surface.js",
+      "sha256": "ef184436547781ee3326405a7de0a88c66aa47af95f8a558a0ded836180e6906",
+      "bytes": 4987,
+      "crc32": 1587960287,
+      "mtimeNs": 1791637478503083400
+    },
+    {
+      "path": "round-13/timeline.json",
+      "sha256": "bb2fc189812dab4fc289fdf696dbdafe25b98caa19e6b1d6b039821f49462478",
+      "bytes": 29708,
+      "crc32": 530117369,
+      "mtimeNs": 1791637848367290000
+    },
+    {
+      "path": "round-13/update-docs.py",
+      "sha256": "d5976db84cdf0d978fc8eabcf52ceb18da6a2661603eac77b83f3c143e00893b",
+      "bytes": 6090,
+      "crc32": 35504853,
+      "mtimeNs": 1791637973678325700
+    },
+    {
+      "path": "round-13/update-journal.py",
+      "sha256": "beb23e7e43c7af89b81542e45dabd7234c2ab2694502965566db7c97d7648116",
+      "bytes": 4189,
+      "crc32": 590536111,
+      "mtimeNs": 1791638070271048900
+    },
+    {
+      "path": "round-13/verification-final-interactions.json",
+      "sha256": "fcd7db87f3e776fbc0d78bebfa4a775d3de42bd0989b79b040b18b362917e5b7",
+      "bytes": 18616,
+      "crc32": 576841527,
+      "mtimeNs": 1791639295188367700
+    },
+    {
+      "path": "round-13/verification-final-v1.json",
+      "sha256": "800ef0cc484d338f17022a0145ccfb896497265983a10f0fb221a47ed4561a10",
+      "bytes": 3853,
+      "crc32": 379855770,
+      "mtimeNs": 1791638508670795200
+    },
+    {
+      "path": "round-13/verification-interactions.json",
+      "sha256": "88b7f7bf1a9b14d7b6f0773e227e5f8b6d2052ab79dc8a274f94f900783947c8",
+      "bytes": 10469,
+      "crc32": 1006938105,
+      "mtimeNs": 1791637506462544300
+    },
+    {
+      "path": "round-13/verification-journal.json",
+      "sha256": "e2dd5c773570a783bb62f15ff19bfbd625440e15c573918b43171c02cce1ec72",
+      "bytes": 719,
+      "crc32": 3968958372,
+      "mtimeNs": 1791639375810184600
+    },
+    {
+      "path": "round-13/verification-mobile.json",
+      "sha256": "683524322188281db8a730030b63f96dc81cfc208650df8a4241201de878ee70",
+      "bytes": 1481,
+      "crc32": 1153978518,
+      "mtimeNs": 1791639331318517400
+    },
+    {
+      "path": "round-13/verify-assets.py",
+      "sha256": "8c28e8e50259d9be429f9254208f3b21cd8ac4e68beb254dde728b02216260cd",
+      "bytes": 2516,
+      "crc32": 3590199459,
+      "mtimeNs": 1791638735732219900
+    },
+    {
+      "path": "round-13/video-frames/final-v2/00-opening.png",
+      "sha256": "cc8615f011a8e3e9c44b50f6d9379d5e49998263dccac1b65794f8599e5c1fe7",
+      "bytes": 335722,
+      "crc32": 1541076522,
+      "mtimeNs": 1791639212736235800
+    },
+    {
+      "path": "round-13/video-frames/final-v2/01-water-inland.png",
+      "sha256": "fb5239e3282b9ba66e40978c5847979a413da2a1250839fc39406e898855ed58",
+      "bytes": 348433,
+      "crc32": 2286872547,
+      "mtimeNs": 1791639212979019400
+    },
+    {
+      "path": "round-13/video-frames/final-v2/02-oasis-dry.png",
+      "sha256": "c0b5eab4c575499df410eabeab54fc3fa32ffb2f845ec304591a8d36b5945d16",
+      "bytes": 377304,
+      "crc32": 2123695549,
+      "mtimeNs": 1791639213275188200
+    },
+    {
+      "path": "round-13/video-frames/final-v2/03-exchange-network.png",
+      "sha256": "2415a306b6f5cb3c77c52e00b76bbbe1d545115a75a5cf13fa14143e6b8c9e93",
+      "bytes": 373769,
+      "crc32": 1680260836,
+      "mtimeNs": 1791639213518858700
+    },
+    {
+      "path": "round-13/video-frames/final-v2/04-memory-departure.png",
+      "sha256": "89f021e122c4f4ee9d7543367a28b544ed555b14eda9992d8b1e78e8830e3903",
+      "bytes": 327117,
+      "crc32": 449378377,
+      "mtimeNs": 1791639213697557500
+    },
+    {
+      "path": "round-13/video-frames/final-v2/05-modern-hubs.png",
+      "sha256": "4a4ffb1d8e5ed24c8af1092da2cefb15b150f920a5bc0fdae5ce0613b5becf66",
+      "bytes": 379469,
+      "crc32": 4145252119,
+      "mtimeNs": 1791639213955112500
+    },
+    {
+      "path": "round-13/video-frames/final-v2/06-future-landscape.png",
+      "sha256": "933a9e3fb0b8cac11475d16f369a465e9eddda0dc6d6dffbf48c4aac9073f2d5",
+      "bytes": 868469,
+      "crc32": 2138444042,
+      "mtimeNs": 1791639214234569100
+    },
+    {
+      "path": "round-13/video-frames/final-v2/07-future-result.png",
+      "sha256": "0da021cee1fc2577617d53967c7484c75dedb3c9e4b6cb6410e55b2ddb5f5d9f",
+      "bytes": 242078,
+      "crc32": 3830214405,
+      "mtimeNs": 1791639214448277400
+    },
+    {
+      "path": "round-13/video-frames/final-v2/08-exchange-network.png",
+      "sha256": "2415a306b6f5cb3c77c52e00b76bbbe1d545115a75a5cf13fa14143e6b8c9e93",
+      "bytes": 373769,
+      "crc32": 1680260836,
+      "mtimeNs": 1791639214680998900
+    },
+    {
+      "path": "round-13/video-frames/final-v2/09-exchange-stops.png",
+      "sha256": "8acc673d693aba495e9a28cb8179f7a4ad471dc5e96bf56910b2d81dba1ac258",
+      "bytes": 404292,
+      "crc32": 1349675617,
+      "mtimeNs": 1791639214967533600
+    },
+    {
+      "path": "round-13/video-frames/final-v2/10-exchange-goods.png",
+      "sha256": "fe5eca7a974b2e564feb7c2d5095425fcb656632d7212ea154cd02006332a6f2",
+      "bytes": 724111,
+      "crc32": 2976912914,
+      "mtimeNs": 1791639215186792900
+    },
+    {
+      "path": "round-13/video-frames/final-v2/11-exchange-city.png",
+      "sha256": "012bc1edd2e88e4e21dc556b2cd77ef3865eb6da21206078f776c4dc2397faf7",
+      "bytes": 778472,
+      "crc32": 3050187265,
+      "mtimeNs": 1791639215441001300
+    },
+    {
+      "path": "round-13/video-frames/final-v2/12-exchange-question.png",
+      "sha256": "15117098f30a5128c0a3e4fcc60cf6e99600f25dc3e2b0ec5c8f9e0737a38840",
+      "bytes": 297883,
+      "crc32": 4294555447,
+      "mtimeNs": 1791639215693359300
+    },
+    {
+      "path": "round-13/video-frames/final-v2/13-memory-departure.png",
+      "sha256": "89f021e122c4f4ee9d7543367a28b544ed555b14eda9992d8b1e78e8830e3903",
+      "bytes": 327117,
+      "crc32": 449378377,
+      "mtimeNs": 1791639215918318100
+    },
+    {
+      "path": "round-13/video-frames/final-v2/14-memory-journey.png",
+      "sha256": "c6b408d3d49d979776720620dbb868fb59dc4a11108cd4e3ee67450e7ebc6144",
+      "bytes": 290974,
+      "crc32": 2013332836,
+      "mtimeNs": 1791639216182176400
+    },
+    {
+      "path": "round-13/video-frames/final-v2/15-memory-arrival.png",
+      "sha256": "f1c12e405b0f6c8b5f8aeab485f0ca256ffdf9f346cc81350ee540373b4f203e",
+      "bytes": 514641,
+      "crc32": 2930187647,
+      "mtimeNs": 1791639216439142600
+    },
+    {
+      "path": "round-13/video-frames/final-v2/16-memory-muqam.png",
+      "sha256": "9b76bb259cf3b673ca2db2929ac2b5925d3e2aefa931ec2088153dca0082ed21",
+      "bytes": 742553,
+      "crc32": 550671878,
+      "mtimeNs": 1791639216743498800
+    },
+    {
+      "path": "round-13/video-frames/final-v2/17-memory-practice.png",
+      "sha256": "01400e898d2b8aee13ccdfd97612b55941de5d5d6cab3641b3889e368247f964",
+      "bytes": 896151,
+      "crc32": 1144825247,
+      "mtimeNs": 1791639217029305400
+    },
+    {
+      "path": "round-13/video-frames/final-v2/18-modern-hubs.png",
+      "sha256": "4a4ffb1d8e5ed24c8af1092da2cefb15b150f920a5bc0fdae5ce0613b5becf66",
+      "bytes": 379469,
+      "crc32": 4145252119,
+      "mtimeNs": 1791639217320049400
+    },
+    {
+      "path": "round-13/video-frames/final-v2/19-modern-urumqi.png",
+      "sha256": "c616aea792fc078cac25c360eeac99ec3fc2137c56aa4694537dc591d6e67dfa",
+      "bytes": 487859,
+      "crc32": 1580238738,
+      "mtimeNs": 1791639217541696500
+    },
+    {
+      "path": "round-13/video-frames/final-v2/20-modern-kashgar.png",
+      "sha256": "9bf4d8776bde1cf11fcb868a5a4a3ef7c0f15f995dbbc16d78fb261d2dd1d314",
+      "bytes": 487180,
+      "crc32": 4095807573,
+      "mtimeNs": 1791639217731649000
+    },
+    {
+      "path": "round-13/video-frames/final-v2/21-modern-rules.png",
+      "sha256": "a48cc4462bbf5ba460c9d34618ae907f4a7da451e18ee1f135e5b9cc2d27edaa",
+      "bytes": 570565,
+      "crc32": 1062417565,
+      "mtimeNs": 1791639217951392800
+    },
+    {
+      "path": "round-13/video-frames/final-v2/22-modern-limit.png",
+      "sha256": "3c84a4faf512e0b05dd1ea38b8e172dffdc28296a696a571b963e4dc320f3c9c",
+      "bytes": 409434,
+      "crc32": 1109705907,
+      "mtimeNs": 1791639218201115300
+    },
+    {
+      "path": "round-13/video-frames/final-v2/23-future-synthesis.png",
+      "sha256": "d80598728663eb1d06809af26e40ce158581f79239a3c19896c69173275dcd40",
+      "bytes": 427589,
+      "crc32": 4237012468,
+      "mtimeNs": 1791639218374334800
+    },
+    {
+      "path": "round-13/video-frames/final-v2/contact-sheet.jpg",
+      "sha256": "0ec633f55f685d40df334cd8b96233fd7811f77e087b9c31046e9b9a194e622a",
+      "bytes": 741957,
+      "crc32": 2888925671,
+      "mtimeNs": 1791639218458012400
+    },
+    {
+      "path": "round-13/video-frames/final/00-opening.png",
+      "sha256": "52c8e7c97a2427ebbdb762da3b048279f5213977a0f019342a20596315f4878d",
+      "bytes": 430190,
+      "crc32": 1189867245,
+      "mtimeNs": 1791638388868856800
+    },
+    {
+      "path": "round-13/video-frames/final/01-water-inland.png",
+      "sha256": "fc59bf3b08c02fa6ca48004917932d2b37ab98f1a3992d60994c2151486624ca",
+      "bytes": 347599,
+      "crc32": 3578117786,
+      "mtimeNs": 1791638389172644800
+    },
+    {
+      "path": "round-13/video-frames/final/02-oasis-dry.png",
+      "sha256": "c3d1451cf576ee20a3f552b2f772ec8e9fac9e4b275222f61231fbcb13c0fbe0",
+      "bytes": 376230,
+      "crc32": 3702825466,
+      "mtimeNs": 1791638389449955100
+    },
+    {
+      "path": "round-13/video-frames/final/03-exchange-network.png",
+      "sha256": "789d3ba8fe97fa508252da83537829db636c31c0bc120592f34a589bda2129ef",
+      "bytes": 372791,
+      "crc32": 2436726170,
+      "mtimeNs": 1791638389702769800
+    },
+    {
+      "path": "round-13/video-frames/final/04-memory-departure.png",
+      "sha256": "094b6294d388ac4fb61cbf4f0c6476e74b9c16a4383cd3dc118b55f4520cb057",
+      "bytes": 327289,
+      "crc32": 4038575964,
+      "mtimeNs": 1791638389935081500
+    },
+    {
+      "path": "round-13/video-frames/final/05-modern-hubs.png",
+      "sha256": "ff067b6915392f8ca52bc93d987a019eb4123f2e0324195e18b7fd1b1e0e437a",
+      "bytes": 381796,
+      "crc32": 2061351546,
+      "mtimeNs": 1791638390238629700
+    },
+    {
+      "path": "round-13/video-frames/final/06-future-landscape.png",
+      "sha256": "24ddb85468e1d48143a434267e4dbc1eb2500a086bfe5663bac4571750663cee",
+      "bytes": 865860,
+      "crc32": 3321423552,
+      "mtimeNs": 1791638390552915600
+    },
+    {
+      "path": "round-13/video-frames/final/07-future-result.png",
+      "sha256": "756a70729d5d8b8c1735611ad5ff82ae03eae653605cf0edd60f63555c68b28b",
+      "bytes": 239368,
+      "crc32": 572568671,
+      "mtimeNs": 1791638390821124700
+    },
+    {
+      "path": "round-13/video-frames/final/08-exchange-network.png",
+      "sha256": "789d3ba8fe97fa508252da83537829db636c31c0bc120592f34a589bda2129ef",
+      "bytes": 372791,
+      "crc32": 2436726170,
+      "mtimeNs": 1791638391084113100
+    },
+    {
+      "path": "round-13/video-frames/final/09-exchange-stops.png",
+      "sha256": "7792fb522cb40039660d511c642859f640dabd730a2f2437227fdff53afe7349",
+      "bytes": 398114,
+      "crc32": 3953554798,
+      "mtimeNs": 1791638391317889100
+    },
+    {
+      "path": "round-13/video-frames/final/10-exchange-goods.png",
+      "sha256": "e00010df4926ab0135a857492695cf5556044ee75486e917267fbf3cc9a59cb3",
+      "bytes": 720647,
+      "crc32": 1198153601,
+      "mtimeNs": 1791638391590010500
+    },
+    {
+      "path": "round-13/video-frames/final/11-exchange-city.png",
+      "sha256": "7559eca1290e7387da605cdc37b134568e5849657d124ad6cac023363f28b654",
+      "bytes": 745010,
+      "crc32": 3689502723,
+      "mtimeNs": 1791638391904345100
+    },
+    {
+      "path": "round-13/video-frames/final/12-exchange-question.png",
+      "sha256": "c004256ada2119c22f72dc91ca27ee6b9c6979412b05303ef1be74d403be6a34",
+      "bytes": 298409,
+      "crc32": 2275878631,
+      "mtimeNs": 1791638392151097700
+    },
+    {
+      "path": "round-13/video-frames/final/13-memory-departure.png",
+      "sha256": "094b6294d388ac4fb61cbf4f0c6476e74b9c16a4383cd3dc118b55f4520cb057",
+      "bytes": 327289,
+      "crc32": 4038575964,
+      "mtimeNs": 1791638392468441100
+    },
+    {
+      "path": "round-13/video-frames/final/14-memory-journey.png",
+      "sha256": "28e67a0a64666593ea7f7b949df1f0ed82ab9ee2be09133c3e7e4cc28a62ff3b",
+      "bytes": 287746,
+      "crc32": 1499772016,
+      "mtimeNs": 1791638392774870400
+    },
+    {
+      "path": "round-13/video-frames/final/15-memory-arrival.png",
+      "sha256": "3b2e3308c9f3876707cd878ddd57c834da3aeae7a49c96c7e6113456eee35064",
+      "bytes": 503676,
+      "crc32": 2944357186,
+      "mtimeNs": 1791638393180119700
+    },
+    {
+      "path": "round-13/video-frames/final/16-memory-muqam.png",
+      "sha256": "821021473ab1f530d31b9bf800e3bb597f642dbaa66af4cb7fecceb1584a0cd8",
+      "bytes": 741648,
+      "crc32": 3820621575,
+      "mtimeNs": 1791638393710399900
+    },
+    {
+      "path": "round-13/video-frames/final/17-memory-practice.png",
+      "sha256": "17f75bd17438b2d9a13a85e3cf01f63159a99e526fa2f11ac1b1cfcf52519546",
+      "bytes": 898521,
+      "crc32": 933080461,
+      "mtimeNs": 1791638394149545300
+    },
+    {
+      "path": "round-13/video-frames/final/18-modern-hubs.png",
+      "sha256": "ff067b6915392f8ca52bc93d987a019eb4123f2e0324195e18b7fd1b1e0e437a",
+      "bytes": 381796,
+      "crc32": 2061351546,
+      "mtimeNs": 1791638394515390200
+    },
+    {
+      "path": "round-13/video-frames/final/19-modern-urumqi.png",
+      "sha256": "7b127f242bfedc5c6944dbf560f7340888bc9ea4917ca22aa8ab933779f035b5",
+      "bytes": 486622,
+      "crc32": 2017850977,
+      "mtimeNs": 1791638394811964000
+    },
+    {
+      "path": "round-13/video-frames/final/20-modern-kashgar.png",
+      "sha256": "14aaf4ca0753eb612f9e0e5f9738ff537751aa2fde245979eb6fefc07c2a99de",
+      "bytes": 485307,
+      "crc32": 841948911,
+      "mtimeNs": 1791638395069464100
+    },
+    {
+      "path": "round-13/video-frames/final/21-modern-rules.png",
+      "sha256": "efbdabe39f0a74a832bf63e5cbdd813998c6419e70d200097b1c509df4c11519",
+      "bytes": 568097,
+      "crc32": 3141084109,
+      "mtimeNs": 1791638395349956700
+    },
+    {
+      "path": "round-13/video-frames/final/22-modern-limit.png",
+      "sha256": "b2d3608e3c196ea82ec82c8bc63210a601badef0824546713a079cac27a76f86",
+      "bytes": 403684,
+      "crc32": 98307197,
+      "mtimeNs": 1791638395715276300
+    },
+    {
+      "path": "round-13/video-frames/final/23-future-synthesis.png",
+      "sha256": "ddf5fca371c2e90cf55c787f9a3f3fe8b9403e3254723c4c347ae728fab3d47f",
+      "bytes": 402672,
+      "crc32": 2282096596,
+      "mtimeNs": 1791638396055667600
+    },
+    {
+      "path": "round-13/video-frames/final/contact-sheet.jpg",
+      "sha256": "54b9db8b58be5f409dd1e871deacd76a0b150990d77dd1a93420cd79f3539df9",
+      "bytes": 741835,
+      "crc32": 3072022642,
+      "mtimeNs": 1791638396210174900
+    },
+    {
+      "path": "round-13/video-frames/motion-final/contact-sheet.jpg",
+      "sha256": "c52b6da6be5bcee6d90d99db104c00d88d4609e1e3e20ae804ca5f9ae1328486",
+      "bytes": 1034621,
+      "crc32": 118505530,
+      "mtimeNs": 1791639243798265000
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-goods-13.png",
+      "sha256": "da8e90fadef731678e025ec65cd8cd34f7e571e706a274f59e53cd632c66ffa2",
+      "bytes": 758814,
+      "crc32": 1184507447,
+      "mtimeNs": 1791639238240343500
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-goods-2.png",
+      "sha256": "611d2c15a15c9428475e1fa6c1dcca2e9e20b6c9534110f5ea25ccc678c445db",
+      "bytes": 760959,
+      "crc32": 799731616,
+      "mtimeNs": 1791639237809564800
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-goods-7.png",
+      "sha256": "10a77bbd55fafe6dd9278b0c66faf005e0add8b697fa7de9eb8f7448b0964d82",
+      "bytes": 675530,
+      "crc32": 2189053607,
+      "mtimeNs": 1791639237988314800
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-question-0.2.png",
+      "sha256": "877423ebcaf82909878c6e62136a8ef81845f442280e89c7cd0d3100551173ca",
+      "bytes": 776487,
+      "crc32": 90449296,
+      "mtimeNs": 1791639238497493500
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-question-2.2.png",
+      "sha256": "34c55f6ba62e48ec69d5ee291ded7c2f0ff0fc9ce430318905be870c718a9b1a",
+      "bytes": 507395,
+      "crc32": 1471269504,
+      "mtimeNs": 1791639238674796800
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-question-4.6.png",
+      "sha256": "e01bde244ae4970f33d2647f6f1e618df17525fc6dcc0022e6e389b8ed221b7e",
+      "bytes": 290087,
+      "crc32": 215168960,
+      "mtimeNs": 1791639238857812000
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-stops-0.2.png",
+      "sha256": "7ea729f4d39dea3ff8cfc214ac08ace3073e33dd1c88aec2d26fdd1c58812717",
+      "bytes": 420190,
+      "crc32": 527240231,
+      "mtimeNs": 1791639237168236600
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-stops-2.2.png",
+      "sha256": "6abd211fd88a2d775a964f7375673ad9d7483fe95534ee3cc1ba92861bacf6a9",
+      "bytes": 541179,
+      "crc32": 1625308199,
+      "mtimeNs": 1791639237398532700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/exchange-stops-4.6.png",
+      "sha256": "9c7d0f52b81caa4a8adf71e3490594923c61e478030db8d7648b29320119b407",
+      "bytes": 372480,
+      "crc32": 4122299514,
+      "mtimeNs": 1791639237575245000
+    },
+    {
+      "path": "round-13/video-frames/motion-final/frames.json",
+      "sha256": "15ed7b471202a362dc95701b6986e9ec6058563bd65eee1f29222d9a835323af",
+      "bytes": 5532,
+      "crc32": 2304794578,
+      "mtimeNs": 1791639243800074200
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-0.3.png",
+      "sha256": "4fee232e748684b8257dcde149c37cb3ee8ffd802dceafae487383da0c81c824",
+      "bytes": 115122,
+      "crc32": 2115323376,
+      "mtimeNs": 1791639242193005400
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-11.png",
+      "sha256": "b6461b95b6eb06b38f9d4b947a6d41e99a726deb1194318183e6c211761241cb",
+      "bytes": 663462,
+      "crc32": 856355507,
+      "mtimeNs": 1791639242653968700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-15.png",
+      "sha256": "ebacc4af3603107c72ec979616ff7a516e024b0239c80c18a893cb8bf4258764",
+      "bytes": 451466,
+      "crc32": 3953425612,
+      "mtimeNs": 1791639242906608800
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-17.png",
+      "sha256": "d1e722829f11b117a5c9e92f8f0b7b11fbf2d48feab460d96c8a5bb4bcca83c9",
+      "bytes": 447393,
+      "crc32": 3232265732,
+      "mtimeNs": 1791639243093989200
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-19.4.png",
+      "sha256": "5a855b8019d2776979e50cb9d02e79720bbc180bcc0b4b5a7f218f5e7c7b96ea",
+      "bytes": 252824,
+      "crc32": 1646375005,
+      "mtimeNs": 1791639243292644200
+    },
+    {
+      "path": "round-13/video-frames/motion-final/future-synthesis-6.png",
+      "sha256": "1bd3931efb16801871709d696771ca6e48403b6a60d13e4d8bf3c4e5448c7c0c",
+      "bytes": 594760,
+      "crc32": 1949725235,
+      "mtimeNs": 1791639242431137200
+    },
+    {
+      "path": "round-13/video-frames/motion-final/karez-transition.png",
+      "sha256": "06ef733000365d0515813b455e8309d5738fa22d58dcaa3af0e4418fd7963470",
+      "bytes": 170896,
+      "crc32": 1519593789,
+      "mtimeNs": 1791639522098056700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-arrival-15.png",
+      "sha256": "078c4743bd3c9f4c709a28fe56c7ce672901cad14158376e591a27cd95484df5",
+      "bytes": 571794,
+      "crc32": 2222173486,
+      "mtimeNs": 1791639239470448900
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-arrival-3.png",
+      "sha256": "ae675a9eccd25f6974080de37684fb5bfeb5677b1216407799b91a374fdd6a2e",
+      "bytes": 520838,
+      "crc32": 1745093955,
+      "mtimeNs": 1791639239037949700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-arrival-8.png",
+      "sha256": "f1c12e405b0f6c8b5f8aeab485f0ca256ffdf9f346cc81350ee540373b4f203e",
+      "bytes": 514641,
+      "crc32": 2930187647,
+      "mtimeNs": 1791639239255964700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-muqam-0.2.png",
+      "sha256": "1540e548af9b3a01199d9168f34e561ee1d1d52b90a961d93ef97a5375158992",
+      "bytes": 563858,
+      "crc32": 3541466172,
+      "mtimeNs": 1791639239642654300
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-muqam-2.2.png",
+      "sha256": "65a67a0fb70e8e42a687e40569944d22202526f14a09291dc50583d76816bbf3",
+      "bytes": 746907,
+      "crc32": 4238330108,
+      "mtimeNs": 1791639239851772500
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-muqam-4.6.png",
+      "sha256": "83dc6f8be1693a1ffb493c280addfcb74459f8713f0e9e64b8b5158ddb7b9724",
+      "bytes": 742981,
+      "crc32": 417828218,
+      "mtimeNs": 1791639240086161300
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-practice-1.png",
+      "sha256": "667cfb99f3da94939ac62ba6bfff343400afb8a40787231cdeddc3c200156c02",
+      "bytes": 678371,
+      "crc32": 1586056337,
+      "mtimeNs": 1791639240270324000
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-practice-3.png",
+      "sha256": "2ba08bd6b9cb831807255331fffb616c9859bb4350d06aac15c481c7376519ca",
+      "bytes": 899003,
+      "crc32": 1681875713,
+      "mtimeNs": 1791639240487869100
+    },
+    {
+      "path": "round-13/video-frames/motion-final/memory-practice-7.png",
+      "sha256": "065513258e77c4e03c6f03380f3b002a0b99980d25dfcce39b6997d6a177e141",
+      "bytes": 898430,
+      "crc32": 1465937064,
+      "mtimeNs": 1791639240737889900
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-hubs-0.2.png",
+      "sha256": "2d8f9b296656330a395d7cccd3a61dfa6f89547d8ad7f2242d256511faa24a4c",
+      "bytes": 870007,
+      "crc32": 253557771,
+      "mtimeNs": 1791639240931091900
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-hubs-2.2.png",
+      "sha256": "fbf67dfdd3b3737beb546dd565851e99bed68bc705837c2b3373748396726879",
+      "bytes": 668760,
+      "crc32": 1808821271,
+      "mtimeNs": 1791639241144491500
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-hubs-4.6.png",
+      "sha256": "fea4fc055978fa35aae7300c186f8c1e6322251ab3af45dd98427e5a51bde85f",
+      "bytes": 378874,
+      "crc32": 2663104136,
+      "mtimeNs": 1791639241375140100
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-rules-1.png",
+      "sha256": "2982263bba7ae7ab6c4db7acb42ed0e49e4fe8b59dbbf5d6f8d8ad28650a090b",
+      "bytes": 501575,
+      "crc32": 1373788018,
+      "mtimeNs": 1791639241604900600
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-rules-12.png",
+      "sha256": "96bc412fc5e1c590d1672728b7dbbf55f4c8467cf2c7b88dd6d12e276048f049",
+      "bytes": 585055,
+      "crc32": 210669718,
+      "mtimeNs": 1791639242019420700
+    },
+    {
+      "path": "round-13/video-frames/motion-final/modern-rules-6.png",
+      "sha256": "ec296349b0634ad8d5ef9367edc1a2e07bb60cd13f08a3e23d5c8931a0a5a76e",
+      "bytes": 538947,
+      "crc32": 2827442741,
+      "mtimeNs": 1791639241817144900
+    }
+  ],
+  "archives": []
+}

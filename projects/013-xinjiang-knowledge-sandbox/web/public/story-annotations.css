@@ -1,0 +1,14 @@
+#spatial-annotations{position:absolute;inset:0;z-index:5;pointer-events:none;font-family:"Microsoft YaHei",sans-serif}
+#spatial-annotations[hidden]{display:none}
+#spatial-annotations svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible}
+#spatial-annotations line{stroke:#b8d7bf;stroke-width:1.3;opacity:.85}
+#spatial-annotations circle{fill:#d9e8c3;stroke:#244a41;stroke-width:2}
+.spatial-note{position:absolute;left:0;top:0;padding:8px 11px 9px;background:#132b27ed;border-left:3px solid #8acfcf;border-radius:3px;box-shadow:0 5px 20px #0002;line-height:1.5;max-width:238px;min-height:55px;box-sizing:border-box;animation:spatial-arrive .35s ease-out}
+.spatial-note[data-tone="action"]{border-color:#e6c78b}
+.spatial-note[data-tone="response"]{border-color:#b5dfac}
+.spatial-note strong{display:block;color:#eff2dd;font-weight:500;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.spatial-note span{display:block;color:#c2d1bd;font-size:10px;margin-top:3px;line-height:1.5}
+@keyframes spatial-arrive{from{opacity:0}to{opacity:1}}
+@media(max-width:700px){.spatial-note{padding:5px 8px;min-height:44px}.spatial-note strong{font-size:11px}.spatial-note span{font-size:9px}}
+@media(prefers-reduced-motion:reduce){.spatial-note{animation:none}}
+.lived-scene[data-decision-active="true"]:not([data-decision-choice="pending"]) #demo-text{display:none}

@@ -1,0 +1,14 @@
+
+/* R56: carry the question across scale changes, with quiet visual hierarchy. */
+.kg-event-meaning{border-left:2px solid #85c7b4;padding:2px 0 2px 12px;margin:14px 0;color:#b7cfca}
+.kg-event-meaning small,.kg-scale-link small{color:#90c8b7;font-size:10px;letter-spacing:.09em}
+.kg-event-meaning p{font-size:12px!important;line-height:1.65!important;margin:5px 0!important}
+.kg-scale-link{border:1px solid #ffffff1f;border-radius:12px;background:#86c7b40a;padding:12px;margin:15px 0}
+.kg-scale-link>div{display:flex;flex-wrap:wrap;align-items:center;gap:6px;font-size:11px;color:#a6bdb8;margin-bottom:12px}
+.kg-scale-link strong{color:#efd397}.kg-scale-link i{font-style:normal;color:#718e84}
+.kg-scale-link p{font-size:12px!important;line-height:1.65!important;margin:6px 0!important}
+.kg-scale-link .kg-context-note{font-size:10px!important;color:#81988e;margin-top:10px!important}
+.kg-scale-link button{width:100%;margin-top:9px!important}
+.kg-context-selected{border-color:#e9cf94!important;background:#314039!important;color:#fff0c9!important}
+
+.kg-scale-link summary{font-size:11px;color:#aac6b9;cursor:pointer}.kg-scale-link details[open]{padding-bottom:6px}.kg-scale-link details>small{display:block;margin-top:10px}

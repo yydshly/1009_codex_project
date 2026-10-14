@@ -1,0 +1,1983 @@
+{
+  "version": "R90",
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "policy": "原创普通话合成导览与故事讲解。旧历史音频引用原文件，不重复保存。",
+  "clips": [
+    {
+      "id": "opening-earth",
+      "event": "opening",
+      "beat": "earth",
+      "file": "opening-earth.mp3",
+      "text": "先看地球上的大陆与海洋。亚洲位于这边，欧洲在它的西侧，非洲在西南方向。新疆位于欧亚大陆内部。接下来，沿同一个地球靠近中国。",
+      "duration": 12.996,
+      "sha256": "0613ba6e4c72b4e964c5c2de4cc60ee5ac97fc38706f97a48a16ef9d68cae171",
+      "bytes": 209652,
+      "requestHash": "e34d4b6b6591193d8a937f938993c1b8284bc3a02a0a5428f1a31a54471e7218",
+      "sourceSHA256": "a5515e55cf774f6280ea86eb9ac925b1998d287f54cd6dbba09ad66e47bd1455",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "先看地球上的大陆与海洋。亚洲位于这边，欧洲在它的西侧，非洲在西南方向。新疆位于欧亚大陆内部。接下来，沿同一个地球靠近中国。",
+          "pronounce_text": "先看地球上的大陆与海洋。亚洲位于这边，欧洲在它的西侧，非洲在西南方向。新疆位于欧亚大陆内部。接下来，沿同一个地球靠近中国。",
+          "time_begin": 0,
+          "time_end": 12856.734693877552,
+          "text_begin": 0,
+          "text_end": 61,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 61,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "opening-china",
+      "event": "opening",
+      "beat": "china",
+      "file": "opening-china.mp3",
+      "text": "现在，中国的范围被金色轮廓标出。新疆在中国西北。对照蒙古国、哈萨克斯坦等周边国家，我们就能理解它在大陆上的位置。下一步，把视线转回新疆。",
+      "duration": 14.292,
+      "sha256": "8abf085c1afbd3acf3d3e5988e82efe1e1c379cf47bd9145afdb335bb29dab9c",
+      "bytes": 230388,
+      "requestHash": "03a2f992c188e7dd62044ccbed80bd4bdf4178381cf00bef879f88dfd98641dd",
+      "sourceSHA256": "36eedac62e5e8d39634a1c2ac2ab7e96ce7ae905a57977b4dfec22141602da53",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "现在，中国的范围被金色轮廓标出。新疆在中国西北。对照蒙古国、哈萨克斯坦等周边国家，我们就能理解它在大陆上的位置。下一步，把视线转回新疆。",
+          "pronounce_text": "现在，中国的范围被金色轮廓标出。新疆在中国西北。对照蒙古国、哈萨克斯坦等周边国家，我们就能理解它在大陆上的位置。下一步，把视线转回新疆。",
+          "time_begin": 0,
+          "time_end": 14133.832199546485,
+          "text_begin": 0,
+          "text_end": 68,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 68,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "opening-landforms",
+      "event": "opening",
+      "beat": "landforms",
+      "file": "opening-landforms.mp3",
+      "text": "镜头继续靠近，新疆的范围重新亮起。先看横贯中部的天山，再对照北侧的准噶尔盆地和南侧的塔里木盆地。下面，我们留在这片地表，读清故事发生的环境。",
+      "duration": 13.968,
+      "sha256": "923d55254d9a478923c5c00e04389b0c7e4f40c215296f4351c0d8aa617febd4",
+      "bytes": 225204,
+      "requestHash": "a35cdf531adf04c4405a9e1ebe8445a92dac09630d453b8dad69735c2a82ed8c",
+      "sourceSHA256": "cca6f1d3f99b0febb59377e3a142c56706d111b0db44f2c96cfa4d796b08323a",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "镜头继续靠近，新疆的范围重新亮起。先看横贯中部的天山，再对照北侧的准噶尔盆地和南侧的塔里木盆地。下面，我们留在这片地表，读清故事发生的环境。",
+          "pronounce_text": "镜头继续靠近，新疆的范围重新亮起。先看横贯中部的天山，再对照北侧的准噶尔盆地和南侧的塔里木盆地。下面，我们留在这片地表，读清故事发生的环境。",
+          "time_begin": 0,
+          "time_end": 13797.142857142857,
+          "text_begin": 0,
+          "text_end": 70,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 70,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "zhang-regional",
+      "event": "zhang",
+      "beat": "regional",
+      "file": "zhang-regional.mp3",
+      "text": "天山在北，塔里木盆地在南，昆仑山在更南侧。先建立山地与盆地的相对位置。",
+      "duration": 7.02,
+      "sha256": "4b5ed101e404d8ef5e645a76fcc79da92a9937faa88a4cab15d7ca16bccfba14",
+      "bytes": 114036,
+      "requestHash": "48c2627741935e645d1f30de7450ee5cbd45628ddb8cbfe328304541801c758c",
+      "sourceSHA256": "21bddf78f810f6e82f7c9579d019a8c35173449b9840f871ab7f4cdc05dfef36",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "天山在北，塔里木盆地在南，昆仑山在更南侧。先建立山地与盆地的相对位置。",
+          "pronounce_text": "天山在北，塔里木盆地在南，昆仑山在更南侧。先建立山地与盆地的相对位置。",
+          "time_begin": 0,
+          "time_end": 6865.986394557823,
+          "text_begin": 0,
+          "text_end": 35,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 35,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "zhang-region-places",
+      "event": "zhang",
+      "beat": "region-places",
+      "file": "zhang-region-places.mp3",
+      "text": "突出塔里木盆地，对照东侧的吐鲁番与西缘的喀什。地点的位置还没有变成历史路线。",
+      "duration": 7.056,
+      "sha256": "0e31deb6ae1845ebcc22eeb32c7be81019b4761da5f205006537a741fccebc51",
+      "bytes": 114612,
+      "requestHash": "4e930d1dc7c50a3b1a0aca81e623cc52b8e25948eb92cc6eb6695a4ab47b4c28",
+      "sourceSHA256": "189e618c1a9fef78f2f3b7184f53b6e8bc7376887079489eb31ca98dcb4871cb",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "突出塔里木盆地，对照东侧的吐鲁番与西缘的喀什。地点的位置还没有变成历史路线。",
+          "pronounce_text": "突出塔里木盆地，对照东侧的吐鲁番与西缘的喀什。地点的位置还没有变成历史路线。",
+          "time_begin": 0,
+          "time_end": 6912.426303854875,
+          "text_begin": 0,
+          "text_end": 38,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 38,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "zhang-region-question",
+      "event": "zhang",
+      "beat": "region-question",
+      "file": "zhang-region-question.mp3",
+      "text": "这些地点处在怎样的往来环境里？接下来从张骞出使的外交目的开始，再分开理解后续往来与长期交流。",
+      "duration": 9,
+      "sha256": "07a5036b29fea295232eb0af719d44c8d52a011cd9f2f31a69fcc03d33988ed3",
+      "bytes": 145716,
+      "requestHash": "5436a52d5a264b179f6430de37212be8452d59a4e7f32efd75ad18766df5f5e0",
+      "sourceSHA256": "aac86cea2163b6ce5905532cc96003409009f7abf0cda3e9bd4d8cc1b8e62776",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "这些地点处在怎样的往来环境里？接下来从张骞出使的外交目的开始，再分开理解后续往来与长期交流。",
+          "pronounce_text": "这些地点处在怎样的往来环境里？接下来从ㄓㄤˉㄑㄧㄢˉ出使的外交目的开始，再分开理解后续往来与长期交流。",
+          "time_begin": 0,
+          "time_end": 8839.68253968254,
+          "text_begin": 0,
+          "text_end": 46,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 51,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "zhang-place",
+      "event": "zhang",
+      "beat": "place",
+      "file": "zhang-place.mp3",
+      "text": "地图上的联系，已经来到盆地西缘的喀什。现在保留当前位置的地理参照，沿同一个地点靠近集市。这里用原创情境观察长期交流：通道把人带来，停留让交换发生，货物最终要被具体的人接收和使用。接下来，先看织物怎样走进一个家庭。",
+      "duration": 20.412,
+      "sha256": "4579dfb716418d7fe47e8e929535e168f83c44db164e2e2b78e3ee1cc39c602a",
+      "bytes": 328308,
+      "requestHash": "a71bbabb318613533f72a9f7b5a297f906b813da4c9af26a1e375a25a00d2eb0",
+      "sourceSHA256": "2943c7261d406729333b89f14e12ff851564d165e4e9eeccf81bbb9b5141deb7",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "地图上的联系，已经来到盆地西缘的喀什。现在保留当前位置的地理参照，沿同一个地点靠近集市。",
+          "pronounce_text": "地图上的联系，已经来到盆地西缘的喀什。现在保留当前位置的地理参照，沿同一个地点靠近集市。",
+          "time_begin": 0,
+          "time_end": 7980.544217687076,
+          "text_begin": 0,
+          "text_end": 44,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 44
+        },
+        {
+          "text": "这里用原创情境观察长期交流：通道把人带来，停留让交换发生，货物最终要被具体的人接收和使用。",
+          "pronounce_text": "这里用原创情境观察长期交流：通道把人带来，停留让交换发生，货物最终要被具体的人接收和使用。",
+          "time_begin": 8180.544217687076,
+          "time_end": 17391.74603174603,
+          "text_begin": 44,
+          "text_end": 89,
+          "pronounce_text_begin": 44,
+          "pronounce_text_end": 89
+        },
+        {
+          "text": "接下来，先看织物怎样走进一个家庭。",
+          "pronounce_text": "接下来，先看织物怎样走进一个家庭。",
+          "time_begin": 17532,
+          "time_end": 20218.39455782313,
+          "text_begin": 89,
+          "text_end": 106,
+          "pronounce_text_begin": 89,
+          "pronounce_text_end": 106
+        }
+      ]
+    },
+    {
+      "id": "zhang-cloth",
+      "event": "zhang",
+      "beat": "cloth",
+      "file": "zhang-cloth.mp3",
+      "text": "先看家庭需要的织物。搬运者拿起货物，走向接收者；请留意他们的手和交接的物品。交接以后，孩子披上织物，家人作出回应。画面里的需要、交接和使用，连起了地图上的交流与日常生活。观察记录会在回应完成后点亮。",
+      "duration": 20.016,
+      "sha256": "092ae016a4725fa7c3bb1f34fb3f894e20ebd911620bb35541d71a452e238336",
+      "bytes": 321972,
+      "requestHash": "a2131d09c72cc5561f1fe94d6d911814b80bd8ac49ded51e67914b9609d0c018",
+      "sourceSHA256": "f4e649958460207f3993ec800cad571a118d6e11050bb3b330cc49a39f4ac2fe",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "先看家庭需要的织物。搬运者拿起货物，走向接收者；请留意他们的手和交接的物品。交接以后，孩子披上织物，家人作出回应。",
+          "pronounce_text": "先看家庭需要的织物。搬运者拿起货物，走向接收者;请留意他们的手和交接的物品。交接以后，孩子披上织物，家人作出回应。",
+          "time_begin": 0,
+          "time_end": 12566.485260770974,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 57
+        },
+        {
+          "text": "画面里的需要、交接和使用，连起了地图上的交流与日常生活。",
+          "pronounce_text": "画面里的需要、交接和使用，连起了地图上的交流与日常生活。",
+          "time_begin": 12766.485260770974,
+          "time_end": 17496.2358276644,
+          "text_begin": 57,
+          "text_end": 85,
+          "pronounce_text_begin": 57,
+          "pronounce_text_end": 85
+        },
+        {
+          "text": "观察记录会在回应完成后点亮。",
+          "pronounce_text": "观察记录会在回应完成后点亮。",
+          "time_begin": 17640,
+          "time_end": 19827.16553287982,
+          "text_begin": 85,
+          "text_end": 99,
+          "pronounce_text_begin": 85,
+          "pronounce_text_end": 99
+        }
+      ]
+    },
+    {
+      "id": "zhang-supplies",
+      "event": "zhang",
+      "beat": "supplies",
+      "file": "zhang-supplies.mp3",
+      "text": "留在同一个集市，换看远行者需要的补给。货物交到手中以后，他补充食物和水，整理行装，再准备出发。一次停留支持下一段远行，所以地图上的联系需要这样的补给节点。看清接收与出发，便能理解集市与通道怎样相接。",
+      "duration": 19.62,
+      "sha256": "6a6a7e98b5751d7f11f733cdd30f7751f9171a0434de7367769ffb0e38636306",
+      "bytes": 315636,
+      "requestHash": "936a3a311963e6e588866685d953aac7f4e313a0394bbeec0224e89690ad676c",
+      "sourceSHA256": "1dce750247d3de6659e2f7e0a0f24f53847c0ca6d8a0a659a087f52e89e14e0c",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "留在同一个集市，换看远行者需要的补给。货物交到手中以后，他补充食物和水，整理行装，再准备出发。一次停留支持下一段远行，所以地图上的联系需要这样的补给节点。",
+          "pronounce_text": "留在同一个集市，换看远行者需要的补给。货物交到手中以后，他补充食物和水，整理行装，再准备出发。一次停留支持下一段远行，所以地图上的联系需要这样的补给节点。",
+          "time_begin": 0,
+          "time_end": 15724.399092970521,
+          "text_begin": 0,
+          "text_end": 77,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 77
+        },
+        {
+          "text": "看清接收与出发，便能理解集市与通道怎样相接。",
+          "pronounce_text": "看清接收与出发，便能理解集市与通道怎样相接。",
+          "time_begin": 15876,
+          "time_end": 19421.532879818595,
+          "text_begin": 77,
+          "text_end": 99,
+          "pronounce_text_begin": 77,
+          "pronounce_text_end": 99
+        }
+      ]
+    },
+    {
+      "id": "zhang-craft",
+      "event": "zhang",
+      "beat": "craft",
+      "file": "zhang-craft.mp3",
+      "text": "再看手艺人需要的器物。跟随货物来到工作台，观察接手以后继续制作的动作。交换不仅满足眼前的生活，也连接地方生产。织物、补给和器物，都从同一处集市交给不同的人；用途不同，人物的回应也不同。",
+      "duration": 19.728,
+      "sha256": "ee6ed36a7c1277ab306c6e36520fc703376c36cdf97a9e012e6f4021328704f1",
+      "bytes": 317364,
+      "requestHash": "d47bf19ebf67ea75cca83b705eaee1dfe1788e584d9c719bfc7925a871e934a0",
+      "sourceSHA256": "dc5821d4441255d803d7c92ef37bbf4106acc85bd79bc8b368041cfb04a268d0",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "再看手艺人需要的器物。跟随货物来到工作台，观察接手以后继续制作的动作。交换不仅满足眼前的生活，也连接地方生产。",
+          "pronounce_text": "再看手艺人需要的器物。跟随货物来到工作台，观察接手以后继续制作的动作。交换不仅满足眼前的生活，也连接地方生产。",
+          "time_begin": 0,
+          "time_end": 11417.097505668933,
+          "text_begin": 0,
+          "text_end": 55,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 55
+        },
+        {
+          "text": "织物、补给和器物，都从同一处集市交给不同的人；用途不同，人物的回应也不同。",
+          "pronounce_text": "织物、补给和器物，都从同一处集市交给不同的人;用途不同，人物的回应也不同。",
+          "time_begin": 11556,
+          "time_end": 19536.544217687075,
+          "text_begin": 55,
+          "text_end": 92,
+          "pronounce_text_begin": 55,
+          "pronounce_text_end": 92
+        }
+      ]
+    },
+    {
+      "id": "zhang-return",
+      "event": "zhang",
+      "beat": "return",
+      "file": "zhang-return.mp3",
+      "text": "现在把三种观察带回喀什的位置。家庭使用织物，远行者得到补给，手艺人继续制作；它们解释停留与交换怎样让地域联系延续。再看盆地边缘的网络，地图上的点就有了具体的生活含义。你可以接管，换一种货物继续观察，也可以返回历史背景。",
+      "duration": 23.148,
+      "sha256": "b1ab89d6d593fb5da2d81a635451c3505a818d619225c904be652f55612d401d",
+      "bytes": 372084,
+      "requestHash": "c0fac653755304edd70103fa0e5958c677d17db06c23791fa5dfc1bbe1e699b7",
+      "sourceSHA256": "ab645150d860b24c48d272a2c817fe3114b151852efd99ebdf246265a25f6977",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "现在把三种观察带回喀什的位置。家庭使用织物，远行者得到补给，手艺人继续制作；它们解释停留与交换怎样让地域联系延续。",
+          "pronounce_text": "现在把三种观察带回喀什的位置。家庭使用织物，远行者得到补给，手艺人继续制作;它们解释停留与交换怎样让地域联系延续。",
+          "time_begin": 0,
+          "time_end": 12938.004535147393,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 57
+        },
+        {
+          "text": "再看盆地边缘的网络，地图上的点就有了具体的生活含义。",
+          "pronounce_text": "再看盆地边缘的网络，地图上的点就有了具体的生活含义。",
+          "time_begin": 13138.004535147393,
+          "time_end": 17542.67573696145,
+          "text_begin": 57,
+          "text_end": 83,
+          "pronounce_text_begin": 57,
+          "pronounce_text_end": 83
+        },
+        {
+          "text": "你可以接管，换一种货物继续观察，也可以返回历史背景。",
+          "pronounce_text": "你可以接管，换一种货物继续观察，也可以返回历史背景。",
+          "time_begin": 17712,
+          "time_end": 22975.809523809523,
+          "text_begin": 83,
+          "text_end": 109,
+          "pronounce_text_begin": 83,
+          "pronounce_text_end": 109
+        }
+      ]
+    },
+    {
+      "id": "protectorate-regional",
+      "event": "protectorate",
+      "beat": "regional",
+      "file": "protectorate-regional.mp3",
+      "text": "天山与塔里木盆地同时保留，先看机构故事发生的地理背景。此时还没有出现机构或联络线。",
+      "duration": 7.632,
+      "sha256": "1528e2f8b303cfbcc1918b208caa4991522b8b628420d22fad12275c28234110",
+      "bytes": 123828,
+      "requestHash": "e52b9469a1b79688a9975edc678cecd16b92a7a2452261ff813ac9951dc6395b",
+      "sourceSHA256": "251f1ece169123069f997470d00139c413000bc7467655c5a5359ed23a6961e0",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "天山与塔里木盆地同时保留，先看机构故事发生的地理背景。此时还没有出现机构或联络线。",
+          "pronounce_text": "天山与塔里木盆地同时保留，先看机构故事发生的地理背景。此时还没有出现机构或联络线。",
+          "time_begin": 0,
+          "time_end": 7481.315192743764,
+          "text_begin": 0,
+          "text_end": 41,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 41,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-region-places",
+      "event": "protectorate",
+      "beat": "region-places",
+      "file": "protectorate-region-places.mp3",
+      "text": "突出塔里木盆地，找到轮台地区参照。现代轮台帮助定位，不等于乌垒遗址的准确坐标。",
+      "duration": 7.92,
+      "sha256": "dce0765d42459ced2084fdb6cd64d9c86930b0985a1f2c3386e29c0d56169014",
+      "bytes": 128436,
+      "requestHash": "d3553c2cf6ef7499576f5f2b6a90049dc493a6f4313e06c55920393eb6b8baf0",
+      "sourceSHA256": "621372c4abfce6a840261fbf77ce6651b650bcada9b84853f26d3736473529f6",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "突出塔里木盆地，找到轮台地区参照。现代轮台帮助定位，不等于乌垒遗址的准确坐标。",
+          "pronounce_text": "突出塔里木盆地，找到轮台地区参照。现代轮台帮助定位，不等于ㄨˉㄌㄟˇ遗址的准确坐标。",
+          "time_begin": 0,
+          "time_end": 7771.56462585034,
+          "text_begin": 0,
+          "text_end": 39,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 42,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-region-question",
+      "event": "protectorate",
+      "beat": "region-question",
+      "file": "protectorate-region-question.mp3",
+      "text": "先认清轮台与周边地方。接下来观察设立之前、机构出现和联系展开，建筑与路线将随历史阶段变化。",
+      "duration": 9.108,
+      "sha256": "b4dbbc7f4324feb7b9e6ef6abf999e7369240ca7597c3d3c704e7f2c5442d4dc",
+      "bytes": 147444,
+      "requestHash": "a54a3262e9cc1ef113d056e7a2afa31ef8a965887472d1dac0db6b101ebc3a54",
+      "sourceSHA256": "6342c89bfbcc801d435b21c7509d0748cdbfca9bce24a25ad8fbab5a402c23b1",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "先认清轮台与周边地方。接下来观察设立之前、机构出现和联系展开，建筑与路线将随历史阶段变化。",
+          "pronounce_text": "先认清轮台与周边地方。接下来观察设立之前、机构出现和联系展开，建筑与路线将随历史阶段变化。",
+          "time_begin": 0,
+          "time_end": 8955.78231292517,
+          "text_begin": 0,
+          "text_end": 45,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 45,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-place",
+      "event": "protectorate",
+      "beat": "place",
+      "file": "protectorate-place.mp3",
+      "text": "从天山南侧的地方联系，靠近轮台地区。地图参照继续保留地域位置，下一层用抽象结构观察入口、通道与内部。这里不复原乌垒城的建筑布局。带着机构与地方怎样相接的问题，我们先找到模型的城门。",
+      "duration": 15.768,
+      "sha256": "8973592f25c8ba30b2a39d1814d566969d6bec19fbee2e5dd80dc899e384a5f2",
+      "bytes": 254004,
+      "requestHash": "e9b16e01fe1c1176ed6249195c46931f9b8bbb8a01b1a4d5f79cb6ebd3926ee7",
+      "sourceSHA256": "bbed5cfd1ad8f748c4eb75d416c9b5a222a5c3bb1f08a657e15218c9ee9d7c66",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "从天山南侧的地方联系，靠近轮台地区。地图参照继续保留地域位置，下一层用抽象结构观察入口、通道与内部。这里不复原乌垒城的建筑布局。带着机构与地方怎样相接的问题，我们先找到模型的城门。",
+          "pronounce_text": "从天山南侧的地方联系，靠近轮台地区。地图参照继续保留地域位置，下一层用抽象结构观察入口、通道与内部。这里不复原ㄨˉㄌㄟˇ城的建筑布局。带着机构与地方怎样相接的问题，我们先找到模型的城门。",
+          "time_begin": 0,
+          "time_end": 15608.29931972789,
+          "text_begin": 0,
+          "text_end": 90,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 93,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-gate",
+      "event": "protectorate",
+      "beat": "gate",
+      "file": "protectorate-gate.mp3",
+      "text": "金色高亮的是城门。先对照外侧空地、围墙与入口，找到外部进入内部的位置。现在屋盖还在原位，部分通道被遮住。下一步展开屋盖，让入口后面的空间组织显现出来。",
+      "duration": 14.94,
+      "sha256": "6cf57937aa6655008633e73bfdfad5a321616fad70f5a021b99a1ee019c16801",
+      "bytes": 240756,
+      "requestHash": "5694470f6ae98b83126db49f8906dcdfbd102d7f497306424ba79be321bd50b4",
+      "sourceSHA256": "6e13f1d57bf1bd88b16b31fe08845c6809d3a24556c6393964171334801a75c8",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "金色高亮的是城门。先对照外侧空地、围墙与入口，找到外部进入内部的位置。现在屋盖还在原位，部分通道被遮住。下一步展开屋盖，让入口后面的空间组织显现出来。",
+          "pronounce_text": "金色高亮的是城门。先对照外侧空地、围墙与入口，找到外部进入内部的位置。现在屋盖还在原位，部分通道被遮住。下一步展开屋盖，让入口后面的空间组织显现出来。",
+          "time_begin": 0,
+          "time_end": 14783.990929705215,
+          "text_begin": 0,
+          "text_end": 75,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 75,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-inside",
+      "event": "protectorate",
+      "beat": "inside",
+      "file": "protectorate-inside.mp3",
+      "text": "屋盖逐步抬起，房屋继续留在原位。现在沿金色通道向内看，比较入口、中央通道与两侧空间。联系没有停在城门，还在内部延续。接下来让往来标记真的通过这条通道，观察完整的进出。",
+      "duration": 17.28,
+      "sha256": "686ffa03eb31ed23dc3d4aa06d55f812fa942617b9b3c439e2aedc0ad46c63c5",
+      "bytes": 278196,
+      "requestHash": "a3fe7823633f17fd84c1ba603efb5ec1054dafa6fb2f8fd9b6d321207685ff36",
+      "sourceSHA256": "c98da167488272496f3c1672ff1a888b796a838904282f51cdb935d2bdc3b06b",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "屋盖逐步抬起，房屋继续留在原位。现在沿金色通道向内看，比较入口、中央通道与两侧空间。联系没有停在城门，还在内部延续。",
+          "pronounce_text": "屋盖逐步抬起，房屋继续留在原位。现在沿金色通道向内看，比较入口、中央通道与两侧空间。联系没有停在城门，还在内部延续。",
+          "time_begin": 0,
+          "time_end": 12938.004535147393,
+          "text_begin": 0,
+          "text_end": 58,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 58,
+          "is_final_segment": true
+        },
+        {
+          "text": "接下来让往来标记真的通过这条通道，观察完整的进出。",
+          "pronounce_text": "接下来让往来标记真的通过这条通道，观察完整的进出。",
+          "time_begin": 13138.004535147393,
+          "time_end": 17136.326530612245,
+          "text_begin": 58,
+          "text_end": 83,
+          "pronounce_text_begin": 58,
+          "pronounce_text_end": 83,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "protectorate-connection",
+      "event": "protectorate",
+      "beat": "connection",
+      "file": "protectorate-connection.mp3",
+      "text": "跟随金色标记，从外侧通过城门，沿通道进入内部。到达以后，再看青色标记沿原来的空间返回。入口、通道和内部一起支撑这段往来。它是空间组织的观察示范，理解历史机构的职能，还要结合资料与地方关系。",
+      "duration": 19.836,
+      "sha256": "0e251c1608399fdd08fb02480cd2dde3f9fc92baea98181b4cbb498692c77f41",
+      "bytes": 319092,
+      "requestHash": "f5b00ddd0c660ddaa60c89a7a82690b12624dffa23c230b4497385ec493b5c57",
+      "sourceSHA256": "e0803deec5e4c1a66844f9e4ca33147122b9d59aa7d515bd5fedde34405da3ae",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "跟随金色标记，从外侧通过城门，沿通道进入内部。到达以后，再看青色标记沿原来的空间返回。入口、通道和内部一起支撑这段往来。",
+          "pronounce_text": "跟随金色标记，从外侧通过城门，沿通道进入内部。到达以后，再看青色标记沿原来的空间返回。入口、通道和内部一起支撑这段往来。",
+          "time_begin": 0,
+          "time_end": 13309.52380952381,
+          "text_begin": 0,
+          "text_end": 60,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 60
+        },
+        {
+          "text": "它是空间组织的观察示范，理解历史机构的职能，还要结合资料与地方关系。",
+          "pronounce_text": "它是空间组织的观察示范，理解历史机构的职能，还要结合资料与地方关系。",
+          "time_begin": 13464,
+          "time_end": 19633.38775510204,
+          "text_begin": 60,
+          "text_end": 94,
+          "pronounce_text_begin": 60,
+          "pronounce_text_end": 94
+        }
+      ]
+    },
+    {
+      "id": "protectorate-return",
+      "event": "protectorate",
+      "beat": "return",
+      "file": "protectorate-return.mp3",
+      "text": "回到天山南侧的共同地图。保留周边地方，再看机构与它们的联系。刚才的入口、通道和内部，帮助我们把联系变成可观察的问题；模型不能独自证明真实古城的形制。现在你可以接管地图，重新展开结构，或比较另外两条历史路径。",
+      "duration": 18.828,
+      "sha256": "5489caa5fdd9bd43c69c8d612f273e9eaa2fbc7a5c7c5c56187cd904fd0c38fe",
+      "bytes": 302964,
+      "requestHash": "5dfc0d4694cf927f0b8c031c2d98de311b9e451d9f77dd8264ce55029348bcb0",
+      "sourceSHA256": "046dbd256dd011f2a09137918cbc59392b06a821a08d31a6f4eb2deb68843814",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "回到天山南侧的共同地图。保留周边地方，再看机构与它们的联系。刚才的入口、通道和内部，帮助我们把联系变成可观察的问题；模型不能独自证明真实古城的形制。",
+          "pronounce_text": "回到天山南侧的共同地图。保留周边地方，再看机构与它们的联系。刚才的入口、通道和内部，帮助我们把联系变成可观察的问题;模型不能独自证明真实古城的形制。",
+          "time_begin": 0,
+          "time_end": 13437.233560090703,
+          "text_begin": 0,
+          "text_end": 74,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 74
+        },
+        {
+          "text": "现在你可以接管地图，重新展开结构，或比较另外两条历史路径。",
+          "pronounce_text": "现在你可以接管地图，重新展开结构，或比较另外两条历史路径。",
+          "time_begin": 13608,
+          "time_end": 18628,
+          "text_begin": 74,
+          "text_end": 103,
+          "pronounce_text_begin": 74,
+          "pronounce_text_end": 103
+        }
+      ]
+    },
+    {
+      "id": "xibe-regional",
+      "event": "xibe",
+      "beat": "regional",
+      "file": "xibe-regional.mp3",
+      "text": "先在新疆整体范围中找到天山，再把目光移向西部的伊犁河谷。此时未展开西迁路线或安置模型。",
+      "duration": 9.396,
+      "sha256": "91cd77ce5377e7942f10230975e786a434ea780d25c1f5a5ba2de7ee20dc9235",
+      "bytes": 152052,
+      "requestHash": "f7ac57add223e2448b549f99626d3b041f4b6ddfdd10de7a755c965137fec601",
+      "sourceSHA256": "ac8709e2be09538093f3265bb90617206039f6d04be4fcddad5de0e77d578938",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "先在新疆整体范围中找到天山，再把目光移向西部的伊犁河谷。此时未展开西迁路线或安置模型。",
+          "pronounce_text": "先在新疆整体范围中找到天山，再把目光移向西部的伊犁河谷。此时未展开西迁路线或安置模型。",
+          "time_begin": 0,
+          "time_end": 9246.031746031747,
+          "text_begin": 0,
+          "text_end": 43,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 43,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "xibe-region-places",
+      "event": "xibe",
+      "beat": "region-places",
+      "file": "xibe-region-places.mp3",
+      "text": "突出伊犁河谷，同时对照伊犁与察布查尔的位置。地理位置与历史上的抵达、安置需要分别理解。",
+      "duration": 8.676,
+      "sha256": "967ce65f35fc54aa5fa3cf55bdecfe84aaf86d8f135bc5e49ab49b8375d0c37e",
+      "bytes": 140532,
+      "requestHash": "0bcc45c68a0be93696c454b98a5af4112c782f7b367f594cc70e076712fbbca4",
+      "sourceSHA256": "72e5a2fb5e33e3030d9b132ee018fc0f0cea7a7722b339d292f00b3a0e14c401",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7,
+        "outputCorrectionDB": 1,
+        "peakLimiterDB": -1.5
+      },
+      "subtitles": [
+        {
+          "text": "突出伊犁河谷，同时对照伊犁与察布查尔的位置。地理位置与历史上的抵达、安置需要分别理解。",
+          "pronounce_text": "突出伊犁河谷，同时对照伊犁与ㄔㄚˊㄅㄨˋㄔㄚˊㄦˇ的位置。地理位置与历史上的抵达、安置需要分别理解。",
+          "time_begin": 0,
+          "time_end": 8514.603174603175,
+          "text_begin": 0,
+          "text_end": 43,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 50,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "xibe-region-question",
+      "event": "xibe",
+      "beat": "region-question",
+      "file": "xibe-region-question.mp3",
+      "text": "河谷提供观察生活条件的背景。接下来从1764年调遣开始，分开看1765年抵达、1766年安置和后续建设。",
+      "duration": 10.62,
+      "sha256": "8df8f92c941e8caf4eb0979546f6f60c994c157b7bbb1eb1934330b917797a67",
+      "bytes": 171636,
+      "requestHash": "b9c32f9e172d561b71b1903aba15fb38fb6ea4c6e4a79a64c64e9b7fe2ac9799",
+      "sourceSHA256": "ecdda86bc1d430f0f4c91ea550c67573a95ccc88b73c8aa098425dfb85ebb53a",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "河谷提供观察生活条件的背景。接下来从1764年调遣开始，分开看1765年抵达、1766年安置和后续建设。",
+          "pronounce_text": "河谷提供观察生活条件的背景。接下来从一七六四年调遣开始，分开看一七六五年抵达、一七六六年安置和后续建设。",
+          "time_begin": 0,
+          "time_end": 10476.689342403628,
+          "text_begin": 0,
+          "text_end": 52,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 52,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "xibe-place",
+      "event": "xibe",
+      "beat": "place",
+      "file": "xibe-place.mp3",
+      "text": "从伊犁河谷靠近察布查尔。防务安排带来迁移，河谷水源帮助理解安置后的生产条件。下一层跟随住处、支流与田地，依次观察一七六六年的初期屯居、十九世纪初的新渠建设和一八〇八年初放水。这里用匿名居民的动作解释关系，具体院落与渠线不作复原。",
+      "duration": 22.608,
+      "sha256": "0cd21f3bce8147e5869b161b8f2ba3ea666a91b217a7e3328be8c55a241ad526",
+      "bytes": 363444,
+      "requestHash": "b8052b5f598b6c6b14efc2ca4e5175b6f3c66308c139fb7d2bc8bd5686132cad",
+      "sourceSHA256": "1ff63680726c719c169dc0e7bfdf9bce886af9554a631d994cfb6b6dfe8180ce",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "从伊犁河谷靠近察布查尔。防务安排带来迁移，河谷水源帮助理解安置后的生产条件。",
+          "pronounce_text": "从伊犁河谷靠近察布查尔。防务安排带来迁移，河谷水源帮助理解安置后的生产条件。",
+          "time_begin": 0,
+          "time_end": 8074.671816626705,
+          "text_begin": 0,
+          "text_end": 38,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 38
+        },
+        {
+          "text": "下一层跟随住处、支流与田地，依次观察一七六六年的初期屯居、十九世纪初的新渠建设和一八〇八年初放水。",
+          "pronounce_text": "下一层跟随住处、支流与田地，依次观察一七六六年的初期屯居、十九世纪初的新渠建设和一八〇八年初放水。",
+          "time_begin": 8274.99079589305,
+          "time_end": 18117.193705765134,
+          "text_begin": 38,
+          "text_end": 87,
+          "pronounce_text_begin": 38,
+          "pronounce_text_end": 87
+        },
+        {
+          "text": "这里用匿名居民的动作解释关系，具体院落与渠线不作复原。",
+          "pronounce_text": "这里用匿名居民的动作解释关系，具体院落与渠线不作复原。",
+          "time_begin": 18281.11004784689,
+          "time_end": 22448.607868878546,
+          "text_begin": 87,
+          "text_end": 114,
+          "pronounce_text_begin": 87,
+          "pronounce_text_end": 114
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length"
+    },
+    {
+      "id": "xibe-home",
+      "event": "xibe",
+      "beat": "home",
+      "file": "xibe-home.mp3",
+      "text": "先看一七六六年春以后的屯居。右侧住处旁，支流水源与初期田地已经存在。接着跟随居民离开庭院，沿金色短线走向渠边和田地。他们利用绰霍尔河等支流水源开展灌溉与耕作。再看渠边检查与田垄劳作，住处、来水与生产就连在了一起。左侧后建大渠尚未出现。",
+      "duration": 23.76,
+      "sha256": "f63714c1c40e55dade69fb17b335d6801b3b2fc0cf5a74e035f6dcc8df392078",
+      "bytes": 381876,
+      "requestHash": "d2332af0c9c2f3fae69d803f431985cf0bfdc9477b27cf5edaabffcd5e24cadc",
+      "sourceSHA256": "e056f2a9fc600dc8f1c604e1254f3df4263a1c5a446fbc236c4261b06a78126d",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "先看一七六六年春以后的屯居。右侧住处旁，支流水源与初期田地已经存在。接着跟随居民离开庭院，沿金色短线走向渠边和田地。他们利用绰霍尔河等支流水源开展灌溉与耕作。",
+          "pronounce_text": "先看一七六六年春以后的屯居。右侧住处旁，支流水源与初期田地已经存在。接着跟随居民离开庭院，沿金色短线走向渠边和田地。他们利用绰霍尔河等支流水源开展灌溉与耕作。",
+          "time_begin": 0,
+          "time_end": 16085.460344987769,
+          "text_begin": 0,
+          "text_end": 79,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 79
+        },
+        {
+          "text": "再看渠边检查与田垄劳作，住处、来水与生产就连在了一起。左侧后建大渠尚未出现。",
+          "pronounce_text": "再看渠边检查与田垄劳作，住处、来水与生产就连在了一起。左侧后建大渠尚未出现。",
+          "time_begin": 16224.582701062216,
+          "time_end": 23600.97447173103,
+          "text_begin": 79,
+          "text_end": 117,
+          "pronounce_text_begin": 79,
+          "pronounce_text_end": 117
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length"
+    },
+    {
+      "id": "xibe-water",
+      "event": "xibe",
+      "beat": "water",
+      "file": "xibe-water.mp3",
+      "text": "现在跨到十九世纪初。人口增长，带来扩大耕作的需求。先看左侧等待接水的田区，再看图伯特组织开挖新大渠。干渠槽从水源方向延伸，劳动者沿渠握住工具作业。接着，主渠连到田边支渠，新的耕作空间仍是干地。这项工程历时六年，原有右侧灌溉始终保留。",
+      "duration": 25.884,
+      "sha256": "306a4f7d78403e4042b49912eb72b12bdba47742167fa44b26c503d39543635c",
+      "bytes": 415860,
+      "requestHash": "2fc586cb3a9e0bbd7733cd8b03e0a3db7aae97236797d09d66225b8e65cedf80",
+      "sourceSHA256": "70ae55ac6895c8999259dd66597f47fb3ffe26f8ee7de18ffe76d79736cfbcbf",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "现在跨到十九世纪初。人口增长，带来扩大耕作的需求。先看左侧等待接水的田区，再看图伯特组织开挖新大渠。干渠槽从水源方向延伸，劳动者沿渠握住工具作业。",
+          "pronounce_text": "现在跨到十九世纪初。人口增长，带来扩大耕作的需求。先看左侧等待接水的田区，再看图伯特组织开挖新大渠。干渠槽从水源方向延伸，劳动者沿渠握住工具作业。",
+          "time_begin": 0,
+          "time_end": 15839.308547931709,
+          "text_begin": 0,
+          "text_end": 73,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 73
+        },
+        {
+          "text": "接着，主渠连到田边支渠，新的耕作空间仍是干地。这项工程历时六年，原有右侧灌溉始终保留。",
+          "pronounce_text": "接着，主渠连到田边支渠，新的耕作空间仍是干地。这项工程历时六年，原有右侧灌溉始终保留。",
+          "time_begin": 16006.261838440114,
+          "time_end": 25718.59080716781,
+          "text_begin": 73,
+          "text_end": 116,
+          "pronounce_text_begin": 73,
+          "pronounce_text_end": 116
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length"
+    },
+    {
+      "id": "xibe-return",
+      "event": "xibe",
+      "beat": "return",
+      "file": "xibe-return.mp3",
+      "text": "回到察布查尔与伊犁河谷的共同地图。防务安排带来迁移，安置后利用支流开展初期耕作，后来人口与扩耕需求又推动新渠建设。水经主渠和支渠到田边，人物转向耕作，这就是刚才观察的联系。三个年代分别理解，不能合成同一家人的连续传记。现在可以接管，重看水系或返回历史背景。",
+      "duration": 26.172,
+      "sha256": "c3b17600926d6f711791139f6ca2bf081c8c8b117d995ca39cd8fbf29b645a16",
+      "bytes": 420468,
+      "requestHash": "c14417f489122b81c62e50be689c9672a0cb1c9df7ca2a97900cc2302ba0877c",
+      "sourceSHA256": "ab49583d7d47deed06978f14e477312092bc8c46b86a78339f41b6a0448a3421",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "回到察布查尔与伊犁河谷的共同地图。防务安排带来迁移，安置后利用支流开展初期耕作，后来人口与扩耕需求又推动新渠建设。",
+          "pronounce_text": "回到察布查尔与伊犁河谷的共同地图。防务安排带来迁移，安置后利用支流开展初期耕作，后来人口与扩耕需求又推动新渠建设。",
+          "time_begin": 0,
+          "time_end": 10619.005703291421,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 57
+        },
+        {
+          "text": "水经主渠和支渠到田边，人物转向耕作，这就是刚才观察的联系。",
+          "pronounce_text": "水经主渠和支渠到田边，人物转向耕作，这就是刚才观察的联系。",
+          "time_begin": 10819.281185385084,
+          "time_end": 17857.48842787804,
+          "text_begin": 57,
+          "text_end": 86,
+          "pronounce_text_begin": 57,
+          "pronounce_text_end": 86
+        },
+        {
+          "text": "三个年代分别理解，不能合成同一家人的连续传记。现在可以接管，重看水系或返回历史背景。",
+          "pronounce_text": "三个年代分别理解，不能合成同一家人的连续传记。现在可以接管，重看水系或返回历史背景。",
+          "time_begin": 18024.793388429753,
+          "time_end": 26016.330091265158,
+          "text_begin": 86,
+          "text_end": 128,
+          "pronounce_text_begin": 86,
+          "pronounce_text_end": 128
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length"
+    },
+    {
+      "id": "zhang-background",
+      "event": "zhang",
+      "beat": "background",
+      "file": "../history-story/zhang-background.mp3",
+      "text": "公元前一百三十八年，汉武帝派张骞前往西域，希望联合大月氏对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。接下来，我们看这项外交任务怎样走向更广泛的往来。",
+      "duration": 19.98,
+      "sha256": "f5aceda79752aad863e8d50381c2dda0bce31274cddfa9ee28d00f8abb9f320d",
+      "bytes": 321396,
+      "requestHash": "82f1009d22c5def2e16c8e1d1cb65b4521155b5ca9aa5694cf7527303daa53dd",
+      "sourceSHA256": "9c43c45bbc3699f44be995b64f87900fd0d4aa70f0f542fe03599f43ddb053ca",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "公元前一百三十八年，汉武帝派张骞前往西域，希望联合大月氏对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。",
+          "pronounce_text": "公元前一百三十八年，汉武帝派ㄓㄤˉㄑㄧㄢˉ前往西域，希望联合ㄉㄚˋㄩㄝˋㄓˉ对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。",
+          "time_begin": 0,
+          "time_end": 15608.29931972789,
+          "text_begin": 0,
+          "text_end": 78,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 88
+        },
+        {
+          "text": "接下来，我们看这项外交任务怎样走向更广泛的往来。",
+          "pronounce_text": "接下来，我们看这项外交任务怎样走向更广泛的往来。",
+          "time_begin": 15768,
+          "time_end": 19801.15192743764,
+          "text_begin": 78,
+          "text_end": 102,
+          "pronounce_text_begin": 88,
+          "pronounce_text_end": 112
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "zhang-process",
+      "event": "zhang",
+      "beat": "process",
+      "file": "../history-story/zhang-process.mp3",
+      "text": "张骞历经艰难抵达大月氏，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。它帮助我们理解地域关系，而不是复走某一次出使。",
+      "duration": 19.368,
+      "sha256": "03b88928fb16a68225c37c1892f641892feaf9d7b734a0105d7c5d2af2806236",
+      "bytes": 311604,
+      "requestHash": "dbb6e5005c3662ffbfa1e4d48f15ce21ce3f28492688953f4ec99cccd3f05fbe",
+      "sourceSHA256": "5bc4bbbaffe31a5fed84ecebca21776d7c112bd3aafca3266ce5811fe227f745",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "张骞历经艰难抵达大月氏，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。",
+          "pronounce_text": "ㄓㄤˉㄑㄧㄢˉ历经艰难抵达ㄉㄚˋㄩㄝˋㄓˉ，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。",
+          "time_begin": 0,
+          "time_end": 15480.589569160997,
+          "text_begin": 0,
+          "text_end": 83,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 93
+        },
+        {
+          "text": "它帮助我们理解地域关系，而不是复走某一次出使。",
+          "pronounce_text": "它帮助我们理解地域关系，而不是复走某一次出使。",
+          "time_begin": 15624,
+          "time_end": 19169.532879818595,
+          "text_begin": 83,
+          "text_end": 106,
+          "pronounce_text_begin": 93,
+          "pronounce_text_end": 116
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "zhang-impact",
+      "event": "zhang",
+      "beat": "impact",
+      "file": "../history-story/zhang-impact.mp3",
+      "text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+      "duration": 20.52,
+      "sha256": "1efb13b647dd9a077c770b5e3c41d3231a5969c076a3284f56a623a2999c0b80",
+      "bytes": 330036,
+      "requestHash": "a239543149038a4e5e533e803b0fdc8b8c956836fe0b4174d97a9f1660f672ff",
+      "sourceSHA256": "2eff1fe72c70de69b842d73048e80865b0f3143af604e821c26a94399d44fa5a",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。",
+          "pronounce_text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。",
+          "time_begin": 0,
+          "time_end": 10604.399092970523,
+          "text_begin": 0,
+          "text_end": 53,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 53
+        },
+        {
+          "text": "现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+          "pronounce_text": "现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+          "time_begin": 10764,
+          "time_end": 20335.11111111111,
+          "text_begin": 53,
+          "text_end": 106,
+          "pronounce_text_begin": 53,
+          "pronounce_text_end": 106
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "protectorate-background",
+      "event": "protectorate",
+      "beat": "background",
+      "file": "../history-story/protectorate-background.mp3",
+      "text": "把目光移到天山南侧、塔里木盆地北缘。在西域都护设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？先看清聚落，再观察下一幕的变化。",
+      "duration": 20.196,
+      "sha256": "c681e96b99d819f5acecc6820d72e97cb29fa4dc333c13a71473c7e12e6a4cb4",
+      "bytes": 324852,
+      "requestHash": "7ac7ccb593f4bb25c5ba808115727f502fbc73dea5a269601b670025026ceb5f",
+      "sourceSHA256": "b9882f6d3aa79cacc3e2f1ac64509cfa2b6cf6d3eb785e21aedb33f9f3c490a5",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "把目光移到天山南侧、塔里木盆地北缘。在西域都护设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。",
+          "pronounce_text": "把目光移到天山南侧、塔里木盆地北缘。在西域ㄉㄨˉㄏㄨˋ设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。",
+          "time_begin": 0,
+          "time_end": 10766.938775510205,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 61
+        },
+        {
+          "text": "我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？",
+          "pronounce_text": "我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？",
+          "time_begin": 10966.938775510205,
+          "time_end": 16729.97732426304,
+          "text_begin": 57,
+          "text_end": 88,
+          "pronounce_text_begin": 61,
+          "pronounce_text_end": 92
+        },
+        {
+          "text": "先看清聚落，再观察下一幕的变化。",
+          "pronounce_text": "先看清聚落，再观察下一幕的变化。",
+          "time_begin": 16884,
+          "time_end": 20023.183673469386,
+          "text_begin": 88,
+          "text_end": 104,
+          "pronounce_text_begin": 92,
+          "pronounce_text_end": 108
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "protectorate-process",
+      "event": "protectorate",
+      "beat": "process",
+      "file": "../history-story/protectorate-process.mp3",
+      "text": "公元前六十年，西汉设立西域都护，治所在乌垒。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。乌垒的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+      "duration": 20.916,
+      "sha256": "fa61d619f2f118504aac93ca426911aa42f42a5a54c26f4f2392d63d42062ec8",
+      "bytes": 336372,
+      "requestHash": "693e255469e53b07f04e8beb38ad0853bd640e4ff2e919378e23189537f61980",
+      "sourceSHA256": "354f8a10f94eba2a56ba58ac2cd5b7bbd9c6cefbe53273f8831a24669eb52f82",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "公元前六十年，西汉设立西域都护，治所在乌垒。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。",
+          "pronounce_text": "公元前六十年，西汉设立西域ㄉㄨˉㄏㄨˋ，治所在ㄨˉㄌㄟˇ。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。",
+          "time_begin": 0,
+          "time_end": 14296.371882086169,
+          "text_begin": 0,
+          "text_end": 71,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 78
+        },
+        {
+          "text": "乌垒的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+          "pronounce_text": "ㄨˉㄌㄟˇ的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+          "time_begin": 14436,
+          "time_end": 20733.097505668935,
+          "text_begin": 71,
+          "text_end": 103,
+          "pronounce_text_begin": 78,
+          "pronounce_text_end": 113
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "protectorate-impact",
+      "event": "protectorate",
+      "beat": "impact",
+      "file": "../history-story/protectorate-impact.mp3",
+      "text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+      "duration": 22.536,
+      "sha256": "1b24044f48a0c7808a69dc670d36ffbba2dd7d8a46181b577f7e75f12d12ab08",
+      "bytes": 362292,
+      "requestHash": "537af47f332be3b0e190b24c952eb90971f3f5dd98f90f17150ee694876ade6c",
+      "sourceSHA256": "e4bc8e1a445ddf7c363d945111854714130b5f332d8bc2a34d94deeaf0ef989b",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。",
+          "pronounce_text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。",
+          "time_begin": 0,
+          "time_end": 9373.741496598639,
+          "text_begin": 0,
+          "text_end": 48,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 48
+        },
+        {
+          "text": "下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。",
+          "pronounce_text": "下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。",
+          "time_begin": 9573.741496598639,
+          "time_end": 17345.30612244898,
+          "text_begin": 48,
+          "text_end": 84,
+          "pronounce_text_begin": 48,
+          "pronounce_text_end": 84
+        },
+        {
+          "text": "空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+          "pronounce_text": "空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+          "time_begin": 17496,
+          "time_end": 22353.460317460318,
+          "text_begin": 84,
+          "text_end": 109,
+          "pronounce_text_begin": 84,
+          "pronounce_text_end": 109
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "xibe-background",
+      "event": "xibe",
+      "beat": "background",
+      "file": "../history-story/xibe-background.mp3",
+      "text": "一七六四年，清政府为加强伊犁地区防务，调遣锡伯官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+      "duration": 22.536,
+      "sha256": "de08eeec649c016fa56a228e0048e14ae1cabc2ebbb33ec53e52acd2a6058e0e",
+      "bytes": 362292,
+      "requestHash": "bf8ee2780e8b20875721849db7613de287ecae3a61c11fbfb75a6962903711ff",
+      "sourceSHA256": "b87da90f24c3d28ad58b8e02586cbeb62fe793ac27c3889580f378e566821be0",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "一七六四年，清政府为加强伊犁地区防务，调遣锡伯官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。",
+          "pronounce_text": "一七六四年，清政府为加强伊犁地区防务，调遣ㄒㄧˉㄅㄛˊ官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。",
+          "time_begin": 0,
+          "time_end": 12775.464852607709,
+          "text_begin": 0,
+          "text_end": 61,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 65
+        },
+        {
+          "text": "对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+          "pronounce_text": "对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+          "time_begin": 12924,
+          "time_end": 22332.571428571428,
+          "text_begin": 61,
+          "text_end": 108,
+          "pronounce_text_begin": 65,
+          "pronounce_text_end": 112
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "xibe-process",
+      "event": "xibe",
+      "beat": "process",
+      "file": "../history-story/xibe-process.mp3",
+      "text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往察布查尔安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+      "duration": 20.448,
+      "sha256": "ef75b9211bd29823e6203dabd3d311eb44849b3e3c91f1fb1575ca501bb426e7",
+      "bytes": 328884,
+      "requestHash": "1cb2efe70d8cd478c624b368fc01c4d5a4fe8224cdcf0aba6c607dc540a6d945",
+      "sourceSHA256": "5820d88c87cce24800c1f9ea963ba9837117b918220eee042890462cf02542d3",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往察布查尔安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。",
+          "pronounce_text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往ㄔㄚˊㄅㄨˋㄔㄚˊㄦˇ安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。",
+          "time_begin": 0,
+          "time_end": 13309.52380952381,
+          "text_begin": 0,
+          "text_end": 70,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 77
+        },
+        {
+          "text": "地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+          "pronounce_text": "地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+          "time_begin": 13464,
+          "time_end": 20248.71655328798,
+          "text_begin": 70,
+          "text_end": 105,
+          "pronounce_text_begin": 77,
+          "pronounce_text_end": 112
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "xibe-impact",
+      "event": "xibe",
+      "beat": "impact",
+      "file": "../history-story/xibe-impact.mp3",
+      "text": "安置以后，住处、用水与生产成为延续生活的具体条件。察布查尔的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+      "duration": 19.224,
+      "sha256": "f01c619d1dc3f8f1673cd5836f844236b0c68ed2c8229a232f16d3e6f84e60e0",
+      "bytes": 309300,
+      "requestHash": "e82fb7add86fb445477ac78ae7f370589b801583570fbbb59c8dce6272c9b212",
+      "sourceSHA256": "af824b2f260381a863444f9f645db0e409e84bae5e69d606f9b80a9e7da7ef85",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "安置以后，住处、用水与生产成为延续生活的具体条件。察布查尔的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。",
+          "pronounce_text": "安置以后，住处、用水与生产成为延续生活的具体条件。ㄔㄚˊㄅㄨˋㄔㄚˊㄦˇ的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。",
+          "time_begin": 0,
+          "time_end": 14412.471655328798,
+          "text_begin": 0,
+          "text_end": 80,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 87
+        },
+        {
+          "text": "观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+          "pronounce_text": "观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+          "time_begin": 14580,
+          "time_end": 19031.11111111111,
+          "text_begin": 80,
+          "text_end": 109,
+          "pronounce_text_begin": 87,
+          "pronounce_text_end": 116
+        }
+      ],
+      "reused": true
+    },
+    {
+      "id": "zhang-mission-route",
+      "event": "zhang",
+      "beat": "mission-route",
+      "file": "zhang-mission-route.mp3",
+      "text": "先依据史书记载，认识第一次出使涉及的地域。张骞出陇西，途中被匈奴扣留十余年。拘留地点没有在图上定位。脱身后，他到达大宛，经康居到达大月氏，并到过大夏。最初希望的结盟目的没有达成，归途中又被扣留，后来才返回汉朝。画面逐一突出这些地域参照，不绘制未经考定的行走道路。沙丘、风沙和取水动作没有对应路段的依据，不纳入这段历史演示。接下来回到地图，区分外交结果和此后的长期往来。",
+      "duration": 38.412,
+      "sha256": "76143324c41c66949f85ea19beb8f2ae3ee61a5d70617b1cd679445610304a7d",
+      "bytes": 616308,
+      "requestHash": "c0392b7ea413d826f4a8e7a33d1185d5dfb0797352e46db1989cc691feb3d9ed",
+      "sourceSHA256": "3d3515ebbd6bfca51dbcda19023f7885e914fc6061adbc8c7fabed11827b3e4a",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "先依据史书记载，认识第一次出使涉及的地域。张骞出陇西，途中被匈奴扣留十余年。拘留地点没有在图上定位。脱身后，他到达大宛，经康居到达大月氏，并到过大夏。",
+          "pronounce_text": "先依据史书记载，认识第一次出使涉及的地域。张骞出陇西，途中被匈奴扣留十余年。拘留地点没有在图上定位。脱身后，他到达大宛，经康居到达大月氏，并到过大夏。",
+          "time_begin": 0,
+          "time_end": 16157.501201856603,
+          "text_begin": 0,
+          "text_end": 75,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 75
+        },
+        {
+          "text": "最初希望的结盟目的没有达成，归途中又被扣留，后来才返回汉朝。画面逐一突出这些地域参照，不绘制未经考定的行走道路。",
+          "pronounce_text": "最初希望的结盟目的没有达成，归途中又被扣留，后来才返回汉朝。画面逐一突出这些地域参照，不绘制未经考定的行走道路。",
+          "time_begin": 16323.298311444652,
+          "time_end": 27934.180112570357,
+          "text_begin": 75,
+          "text_end": 131,
+          "pronounce_text_begin": 75,
+          "pronounce_text_end": 131
+        },
+        {
+          "text": "沙丘、风沙和取水动作没有对应路段的依据，不纳入这段历史演示。",
+          "pronounce_text": "沙丘、风沙和取水动作没有对应路段的依据，不纳入这段历史演示。",
+          "time_begin": 28134.36772983115,
+          "time_end": 33612.290793991146,
+          "text_begin": 131,
+          "text_end": 161,
+          "pronounce_text_begin": 131,
+          "pronounce_text_end": 161
+        },
+        {
+          "text": "接下来回到地图，区分外交结果和此后的长期往来。",
+          "pronounce_text": "接下来回到地图，区分外交结果和此后的长期往来。",
+          "time_begin": 33763.643527204506,
+          "time_end": 38253.7927701412,
+          "text_begin": 161,
+          "text_end": 184,
+          "pronounce_text_begin": 161,
+          "pronounce_text_end": 184
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length",
+      "visualCues": [
+        {
+          "needle": "先依据",
+          "progress": 0.02,
+          "fraction": 0
+        },
+        {
+          "needle": "途中被匈奴",
+          "progress": 0.3,
+          "fraction": 0.15142925212611624
+        },
+        {
+          "needle": "他到达大宛",
+          "progress": 0.49,
+          "fraction": 0.3028585042522325
+        },
+        {
+          "needle": "经康居",
+          "progress": 0.6,
+          "fraction": 0.3365094491691472
+        },
+        {
+          "needle": "到达大月氏",
+          "progress": 0.72,
+          "fraction": 0.35333492162760455
+        },
+        {
+          "needle": "并到过大夏",
+          "progress": 0.84,
+          "fraction": 0.3869858665445193
+        },
+        {
+          "needle": "归途中又被扣留",
+          "progress": 0.96,
+          "fraction": 0.5005211590577444
+        }
+      ],
+      "visualCuePolicy": "Provider paragraph timings; within-paragraph phrase positions estimated by text length. Not word-level alignment."
+    },
+    {
+      "id": "zhang-desert",
+      "event": "zhang",
+      "beat": "desert",
+      "file": "zhang-desert.mp3",
+      "text": "现在从地域方向走近荒漠里的远行。使者与随从向前行走，驮载的行装随步伐摆动，身后留下足迹。风沙迎面时，他们放慢脚步，护住脸和行装。队伍停下，取出水囊，照应同行者，再继续出发。这是理解远行困难的原创情境，并不复原张骞某一天的行动。回到地图，我们再看任务的结果与后续往来。",
+      "duration": 27.828,
+      "sha256": "5d8309da6df9fc7cbe1131612d934636f5efe5236c75640b4fa774c3438439f5",
+      "bytes": 446964,
+      "requestHash": "9df504c143d8e0954897106bea8f425901f29107581ec93f1aca7b78af2f8c39",
+      "sourceSHA256": "429266762296c8c008127d4f9960812e0b42094544baa15612188a20ee399523",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "现在从地域方向走近荒漠里的远行。",
+          "time_begin": 0,
+          "time_end": 3347.7293233082705
+        },
+        {
+          "text": "使者与随从向前行走，驮载的行装随步伐摆动，身后留下足迹。",
+          "time_begin": 3347.7293233082705,
+          "time_end": 9206.255639097744
+        },
+        {
+          "text": "风沙迎面时，他们放慢脚步，护住脸和行装。",
+          "time_begin": 9206.255639097744,
+          "time_end": 13390.917293233082
+        },
+        {
+          "text": "队伍停下，取出水囊，照应同行者，再继续出发。",
+          "time_begin": 13390.917293233082,
+          "time_end": 17994.045112781954
+        },
+        {
+          "text": "这是理解远行困难的原创情境，并不复原张骞某一天的行动。",
+          "time_begin": 17994.045112781954,
+          "time_end": 23643.338345864664
+        },
+        {
+          "text": "回到地图，我们再看任务的结果与后续往来。",
+          "time_begin": 23643.338345864664,
+          "time_end": 27828
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length",
+      "archiveOnly": true,
+      "scope": "R80 original experiment narration; no historical director playback."
+    },
+    {
+      "id": "xibe-irrigation",
+      "event": "xibe",
+      "beat": "irrigation",
+      "file": "xibe-irrigation.mp3",
+      "text": "来到一八〇八年初，新大渠竣工放水。先沿青色水流看主渠来水，再跟随它进入田边支渠。水接到新增田区，耕作空间随后显现。接着看居民从查看渠口转向田间，劳动者在田垄旁继续作业。水利支持扩大耕种，生活与生产在画面里重新相接。田区变化是关系演示，不表示作物即时生长。",
+      "duration": 28.692,
+      "sha256": "b0a958c7adcc3f1082a0e779daf1cf5ae00eb28e6743766c1c343593bae49dc6",
+      "bytes": 460788,
+      "requestHash": "c3a43a3001389f48ec77a118c4d846c7b536f3142c30052295cfae1223258e58",
+      "sourceSHA256": "a47a4cc43719b962cb8ec06b5d1da42eaa4d13e7c48ac610fe6269fc70ac340d",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "subtitles": [
+        {
+          "text": "来到一八〇八年初，新大渠竣工放水。先沿青色水流看主渠来水，再跟随它进入田边支渠。水接到新增田区，耕作空间随后显现。",
+          "pronounce_text": "来到一八〇八年初，新大渠竣工放水。先沿青色水流看主渠来水，再跟随它进入田边支渠。水接到新增田区，耕作空间随后显现。",
+          "time_begin": 0,
+          "time_end": 12954.258309689036,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 57
+        },
+        {
+          "text": "接着看居民从查看渠口转向田间，劳动者在田垄旁继续作业。",
+          "pronounce_text": "接着看居民从查看渠口转向田间，劳动者在田垄旁继续作业。",
+          "time_begin": 13154.509565970444,
+          "time_end": 18796.91792294808,
+          "text_begin": 57,
+          "text_end": 84,
+          "pronounce_text_begin": 57,
+          "pronounce_text_end": 84
+        },
+        {
+          "text": "水利支持扩大耕种，生活与生产在画面里重新相接。田区变化是关系演示，不表示作物即时生长。",
+          "pronounce_text": "水利支持扩大耕种，生活与生产在画面里重新相接。田区变化是关系演示，不表示作物即时生长。",
+          "time_begin": 18959.78894472362,
+          "time_end": 28542.92406476829,
+          "text_begin": 84,
+          "text_end": 127,
+          "pronounce_text_begin": 84,
+          "pronounce_text_end": 127
+        }
+      ],
+      "subtitlePolicy": "provider timing where available; otherwise sentence timing estimated from text length"
+    },
+    {
+      "id": "glacier-regional",
+      "event": "glacier",
+      "beat": "regional",
+      "file": "glacier-regional.mp3",
+      "text": "先在完整新疆范围里找到天山。我们要观察的乌鲁木齐一号冰川，就位于这片山地中。地图先交代山地与盆地的相对位置，随后靠近冰川标记。区域地图回答在哪里，下一层的局部地形回答看到了什么。",
+      "duration": 17.46,
+      "sha256": "4fc7c2c9f4eda168fb477641e429e10927083010d0c455f01f0c2620028b297f",
+      "bytes": 281076,
+      "requestHash": "9d3c736c6fee49123a4a13044a0ec64821c35435555ab0e30644fb95d6f9cdfc",
+      "sourceSHA256": "2e302abdccbae299591a86c38117d47ed1b6023fd16518f9c1cf8087abb03708",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "先在完整新疆范围里找到天山。我们要观察的乌鲁木齐一号冰川，就位于这片山地中。地图先交代山地与盆地的相对位置，随后靠近冰川标记。",
+          "pronounce_text": "先在完整新疆范围里找到天山。我们要观察的乌鲁木齐一号冰川，就位于这片山地中。地图先交代山地与盆地的相对位置，随后靠近冰川标记。",
+          "time_begin": 0,
+          "time_end": 12206.57596371882,
+          "text_begin": 0,
+          "text_end": 63,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 63,
+          "is_final_segment": true
+        },
+        {
+          "text": "区域地图回答在哪里，下一层的局部地形回答看到了什么。",
+          "pronounce_text": "区域地图回答在哪里，下一层的局部地形回答看到了什么。",
+          "time_begin": 12406.57596371882,
+          "time_end": 17310.47619047619,
+          "text_begin": 63,
+          "text_end": 89,
+          "pronounce_text_begin": 63,
+          "pronounce_text_end": 89,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "glacier-place",
+      "event": "glacier",
+      "beat": "place",
+      "file": "glacier-place.mp3",
+      "text": "保留一号冰川的位置，沿同一个地点靠近冰谷。下一层使用已有的卫星影像和高程样本，展示山脊、谷地与冰雪分布。进入近景以后，先看真实地表，再开启教学叠层；两种画面有不同的用途。",
+      "duration": 18,
+      "sha256": "5bc82514fac60331058b7ba50a060ffbf0d5e503357fb8fb08b552f5c73db3e0",
+      "bytes": 289716,
+      "requestHash": "38204d8b8f04011b366533fb9e070b69839996076df81901c85617b5e2ef30e1",
+      "sourceSHA256": "786ee4d08a9d72d6f8b03860f95c24e3af75fa975af18d0f86ed5b668360920f",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "保留一号冰川的位置，沿同一个地点靠近冰谷。下一层使用已有的卫星影像和高程样本，展示山脊、谷地与冰雪分布。",
+          "pronounce_text": "保留一号冰川的位置，沿同一个地点靠近冰谷。下一层使用已有的卫星影像和高程样本，展示山脊、谷地与冰雪分布。",
+          "time_begin": 0,
+          "time_end": 11300.997732426304,
+          "text_begin": 0,
+          "text_end": 52,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 52,
+          "is_final_segment": true
+        },
+        {
+          "text": "进入近景以后，先看真实地表，再开启教学叠层；两种画面有不同的用途。",
+          "pronounce_text": "进入近景以后，先看真实地表，再开启教学叠层;两种画面有不同的用途。",
+          "time_begin": 11500.997732426304,
+          "time_end": 17832.925170068025,
+          "text_begin": 52,
+          "text_end": 85,
+          "pronounce_text_begin": 52,
+          "pronounce_text_end": 85,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "glacier-surface",
+      "event": "glacier",
+      "beat": "surface",
+      "file": "glacier-surface.mp3",
+      "text": "现在显示的是二〇二三年八月三十一日的观测影像，贴合已有高程样本。请对照山脊、谷地和明亮的冰雪区域。这个日期属于影像，不能把画面当作今天的实时冰况。你可以转动或缩放；下一幕会在同一地形上开启流动示意。",
+      "duration": 19.836,
+      "sha256": "6b0dfeaa9801463c43d363f50e9f22ce1cd11d49c5a6aa1ba7a03433a9e719bb",
+      "bytes": 319092,
+      "requestHash": "30a92490775cea04d36c728f12a7bca98abf75d91955b11cdb7a9a608e6f702f",
+      "sourceSHA256": "d41cf13aa3345e2a87f9e3da4e780abc9c8490d196f3c04c049b7fede02c65cd",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "现在显示的是二〇二三年八月三十一日的观测影像，贴合已有高程样本。请对照山脊、谷地和明亮的冰雪区域。这个日期属于影像，不能把画面当作今天的实时冰况。",
+          "pronounce_text": "现在显示的是二〇二三年八月三十一日的观测影像，贴合已有高程样本。请对照山脊、谷地和明亮的冰雪区域。这个日期属于影像，不能把画面当作今天的实时冰况。",
+          "time_begin": 0,
+          "time_end": 14667.891156462585,
+          "text_begin": 0,
+          "text_end": 73,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 73
+        },
+        {
+          "text": "你可以转动或缩放；下一幕会在同一地形上开启流动示意。",
+          "pronounce_text": "你可以转动或缩放;下一幕会在同一地形上开启流动示意。",
+          "time_begin": 14832,
+          "time_end": 19654.63038548753,
+          "text_begin": 73,
+          "text_end": 99,
+          "pronounce_text_begin": 73,
+          "pronounce_text_end": 99
+        }
+      ]
+    },
+    {
+      "id": "glacier-flow",
+      "event": "glacier",
+      "beat": "flow",
+      "file": "glacier-flow.mp3",
+      "text": "真实山地留在原位，青色流线与浅色冰体逐步出现。流线帮助辨认上游和下游的方向，它们是教学叠层，没有标定真实流速，也不是实测河道。请对照叠层与谷地的位置，再进入变化试验。",
+      "duration": 18,
+      "sha256": "f1d51d226b7ef6f927398242a09e6d3f942f74d855726814f28f6627142eb2d8",
+      "bytes": 289716,
+      "requestHash": "52ee24e00eda05294476892be39dee47bd9049969d111d8dccf894df3c053525",
+      "sourceSHA256": "d95999d9d1c721edbf956e1bc7fdca5c0e481310915ee3f67a8271ec96213f57",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "真实山地留在原位，青色流线与浅色冰体逐步出现。流线帮助辨认上游和下游的方向，它们是教学叠层，没有标定真实流速，也不是实测河道。",
+          "pronounce_text": "真实山地留在原位，青色流线与浅色冰体逐步出现。流线帮助辨认上游和下游的方向，它们是教学叠层，没有标定真实流速，也不是实测河道。",
+          "time_begin": 0,
+          "time_end": 13843.58276643991,
+          "text_begin": 0,
+          "text_end": 63,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 63,
+          "is_final_segment": true
+        },
+        {
+          "text": "请对照叠层与谷地的位置，再进入变化试验。",
+          "pronounce_text": "请对照叠层与谷地的位置，再进入变化试验。",
+          "time_begin": 14043.58276643991,
+          "time_end": 17832.92517006803,
+          "text_begin": 63,
+          "text_end": 83,
+          "pronounce_text_begin": 63,
+          "pronounce_text_end": 83,
+          "is_final_segment": true
+        }
+      ]
+    },
+    {
+      "id": "glacier-experiment",
+      "event": "glacier",
+      "beat": "experiment",
+      "file": "glacier-experiment.mp3",
+      "text": "现在保留浅色初始轮廓，蓝色教学冰体在它内部逐步收缩。这里设定消融强于积累，只观察模型怎样响应条件。滑块没有物理单位，变化时间也不对应真实年份；这不是冰川预测。接管后可以修改条件、暂停或重播，再回地图看冰谷位于哪里。",
+      "duration": 22.428,
+      "sha256": "a3d5583bcbe6b6e2ac78c19da6da76bae4f75aa2def8b2ffd131a88ffec13220",
+      "bytes": 360564,
+      "requestHash": "2a8718d795f9fcbe4b37a0b1d5471f9dd4ff3ec920dd09e02153daf1d980a4ac",
+      "sourceSHA256": "399548ad3e114c35c7697f8a79da9e600074bcd4d0cd4dada32ab1bfacdf8219",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "现在保留浅色初始轮廓，蓝色教学冰体在它内部逐步收缩。这里设定消融强于积累，只观察模型怎样响应条件。滑块没有物理单位，变化时间也不对应真实年份；这不是冰川预测。",
+          "pronounce_text": "现在保留浅色初始轮廓，蓝色教学冰体在它内部逐步收缩。这里设定消融强于积累，只观察模型怎样响应条件。滑块没有物理单位，变化时间也不对应真实年份;这不是冰川预测。",
+          "time_begin": 0,
+          "time_end": 15933.378684807258,
+          "text_begin": 0,
+          "text_end": 79,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 79
+        },
+        {
+          "text": "接管后可以修改条件、暂停或重播，再回地图看冰谷位于哪里。",
+          "pronounce_text": "接管后可以修改条件、暂停或重播，再回地图看冰谷位于哪里。",
+          "time_begin": 16091.999999999998,
+          "time_end": 22226.55782312925,
+          "text_begin": 79,
+          "text_end": 107,
+          "pronounce_text_begin": 79,
+          "pronounce_text_end": 107
+        }
+      ]
+    },
+    {
+      "id": "glacier-return",
+      "event": "glacier",
+      "beat": "return",
+      "file": "glacier-return.mp3",
+      "text": "回到完整新疆地图，重新找到天山与一号冰川。刚才分开观察了真实地表、流动方向和变化试验。真实资料建立地点背景，教学模型帮助理解问题，两者不能混成一条实测历史。你可以重新进入冰谷，自由修改条件，或选择其他地理与历史线索。",
+      "duration": 21.204,
+      "sha256": "4d1b97ef728630d3659bbb725cc4422cd564df29a3bbd0eb61bfbcc510312a96",
+      "bytes": 340980,
+      "requestHash": "c4088022ce048f219948db127b8c31e01aba50443ba80bdf7f9851b212122882",
+      "sourceSHA256": "73a14b0871a9cc9809c7d1eb40b98ed2d08f8d877ba9e45347e41c1d991d423d",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "回到完整新疆地图，重新找到天山与一号冰川。刚才分开观察了真实地表、流动方向和变化试验。真实资料建立地点背景，教学模型帮助理解问题，两者不能混成一条实测历史。",
+          "pronounce_text": "回到完整新疆地图，重新找到天山与一号冰川。刚才分开观察了真实地表、流动方向和变化试验。真实资料建立地点背景，教学模型帮助理解问题，两者不能混成一条实测历史。",
+          "time_begin": 0,
+          "time_end": 15527.029478458051,
+          "text_begin": 0,
+          "text_end": 78,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 78
+        },
+        {
+          "text": "你可以重新进入冰谷，自由修改条件，或选择其他地理与历史线索。",
+          "pronounce_text": "你可以重新进入冰谷，自由修改条件，或选择其他地理与历史线索。",
+          "time_begin": 15696,
+          "time_end": 21006.249433106575,
+          "text_begin": 78,
+          "text_end": 108,
+          "pronounce_text_begin": 78,
+          "pronounce_text_end": 108
+        }
+      ]
+    }
+  ]
+}

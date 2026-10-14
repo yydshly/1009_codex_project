@@ -1,0 +1,111 @@
+{
+  "status": "reviewed",
+  "frames": [
+    {
+      "version": "R28",
+      "case": "glacier",
+      "event": "water-mountains",
+      "time": 70.78360000002384,
+      "title": "冰谷：实际影像与山体层次",
+      "file": "before/r28-glacier.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "water",
+      "event": "water-home",
+      "time": 118.5415,
+      "title": "水到家门：抬头回应",
+      "file": "before/r28-water.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "market",
+      "event": "market-cloth",
+      "time": 269.9996999999881,
+      "title": "织物穿用：接住照应",
+      "file": "before/r28-market.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "family",
+      "event": "family-home",
+      "time": 373.11810000002384,
+      "title": "家书：双手与代际回应",
+      "file": "before/r28-family.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "courtyard",
+      "event": "culture-listen",
+      "time": 430.97560000002386,
+      "title": "庭院：观察、回应与接续",
+      "file": "before/r28-courtyard.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "gate",
+      "event": "civic-balanced",
+      "time": 542.6929000000357,
+      "title": "关口：回应与未尽需要",
+      "file": "before/r28-gate.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "glacier",
+      "event": "water-mountains",
+      "time": 62.952,
+      "title": "冰谷：实际影像与山体层次",
+      "file": "after/r29-glacier.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "water",
+      "event": "water-home",
+      "time": 113.82720000004768,
+      "title": "水到家门：抬头回应",
+      "file": "after/r29-water.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "market",
+      "event": "market-cloth",
+      "time": 269.918,
+      "title": "织物穿用：接住照应",
+      "file": "after/r29-market.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "family",
+      "event": "family-home",
+      "time": 375.39430000007155,
+      "title": "家书：双手与代际回应",
+      "file": "after/r29-family.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "courtyard",
+      "event": "culture-listen",
+      "time": 434.5118000000715,
+      "title": "庭院：观察、回应与接续",
+      "file": "after/r29-courtyard.jpg"
+    },
+    {
+      "version": "R29",
+      "case": "gate",
+      "event": "civic-balanced",
+      "time": 548.6391000000239,
+      "title": "关口：回应与未尽需要",
+      "file": "after/r29-gate.jpg"
+    }
+  ],
+  "method": "Unmodified actual movie frames, selected one second into the same authored response. Each version has its own measured time. No generated previews, texture enhancement or identical-pixel claim.",
+  "limits": [
+    "Original stylized teaching actors; no motion capture or ethnographic reconstruction.",
+    "Same 10m imagery and retained elevation data; lighting and view changes do not raise measurement precision."
+  ],
+  "review": [
+    "Inspected all six paired actual response frames: the R29 speaking caption remains below the hands and face; persistent side questions, locators and response labels no longer compete with it.",
+    "Inspected the two arrivals at three independently recorded phases: R29 holds the regional terrain during local emergence; the market remains surrounded by geographic context after arrival.",
+    "Arrival still deliberately enlarges regional/local geometry for teaching. Characters remain procedural miniature figures. Stills do not certify continuous movement or subjective listening."
+  ]
+}

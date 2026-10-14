@@ -1,0 +1,85 @@
+{
+  "pass": true,
+  "source": "Actual uninterrupted R31 capture work and motion logs; selected movie frames extracted at recorded times.",
+  "needsVisibleBeforeChoice": {
+    "recordingSecond": 100.85579999995231,
+    "cue": "water-ice",
+    "plan": "pending",
+    "phase": "need",
+    "home": 0,
+    "field": 0,
+    "waiting": "",
+    "nextNeed": "",
+    "waterActors": "{\"keeper\":[-1.45,0,0.15],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4.3,0,1.63]}",
+    "caption": null
+  },
+  "firstRecipientWhileOtherWaits": {
+    "recordingSecond": 123.68960000002384,
+    "cue": "water-ice",
+    "plan": "home",
+    "phase": "first-and-waiting",
+    "home": 1,
+    "field": 0,
+    "waiting": "field",
+    "nextNeed": "",
+    "waterActors": "{\"keeper\":[-1.45,0,0.15],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4.3,0,1.63]}",
+    "caption": null
+  },
+  "bothRecipientsWorking": {
+    "recordingSecond": 132.27719999992848,
+    "cue": "water-ice",
+    "plan": "home",
+    "phase": "both-working",
+    "home": 1,
+    "field": 1,
+    "waiting": "",
+    "nextNeed": "",
+    "waterActors": "{\"keeper\":[-1.45,0,0.15],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4.3,0,1.63]}",
+    "caption": null,
+    "dialogue": "water-home"
+  },
+  "maintenanceInSameWorld": {
+    "recordingSecond": 161.02489999997616,
+    "cue": "oasis-use",
+    "plan": "home",
+    "phase": "both-working",
+    "home": 1,
+    "field": 1,
+    "waiting": "",
+    "nextNeed": "",
+    "waterActors": "{\"keeper\":[-4.55,0,-0.41999999999999993],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4.3,0,1.63]}",
+    "caption": null
+  },
+  "packingIntroducesMaterialNeed": {
+    "recordingSecond": 176.6155,
+    "cue": "water-valley",
+    "plan": "home",
+    "phase": "both-working",
+    "home": 1,
+    "field": 1,
+    "waiting": "",
+    "nextNeed": "material-and-supplies",
+    "waterActors": "{\"keeper\":[-1.45,0,0.15],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4,0,1.63]}",
+    "caption": null
+  },
+  "marketUseAndOthersWaiting": {
+    "recordingSecond": 279.196,
+    "cue": "exchange-goods",
+    "plan": "home",
+    "phase": "both-working",
+    "home": 1,
+    "field": 1,
+    "waiting": "",
+    "nextNeed": "material-and-supplies",
+    "waterActors": "{\"keeper\":[-1.45,0,0.15],\"parent\":[2.8,0,2.08],\"farmer\":[5.55,0,-1.9],\"traveller\":[-4,0,1.63]}",
+    "marketUse": "family-continues",
+    "marketWaiting": "1 2",
+    "marketActors": "[[-3.6,0,1.1919614237665141],[-0.3,0,0.7],[3.45,0,0.7]]",
+    "caption": null
+  },
+  "choiceToFirstResponseSeconds": 22.833800000071534,
+  "limitations": [
+    "This auto film follows the home/cloth branch. Field-first was tested in pure choreography and a separate muted UI check; screenshots of that UI were sampled after both outlets were working.",
+    "Work logs show rendered state and selected frames, not subjective naturalness or cultural authenticity."
+  ]
+}

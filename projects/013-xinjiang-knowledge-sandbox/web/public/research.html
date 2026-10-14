@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="新疆互动知识沙盘能力研究：多尺度地理、历史叙事、教学模型与真实数据来源；开源仓库尚未确认。">
+  <title>新疆互动沙盘 · 013 能力研究</title>
+  <link rel="stylesheet" href="./styles.css">
+  <script type="module" src="./app.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="topbar">
+    <a class="brand" href="../"><span class="brand-mark">◉</span> 研究总库 <span class="project-id">/ 013</span></a>
+    <nav aria-label="页面导航"><a href="./overview.html">项目总览</a><a href="./overview.html#watch">原视频</a><a href="#capabilities">能力图谱</a><a href="#scales">空间尺度</a><a href="#models">模型来源</a><a href="#opensource">开源状态</a></nav>
+    <a class="source-link" href="./?scene=earth">打开三维沙盘 ↗</a>
+  </header>
+  <main id="main">
+    <div style="margin:26px 0 0;padding:18px 22px;border:1px solid #cbd2b5;border-radius:8px;background:#eaf0df;font-size:13px;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap"><span>当前独立实现为 R23：六章33段、五处选择，地球到地点与人物回应；新增导览旁白稍后补。</span><a href="./overview.html#watch" style="color:#39564a">查看项目总览、原视频与当前完整成片 →</a></div>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> 空间知识 / 互动教学 / 案例研究</p>
+        <h1>把新疆，<br>放进一个<span>知识沙盘。</span></h1>
+        <p class="intro">地理搭起骨架，历史与人文沿着空间展开。<br>从一颗地球，到一处地形，再到一个原理模型。</p>
+        <div class="hero-actions"><a class="primary" href="./?scene=earth">进入三维沙盘 <span>→</span></a><a class="text-link" href="#models">这些模型有多真实？ ↗</a></div>
+        <p class="research-note">基于 Moby 的演示观察 · 2026.10.09<br>对应 GitHub 仓库尚未找到，源码、版本与许可待确认。</p>
+      </div>
+      <figure class="hero-image">
+        <div class="image-topline"><span>原帖视频封面</span><span>01 / 地球视角</span></div>
+        <img src="./assets/original-poster.webp" width="1200" height="675" alt="原帖视频封面：三维地球突出新疆区域，左侧讲解目录，底部六个模型场景入口。">
+        <figcaption><span class="dot"></span> 原演示画面 · 非本地复现 <a href="https://x.com/readyfor2025/status/2108409664018977249" target="_blank" rel="noopener noreferrer">来源 ↗</a></figcaption>
+      </figure>
+    </section>
+    <div class="metrics" aria-label="作者介绍的内容规模">
+      <div class="metric-label"><strong>内容规模</strong><span>作者说明，未逐项验收</span></div>
+      <div><strong>12</strong><span>个主题</span></div><div><strong>223</strong><span>个段落</span></div><div><strong>80<span> min</span></strong><span>语音动画讲解</span></div>
+      <p>展示能力有视频依据。<br>内容精度需要独立核对。</p>
+    </div>
+
+    <section id="capabilities" class="section">
+      <div class="section-heading"><div><p class="eyebrow">01 / CAPABILITIES</p><h2>一张地图，连接哪些知识？</h2></div><p>按主题浏览具体能力。<br>每项都保留证据层级。</p></div>
+      <div class="filters" role="group" aria-label="筛选能力证据">
+        <button type="button" data-filter="all" aria-pressed="true">全部能力 <span>10</span></button>
+        <button type="button" data-filter="observed" aria-pressed="false">演示可见</button>
+        <button type="button" data-filter="stated" aria-pressed="false">作者说明</button>
+        <button type="button" data-filter="unknown" aria-pressed="false">待验证</button>
+      </div>
+      <p id="filter-status" class="sr-only" aria-live="polite"></p>
+      <div id="capability-grid" class="capability-grid"></div>
+    </section>
+
+    <section id="scales" class="section scale-section">
+      <div class="section-heading"><div><p class="eyebrow">02 / SPATIAL SCALES</p><h2>以主题引导，知识在不同尺度展开。</h2></div><p>切换尺度，理解各自的任务。<br>下图为本地研究说明图。</p></div>
+      <div class="scale-tabs" role="group" aria-label="选择空间尺度">
+        <button type="button" data-scale="earth" aria-pressed="true"><span>01</span><strong>地球</strong><small>全球位置与气候背景</small></button>
+        <button type="button" data-scale="region" aria-pressed="false"><span>02</span><strong>区域地图</strong><small>地形、地点与路线</small></button>
+        <button type="button" data-scale="local" aria-pressed="false"><span>03</span><strong>局部地形</strong><small>一个地点的空间结构</small></button>
+        <button type="button" data-scale="mechanism" aria-pressed="false"><span>04</span><strong>原理模型</strong><small>形成过程与工作机制</small></button>
+      </div>
+      <div class="scale-detail">
+        <div class="scale-graphic" aria-hidden="true"><div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><div class="scale-core"><span id="scale-number">01</span><strong id="scale-word">地球</strong></div><span class="graphic-label">空间 × 内容 × 讲解</span></div>
+        <div id="scale-content" class="scale-content" aria-live="polite"></div>
+      </div>
+      <div class="knowledge-flow"><span>选择一个主题</span><i>→</i><span>定位场景与视角</span><i>→</i><span>叠加相关信息</span><i>→</i><span>分段解释与探索</span></div>
+      <p class="small-note">原片先展示新疆地图与主题入口，地球视角随后用于定位；这里是尺度能力归纳，尚未通过源码确认内部模块或数据流。</p>
+    </section>
+
+    <section id="models" class="section">
+      <div class="section-heading"><div><p class="eyebrow">03 / MODEL EVIDENCE</p><h2>看起来真实，数据也真实吗？</h2></div><p>影像来源、几何精度、加载方式，<br>需要分别判断。</p></div>
+      <div class="model-layout">
+        <div class="model-picker" role="group" aria-label="查看模型来源证据">
+          <button type="button" data-model="earth" aria-pressed="true"><span>01 / 影像</span><strong>地球外观</strong><small>画面标注 NASA Blue Marble</small><i>↗</i></button>
+          <button type="button" data-model="terrain" aria-pressed="false"><span>02 / 地形</span><strong>山脉与湖泊</strong><small>是否来自真实高程数据？</small><i>↗</i></button>
+          <button type="button" data-model="teaching" aria-pressed="false"><span>03 / 原理</span><strong>教学示意模型</strong><small>建模方式与科学依据待核对</small><i>↗</i></button>
+        </div>
+        <article id="model-content" class="model-content" aria-live="polite"></article>
+      </div>
+      <div class="verification-strip"><strong>还没有确认的事</strong><p>模型文件格式 · 地形分辨率 · 高度夸张系数 · 实时联网或预先打包 · 原应用使用的渲染引擎</p></div>
+    </section>
+
+    <section class="section value-section" id="value">
+      <div><p class="eyebrow">04 / VALUE</p><h2>值得借鉴的是，<br>让知识拥有位置。</h2><p>让学习者把地点、过程与解释连在一起。<br>是否提升学习效果，还需要实际教学验证。</p></div>
+      <div class="value-list"><article><span>01</span><div><h3>空间关系更直观</h3><p>地形、地点与路线同时出现，帮助建立区域位置关系。</p></div></article><article><span>02</span><div><h3>跨学科组织内容</h3><p>以一个地区为线索，连接自然环境、历史事件和人类活动。</p></div></article><article><span>03</span><div><h3>用合适的尺度讲问题</h3><p>全球背景用地球，局部结构用地形，形成机制用独立模型。</p></div></article></div>
+    </section>
+
+    <section id="opensource" class="section source-section">
+      <div class="section-heading"><div><p class="eyebrow">05 / OPEN SOURCE</p><h2>这个演示，有 GitHub 开源库吗？</h2></div><span class="source-status"><span class="dot"></span> 尚未找到对应仓库</span></div>
+      <div class="source-conclusion"><h3>暂时无法确认它是一个开源库。</h3><p>截至 2026 年 10 月 9 日，原帖没有给出仓库地址；公开检索作者账号、演示标题与相关关键词，没有找到能与该演示建立对应关系的 GitHub 仓库。这不等于证明它没有开源。</p><p>原应用的源码、tag / commit、技术栈和许可证均待确认。这里展示的是研究整理页。</p></div>
+      <div class="alternatives-heading"><h3>如需实现类似能力，可参考这些开源工具</h3><p>以下工具与原演示的技术关系尚未确认。</p></div>
+      <div class="alternatives"><a href="https://github.com/CesiumGS/cesium" target="_blank" rel="noopener noreferrer"><span>地理空间</span><h3>CesiumJS <i>↗</i></h3><p>三维地球、地形、影像与地理数据展示。</p><small>Apache-2.0 · 参考工具</small></a><a href="https://github.com/mrdoob/three.js" target="_blank" rel="noopener noreferrer"><span>通用三维</span><h3>Three.js <i>↗</i></h3><p>自定义三维场景、几何模型与动画交互。</p><small>MIT · 参考工具</small></a></div>
+    </section>
+
+    <section class="section evidence-section" id="evidence"><div><p class="eyebrow">06 / REFERENCES</p><h2>从结论回到证据。</h2><p>截图证明展示内容，官方资料解释数据类型。<br>没有源码的部分，保留为待验证项。</p></div><ol><li><a href="https://x.com/readyfor2025/status/2108409664018977249" target="_blank" rel="noopener noreferrer">Moby 的原帖与视频演示 <span>↗</span></a><small>能力观察与作者说明的主要来源</small></li><li><a href="https://www.visibleearth.nasa.gov/images/74192/november-blue-marble-next-generation/74204l" target="_blank" rel="noopener noreferrer">NASA · Blue Marble 影像说明 <span>↗</span></a><small>解释真实卫星观测制作的地表影像</small></li><li><a href="https://www.usgs.gov/publications/digital-elevation-models-terminology-and-definitions" target="_blank" rel="noopener noreferrer">USGS · 数字高程模型说明 <span>↗</span></a><small>解释地形高度数据，与原演示的数据来源无直接对应证据</small></li></ol></section>
+  </main>
+  <footer><a href="../">← 返回研究总库</a><span>013 · 新疆互动沙盘 / 研究观察，非原应用复现</span><span>2026.10.09</span></footer>
+</body>
+</html>

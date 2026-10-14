@@ -1,0 +1,29 @@
+{
+  "edition": "R51",
+  "checked": "2026-10-13",
+  "purpose": "把区域交流问题延伸为吐鲁番水路的可控观察，再到地面用水与独立的喀什交换案例。",
+  "sources": [
+    {
+      "title": "ICID · Turpan Karezes",
+      "url": "https://icid-ciid.org/award/his_details/205",
+      "use": "取水、暗渠、竖井、明渠、蓄水的结构关系及竖井施工维护功能；不使用当年数量或运行指标。"
+    },
+    {
+      "title": "UNESCO · Silk Roads: Chang’an–Tianshan Corridor",
+      "url": "https://whc.unesco.org/en/list/1442/",
+      "use": "水管理支撑廊道聚落与往来的关系；不据此给本模型或某口井标注年代。"
+    },
+    {
+      "title": "UNESCO预备名单 · Karez Wells（中国2008年提交）",
+      "url": "https://whc.unesco.org/en/tentativelists/5347",
+      "use": "参考四个组成部分的解释，非独立已列入世界遗产的声明。起源归属、数量与流量不作为本轮新增事实。"
+    }
+  ],
+  "representation": {
+    "terrain": "沿用原区域DEM和NASA影像，模型地块为原创概念截面，不是某处坎儿井测绘。",
+    "experiment": "堵塞、清理、传递时钟、强度刻度、人物和田垄均为作者定义的视觉响应；无水文单位、历史时间或产量推断。",
+    "links": "出使事件→绿洲用水为跨时期机制延伸。吐鲁番→喀什为独立案例比较，不代表一条真实水路、同一商队或实测货物传播。",
+    "saved": "本次页面内返回保留水路帧和对照行。URL保留供水、通畅/淤积条件与结构选择，不储存清理动画的精确时钟；对照记录在本次探索有效。"
+  },
+  "retained": "原历史、自然、生活场景、声音与影片保留；普通旧水路与影片不启用新增观察层。"
+}

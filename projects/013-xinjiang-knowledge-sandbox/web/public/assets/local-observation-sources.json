@@ -1,0 +1,26 @@
+{
+  "round": "86",
+  "reviewed": "2026-10-14",
+  "newHistoricalClaims": false,
+  "sources": [
+    {
+      "url": "https://whc.unesco.org/en/list/1442/",
+      "role": "长期多区域交流、停留与聚落的背景；不证明此集市、人物服饰或张骞行程"
+    },
+    {
+      "url": "https://wlt.xinjiang.gov.cn/wlt/mtbd/202303/2c41806b10f84069bbbe1adb542db056.shtml",
+      "role": "西域都护及乌垒相关考古研究背景；现代轮台仅作地域参照，不确定该结构布局"
+    },
+    {
+      "url": "https://www.neac.gov.cn/seac/ztzl/xbz/lsyg.shtml",
+      "role": "沿用R85分期与安置、水利依据，未修改年代"
+    }
+  ],
+  "scope": {
+    "market": "原创跨时期机制情境，不作汉代喀什或张骞某次停留复原",
+    "structure": "抽象空间观察，不作古城实测布局、辖区或行政程序",
+    "routes": "沿用历史依据与地域联系示意，不新增未考定道路"
+  },
+  "audio": "复用37份有效导演语音与字幕，本轮不新增音频或影片",
+  "storage": "round-85基线，SHA-256增量对象存储；原媒体继续共享"
+}

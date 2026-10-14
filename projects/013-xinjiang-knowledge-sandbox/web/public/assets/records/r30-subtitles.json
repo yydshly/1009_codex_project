@@ -1,0 +1,39 @@
+{
+  "pass": true,
+  "date": "2026-10-12",
+  "edition": "R30 subtitle and reading layer over unchanged R29 movie",
+  "movieSHA256": "776ed30fa6eb6abf866cdfbd5a846c087577f13a1fe72b58cfdba9d4f045a2b7",
+  "movieBytes": 479996232,
+  "videoReencoded": false,
+  "newFullMovieCopies": 0,
+  "speechClips": 41,
+  "narrationClips": 33,
+  "selectedCharacterClips": 8,
+  "phrases": 73,
+  "allSpeechTextCovered": true,
+  "allPhraseWindowsWithinVerifiedSpeech": true,
+  "noOverlaps": true,
+  "timing": "Waveform-verified clip starts; internal phrase timing estimated from silence and character weight, not word-level forced alignment.",
+  "ui": {
+    "filmCaptionVisible": true,
+    "toggleOffThenOn": true,
+    "seekRetainsPause": true,
+    "contextUpdatesWithPeriod": true,
+    "timeLabelUpdatesOnTranscriptSeek": true,
+    "fullscreenCaptionVisible": true,
+    "fullscreenEvidence": "after/fullscreen-subtitles.png",
+    "transcriptRows": 41,
+    "liveCaptionInitialSpokenTextObserved": "人怎样在这片土地上生活，并与外界联系？从地球找到新疆，",
+    "liveAfterSpeechCaptionHidden": true,
+    "browser": "Codex in-app browser",
+    "nativeTrackDisplay": "Not stable in this embedded browser; visible DOM captions with wrapper fullscreen used instead."
+  },
+  "checks": {
+    "rootIndexAndMetadata": true,
+    "projectCheck": true,
+    "captionAttentionActorAndSoundTests": 8,
+    "staticMediaRangeTest": true
+  },
+  "subjectiveListeningAcceptance": false,
+  "wordAlignmentAccepted": false
+}

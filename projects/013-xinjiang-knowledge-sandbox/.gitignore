@@ -1,0 +1,17 @@
+# Runtime source, assets and round manifests form the Git checkpoint.
+# Immutable source views and full production materials remain in the local store.
+/process/**
+!/process/**/
+!/process/README.md
+!/process/ARCHIVE_GUIDE.md
+!/process/decisions.md
+!/process/reference-observations.json
+!/process/round-*/README.md
+!/process/round-*/retention.json
+/process/.store/
+
+# Historical editing helpers and storage audit payloads stay local.
+/storage/**
+!/storage/**/
+!/storage/README.md
+!/storage/dedupe-*/README.md

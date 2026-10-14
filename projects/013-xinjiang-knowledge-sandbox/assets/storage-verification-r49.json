@@ -1,0 +1,20 @@
+{
+  "edition": "R49",
+  "retainedPaths": 602,
+  "newObjects": 45,
+  "newBytes": 1995763,
+  "verifiedNewReferenceHashes": 49,
+  "allNewHashesPass": true,
+  "unchangedOldMediaPaths": 59,
+  "earthImageUnchanged": true,
+  "sharedPreviewAndRecordAliases": true,
+  "videoBytesCopied": 0,
+  "sourceUnchangedPaths": 548,
+  "http": {
+    "assets/process/r49-earth.png": 200,
+    "assets/world-intro-sources.json": 200,
+    "assets/records/round-49.md": 200,
+    "assets/records/round-49.json": 200
+  },
+  "comparisonMethod": "去掉各轮round-N/前缀，按源路径和SHA-256比较；保留全量来源核验，不将0个匹配当作未变验证。"
+}

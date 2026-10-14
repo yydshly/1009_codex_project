@@ -1,0 +1,828 @@
+{
+  "schemaVersion": 1,
+  "id": "round-10",
+  "kind": "process-snapshot",
+  "createdAt": "2026-10-11T11:41:58.386938+00:00",
+  "files": [
+    {
+      "path": "round-10/README.md",
+      "sha256": "815e803bdda581a6ec752aa945991c66d25be34e0874a7b2cd7c092b34dedeee",
+      "bytes": 6455,
+      "crc32": 1030733023,
+      "mtimeNs": 1791624034475870100
+    },
+    {
+      "path": "round-10/after/cue-exchange-city.png",
+      "sha256": "3e9e49a995d55cbfc607096e4cb011c2bacb54fd71453cfae6f1ec5bc1475606",
+      "bytes": 92457,
+      "crc32": 1845944226,
+      "mtimeNs": 1791621428170775300
+    },
+    {
+      "path": "round-10/after/cue-exchange-goods.png",
+      "sha256": "4223bca11a675608ac3ab55ec528c9ab7085e06d257bc55a58c4c0c1e37398cf",
+      "bytes": 84871,
+      "crc32": 3196986109,
+      "mtimeNs": 1791621425404599600
+    },
+    {
+      "path": "round-10/after/cue-exchange-question.png",
+      "sha256": "f6212e626b24a0f6c028b1cb5a4eb22ccf540ba08ef4f3fd83996a08d87cb5d5",
+      "bytes": 69226,
+      "crc32": 2977679288,
+      "mtimeNs": 1791621431142250400
+    },
+    {
+      "path": "round-10/after/cue-exchange-stops.png",
+      "sha256": "036e903f3648b6c7661d4c36c5e494e0eedd6cce3906473ac6eec3d631c00e1a",
+      "bytes": 71854,
+      "crc32": 2240174956,
+      "mtimeNs": 1791621422560820000
+    },
+    {
+      "path": "round-10/after/cue-future-synthesis.png",
+      "sha256": "3dc54b420ba198147b7a7f85143ba195f59bad6fdba26ee4678e5efb0ce76200",
+      "bytes": 77394,
+      "crc32": 3436582169,
+      "mtimeNs": 1791621495120039400
+    },
+    {
+      "path": "round-10/after/cue-memory-arrival.png",
+      "sha256": "6b8cac32068791981b737ef8bf479900791baec4b87d62eb4661c05225974fd2",
+      "bytes": 39544,
+      "crc32": 1403078347,
+      "mtimeNs": 1791621536495600400
+    },
+    {
+      "path": "round-10/after/cue-memory-departure.png",
+      "sha256": "2a439967615b291552d2477fad7cd1c237f33695e1edbf0a0c751ad355b07294",
+      "bytes": 71489,
+      "crc32": 1742622551,
+      "mtimeNs": 1791621434003437100
+    },
+    {
+      "path": "round-10/after/cue-memory-journey.png",
+      "sha256": "c1da4063f295328fd7a90af93e91fa7991ff54dd8fd5d3a57544f2e1a957c595",
+      "bytes": 72186,
+      "crc32": 4167624990,
+      "mtimeNs": 1791621440824857400
+    },
+    {
+      "path": "round-10/after/cue-memory-muqam.png",
+      "sha256": "c3a001ac7b4f59f90ae426810c929b47dfca8502ddc82460010638dbb1784415",
+      "bytes": 81081,
+      "crc32": 956403285,
+      "mtimeNs": 1791621446616916900
+    },
+    {
+      "path": "round-10/after/cue-memory-practice.png",
+      "sha256": "261ce992b46d52a04d3be423138023c075f5b0efa5451ee7e4f434056fde8372",
+      "bytes": 40959,
+      "crc32": 3288748695,
+      "mtimeNs": 1791621532779618800
+    },
+    {
+      "path": "round-10/after/cue-modern-hubs.png",
+      "sha256": "f51b4c06328bce60d2b05919555605451727c532a5049cc58843d07ce8ea045c",
+      "bytes": 78574,
+      "crc32": 2629180720,
+      "mtimeNs": 1791621452324367700
+    },
+    {
+      "path": "round-10/after/cue-modern-kashgar.png",
+      "sha256": "b526cfb0f6ca5514e2b541bcec51d347cfafdf98390dea5b1d58f75e9c637b6f",
+      "bytes": 90730,
+      "crc32": 174803303,
+      "mtimeNs": 1791621485967325000
+    },
+    {
+      "path": "round-10/after/cue-modern-limit.png",
+      "sha256": "c5cc14625c7571377f72aa3dcd9ea5222b7a3c23ef11ef92438601e4e1a1025d",
+      "bytes": 79481,
+      "crc32": 2031948194,
+      "mtimeNs": 1791621492141102300
+    },
+    {
+      "path": "round-10/after/cue-modern-rules.png",
+      "sha256": "1242d57bea81f7811ebfb2bda3fda151c420d704c85733a1fe409453472636a1",
+      "bytes": 42140,
+      "crc32": 3047753321,
+      "mtimeNs": 1791621540133288000
+    },
+    {
+      "path": "round-10/after/cue-modern-urumqi.png",
+      "sha256": "8beebd5b2ce52528b4a4a671376f2f2da4ce8fc489d3c80733554ce3aff991d3",
+      "bytes": 84294,
+      "crc32": 1145552069,
+      "mtimeNs": 1791621483053299100
+    },
+    {
+      "path": "round-10/after/culture-first.png",
+      "sha256": "0bada9b0f2b6c4539cd9b22f2fd5c8c0f57fed2d5efdcdacc4795c55cbfd69fd",
+      "bytes": 83450,
+      "crc32": 1552469894,
+      "mtimeNs": 1791620940008632200
+    },
+    {
+      "path": "round-10/after/culture-response.png",
+      "sha256": "490515cdb53039db684613a2bbec949e79dac6b8ad80d0e13c9b455d66127bf2",
+      "bytes": 82677,
+      "crc32": 1593144771,
+      "mtimeNs": 1791621359620324000
+    },
+    {
+      "path": "round-10/after/delivery-window.png",
+      "sha256": "3d14a97dd55da61e9191cd0188a5c871f3e72b57b030f620e030724f8e7ffda1",
+      "bytes": 76624,
+      "crc32": 3854270616,
+      "mtimeNs": 1791624003320889600
+    },
+    {
+      "path": "round-10/after/failed-integration-log.json",
+      "sha256": "e10c50705eecdd2666c26043edbd4a121a1fc363cc6bd67c0e109e18c0cecb81",
+      "bytes": 963,
+      "crc32": 3708904495,
+      "mtimeNs": 1791621252368687700
+    },
+    {
+      "path": "round-10/after/failed-integration.png",
+      "sha256": "172ae83f879afe3ed3e23012cac8b0504b982c5531aefc0379d58956d3766f4d",
+      "bytes": 107195,
+      "crc32": 1605133731,
+      "mtimeNs": 1791621252509130200
+    },
+    {
+      "path": "round-10/after/final-culture.png",
+      "sha256": "4cd1961376f84a117f31ebc161d4455726882707ac1d07abc504488ef4fb5bd0",
+      "bytes": 85701,
+      "crc32": 1199662795,
+      "mtimeNs": 1791623139409838900
+    },
+    {
+      "path": "round-10/after/final-journal.png",
+      "sha256": "034b1ed38a02f9032670c82a2f8740f16c5ce3bd18704587ff9d988599f1353c",
+      "bytes": 644424,
+      "crc32": 2009137482,
+      "mtimeNs": 1791623788145609900
+    },
+    {
+      "path": "round-10/after/final-market.png",
+      "sha256": "1e1777cdb4b2a4f359501f009959e6f431f4c0fdf267ccf2a7f247b71ed6f34e",
+      "bytes": 87339,
+      "crc32": 453764489,
+      "mtimeNs": 1791623121026514300
+    },
+    {
+      "path": "round-10/after/final-mobile-clean.png",
+      "sha256": "3e00daa0605206dae2445870ad311e2ba93bb8afebfe691dc7914671ae7b3e69",
+      "bytes": 41132,
+      "crc32": 2103956810,
+      "mtimeNs": 1791623722117527500
+    },
+    {
+      "path": "round-10/after/final-mobile-culture.png",
+      "sha256": "6f355db1f242b4882a8b90977e7fa34c6946e92fbf59716a8576eecdaa657d97",
+      "bytes": 40411,
+      "crc32": 3777522235,
+      "mtimeNs": 1791623655847332900
+    },
+    {
+      "path": "round-10/after/final-opening.png",
+      "sha256": "48e06be6ce0579a8e8e20c59ce57fe867c34226ca8bb24a6e2d87c8672c3dc35",
+      "bytes": 70043,
+      "crc32": 1775510870,
+      "mtimeNs": 1791623163054191900
+    },
+    {
+      "path": "round-10/after/final-people.png",
+      "sha256": "cf53bd79e8c44b9146d3d4d5742241e4d0d69573ce5b0eedc42c1b1936adfdce",
+      "bytes": 74702,
+      "crc32": 1244812668,
+      "mtimeNs": 1791623129595358600
+    },
+    {
+      "path": "round-10/after/final-result.png",
+      "sha256": "857b24b086ee9775b683bc19827785a7401fec845da2702d7534e5c0b07e9365",
+      "bytes": 71405,
+      "crc32": 899189022,
+      "mtimeNs": 1791623589233835400
+    },
+    {
+      "path": "round-10/after/final-service.png",
+      "sha256": "1dbe81c90b04deeb0684bb59f3bec136bdd18f7cf7fa147cbf998675d7e7331e",
+      "bytes": 102418,
+      "crc32": 3743782186,
+      "mtimeNs": 1791623150413410100
+    },
+    {
+      "path": "round-10/after/four-lived-scenes.jpg",
+      "sha256": "c8e86cfdbf39748b4a40c9ea34b56607b5187b25385568be1f51775f761f9c88",
+      "bytes": 269604,
+      "crc32": 1841778358,
+      "mtimeNs": 1791623379809268500
+    },
+    {
+      "path": "round-10/after/land-allocation.png",
+      "sha256": "faacfb6123754339b24c4116558dcfead4c85507efbc200fac28364d99a81e7f",
+      "bytes": 97912,
+      "crc32": 4194732266,
+      "mtimeNs": 1791621377032778400
+    },
+    {
+      "path": "round-10/after/logistics-first.png",
+      "sha256": "80810571919ff0b59dc1e21c265c789724b7289c2043db9a2705a8e5ca052373",
+      "bytes": 97778,
+      "crc32": 1529202130,
+      "mtimeNs": 1791620942847279500
+    },
+    {
+      "path": "round-10/after/market-first.png",
+      "sha256": "5c4609deaeeba2f232bd5998f0d5ddd74d6df8861bc56f018b19dd7c19ba4ef4",
+      "bytes": 89097,
+      "crc32": 2329029484,
+      "mtimeNs": 1791620908832519700
+    },
+    {
+      "path": "round-10/after/market-interaction.png",
+      "sha256": "277c74b2f21130c9a110c3dd73fd8bed14f3dba31c8c75218b1730e2ff29e0ed",
+      "bytes": 86029,
+      "crc32": 3748284836,
+      "mtimeNs": 1791621259418870700
+    },
+    {
+      "path": "round-10/after/mobile-culture.png",
+      "sha256": "d8747a1607b173baa8060fee3a027612d884adf3e4df1de92b98d4122914d416",
+      "bytes": 41145,
+      "crc32": 2372900097,
+      "mtimeNs": 1791621533209871900
+    },
+    {
+      "path": "round-10/after/mobile-people.png",
+      "sha256": "0174b9f9d578e07f0d1f44954f9c9612cddbd259e6903cbfe9dcc63a9323cddf",
+      "bytes": 39350,
+      "crc32": 3735399319,
+      "mtimeNs": 1791621536658749100
+    },
+    {
+      "path": "round-10/after/mobile-service.png",
+      "sha256": "aa72cf3c41a0e54950e1702a604d70ffc6dd45b5ec252bbb57afb7901292b816",
+      "bytes": 43857,
+      "crc32": 3867873773,
+      "mtimeNs": 1791621540808435000
+    },
+    {
+      "path": "round-10/after/people-first.png",
+      "sha256": "b27e9458209b981c6f69fdb0aa21400e9a5d878bb270a69dc85530ba3a9fcdd4",
+      "bytes": 74634,
+      "crc32": 348279614,
+      "mtimeNs": 1791620936791640200
+    },
+    {
+      "path": "round-10/after/people-settled.png",
+      "sha256": "b061e6f32c0f0b9eaaa110dfed3edb5d4d0cdb52ed9ef078b766d4a3e0a00aa3",
+      "bytes": 73218,
+      "crc32": 3717339536,
+      "mtimeNs": 1791621262730477800
+    },
+    {
+      "path": "round-10/after/service-close-view.png",
+      "sha256": "8d08d440698678d8225e4f26b00ce4716e5fcffd2b1928d77a7fa49fd2995d82",
+      "bytes": 101181,
+      "crc32": 112854152,
+      "mtimeNs": 1791621380646480200
+    },
+    {
+      "path": "round-10/after/service-coordinated.png",
+      "sha256": "5c0cde1d27773db98ea1961a6fe8cdd4fab2293aa817e28180c260b50f154eab",
+      "bytes": 96403,
+      "crc32": 528908554,
+      "mtimeNs": 1791621376837720200
+    },
+    {
+      "path": "round-10/after/service-separate.png",
+      "sha256": "e06bb09d0ae91bd49d1e9197a518ee71a0bb3dd8983b092e8884e1e353dd5123",
+      "bytes": 93837,
+      "crc32": 869340564,
+      "mtimeNs": 1791621376381899600
+    },
+    {
+      "path": "round-10/before-after.jpg",
+      "sha256": "f1c8a7c278f2a89a8adcdd4f54a8a42ae67052189ad7d3c7473cc75b154ebc0c",
+      "bytes": 427886,
+      "crc32": 2153839053,
+      "mtimeNs": 1791623379971776500
+    },
+    {
+      "path": "round-10/before/culture.png",
+      "sha256": "8036cd9e276ee618a87c9e5c6381e30cf1cde80a97869ed4ed2f2203fde8e1e0",
+      "bytes": 78159,
+      "crc32": 3484379057,
+      "mtimeNs": 1791620025286459000
+    },
+    {
+      "path": "round-10/before/economy.png",
+      "sha256": "d7056bca31b8c01b00149fa4bb96877987c82e00e643900e1c7788fdd8ea365f",
+      "bytes": 115711,
+      "crc32": 4015934027,
+      "mtimeNs": 1791620030920875900
+    },
+    {
+      "path": "round-10/before/politics.png",
+      "sha256": "521a56960066d2220bc87b0f58f57718bd45275d826cfca826a91a54cd0e8a79",
+      "bytes": 79375,
+      "crc32": 267501335,
+      "mtimeNs": 1791620028057436700
+    },
+    {
+      "path": "round-10/build-verification.json",
+      "sha256": "e6aff9dfaec1aa758ffb610346a53d92966ef3e5f18d4d6eac2c267836f416a4",
+      "bytes": 11761,
+      "crc32": 3411217685,
+      "mtimeNs": 1791623857047828900
+    },
+    {
+      "path": "round-10/content-evidence.json",
+      "sha256": "449aa5eb954fd9adc62b08f03bf932ce807af5c07a21f43da5b573a28fd08b38",
+      "bytes": 6521,
+      "crc32": 4238905437,
+      "mtimeNs": 1791622619399812300
+    },
+    {
+      "path": "round-10/delivery.json",
+      "sha256": "6df3b1d1dd2d00733aab7c3d8c8fc3066e1a260d9ce79be6c2ae602a12799ce9",
+      "bytes": 738,
+      "crc32": 305293828,
+      "mtimeNs": 1791624003367854700
+    },
+    {
+      "path": "round-10/journal-verification.json",
+      "sha256": "9d3086a82d3f30deeee6c9fe70a7903442929f21abeca3effdcbd44751e30c31",
+      "bytes": 1238,
+      "crc32": 1637993584,
+      "mtimeNs": 1791623787596580500
+    },
+    {
+      "path": "round-10/narrative-updates.json",
+      "sha256": "bb1472468360e4664f82f7f45aa36717843743c9e990528bde257d1e3a3e6979",
+      "bytes": 3938,
+      "crc32": 2710975352,
+      "mtimeNs": 1791620828740058700
+    },
+    {
+      "path": "round-10/prepare-review.py",
+      "sha256": "cdbfef17662885481579e1842c15c7981b5b69cf67ff468c7cbf9ffadb27c950",
+      "bytes": 1533,
+      "crc32": 2781736592,
+      "mtimeNs": 1791623378720217200
+    },
+    {
+      "path": "round-10/recordings/capture-log.json",
+      "sha256": "40a542070e28de3c385a4d48f42dfdd06f7eb23269f4bd5e76bc7dad7befacc4",
+      "bytes": 7453,
+      "crc32": 2496825711,
+      "mtimeNs": 1791623603411751500
+    },
+    {
+      "path": "round-10/recordings/chapters.ffmetadata",
+      "sha256": "ec236064dc831d661e7bf4860f6d3679911ed769e16d1b945bf56ac054fb89b2",
+      "bytes": 735,
+      "crc32": 735837978,
+      "mtimeNs": 1791623615993024700
+    },
+    {
+      "path": "round-10/recordings/decode-check.log",
+      "sha256": "41b80db098024f354cd760eacd0c6e238f031f05198ecc687f6a1744b686a513",
+      "bytes": 4598,
+      "crc32": 3345642758,
+      "mtimeNs": 1791623681305195400
+    },
+    {
+      "path": "round-10/recordings/encode.log",
+      "sha256": "3c8912da7d27fec4f39b1878ed3785f2df81ef1fe4690b987ccaf26f5ed712d5",
+      "bytes": 17650,
+      "crc32": 2762398943,
+      "mtimeNs": 1791623676019744100
+    },
+    {
+      "path": "round-10/recordings/media-verification.json",
+      "sha256": "3632f52122b417926881b7ab0cd30e64220c7e47cc814e9a47410801af74510f",
+      "bytes": 6705,
+      "crc32": 3182355386,
+      "mtimeNs": 1791623683551543800
+    },
+    {
+      "path": "round-10/recordings/xinjiang-journey-cues.json",
+      "sha256": "80408ada761d706559baf643e15835f5ea7390a43de26803486324000a90112a",
+      "bytes": 41950,
+      "crc32": 4052417359,
+      "mtimeNs": 1791623603329328200
+    },
+    {
+      "path": "round-10/recordings/xinjiang-lived-story.mp4",
+      "sha256": "64b418a74ddcbe8df516b1ade7dca9c575d0c44d76774021b01a4e94dc7e0207",
+      "bytes": 62589738,
+      "crc32": 888038666,
+      "mtimeNs": 1791623676014456400
+    },
+    {
+      "path": "round-10/recordings/xinjiang-lived-story.webm",
+      "sha256": "c5944e3a9f65c666dafecd0fefbcb3af00152889c22c431a93ff883954e47797",
+      "bytes": 310425699,
+      "crc32": 3128335442,
+      "mtimeNs": 1791623602656080500
+    },
+    {
+      "path": "round-10/render-recording.py",
+      "sha256": "0686d3b951e4149c499036d896a07d30ad6c43f81efe8e3924e3e0770c842bea",
+      "bytes": 4845,
+      "crc32": 331597442,
+      "mtimeNs": 1791622619207923000
+    },
+    {
+      "path": "round-10/review-lived-video.py",
+      "sha256": "831cc574269c17791b51567898426915f83b12a0f9ab47e2909fd8d532bb04ca",
+      "bytes": 2586,
+      "crc32": 752553798,
+      "mtimeNs": 1791623482284548800
+    },
+    {
+      "path": "round-10/source-before/connections.js",
+      "sha256": "bbc0f8f3669dcfbe0d0f00d083a814f1335cf22ad23c6816587d31e1c4c19337",
+      "bytes": 5944,
+      "crc32": 702351060,
+      "mtimeNs": 1791617217184457500
+    },
+    {
+      "path": "round-10/source-before/explorations.html",
+      "sha256": "f709c955aab9507992d4ee601d76e09b1d50886e844dd589838035892c9ed69f",
+      "bytes": 10028,
+      "crc32": 700887005,
+      "mtimeNs": 1791617833603524200
+    },
+    {
+      "path": "round-10/source-before/film.js",
+      "sha256": "dbe93674ddaaabd114f466b63093d93bd301ef9d74ae86cac61cb7c5c2c4a724",
+      "bytes": 4435,
+      "crc32": 3962237889,
+      "mtimeNs": 1791617077769699900
+    },
+    {
+      "path": "round-10/source-before/index.html",
+      "sha256": "488976acebd812d9be96852542d8345cb6be4c1a995953dfa616f6725cfafcfc",
+      "bytes": 9465,
+      "crc32": 2028523061,
+      "mtimeNs": 1791619452438287200
+    },
+    {
+      "path": "round-10/source-before/journey.js",
+      "sha256": "212489a7338e6b511ca0da36df4350652639485774d8d36e04d72ae7a7a42b83",
+      "bytes": 11900,
+      "crc32": 2614618395,
+      "mtimeNs": 1791617218760336600
+    },
+    {
+      "path": "round-10/source-before/narrative-ui.js",
+      "sha256": "c32878f091fe26d4de018b670b4cba355b23a945fdae5a15f8dffaf34b107f3b",
+      "bytes": 3624,
+      "crc32": 1150650208,
+      "mtimeNs": 1791616817858316600
+    },
+    {
+      "path": "round-10/source-before/sandbox.css",
+      "sha256": "023052614cd82035863109bca46543bc5d3496c4e6fd7807c87071d7b99a509b",
+      "bytes": 36518,
+      "crc32": 3910925742,
+      "mtimeNs": 1791617648889203000
+    },
+    {
+      "path": "round-10/source-before/sandbox.js",
+      "sha256": "ffe3898a488574b854d4363cd25dcd032f542bad9a173893b1d5ec276dba18ec",
+      "bytes": 97553,
+      "crc32": 1854988857,
+      "mtimeNs": 1791618739555645800
+    },
+    {
+      "path": "round-10/source-recorded/capture.js",
+      "sha256": "d375801e3b2513d6a4d796226c1f6633f3f533abfacd866f014e907fa12916ab",
+      "bytes": 4197,
+      "crc32": 2759180440,
+      "mtimeNs": 1791617059222203100
+    },
+    {
+      "path": "round-10/source-recorded/film.js",
+      "sha256": "bc541f657e93eb12e19c1ff2cb58c0b3671e13f440a3178cace8c7e4cbecb800",
+      "bytes": 5360,
+      "crc32": 395506770,
+      "mtimeNs": 1791620888468755400
+    },
+    {
+      "path": "round-10/source-recorded/index.html",
+      "sha256": "5510c273566da8cd50d6aec1fdb28a5c2a0fb0afc06c8de2cde781a1074286e3",
+      "bytes": 9680,
+      "crc32": 1363027244,
+      "mtimeNs": 1791622619202065300
+    },
+    {
+      "path": "round-10/source-recorded/journey.js",
+      "sha256": "3ff9a44aa5dd8ffdc6cb0fdd3b544dc1956969b59eedddd8293a39fe0e79c165",
+      "bytes": 12026,
+      "crc32": 3472858018,
+      "mtimeNs": 1791620828738034400
+    },
+    {
+      "path": "round-10/source-recorded/lived-model.js",
+      "sha256": "4eeb2f3134aa09a1749940ef1c8669b4bf2f57346cfd973b4af149aa89bdaef8",
+      "bytes": 3395,
+      "crc32": 1091682330,
+      "mtimeNs": 1791622618315985800
+    },
+    {
+      "path": "round-10/source-recorded/lived-scenes.js",
+      "sha256": "7eb8ec9dbb44b22e3817dd37fc8796d1db1bc238930dc77ce5762df69ad2d20d",
+      "bytes": 28406,
+      "crc32": 4047417456,
+      "mtimeNs": 1791621339043268800
+    },
+    {
+      "path": "round-10/source-recorded/narrative-ui.js",
+      "sha256": "2dcb50106c750fc566679dff699fa2bdb5f890f25096367a142c38a24c161f75",
+      "bytes": 3628,
+      "crc32": 100945044,
+      "mtimeNs": 1791620711976303500
+    },
+    {
+      "path": "round-10/source-recorded/runtime-equality.json",
+      "sha256": "5491e0000623b5de5202064b9325e8f62e0a48eb18d61e0a4692be18894840fd",
+      "bytes": 530,
+      "crc32": 701778745,
+      "mtimeNs": 1791623502304889900
+    },
+    {
+      "path": "round-10/source-recorded/sandbox.css",
+      "sha256": "96e195561afb8d3dd029f62250147dd9528a0ec6ee19268e6509196545001c9f",
+      "bytes": 39735,
+      "crc32": 2201825216,
+      "mtimeNs": 1791620826497215300
+    },
+    {
+      "path": "round-10/source-recorded/sandbox.js",
+      "sha256": "f8c5a2ed9062dc161ace60f128ada028f9771f49fc0c3db6de91d42c9de6c061",
+      "bytes": 100839,
+      "crc32": 1210257537,
+      "mtimeNs": 1791622618317082500
+    },
+    {
+      "path": "round-10/timeline.json",
+      "sha256": "5a6b5a6fb204cc008bf4c8ad8faa5c727af2cab8a2f68e89965d6cdb027f79c7",
+      "bytes": 30061,
+      "crc32": 1891493045,
+      "mtimeNs": 1791622619399299800
+    },
+    {
+      "path": "round-10/update-documentation.py",
+      "sha256": "c57255cf8b9d1ad6c27722ffced2a0fa58586c131cbab2c243b497324310fb04",
+      "bytes": 10982,
+      "crc32": 2278003919,
+      "mtimeNs": 1791623277336765600
+    },
+    {
+      "path": "round-10/update-narrative.py",
+      "sha256": "23738efffa4fa38f873e5e86ca19b88470b3e821e4aed33915cf5e473c2e327c",
+      "bytes": 4264,
+      "crc32": 3068873697,
+      "mtimeNs": 1791620826657106300
+    },
+    {
+      "path": "round-10/verification.json",
+      "sha256": "63a6edb8f0c6d7d81edab23f0854cdeca9847d5b94a4a5a1c069656e233ac9f1",
+      "bytes": 5875,
+      "crc32": 1898164097,
+      "mtimeNs": 1791623655849331900
+    },
+    {
+      "path": "round-10/verify-build.py",
+      "sha256": "4e774b7c563e6730243c13e9d4d1cff245cfce40a2408e9fc68d0f0071d12a78",
+      "bytes": 2086,
+      "crc32": 1771533263,
+      "mtimeNs": 1791623578917882300
+    },
+    {
+      "path": "round-10/video-frames/final/00-opening.png",
+      "sha256": "0331de9992b95bf06b28bca1e14979e1eb5c9498139826f69ee866c6bfa2184e",
+      "bytes": 426676,
+      "crc32": 1344040651,
+      "mtimeNs": 1791623681455350600
+    },
+    {
+      "path": "round-10/video-frames/final/01-water-inland.png",
+      "sha256": "2f05407233b27eac8a9f28d3334290391f7a5d79942cb47dbbd5b3c0062b1be5",
+      "bytes": 336244,
+      "crc32": 1622137399,
+      "mtimeNs": 1791623681742751500
+    },
+    {
+      "path": "round-10/video-frames/final/02-oasis-dry.png",
+      "sha256": "cff6db307b227b93da6b6e5babb75c9c55ccde0fd2aabeb8397f29ee9a00708c",
+      "bytes": 292131,
+      "crc32": 2839908553,
+      "mtimeNs": 1791623681975369700
+    },
+    {
+      "path": "round-10/video-frames/final/03-exchange-network.png",
+      "sha256": "e0e84f3ec436fed614498f6add5f191d98f2417152ba59a1de3802b6b2817aa4",
+      "bytes": 812699,
+      "crc32": 416832177,
+      "mtimeNs": 1791623682328128400
+    },
+    {
+      "path": "round-10/video-frames/final/04-memory-departure.png",
+      "sha256": "5275ed7bd00b178532bd491f6e1320b23f03e343c71efaaced662c95915a5ba5",
+      "bytes": 266645,
+      "crc32": 2253914451,
+      "mtimeNs": 1791623682557777000
+    },
+    {
+      "path": "round-10/video-frames/final/05-modern-hubs.png",
+      "sha256": "8a4599d61450a92dda5a3aaaba9406e8e1fea807d775df82979d7a2756637aba",
+      "bytes": 334971,
+      "crc32": 2398695914,
+      "mtimeNs": 1791623682817940000
+    },
+    {
+      "path": "round-10/video-frames/final/06-future-landscape.png",
+      "sha256": "b1610a46eb3a5148b3dd1de3a56b4baa62f06fbd058f582af219bbbf9270d8ec",
+      "bytes": 826518,
+      "crc32": 4065634377,
+      "mtimeNs": 1791623683147407300
+    },
+    {
+      "path": "round-10/video-frames/final/07-future-result.png",
+      "sha256": "1ff04f2e998aa7317f8467a2a18f4ba00ce891a331278a315cf1dff85cf63798",
+      "bytes": 209135,
+      "crc32": 2347440482,
+      "mtimeNs": 1791623683368230200
+    },
+    {
+      "path": "round-10/video-frames/final/contact-sheet.jpg",
+      "sha256": "0b1817a0abc1faade2155000ccc3b08e00da5422819c474eabecbe159cefcf94",
+      "bytes": 217146,
+      "crc32": 925743806,
+      "mtimeNs": 1791623683451371000
+    },
+    {
+      "path": "round-10/video-frames/lived/15-lived-cues.jpg",
+      "sha256": "5229b17dcce4e8fa3120df79c6b1f2e4fb2d79b2572ee05f383f947daf016440",
+      "bytes": 464834,
+      "crc32": 3765502257,
+      "mtimeNs": 1791623739767529700
+    },
+    {
+      "path": "round-10/video-frames/lived/decoded-review.json",
+      "sha256": "ee9299ea2bd57febaeaa878e8de884488a5cb8c47fd0df67a69d9d9d0e86af34",
+      "bytes": 3225,
+      "crc32": 4331040,
+      "mtimeNs": 1791623740804533200
+    },
+    {
+      "path": "round-10/video-frames/lived/exchange-city-5s.png",
+      "sha256": "00d6a33ed57158c105732a1932070b9bb6d762b37f1b4ea2a4335c290cf01a7c",
+      "bytes": 607103,
+      "crc32": 4238677965,
+      "mtimeNs": 1791623736668287200
+    },
+    {
+      "path": "round-10/video-frames/lived/exchange-goods-10s.png",
+      "sha256": "be6670c6f3e1734a04ee52068be7f4da1f51e6e3161d923f9000846af0a18867",
+      "bytes": 483676,
+      "crc32": 76686166,
+      "mtimeNs": 1791623739972784200
+    },
+    {
+      "path": "round-10/video-frames/lived/exchange-goods-5s.png",
+      "sha256": "c682cc8875c72f76dc7b382babd3a89183ca1f586fab130f9966de45687d705a",
+      "bytes": 437811,
+      "crc32": 1369978244,
+      "mtimeNs": 1791623736358301900
+    },
+    {
+      "path": "round-10/video-frames/lived/exchange-question-5s.png",
+      "sha256": "1d785ba9e010a52876f024ac9d3bd023eb85064baf509ac73c29645cfef7f0f6",
+      "bytes": 261189,
+      "crc32": 4251929323,
+      "mtimeNs": 1791623736922675900
+    },
+    {
+      "path": "round-10/video-frames/lived/exchange-stops-5s.png",
+      "sha256": "00b0f13ac16b1b743ca0ee50ded9372e1c08406cb68c277ec038b61c3b9dc1d5",
+      "bytes": 334664,
+      "crc32": 1409634906,
+      "mtimeNs": 1791623736100600000
+    },
+    {
+      "path": "round-10/video-frames/lived/future-synthesis-5s.png",
+      "sha256": "2a31b62444de0d97f36de54900200af7a82cdf3f1fdc6469d668ebc0a93b902c",
+      "bytes": 294509,
+      "crc32": 2583722892,
+      "mtimeNs": 1791623739686130300
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-arrival-5s.png",
+      "sha256": "7f664e755dee953eb2a556afd8216db63f59f6059d96688806b1082b0b808138",
+      "bytes": 360799,
+      "crc32": 2288422020,
+      "mtimeNs": 1791623737713937000
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-departure-5s.png",
+      "sha256": "386a1f99ea06448589b4027f94efe24ceb75afc043cd22ed60cd4823a4141254",
+      "bytes": 273474,
+      "crc32": 2126349760,
+      "mtimeNs": 1791623737156397300
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-journey-10s.png",
+      "sha256": "a96e3e2a274dfb52a6d6b1c55b894799eb4d6527dd587cc7fb5c4a5365f780b6",
+      "bytes": 263172,
+      "crc32": 3843931175,
+      "mtimeNs": 1791623740217547500
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-journey-5s.png",
+      "sha256": "bcbe0167f9ab2b88d914e5d7df5c16bce30a3e8d7f82cecb28b96af1900ca1cf",
+      "bytes": 259557,
+      "crc32": 2193821644,
+      "mtimeNs": 1791623737442080300
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-muqam-5s.png",
+      "sha256": "1970f96ba56991d9b8c312ab54775c0a028f2995b6d3b859dcc3a843bc32db3c",
+      "bytes": 370472,
+      "crc32": 1559087241,
+      "mtimeNs": 1791623737949709700
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-practice-10s.png",
+      "sha256": "81bd3a4e8ebeaebcdac72c4c0ed051e1fb7f2b89e77482ccc0fffc688474a2bb",
+      "bytes": 461988,
+      "crc32": 1243430269,
+      "mtimeNs": 1791623740467448900
+    },
+    {
+      "path": "round-10/video-frames/lived/memory-practice-5s.png",
+      "sha256": "e43882988c791bd6dc93cd797587555404415cb98d604d0a90da7b39ef66a5b8",
+      "bytes": 393647,
+      "crc32": 3776938756,
+      "mtimeNs": 1791623738239956100
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-hubs-5s.png",
+      "sha256": "b8cd5df5dd56291dac499550b93f097ce142c3aef92fd3312039b1ec515d5426",
+      "bytes": 332177,
+      "crc32": 3488088537,
+      "mtimeNs": 1791623738505864700
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-kashgar-5s.png",
+      "sha256": "dda94f18af0c5bdd9d973a579f5a51d2551a62436fc6f94d046809f19421d39c",
+      "bytes": 400204,
+      "crc32": 2579511279,
+      "mtimeNs": 1791623738960686600
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-limit-5s.png",
+      "sha256": "74c26431edd1b430f0dd4be3b14aa0a78370633b09d5e26f0a9bc3643f099cde",
+      "bytes": 355472,
+      "crc32": 1653203072,
+      "mtimeNs": 1791623739465809600
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-rules-10s.png",
+      "sha256": "da2c0271fad0027295d545976532194a36d933ecde8190139505c89ddd9f813b",
+      "bytes": 543264,
+      "crc32": 1064352480,
+      "mtimeNs": 1791623740723053900
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-rules-5s.png",
+      "sha256": "ee520b30f9f9249c916ef6578c3d0b3bb13ec97dbacb48bd64f0513bc2552d4b",
+      "bytes": 519595,
+      "crc32": 3851323177,
+      "mtimeNs": 1791623739233918100
+    },
+    {
+      "path": "round-10/video-frames/lived/modern-urumqi-5s.png",
+      "sha256": "fa938dd1138b84eb0454f8972cb3afec3a82b1dbbfbec4445274aff110350522",
+      "bytes": 412718,
+      "crc32": 3236653922,
+      "mtimeNs": 1791623738745943000
+    },
+    {
+      "path": "round-10/write-timeline.mjs",
+      "sha256": "e2ed612961147d1d553fd7b62ea5177e5ef86d81f84a8524e85864b2609bae66",
+      "bytes": 842,
+      "crc32": 1719940903,
+      "mtimeNs": 1791622618317617800
+    }
+  ],
+  "archives": []
+}

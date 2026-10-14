@@ -1,0 +1,18 @@
+{
+  "url": "https://geo.datav.aliyun.com/areas_v3/bound/650000.json",
+  "retrieved": "2026-10-12",
+  "sha256": "5082287d7b0b1a01582560f8381854960484498f9ba45a763b8b5f388c516afc",
+  "encoding": "utf-8",
+  "inputPoints": 1220,
+  "outputPoints": 363,
+  "simplificationToleranceDegrees": 0.035,
+  "license": "Dataset license not stated by endpoint; no upstream source code imported.",
+  "demBounds": [
+    73,
+    35,
+    96,
+    49
+  ],
+  "displayLimitation": "Boundary beyond DEM extent is shown as dashed positioning segment; elevations there are not interpolated or fabricated.",
+  "coordinateSystem": "Not independently verified; regional display and positioning only."
+}

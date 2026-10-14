@@ -1,0 +1,21 @@
+{
+  "reviewed": true,
+  "actualVideoSeconds": 631.054333,
+  "images": [
+    "complete-story-contact-sheet.jpg",
+    "physical-details-comparison.jpg",
+    "terrain-arrival-contact-sheet.jpg",
+    "video-frames/culture-hand-response.jpg"
+  ],
+  "observations": [
+    "地球、区域、近景地形、人物活动与回到地球均出现在实际完整影片中。",
+    "三个真实地形窗口保留区域定位、网格展开和抵达的连续帧；19次飞行都有抵达记录。",
+    "集市出现木格、折布与下垂遮布；家庭与庭院继续保留双手交接与学习回应。",
+    "庭院拍点实际帧的标记指向具体练习器物，另一实际帧指向学习者；两帧均保留。"
+  ],
+  "limits": [
+    "地形纹理与照明变化较细微，原始10米影像和高程精度没有增加。",
+    "人物、服装、庭院和动作仍是原创教学风格，不是文化实物或表演复原。",
+    "本轮交付画面；12条新的空间导览旁白仍按用户要求待补。"
+  ]
+}

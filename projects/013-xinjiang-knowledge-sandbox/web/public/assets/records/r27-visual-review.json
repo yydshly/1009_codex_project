@@ -1,0 +1,88 @@
+{
+  "framesExtracted": true,
+  "reviewStatus": "reviewed",
+  "frames": [
+    {
+      "cue": "region-structure",
+      "second": 28.9565,
+      "title": "新疆整体",
+      "before": "process/round-26/after/01-map.png",
+      "after": "after/region-structure.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "water-valley",
+      "second": 159.52759999996422,
+      "title": "供水之后：物品与补给",
+      "before": "process/round-26/after/02-water.png",
+      "after": "after/water-valley.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "exchange-city",
+      "second": 271.8111999999881,
+      "title": "商旅离开：长期安顿的问题",
+      "before": "process/round-26/after/03-market.png",
+      "after": "after/exchange-city.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "exchange-question",
+      "second": 287.40639999997614,
+      "title": "先定位伊犁，再转换年代",
+      "before": "process/round-26/after/03-market.png",
+      "after": "after/exchange-question.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "memory-muqam",
+      "second": 382.5011999999881,
+      "title": "代际接续：进入另一社区",
+      "before": "process/round-26/after/04-family.png",
+      "after": "after/memory-muqam.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "modern-hubs",
+      "second": 441.35709999996425,
+      "title": "参与与回应：公共空间",
+      "before": "process/round-26/after/05-courtyard.png",
+      "after": "after/modern-hubs.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "future-landscape",
+      "second": 550.4735,
+      "title": "留在关口：未尽的需要",
+      "before": "process/round-26/after/06-gate.png",
+      "after": "after/future-landscape.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "future-evidence",
+      "second": 574.1778999999761,
+      "title": "回收实际选择与下一步问题",
+      "before": "process/round-26/after/07-return.png",
+      "after": "after/future-evidence.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    },
+    {
+      "cue": "future-synthesis",
+      "second": 592.1088000000119,
+      "title": "带着观察，回到新疆",
+      "before": "process/round-26/after/07-return.png",
+      "after": "after/future-synthesis.jpg",
+      "purpose": "Different narrative locations/times are identified; these are explanatory comparisons, not synchronized identical shots."
+    }
+  ],
+  "method": "Actual final video frames, no texture enhancement. Previous R26 full-player screenshots are reference evidence at their independently recorded times.",
+  "findings": [
+    "实际影片可见供水后的出发、集市接收者与商旅、伊犁地图入口及1764年转换、哈密独立社区入口、庭院问题进入公共协作、关口选择后的保留与五处回望。",
+    "完整播放日志中五项实际观察均 complete=true；默认演示分别选择家门优先、织物、家书、先观察再参与、轮换通行。",
+    "关口手动货运分支保留集中转运，后续标记居民缓冲和连续绿带的缺口。"
+  ],
+  "limits": [
+    "全景中的三维记录标牌较小，主要结论仍由镜头标记和语音协同承担；人物仍是简化模型。",
+    "R26截图包含总览播放器界面，R27帧为实际影片本身；对比不声称同一镜头同步、资产精度提高或主观声音验收。"
+  ]
+}

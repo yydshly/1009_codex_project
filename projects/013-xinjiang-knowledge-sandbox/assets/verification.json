@@ -1,0 +1,128 @@
+{
+  "checkedAt": "2026-10-10T01:32:15.867Z",
+  "story": "本地页面 → Three.js 与已打包 NASA 影像 / DEM → 五个三维场景 → 地点、参数和讲解联动",
+  "httpStatus": 200,
+  "browserErrors": [],
+  "uiChecks": [
+    {
+      "name": "局部高度调节",
+      "output": "1×"
+    },
+    {
+      "name": "关闭地点标记",
+      "visiblePins": 0
+    },
+    {
+      "name": "来源面板",
+      "expanded": "true"
+    },
+    {
+      "name": "开始路线播放",
+      "text": "Ⅱ 暂停行程"
+    },
+    {
+      "name": "路线进度跳转",
+      "output": "0%"
+    },
+    {
+      "name": "水流强度与暂停",
+      "output": "0%",
+      "play": "▷ 播放水流"
+    },
+    {
+      "name": "开启剖面与播放水流",
+      "checked": true,
+      "output": "100%"
+    },
+    {
+      "name": "终点联动",
+      "station": "05 / 喀什",
+      "place": "喀什"
+    },
+    {
+      "name": "路线暂停",
+      "progress": "4%",
+      "play": "▷ 播放行程"
+    },
+    {
+      "name": "暂停后保持进度",
+      "before": "4%",
+      "after": "4%"
+    },
+    {
+      "name": "西风图层",
+      "checked": true
+    },
+    {
+      "name": "自动旋转",
+      "pressed": "true"
+    },
+    {
+      "name": "页面全屏视图",
+      "className": "viewport focus-mode",
+      "pressed": "true"
+    },
+    {
+      "name": "致谢链接",
+      "href": "./ATTRIBUTION.md"
+    },
+    {
+      "name": "区域地点说明",
+      "title": "乌鲁木齐",
+      "coordinates": "43.82°N / 87.62°E · DEM ≈ 882 m"
+    },
+    {
+      "name": "手机布局",
+      "widths": [
+        390,
+        390
+      ],
+      "scene": "earth"
+    },
+    {
+      "name": "窄屏原理模型",
+      "widths": [
+        390,
+        390
+      ],
+      "controls": "坎儿井 · 结构示意\n动画模型 / 非水文模拟\n打开剖面\n来水强度\n65%\nⅡ 暂停水流"
+    },
+    {
+      "name": "总库到沙盘",
+      "url": "http://127.0.0.1:4313/1009_codex_project/013-xinjiang-knowledge-sandbox/",
+      "scene": "earth"
+    },
+    {
+      "name": "保留原研究页",
+      "title": "新疆互动沙盘 · 013 能力研究"
+    }
+  ],
+  "checks": {
+    "cleanInstall": "npm ci passed; 2 packages audited, 0 vulnerabilities",
+    "webCheck": "5 scenes, 2 DEMs, hashes, coordinate sampling and physical units passed",
+    "rootCheck": "13 project IDs / paths / previews / index passed",
+    "pagesBuild": "12 local web projects bundled; selected 013 output files byte-for-byte equal to verified source"
+  },
+  "screenshots": [
+    "preview.png",
+    "terrain.png",
+    "tianchi.png",
+    "history.png",
+    "karez.png",
+    "mobile.png"
+  ],
+  "resolvedIssues": [
+    "Scene click handler scoped to chapter navigation; location cards and sliders no longer retrigger the scene.",
+    "Local terrain focused on Tianchi; lake footprint remains a separate schematic.",
+    "Cutaway faces and visible water particles added to the procedural karez.",
+    "In-page focus view used for fullscreen compatibility.",
+    "Research-page return link remains visible at narrow widths."
+  ],
+  "limitations": [
+    "Independent prototype; original application source and licence remain unverified.",
+    "DEM resampled and displayed with exaggerated relief; no surveying accuracy claim.",
+    "Lake footprint, historical corridor and karez animation are schematic.",
+    "No complete narration course or hydrological solver.",
+    "Pages build verified locally; not deployed remotely."
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "round": "round-48",
+  "retainedPaths": 601,
+  "newObjects": 56,
+  "newBytes": 2557047,
+  "verifiedDistinctNewReferences": 57,
+  "allNewHashesPass": true,
+  "previewAndRecordsShareOriginalFile": true,
+  "oldMediaPathsUnchanged": 59,
+  "earthImageUnchanged": true,
+  "historicalVideoBytesCopied": 0,
+  "http": {
+    "assets/records/round-48.md": 200,
+    "assets/records/round-48.json": 200,
+    "assets/map-learning-sources.json": 200,
+    "assets/process/r48-map.png": 200
+  },
+  "sourceUnchangedPaths": 538
+}

@@ -1,0 +1,25 @@
+{
+  "edition": "R66",
+  "dataset": "Natural Earth Admin 0 countries and land boundaries, 1:50m",
+  "countriesVersion": "5.1.1",
+  "boundariesVersion": "5.1.0",
+  "license": "Public domain",
+  "licenseUrl": "https://www.naturalearthdata.com/about/terms-of-use/",
+  "sourceUrl": "https://www.naturalearthdata.com/downloads/50m-cultural-vectors/50m-admin-0-countries-2/",
+  "downloadRoot": "https://raw.githubusercontent.com/nvkelso/natural-earth-vector/master/geojson/",
+  "retrieved": "2026-10-13",
+  "features": 242,
+  "sha256": "3e458fc036ad0a66411f2c1e6cac49c5d7bfb81cb1123bc513b22511a2b7fdeb",
+  "landSha256": "2faac4f6b34386f3d21b6e018cf151f241f00e5c936d44dd17d7d9bfb147fa48",
+  "preparation": "Simplify polygons 0.025° with topology preserved per polygon, round to 3 decimal places; no runtime requests.",
+  "scope": "Modern country/territory geographic reference; Natural Earth default de facto geometry, not historical borders or a cadastral/official standard map. Disputed/indefinite land lines retain a dashed overlay.",
+  "displayAliases": {
+    "CHN": "中国",
+    "TWN": "台湾",
+    "USA": "美国",
+    "GBR": "英国",
+    "PRK": "朝鲜",
+    "KOR": "韩国"
+  },
+  "labelAdjustment": "Russia label moved to 94E 57N so its Asian extent stays labelled in the Xinjiang entry; country anchor points are labels, not capitals."
+}

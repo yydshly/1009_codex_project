@@ -1,0 +1,435 @@
+{
+  "version": "R57",
+  "provider": "MiniMax",
+  "model": "speech-2.8-hd",
+  "voice_id": "Chinese (Mandarin)_Gentleman",
+  "generatedAt": "2026-10-13T04:29:06.358Z",
+  "policy": "原创普通话合成故事讲解；不是历史引语、现场录音或真实人物模仿。",
+  "clips": [
+    {
+      "id": "zhang-background",
+      "event": "zhang",
+      "beat": "background",
+      "file": "zhang-background.mp3",
+      "text": "公元前一百三十八年，汉武帝派张骞前往西域，希望联合大月氏对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。接下来，我们看这项外交任务怎样走向更广泛的往来。",
+      "duration": 19.98,
+      "sha256": "f5aceda79752aad863e8d50381c2dda0bce31274cddfa9ee28d00f8abb9f320d",
+      "bytes": 321396,
+      "requestHash": "82f1009d22c5def2e16c8e1d1cb65b4521155b5ca9aa5694cf7527303daa53dd",
+      "sourceSHA256": "9c43c45bbc3699f44be995b64f87900fd0d4aa70f0f542fe03599f43ddb053ca",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "公元前一百三十八年，汉武帝派张骞前往西域，希望联合大月氏对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。",
+          "pronounce_text": "公元前一百三十八年，汉武帝派ㄓㄤˉㄑㄧㄢˉ前往西域，希望联合ㄉㄚˋㄩㄝˋㄓˉ对抗匈奴。先把目光放到欧亚大陆：山地、盆地与荒漠，把遥远的地方分隔开来。要建立联系，首先要面对远行。",
+          "time_begin": 0,
+          "time_end": 15608.29931972789,
+          "text_begin": 0,
+          "text_end": 78,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 88
+        },
+        {
+          "text": "接下来，我们看这项外交任务怎样走向更广泛的往来。",
+          "pronounce_text": "接下来，我们看这项外交任务怎样走向更广泛的往来。",
+          "time_begin": 15768,
+          "time_end": 19801.15192743764,
+          "text_begin": 78,
+          "text_end": 102,
+          "pronounce_text_begin": 88,
+          "pronounce_text_end": 112
+        }
+      ]
+    },
+    {
+      "id": "zhang-process",
+      "event": "zhang",
+      "beat": "process",
+      "file": "zhang-process.mp3",
+      "text": "张骞历经艰难抵达大月氏，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。它帮助我们理解地域关系，而不是复走某一次出使。",
+      "duration": 19.368,
+      "sha256": "03b88928fb16a68225c37c1892f641892feaf9d7b734a0105d7c5d2af2806236",
+      "bytes": 311604,
+      "requestHash": "dbb6e5005c3662ffbfa1e4d48f15ce21ce3f28492688953f4ec99cccd3f05fbe",
+      "sourceSHA256": "5bc4bbbaffe31a5fed84ecebca21776d7c112bd3aafca3266ce5811fe227f745",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "张骞历经艰难抵达大月氏，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。",
+          "pronounce_text": "ㄓㄤˉㄑㄧㄢˉ历经艰难抵达ㄉㄚˋㄩㄝˋㄓˉ，却没有促成最初希望的联盟。出使的意义并未停在这里。此后，他再次出使，使节往来继续展开，汉朝与西域之间的联系增加。画面用金线表达这种联系的展开。",
+          "time_begin": 0,
+          "time_end": 15480.589569160997,
+          "text_begin": 0,
+          "text_end": 83,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 93
+        },
+        {
+          "text": "它帮助我们理解地域关系，而不是复走某一次出使。",
+          "pronounce_text": "它帮助我们理解地域关系，而不是复走某一次出使。",
+          "time_begin": 15624,
+          "time_end": 19169.532879818595,
+          "text_begin": 83,
+          "text_end": 106,
+          "pronounce_text_begin": 93,
+          "pronounce_text_end": 116
+        }
+      ]
+    },
+    {
+      "id": "zhang-impact",
+      "event": "zhang",
+      "beat": "impact",
+      "file": "zhang-impact.mp3",
+      "text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+      "duration": 20.52,
+      "sha256": "1efb13b647dd9a077c770b5e3c41d3231a5969c076a3284f56a623a2999c0b80",
+      "bytes": 330036,
+      "requestHash": "a239543149038a4e5e533e803b0fdc8b8c956836fe0b4174d97a9f1660f672ff",
+      "sourceSHA256": "2eff1fe72c70de69b842d73048e80865b0f3143af604e821c26a94399d44fa5a",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。",
+          "pronounce_text": "随着长期往来，丝路形成多条相互联系的线路。沿途城镇提供停留和补给，流动的也不只有货物，还有知识与生活经验。",
+          "time_begin": 0,
+          "time_end": 10604.399092970523,
+          "text_begin": 0,
+          "text_end": 53,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 53
+        },
+        {
+          "text": "现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+          "pronounce_text": "现在把视线移到盆地西侧的喀什，用一个跨时期集市情境继续追问：谁需要这些货物，接手之后，生活发生了什么变化？",
+          "time_begin": 10764,
+          "time_end": 20335.11111111111,
+          "text_begin": 53,
+          "text_end": 106,
+          "pronounce_text_begin": 53,
+          "pronounce_text_end": 106
+        }
+      ]
+    },
+    {
+      "id": "protectorate-background",
+      "event": "protectorate",
+      "beat": "background",
+      "file": "protectorate-background.mp3",
+      "text": "把目光移到天山南侧、塔里木盆地北缘。在西域都护设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？先看清聚落，再观察下一幕的变化。",
+      "duration": 20.196,
+      "sha256": "c681e96b99d819f5acecc6820d72e97cb29fa4dc333c13a71473c7e12e6a4cb4",
+      "bytes": 324852,
+      "requestHash": "7ac7ccb593f4bb25c5ba808115727f502fbc73dea5a269601b670025026ceb5f",
+      "sourceSHA256": "b9882f6d3aa79cacc3e2f1ac64509cfa2b6cf6d3eb785e21aedb33f9f3c490a5",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "把目光移到天山南侧、塔里木盆地北缘。在西域都护设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。",
+          "pronounce_text": "把目光移到天山南侧、塔里木盆地北缘。在西域ㄉㄨˉㄏㄨˋ设立以前，这里已经有人群活动和聚落。灰色房屋代表这个先在的地方世界。",
+          "time_begin": 0,
+          "time_end": 10766.938775510205,
+          "text_begin": 0,
+          "text_end": 57,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 61
+        },
+        {
+          "text": "我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？",
+          "pronounce_text": "我们的故事从这里开始：一个新的机构，将怎样进入已有的地方联系？",
+          "time_begin": 10966.938775510205,
+          "time_end": 16729.97732426304,
+          "text_begin": 57,
+          "text_end": 88,
+          "pronounce_text_begin": 61,
+          "pronounce_text_end": 92
+        },
+        {
+          "text": "先看清聚落，再观察下一幕的变化。",
+          "pronounce_text": "先看清聚落，再观察下一幕的变化。",
+          "time_begin": 16884,
+          "time_end": 20023.183673469386,
+          "text_begin": 88,
+          "text_end": 104,
+          "pronounce_text_begin": 92,
+          "pronounce_text_end": 108
+        }
+      ]
+    },
+    {
+      "id": "protectorate-process",
+      "event": "protectorate",
+      "beat": "process",
+      "file": "protectorate-process.mp3",
+      "text": "公元前六十年，西汉设立西域都护，治所在乌垒。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。乌垒的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+      "duration": 20.916,
+      "sha256": "fa61d619f2f118504aac93ca426911aa42f42a5a54c26f4f2392d63d42062ec8",
+      "bytes": 336372,
+      "requestHash": "693e255469e53b07f04e8beb38ad0853bd640e4ff2e919378e23189537f61980",
+      "sourceSHA256": "354f8a10f94eba2a56ba58ac2cd5b7bbd9c6cefbe53273f8831a24669eb52f82",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "公元前六十年，西汉设立西域都护，治所在乌垒。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。",
+          "pronounce_text": "公元前六十年，西汉设立西域ㄉㄨˉㄏㄨˋ，治所在ㄨˉㄌㄟˇ。画面中的机构符号开始出现，周边聚落仍然保留。这一变化要表达的，是机构与地方开始放在同一幅关系图里。",
+          "time_begin": 0,
+          "time_end": 14296.371882086169,
+          "text_begin": 0,
+          "text_end": 71,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 78
+        },
+        {
+          "text": "乌垒的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+          "pronounce_text": "ㄨˉㄌㄟˇ的准确城址仍在考古研究中，因此我们先以轮台地区帮助建立方位。",
+          "time_begin": 14436,
+          "time_end": 20733.097505668935,
+          "text_begin": 71,
+          "text_end": 103,
+          "pronounce_text_begin": 78,
+          "pronounce_text_end": 113
+        }
+      ]
+    },
+    {
+      "id": "protectorate-impact",
+      "event": "protectorate",
+      "beat": "impact",
+      "file": "protectorate-impact.mp3",
+      "text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+      "duration": 22.536,
+      "sha256": "1b24044f48a0c7808a69dc670d36ffbba2dd7d8a46181b577f7e75f12d12ab08",
+      "bytes": 362292,
+      "requestHash": "537af47f332be3b0e190b24c952eb90971f3f5dd98f90f17150ee694876ade6c",
+      "sourceSHA256": "e4bc8e1a445ddf7c363d945111854714130b5f332d8bc2a34d94deeaf0ef989b",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。",
+          "pronounce_text": "机构的意义，需要连同周边地方一起理解。青色线条把这些关系显现出来，让我们从一个中心转向一组联系。",
+          "time_begin": 0,
+          "time_end": 9373.741496598639,
+          "text_begin": 0,
+          "text_end": 48,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 48
+        },
+        {
+          "text": "下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。",
+          "pronounce_text": "下一步靠近轮台地区，再进入抽象结构，观察外部、入口、通道与内部怎样连接。",
+          "time_begin": 9573.741496598639,
+          "time_end": 17345.30612244898,
+          "text_begin": 48,
+          "text_end": 84,
+          "pronounce_text_begin": 48,
+          "pronounce_text_end": 84
+        },
+        {
+          "text": "空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+          "pronounce_text": "空间观察帮助提出问题，历史职能仍要回到资料中理解。",
+          "time_begin": 17496,
+          "time_end": 22353.460317460318,
+          "text_begin": 84,
+          "text_end": 109,
+          "pronounce_text_begin": 84,
+          "pronounce_text_end": 109
+        }
+      ]
+    },
+    {
+      "id": "xibe-background",
+      "event": "xibe",
+      "beat": "background",
+      "file": "xibe-background.mp3",
+      "text": "一七六四年，清政府为加强伊犁地区防务，调遣锡伯官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+      "duration": 22.536,
+      "sha256": "de08eeec649c016fa56a228e0048e14ae1cabc2ebbb33ec53e52acd2a6058e0e",
+      "bytes": 362292,
+      "requestHash": "bf8ee2780e8b20875721849db7613de287ecae3a61c11fbfb75a6962903711ff",
+      "sourceSHA256": "b87da90f24c3d28ad58b8e02586cbeb62fe793ac27c3889580f378e566821be0",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "一七六四年，清政府为加强伊犁地区防务，调遣锡伯官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。",
+          "pronounce_text": "一七六四年，清政府为加强伊犁地区防务，调遣ㄒㄧˉㄅㄛˊ官兵及家属西迁。把盛京方向与伊犁同时放在地球上，我们才看得见这次远行的尺度。",
+          "time_begin": 0,
+          "time_end": 12775.464852607709,
+          "text_begin": 0,
+          "text_end": 61,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 65
+        },
+        {
+          "text": "对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+          "pronounce_text": "对官兵与家属来说，任务连着生活：抵达以后，住在哪里，又怎样维持日常？这些问题将带我们进入河谷。",
+          "time_begin": 12924,
+          "time_end": 22332.571428571428,
+          "text_begin": 61,
+          "text_end": 108,
+          "pronounce_text_begin": 65,
+          "pronounce_text_end": 112
+        }
+      ]
+    },
+    {
+      "id": "xibe-process",
+      "event": "xibe",
+      "beat": "process",
+      "file": "xibe-process.mp3",
+      "text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往察布查尔安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+      "duration": 20.448,
+      "sha256": "ef75b9211bd29823e6203dabd3d311eb44849b3e3c91f1fb1575ca501bb426e7",
+      "bytes": 328884,
+      "requestHash": "1cb2efe70d8cd478c624b368fc01c4d5a4fe8224cdcf0aba6c607dc540a6d945",
+      "sourceSHA256": "5820d88c87cce24800c1f9ea963ba9837117b918220eee042890462cf02542d3",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往察布查尔安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。",
+          "pronounce_text": "西迁官兵与家属在一七六五年抵达伊犁，次年春天迁往ㄔㄚˊㄅㄨˋㄔㄚˊㄦˇ安置。跟随方向线，我们先看远行怎样抵达河谷，再靠近新的生活地点。两步发生在不同时间。",
+          "time_begin": 0,
+          "time_end": 13309.52380952381,
+          "text_begin": 0,
+          "text_end": 70,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 77
+        },
+        {
+          "text": "地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+          "pronounce_text": "地图上的终点逐渐成为住处与生产的起点，问题也从怎样到达，转成怎样安顿。",
+          "time_begin": 13464,
+          "time_end": 20248.71655328798,
+          "text_begin": 70,
+          "text_end": 105,
+          "pronounce_text_begin": 77,
+          "pronounce_text_end": 112
+        }
+      ]
+    },
+    {
+      "id": "xibe-impact",
+      "event": "xibe",
+      "beat": "impact",
+      "file": "xibe-impact.mp3",
+      "text": "安置以后，住处、用水与生产成为延续生活的具体条件。察布查尔的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+      "duration": 19.224,
+      "sha256": "f01c619d1dc3f8f1673cd5836f844236b0c68ed2c8229a232f16d3e6f84e60e0",
+      "bytes": 309300,
+      "requestHash": "e82fb7add86fb445477ac78ae7f370589b801583570fbbb59c8dce6272c9b212",
+      "sourceSHA256": "af824b2f260381a863444f9f645db0e409e84bae5e69d606f9b80a9e7da7ef85",
+      "model": "speech-2.8-hd",
+      "voice_id": "Chinese (Mandarin)_Gentleman",
+      "speed": 1.04,
+      "sampleRate": 32000,
+      "channels": 1,
+      "normalization": {
+        "method": "two-pass",
+        "integratedLUFS": -18,
+        "truePeakDBTP": -1.5,
+        "rangeLU": 7
+      },
+      "subtitles": [
+        {
+          "text": "安置以后，住处、用水与生产成为延续生活的具体条件。察布查尔的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。",
+          "pronounce_text": "安置以后，住处、用水与生产成为延续生活的具体条件。ㄔㄚˊㄅㄨˋㄔㄚˊㄦˇ的住房先出现，后来的修渠和开垦再逐步显现。接下来进入原创家庭情境，你可以先照顾住处，也可以先关注用水。",
+          "time_begin": 0,
+          "time_end": 14412.471655328798,
+          "text_begin": 0,
+          "text_end": 80,
+          "pronounce_text_begin": 0,
+          "pronounce_text_end": 87
+        },
+        {
+          "text": "观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+          "pronounce_text": "观察不同选择带来什么回应，再把家庭的需要放回河谷与历史中。",
+          "time_begin": 14580,
+          "time_end": 19031.11111111111,
+          "text_begin": 80,
+          "text_end": 109,
+          "pronounce_text_begin": 87,
+          "pronounce_text_end": 116
+        }
+      ]
+    }
+  ]
+}

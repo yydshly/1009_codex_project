@@ -1,0 +1,21 @@
+{
+  "edition": "R49",
+  "reference": {
+    "url": "https://x.com/readyfor2025/status/2108409664018977249",
+    "localMedia": "./assets/media/reference-original.mp4",
+    "reviewedFrames": [2, 10, 18],
+    "scope": "本轮对照已有原片的入口、地球模型、西风示意和转入地形的抽帧；没有原产品可操作地址，不推断不可见能力。X页面抓取403，沿用已保存的原片。"
+  },
+  "imagery": "复用NASA Blue Marble 2004年6月影像。地球为球体，不是全球实测高程；入口提高暗部可读性，不表现实时昼夜。",
+  "climate": {
+    "source": "https://html.rhhz.net/qxxb_cn/html/2019040.htm",
+    "sourceScope": "2019年气象学报研究2013年阿克苏一次降水，说明环流、水汽输送、山地河谷与局地过程的作用。本库不将该个例当作全年或全疆统一气候。",
+    "representation": "三条青色球面带为作者绘制的西侧来流方向。位置、宽度、播放速度和进程都不是实测气团或天气模拟；不把大西洋视为唯一水汽源。"
+  },
+  "exchange": {
+    "source": "https://whc.unesco.org/en/list/1442/",
+    "representation": "两条金色联系线串联现代近似地域参照，帮助理解多通道与补给问题；不是UNESCO线路的测绘，也不是张骞出使行程或某个年代的丝路地图。"
+  },
+  "coordinates": "赤道、乌鲁木齐约43.82°N与87.62°E用于球面定位。35°—49°N淡金带是纬度观察带，不是新疆行政区范围或气候分区。",
+  "limits": ["没有新增全球连续地形LOD", "未新增旁白或配音", "未新增真实天气数据", "原地球六主题、地图、历史事件与人物模型继续保留"]
+}

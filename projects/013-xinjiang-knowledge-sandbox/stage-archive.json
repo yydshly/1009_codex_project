@@ -1,0 +1,68 @@
+{
+  "schemaVersion": 1,
+  "stage": "exploration-prototype",
+  "status": "archived",
+  "archivedAt": "2026-10-14",
+  "runtimeBaseline": "round-90",
+  "reviewSnapshot": "round-91",
+  "gitCheckpointTag": "xinjiang-stage-r90",
+  "project": {
+    "id": "013",
+    "slug": "xinjiang-knowledge-sandbox",
+    "title": "新疆互动沙盘：地理、历史与多尺度知识展示",
+    "summary": "阶段探索已归档：保留R90四主题52幕、自由操作、讲解字幕和观察记录；R91总结多尺度地图、真实故事与人物行动的缺口，形成后续设计和验收依据。过程素材按内容共享保存。",
+    "source": "https://x.com/readyfor2025/status/2108409664018977249",
+    "sourceRef": "",
+    "status": "archived",
+    "tags": [
+      "Three.js",
+      "真实DEM",
+      "地理可视化",
+      "历史路线",
+      "教学模型"
+    ],
+    "addedAt": "2026-10-09",
+    "preview": "assets/preview-r90.png",
+    "previewCaption": "R90实际3D网页：张骞、都护、西迁与一号冰川四个导演主题，恢复记录后选中对应主题，讲解与字幕随模型推进。",
+    "demoUrl": "",
+    "pagesDir": "web/public",
+    "sourceType": "demonstration"
+  },
+  "capabilities": {
+    "directorThemes": [
+      "zhang",
+      "protectorate",
+      "xibe",
+      "glacier"
+    ],
+    "directorShots": 52,
+    "workspaceScenes": 15,
+    "independentDirectorCoverage": "four themes; other retained scenes are not all independently directed"
+  },
+  "runtimeBaselineManifest": {
+    "path": "process/round-90/retention.json",
+    "sha256": "a15d62a5c4a29833be88ae818db08620b1ecb94d1e3b1bec1d82b2e1d956df97"
+  },
+  "reflection": "web/public/assets/records/stage-retrospective.md",
+  "overview": "web/public/overview.html#stage-review",
+  "priorVerification": [
+    "process/round-90/README.md",
+    "process/round-88/README.md"
+  ],
+  "nextDesign": [
+    "source-backed event nodes",
+    "regional and county or historical settlement maps",
+    "geography and action causality",
+    "returnable place and model exploration"
+  ],
+  "gitScope": "This subproject only; unrelated pending hub changes are not included.",
+  "localRetention": {
+    "path": "process/.store/",
+    "manifestPattern": "process/round-*/retention.json",
+    "policy": "SHA-256 incremental, immutable; preserve all earlier evidence",
+    "fullRecoveryNeedsLocalObjects": true
+  },
+  "personalObservations": "Browser-local; export platform configuration separately when moving machines.",
+  "publication": "Local checkpoint only; no remote push or deployment.",
+  "readableReview": "web/public/stage-review.html"
+}

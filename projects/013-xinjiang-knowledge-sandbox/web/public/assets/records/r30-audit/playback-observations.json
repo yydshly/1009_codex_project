@@ -1,0 +1,50 @@
+{
+  "date": "2026-10-12",
+  "method": "Background native HTML video playback from the start without seeks; checkpoint DOM time read immediately before UI screenshot. Screenshot video frame can differ slightly from DOM time; fresh FFmpeg frame-index gives exact extraction points.",
+  "reference": {
+    "duration": 125.133333,
+    "observedSeconds": [
+      0,
+      18.882328,
+      47.407597,
+      73.843342,
+      95.57625,
+      118.487381,
+      125.133333
+    ],
+    "ended": true
+  },
+  "current": {
+    "version": "R29",
+    "duration": 642.681867,
+    "observedSeconds": [
+      0,
+      51.926419,
+      111.453223,
+      269.13375,
+      405.605349,
+      506.946557,
+      560.299842,
+      592.990362,
+      642.681867
+    ],
+    "ended": true
+  },
+  "subjectiveListeningAcceptance": false,
+  "screenshots": [
+    "01-reference-000-entry.png",
+    "02-reference-019-section.png",
+    "03-reference-047-regional.png",
+    "04-reference-074-regional.png",
+    "05-reference-096-history.png",
+    "06-reference-118-lake.png",
+    "07-current-000-entry.png",
+    "08-current-052-region.png",
+    "09-current-111-water.png",
+    "10-current-269-market.png",
+    "11-current-406-culture-location.png",
+    "12-current-560-gate.png",
+    "13-current-643-end.png"
+  ],
+  "actualFrameCount": 32
+}

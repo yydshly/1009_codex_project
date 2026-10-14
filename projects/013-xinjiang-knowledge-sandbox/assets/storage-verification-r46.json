@@ -1,0 +1,17 @@
+{
+  "round": "round-46",
+  "pass": true,
+  "retainedPaths": 580,
+  "newlyReferencedHashesVerified": 58,
+  "newObjects": 58,
+  "newBytes": 3024799,
+  "unchangedSourcePaths": 516,
+  "sharedPreviewLinks": {
+    "market": true,
+    "family": true,
+    "courtyard": true,
+    "gate": true,
+    "rootPreview": true
+  },
+  "oldVideoBytesCopied": 0
+}

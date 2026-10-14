@@ -1,0 +1,702 @@
+{
+  "schemaVersion": 1,
+  "id": "round-05",
+  "kind": "process-snapshot",
+  "createdAt": "2026-10-11T11:41:58.379929+00:00",
+  "files": [
+    {
+      "path": "round-05/README.md",
+      "sha256": "bbe65a0741068f8a32ec354196b711a4ba6d9d9082549827d85f2ae27531aad3",
+      "bytes": 7123,
+      "crc32": 3068736648,
+      "mtimeNs": 1791608206304710500
+    },
+    {
+      "path": "round-05/after/blend-karez-warm.png",
+      "sha256": "0d0eb71b5e1792a37d03e9f2ad46181d104f570b72e0bf23aca76ae6c76dca36",
+      "bytes": 81374,
+      "crc32": 1018133859,
+      "mtimeNs": 1791607352605134400
+    },
+    {
+      "path": "round-05/after/blend-karez.png",
+      "sha256": "7be3652423a507f5665115478916863efb03bfe7f34e9a8a634d823b2e772f59",
+      "bytes": 69774,
+      "crc32": 407142027,
+      "mtimeNs": 1791607166731919700
+    },
+    {
+      "path": "round-05/after/blend-local.png",
+      "sha256": "2cbd273a2fd8e3b9c5ce699b25e416c1e4f12114ed01c9d1a4bb20ef1ecd09e9",
+      "bytes": 118593,
+      "crc32": 2948013565,
+      "mtimeNs": 1791607158414769100
+    },
+    {
+      "path": "round-05/after/blend-terrain.png",
+      "sha256": "413c8190779de1b21945cae686af069c8626faddc5b372a0d8489131afc9475c",
+      "bytes": 102418,
+      "crc32": 2185755921,
+      "mtimeNs": 1791607162776285100
+    },
+    {
+      "path": "round-05/after/blend-yardang.png",
+      "sha256": "a0274e9c8e26356d66b2e85378fb95da49e4cf8910002a7b5152d4a0d1bc4043",
+      "bytes": 69015,
+      "crc32": 4291376781,
+      "mtimeNs": 1791607168442361100
+    },
+    {
+      "path": "round-05/after/delivery-window.png",
+      "sha256": "2f65536a39904426208dbbd26070635fceb6f3c6b667335a5bbf69dcb58522eb",
+      "bytes": 48612,
+      "crc32": 4158600264,
+      "mtimeNs": 1791608269734941600
+    },
+    {
+      "path": "round-05/after/earth.png",
+      "sha256": "abb3eba10c2b848b3a435a47f5e660617fe7ec85b7654bb70b0ef0276548576b",
+      "bytes": 81593,
+      "crc32": 565461740,
+      "mtimeNs": 1791606852877060800
+    },
+    {
+      "path": "round-05/after/ecology.png",
+      "sha256": "feba6a22d561684cc98fda011956d851a7e1ab3505b332d2083595491a220e14",
+      "bytes": 109048,
+      "crc32": 65817715,
+      "mtimeNs": 1791606869493465400
+    },
+    {
+      "path": "round-05/after/glacier-recording-state.png",
+      "sha256": "374a69d65226b407520c5b8b982af58856ce3385497fc951397f57e8f345ccb2",
+      "bytes": 120781,
+      "crc32": 611984705,
+      "mtimeNs": 1791607111393546500
+    },
+    {
+      "path": "round-05/after/glacier.png",
+      "sha256": "3829b641014340b709f1abb73082edad1a55af903b2af43c4cba6308dad3127c",
+      "bytes": 78090,
+      "crc32": 350637938,
+      "mtimeNs": 1791606882852765300
+    },
+    {
+      "path": "round-05/after/history.png",
+      "sha256": "8019422dcc5862f7e6d42ed5f81cc4dfd9ed8bd47cd72a5cd8ecc7881e1a4e42",
+      "bytes": 106904,
+      "crc32": 3176335392,
+      "mtimeNs": 1791606861830753500
+    },
+    {
+      "path": "round-05/after/karez.png",
+      "sha256": "f7279b44b5dcbddfea13364b139021b2ed32e7d594e5bacb18b0aa58580239b7",
+      "bytes": 71083,
+      "crc32": 771986919,
+      "mtimeNs": 1791606872445212500
+    },
+    {
+      "path": "round-05/after/local.png",
+      "sha256": "6a9c3d211d63a6950aa5cf7e94caca579eaafd04c56d4af47ee39ed1f86d4ef2",
+      "bytes": 110803,
+      "crc32": 1585582102,
+      "mtimeNs": 1791606865322411400
+    },
+    {
+      "path": "round-05/after/manual-interrupt.png",
+      "sha256": "a62a3b0a6e2ac29a90f8090b3eace1c3b840dc5569cbb861ffaeda931acd7042",
+      "bytes": 135114,
+      "crc32": 3650038019,
+      "mtimeNs": 1791607881135705200
+    },
+    {
+      "path": "round-05/after/migration.png",
+      "sha256": "95224e7c8d8dbf35c84530846d2c62e8765925d63909e5983ea033b28da4a225",
+      "bytes": 78783,
+      "crc32": 1707739032,
+      "mtimeNs": 1791606878446813600
+    },
+    {
+      "path": "round-05/after/terrain.png",
+      "sha256": "ef4df8810eae19fbbd86f0696edb3510ca17ccc15871f346c0305b385de3049b",
+      "bytes": 79699,
+      "crc32": 1405615688,
+      "mtimeNs": 1791606857038790600
+    },
+    {
+      "path": "round-05/after/yardang-end.png",
+      "sha256": "e720a0aaa0804dad733d19189b74a8ed551a88e51cfcdedfd0b2aba3a3e51fb0",
+      "bytes": 86799,
+      "crc32": 3941012475,
+      "mtimeNs": 1791606999581312600
+    },
+    {
+      "path": "round-05/after/yardang.png",
+      "sha256": "273bc39237d2a55a618063f8f57908eb11f1b545065ad107234bc246c7a8955f",
+      "bytes": 73228,
+      "crc32": 1759809328,
+      "mtimeNs": 1791606875442363700
+    },
+    {
+      "path": "round-05/before-window/frames.json",
+      "sha256": "f4aa386886cbae5de1b50021de8ec615ca9ad915f82f8dc6b7d2207a1e00f07d",
+      "bytes": 593,
+      "crc32": 3944265806,
+      "mtimeNs": 1791605787881071300
+    },
+    {
+      "path": "round-05/before-window/glacier.png",
+      "sha256": "897ef0fa4b9e35bac953449ad8273385ab5577d9bf9cde90829abd705f2d5ce9",
+      "bytes": 56418,
+      "crc32": 2078757307,
+      "mtimeNs": 1791605787845589800
+    },
+    {
+      "path": "round-05/before-window/karez.png",
+      "sha256": "43ae02995b97a73dfdc34c82cffe426c714afea4819b06841bec4bc30a0b75c8",
+      "bytes": 43692,
+      "crc32": 13477938,
+      "mtimeNs": 1791605782400798700
+    },
+    {
+      "path": "round-05/before-window/local.png",
+      "sha256": "1157eea2213344d7a4caece7a2ca83bf44724dae3be03a7b2bd290fbc264e29f",
+      "bytes": 47666,
+      "crc32": 4278234476,
+      "mtimeNs": 1791605776982108000
+    },
+    {
+      "path": "round-05/before-window/terrain.png",
+      "sha256": "519d189f1f323ec5c79900fd05c9043708bd9b5b1e686f0ee76142827b9b0cf1",
+      "bytes": 58907,
+      "crc32": 2348498634,
+      "mtimeNs": 1791605779860660800
+    },
+    {
+      "path": "round-05/before-window/yardang.png",
+      "sha256": "e094a9cd9a0a0de6b82baebc7489947c02a6bcb289233b02e86783e95f319c62",
+      "bytes": 45586,
+      "crc32": 616950523,
+      "mtimeNs": 1791605784892940800
+    },
+    {
+      "path": "round-05/before/frames.json",
+      "sha256": "a46d387812a7704bceff8f06a92dedf64efc7ed58df41fb54251d69019d540c2",
+      "bytes": 598,
+      "crc32": 659344767,
+      "mtimeNs": 1791605832085144000
+    },
+    {
+      "path": "round-05/before/glacier.png",
+      "sha256": "e52b2fb4e7d638317b4b9c07c5665293951ca4b27980e42307a5a9ceeac74083",
+      "bytes": 103227,
+      "crc32": 2956339669,
+      "mtimeNs": 1791605832056331800
+    },
+    {
+      "path": "round-05/before/karez.png",
+      "sha256": "9df80acd0c9c21d6a5f3e624744ed20f1fd90f71b72e98be2179a935e4131139",
+      "bytes": 70905,
+      "crc32": 4018416839,
+      "mtimeNs": 1791605826650824300
+    },
+    {
+      "path": "round-05/before/local.png",
+      "sha256": "22a1321d7936690fa43a8d2e6563173304a0c1e992876c37ca655d13203d0325",
+      "bytes": 84824,
+      "crc32": 300755008,
+      "mtimeNs": 1791605821632895100
+    },
+    {
+      "path": "round-05/before/terrain.png",
+      "sha256": "0ee330c9e65a2e6754d39b093532824c424f832e25c25d304f4cbe9308a5afaa",
+      "bytes": 110448,
+      "crc32": 4268362446,
+      "mtimeNs": 1791605824321846900
+    },
+    {
+      "path": "round-05/before/yardang.png",
+      "sha256": "5fe52407dad2dc9fcf5cc14f006c33095659a2a820c6653ba8beaec2259f5e16",
+      "bytes": 81389,
+      "crc32": 4016285661,
+      "mtimeNs": 1791605829112003400
+    },
+    {
+      "path": "round-05/iteration-a/local.png",
+      "sha256": "dd25dcffa93404a160fadc2db4b6a056adba193560177d3042b3b5e30cbaadd8",
+      "bytes": 63904,
+      "crc32": 1031227095,
+      "mtimeNs": 1791606321485158500
+    },
+    {
+      "path": "round-05/iteration-a/notes.json",
+      "sha256": "6d64d32c4144e330f3e939fef55789ebea630616fc3262828b505eb22be89b0c",
+      "bytes": 500,
+      "crc32": 4237457014,
+      "mtimeNs": 1791606321486670200
+    },
+    {
+      "path": "round-05/iteration-b/glacier.png",
+      "sha256": "9f069ddae39ab6ddc788199b1f5e4af88ab28094ae5c608a92fcd8850a4b852e",
+      "bytes": 79072,
+      "crc32": 2893721634,
+      "mtimeNs": 1791606484955467800
+    },
+    {
+      "path": "round-05/iteration-b/local.png",
+      "sha256": "444b6e4dad648ab1a524d9c008ae80201818a2c79c68c665711da2d158ded984",
+      "bytes": 68457,
+      "crc32": 1497751189,
+      "mtimeNs": 1791606479171476100
+    },
+    {
+      "path": "round-05/iteration-b/notes.json",
+      "sha256": "5a3bf86c873d5f95edcbeade4088ee610f420410c355dd2dae326566794c02ce",
+      "bytes": 370,
+      "crc32": 2536407955,
+      "mtimeNs": 1791606484958248400
+    },
+    {
+      "path": "round-05/iteration-b/yardang.png",
+      "sha256": "ab3db6ac394581fbb1a0af32b3b1c2a7d6cf2a8403db9a814659c4072a850edb",
+      "bytes": 70609,
+      "crc32": 2592454228,
+      "mtimeNs": 1791606482039513500
+    },
+    {
+      "path": "round-05/mobile/glacier.png",
+      "sha256": "09f8008cb27890ce2ccc3391941af46a95c09c59054e898383482a5e17f4e625",
+      "bytes": 38367,
+      "crc32": 323455436,
+      "mtimeNs": 1791607380188540900
+    },
+    {
+      "path": "round-05/mobile/karez.png",
+      "sha256": "fe4f8978d395110d2ee7e3ea7460d261bb77d78f1d285f60ec86dff028df348d",
+      "bytes": 33842,
+      "crc32": 139399250,
+      "mtimeNs": 1791607387759414200
+    },
+    {
+      "path": "round-05/mobile/local.png",
+      "sha256": "536a6afb9c2c929c42d333fe034a3a4e8b2a00787180b458a4e385e29d27449a",
+      "bytes": 33115,
+      "crc32": 2383179702,
+      "mtimeNs": 1791607376436015500
+    },
+    {
+      "path": "round-05/mobile/yardang.png",
+      "sha256": "c516285d4e3c88315bd77e2c9cda65649592df725cb1a70e110c61730f94e536",
+      "bytes": 32799,
+      "crc32": 2271408797,
+      "mtimeNs": 1791607383635493200
+    },
+    {
+      "path": "round-05/recordings/capture-log.json",
+      "sha256": "24e7593769d440f56aad1e763e2fc38871f359fff9d3f19744fe92783b9a9eb4",
+      "bytes": 1105,
+      "crc32": 3080941757,
+      "mtimeNs": 1791607915456177100
+    },
+    {
+      "path": "round-05/recordings/glacier-camera.mp4",
+      "sha256": "735e29e3a8da4847ef7b576be90924477046fc6a7d4eed0533ba63eaaf47551c",
+      "bytes": 8308189,
+      "crc32": 2333756339,
+      "mtimeNs": 1791607279196604700
+    },
+    {
+      "path": "round-05/recordings/glacier-camera.webm",
+      "sha256": "87fb3ddaad8e958ecd285be4185e26ffe06a28637bdc0bd4c63d385914b5b934",
+      "bytes": 31275311,
+      "crc32": 959685592,
+      "mtimeNs": 1791607123521613300
+    },
+    {
+      "path": "round-05/recordings/glacier-frame24.png",
+      "sha256": "a014849fb064e6a4ac6a931a645847e5d1a52a74494581bb02722fd8884ce36e",
+      "bytes": 1743642,
+      "crc32": 350131906,
+      "mtimeNs": 1791608099244102700
+    },
+    {
+      "path": "round-05/recordings/media-verification.json",
+      "sha256": "eb373207cd0ec371369779257802e0508d2e4009154eed00796270a67a5dd290",
+      "bytes": 1445,
+      "crc32": 3403855117,
+      "mtimeNs": 1791608222505061800
+    },
+    {
+      "path": "round-05/recordings/scene-transitions-final.mp4",
+      "sha256": "d67127ca508924e53ce3be1bac53708ccbe18afdc043d832e9bb5bf96ede699f",
+      "bytes": 2060037,
+      "crc32": 2610715218,
+      "mtimeNs": 1791607932451155100
+    },
+    {
+      "path": "round-05/recordings/scene-transitions-final.webm",
+      "sha256": "b5b88aec865a7adeffd56894f9ec869ca1dbb95f689e497f995def6a684ed19e",
+      "bytes": 13334714,
+      "crc32": 2998959370,
+      "mtimeNs": 1791607915351438200
+    },
+    {
+      "path": "round-05/recordings/scene-transitions.mp4",
+      "sha256": "4350d26dcaa89a3eb32f24064e9ab55ac1f516a4123ee3494748048dc128e423",
+      "bytes": 1869690,
+      "crc32": 3251900987,
+      "mtimeNs": 1791607281705043700
+    },
+    {
+      "path": "round-05/recordings/scene-transitions.webm",
+      "sha256": "9c69646df23d943072e0022513947920282878050621e6407a07706859d10906",
+      "bytes": 6268015,
+      "crc32": 1747506659,
+      "mtimeNs": 1791607171684025300
+    },
+    {
+      "path": "round-05/recordings/transitions-frame20.png",
+      "sha256": "10a3ffbc91b68970844628ce285b98ad4d2f5c67309e31b5fc4ab89c82278f18",
+      "bytes": 390875,
+      "crc32": 350328885,
+      "mtimeNs": 1791608222718161900
+    },
+    {
+      "path": "round-05/recordings/yardang-camera.mp4",
+      "sha256": "440967cd0db9960dc69ab13ddc55cd0e2b4b0958060d5885597506266f482a92",
+      "bytes": 5943797,
+      "crc32": 2262817617,
+      "mtimeNs": 1791607083623783300
+    },
+    {
+      "path": "round-05/recordings/yardang-camera.webm",
+      "sha256": "e8111e425836ed255cf2ab4da45d0089868cf31172764264b1e3b29d3d9eaded",
+      "bytes": 50435737,
+      "crc32": 3731016203,
+      "mtimeNs": 1791606999238857800
+    },
+    {
+      "path": "round-05/recordings/yardang-frame24.png",
+      "sha256": "7d6728c55ab3c09cdd3a696d5dc65e71c835607fc4fb3811a3b80916b906fd96",
+      "bytes": 528537,
+      "crc32": 504471099,
+      "mtimeNs": 1791607096721337600
+    },
+    {
+      "path": "round-05/reference/frames.json",
+      "sha256": "3edcd79fa6339d150a3680d6c3a757d236efc5f6f7e7efd2ddf6624a81ef0f7b",
+      "bytes": 1273,
+      "crc32": 192363492,
+      "mtimeNs": 1791606321491443900
+    },
+    {
+      "path": "round-05/reference/glacier.png",
+      "sha256": "eb8c96aac9843e5d559dba7e715937f5f2392edca6cc5865197befac72131f3c",
+      "bytes": 23728,
+      "crc32": 956059500,
+      "mtimeNs": 1791605533190467600
+    },
+    {
+      "path": "round-05/reference/karez.png",
+      "sha256": "386e8c8e993745fbead0adf0a6f9c0c5fa05239e979466adf6950ba92b9027f9",
+      "bytes": 16841,
+      "crc32": 1931004534,
+      "mtimeNs": 1791605573628581100
+    },
+    {
+      "path": "round-05/reference/local-mountains.png",
+      "sha256": "728790f3711f5d43f4776822fec2dfedc6cabbdc09a33acea9902a6d5fb7c36f",
+      "bytes": 23916,
+      "crc32": 2571998890,
+      "mtimeNs": 1791605533533229900
+    },
+    {
+      "path": "round-05/reference/seek-pending.png",
+      "sha256": "8bd3b4dc98f674b28ae9ce0a8a4b70feed7a695ea6fa1d77b7ebbeaa92d1ec9d",
+      "bytes": 46131,
+      "crc32": 2397600716,
+      "mtimeNs": 1791605532612145500
+    },
+    {
+      "path": "round-05/reference/terrain.png",
+      "sha256": "92ec85af8b7fade801b6fd8f4b8e240ecb7efbbc912b41ebc4826408d4f629e2",
+      "bytes": 46062,
+      "crc32": 1524400661,
+      "mtimeNs": 1791605532469388400
+    },
+    {
+      "path": "round-05/reference/yardang.png",
+      "sha256": "bc8c5391f667fff5d51fdba1ff3ae442ac9bf873c5f036fa7ff975732ca9a8ec",
+      "bytes": 18895,
+      "crc32": 228037656,
+      "mtimeNs": 1791605532910063500
+    },
+    {
+      "path": "round-05/shot-review/earth-01.png",
+      "sha256": "9b0337b83c1d546f3474a6b4c9dd1c757636aefae0de833b4e8869c37f7d60b2",
+      "bytes": 80545,
+      "crc32": 3753884009,
+      "mtimeNs": 1791607475723376900
+    },
+    {
+      "path": "round-05/shot-review/earth-02.png",
+      "sha256": "89f019171d6d8aa38f39c2aaf9cec1e55cb2cce3eb65eeb73f017d8a5bc7e9fc",
+      "bytes": 73359,
+      "crc32": 1604842541,
+      "mtimeNs": 1791607478542747400
+    },
+    {
+      "path": "round-05/shot-review/earth-03.png",
+      "sha256": "724b1c9a8f3b1f509b7882fe30f903d2b7c7bbf92863c51d8b7cc2546e54cead",
+      "bytes": 73558,
+      "crc32": 3265101968,
+      "mtimeNs": 1791607481405033800
+    },
+    {
+      "path": "round-05/shot-review/earth-04.png",
+      "sha256": "1bba196cef7d91cf360a2fcf23725282641bf1a867e7510366d6fbb76da8a193",
+      "bytes": 85086,
+      "crc32": 651053235,
+      "mtimeNs": 1791607484294002000
+    },
+    {
+      "path": "round-05/shot-review/earth-05.png",
+      "sha256": "2800f2edfcbeb798f66852f329282230beb1d19b9aed1298eea6ca1e070327c9",
+      "bytes": 87232,
+      "crc32": 2438170916,
+      "mtimeNs": 1791607487170091400
+    },
+    {
+      "path": "round-05/shot-review/ecology-01.png",
+      "sha256": "7c03c4ce7f0a6451955213cd72cefcb76657b5b1e0f95f89255db5ce626f8476",
+      "bytes": 108989,
+      "crc32": 1280772135,
+      "mtimeNs": 1791607767638693700
+    },
+    {
+      "path": "round-05/shot-review/ecology-02.png",
+      "sha256": "cd396fc22d41a0bcd7b05d156a13214cc64e25aa971690b62731ed4c9e7a2e93",
+      "bytes": 115379,
+      "crc32": 1263475208,
+      "mtimeNs": 1791607770543974600
+    },
+    {
+      "path": "round-05/shot-review/ecology-03.png",
+      "sha256": "6b3e72245b7fdee4d3461fda6b35e445c1792eb1e4a83c3e04cbd7d34e5c14f7",
+      "bytes": 115068,
+      "crc32": 2343005944,
+      "mtimeNs": 1791607773563916800
+    },
+    {
+      "path": "round-05/shot-review/ecology-04.png",
+      "sha256": "68d47f6d568ab68bbee911aa14b0094d7c734e87aff0d8ee2585b939e2c83280",
+      "bytes": 118158,
+      "crc32": 2471531977,
+      "mtimeNs": 1791607776483169500
+    },
+    {
+      "path": "round-05/shot-review/frames.json",
+      "sha256": "76dbb7666716eff8534e9a9c5dec3dae2cebb0258daa0a6927c8563cea1e13f3",
+      "bytes": 9336,
+      "crc32": 1015282602,
+      "mtimeNs": 1791607859415029600
+    },
+    {
+      "path": "round-05/shot-review/glacier-01.png",
+      "sha256": "326274df24273c2a55512535ea8a75493afcd679beb8dbaefa88d780bb8278fc",
+      "bytes": 76231,
+      "crc32": 853537682,
+      "mtimeNs": 1791607850753492300
+    },
+    {
+      "path": "round-05/shot-review/glacier-02.png",
+      "sha256": "3081cd1b400a5c30cf11c4a8da89ea0940aa65eb558aa99baeacc82fe8568ab3",
+      "bytes": 127177,
+      "crc32": 1327607200,
+      "mtimeNs": 1791607853600197200
+    },
+    {
+      "path": "round-05/shot-review/glacier-03.png",
+      "sha256": "bcb8df9b672f82583bbe9b5a834ac686574980324fa53745733b23aec0b42a3b",
+      "bytes": 133128,
+      "crc32": 2853672020,
+      "mtimeNs": 1791607856457070100
+    },
+    {
+      "path": "round-05/shot-review/glacier-04.png",
+      "sha256": "a6e96e10b448b08975692f335c5eeff2341996ae611bcc4573665abcf5e670a0",
+      "bytes": 117213,
+      "crc32": 2357156723,
+      "mtimeNs": 1791607859408034600
+    },
+    {
+      "path": "round-05/shot-review/history-01.png",
+      "sha256": "ba14060a5e396c3b31fcffbbcfee47d01c47e48b48223a6ebf828c15bf41f918",
+      "bytes": 106918,
+      "crc32": 3612315158,
+      "mtimeNs": 1791607504643932300
+    },
+    {
+      "path": "round-05/shot-review/history-02.png",
+      "sha256": "e82fbba2fb06faef50b8d3d9a378790aa7a74d15f455cb85af055cb087338cd9",
+      "bytes": 105831,
+      "crc32": 3268438332,
+      "mtimeNs": 1791607507517638700
+    },
+    {
+      "path": "round-05/shot-review/history-03.png",
+      "sha256": "8c60ce85c15e837376a19e48057acc336b50fba918984c6a9280c83309099299",
+      "bytes": 122506,
+      "crc32": 2406053523,
+      "mtimeNs": 1791607510398943400
+    },
+    {
+      "path": "round-05/shot-review/history-04.png",
+      "sha256": "3a2bb5dcea994d41adc7bade11ef87927041b05962d99af468e4a2fb3396e5d4",
+      "bytes": 98782,
+      "crc32": 3477402096,
+      "mtimeNs": 1791607513312876100
+    },
+    {
+      "path": "round-05/shot-review/karez-01.png",
+      "sha256": "892984244bc5a15abf4f018af1a337f5e8224951586f4ec3011926ca0b16629c",
+      "bytes": 71075,
+      "crc32": 3800826582,
+      "mtimeNs": 1791607780626805400
+    },
+    {
+      "path": "round-05/shot-review/karez-02.png",
+      "sha256": "d2ae77ae6f2bad1e209ece8b15a4eadc7bff70e5e110e8f95b6afefbbe3a4e77",
+      "bytes": 77330,
+      "crc32": 3634232806,
+      "mtimeNs": 1791607783532241100
+    },
+    {
+      "path": "round-05/shot-review/karez-03.png",
+      "sha256": "e83b150830f614bea783646e7466da187a8146b3ec15eb750308a5c46cd0b942",
+      "bytes": 78786,
+      "crc32": 3212225805,
+      "mtimeNs": 1791607786466194400
+    },
+    {
+      "path": "round-05/shot-review/karez-04.png",
+      "sha256": "7db0916233efa1391298d3d5bcefaa36ae44ace02462f375b8e85e27444d08c2",
+      "bytes": 76992,
+      "crc32": 3269938513,
+      "mtimeNs": 1791607789310874700
+    },
+    {
+      "path": "round-05/shot-review/local-01.png",
+      "sha256": "7cb0f3e32d7f7732d1ed4cf5e3d7d3036964425c2d522c4fe3c28e54d6e71022",
+      "bytes": 109028,
+      "crc32": 951397368,
+      "mtimeNs": 1791607754604257400
+    },
+    {
+      "path": "round-05/shot-review/local-02.png",
+      "sha256": "a06b689ec74b26ea832111bd6be5f26d797e952b848be3255bc09f7ac28b6da7",
+      "bytes": 115698,
+      "crc32": 1004756693,
+      "mtimeNs": 1791607757536190700
+    },
+    {
+      "path": "round-05/shot-review/local-03.png",
+      "sha256": "e0273e6cd042b9eae0d77057f960267043093427bc27588bd4e35b239ddee308",
+      "bytes": 130739,
+      "crc32": 1378967311,
+      "mtimeNs": 1791607760515032800
+    },
+    {
+      "path": "round-05/shot-review/local-04.png",
+      "sha256": "fc303076eedd88f2081e42f657c257aab473a051a22677277801bd5230adf2e7",
+      "bytes": 114764,
+      "crc32": 3547876365,
+      "mtimeNs": 1791607763401206100
+    },
+    {
+      "path": "round-05/shot-review/migration-01.png",
+      "sha256": "1a733e1e1118a6d030c13151f387a6f2297c8427a7b44c9ffee8f18d9850db6f",
+      "bytes": 78812,
+      "crc32": 1158808278,
+      "mtimeNs": 1791607841138315500
+    },
+    {
+      "path": "round-05/shot-review/migration-02.png",
+      "sha256": "f19e6a07f852861a6b9aa652d49c81f4baa8a623d02591ed47ea5d5206fa08be",
+      "bytes": 83268,
+      "crc32": 2759106074,
+      "mtimeNs": 1791607843996646000
+    },
+    {
+      "path": "round-05/shot-review/migration-03.png",
+      "sha256": "63f8ac6a4e7af66456e54d0c107e08e57cef3516a6add3535f08f8905f5693f6",
+      "bytes": 85106,
+      "crc32": 1028855625,
+      "mtimeNs": 1791607846940650900
+    },
+    {
+      "path": "round-05/shot-review/terrain-01.png",
+      "sha256": "3ca9c8e289f99b38b37540d0cf0cc95f63fa99fb2710c67e8011dfe91a20ea44",
+      "bytes": 79705,
+      "crc32": 3088660086,
+      "mtimeNs": 1791607491786959600
+    },
+    {
+      "path": "round-05/shot-review/terrain-02.png",
+      "sha256": "e30aefe3e65d24c1def8fb1ffab51fd4c0160da84a8de2a714941b6656d8ca27",
+      "bytes": 117279,
+      "crc32": 2174788783,
+      "mtimeNs": 1791607494668535700
+    },
+    {
+      "path": "round-05/shot-review/terrain-03.png",
+      "sha256": "26506bd871cbc9fcf222add3331bdf7a62019f607e08bdaf738bf16d83338985",
+      "bytes": 114994,
+      "crc32": 2288947966,
+      "mtimeNs": 1791607497600568700
+    },
+    {
+      "path": "round-05/shot-review/terrain-04.png",
+      "sha256": "a8798c2db665c2ca55e00d45877d6a2713f20ea5c3858604928a13bcb1204c34",
+      "bytes": 119349,
+      "crc32": 1979279436,
+      "mtimeNs": 1791607500540330200
+    },
+    {
+      "path": "round-05/shot-review/yardang-01.png",
+      "sha256": "b6852f7888606ffbbf1bb18ac59731689fab1bd642c12a8fdcafd6ff503d2e1f",
+      "bytes": 73202,
+      "crc32": 3070776038,
+      "mtimeNs": 1791607828098461900
+    },
+    {
+      "path": "round-05/shot-review/yardang-02.png",
+      "sha256": "cf0d0e95b69922a2b0b5d3b0feba298f9186d55d74d201cb99e487b429674eea",
+      "bytes": 90328,
+      "crc32": 2473153684,
+      "mtimeNs": 1791607831471983500
+    },
+    {
+      "path": "round-05/shot-review/yardang-03.png",
+      "sha256": "a7d091a5f456b9bd0e3bd334adfc4f3a1318c06336afa0cc327ab960ec8edee9",
+      "bytes": 85697,
+      "crc32": 4045769029,
+      "mtimeNs": 1791607834626634600
+    },
+    {
+      "path": "round-05/shot-review/yardang-04.png",
+      "sha256": "6a6ccebbc8d37143ab6927cae699af9296369cac77bdbd72439ce798511c712b",
+      "bytes": 86321,
+      "crc32": 4063450429,
+      "mtimeNs": 1791607837779467900
+    },
+    {
+      "path": "round-05/verification.json",
+      "sha256": "ec83011dc1176255c3ca30ebfe176264fa006bb87d26db6788ff3616d27f8a00",
+      "bytes": 17720,
+      "crc32": 3597083712,
+      "mtimeNs": 1791608289890616600
+    }
+  ],
+  "archives": []
+}

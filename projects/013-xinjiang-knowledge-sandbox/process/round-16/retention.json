@@ -1,0 +1,2634 @@
+{
+  "schemaVersion": 1,
+  "id": "round-16",
+  "kind": "process-snapshot",
+  "createdAt": "2026-10-11T11:41:58.401425+00:00",
+  "files": [
+    {
+      "path": "round-16/README.md",
+      "sha256": "9785accede02fca43ee32bfa5e2ad953028075eb209a7daa09bbe494d44d3674",
+      "bytes": 3411,
+      "crc32": 4246569337,
+      "mtimeNs": 1791682090398483000
+    },
+    {
+      "path": "round-16/after/01-market-cloth-start.jpg",
+      "sha256": "7f656bcaa3f3192f0b83a053b7c4ea72540396b1426fda9967132afb5c57bbea",
+      "bytes": 110552,
+      "crc32": 2438302980,
+      "mtimeNs": 1791681346026924400
+    },
+    {
+      "path": "round-16/after/02-market-cloth-reply.jpg",
+      "sha256": "3792f8e625e6a192e0e05f673c969d13bc724d7c2240259a82067ac26607ba52",
+      "bytes": 109841,
+      "crc32": 394472782,
+      "mtimeNs": 1791681361516456600
+    },
+    {
+      "path": "round-16/after/03-market-await.jpg",
+      "sha256": "6a9dc9cc4478324a0c80a2c0861bb8d247219d1fc3012ef29600677ecc4e2d4e",
+      "bytes": 118046,
+      "crc32": 2291328610,
+      "mtimeNs": 1791681486528877500
+    },
+    {
+      "path": "round-16/after/04-market-supplies-reply.jpg",
+      "sha256": "cd37798d46eafa40b8a11db3f541c339298e4cbce4c345faa26f4c1ff52d9702",
+      "bytes": 113652,
+      "crc32": 1703109126,
+      "mtimeNs": 1791681533781742700
+    },
+    {
+      "path": "round-16/after/05-market-craft-reply.jpg",
+      "sha256": "be4daa53bda069e377519feeeac35f49ac81550b112d378f16750fd1ba1a1332",
+      "bytes": 105117,
+      "crc32": 160257824,
+      "mtimeNs": 1791681571191653600
+    },
+    {
+      "path": "round-16/after/06-family-water-start.jpg",
+      "sha256": "86c144032fb3acf6c95dfd253a9633e362ae5fe370607e02dedf5226cd416ae1",
+      "bytes": 93118,
+      "crc32": 1006568784,
+      "mtimeNs": 1791681655759335300
+    },
+    {
+      "path": "round-16/after/07-family-water-progress.jpg",
+      "sha256": "257ad2cab4a2f4ee730949c77a975d8730cbf015f450f8295e2c6e69836f57c1",
+      "bytes": 95789,
+      "crc32": 2208508739,
+      "mtimeNs": 1791681662514193500
+    },
+    {
+      "path": "round-16/after/08-family-water-reply.jpg",
+      "sha256": "1780b6cddd25e3a27271234c37f095021eef7d34fb3787657946e0ee9a861000",
+      "bytes": 87309,
+      "crc32": 3475950,
+      "mtimeNs": 1791681732679942100
+    },
+    {
+      "path": "round-16/after/09-family-home-reply.jpg",
+      "sha256": "e4be05d57650dea1e5656125edc0c600c5fbbe69068c8fa4dbbaa43ab843f2b1",
+      "bytes": 84628,
+      "crc32": 1219048911,
+      "mtimeNs": 1791681768781891400
+    },
+    {
+      "path": "round-16/after/10-culture-mobile-start.jpg",
+      "sha256": "53d2f20fd2ba691481983f1089a650e05284d497a2bfeb0bf8c2fc6f14af3fd9",
+      "bytes": 51501,
+      "crc32": 3227115180,
+      "mtimeNs": 1791681797190560000
+    },
+    {
+      "path": "round-16/after/11-culture-listen-reply-mobile.jpg",
+      "sha256": "64db892e85f432c4a44c87a158f9a5a4c133d943c7cf07f554a6645fff4502f2",
+      "bytes": 52952,
+      "crc32": 3997840894,
+      "mtimeNs": 1791681839666256900
+    },
+    {
+      "path": "round-16/after/12-culture-join-reply.jpg",
+      "sha256": "8527609efa9cbf9b353b0ae646a4a014faab7f448be54ad9cc2757e310e9e25e",
+      "bytes": 93237,
+      "crc32": 2789031905,
+      "mtimeNs": 1791681930293650100
+    },
+    {
+      "path": "round-16/after/13-culture-to-gate.jpg",
+      "sha256": "ec47a3a7f927213a911638dd2e8f1ff40c97133c3c07a6dd0728f1a9a09214a9",
+      "bytes": 80645,
+      "crc32": 3159112635,
+      "mtimeNs": 1791681931215238500
+    },
+    {
+      "path": "round-16/after/14-gate-balanced-reply.jpg",
+      "sha256": "f6eccd9b51162eebf551aabcf5391d9be5988ce1fafc8ff8e2fff01252fe770e",
+      "bytes": 93313,
+      "crc32": 1974044727,
+      "mtimeNs": 1791682047431192700
+    },
+    {
+      "path": "round-16/after/15-gate-freight-reply.jpg",
+      "sha256": "a97c0899d1d94335aa3f039ae1f0833e0e762288f0d96777350baf1034a54d03",
+      "bytes": 92342,
+      "crc32": 3663859747,
+      "mtimeNs": 1791682098817313700
+    },
+    {
+      "path": "round-16/after/16-gate-habitat-reply.jpg",
+      "sha256": "3e7250a85c8417927c279a30d4f24edacfea1424065a9f2e4a3d3d6befc01da0",
+      "bytes": 93120,
+      "crc32": 2097599178,
+      "mtimeNs": 1791682225098262000
+    },
+    {
+      "path": "round-16/after/17-market-mobile-final.jpg",
+      "sha256": "7a9567497e4dea0a832806b4497dfb1d7fda400a63f71eb9010f6dfbd2ec364d",
+      "bytes": 46211,
+      "crc32": 2283424679,
+      "mtimeNs": 1791682235881097800
+    },
+    {
+      "path": "round-16/after/18-market-cloth-final.jpg",
+      "sha256": "0586a36f5b5f1ce77ba0c0a211513e73f9a5006a846a455d9410dc973281f28e",
+      "bytes": 83199,
+      "crc32": 1854957718,
+      "mtimeNs": 1791682254886935300
+    },
+    {
+      "path": "round-16/after/19-entry-recording.jpg",
+      "sha256": "bb3067d83812699f30fcb1abe148f16e9b8dc0f47f677d52b284beeded707bf9",
+      "bytes": 91770,
+      "crc32": 2651364465,
+      "mtimeNs": 1791682347924757600
+    },
+    {
+      "path": "round-16/after/21-natural-memory-muqam.jpg",
+      "sha256": "47a49cf60bc271409c9168e09fd32c566a4008b3292bc12fcd266eea5dbd53f0",
+      "bytes": 73427,
+      "crc32": 1450990397,
+      "mtimeNs": 1791682643663293500
+    },
+    {
+      "path": "round-16/audio-source/dialogue/culture-join.wav",
+      "sha256": "85d59fff175031c353df4b50800c4a0efb38a9187b9badc8f7eaa00ba49e3896",
+      "bytes": 235796,
+      "crc32": 378789683,
+      "mtimeNs": 1791681318525686600
+    },
+    {
+      "path": "round-16/audio-source/dialogue/culture-listen.wav",
+      "sha256": "fd73c123ce64526f8db243f532a3942ab2c84e5013a45faf509c181310dc0fc1",
+      "bytes": 237192,
+      "crc32": 4104306103,
+      "mtimeNs": 1791681318338411400
+    },
+    {
+      "path": "round-16/audio-source/dialogue/family-home.wav",
+      "sha256": "bdd6fb1cbf62e77acbc6ec014984be4d4d03efe2876cadfd16e27851b6b49719",
+      "bytes": 253598,
+      "crc32": 1975882082,
+      "mtimeNs": 1791681318145566500
+    },
+    {
+      "path": "round-16/audio-source/dialogue/family-water.wav",
+      "sha256": "16329034341c02cc39e3b81d827857d69a83854e0fed88b6f09596764614a7b4",
+      "bytes": 239526,
+      "crc32": 2292129717,
+      "mtimeNs": 1791681317954799800
+    },
+    {
+      "path": "round-16/audio-source/dialogue/market-cloth.wav",
+      "sha256": "b39c36bec4a4deb9681417371ee0cd63d63916f388964935cc986fd80ddc7b14",
+      "bytes": 210582,
+      "crc32": 2861103689,
+      "mtimeNs": 1791681317454129700
+    },
+    {
+      "path": "round-16/audio-source/dialogue/market-craft.wav",
+      "sha256": "020fb44c6e1a3ca51779c4ee9db04b304603e6e026c1436a903ff8c19426e1b7",
+      "bytes": 246074,
+      "crc32": 2769979361,
+      "mtimeNs": 1791681317769044300
+    },
+    {
+      "path": "round-16/audio-source/dialogue/market-supplies.wav",
+      "sha256": "86355964acfeb39c898e813c6507d06a62c99a3ecd30246933ca19ce26d5c4db",
+      "bytes": 242278,
+      "crc32": 65163885,
+      "mtimeNs": 1791681317617017300
+    },
+    {
+      "path": "round-16/audio-source/narration/exchange-goods.wav",
+      "sha256": "849503c782d9eb003bc4a1baa54339ed39f03648d5581856c66d6448f2f77583",
+      "bytes": 350528,
+      "crc32": 799599331,
+      "mtimeNs": 1791681315631072900
+    },
+    {
+      "path": "round-16/audio-source/narration/memory-arrival.wav",
+      "sha256": "80df751ba4f435ce28332312a81db745bc278eaa5130e1177ba1a5116ec18f83",
+      "bytes": 350872,
+      "crc32": 468645082,
+      "mtimeNs": 1791681316981807100
+    },
+    {
+      "path": "round-16/audio-source/narration/memory-practice.wav",
+      "sha256": "8edd69a5e602781aa96b08b44a1c5aa8e1b9e488ba451a29b6c4323edcc052ab",
+      "bytes": 378370,
+      "crc32": 49112385,
+      "mtimeNs": 1791681317157487900
+    },
+    {
+      "path": "round-16/audio-source/narration/modern-limit.wav",
+      "sha256": "22b5526d79ff6296dd3f6130be98715bd83e53a042be66e5856a020e6998aa00",
+      "bytes": 385242,
+      "crc32": 4292006962,
+      "mtimeNs": 1791681317311650100
+    },
+    {
+      "path": "round-16/audio-source/render-script.json",
+      "sha256": "26335a97afef1cbd177959835d4410e8fce589e3f409dbd7184d8572bd467e60",
+      "bytes": 4272,
+      "crc32": 1232377533,
+      "mtimeNs": 1791681318770531100
+    },
+    {
+      "path": "round-16/audio-source/work-orders.json",
+      "sha256": "8d681b95cc0d1853552e2e4897344897097ab25d7c4c7d37742a01c4605e6a8d",
+      "bytes": 8825,
+      "crc32": 489485459,
+      "mtimeNs": 1791681314486333400
+    },
+    {
+      "path": "round-16/audio-verification.json",
+      "sha256": "c28bb715b19fac1754098cf4c176178d2ec8e9a867cef08eac7dee158bec022d",
+      "bytes": 18341,
+      "crc32": 3122899086,
+      "mtimeNs": 1791682833633288300
+    },
+    {
+      "path": "round-16/before/01-market.jpg",
+      "sha256": "184419b45c9bfa6ed4f906eb830e96f8dd936b399129b92f68f42cbd83d708ac",
+      "bytes": 102052,
+      "crc32": 4051532146,
+      "mtimeNs": 1791681170456751900
+    },
+    {
+      "path": "round-16/before/02-family.jpg",
+      "sha256": "9989d5b9e9565f6c6a694bccb3db5665d80e930eac909c66a40fb177998e30e6",
+      "bytes": 99128,
+      "crc32": 1815854099,
+      "mtimeNs": 1791681170727741900
+    },
+    {
+      "path": "round-16/before/03-courtyard.jpg",
+      "sha256": "844e8766606b282e2723ca97b5de8a60bd76a28f0d0b8ed5ea9b9a1e2fe89112",
+      "bytes": 69047,
+      "crc32": 2325555569,
+      "mtimeNs": 1791681171064103600
+    },
+    {
+      "path": "round-16/before/04-gate.jpg",
+      "sha256": "25b67aa3b0441e0991478f3e99a2ad0cc0ff81d9fc93aebb478a2a39ab6c401c",
+      "bytes": 103933,
+      "crc32": 1015818991,
+      "mtimeNs": 1791681171362838000
+    },
+    {
+      "path": "round-16/before/05-r15-market-stable.jpg",
+      "sha256": "7e9e3626ebe074b87bd7597fa3405801ac44f271a4d193201956128450077798",
+      "bytes": 80725,
+      "crc32": 656015986,
+      "mtimeNs": 1791647935562070300
+    },
+    {
+      "path": "round-16/before/06-r15-family-stable.jpg",
+      "sha256": "a4f0a806ad308df2f9a72c689f0309d2042d418ba6da71ce9939e0917747ab1e",
+      "bytes": 80095,
+      "crc32": 247137558,
+      "mtimeNs": 1791647983629964800
+    },
+    {
+      "path": "round-16/before/07-r15-culture-stable.jpg",
+      "sha256": "e03be85cc365455d26fa519ee4219033661699200da429caef2bf496f19a38ab",
+      "bytes": 95474,
+      "crc32": 2121207039,
+      "mtimeNs": 1791647987123749800
+    },
+    {
+      "path": "round-16/before/08-r15-gate-stable.jpg",
+      "sha256": "1aeb0e7e25256c8534f91010ba84150352f65cbf65268c189ca74326a6d8ce6d",
+      "bytes": 95497,
+      "crc32": 3343241902,
+      "mtimeNs": 1791648002154040300
+    },
+    {
+      "path": "round-16/browser-interaction-evidence.json",
+      "sha256": "e2c19770b96e5525120011798aff68feac371075c04042dbce8ea29ff3d6be3a",
+      "bytes": 28186,
+      "crc32": 3203189061,
+      "mtimeNs": 1791682328090271100
+    },
+    {
+      "path": "round-16/build-audio.mjs",
+      "sha256": "54a88204479748ef1d45fbd849c10762a410d8fb1f5ceae1db5d957f6e1f71f0",
+      "bytes": 1891,
+      "crc32": 1084495677,
+      "mtimeNs": 1791681314225779100
+    },
+    {
+      "path": "round-16/document-delivery.py",
+      "sha256": "8fbfa64d6d3fad5f3f345730cf061b88e99ca8b4652f65b80f3122f20a120595",
+      "bytes": 8915,
+      "crc32": 2559036678,
+      "mtimeNs": 1791681721563654200
+    },
+    {
+      "path": "round-16/finish-controls.py",
+      "sha256": "cebed1fe9346a60f4c5878af092218d8c7d91c65334bdad9ea358928bbb26c74",
+      "bytes": 1648,
+      "crc32": 34777350,
+      "mtimeNs": 1791682626675428400
+    },
+    {
+      "path": "round-16/freeze-delivery.py",
+      "sha256": "0c2c9f117e4d54281745301c5116f53022b418b7df42c7dd3b737d58c07300ab",
+      "bytes": 2323,
+      "crc32": 2916333821,
+      "mtimeNs": 1791681912491733400
+    },
+    {
+      "path": "round-16/implement.py",
+      "sha256": "9c984f5a3b79bfb72cd99ebf53a7a6c861f05febd50f582fb4cba77003cd02ac",
+      "bytes": 11795,
+      "crc32": 4057412827,
+      "mtimeNs": 1791681246649265200
+    },
+    {
+      "path": "round-16/label-materials.py",
+      "sha256": "c03f9e5fb1fcfc21042f5f5a952e857ddc99d6b6001d5a6796050a49e1c525fb",
+      "bytes": 4491,
+      "crc32": 2209661093,
+      "mtimeNs": 1791682716681213900
+    },
+    {
+      "path": "round-16/natural-midpoint-state.json",
+      "sha256": "4c815faad017c64daeffc02e67e5728e64c326d496f255c57600724db3b0566d",
+      "bytes": 1376,
+      "crc32": 1512585806,
+      "mtimeNs": 1791682643666036300
+    },
+    {
+      "path": "round-16/prepare-recording.mjs",
+      "sha256": "27f0a01a53e4b59d9feebd6d2da8b9c572a546b2343cbce5131216c1a5233a1e",
+      "bytes": 2020,
+      "crc32": 2517871596,
+      "mtimeNs": 1791681528255975100
+    },
+    {
+      "path": "round-16/render-audio.ps1",
+      "sha256": "ab30af192712c0884fe56606ca117202b9af6c3c3dbacd8973fa96be2e1022bf",
+      "bytes": 4347,
+      "crc32": 3223952492,
+      "mtimeNs": 1791681314485775800
+    },
+    {
+      "path": "round-16/render-recording.py",
+      "sha256": "d6c124dd1e7cb1caeb90d03a0eb23fd49639374e5a3c9a094dc2ec74977354d6",
+      "bytes": 5795,
+      "crc32": 1488388818,
+      "mtimeNs": 1791682118580337100
+    },
+    {
+      "path": "round-16/source-before/public/ATTRIBUTION.md",
+      "sha256": "2c88f079944cdc1484530e113aec6a3893db47a4b0b8b29550a5593555284992",
+      "bytes": 12898,
+      "crc32": 3274731476,
+      "mtimeNs": 1791648547464212600
+    },
+    {
+      "path": "round-16/source-before/public/app.js",
+      "sha256": "d2dd099ecd3e568786e6a75417030e8963411e98d2d321ca6d07f81c10425c37",
+      "bytes": 2253,
+      "crc32": 2210610571,
+      "mtimeNs": 1791559687062736700
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-culture.jpg",
+      "sha256": "c32eaa5d0818b1e5eb6c870d92f9dd3271de27cbbc29bd79a828787837159596",
+      "bytes": 53221,
+      "crc32": 3436094268,
+      "mtimeNs": 1791648124939749700
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-family.jpg",
+      "sha256": "29cd8981af87474f036c90c43dc517bfaa5dc5a0f542cccb5a42a4ea235bf679",
+      "bytes": 24481,
+      "crc32": 600723046,
+      "mtimeNs": 1791648124929563800
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-gate.jpg",
+      "sha256": "9ffb7643bb8c8b8c0fcc96f1b0700c03770b1575037cca131afdd78051727400",
+      "bytes": 43441,
+      "crc32": 312144530,
+      "mtimeNs": 1791648124955477500
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-ice.jpg",
+      "sha256": "b87ae88f63fc7581bb57c1c07f3fa7b43cfd171b901083c16a368c17e8eef31a",
+      "bytes": 43007,
+      "crc32": 910489196,
+      "mtimeNs": 1791648124877138000
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-market.jpg",
+      "sha256": "05e292320f20c1b09789bb38c3a3df10cd9e255e3d44f40bffb6f4f2052f9e7a",
+      "bytes": 47061,
+      "crc32": 1442105674,
+      "mtimeNs": 1791648124919028500
+    },
+    {
+      "path": "round-16/source-before/public/assets/atlas-r15-water.jpg",
+      "sha256": "f4795ad1facee53963a70b03a18228e88b2a095074e59b1b916961a8bb801ef7",
+      "bytes": 33774,
+      "crc32": 2457832668,
+      "mtimeNs": 1791648124901216300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio-script.json",
+      "sha256": "03900c5de0cc974fd94a530ab7cc01225e54c18fb9e2c9165479a49af2706552",
+      "bytes": 4465,
+      "crc32": 2384663977,
+      "mtimeNs": 1791647732651924600
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-balanced.mp3",
+      "sha256": "c47990d9f9e809a4a3f4d1ee891e5e610ab70f64037145924762f5b914f957bd",
+      "bytes": 57069,
+      "crc32": 448578023,
+      "mtimeNs": 1791640474453271300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-freight.mp3",
+      "sha256": "701669617cea58c879d312375acd30c3e1d1f14b3eff2688ea09c52021ef34b5",
+      "bytes": 61293,
+      "crc32": 2700917812,
+      "mtimeNs": 1791640474719194300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-habitat.mp3",
+      "sha256": "f54854ca9aac9b004557e62de5317699bc8b96153aca5fc40c643685026f3bac",
+      "bytes": 60717,
+      "crc32": 1249867620,
+      "mtimeNs": 1791640474990659700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-resident.mp3",
+      "sha256": "c919e4a3bab55a70cc41d630503a56b307f4a3ca453f47f8b6ce728ce81b8d3d",
+      "bytes": 37677,
+      "crc32": 2484153515,
+      "mtimeNs": 1791640473765184200
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-steward.mp3",
+      "sha256": "9f9ac7508490c4bdadf359da0ad5bac3ed274b400f26e7a08e3a59677e6b62f9",
+      "bytes": 37869,
+      "crc32": 436408778,
+      "mtimeNs": 1791640474213879600
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/civic-worker.mp3",
+      "sha256": "d90af3aa27050186fc0615fb6b305be6368fefcb12ff38413e6401ab15343590",
+      "bytes": 37677,
+      "crc32": 1128613174,
+      "mtimeNs": 1791640473996158200
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/family-child.mp3",
+      "sha256": "2f691fd99dc5a662712b46156f752e885976f076bb16e175c424a7f445842e9f",
+      "bytes": 21933,
+      "crc32": 2135950673,
+      "mtimeNs": 1791640473064594400
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/family-memory.mp3",
+      "sha256": "26675c8f92df5d133cb8af5b2a58c6f8740c284cf9f33a64afe2cca345c88655",
+      "bytes": 41517,
+      "crc32": 1327977516,
+      "mtimeNs": 1791640472851846400
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/learner.mp3",
+      "sha256": "148d3821e9e82e4c19e69825d5d1b328f967e4fd747b2ac309f3dad74649b21f",
+      "bytes": 36717,
+      "crc32": 178976150,
+      "mtimeNs": 1791640473525269400
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/manifest.json",
+      "sha256": "aa73e2e882e99c635ab1f34700d5a365d48dc9a8b8cc2135e2d9aa7d36a79b55",
+      "bytes": 5027,
+      "crc32": 2555542214,
+      "mtimeNs": 1791647370437490000
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/script.json",
+      "sha256": "6da0d240443a50551da6e2c84e3a4d16f21d5d3d3c3db53cd5ba89679ff34877",
+      "bytes": 3386,
+      "crc32": 739622037,
+      "mtimeNs": 1791647401908702800
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/teacher.mp3",
+      "sha256": "ffe0f2c6b852341957a501dd015b7aa617bd6b891f8b1b8e370b311942104064",
+      "bytes": 37485,
+      "crc32": 3276119047,
+      "mtimeNs": 1791640473299901300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/water-field.mp3",
+      "sha256": "cdaf06be7485c817f37b8e5842e7cb66a21296f6c1cd532b25ff25863d5152f6",
+      "bytes": 38829,
+      "crc32": 1661134794,
+      "mtimeNs": 1791646800122989700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/dialogue/water-home.mp3",
+      "sha256": "30e94d56d94f50227cf597838c1aa4fb91dff6d7d738577f27e0b66fff76a0bb",
+      "bytes": 36141,
+      "crc32": 1353743656,
+      "mtimeNs": 1791646800016167700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/exchange-city.mp3",
+      "sha256": "3451b4ba10eb45668fc04c5a17bf949a61483604a8bde2843b18663d20a3c8c6",
+      "bytes": 76077,
+      "crc32": 604944361,
+      "mtimeNs": 1791637011221905200
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/exchange-goods.mp3",
+      "sha256": "3d47545de815e9aafcde9a99b049d4a4d251b5ff3e610f4f6c7828890e364f27",
+      "bytes": 85293,
+      "crc32": 2500534066,
+      "mtimeNs": 1791637011139552700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/exchange-network.mp3",
+      "sha256": "1895251407f7bfada281101021806c32d04aec0ed3ea9f7ceb41be8bb0b7dbcb",
+      "bytes": 68397,
+      "crc32": 1053153826,
+      "mtimeNs": 1791637010955594500
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/exchange-question.mp3",
+      "sha256": "62882c66df30fb757416aac34c85394a3ea0e7f8351aa87b405b47f8cc18fa41",
+      "bytes": 69933,
+      "crc32": 4161609547,
+      "mtimeNs": 1791637011314301300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/exchange-stops.mp3",
+      "sha256": "d0e38cd7d1a228819e5b788802596813d2d202da18ddf3d14cd5e4adeaa5c6d0",
+      "bytes": 76653,
+      "crc32": 491309889,
+      "mtimeNs": 1791637011046672600
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/future-budget.mp3",
+      "sha256": "273cf6c868bfe1997f802a434a3dc708689cc69c2f76aae0b6b7eb19b95c9106",
+      "bytes": 74349,
+      "crc32": 162991109,
+      "mtimeNs": 1791637012327787700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/future-evidence.mp3",
+      "sha256": "7fd984c1760c3da1768804471eebdeb27ff2b80f9b5253458796e26242901bf9",
+      "bytes": 75501,
+      "crc32": 1755281630,
+      "mtimeNs": 1791637234460588900
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/future-landscape.mp3",
+      "sha256": "4be78757f357691ed606005091b7526a63234b6965519aaf07dfeb715385c0eb",
+      "bytes": 68589,
+      "crc32": 3761642572,
+      "mtimeNs": 1791637012223278000
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/future-result.mp3",
+      "sha256": "bfd46877a720d2d09533e4837567346cc1d84dc7ebf5d369657c66867f0e44ee",
+      "bytes": 72813,
+      "crc32": 1307714507,
+      "mtimeNs": 1791640472541735700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/future-synthesis.mp3",
+      "sha256": "9e77c92f11e81999862745be042b62f0704512a65ff52bf3e90d5c5fe2d819ec",
+      "bytes": 124653,
+      "crc32": 2504170308,
+      "mtimeNs": 1791640472023379700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/manifest.json",
+      "sha256": "b7c5be05881a014b31795c830a03ba2c368aaf834756717d1eae9ffe7da3d318",
+      "bytes": 7443,
+      "crc32": 1738724018,
+      "mtimeNs": 1791647732745424500
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/memory-arrival.mp3",
+      "sha256": "21d0171cfb7ab2957ebbae777b77b2070eef73be63bf5551e330aa064bc6ad4b",
+      "bytes": 98157,
+      "crc32": 375892030,
+      "mtimeNs": 1791640470224708500
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/memory-departure.mp3",
+      "sha256": "c0ad68a6eb56017a7ad9b597f69e2893f597efae3b99cadda77db6cdb0bf3f0e",
+      "bytes": 112173,
+      "crc32": 3426371514,
+      "mtimeNs": 1791640469612670700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/memory-journey.mp3",
+      "sha256": "75ef578e7169f3ad9f067368623edc98a86593b2504761d57c7e00d9633bf70a",
+      "bytes": 115821,
+      "crc32": 1589236708,
+      "mtimeNs": 1791640469966808700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/memory-muqam.mp3",
+      "sha256": "0feb9afe962c6342b4f3fe7def7c612d0d9607c9b4af094f21ef7eec409cd576",
+      "bytes": 128493,
+      "crc32": 2684512907,
+      "mtimeNs": 1791640470552000400
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/memory-practice.mp3",
+      "sha256": "78038abefd394da3f316f87cbc5af7607d8a0740d7f22b4706e48c30bcd482bd",
+      "bytes": 82221,
+      "crc32": 626871252,
+      "mtimeNs": 1791640470869568400
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/modern-hubs.mp3",
+      "sha256": "3b10c0f658f9f9e23079ba54f043662bc20ec38ad0c1f35393effb24c5c2543b",
+      "bytes": 60717,
+      "crc32": 1349798818,
+      "mtimeNs": 1791647732504312800
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/modern-kashgar.mp3",
+      "sha256": "87cb4cc4b90c70498d7c5f8db21dc187d5006fdc4a5aab81031df4aa5f1ce3bb",
+      "bytes": 72621,
+      "crc32": 1648848848,
+      "mtimeNs": 1791637012003643000
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/modern-limit.mp3",
+      "sha256": "b858d559ac41a9d8250ef405c8ec5cebbf6ec3fe4c7474c57b3c048336857e09",
+      "bytes": 93357,
+      "crc32": 172978797,
+      "mtimeNs": 1791640471684984300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/modern-rules.mp3",
+      "sha256": "ea6323d7f4eea82a1a19cbb14392a334e56da70dc3ddb41fd43e7e9ad0e22fd4",
+      "bytes": 74157,
+      "crc32": 1200653835,
+      "mtimeNs": 1791642254869533800
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/modern-urumqi.mp3",
+      "sha256": "c35abbf6cb0c1bf4e39ce36c7d02f6c3bcf1da4feb28ca05ef7e5158beb2d073",
+      "bytes": 67821,
+      "crc32": 631446011,
+      "mtimeNs": 1791637011930282900
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/oasis-dry.mp3",
+      "sha256": "255cccb007b43811c68e67416b9d6d91f88ce8705d9360e43934992e9bbe646e",
+      "bytes": 66861,
+      "crc32": 2460812894,
+      "mtimeNs": 1791637010438444600
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/oasis-engineering.mp3",
+      "sha256": "4022974fc6b6febcb50642adf23082e50d4bbfe6f2ce076db2a57858c7e8a175",
+      "bytes": 69357,
+      "crc32": 1175865703,
+      "mtimeNs": 1791637010585637900
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/oasis-nodes.mp3",
+      "sha256": "33d8171ad52f1e6792654b7f5c133c4f9e8330cfa9ae6b3172c4147642173377",
+      "bytes": 63597,
+      "crc32": 4071431633,
+      "mtimeNs": 1791637010848168300
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/oasis-use.mp3",
+      "sha256": "ffe13abcadf1920cf4fa6f9e1a173ea6551bb667f701fa06b40754711fe45ef5",
+      "bytes": 67245,
+      "crc32": 984429483,
+      "mtimeNs": 1791637010736316600
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/oasis-wind.mp3",
+      "sha256": "2d3166c5c6f3456e89be47e2b780996eddd6c0a9ff3b18f2b88d7bab834980ab",
+      "bytes": 71469,
+      "crc32": 419407675,
+      "mtimeNs": 1791637010513588800
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/water-flow.mp3",
+      "sha256": "2b23af637aa810814ecdce0391ed0ba681c2c193cc2666e1ceb3eaf501feddd4",
+      "bytes": 54381,
+      "crc32": 799062548,
+      "mtimeNs": 1791646799774596700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/water-ice.mp3",
+      "sha256": "55813b40637e57453f6c61d7b56785eda8e6cdf6248072180a34887ad45273a7",
+      "bytes": 70893,
+      "crc32": 1482088717,
+      "mtimeNs": 1791646799645060800
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/water-inland.mp3",
+      "sha256": "a43a496f60a0983e79600e8ba5d4a4303ac29444babeb34e3f490dc104669001",
+      "bytes": 50733,
+      "crc32": 3038116380,
+      "mtimeNs": 1791646799320337100
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/water-mountains.mp3",
+      "sha256": "d8f4b017517373c9fe0159fc6ce65b8aaad6865aa0776a496cb27bbcea2716ba",
+      "bytes": 57069,
+      "crc32": 3232488521,
+      "mtimeNs": 1791646799507576700
+    },
+    {
+      "path": "round-16/source-before/public/assets/audio/water-valley.mp3",
+      "sha256": "be15f533cf57dc9549169c37c34866b0ec7420d4a21066188c34d056f91c36a7",
+      "bytes": 66669,
+      "crc32": 986809560,
+      "mtimeNs": 1791646799904411000
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-courtyard-gate-r12.png",
+      "sha256": "5111ee9bf12f8a8ebf911fd8771e386011187d469f13c7af744d4cbe0c5168bb",
+      "bytes": 84053,
+      "crc32": 522411802,
+      "mtimeNs": 1791628650426231200
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-culture-r12.png",
+      "sha256": "931b7a06c10ee7b51c815595a31291efc0d61a779f02a1b00a5ab0fd5155d2d5",
+      "bytes": 94461,
+      "crc32": 4186077055,
+      "mtimeNs": 1791628650424231100
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-culture-r13.png",
+      "sha256": "68bbe240209105ab1317d237e11f21734a7f66c5923b3dcfba722304413b8da3",
+      "bytes": 109739,
+      "crc32": 3522080708,
+      "mtimeNs": 1791638648400664400
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-family-courtyard-r12.png",
+      "sha256": "bc3a2ba085182a52b6ef5956a838063f10369881722c625d13b094ea29c6199d",
+      "bytes": 81097,
+      "crc32": 3707932795,
+      "mtimeNs": 1791628650426231200
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-market-r12.png",
+      "sha256": "0556eb9b801c5ae1cf7f65dcc98e612c6f913fb13892fbfaeab65a49308f64c4",
+      "bytes": 94345,
+      "crc32": 1809716300,
+      "mtimeNs": 1791628650423231200
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-market-r13.png",
+      "sha256": "9312fb64d722de16d3a00c0e1531ecae26fb91ad9a19fa9cde67c66aa1a84b83",
+      "bytes": 97016,
+      "crc32": 27330641,
+      "mtimeNs": 1791638413734955000
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-nature-r12.png",
+      "sha256": "e53406a73ca7becf7ef02815e3b397cf6bcbb0adf96650fbdcc1aa50dd9edfe5",
+      "bytes": 74156,
+      "crc32": 136293600,
+      "mtimeNs": 1791628650422230400
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-overview-r12.png",
+      "sha256": "f7903fc2d94c4838f27978b3e311b190b27ae78315bb91343dd44516ca068630",
+      "bytes": 56333,
+      "crc32": 4067151907,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-people-r12.png",
+      "sha256": "f3a8623df1ba8643fa53fe805cd25f0cd7aa3badc1088ac3c9d09d02b090ae3f",
+      "bytes": 89113,
+      "crc32": 4251746743,
+      "mtimeNs": 1791628650424231100
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-people-r13.png",
+      "sha256": "12d0caae5430998c7cb22598e45e3ddde163f4580fc86ebc90b727986741d10f",
+      "bytes": 94429,
+      "crc32": 1882634036,
+      "mtimeNs": 1791638628112216400
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-result-r12.png",
+      "sha256": "2733902f39ed69b072751144e6712da05e17f230137f09b50511db7c9533c5f7",
+      "bytes": 82624,
+      "crc32": 2916235090,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-result-r13.png",
+      "sha256": "2414c112afecc8162b60fe75c5fec022b0a95d783d1c57a878d5adb8f23b0dd4",
+      "bytes": 87466,
+      "crc32": 2658750914,
+      "mtimeNs": 1791639292307950100
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-service-r12.png",
+      "sha256": "f7db53131e33de27d94e2bece7206de0702e62f6b6dc6571f357171ea918a543",
+      "bytes": 97194,
+      "crc32": 1621777346,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-before/public/assets/connected-service-r13.png",
+      "sha256": "482fe6d65cdd2fb9c4862c9717ebbaf21b89ebb74ada0ab227043aba7edb2bbd",
+      "bytes": 86275,
+      "crc32": 1056573948,
+      "mtimeNs": 1791638174371384800
+    },
+    {
+      "path": "round-16/source-before/public/assets/data-sources.json",
+      "sha256": "b5a4d5824c51c9294f1826b934b6dfc71c256b05a9f6121ffaa164c8d0359109",
+      "bytes": 95502,
+      "crc32": 371299151,
+      "mtimeNs": 1791602624929209700
+    },
+    {
+      "path": "round-16/source-before/public/assets/earth-blue-marble.jpg",
+      "sha256": "7c46de6a8c34272be108afa82d04a4986429089254810c6fa72dd8ec87d9231b",
+      "bytes": 1610597,
+      "crc32": 425299993,
+      "mtimeNs": 1791597460049141800
+    },
+    {
+      "path": "round-16/source-before/public/assets/exploration-glacier-after.png",
+      "sha256": "8c807c465cd79e6f83d3a03e225af8ce82bdf4584ea037b8bba7e417f9cf92b8",
+      "bytes": 79061,
+      "crc32": 3327370296,
+      "mtimeNs": 1791612721913673600
+    },
+    {
+      "path": "round-16/source-before/public/assets/exploration-glacier-before.png",
+      "sha256": "f673c826052e840d09a9bd62cb9ef2636583bf7e9d6fcc171d9f2af403f980d3",
+      "bytes": 67334,
+      "crc32": 686016206,
+      "mtimeNs": 1791611532069130000
+    },
+    {
+      "path": "round-16/source-before/public/assets/exploration-glacier-flow.png",
+      "sha256": "b127edca3000e6a9a23676f2d0645383577785da7ba9e8272a74c451eebd3043",
+      "bytes": 104375,
+      "crc32": 3778513070,
+      "mtimeNs": 1791612727418927900
+    },
+    {
+      "path": "round-16/source-before/public/assets/glacier-candidate-20240904.jpg",
+      "sha256": "30895dfb3edff642e97681d25a3b4213e9480a105a1934bbd9ecdea3e4a5c1c8",
+      "bytes": 804081,
+      "crc32": 2515947710,
+      "mtimeNs": 1791602293501551600
+    },
+    {
+      "path": "round-16/source-before/public/assets/glacier-dem.json",
+      "sha256": "08d5373f51b98afb4aa91635cbb85e20e54d16d65e8906e03a7ee4c28cd5fa68",
+      "bytes": 515380,
+      "crc32": 1566367056,
+      "mtimeNs": 1791600648414061000
+    },
+    {
+      "path": "round-16/source-before/public/assets/glacier-sentinel-20230831.jpg",
+      "sha256": "2ea9541fa0e3c81507efd9c40403d44b880f871156a792c70c0f3339252392fe",
+      "bytes": 816997,
+      "crc32": 757276377,
+      "mtimeNs": 1791602624874092300
+    },
+    {
+      "path": "round-16/source-before/public/assets/glacier-sentinel-stac.json",
+      "sha256": "0262d1373943003c1fcffaf1c045993b4e7a6ec50f1c1c38fa9065a488d14ed5",
+      "bytes": 35255,
+      "crc32": 2053236113,
+      "mtimeNs": 1791602624876905900
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-culture-r10.png",
+      "sha256": "4cd1961376f84a117f31ebc161d4455726882707ac1d07abc504488ef4fb5bd0",
+      "bytes": 85701,
+      "crc32": 1199662795,
+      "mtimeNs": 1791623294353586300
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-culture-r11.png",
+      "sha256": "bcd6ae893fd56e657fd8a6f4c6704d0063131f8e227746f89ee17dac90245da3",
+      "bytes": 89987,
+      "crc32": 3247045115,
+      "mtimeNs": 1791626466194595000
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-market-r10.png",
+      "sha256": "1e1777cdb4b2a4f359501f009959e6f431f4c0fdf267ccf2a7f247b71ed6f34e",
+      "bytes": 87339,
+      "crc32": 453764489,
+      "mtimeNs": 1791623294349586000
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-market-r11.png",
+      "sha256": "b51c13b76eb73e0151df5ef2abcc8b3632edc099d07843ef5e2521867ce75a6c",
+      "bytes": 96522,
+      "crc32": 3834080300,
+      "mtimeNs": 1791626466192595700
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-people-r10.png",
+      "sha256": "cf53bd79e8c44b9146d3d4d5742241e4d0d69573ce5b0eedc42c1b1936adfdce",
+      "bytes": 74702,
+      "crc32": 1244812668,
+      "mtimeNs": 1791623294350585600
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-people-r11.png",
+      "sha256": "45d79eba8fed60a789c64a8d113cf059cb8f15f9b49616352f2d37601586f286",
+      "bytes": 88211,
+      "crc32": 1376184026,
+      "mtimeNs": 1791626466193596300
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-result-r10.png",
+      "sha256": "857b24b086ee9775b683bc19827785a7401fec845da2702d7534e5c0b07e9365",
+      "bytes": 71405,
+      "crc32": 899189022,
+      "mtimeNs": 1791623589233835400
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-result-r11.png",
+      "sha256": "5ee1c83426c6a89152438ec081bc44630871d0ed6046b5654c2fbbb2833e7fa0",
+      "bytes": 80828,
+      "crc32": 366381704,
+      "mtimeNs": 1791626466197917300
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-service-r10.png",
+      "sha256": "1dbe81c90b04deeb0684bb59f3bec136bdd18f7cf7fa147cbf998675d7e7331e",
+      "bytes": 102418,
+      "crc32": 3743782186,
+      "mtimeNs": 1791623294354593200
+    },
+    {
+      "path": "round-16/source-before/public/assets/lived-service-r11.png",
+      "sha256": "2ed714fa9edfc3f4e18be1855013b4ea44dd9c0f3efd64b0f9f21482ee302fdc",
+      "bytes": 102635,
+      "crc32": 1416614768,
+      "mtimeNs": 1791626466195594500
+    },
+    {
+      "path": "round-16/source-before/public/assets/original-poster.webp",
+      "sha256": "bdbceea3e19ee1084d42a02b36504f8373951c1bee26ea36460082a0468eec23",
+      "bytes": 70458,
+      "crc32": 1648138444,
+      "mtimeNs": 1791558493555743200
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r14-consultation.jpg",
+      "sha256": "2dbefd93611f8221133252916c59643b8d40e422e3b0bd993f0756ed3ffbdb77",
+      "bytes": 106622,
+      "crc32": 816368163,
+      "mtimeNs": 1791642284040612600
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r14-culture.jpg",
+      "sha256": "6cf78ac604c94b94b8f7b0b83a0ee6e269bb72956ca9ae50e1896397b00a12f3",
+      "bytes": 122404,
+      "crc32": 2968008006,
+      "mtimeNs": 1791640674272593300
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r14-family.jpg",
+      "sha256": "804713084981d74f778b549b7a4700f60812d5b19b58fdf95a46b3b3f3919ed7",
+      "bytes": 100716,
+      "crc32": 851843135,
+      "mtimeNs": 1791640506837707900
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r14-habitat.jpg",
+      "sha256": "08472541f2238468f6efb7e80519160af5b481fd13a7fa3abbfca8f08357f73e",
+      "bytes": 111550,
+      "crc32": 1163161217,
+      "mtimeNs": 1791642069902784000
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r15-choice.jpg",
+      "sha256": "634952bc5647bddd7af0ff0172063b24b36e2d1a8f0ea59d6592271e78e6c46c",
+      "bytes": 82426,
+      "crc32": 2682602097,
+      "mtimeNs": 1791648334495441900
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r15-entry.jpg",
+      "sha256": "d9cf7a03c1f37825384b8f494d744f34e093b67888f2db48c3633fd340fd116a",
+      "bytes": 91409,
+      "crc32": 2889585812,
+      "mtimeNs": 1791648279305482800
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r15-response.jpg",
+      "sha256": "bb4ccb541bdc1f9824bc34548b8adc464f83bb04e28009ca8b0927e3fd8d418d",
+      "bytes": 75108,
+      "crc32": 3416736555,
+      "mtimeNs": 1791648430253146900
+    },
+    {
+      "path": "round-16/source-before/public/assets/process/r15-result.jpg",
+      "sha256": "a3eed3b76a2b5f342f1b4c0c47761a358e49d69322bf51a6ea84bbebab0e9296",
+      "bytes": 73284,
+      "crc32": 1214606068,
+      "mtimeNs": 1791649359034397100
+    },
+    {
+      "path": "round-16/source-before/public/assets/story-culture-r9.png",
+      "sha256": "0af8b223553a826dfc2cc866d815b20b501a406bb0cd003a7cb0690e84f051af",
+      "bytes": 80881,
+      "crc32": 1769862286,
+      "mtimeNs": 1791619374566601700
+    },
+    {
+      "path": "round-16/source-before/public/assets/story-modern-r9.png",
+      "sha256": "e62cfaaa7f8338b97da8caf7fc09cdf8fca07e584eb85108624d6d96645e8e9d",
+      "bytes": 82987,
+      "crc32": 2410853665,
+      "mtimeNs": 1791619374568669000
+    },
+    {
+      "path": "round-16/source-before/public/assets/story-result-r9.png",
+      "sha256": "99201407421a1cd4bb0f7d896d0b8eceef37b1b64851df35b00cbb3689126621",
+      "bytes": 70007,
+      "crc32": 1419237995,
+      "mtimeNs": 1791619374570282700
+    },
+    {
+      "path": "round-16/source-before/public/assets/tianchi-dem.json",
+      "sha256": "15d17dc21b3ec1d8d0885afb5dda15df603372836f8823b6ed943fcc449ba40c",
+      "bytes": 464020,
+      "crc32": 180567046,
+      "mtimeNs": 1791600647374939500
+    },
+    {
+      "path": "round-16/source-before/public/assets/tianchi-sentinel-20240904.jpg",
+      "sha256": "1908d5d579ab096ee398160896785603f31fc03793deec2212f3c5e6b6f43a39",
+      "bytes": 703514,
+      "crc32": 3771765437,
+      "mtimeNs": 1791602611234690500
+    },
+    {
+      "path": "round-16/source-before/public/assets/tianchi-sentinel-stac.json",
+      "sha256": "2c39ad12bcca1623690a58f94c4c2f600f1104a3f5e3cd02fb67265cfefa86d4",
+      "bytes": 35318,
+      "crc32": 1795774822,
+      "mtimeNs": 1791602611238651800
+    },
+    {
+      "path": "round-16/source-before/public/assets/xinjiang-blue-marble.jpg",
+      "sha256": "3a6f13faf58e1405421d171ad505c178006264ff4898347979529670900413f4",
+      "bytes": 393179,
+      "crc32": 4144860629,
+      "mtimeNs": 1791596720621850900
+    },
+    {
+      "path": "round-16/source-before/public/assets/xinjiang-dem.json",
+      "sha256": "730aaa0ec9050e63d98cea1eebe9ab11daff53a25745f407521fcd001d69da87",
+      "bytes": 1846351,
+      "crc32": 3788086362,
+      "mtimeNs": 1791600642830524100
+    },
+    {
+      "path": "round-16/source-before/public/atlas.css",
+      "sha256": "371dca28c8fe63076986a5ef2a42046b741a316a3235c90e3107ef03c5959015",
+      "bytes": 11220,
+      "crc32": 1812283350,
+      "mtimeNs": 1791648944844687500
+    },
+    {
+      "path": "round-16/source-before/public/atlas.js",
+      "sha256": "4bbc17d3a61cedb5543612ba606448e1b62d77ed8020107848ee8e8de816e08b",
+      "bytes": 3752,
+      "crc32": 1714832825,
+      "mtimeNs": 1791648124970584900
+    },
+    {
+      "path": "round-16/source-before/public/capture.js",
+      "sha256": "b2c9943943db3996b8ebf9a8fd95db1b595f7f8be2bd2f91204bde0f75dea87a",
+      "bytes": 5127,
+      "crc32": 3265147190,
+      "mtimeNs": 1791648944844150400
+    },
+    {
+      "path": "round-16/source-before/public/connections.js",
+      "sha256": "dab4a506dd8e99a4840c1932bd6d650b1eec22d70e14fc16b35314d409df46b5",
+      "bytes": 7104,
+      "crc32": 520571171,
+      "mtimeNs": 1791640143307229300
+    },
+    {
+      "path": "round-16/source-before/public/continuity.css",
+      "sha256": "3ee2649b57b2aea79fe6f9edef4919b38b40ef590419ee6ca82ac08aedf00632",
+      "bytes": 681,
+      "crc32": 1792588244,
+      "mtimeNs": 1791627792279157400
+    },
+    {
+      "path": "round-16/source-before/public/continuity.js",
+      "sha256": "48ba61cbb68019be35c242a16a7db8af00e6ea20b75ebebfa6d4d7548b5ceace",
+      "bytes": 1838,
+      "crc32": 4145228098,
+      "mtimeNs": 1791647370426267300
+    },
+    {
+      "path": "round-16/source-before/public/data.js",
+      "sha256": "e6e057ecad51f93ca5131c7989dffa5a63c5715a8936060a61e19cb2a3d97b85",
+      "bytes": 6189,
+      "crc32": 854762947,
+      "mtimeNs": 1791559687060409700
+    },
+    {
+      "path": "round-16/source-before/public/explorations.css",
+      "sha256": "b5f5f73d2fd75125a1749ff25910c1c3d1127030abf7f9e918c49df4fcff0c27",
+      "bytes": 7163,
+      "crc32": 3912722420,
+      "mtimeNs": 1791640950504736000
+    },
+    {
+      "path": "round-16/source-before/public/explorations.html",
+      "sha256": "cb2994ab28e73a356ae039cd5291f679e753adb4a0d6d0ae9ab5a8ff641f009e",
+      "bytes": 24988,
+      "crc32": 4169536411,
+      "mtimeNs": 1791650089511766900
+    },
+    {
+      "path": "round-16/source-before/public/explorations.js",
+      "sha256": "13869ac9c43d80548631bb3615d381a1d6e75dc4f1e31a312f7f89962bc731b9",
+      "bytes": 1422,
+      "crc32": 688082437,
+      "mtimeNs": 1791611974623632300
+    },
+    {
+      "path": "round-16/source-before/public/film.js",
+      "sha256": "228df8568ceae3635c40a2bbfea7df699c80332646d9f61a1e9b8c9b7a012c45",
+      "bytes": 9182,
+      "crc32": 4223489458,
+      "mtimeNs": 1791647474155252800
+    },
+    {
+      "path": "round-16/source-before/public/geo.js",
+      "sha256": "61acbc998227d1faeefdc0459e074a32c3e6f4e3051f720bb6d3eefe2e1491de",
+      "bytes": 2138,
+      "crc32": 3373936774,
+      "mtimeNs": 1791600603484970900
+    },
+    {
+      "path": "round-16/source-before/public/glacier.js",
+      "sha256": "2dd43339a9aa233196bab8e7beb8cde78390d6941f7f0e3cacd88a812aca615e",
+      "bytes": 3888,
+      "crc32": 1302177656,
+      "mtimeNs": 1791612064465510400
+    },
+    {
+      "path": "round-16/source-before/public/index.html",
+      "sha256": "9e54d43c80503b02932ccfd249bad9cd787a2f1c8ec1f88c35c7a08fa9254fc0",
+      "bytes": 11123,
+      "crc32": 1370772902,
+      "mtimeNs": 1791646596720685600
+    },
+    {
+      "path": "round-16/source-before/public/journey.js",
+      "sha256": "348ff75326651d4fea260961b9c7682d66c5348fc22cdb88f7fd3ea883504718",
+      "bytes": 12421,
+      "crc32": 2215811430,
+      "mtimeNs": 1791646596749291500
+    },
+    {
+      "path": "round-16/source-before/public/landscape.js",
+      "sha256": "fcd3228063c31b8c88626eb6ad473734007e6d9c6220b24885d61e0d2153f622",
+      "bytes": 3297,
+      "crc32": 3755333886,
+      "mtimeNs": 1791606513666133100
+    },
+    {
+      "path": "round-16/source-before/public/lessons.js",
+      "sha256": "483d69812af2043d2f56f897128f11eaa236dd83ba8db8635341277924e247da",
+      "bytes": 12810,
+      "crc32": 3792290768,
+      "mtimeNs": 1791611787052258600
+    },
+    {
+      "path": "round-16/source-before/public/lived-detail.js",
+      "sha256": "9237579e7714ae4b7555f374305bd2de3bba7f3d851524b6bb8f7623b6a6a484",
+      "bytes": 11104,
+      "crc32": 3544043583,
+      "mtimeNs": 1791638489992009300
+    },
+    {
+      "path": "round-16/source-before/public/lived-model.js",
+      "sha256": "01a065fe3dba79b6fe334a5667f32ff411c0a7e3707079b9d815aa7f6367f50b",
+      "bytes": 4228,
+      "crc32": 1842311296,
+      "mtimeNs": 1791646596748430800
+    },
+    {
+      "path": "round-16/source-before/public/lived-process.js",
+      "sha256": "c4542db3c58a8b1d8111cc030b74509befd9b8947760c53543e90869d6886bd0",
+      "bytes": 3800,
+      "crc32": 2047454494,
+      "mtimeNs": 1791646596764016800
+    },
+    {
+      "path": "round-16/source-before/public/lived-scenes.js",
+      "sha256": "459704d274d81d2c4a46a561952cf1331abf4cbd3bf7e9f790e1f2987a096813",
+      "bytes": 50494,
+      "crc32": 4109283079,
+      "mtimeNs": 1791648368562805700
+    },
+    {
+      "path": "round-16/source-before/public/motion.js",
+      "sha256": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "bytes": 1072,
+      "crc32": 1268095807,
+      "mtimeNs": 1791600097839152800
+    },
+    {
+      "path": "round-16/source-before/public/narrative-ui.js",
+      "sha256": "b62997876e0079b691d02311aae3a2113657eaa8f891f15b4ae4779148500a01",
+      "bytes": 4890,
+      "crc32": 4105942192,
+      "mtimeNs": 1791625991254528700
+    },
+    {
+      "path": "round-16/source-before/public/research.html",
+      "sha256": "5f368aba01ee4aa66af05c6e2383242584a7ad5ab5fdb7dd79e9628a698669c0",
+      "bytes": 10624,
+      "crc32": 1805852179,
+      "mtimeNs": 1791611974684689400
+    },
+    {
+      "path": "round-16/source-before/public/sandbox.css",
+      "sha256": "e125403dec22bcc01df67bac8f5947749c8e842e196c27844b87234328a11ed2",
+      "bytes": 40621,
+      "crc32": 546876247,
+      "mtimeNs": 1791625494693509800
+    },
+    {
+      "path": "round-16/source-before/public/sandbox.js",
+      "sha256": "e80a6a0c982ffc93b79ee58ef4aa77fda4fac8726a7d6ef762be8dd26adb0816",
+      "bytes": 109082,
+      "crc32": 3306122210,
+      "mtimeNs": 1791650714368733400
+    },
+    {
+      "path": "round-16/source-before/public/social-controls.js",
+      "sha256": "187f6c69ddb0be77b590d9554a3d7db0a34687c5f59786165ed139ad361a6171",
+      "bytes": 2646,
+      "crc32": 2451670577,
+      "mtimeNs": 1791640145991347800
+    },
+    {
+      "path": "round-16/source-before/public/social-depth.js",
+      "sha256": "d3ddddc40106e369b3efc837e8499e9a77673655e52cff112b688145cb180775",
+      "bytes": 14624,
+      "crc32": 1708802504,
+      "mtimeNs": 1791641974957302300
+    },
+    {
+      "path": "round-16/source-before/public/social-model.js",
+      "sha256": "0407920d9b8445fddc189d4674c966bbe87fd48e210fa848ab1a83f8ddad2e49",
+      "bytes": 3421,
+      "crc32": 3955671559,
+      "mtimeNs": 1791640799739633200
+    },
+    {
+      "path": "round-16/source-before/public/soft-box.js",
+      "sha256": "a2eb344ced30599e338c4d07c7c4923e4c7aab0bd3de83647d6745cc697da3ad",
+      "bytes": 707,
+      "crc32": 4110974415,
+      "mtimeNs": 1791646595928273300
+    },
+    {
+      "path": "round-16/source-before/public/soundscape.js",
+      "sha256": "d2c8b5f4bf391d8e8d396f2f6678788de1fa22b83a969d09785fd877e6522b64",
+      "bytes": 5507,
+      "crc32": 977042277,
+      "mtimeNs": 1791647538480052800
+    },
+    {
+      "path": "round-16/source-before/public/story-finish.css",
+      "sha256": "3cb73a8e84335898b52e948231799481202402407e2dee360b8cd34658e2ec24",
+      "bytes": 4712,
+      "crc32": 2709754691,
+      "mtimeNs": 1791640255678629900
+    },
+    {
+      "path": "round-16/source-before/public/story-outcomes.js",
+      "sha256": "67f920deb1fe415a574456e9f215930b6b950d9e1f2e8efd324a0266bb1c7fde",
+      "bytes": 2730,
+      "crc32": 2550489245,
+      "mtimeNs": 1791647651889378900
+    },
+    {
+      "path": "round-16/source-before/public/story.js",
+      "sha256": "9f1bc7510c07ec06d0406c4b1f44e0479af2f8c39e5ba5f13c0ce2e9d57ca5c8",
+      "bytes": 11965,
+      "crc32": 1446051081,
+      "mtimeNs": 1791612065597967800
+    },
+    {
+      "path": "round-16/source-before/public/styles.css",
+      "sha256": "fbaf54a415d2500e20fd76cb8ade2799eb5364a1a3e3bf063e03ac0e8759e333",
+      "bytes": 14295,
+      "crc32": 4214606884,
+      "mtimeNs": 1791560137300350500
+    },
+    {
+      "path": "round-16/source-before/public/surface.js",
+      "sha256": "c4147528a6d3a86adc767839fac99077b0486aef42e55758659b61db9cb4374b",
+      "bytes": 5186,
+      "crc32": 3430930324,
+      "mtimeNs": 1791646598837084700
+    },
+    {
+      "path": "round-16/source-before/public/vendor/OrbitControls.js",
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+      "bytes": 40755,
+      "crc32": 3995160459,
+      "mtimeNs": 1791595156272814400
+    },
+    {
+      "path": "round-16/source-before/public/vendor/THREE-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081,
+      "crc32": 2216198906,
+      "mtimeNs": 1791595154713981600
+    },
+    {
+      "path": "round-16/source-before/public/vendor/three.core.js",
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+      "bytes": 1458113,
+      "crc32": 2211798416,
+      "mtimeNs": 1791595157034280100
+    },
+    {
+      "path": "round-16/source-before/public/vendor/three.module.js",
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+      "bytes": 662772,
+      "crc32": 390901078,
+      "mtimeNs": 1791595157047845400
+    },
+    {
+      "path": "round-16/source-before/public/water-story.js",
+      "sha256": "7b5510685c389e60ef76b6908050b2813a562cdf18333a79975abc56f46b875e",
+      "bytes": 7397,
+      "crc32": 1197256449,
+      "mtimeNs": 1791647314575625700
+    },
+    {
+      "path": "round-16/source-before/scripts/check.mjs",
+      "sha256": "b11d775810a856d4f1f86368107ced52df5a01c5666bdbdf1e2869a2afa04c63",
+      "bytes": 20602,
+      "crc32": 3099754844,
+      "mtimeNs": 1791648607547508700
+    },
+    {
+      "path": "round-16/source-before/scripts/prepare-data.py",
+      "sha256": "9b290aeed8b3641a31f76b63193a1e3dd85a0ee058079b646fe89820613df528",
+      "bytes": 4748,
+      "crc32": 1060801341,
+      "mtimeNs": 1791596713105997900
+    },
+    {
+      "path": "round-16/source-before/scripts/prepare-globe.py",
+      "sha256": "ad45e529791808edc2ac6e7f786f95de274384f6ef388d0648e46adedf1331bc",
+      "bytes": 1495,
+      "crc32": 1712615544,
+      "mtimeNs": 1791597456399104200
+    },
+    {
+      "path": "round-16/source-before/scripts/prepare-local-imagery.py",
+      "sha256": "02fb002a090aae67442c6c166a0fb8402b59cb27d05dd8a3d160760e99d2b340",
+      "bytes": 10077,
+      "crc32": 3128735464,
+      "mtimeNs": 1791602607629624500
+    },
+    {
+      "path": "round-16/source-before/scripts/prepare-quality-assets.py",
+      "sha256": "e13e4fb57a8ae2975a77d688be7679d2b4e86770d4b2f09ba9739435f3009807",
+      "bytes": 2306,
+      "crc32": 2171629284,
+      "mtimeNs": 1791600640060402800
+    },
+    {
+      "path": "round-16/source-before/scripts/prepare-story-assets.py",
+      "sha256": "6e77ac528222f6efb4c9787253ca296814ebb84352cbed5fb32826dca24f3580",
+      "bytes": 2216,
+      "crc32": 4189706290,
+      "mtimeNs": 1791596713107036100
+    },
+    {
+      "path": "round-16/source-before/scripts/serve.mjs",
+      "sha256": "b6df25c5f5ba2acef1a8e04e71d49d03da7a44fde1d781adebd038feeeb0ff06",
+      "bytes": 2047,
+      "crc32": 365118511,
+      "mtimeNs": 1791594754492524000
+    },
+    {
+      "path": "round-16/source-before/scripts/vendor.mjs",
+      "sha256": "3760fcd2e5e7880e63528a98dad9968fd40c67143de33cc2573395affcaf1ca5",
+      "bytes": 720,
+      "crc32": 117399202,
+      "mtimeNs": 1791594103454617300
+    },
+    {
+      "path": "round-16/source-checkpoints/lived-scenes-before-final-observations.js",
+      "sha256": "0822ad95976b669890dd52aa2579a6097b0dbeb70605a573d61b947b17506ec4",
+      "bytes": 55703,
+      "crc32": 137224285,
+      "mtimeNs": 1791681829359160300
+    },
+    {
+      "path": "round-16/source-recorded/public/ATTRIBUTION.md",
+      "sha256": "2c88f079944cdc1484530e113aec6a3893db47a4b0b8b29550a5593555284992",
+      "bytes": 12898,
+      "crc32": 3274731476,
+      "mtimeNs": 1791648547464212600
+    },
+    {
+      "path": "round-16/source-recorded/public/app.js",
+      "sha256": "d2dd099ecd3e568786e6a75417030e8963411e98d2d321ca6d07f81c10425c37",
+      "bytes": 2253,
+      "crc32": 2210610571,
+      "mtimeNs": 1791559687062736700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-culture.jpg",
+      "sha256": "c32eaa5d0818b1e5eb6c870d92f9dd3271de27cbbc29bd79a828787837159596",
+      "bytes": 53221,
+      "crc32": 3436094268,
+      "mtimeNs": 1791648124939749700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-family.jpg",
+      "sha256": "29cd8981af87474f036c90c43dc517bfaa5dc5a0f542cccb5a42a4ea235bf679",
+      "bytes": 24481,
+      "crc32": 600723046,
+      "mtimeNs": 1791648124929563800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-gate.jpg",
+      "sha256": "9ffb7643bb8c8b8c0fcc96f1b0700c03770b1575037cca131afdd78051727400",
+      "bytes": 43441,
+      "crc32": 312144530,
+      "mtimeNs": 1791648124955477500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-ice.jpg",
+      "sha256": "b87ae88f63fc7581bb57c1c07f3fa7b43cfd171b901083c16a368c17e8eef31a",
+      "bytes": 43007,
+      "crc32": 910489196,
+      "mtimeNs": 1791648124877138000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-market.jpg",
+      "sha256": "05e292320f20c1b09789bb38c3a3df10cd9e255e3d44f40bffb6f4f2052f9e7a",
+      "bytes": 47061,
+      "crc32": 1442105674,
+      "mtimeNs": 1791648124919028500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/atlas-r15-water.jpg",
+      "sha256": "f4795ad1facee53963a70b03a18228e88b2a095074e59b1b916961a8bb801ef7",
+      "bytes": 33774,
+      "crc32": 2457832668,
+      "mtimeNs": 1791648124901216300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio-script.json",
+      "sha256": "0890f7479a79549bfbad6baaef2d165467cf878450d57017883e792a80c058f2",
+      "bytes": 4314,
+      "crc32": 58942349,
+      "mtimeNs": 1791681318763707000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-balanced.mp3",
+      "sha256": "c47990d9f9e809a4a3f4d1ee891e5e610ab70f64037145924762f5b914f957bd",
+      "bytes": 57069,
+      "crc32": 448578023,
+      "mtimeNs": 1791640474453271300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-freight.mp3",
+      "sha256": "701669617cea58c879d312375acd30c3e1d1f14b3eff2688ea09c52021ef34b5",
+      "bytes": 61293,
+      "crc32": 2700917812,
+      "mtimeNs": 1791640474719194300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-habitat.mp3",
+      "sha256": "f54854ca9aac9b004557e62de5317699bc8b96153aca5fc40c643685026f3bac",
+      "bytes": 60717,
+      "crc32": 1249867620,
+      "mtimeNs": 1791640474990659700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-resident.mp3",
+      "sha256": "c919e4a3bab55a70cc41d630503a56b307f4a3ca453f47f8b6ce728ce81b8d3d",
+      "bytes": 37677,
+      "crc32": 2484153515,
+      "mtimeNs": 1791640473765184200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-steward.mp3",
+      "sha256": "9f9ac7508490c4bdadf359da0ad5bac3ed274b400f26e7a08e3a59677e6b62f9",
+      "bytes": 37869,
+      "crc32": 436408778,
+      "mtimeNs": 1791640474213879600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/civic-worker.mp3",
+      "sha256": "d90af3aa27050186fc0615fb6b305be6368fefcb12ff38413e6401ab15343590",
+      "bytes": 37677,
+      "crc32": 1128613174,
+      "mtimeNs": 1791640473996158200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/culture-join.mp3",
+      "sha256": "3737123c1064f5dd9bfe9282f442bf4fe935d00fcb95e51ca102cfbb423ade40",
+      "bytes": 43245,
+      "crc32": 2700411728,
+      "mtimeNs": 1791681318613262000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/culture-listen.mp3",
+      "sha256": "65e00b5c84c10dcac83aa4eca93da0064943763aaadb4feed9f96b82241375e2",
+      "bytes": 43629,
+      "crc32": 3448970300,
+      "mtimeNs": 1791681318432453200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/family-child.mp3",
+      "sha256": "2f691fd99dc5a662712b46156f752e885976f076bb16e175c424a7f445842e9f",
+      "bytes": 21933,
+      "crc32": 2135950673,
+      "mtimeNs": 1791640473064594400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/family-home.mp3",
+      "sha256": "eacc0aef4e2bb5c22ccbcd945c92608e7505c4441d2533a27310c1cdeed3d1fe",
+      "bytes": 46509,
+      "crc32": 1120067295,
+      "mtimeNs": 1791681318245489700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/family-memory.mp3",
+      "sha256": "26675c8f92df5d133cb8af5b2a58c6f8740c284cf9f33a64afe2cca345c88655",
+      "bytes": 41517,
+      "crc32": 1327977516,
+      "mtimeNs": 1791640472851846400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/family-water.mp3",
+      "sha256": "6b7f1b4853a8bc2d4c26ab3c1b79d451891cfc44231c1f4e6a9244aa99cd55e7",
+      "bytes": 44013,
+      "crc32": 3736726376,
+      "mtimeNs": 1791681318061049300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/learner.mp3",
+      "sha256": "148d3821e9e82e4c19e69825d5d1b328f967e4fd747b2ac309f3dad74649b21f",
+      "bytes": 36717,
+      "crc32": 178976150,
+      "mtimeNs": 1791640473525269400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/manifest.json",
+      "sha256": "d874d5160659ec319d2cf8b7f3f11526c7d9de51519355324274704d35f3b546",
+      "bytes": 7766,
+      "crc32": 1350914862,
+      "mtimeNs": 1791681335254952100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/market-cloth.mp3",
+      "sha256": "a780f22239d289899528eddd6c5ef74e1d6b74769bd2917578ce078f1edd68a6",
+      "bytes": 38637,
+      "crc32": 3905861613,
+      "mtimeNs": 1791681317557798700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/market-craft.mp3",
+      "sha256": "2a8292cc0127232978e6333f3f8316fe130ef1f0f666b3035c85be1fb50cc520",
+      "bytes": 45165,
+      "crc32": 2526824336,
+      "mtimeNs": 1791681317861664200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/market-supplies.mp3",
+      "sha256": "c04dd67bb4d44263526f3d977463f946be0fffb84da67a26e3a24233888262d3",
+      "bytes": 44397,
+      "crc32": 3052940361,
+      "mtimeNs": 1791681317708540200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/script.json",
+      "sha256": "0c8095b491bba8b429a9a1a80c1ca86142f1f7b65b7c513df6b0e3d96dd8773c",
+      "bytes": 5113,
+      "crc32": 110682816,
+      "mtimeNs": 1791681335255465500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/teacher.mp3",
+      "sha256": "ffe0f2c6b852341957a501dd015b7aa617bd6b891f8b1b8e370b311942104064",
+      "bytes": 37485,
+      "crc32": 3276119047,
+      "mtimeNs": 1791640473299901300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/water-field.mp3",
+      "sha256": "cdaf06be7485c817f37b8e5842e7cb66a21296f6c1cd532b25ff25863d5152f6",
+      "bytes": 38829,
+      "crc32": 1661134794,
+      "mtimeNs": 1791646800122989700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/dialogue/water-home.mp3",
+      "sha256": "30e94d56d94f50227cf597838c1aa4fb91dff6d7d738577f27e0b66fff76a0bb",
+      "bytes": 36141,
+      "crc32": 1353743656,
+      "mtimeNs": 1791646800016167700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/exchange-city.mp3",
+      "sha256": "3451b4ba10eb45668fc04c5a17bf949a61483604a8bde2843b18663d20a3c8c6",
+      "bytes": 76077,
+      "crc32": 604944361,
+      "mtimeNs": 1791637011221905200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/exchange-goods.mp3",
+      "sha256": "be93741d0e62922de96a02cca6d4fb93ca6bae555e164c9d8abc2ffdbb2e2a40",
+      "bytes": 64173,
+      "crc32": 1519250886,
+      "mtimeNs": 1791681316876459500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/exchange-network.mp3",
+      "sha256": "1895251407f7bfada281101021806c32d04aec0ed3ea9f7ceb41be8bb0b7dbcb",
+      "bytes": 68397,
+      "crc32": 1053153826,
+      "mtimeNs": 1791637010955594500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/exchange-question.mp3",
+      "sha256": "62882c66df30fb757416aac34c85394a3ea0e7f8351aa87b405b47f8cc18fa41",
+      "bytes": 69933,
+      "crc32": 4161609547,
+      "mtimeNs": 1791637011314301300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/exchange-stops.mp3",
+      "sha256": "d0e38cd7d1a228819e5b788802596813d2d202da18ddf3d14cd5e4adeaa5c6d0",
+      "bytes": 76653,
+      "crc32": 491309889,
+      "mtimeNs": 1791637011046672600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/future-budget.mp3",
+      "sha256": "273cf6c868bfe1997f802a434a3dc708689cc69c2f76aae0b6b7eb19b95c9106",
+      "bytes": 74349,
+      "crc32": 162991109,
+      "mtimeNs": 1791637012327787700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/future-evidence.mp3",
+      "sha256": "7fd984c1760c3da1768804471eebdeb27ff2b80f9b5253458796e26242901bf9",
+      "bytes": 75501,
+      "crc32": 1755281630,
+      "mtimeNs": 1791637234460588900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/future-landscape.mp3",
+      "sha256": "4be78757f357691ed606005091b7526a63234b6965519aaf07dfeb715385c0eb",
+      "bytes": 68589,
+      "crc32": 3761642572,
+      "mtimeNs": 1791637012223278000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/future-result.mp3",
+      "sha256": "bfd46877a720d2d09533e4837567346cc1d84dc7ebf5d369657c66867f0e44ee",
+      "bytes": 72813,
+      "crc32": 1307714507,
+      "mtimeNs": 1791640472541735700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/future-synthesis.mp3",
+      "sha256": "9e77c92f11e81999862745be042b62f0704512a65ff52bf3e90d5c5fe2d819ec",
+      "bytes": 124653,
+      "crc32": 2504170308,
+      "mtimeNs": 1791640472023379700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/manifest.json",
+      "sha256": "ce0fb49db169c7499c0eda48727c58966fd5c072b5ec6049010dea2e1e0398a3",
+      "bytes": 7250,
+      "crc32": 433219215,
+      "mtimeNs": 1791681335253582200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/memory-arrival.mp3",
+      "sha256": "207d843408dcf79e23699eb19ab3f0a5c59895ad08f7a08624ce6fdd371ad62e",
+      "bytes": 64173,
+      "crc32": 2849927302,
+      "mtimeNs": 1791681317084866900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/memory-departure.mp3",
+      "sha256": "c0ad68a6eb56017a7ad9b597f69e2893f597efae3b99cadda77db6cdb0bf3f0e",
+      "bytes": 112173,
+      "crc32": 3426371514,
+      "mtimeNs": 1791640469612670700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/memory-journey.mp3",
+      "sha256": "75ef578e7169f3ad9f067368623edc98a86593b2504761d57c7e00d9633bf70a",
+      "bytes": 115821,
+      "crc32": 1589236708,
+      "mtimeNs": 1791640469966808700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/memory-muqam.mp3",
+      "sha256": "0feb9afe962c6342b4f3fe7def7c612d0d9607c9b4af094f21ef7eec409cd576",
+      "bytes": 128493,
+      "crc32": 2684512907,
+      "mtimeNs": 1791640470552000400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/memory-practice.mp3",
+      "sha256": "fdd58873d52ef09cd3611f5198bd130f54196d9dd5cabeebbe67e1c12c156156",
+      "bytes": 69165,
+      "crc32": 862080093,
+      "mtimeNs": 1791681317251100300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/modern-hubs.mp3",
+      "sha256": "3b10c0f658f9f9e23079ba54f043662bc20ec38ad0c1f35393effb24c5c2543b",
+      "bytes": 60717,
+      "crc32": 1349798818,
+      "mtimeNs": 1791647732504312800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/modern-kashgar.mp3",
+      "sha256": "87cb4cc4b90c70498d7c5f8db21dc187d5006fdc4a5aab81031df4aa5f1ce3bb",
+      "bytes": 72621,
+      "crc32": 1648848848,
+      "mtimeNs": 1791637012003643000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/modern-limit.mp3",
+      "sha256": "0bdf914d247cf9de1dce6566a62cd29d062f27337cd117fb209f1d6bd7730b6d",
+      "bytes": 70317,
+      "crc32": 1284477494,
+      "mtimeNs": 1791681317402096700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/modern-rules.mp3",
+      "sha256": "ea6323d7f4eea82a1a19cbb14392a334e56da70dc3ddb41fd43e7e9ad0e22fd4",
+      "bytes": 74157,
+      "crc32": 1200653835,
+      "mtimeNs": 1791642254869533800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/modern-urumqi.mp3",
+      "sha256": "c35abbf6cb0c1bf4e39ce36c7d02f6c3bcf1da4feb28ca05ef7e5158beb2d073",
+      "bytes": 67821,
+      "crc32": 631446011,
+      "mtimeNs": 1791637011930282900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/oasis-dry.mp3",
+      "sha256": "255cccb007b43811c68e67416b9d6d91f88ce8705d9360e43934992e9bbe646e",
+      "bytes": 66861,
+      "crc32": 2460812894,
+      "mtimeNs": 1791637010438444600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/oasis-engineering.mp3",
+      "sha256": "4022974fc6b6febcb50642adf23082e50d4bbfe6f2ce076db2a57858c7e8a175",
+      "bytes": 69357,
+      "crc32": 1175865703,
+      "mtimeNs": 1791637010585637900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/oasis-nodes.mp3",
+      "sha256": "33d8171ad52f1e6792654b7f5c133c4f9e8330cfa9ae6b3172c4147642173377",
+      "bytes": 63597,
+      "crc32": 4071431633,
+      "mtimeNs": 1791637010848168300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/oasis-use.mp3",
+      "sha256": "ffe13abcadf1920cf4fa6f9e1a173ea6551bb667f701fa06b40754711fe45ef5",
+      "bytes": 67245,
+      "crc32": 984429483,
+      "mtimeNs": 1791637010736316600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/oasis-wind.mp3",
+      "sha256": "2d3166c5c6f3456e89be47e2b780996eddd6c0a9ff3b18f2b88d7bab834980ab",
+      "bytes": 71469,
+      "crc32": 419407675,
+      "mtimeNs": 1791637010513588800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/water-flow.mp3",
+      "sha256": "2b23af637aa810814ecdce0391ed0ba681c2c193cc2666e1ceb3eaf501feddd4",
+      "bytes": 54381,
+      "crc32": 799062548,
+      "mtimeNs": 1791646799774596700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/water-ice.mp3",
+      "sha256": "55813b40637e57453f6c61d7b56785eda8e6cdf6248072180a34887ad45273a7",
+      "bytes": 70893,
+      "crc32": 1482088717,
+      "mtimeNs": 1791646799645060800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/water-inland.mp3",
+      "sha256": "a43a496f60a0983e79600e8ba5d4a4303ac29444babeb34e3f490dc104669001",
+      "bytes": 50733,
+      "crc32": 3038116380,
+      "mtimeNs": 1791646799320337100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/water-mountains.mp3",
+      "sha256": "d8f4b017517373c9fe0159fc6ce65b8aaad6865aa0776a496cb27bbcea2716ba",
+      "bytes": 57069,
+      "crc32": 3232488521,
+      "mtimeNs": 1791646799507576700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/audio/water-valley.mp3",
+      "sha256": "be15f533cf57dc9549169c37c34866b0ec7420d4a21066188c34d056f91c36a7",
+      "bytes": 66669,
+      "crc32": 986809560,
+      "mtimeNs": 1791646799904411000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-courtyard-gate-r12.png",
+      "sha256": "5111ee9bf12f8a8ebf911fd8771e386011187d469f13c7af744d4cbe0c5168bb",
+      "bytes": 84053,
+      "crc32": 522411802,
+      "mtimeNs": 1791628650426231200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-culture-r12.png",
+      "sha256": "931b7a06c10ee7b51c815595a31291efc0d61a779f02a1b00a5ab0fd5155d2d5",
+      "bytes": 94461,
+      "crc32": 4186077055,
+      "mtimeNs": 1791628650424231100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-culture-r13.png",
+      "sha256": "68bbe240209105ab1317d237e11f21734a7f66c5923b3dcfba722304413b8da3",
+      "bytes": 109739,
+      "crc32": 3522080708,
+      "mtimeNs": 1791638648400664400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-family-courtyard-r12.png",
+      "sha256": "bc3a2ba085182a52b6ef5956a838063f10369881722c625d13b094ea29c6199d",
+      "bytes": 81097,
+      "crc32": 3707932795,
+      "mtimeNs": 1791628650426231200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-market-r12.png",
+      "sha256": "0556eb9b801c5ae1cf7f65dcc98e612c6f913fb13892fbfaeab65a49308f64c4",
+      "bytes": 94345,
+      "crc32": 1809716300,
+      "mtimeNs": 1791628650423231200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-market-r13.png",
+      "sha256": "9312fb64d722de16d3a00c0e1531ecae26fb91ad9a19fa9cde67c66aa1a84b83",
+      "bytes": 97016,
+      "crc32": 27330641,
+      "mtimeNs": 1791638413734955000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-nature-r12.png",
+      "sha256": "e53406a73ca7becf7ef02815e3b397cf6bcbb0adf96650fbdcc1aa50dd9edfe5",
+      "bytes": 74156,
+      "crc32": 136293600,
+      "mtimeNs": 1791628650422230400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-overview-r12.png",
+      "sha256": "f7903fc2d94c4838f27978b3e311b190b27ae78315bb91343dd44516ca068630",
+      "bytes": 56333,
+      "crc32": 4067151907,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-people-r12.png",
+      "sha256": "f3a8623df1ba8643fa53fe805cd25f0cd7aa3badc1088ac3c9d09d02b090ae3f",
+      "bytes": 89113,
+      "crc32": 4251746743,
+      "mtimeNs": 1791628650424231100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-people-r13.png",
+      "sha256": "12d0caae5430998c7cb22598e45e3ddde163f4580fc86ebc90b727986741d10f",
+      "bytes": 94429,
+      "crc32": 1882634036,
+      "mtimeNs": 1791638628112216400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-result-r12.png",
+      "sha256": "2733902f39ed69b072751144e6712da05e17f230137f09b50511db7c9533c5f7",
+      "bytes": 82624,
+      "crc32": 2916235090,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-result-r13.png",
+      "sha256": "2414c112afecc8162b60fe75c5fec022b0a95d783d1c57a878d5adb8f23b0dd4",
+      "bytes": 87466,
+      "crc32": 2658750914,
+      "mtimeNs": 1791639292307950100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-service-r12.png",
+      "sha256": "f7db53131e33de27d94e2bece7206de0702e62f6b6dc6571f357171ea918a543",
+      "bytes": 97194,
+      "crc32": 1621777346,
+      "mtimeNs": 1791628650425231700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/connected-service-r13.png",
+      "sha256": "482fe6d65cdd2fb9c4862c9717ebbaf21b89ebb74ada0ab227043aba7edb2bbd",
+      "bytes": 86275,
+      "crc32": 1056573948,
+      "mtimeNs": 1791638174371384800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/data-sources.json",
+      "sha256": "b5a4d5824c51c9294f1826b934b6dfc71c256b05a9f6121ffaa164c8d0359109",
+      "bytes": 95502,
+      "crc32": 371299151,
+      "mtimeNs": 1791602624929209700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/earth-blue-marble.jpg",
+      "sha256": "7c46de6a8c34272be108afa82d04a4986429089254810c6fa72dd8ec87d9231b",
+      "bytes": 1610597,
+      "crc32": 425299993,
+      "mtimeNs": 1791597460049141800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/exploration-glacier-after.png",
+      "sha256": "8c807c465cd79e6f83d3a03e225af8ce82bdf4584ea037b8bba7e417f9cf92b8",
+      "bytes": 79061,
+      "crc32": 3327370296,
+      "mtimeNs": 1791612721913673600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/exploration-glacier-before.png",
+      "sha256": "f673c826052e840d09a9bd62cb9ef2636583bf7e9d6fcc171d9f2af403f980d3",
+      "bytes": 67334,
+      "crc32": 686016206,
+      "mtimeNs": 1791611532069130000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/exploration-glacier-flow.png",
+      "sha256": "b127edca3000e6a9a23676f2d0645383577785da7ba9e8272a74c451eebd3043",
+      "bytes": 104375,
+      "crc32": 3778513070,
+      "mtimeNs": 1791612727418927900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/glacier-candidate-20240904.jpg",
+      "sha256": "30895dfb3edff642e97681d25a3b4213e9480a105a1934bbd9ecdea3e4a5c1c8",
+      "bytes": 804081,
+      "crc32": 2515947710,
+      "mtimeNs": 1791602293501551600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/glacier-dem.json",
+      "sha256": "08d5373f51b98afb4aa91635cbb85e20e54d16d65e8906e03a7ee4c28cd5fa68",
+      "bytes": 515380,
+      "crc32": 1566367056,
+      "mtimeNs": 1791600648414061000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/glacier-sentinel-20230831.jpg",
+      "sha256": "2ea9541fa0e3c81507efd9c40403d44b880f871156a792c70c0f3339252392fe",
+      "bytes": 816997,
+      "crc32": 757276377,
+      "mtimeNs": 1791602624874092300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/glacier-sentinel-stac.json",
+      "sha256": "0262d1373943003c1fcffaf1c045993b4e7a6ec50f1c1c38fa9065a488d14ed5",
+      "bytes": 35255,
+      "crc32": 2053236113,
+      "mtimeNs": 1791602624876905900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-culture-r10.png",
+      "sha256": "4cd1961376f84a117f31ebc161d4455726882707ac1d07abc504488ef4fb5bd0",
+      "bytes": 85701,
+      "crc32": 1199662795,
+      "mtimeNs": 1791623294353586300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-culture-r11.png",
+      "sha256": "bcd6ae893fd56e657fd8a6f4c6704d0063131f8e227746f89ee17dac90245da3",
+      "bytes": 89987,
+      "crc32": 3247045115,
+      "mtimeNs": 1791626466194595000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-market-r10.png",
+      "sha256": "1e1777cdb4b2a4f359501f009959e6f431f4c0fdf267ccf2a7f247b71ed6f34e",
+      "bytes": 87339,
+      "crc32": 453764489,
+      "mtimeNs": 1791623294349586000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-market-r11.png",
+      "sha256": "b51c13b76eb73e0151df5ef2abcc8b3632edc099d07843ef5e2521867ce75a6c",
+      "bytes": 96522,
+      "crc32": 3834080300,
+      "mtimeNs": 1791626466192595700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-people-r10.png",
+      "sha256": "cf53bd79e8c44b9146d3d4d5742241e4d0d69573ce5b0eedc42c1b1936adfdce",
+      "bytes": 74702,
+      "crc32": 1244812668,
+      "mtimeNs": 1791623294350585600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-people-r11.png",
+      "sha256": "45d79eba8fed60a789c64a8d113cf059cb8f15f9b49616352f2d37601586f286",
+      "bytes": 88211,
+      "crc32": 1376184026,
+      "mtimeNs": 1791626466193596300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-result-r10.png",
+      "sha256": "857b24b086ee9775b683bc19827785a7401fec845da2702d7534e5c0b07e9365",
+      "bytes": 71405,
+      "crc32": 899189022,
+      "mtimeNs": 1791623589233835400
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-result-r11.png",
+      "sha256": "5ee1c83426c6a89152438ec081bc44630871d0ed6046b5654c2fbbb2833e7fa0",
+      "bytes": 80828,
+      "crc32": 366381704,
+      "mtimeNs": 1791626466197917300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-service-r10.png",
+      "sha256": "1dbe81c90b04deeb0684bb59f3bec136bdd18f7cf7fa147cbf998675d7e7331e",
+      "bytes": 102418,
+      "crc32": 3743782186,
+      "mtimeNs": 1791623294354593200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/lived-service-r11.png",
+      "sha256": "2ed714fa9edfc3f4e18be1855013b4ea44dd9c0f3efd64b0f9f21482ee302fdc",
+      "bytes": 102635,
+      "crc32": 1416614768,
+      "mtimeNs": 1791626466195594500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/original-poster.webp",
+      "sha256": "bdbceea3e19ee1084d42a02b36504f8373951c1bee26ea36460082a0468eec23",
+      "bytes": 70458,
+      "crc32": 1648138444,
+      "mtimeNs": 1791558493555743200
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r14-consultation.jpg",
+      "sha256": "2dbefd93611f8221133252916c59643b8d40e422e3b0bd993f0756ed3ffbdb77",
+      "bytes": 106622,
+      "crc32": 816368163,
+      "mtimeNs": 1791642284040612600
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r14-culture.jpg",
+      "sha256": "6cf78ac604c94b94b8f7b0b83a0ee6e269bb72956ca9ae50e1896397b00a12f3",
+      "bytes": 122404,
+      "crc32": 2968008006,
+      "mtimeNs": 1791640674272593300
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r14-family.jpg",
+      "sha256": "804713084981d74f778b549b7a4700f60812d5b19b58fdf95a46b3b3f3919ed7",
+      "bytes": 100716,
+      "crc32": 851843135,
+      "mtimeNs": 1791640506837707900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r14-habitat.jpg",
+      "sha256": "08472541f2238468f6efb7e80519160af5b481fd13a7fa3abbfca8f08357f73e",
+      "bytes": 111550,
+      "crc32": 1163161217,
+      "mtimeNs": 1791642069902784000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r15-choice.jpg",
+      "sha256": "634952bc5647bddd7af0ff0172063b24b36e2d1a8f0ea59d6592271e78e6c46c",
+      "bytes": 82426,
+      "crc32": 2682602097,
+      "mtimeNs": 1791648334495441900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r15-entry.jpg",
+      "sha256": "d9cf7a03c1f37825384b8f494d744f34e093b67888f2db48c3633fd340fd116a",
+      "bytes": 91409,
+      "crc32": 2889585812,
+      "mtimeNs": 1791648279305482800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r15-response.jpg",
+      "sha256": "bb4ccb541bdc1f9824bc34548b8adc464f83bb04e28009ca8b0927e3fd8d418d",
+      "bytes": 75108,
+      "crc32": 3416736555,
+      "mtimeNs": 1791648430253146900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/process/r15-result.jpg",
+      "sha256": "a3eed3b76a2b5f342f1b4c0c47761a358e49d69322bf51a6ea84bbebab0e9296",
+      "bytes": 73284,
+      "crc32": 1214606068,
+      "mtimeNs": 1791649359034397100
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/story-culture-r9.png",
+      "sha256": "0af8b223553a826dfc2cc866d815b20b501a406bb0cd003a7cb0690e84f051af",
+      "bytes": 80881,
+      "crc32": 1769862286,
+      "mtimeNs": 1791619374566601700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/story-modern-r9.png",
+      "sha256": "e62cfaaa7f8338b97da8caf7fc09cdf8fca07e584eb85108624d6d96645e8e9d",
+      "bytes": 82987,
+      "crc32": 2410853665,
+      "mtimeNs": 1791619374568669000
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/story-result-r9.png",
+      "sha256": "99201407421a1cd4bb0f7d896d0b8eceef37b1b64851df35b00cbb3689126621",
+      "bytes": 70007,
+      "crc32": 1419237995,
+      "mtimeNs": 1791619374570282700
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/tianchi-dem.json",
+      "sha256": "15d17dc21b3ec1d8d0885afb5dda15df603372836f8823b6ed943fcc449ba40c",
+      "bytes": 464020,
+      "crc32": 180567046,
+      "mtimeNs": 1791600647374939500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/tianchi-sentinel-20240904.jpg",
+      "sha256": "1908d5d579ab096ee398160896785603f31fc03793deec2212f3c5e6b6f43a39",
+      "bytes": 703514,
+      "crc32": 3771765437,
+      "mtimeNs": 1791602611234690500
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/tianchi-sentinel-stac.json",
+      "sha256": "2c39ad12bcca1623690a58f94c4c2f600f1104a3f5e3cd02fb67265cfefa86d4",
+      "bytes": 35318,
+      "crc32": 1795774822,
+      "mtimeNs": 1791602611238651800
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/xinjiang-blue-marble.jpg",
+      "sha256": "3a6f13faf58e1405421d171ad505c178006264ff4898347979529670900413f4",
+      "bytes": 393179,
+      "crc32": 4144860629,
+      "mtimeNs": 1791596720621850900
+    },
+    {
+      "path": "round-16/source-recorded/public/assets/xinjiang-dem.json",
+      "sha256": "730aaa0ec9050e63d98cea1eebe9ab11daff53a25745f407521fcd001d69da87",
+      "bytes": 1846351,
+      "crc32": 3788086362,
+      "mtimeNs": 1791600642830524100
+    },
+    {
+      "path": "round-16/source-recorded/public/atlas.css",
+      "sha256": "371dca28c8fe63076986a5ef2a42046b741a316a3235c90e3107ef03c5959015",
+      "bytes": 11220,
+      "crc32": 1812283350,
+      "mtimeNs": 1791648944844687500
+    },
+    {
+      "path": "round-16/source-recorded/public/atlas.js",
+      "sha256": "4bbc17d3a61cedb5543612ba606448e1b62d77ed8020107848ee8e8de816e08b",
+      "bytes": 3752,
+      "crc32": 1714832825,
+      "mtimeNs": 1791648124970584900
+    },
+    {
+      "path": "round-16/source-recorded/public/capture.js",
+      "sha256": "6537cb172a9fe9d2c03afe0a04beab77a147eae13781b0f17b855e261c64e80a",
+      "bytes": 5458,
+      "crc32": 2800294261,
+      "mtimeNs": 1791681434980357600
+    },
+    {
+      "path": "round-16/source-recorded/public/connections.js",
+      "sha256": "dab4a506dd8e99a4840c1932bd6d650b1eec22d70e14fc16b35314d409df46b5",
+      "bytes": 7104,
+      "crc32": 520571171,
+      "mtimeNs": 1791640143307229300
+    },
+    {
+      "path": "round-16/source-recorded/public/continuity.css",
+      "sha256": "3ee2649b57b2aea79fe6f9edef4919b38b40ef590419ee6ca82ac08aedf00632",
+      "bytes": 681,
+      "crc32": 1792588244,
+      "mtimeNs": 1791627792279157400
+    },
+    {
+      "path": "round-16/source-recorded/public/continuity.js",
+      "sha256": "48ba61cbb68019be35c242a16a7db8af00e6ea20b75ebebfa6d4d7548b5ceace",
+      "bytes": 1838,
+      "crc32": 4145228098,
+      "mtimeNs": 1791647370426267300
+    },
+    {
+      "path": "round-16/source-recorded/public/data.js",
+      "sha256": "e6e057ecad51f93ca5131c7989dffa5a63c5715a8936060a61e19cb2a3d97b85",
+      "bytes": 6189,
+      "crc32": 854762947,
+      "mtimeNs": 1791559687060409700
+    },
+    {
+      "path": "round-16/source-recorded/public/explorations.css",
+      "sha256": "b5f5f73d2fd75125a1749ff25910c1c3d1127030abf7f9e918c49df4fcff0c27",
+      "bytes": 7163,
+      "crc32": 3912722420,
+      "mtimeNs": 1791640950504736000
+    },
+    {
+      "path": "round-16/source-recorded/public/explorations.html",
+      "sha256": "cb2994ab28e73a356ae039cd5291f679e753adb4a0d6d0ae9ab5a8ff641f009e",
+      "bytes": 24988,
+      "crc32": 4169536411,
+      "mtimeNs": 1791650089511766900
+    },
+    {
+      "path": "round-16/source-recorded/public/explorations.js",
+      "sha256": "13869ac9c43d80548631bb3615d381a1d6e75dc4f1e31a312f7f89962bc731b9",
+      "bytes": 1422,
+      "crc32": 688082437,
+      "mtimeNs": 1791611974623632300
+    },
+    {
+      "path": "round-16/source-recorded/public/film.js",
+      "sha256": "b450197deb6f88fea96b6e2627c16692fdc0f308985c74dff4df487e1bfe3642",
+      "bytes": 10067,
+      "crc32": 916688217,
+      "mtimeNs": 1791681401985826600
+    },
+    {
+      "path": "round-16/source-recorded/public/geo.js",
+      "sha256": "61acbc998227d1faeefdc0459e074a32c3e6f4e3051f720bb6d3eefe2e1491de",
+      "bytes": 2138,
+      "crc32": 3373936774,
+      "mtimeNs": 1791600603484970900
+    },
+    {
+      "path": "round-16/source-recorded/public/glacier.js",
+      "sha256": "2dd43339a9aa233196bab8e7beb8cde78390d6941f7f0e3cacd88a812aca615e",
+      "bytes": 3888,
+      "crc32": 1302177656,
+      "mtimeNs": 1791612064465510400
+    },
+    {
+      "path": "round-16/source-recorded/public/index.html",
+      "sha256": "07a7a6bcf55f3c03fe0527ee4d09650ff4bbed3b646c131d4f0c84c6c2327fef",
+      "bytes": 11177,
+      "crc32": 1283451331,
+      "mtimeNs": 1791681829355719500
+    },
+    {
+      "path": "round-16/source-recorded/public/journey.js",
+      "sha256": "348ff75326651d4fea260961b9c7682d66c5348fc22cdb88f7fd3ea883504718",
+      "bytes": 12421,
+      "crc32": 2215811430,
+      "mtimeNs": 1791646596749291500
+    },
+    {
+      "path": "round-16/source-recorded/public/landscape.js",
+      "sha256": "fcd3228063c31b8c88626eb6ad473734007e6d9c6220b24885d61e0d2153f622",
+      "bytes": 3297,
+      "crc32": 3755333886,
+      "mtimeNs": 1791606513666133100
+    },
+    {
+      "path": "round-16/source-recorded/public/lessons.js",
+      "sha256": "483d69812af2043d2f56f897128f11eaa236dd83ba8db8635341277924e247da",
+      "bytes": 12810,
+      "crc32": 3792290768,
+      "mtimeNs": 1791611787052258600
+    },
+    {
+      "path": "round-16/source-recorded/public/lived-detail.js",
+      "sha256": "c63103e40030ed4b451862746e2794cbafe0b0d35ec3d49cb37176d171f5bdba",
+      "bytes": 11197,
+      "crc32": 2485770623,
+      "mtimeNs": 1791681251333753500
+    },
+    {
+      "path": "round-16/source-recorded/public/lived-model.js",
+      "sha256": "01a065fe3dba79b6fe334a5667f32ff411c0a7e3707079b9d815aa7f6367f50b",
+      "bytes": 4228,
+      "crc32": 1842311296,
+      "mtimeNs": 1791646596748430800
+    },
+    {
+      "path": "round-16/source-recorded/public/lived-process.js",
+      "sha256": "fa727574ca23b955e809b66af87eb543244093038a427340fcb8d1e3c8e2360c",
+      "bytes": 3904,
+      "crc32": 1653318227,
+      "mtimeNs": 1791681640079553300
+    },
+    {
+      "path": "round-16/source-recorded/public/lived-scenes.js",
+      "sha256": "3e75b084106df74cd343a98df79c084104c26063b5ef695181487381fdfa7c73",
+      "bytes": 55797,
+      "crc32": 1465168589,
+      "mtimeNs": 1791682178587412200
+    },
+    {
+      "path": "round-16/source-recorded/public/motion.js",
+      "sha256": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "bytes": 1072,
+      "crc32": 1268095807,
+      "mtimeNs": 1791600097839152800
+    },
+    {
+      "path": "round-16/source-recorded/public/narrative-ui.js",
+      "sha256": "b62997876e0079b691d02311aae3a2113657eaa8f891f15b4ae4779148500a01",
+      "bytes": 4890,
+      "crc32": 4105942192,
+      "mtimeNs": 1791625991254528700
+    },
+    {
+      "path": "round-16/source-recorded/public/research.html",
+      "sha256": "5f368aba01ee4aa66af05c6e2383242584a7ad5ab5fdb7dd79e9628a698669c0",
+      "bytes": 10624,
+      "crc32": 1805852179,
+      "mtimeNs": 1791611974684689400
+    },
+    {
+      "path": "round-16/source-recorded/public/sandbox.css",
+      "sha256": "e125403dec22bcc01df67bac8f5947749c8e842e196c27844b87234328a11ed2",
+      "bytes": 40621,
+      "crc32": 546876247,
+      "mtimeNs": 1791625494693509800
+    },
+    {
+      "path": "round-16/source-recorded/public/sandbox.js",
+      "sha256": "0e6012586b6565b391f7180a2dd1bfcd82587df4e3312f290f65e215de075ebe",
+      "bytes": 111083,
+      "crc32": 1507474186,
+      "mtimeNs": 1791681461562704300
+    },
+    {
+      "path": "round-16/source-recorded/public/scene-decisions.css",
+      "sha256": "421564fb9a8a0b39fba406b2700ac2ae88905d0d3279deacc9aa43cdcc560247",
+      "bytes": 3089,
+      "crc32": 2094913973,
+      "mtimeNs": 1791681829356270500
+    },
+    {
+      "path": "round-16/source-recorded/public/scene-decisions.js",
+      "sha256": "c5fdef3160ee7716a3af08974b2c01eb80dcc6d7966f8c3ebe34f4a28e022d84",
+      "bytes": 7655,
+      "crc32": 2661108390,
+      "mtimeNs": 1791682036383261700
+    },
+    {
+      "path": "round-16/source-recorded/public/social-controls.js",
+      "sha256": "187f6c69ddb0be77b590d9554a3d7db0a34687c5f59786165ed139ad361a6171",
+      "bytes": 2646,
+      "crc32": 2451670577,
+      "mtimeNs": 1791640145991347800
+    },
+    {
+      "path": "round-16/source-recorded/public/social-depth.js",
+      "sha256": "c2e1cf791f1d57a84d375f3e5556b75d27697b58bbc2927ffced1c57da3f9669",
+      "bytes": 15271,
+      "crc32": 3174034004,
+      "mtimeNs": 1791681460700103900
+    },
+    {
+      "path": "round-16/source-recorded/public/social-model.js",
+      "sha256": "0407920d9b8445fddc189d4674c966bbe87fd48e210fa848ab1a83f8ddad2e49",
+      "bytes": 3421,
+      "crc32": 3955671559,
+      "mtimeNs": 1791640799739633200
+    },
+    {
+      "path": "round-16/source-recorded/public/soft-box.js",
+      "sha256": "a2eb344ced30599e338c4d07c7c4923e4c7aab0bd3de83647d6745cc697da3ad",
+      "bytes": 707,
+      "crc32": 4110974415,
+      "mtimeNs": 1791646595928273300
+    },
+    {
+      "path": "round-16/source-recorded/public/soundscape.js",
+      "sha256": "baa98a9f86a8ea257cab407a267ad5bccaf219bfb3b8420c9f4e66068630081a",
+      "bytes": 5575,
+      "crc32": 4015478124,
+      "mtimeNs": 1791682036385535400
+    },
+    {
+      "path": "round-16/source-recorded/public/story-finish.css",
+      "sha256": "3cb73a8e84335898b52e948231799481202402407e2dee360b8cd34658e2ec24",
+      "bytes": 4712,
+      "crc32": 2709754691,
+      "mtimeNs": 1791640255678629900
+    },
+    {
+      "path": "round-16/source-recorded/public/story-outcomes.js",
+      "sha256": "c9758581815127a6e01595003abb02c5c56f655661e9c3b917877e20500ae57f",
+      "bytes": 2730,
+      "crc32": 2173774193,
+      "mtimeNs": 1791681251618853200
+    },
+    {
+      "path": "round-16/source-recorded/public/story.js",
+      "sha256": "9f1bc7510c07ec06d0406c4b1f44e0479af2f8c39e5ba5f13c0ce2e9d57ca5c8",
+      "bytes": 11965,
+      "crc32": 1446051081,
+      "mtimeNs": 1791612065597967800
+    },
+    {
+      "path": "round-16/source-recorded/public/styles.css",
+      "sha256": "fbaf54a415d2500e20fd76cb8ade2799eb5364a1a3e3bf063e03ac0e8759e333",
+      "bytes": 14295,
+      "crc32": 4214606884,
+      "mtimeNs": 1791560137300350500
+    },
+    {
+      "path": "round-16/source-recorded/public/surface.js",
+      "sha256": "c4147528a6d3a86adc767839fac99077b0486aef42e55758659b61db9cb4374b",
+      "bytes": 5186,
+      "crc32": 3430930324,
+      "mtimeNs": 1791646598837084700
+    },
+    {
+      "path": "round-16/source-recorded/public/vendor/OrbitControls.js",
+      "sha256": "3d79d07ecb686b4e5d93232eedab255331c1beef711e13164eaa1f68655a5f2b",
+      "bytes": 40755,
+      "crc32": 3995160459,
+      "mtimeNs": 1791595156272814400
+    },
+    {
+      "path": "round-16/source-recorded/public/vendor/THREE-LICENSE.txt",
+      "sha256": "8b378ebe60e2fe500158cb0ac71cb5e8b7d92953c2abcc63a0eb90499653b5bc",
+      "bytes": 1081,
+      "crc32": 2216198906,
+      "mtimeNs": 1791595154713981600
+    },
+    {
+      "path": "round-16/source-recorded/public/vendor/three.core.js",
+      "sha256": "9edde002b066a9a05676a6127f67735b62baf399bdea529f2f7e31657da769e6",
+      "bytes": 1458113,
+      "crc32": 2211798416,
+      "mtimeNs": 1791595157034280100
+    },
+    {
+      "path": "round-16/source-recorded/public/vendor/three.module.js",
+      "sha256": "9052042d676cb0fdc1ddfefe193053f34b7ac0513a616fdac4535d49987812ea",
+      "bytes": 662772,
+      "crc32": 390901078,
+      "mtimeNs": 1791595157047845400
+    },
+    {
+      "path": "round-16/source-recorded/public/water-story.js",
+      "sha256": "7b5510685c389e60ef76b6908050b2813a562cdf18333a79975abc56f46b875e",
+      "bytes": 7397,
+      "crc32": 1197256449,
+      "mtimeNs": 1791647314575625700
+    },
+    {
+      "path": "round-16/source-recorded/scripts/check.mjs",
+      "sha256": "bca0d863e6ea5c5a80f4730d79e00f69e6275eb21a4c0f82fb4e403b9bc7b41e",
+      "bytes": 22107,
+      "crc32": 3097240151,
+      "mtimeNs": 1791682118076897300
+    },
+    {
+      "path": "round-16/source-recorded/scripts/prepare-data.py",
+      "sha256": "9b290aeed8b3641a31f76b63193a1e3dd85a0ee058079b646fe89820613df528",
+      "bytes": 4748,
+      "crc32": 1060801341,
+      "mtimeNs": 1791596713105997900
+    },
+    {
+      "path": "round-16/source-recorded/scripts/prepare-globe.py",
+      "sha256": "ad45e529791808edc2ac6e7f786f95de274384f6ef388d0648e46adedf1331bc",
+      "bytes": 1495,
+      "crc32": 1712615544,
+      "mtimeNs": 1791597456399104200
+    },
+    {
+      "path": "round-16/source-recorded/scripts/prepare-local-imagery.py",
+      "sha256": "02fb002a090aae67442c6c166a0fb8402b59cb27d05dd8a3d160760e99d2b340",
+      "bytes": 10077,
+      "crc32": 3128735464,
+      "mtimeNs": 1791602607629624500
+    },
+    {
+      "path": "round-16/source-recorded/scripts/prepare-quality-assets.py",
+      "sha256": "e13e4fb57a8ae2975a77d688be7679d2b4e86770d4b2f09ba9739435f3009807",
+      "bytes": 2306,
+      "crc32": 2171629284,
+      "mtimeNs": 1791600640060402800
+    },
+    {
+      "path": "round-16/source-recorded/scripts/prepare-story-assets.py",
+      "sha256": "6e77ac528222f6efb4c9787253ca296814ebb84352cbed5fb32826dca24f3580",
+      "bytes": 2216,
+      "crc32": 4189706290,
+      "mtimeNs": 1791596713107036100
+    },
+    {
+      "path": "round-16/source-recorded/scripts/serve.mjs",
+      "sha256": "b6df25c5f5ba2acef1a8e04e71d49d03da7a44fde1d781adebd038feeeb0ff06",
+      "bytes": 2047,
+      "crc32": 365118511,
+      "mtimeNs": 1791594754492524000
+    },
+    {
+      "path": "round-16/source-recorded/scripts/vendor.mjs",
+      "sha256": "3760fcd2e5e7880e63528a98dad9968fd40c67143de33cc2573395affcaf1ca5",
+      "bytes": 720,
+      "crc32": 117399202,
+      "mtimeNs": 1791594103454617300
+    },
+    {
+      "path": "round-16/storage.json",
+      "sha256": "bc6cfc7b72fe5cc254c4ceb0d8f24919f710479c1e9fe6417f4e7b9991547704",
+      "bytes": 385,
+      "crc32": 4017281751,
+      "mtimeNs": 1791680850089961900
+    },
+    {
+      "path": "round-16/timeline.json",
+      "sha256": "39045dd38781230a46fc766bc7ce17f9e11540b90a7d63767125591c659fc57b",
+      "bytes": 37936,
+      "crc32": 2798680654,
+      "mtimeNs": 1791682118576430000
+    },
+    {
+      "path": "round-16/update-audio.mjs",
+      "sha256": "4045ad5763518d59eb7efbdc1ee0727072ae7f2c99d238d2e0cf5173e7762c7f",
+      "bytes": 2206,
+      "crc32": 3086441715,
+      "mtimeNs": 1791681314225779100
+    },
+    {
+      "path": "round-16/verify-audio.py",
+      "sha256": "58883f7fa55a8fd2a1559cc40c7febe498934fbc96118d45a5f2fc9d89e52458",
+      "bytes": 2388,
+      "crc32": 1928744076,
+      "mtimeNs": 1791682830618699800
+    },
+    {
+      "path": "round-16/verify-delivery.py",
+      "sha256": "b14ebf22a159acf5fc175c9eebf226a6245bae1c2c4a2a6f5efdbbcde7102be2",
+      "bytes": 4768,
+      "crc32": 406015967,
+      "mtimeNs": 1791682716678102900
+    }
+  ],
+  "archives": []
+}

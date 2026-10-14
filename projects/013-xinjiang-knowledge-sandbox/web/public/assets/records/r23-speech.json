@@ -1,0 +1,298 @@
+{
+  "pass": true,
+  "media": "recordings/xinjiang-spatial-story.mp4",
+  "method": "Actual recorded media mono PCM vs unchanged source MP3 at 16 kHz; FFT alignment then normalized correlation, including final audible second. This checks recorded voice continuity, not artistic acting or phonemes.",
+  "clips": 29,
+  "results": [
+    {
+      "clip": "water-ice",
+      "nominalRecordingSecond": 75.87339999997616,
+      "matchedRecordingSecond": 75.8538125,
+      "referenceDuration": 7.9760625,
+      "waveformCorrelation": 0.9903777304657717,
+      "lastAudibleSecondCorrelation": 0.9934531932762944,
+      "firstSecondCorrelation": 0.993797410820322,
+      "pass": true
+    },
+    {
+      "clip": "water-flow",
+      "nominalRecordingSecond": 91.44819999998808,
+      "matchedRecordingSecond": 91.4218125,
+      "referenceDuration": 6.0495,
+      "waveformCorrelation": 0.9903940546469299,
+      "lastAudibleSecondCorrelation": 0.9758556174626679,
+      "firstSecondCorrelation": 0.9895858049981501,
+      "pass": true
+    },
+    {
+      "clip": "water-valley",
+      "nominalRecordingSecond": 105.45409999996424,
+      "matchedRecordingSecond": 105.434,
+      "referenceDuration": 7.8019375,
+      "waveformCorrelation": 0.9975175967161172,
+      "lastAudibleSecondCorrelation": 0.997000804506724,
+      "firstSecondCorrelation": 0.9980779142976816,
+      "pass": true
+    },
+    {
+      "clip": "oasis-dry",
+      "nominalRecordingSecond": 123.80229999995231,
+      "matchedRecordingSecond": 123.7739375,
+      "referenceDuration": 7.1053125,
+      "waveformCorrelation": 0.9971280966434537,
+      "lastAudibleSecondCorrelation": 0.9963871063003359,
+      "firstSecondCorrelation": 0.9986227670985294,
+      "pass": true
+    },
+    {
+      "clip": "oasis-wind",
+      "nominalRecordingSecond": 135.79219999998807,
+      "matchedRecordingSecond": 135.7566875,
+      "referenceDuration": 7.5116875,
+      "waveformCorrelation": 0.9929162753580547,
+      "lastAudibleSecondCorrelation": 0.996012005909629,
+      "firstSecondCorrelation": 0.9955933022446497,
+      "pass": true
+    },
+    {
+      "clip": "oasis-engineering",
+      "nominalRecordingSecond": 154.6335,
+      "matchedRecordingSecond": 154.63775,
+      "referenceDuration": 8.6494375,
+      "waveformCorrelation": 0.9891350876172551,
+      "lastAudibleSecondCorrelation": 0.9890737534378291,
+      "firstSecondCorrelation": 0.9919203992926031,
+      "pass": true
+    },
+    {
+      "clip": "oasis-use",
+      "nominalRecordingSecond": 170.6447999999523,
+      "matchedRecordingSecond": 170.6248125,
+      "referenceDuration": 6.501625,
+      "waveformCorrelation": 0.9917849759206923,
+      "lastAudibleSecondCorrelation": 0.9858758797821772,
+      "firstSecondCorrelation": 0.9947962653624663,
+      "pass": true
+    },
+    {
+      "clip": "oasis-nodes",
+      "nominalRecordingSecond": 191.24609999996423,
+      "matchedRecordingSecond": 191.2090625,
+      "referenceDuration": 5.8514375,
+      "waveformCorrelation": 0.9873864272489564,
+      "lastAudibleSecondCorrelation": 0.9516416886343884,
+      "firstSecondCorrelation": 0.994858810006801,
+      "pass": true
+    },
+    {
+      "clip": "exchange-network",
+      "nominalRecordingSecond": 203.28909999996424,
+      "matchedRecordingSecond": 203.984625,
+      "referenceDuration": 7.267875,
+      "waveformCorrelation": 0.9975224927359296,
+      "lastAudibleSecondCorrelation": 0.9959454079734749,
+      "firstSecondCorrelation": 0.9982127979496134,
+      "pass": true
+    },
+    {
+      "clip": "exchange-goods",
+      "nominalRecordingSecond": 236.22609999996425,
+      "matchedRecordingSecond": 236.2179375,
+      "referenceDuration": 8.2095,
+      "waveformCorrelation": 0.9962791728167832,
+      "lastAudibleSecondCorrelation": 0.9962558793135408,
+      "firstSecondCorrelation": 0.9978501671392712,
+      "pass": true
+    },
+    {
+      "clip": "exchange-city",
+      "nominalRecordingSecond": 261.8675999999642,
+      "matchedRecordingSecond": 261.876875,
+      "referenceDuration": 7.349125,
+      "waveformCorrelation": 0.9913430545605474,
+      "lastAudibleSecondCorrelation": 0.9791263734728728,
+      "firstSecondCorrelation": 0.9953639086355184,
+      "pass": true
+    },
+    {
+      "clip": "exchange-question",
+      "nominalRecordingSecond": 280.124,
+      "matchedRecordingSecond": 280.1088125,
+      "referenceDuration": 6.699,
+      "waveformCorrelation": 0.9908556371768342,
+      "lastAudibleSecondCorrelation": 0.9870781564935894,
+      "firstSecondCorrelation": 0.99493578214779,
+      "pass": true
+    },
+    {
+      "clip": "memory-departure",
+      "nominalRecordingSecond": 292.1075,
+      "matchedRecordingSecond": 292.8278125,
+      "referenceDuration": 13.5735,
+      "waveformCorrelation": 0.9884947687875956,
+      "lastAudibleSecondCorrelation": 0.9899564866177827,
+      "firstSecondCorrelation": 0.9910873871954305,
+      "pass": true
+    },
+    {
+      "clip": "memory-arrival",
+      "nominalRecordingSecond": 334.3697999999523,
+      "matchedRecordingSecond": 334.36025,
+      "referenceDuration": 6.6641875,
+      "waveformCorrelation": 0.9890940085360423,
+      "lastAudibleSecondCorrelation": 0.9611738286787628,
+      "firstSecondCorrelation": 0.994322838343341,
+      "pass": true
+    },
+    {
+      "clip": "memory-practice",
+      "nominalRecordingSecond": 395.2812999999523,
+      "matchedRecordingSecond": 395.2931875,
+      "referenceDuration": 7.9180625,
+      "waveformCorrelation": 0.985789642938923,
+      "lastAudibleSecondCorrelation": 0.9820142855828109,
+      "firstSecondCorrelation": 0.9927429730593251,
+      "pass": true
+    },
+    {
+      "clip": "modern-urumqi",
+      "nominalRecordingSecond": 444.16879999995234,
+      "matchedRecordingSecond": 444.148375,
+      "referenceDuration": 7.0705,
+      "waveformCorrelation": 0.9976988846451574,
+      "lastAudibleSecondCorrelation": 0.9959176122480692,
+      "firstSecondCorrelation": 0.9984404194212667,
+      "pass": true
+    },
+    {
+      "clip": "modern-rules",
+      "nominalRecordingSecond": 481.01309999996425,
+      "matchedRecordingSecond": 481.0034375,
+      "referenceDuration": 9.0558125,
+      "waveformCorrelation": 0.9975287558189448,
+      "lastAudibleSecondCorrelation": 0.9969624701281049,
+      "firstSecondCorrelation": 0.9979172496012785,
+      "pass": true
+    },
+    {
+      "clip": "modern-limit",
+      "nominalRecordingSecond": 507.05589999997613,
+      "matchedRecordingSecond": 507.8278125,
+      "referenceDuration": 9.0558125,
+      "waveformCorrelation": 0.9894473969257284,
+      "lastAudibleSecondCorrelation": 0.9953625665889637,
+      "firstSecondCorrelation": 0.9910831760295951,
+      "pass": true
+    },
+    {
+      "clip": "future-landscape",
+      "nominalRecordingSecond": 541.8778999999762,
+      "matchedRecordingSecond": 541.856375,
+      "referenceDuration": 7.9180625,
+      "waveformCorrelation": 0.9915978096539109,
+      "lastAudibleSecondCorrelation": 0.9966576165922731,
+      "firstSecondCorrelation": 0.996185738603018,
+      "pass": true
+    },
+    {
+      "clip": "future-budget",
+      "nominalRecordingSecond": 558.201199999988,
+      "matchedRecordingSecond": 558.180625,
+      "referenceDuration": 8.405625,
+      "waveformCorrelation": 0.9911692753460162,
+      "lastAudibleSecondCorrelation": 0.9923794887228676,
+      "firstSecondCorrelation": 0.9950788795177743,
+      "pass": true
+    },
+    {
+      "clip": "future-evidence",
+      "nominalRecordingSecond": 571.9495999999642,
+      "matchedRecordingSecond": 571.948875,
+      "referenceDuration": 7.6278125,
+      "waveformCorrelation": 0.9890648321528713,
+      "lastAudibleSecondCorrelation": 0.9898893434795892,
+      "firstSecondCorrelation": 0.9936241033544173,
+      "pass": true
+    },
+    {
+      "clip": "water-home",
+      "nominalRecordingSecond": 86.87339999997616,
+      "matchedRecordingSecond": 86.42775,
+      "referenceDuration": 3.61075,
+      "waveformCorrelation": 0.9894896642325935,
+      "lastAudibleSecondCorrelation": 0.9850155708482285,
+      "firstSecondCorrelation": 0.9883700592310327,
+      "pass": true
+    },
+    {
+      "clip": "market-cloth",
+      "nominalRecordingSecond": 254.85479999997625,
+      "matchedRecordingSecond": 254.8765625,
+      "referenceDuration": 4.1448125,
+      "waveformCorrelation": 0.9960816616168608,
+      "lastAudibleSecondCorrelation": 0.9968287062717692,
+      "firstSecondCorrelation": 0.9958526445403793,
+      "pass": true
+    },
+    {
+      "clip": "family-home",
+      "nominalRecordingSecond": 353.3720999999643,
+      "matchedRecordingSecond": 353.4366875,
+      "referenceDuration": 4.2260625,
+      "waveformCorrelation": 0.9915885083267473,
+      "lastAudibleSecondCorrelation": 0.9912648699248379,
+      "firstSecondCorrelation": 0.9917448491228149,
+      "pass": true
+    },
+    {
+      "clip": "culture-listen",
+      "nominalRecordingSecond": 411.26309999998824,
+      "matchedRecordingSecond": 411.278375,
+      "referenceDuration": 4.0170625,
+      "waveformCorrelation": 0.9881917093635482,
+      "lastAudibleSecondCorrelation": 0.9952744382742927,
+      "firstSecondCorrelation": 0.9770703513955655,
+      "pass": true
+    },
+    {
+      "clip": "civic-balanced",
+      "nominalRecordingSecond": 523.065399999988,
+      "matchedRecordingSecond": 523.0955625,
+      "referenceDuration": 5.1896875,
+      "waveformCorrelation": 0.9949638505027628,
+      "lastAudibleSecondCorrelation": 0.9933845508518073,
+      "firstSecondCorrelation": 0.9966860752627692,
+      "pass": true
+    },
+    {
+      "clip": "civic-resident",
+      "nominalRecordingSecond": 491.01309999996425,
+      "matchedRecordingSecond": 491.0451875,
+      "referenceDuration": 3.285625,
+      "waveformCorrelation": 0.992991422959178,
+      "lastAudibleSecondCorrelation": 0.9903648936652175,
+      "firstSecondCorrelation": 0.9947950373802615,
+      "pass": true
+    },
+    {
+      "clip": "civic-worker",
+      "nominalRecordingSecond": 496.01309999996425,
+      "matchedRecordingSecond": 496.0075625,
+      "referenceDuration": 3.61075,
+      "waveformCorrelation": 0.9935968046628444,
+      "lastAudibleSecondCorrelation": 0.9893330720237993,
+      "firstSecondCorrelation": 0.9940953939901466,
+      "pass": true
+    },
+    {
+      "clip": "civic-steward",
+      "nominalRecordingSecond": 501.01309999996425,
+      "matchedRecordingSecond": 501.0350625,
+      "referenceDuration": 3.7384375,
+      "waveformCorrelation": 0.9948278697471467,
+      "lastAudibleSecondCorrelation": 0.9949052463985351,
+      "firstSecondCorrelation": 0.9948765351858594,
+      "pass": true
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "asOf": "2026-10-12",
+  "kind": "editorial-learning-source-index",
+  "sources": [
+    {
+      "id": "overview",
+      "title": "新疆政府 · 地理与历史概况（2022）",
+      "url": "https://www.xinjiang.gov.cn/xinjiang/c112848/xjsghdf.shtml",
+      "scope": "中国西北/欧亚内陆、周边八国、三山两盆与主要历史年代。网页事实采用2022资料，面积不作为实时统计。"
+    },
+    {
+      "id": "history",
+      "title": "新疆自然资源厅 · 历史问题资料（2019）",
+      "url": "https://zrzyt.xinjiang.gov.cn/xjgtzy/djgzxx/201910/d13245bdb7b84c1f9c003d3ed82f5b42.shtml",
+      "scope": "327高昌郡、460—640高昌国、唐安西/北庭、宋元地区政权、明哈密卫、1762/1884及近现代年代。仅作为索引，未借此推算历史边界。"
+    },
+    {
+      "id": "archaeology",
+      "title": "中国社会科学网 · 小河墓地考古研究",
+      "url": "https://www.cssn.cn/kgxc/kgxc_kgxl/202304/t20230407_5618618.shtml",
+      "scope": "小河墓地考古为生活证据入口；古代考古样本不直接等同于现代民族。定位为罗布泊地区参照，不标精确遗址坐标。"
+    },
+    {
+      "id": "tang",
+      "title": "新疆文旅厅 · 唐朝墩遗址年代与建筑",
+      "url": "https://wlt.xinjiang.gov.cn/wlt/gzdt/202212/ce818e5660e244d0bd557043ef928f50.shtml",
+      "scope": "唐朝墩的建筑证据与唐代开始、后续沿用至14世纪的分期；没有把不同时期建筑合并成唐代复原。"
+    },
+    {
+      "id": "silk",
+      "title": "UNESCO · 长安—天山廊道",
+      "url": "https://whc.unesco.org/en/list/1442/",
+      "scope": "长安—天山廊道的长期交流与城镇生活、供水联系；不据此证明张骞逐站路线或坎儿井建造年代。"
+    },
+    {
+      "id": "xibe",
+      "title": "国家民委 · 锡伯族历史沿革",
+      "url": "https://www.neac.gov.cn/seac/ztzl/201806/1067551.shtml",
+      "scope": "1764出发、1765伊犁方向抵达及后续安置的线索，迁移与后续修渠分期；人物模型为原创。"
+    },
+    {
+      "id": "archaeologyHan",
+      "title": "新疆文旅厅 · 乌垒与北庭考古",
+      "url": "https://wlt.xinjiang.gov.cn/wlt/mtbd/202303/2c41806b10f84069bbbe1adb542db056.shtml",
+      "scope": "乌垒与北庭考古作为地点认识依据；现代轮台参照不当作准确乌垒遗址。"
+    },
+    {
+      "id": "standard",
+      "title": "自然资源厅 · 标准地图发布与获取",
+      "url": "https://zrzyt.xinjiang.gov.cn/xjgtzy/gzdt/202309/a3c073d3cdca43309cdd43e2ad6b422d.shtml",
+      "scope": "2023标准地图公开发布、获取入口。未下载或嵌入标准地图图像，3D及小图仍是非政区定位示意。"
+    },
+    {
+      "id": "muqam",
+      "title": "UNESCO · 新疆维吾尔木卡姆艺术",
+      "url": "https://ich.unesco.org/en/RL/uyghur-muqam-of-xinjiang-00109",
+      "scope": "新疆维吾尔木卡姆的文化资料与区域差异；原创动画/节奏不是采录或真实曲式复原。"
+    }
+  ],
+  "inherited": {
+    "outline": "public/assets/region-outline-source.json",
+    "imagery": "public/assets/regional-imagery-500m.json",
+    "height": "既有区域DEM，769×513，边界[73,35,96,49]"
+  },
+  "limitations": [
+    "八段为阅读索引，非完整地方史",
+    "现代坐标为近似定位，非遗址测绘",
+    "教学关系线不是历史行程/辖境",
+    "官方标准地图只提供外链，未嵌入",
+    "没有重新生成或复制既有视频/音频/影像"
+  ]
+}

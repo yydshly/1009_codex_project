@@ -1,0 +1,293 @@
+{
+  "pass": true,
+  "flights": [
+    {
+      "cue": "region-structure",
+      "kind": "unfold",
+      "phases": [
+        "establish",
+        "unfold"
+      ],
+      "samples": 21,
+      "lastSampleProgress": 0.989423076923077,
+      "settledSecond": 26.088799999952315,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "water-mountains",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9676129032258072,
+      "settledSecond": 58.8,
+      "geographicWindow": false,
+      "terrainWindow": true
+    },
+    {
+      "cue": "water-ice",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9642096774212757,
+      "settledSecond": 75.87339999997616,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "oasis-dry",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9646935483870953,
+      "settledSecond": 123.80229999995231,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "oasis-engineering",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9639838709677438,
+      "settledSecond": 154.6335,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "oasis-nodes",
+      "kind": "map-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 19,
+      "lastSampleProgress": 0.9639347826086969,
+      "settledSecond": 191.24609999996423,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "exchange-goods",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9651935483832494,
+      "settledSecond": 236.22609999996425,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "exchange-question",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9619838709658155,
+      "settledSecond": 280.124,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "memory-arrival",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9604516129012993,
+      "settledSecond": 334.3697999999523,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "memory-muqam",
+      "kind": "map-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 19,
+      "lastSampleProgress": 0.9877608695652199,
+      "settledSecond": 367.0471999999881,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "memory-practice",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9667419354819445,
+      "settledSecond": 395.2812999999523,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "modern-hubs",
+      "kind": "map-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 19,
+      "lastSampleProgress": 0.9652608695626259,
+      "settledSecond": 425.8820999999642,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "modern-urumqi",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9616290322580607,
+      "settledSecond": 444.16879999995234,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "modern-kashgar",
+      "kind": "map-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 19,
+      "lastSampleProgress": 0.9689782608695627,
+      "settledSecond": 462.80129999995233,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "modern-rules",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9646129032219629,
+      "settledSecond": 481.01309999996425,
+      "geographicWindow": true,
+      "terrainWindow": false
+    },
+    {
+      "cue": "future-landscape",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 25,
+      "lastSampleProgress": 0.9691935483851816,
+      "settledSecond": 541.8778999999762,
+      "geographicWindow": false,
+      "terrainWindow": true
+    },
+    {
+      "cue": "future-budget",
+      "kind": "locate",
+      "phases": [
+        "approach",
+        "arrive",
+        "establish"
+      ],
+      "samples": 26,
+      "lastSampleProgress": 0.9985483870948589,
+      "settledSecond": 558.201199999988,
+      "geographicWindow": false,
+      "terrainWindow": true
+    },
+    {
+      "cue": "future-synthesis",
+      "kind": "map-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 18,
+      "lastSampleProgress": 0.9504782608721365,
+      "settledSecond": 586.652199999988,
+      "geographicWindow": false,
+      "terrainWindow": false
+    },
+    {
+      "cue": "future-result",
+      "kind": "globe-return",
+      "phases": [
+        "establish",
+        "return"
+      ],
+      "samples": 18,
+      "lastSampleProgress": 0.951363636366335,
+      "settledSecond": 611.1658999999762,
+      "geographicWindow": false,
+      "terrainWindow": false
+    }
+  ],
+  "geographicWindows": [
+    "water-ice",
+    "exchange-goods",
+    "memory-arrival",
+    "memory-practice",
+    "modern-urumqi",
+    "modern-rules"
+  ],
+  "sourceRuntimeMatched": [
+    "sandbox.js",
+    "film.js",
+    "lived-scenes.js",
+    "scene-decisions.js",
+    "story-annotations.js",
+    "spatial-navigation.js",
+    "journey-memory.js",
+    "place-landscape.js",
+    "journey-atlas.css",
+    "index.html",
+    "actor-motion.js",
+    "actor-rig.js",
+    "surface.js",
+    "terrain-arrival.js",
+    "lived-atmosphere.js",
+    "character-performance.js",
+    "lived-detail.js",
+    "annotation-anchors.js"
+  ],
+  "unchangedOriginalAudioFiles": 49
+}

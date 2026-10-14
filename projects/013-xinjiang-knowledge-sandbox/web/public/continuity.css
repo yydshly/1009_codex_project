@@ -1,0 +1,4 @@
+.story-bridge{position:absolute;top:84px;left:38px;pointer-events:none;max-width:70%;padding:9px 13px;background:linear-gradient(90deg,#0a2426e8,#0a242600);border-left:2px solid #b7d1ab}
+.story-bridge span{font-size:9px;letter-spacing:2px;color:#a9cfbb}.story-bridge p{font-size:14px;margin:7px 0 0;color:#edf1d6;line-height:1.8}
+.lived-controls .nature-thread{font-size:11px;line-height:1.9;color:#c0d4b6}
+@media(max-width:700px){.story-bridge{top:81px;left:19px;max-width:calc(100% - 55px);padding:7px 10px}.story-bridge span{font-size:8px;letter-spacing:1px}.story-bridge p{font-size:11px;margin-top:4px}.demo-mode:has(.story-bridge:not([hidden])) .story-context{display:none}}

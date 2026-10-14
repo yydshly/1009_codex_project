@@ -1,0 +1,14 @@
+{
+  "round": "round-53",
+  "base": "round-52",
+  "retainedPaths": 643,
+  "newObjects": 59,
+  "newBytes": 3461642,
+  "sourceUnchanged": 580,
+  "oldMediaUnchanged": 59,
+  "newReferencedHashesVerified": 59,
+  "previewSharesScreenshot": true,
+  "videoBytesCopied": 0,
+  "frozenReadOnlyVerified": true,
+  "auditNote": "Python 3.10 lacks hashlib.file_digest; rechecked all new referenced objects with sha256(read_bytes)."
+}

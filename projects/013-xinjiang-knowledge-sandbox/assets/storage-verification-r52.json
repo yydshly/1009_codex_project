@@ -1,0 +1,13 @@
+{
+  "round": "round-52",
+  "base": "round-51",
+  "retainedPaths": 620,
+  "newObjects": 45,
+  "newBytes": 2672337,
+  "sourceUnchanged": 571,
+  "oldMediaUnchanged": 59,
+  "newReferencedHashesVerified": 45,
+  "previewSharesScreenshot": true,
+  "videoBytesCopied": 0,
+  "auditNote": "Object path initially omitted the sha256 subdirectory; corrected and all referenced hashes verified."
+}

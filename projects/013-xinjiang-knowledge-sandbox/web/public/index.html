@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#05080c">
+  <meta name="description" content="从地球定位新疆，阅读整体地理地图，以张骞出使、西域都护、锡伯西迁三条事件线索进入地点和可操作3D模型；保留14个原有场景、参数、模拟及配置保存。">
+  <title>新疆 · 从地球到历史的3D探索</title>
+  <link rel="stylesheet" href="./sandbox.css">
+<link rel="stylesheet" href="./continuity.css">
+<link rel="stylesheet" href="./story-finish.css">
+<link rel="stylesheet" href="./atlas.css"><link rel="stylesheet" href="./spatial-navigation.css">
+<link rel="stylesheet" href="./scene-decisions.css">
+<link rel="stylesheet" href="./story-annotations.css"><link rel="stylesheet" href="./journey-atlas.css">
+<link rel="stylesheet" href="./scene-presentation.css">
+<link rel="stylesheet" href="./workbench.css">
+<link rel="stylesheet" href="./history-platform.css">
+<link rel="stylesheet" href="./region-atlas.css">
+<link rel="stylesheet" href="./exploration-journey.css">
+<link rel="stylesheet" href="./geographic-explorer.css">
+<link rel="stylesheet" href="./knowledge-guide.css"><link rel="stylesheet" href="./exploration-transitions.css"><link rel="stylesheet" href="./history-story.css">
+  <script type="importmap">{"imports":{"three":"./vendor/three.module.js"}}</script>
+  <script type="module" src="./sandbox.js"></script>
+<link rel="stylesheet" href="./spatial-relations.css">
+<link rel="stylesheet" href="./exploration-director.css">
+<link rel="stylesheet" href="./envoy-journey.css">
+<link rel="stylesheet" href="./settlement-story.css">
+<link rel="stylesheet" href="./local-observation.css">
+</head>
+<body>
+<main class="experience">
+  <section class="viewport" id="viewport" aria-label="交互三维沙盘">
+    <div id="canvas-host"></div><canvas id="transition-frame" aria-hidden="true"></canvas><div class="scene-shade"></div>
+    <section id="demo-player" class="demo-player" aria-label="完整演示" hidden>
+      <header class="demo-header"><a href="./" class="demo-brand">◈ <span>山河之间<small>新疆 · 连接之地</small></span></a><div class="demo-header-actions"><a href="./overview.html">项目总览 · 原视频 ↗</a><button id="demo-sound" aria-pressed="false" title="旁白、环境与原创教学节奏，可随时关闭">开启声音</button><button id="demo-voice" hidden aria-pressed="false" title="使用本机中文语音朗读；可随时关闭">朗读关</button><button id="journey-map-open">探索地图 ↗</button><button id="demo-relations">关系图 ↗</button><button id="demo-data">画面来源 ⓘ</button><button id="demo-explore">暂停探索</button><button id="atlas-home">返回地球</button></div></header>
+      <div class="demo-cover" id="demo-cover">
+        <div class="demo-cover-copy"><p class="demo-eyebrow">XINJIANG / AN INTERACTIVE ATLAS</p><h1>从地球出发<span>来到新疆，再走进一个地点。</span></h1><p>人怎样在这片土地上生活，<br>并与外界建立联系？<br>沿水、道路与人的选择，带着问题走进去。</p><div class="atlas-actions"><button id="atlas-resume" hidden>回到刚才的地点 ↗</button><button id="demo-start">跟随空间旅行 ↗</button><button id="atlas-region">先看新疆地图 →</button><button id="atlas-film">观看完整故事 ▷</button></div><div class="demo-cover-meta"><span>地球 → 区域 → 地点</span><span id="demo-duration">完整故事约 8 分钟</span></div></div>
+        <div class="atlas-map-note"><strong>真实高程 · 影像地形</strong><span>拖动环视 · 点选地标进入<br>地标定位案例，生活场景为原创叙事</span></div>
+        <div class="atlas-content"><div class="atlas-content-heading"><p>从这里进入 <small>EXPLORE THE STORIES</small></p><nav id="atlas-filters" class="atlas-filters" aria-label="主题筛选"><button data-atlas-group="all" aria-pressed="true">全部</button><button data-atlas-group="nature" aria-pressed="false">自然地理</button><button data-atlas-group="life" aria-pressed="false">生活与交流</button><button data-atlas-group="memory" aria-pressed="false">历史与文化</button><button data-atlas-group="modern" aria-pressed="false">当代协作</button></nav></div><div id="atlas-scenes" class="atlas-scenes" aria-label="主题与场景入口"></div></div>
+      </div><p class="spatial-entry-caption">拖动地球环视 · 金色标记定位新疆<br>选择引导旅行，或先展开区域地图</p><div id="atlas-pins" aria-label="新疆地图场景入口"></div>
+      <div class="demo-caption" id="demo-caption" hidden><p class="demo-eyebrow" id="demo-kicker"></p><h2 id="demo-heading"></h2><p id="demo-text"></p><p id="demo-connection" class="demo-connection"></p><small id="demo-credit"></small></div>
+      <div id="story-bridge" class="story-bridge" hidden><span></span><p></p></div>
+      <div id="story-map-pins" class="story-map-pins" aria-label="本章相关地点"></div>
+      <div id="lived-pins" class="lived-pins" aria-label="故事场景互动"></div><aside id="lived-controls" class="lived-controls" aria-label="场景过程与互动" hidden></aside>
+      <aside id="story-context" class="story-context" aria-label="本章问题与证据" hidden><p class="demo-eyebrow">沿着问题看</p><h2 id="story-question"></h2><div id="story-domains" class="story-domains"></div><div id="story-evidence"></div><small id="story-evidence-date"></small><a id="story-evidence-source" target="_blank" rel="noopener noreferrer"></a><span id="story-connection" class="sr-only"></span></aside>
+      <aside class="demo-end connections-panel" id="demo-end" aria-label="故事结果与关系图" hidden><button id="result-close" aria-label="关闭关系图">×</button><p class="demo-eyebrow">FROM THE QUESTION TO THE CONNECTIONS</p><h2>从山与水，读到人的选择。</h2><p class="result-intro">自然提供条件；工程、交流、历史经历与制度共同塑造空间。<br>回到地图上的具体地点，核对这次旅行留下的选择。</p><section id="journey-result" aria-label="旅程地点与选择回顾"><canvas width="360" height="180" aria-label="旅程回顾影像地图"></canvas><div class="journey-result-records"></div></section><div class="result-layout"><div><div id="relation-graph" class="relation-graph" role="group" aria-label="七条知识线索关系图"></div><div id="result-questions" class="result-questions" role="group" aria-label="继续追问"></div></div><article class="result-detail"><h3 id="result-title"></h3><p id="result-text"></p><small id="result-scope"></small><a id="result-source" target="_blank" rel="noopener noreferrer"></a><div class="result-actions"><button id="result-return">回到这一段 ↗</button><button id="result-explore">接管相关场景 ↗</button></div></article></div><footer class="result-footer"><span>关系图为有依据的教学综合；点击资料可核对具体案例。</span><button id="demo-replay">↺ 重看故事</button><button id="demo-end-explore">进入冰谷试验 ↗</button><a href="./explorations.html">探索手记 ↗</a></footer></aside>
+      <footer class="demo-dock"><div class="demo-transport"><button id="demo-toggle" aria-label="播放完整演示">▷</button><button id="demo-prev" aria-label="上一章">‹</button><button id="demo-next" aria-label="下一章">›</button><span id="demo-clock">0:00 / 7:38</span><label class="demo-seek-label"><span class="sr-only">演示进度</span><input id="demo-seek" type="range" min="0" max="458" value="0" step="0.1" aria-label="演示进度"></label><span id="demo-status">准备出发</span></div><nav id="demo-chapters" aria-label="演示章节"></nav></footer>
+    </section>
+    <header class="topbar">
+      <a class="brand" href="./" aria-label="沙盘首页">◈ <span>地球上的新疆</span></a>
+      <nav class="mode-nav" aria-label="场景分类"><button data-category="all" aria-pressed="true">全部场景 <small>9</small></button><button data-category="geography" aria-pressed="false">地理与历史 <small>4</small></button><button data-category="local" aria-pressed="false">微观场景 <small>3</small></button><button data-category="model" aria-pressed="false">原理模型 <small>2</small></button></nav>
+      <div class="research-links"><a href="./overview.html">总览与原视频 ↗</a><a href="./explorations.html">探索手记 ↗</a><a class="research-link" href="./research.html" title="原演示研究与来源">案例研究 ↗</a></div>
+    </header>
+    <div class="scene-banner"><span id="scale-badge">全球尺度</span><b id="top-scene">地球上的新疆</b></div>
+    <aside class="story-panel">
+      <p class="eyebrow" id="scene-kicker">01 / PLANET EARTH</p>
+      <h1 id="scene-title">地球上的新疆</h1><p class="scene-subtitle" id="scene-subtitle">五带、内陆、西风、丝绸之路</p>
+      <div class="lesson-copy" aria-live="polite"><p class="eyebrow" id="lesson-kind">第一章 · 全球尺度</p><h2 id="lesson-title">先找到它。</h2><p id="lesson-body"></p></div>
+      <div class="narration-actions"><button id="story-play" aria-pressed="false">▷ 连续讲解</button><button id="voice" aria-label="语音讲解" aria-pressed="false" title="使用浏览器中文语音">♬</button><button id="tour-play" aria-pressed="false" title="按顺序播放全部场景">完整导览</button></div>
+      <div class="shot-heading"><span>在讲解里</span><span id="shot-count">1 / 4</span></div>
+      <nav id="shot-list" class="shot-list" aria-label="讲解镜头"></nav>
+      <p class="drag-hint">拖动环视 · 滚轮缩放 · 点击地点</p>
+    </aside>
+    <div class="viewer-toolbar" aria-label="视角控制"><button id="reset-view" title="回到当前镜头" aria-label="恢复初始视角">⌖</button><button id="rotate" aria-label="自动旋转" aria-pressed="false" title="自动旋转">⟳</button><button id="fullscreen" title="沉浸观看" aria-label="全屏观看" aria-pressed="false">⛶</button><button id="capture" aria-label="录制三维画面" aria-pressed="false" title="录制 / 保存三维画面">●</button></div><div id="capture-status" role="status" aria-live="polite"></div>
+    <aside id="glacier-station" class="glacier-station" aria-label="冰谷观察与试验" hidden></aside><div class="pins" id="pins"></div><div class="north"><span>Ｎ</span><i>↑</i></div>
+    <div class="loading" id="loading" role="status"><span></span>正在展开空间…</div><div class="fatal" id="fatal" role="alert" hidden></div>
+    <div class="selection" id="selection" hidden><button id="close-selection" aria-label="关闭地点说明">×</button><span class="eyebrow" id="place-kind"></span><h3 id="place-title"></h3><p id="place-description"></p><small id="place-coordinate"></small><button id="place-action" hidden>进入天池地形 →</button></div>
+    <div class="legend" id="legend" hidden><span>高程 / m</span><div class="legend-gradient"></div><div class="legend-ticks"><span id="height-max">6000</span><span id="height-mid">3000</span><span id="height-min">0</span></div></div>
+    <div class="scene-bottom"><div class="controls" id="scene-controls"></div><div class="viewer-footer"><span id="model-note">NASA Blue Marble · 真实影像</span><button class="data-button" id="data-button" aria-expanded="false">数据与模型来源 ⓘ</button></div></div>
+    <div class="source-panel" id="source-panel" hidden><button id="close-sources" aria-label="关闭数据说明">×</button><h3>场景与数据来源</h3><p id="source-text"></p><div id="source-links"></div><small>参考公开演示独立实现，原项目源码未取得。示意图层的范围、比例与动画参数不用于测量。</small></div>
+    <div class="subtitle-bar" aria-live="polite"><span class="subtitle-dot"></span><p id="journey-caption">从一颗星球，到一个地方。</p><span id="play-status">自由探索</span></div>
+    <div class="story-progress"><div id="story-progress-fill"></div></div>
+    <footer class="journey"><button id="previous-scene" aria-label="上一个场景">‹</button><button id="next-scene" aria-label="下一个场景">下一个 <span>→</span></button><div class="journey-count" id="journey-step">01 / 09</div><nav class="chapter-list" id="chapter-list" aria-label="教学场景"></nav></footer>
+  </section>
+</main>
+<noscript><a href="./overview.html">查看项目总览与原视频</a>。请启用 JavaScript 查看三维沙盘，或<a href="./research.html">阅读能力研究</a>。</noscript>
+</body>
+</html>

@@ -1,0 +1,85 @@
+{
+  "checkedAt": "2026-10-09",
+  "story": "加载静态研究页 → 筛选能力或切换尺度/模型 → 读取本地数据 → 更新说明与选择状态",
+  "httpStatus": 200,
+  "browserErrors": [],
+  "uiChecks": [
+    {
+      "filter": "observed",
+      "count": 8,
+      "selected": "true"
+    },
+    {
+      "filter": "stated",
+      "count": 1,
+      "selected": "true"
+    },
+    {
+      "filter": "unknown",
+      "count": 1,
+      "selected": "true"
+    },
+    {
+      "filter": "all",
+      "count": 10,
+      "selected": "true"
+    },
+    {
+      "scale": "region",
+      "selected": "true",
+      "panel": "演示能力归纳\n再回答：地点之间有什么关系？\n\n在区域地图上叠加地形、地点与线路，让自然环境和历史行程共同出现。\n\n演示可"
+    },
+    {
+      "scale": "local",
+      "selected": "true",
+      "panel": "演示能力归纳\n靠近一个地点，观察它的结构。\n\n将一个地理地点抽出为局部模型，展示地貌与高度关系。\n\n演示可见：天山天池局"
+    },
+    {
+      "scale": "mechanism",
+      "selected": "true",
+      "panel": "演示能力归纳\n用独立模型解释：它如何形成？\n\n模型可以离开地球底座，集中展示地层、流水、侵蚀或人类工程的结构。\n\n演示可"
+    },
+    {
+      "scale": "earth",
+      "selected": "true",
+      "panel": "演示能力归纳\n先回答：新疆在哪里？\n\n以全球视角说明经纬位置、距海关系与大气背景。地球提供宏观上下文。\n\n演示可见：地球"
+    },
+    {
+      "model": "terrain",
+      "selected": "true",
+      "panel": "几何数据待确认\n\n山体起伏，需要单独核对高度依据。\n看到的证据\n视频展示了起伏地形、局部模型和高度标尺，但目前未取得对应"
+    },
+    {
+      "model": "teaching",
+      "selected": "true",
+      "panel": "教学示意 / 制作方式未知\n\n原理模型可以由代码或建模工具制作。\n看到的证据\n视频展示雅丹形成模型；封面菜单还列出板块挤"
+    },
+    {
+      "model": "earth",
+      "selected": "true",
+      "panel": "影像来源有标注\n\n真实影像，贴到三维表面。\n看到的证据\n原帖封面标注“地球影像：NASA Blue Marble”。NA"
+    }
+  ],
+  "desktop": {
+    "clientWidth": 1265,
+    "scrollWidth": 1265,
+    "imageLoaded": true
+  },
+  "mobile": {
+    "viewportWidth": 390,
+    "clientWidth": 375,
+    "scrollWidth": 375,
+    "titleWrapping": "已调整并复核"
+  },
+  "pages": {
+    "projectCount": 13,
+    "localWebCount": 12,
+    "entry": "_site/013-xinjiang-knowledge-sandbox/index.html",
+    "indexRoundTrip": true
+  },
+  "limitations": [
+    "未操作原应用",
+    "原应用源码、数据精度、模型加载方式与许可证未确认",
+    "未执行在线发布"
+  ]
+}

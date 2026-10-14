@@ -1,0 +1,408 @@
+{
+  "schemaVersion": 1,
+  "id": "round-07",
+  "kind": "process-snapshot",
+  "createdAt": "2026-10-11T11:41:58.382937+00:00",
+  "files": [
+    {
+      "path": "round-07/README.md",
+      "sha256": "217317c2715a21bf22fc9e63d4ccf79567eb956031f08ba72cee8fbdb339d8c1",
+      "bytes": 6181,
+      "crc32": 806499634,
+      "mtimeNs": 1791613385497491000
+    },
+    {
+      "path": "round-07/after/continuous-experiment.png",
+      "sha256": "2c8e359a7da16f41d9477253544362e2193206419fe5405fd38bf7855caf9205",
+      "bytes": 111455,
+      "crc32": 942032021,
+      "mtimeNs": 1791612495201790600
+    },
+    {
+      "path": "round-07/after/delivery-final.png",
+      "sha256": "1c967db0dedc31f3caea0787b745749ed7f69f92e7714adf72d2602ef0b785d8",
+      "bytes": 107088,
+      "crc32": 1751945930,
+      "mtimeNs": 1791613336660230200
+    },
+    {
+      "path": "round-07/after/delivery-window.png",
+      "sha256": "35141ec92eb8830c5c7a8c9e372ab742a7f9330abce1af58eee1f7b954db17b8",
+      "bytes": 104490,
+      "crc32": 1012429090,
+      "mtimeNs": 1791613058628571700
+    },
+    {
+      "path": "round-07/after/explorations-candidate.png",
+      "sha256": "28e1d7f31f0f77210bee506665fe535534f0f4bd5f2ab792734bee2e33b4f66a",
+      "bytes": 99905,
+      "crc32": 959644532,
+      "mtimeNs": 1791612776413238000
+    },
+    {
+      "path": "round-07/after/explorations-desktop.png",
+      "sha256": "025ccab090d2915d6f7a96bb94cf1b32272846d865be7d6daba971093e953207",
+      "bytes": 398171,
+      "crc32": 1273979796,
+      "mtimeNs": 1791612776045640500
+    },
+    {
+      "path": "round-07/after/explorations-hero.png",
+      "sha256": "a2b580857571cdb46d67a00902576a25b88ca08c56ad3e468f982236974bdd13",
+      "bytes": 67872,
+      "crc32": 266362132,
+      "mtimeNs": 1791612883576140200
+    },
+    {
+      "path": "round-07/after/explorations-mobile.png",
+      "sha256": "b1bfaa345293ddf8324d0fa4456735b8ce2dd910adf3e218dd8e3b8a9862a847",
+      "bytes": 276267,
+      "crc32": 845859221,
+      "mtimeNs": 1791612777641012900
+    },
+    {
+      "path": "round-07/after/glacier-experiment.png",
+      "sha256": "97ab20d5e01a085cf3c4adc18217f14f7b5b82284f023e3fe0ab50cb0d8967de",
+      "bytes": 104415,
+      "crc32": 4044989288,
+      "mtimeNs": 1791612295687568400
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-0.png",
+      "sha256": "8c807c465cd79e6f83d3a03e225af8ce82bdf4584ea037b8bba7e417f9cf92b8",
+      "bytes": 79061,
+      "crc32": 3327370296,
+      "mtimeNs": 1791612721913673600
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-1.png",
+      "sha256": "9f11023f2a1475e901c02e1113a432ae15e0f90751c91fe54a22872d0c610790",
+      "bytes": 99106,
+      "crc32": 1727284977,
+      "mtimeNs": 1791612724663944400
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-2.png",
+      "sha256": "b127edca3000e6a9a23676f2d0645383577785da7ba9e8272a74c451eebd3043",
+      "bytes": 104375,
+      "crc32": 3778513070,
+      "mtimeNs": 1791612727418927900
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-3.png",
+      "sha256": "c006ee9493876eba29520574f1766dbbd02d632772146c0b19c663ce5de13d61",
+      "bytes": 108844,
+      "crc32": 690759375,
+      "mtimeNs": 1791612730180770500
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-4.png",
+      "sha256": "c6fab8e75164a30764e73d84f18bd05e9a07a18b9d781533779d6209464bb43b",
+      "bytes": 108633,
+      "crc32": 3162855838,
+      "mtimeNs": 1791612732958238900
+    },
+    {
+      "path": "round-07/after/glacier-final-shot-5.png",
+      "sha256": "3e4fd7eec14df62d88b95b3247040252bf7df91d2e02758cc08c3e482ebc21f3",
+      "bytes": 97317,
+      "crc32": 3800374726,
+      "mtimeNs": 1791612735696243400
+    },
+    {
+      "path": "round-07/after/glacier-flow-pass-a.png",
+      "sha256": "f8bcd20c9b498cf17e1f092733996fb42105525557c2adafb57e543a1ffee0d9",
+      "bytes": 102362,
+      "crc32": 508565727,
+      "mtimeNs": 1791612009442638500
+    },
+    {
+      "path": "round-07/after/glacier-flow.png",
+      "sha256": "55a787a744b41b5da3873070fd042db753b4cdf6ca7a3ab0e5369de01677111b",
+      "bytes": 102496,
+      "crc32": 950567153,
+      "mtimeNs": 1791612292655927300
+    },
+    {
+      "path": "round-07/after/glacier-overview-pass-a.png",
+      "sha256": "435b4952ec63eeb70a597a1b8b363c86dae1c516efe88e79e23b2aaeda17eb8b",
+      "bytes": 81528,
+      "crc32": 3262781984,
+      "mtimeNs": 1791611995838529600
+    },
+    {
+      "path": "round-07/after/glacier-overview.png",
+      "sha256": "16aa2ddb92636403c5f3faee472ec7f15f71d4f894521e703d5fc2ab22c89495",
+      "bytes": 79516,
+      "crc32": 3684052185,
+      "mtimeNs": 1791612121660809300
+    },
+    {
+      "path": "round-07/after/glacier-shot-0.png",
+      "sha256": "f136ca3ce52933dd1bd35726e93fe40ed6c749efa41d5cd1e02859e6c16fa08d",
+      "bytes": 77043,
+      "crc32": 955016733,
+      "mtimeNs": 1791612124640447100
+    },
+    {
+      "path": "round-07/after/glacier-shot-1.png",
+      "sha256": "d30635f348dd261c88d192b1fd83f0225c02c37487b70feb38697c0248b432d3",
+      "bytes": 97190,
+      "crc32": 3324541183,
+      "mtimeNs": 1791612127632238800
+    },
+    {
+      "path": "round-07/after/glacier-shot-2.png",
+      "sha256": "77b77e686e6d71d7f1fceeb1a447c910f39dd8683c358f8c5ab408b93cde68df",
+      "bytes": 100484,
+      "crc32": 2267452413,
+      "mtimeNs": 1791612130616179800
+    },
+    {
+      "path": "round-07/after/glacier-shot-3.png",
+      "sha256": "37243d670fb77e35a6a4a202099b693402978ab86746207b42609b03e6d8d622",
+      "bytes": 102351,
+      "crc32": 3874939280,
+      "mtimeNs": 1791612133602847900
+    },
+    {
+      "path": "round-07/after/glacier-shot-4.png",
+      "sha256": "8f0a57f1e63c65855553a99d2a0b38cd4ca5c515741116ebbdf2abfc6ebb2343",
+      "bytes": 105931,
+      "crc32": 982711245,
+      "mtimeNs": 1791612136907177900
+    },
+    {
+      "path": "round-07/after/glacier-shot-5.png",
+      "sha256": "ee28f52f3944a850f3cf033f38f89813ca103bc7991db02616459c55d7ab6091",
+      "bytes": 93194,
+      "crc32": 4167706957,
+      "mtimeNs": 1791612139883482400
+    },
+    {
+      "path": "round-07/after/mobile-experiment-pass-a.png",
+      "sha256": "f3ee6a2965bc2b4ccb51c39b467b8768c0310838bb391fa9f412b6cfa7f907d4",
+      "bytes": 50479,
+      "crc32": 2273035043,
+      "mtimeNs": 1791612383374366500
+    },
+    {
+      "path": "round-07/after/mobile-experiment.png",
+      "sha256": "f349e951877437d8208adc0fe509fae2ae1e7fa72939f7ba8b17cf67fc0db672",
+      "bytes": 49570,
+      "crc32": 1931319660,
+      "mtimeNs": 1791612444123288100
+    },
+    {
+      "path": "round-07/after/mobile-observation.png",
+      "sha256": "5c7792e63c7a5290a13c2e61dd8fd7ddd6d6da5d86ab508956660ae46d26ad10",
+      "bytes": 47998,
+      "crc32": 2597359512,
+      "mtimeNs": 1791612446994217600
+    },
+    {
+      "path": "round-07/after/mobile-overview.png",
+      "sha256": "a18541dd0edd5967b09e377c093c1a78e1c7a579d74b7e5d5a29948263f7944c",
+      "bytes": 38614,
+      "crc32": 2077746251,
+      "mtimeNs": 1791612365421979700
+    },
+    {
+      "path": "round-07/after/narrative-end.png",
+      "sha256": "9f215cc797bc41176907a4b21b3336f2e08b328ac3f8848d312345bc2d3c5446",
+      "bytes": 101941,
+      "crc32": 2874919724,
+      "mtimeNs": 1791612570444814800
+    },
+    {
+      "path": "round-07/after/return-scene-click-failure.png",
+      "sha256": "ca2b55c5cff01fbe2383c4626981b01e512e0ba729c0df85c189e107ab0fbab2",
+      "bytes": 101455,
+      "crc32": 1966910061,
+      "mtimeNs": 1791613294730172400
+    },
+    {
+      "path": "round-07/after/video-04.png",
+      "sha256": "1b4345aa464b9e3206ea344cf5792a30694213d5b572098a709ff803ccd34e23",
+      "bytes": 275423,
+      "crc32": 2888217773,
+      "mtimeNs": 1791612924263554700
+    },
+    {
+      "path": "round-07/after/video-17.png",
+      "sha256": "2baa99a2eaf6d94818567d5abd3f881016f6017f51f2bbd35fd7878b385486e7",
+      "bytes": 903863,
+      "crc32": 3219357434,
+      "mtimeNs": 1791612924601161600
+    },
+    {
+      "path": "round-07/after/video-29.png",
+      "sha256": "8be68dea430415f2bb79e5c4e0368f0fca8698d7efc6af281fbc2df4863b769a",
+      "bytes": 1057010,
+      "crc32": 428060743,
+      "mtimeNs": 1791612924967786400
+    },
+    {
+      "path": "round-07/after/video-41.png",
+      "sha256": "e1037a8670befeac867256f0081bb2ec52065651d5476405edc72fe09483c1c5",
+      "bytes": 1177508,
+      "crc32": 1306355844,
+      "mtimeNs": 1791612925478694300
+    },
+    {
+      "path": "round-07/after/video-55.png",
+      "sha256": "95236fdd2c0a3230221dd1504c3c2af60cc17a8d88ffb2e3b10de6c4973a9643",
+      "bytes": 980456,
+      "crc32": 1546952946,
+      "mtimeNs": 1791612925856445300
+    },
+    {
+      "path": "round-07/after/video-66.png",
+      "sha256": "b4a589cd223e781a3a3825565f0aa69130aaf5ef70a105114c232bb99a5ffb8d",
+      "bytes": 690584,
+      "crc32": 1362815437,
+      "mtimeNs": 1791612926166114200
+    },
+    {
+      "path": "round-07/after/video-73.png",
+      "sha256": "60b2539241c1eb0d72cd368c25605e0e3a90f0893d6e006381a5d8ad8b7b3a0d",
+      "bytes": 706529,
+      "crc32": 666865672,
+      "mtimeNs": 1791612926452474700
+    },
+    {
+      "path": "round-07/after/video-contact-sheet.jpg",
+      "sha256": "61e91037ceccdff0242cdb3f105fa040339563cf7ccafb492004d2bcfd229ddc",
+      "bytes": 209853,
+      "crc32": 4255790545,
+      "mtimeNs": 1791612926853044500
+    },
+    {
+      "path": "round-07/before/glacier-overview.png",
+      "sha256": "f673c826052e840d09a9bd62cb9ef2636583bf7e9d6fcc171d9f2af403f980d3",
+      "bytes": 67334,
+      "crc32": 686016206,
+      "mtimeNs": 1791611532069130000
+    },
+    {
+      "path": "round-07/before/glacier-teaching.png",
+      "sha256": "3d71b4dd196759b965f3d54c3d4cf60bc46ea3d095dcdcc4ae662a1f32575fc1",
+      "bytes": 117943,
+      "crc32": 336598601,
+      "mtimeNs": 1791611535096169100
+    },
+    {
+      "path": "round-07/finalize-records.py",
+      "sha256": "76610b1df0942ad44d0b6d94e8c13b7bb46d374f74dd8fabc537ce64577799bc",
+      "bytes": 1741,
+      "crc32": 1425616251,
+      "mtimeNs": 1791613383911923000
+    },
+    {
+      "path": "round-07/implement.py",
+      "sha256": "c2da2983571a77ab6daa12727e2f0bba247ff0771c48711f78f1ba20feee8797",
+      "bytes": 15912,
+      "crc32": 3989156681,
+      "mtimeNs": 1791611785769059100
+    },
+    {
+      "path": "round-07/recordings/capture-log.json",
+      "sha256": "5f104f21b98bddfc4947dc0f9455a997ed88f5113dc24bcfb632c8240a1ebdc3",
+      "bytes": 442,
+      "crc32": 2609673692,
+      "mtimeNs": 1791612572561319700
+    },
+    {
+      "path": "round-07/recordings/decode-check.txt",
+      "sha256": "91667a897f32ae34c67e684d77c55d5ac97eb80e88972501d5915b7d6f883a60",
+      "bytes": 1708,
+      "crc32": 3821233926,
+      "mtimeNs": 1791612927979086400
+    },
+    {
+      "path": "round-07/recordings/glacier-narrative.mp4",
+      "sha256": "988545860a13f2522c9a49602143b0823d52fae9ce7bea68d10183c1363b3ad1",
+      "bytes": 10189511,
+      "crc32": 3664155595,
+      "mtimeNs": 1791612693655776300
+    },
+    {
+      "path": "round-07/recordings/glacier-narrative.webm",
+      "sha256": "d12a7da18e002938e14307631b3a2e3b6c00f9b58627c7671f966d7b30edf6c6",
+      "bytes": 62683604,
+      "crc32": 2741623074,
+      "mtimeNs": 1791612572436154400
+    },
+    {
+      "path": "round-07/recordings/media-verification.json",
+      "sha256": "7114279c7fd2daf7af141fcbe998fcf811c3f9d3d6aed1468ff912e95e27c550",
+      "bytes": 833,
+      "crc32": 428401887,
+      "mtimeNs": 1791612977171301200
+    },
+    {
+      "path": "round-07/source-before/index.html",
+      "sha256": "6a7ae8a78fc58d0f62105af80dd3e80dd64cc73de9b83edbc8836c720322d4fb",
+      "bytes": 5357,
+      "crc32": 2101315940,
+      "mtimeNs": 1791606004838988300
+    },
+    {
+      "path": "round-07/source-before/research.html",
+      "sha256": "ceef91a19a009274f7f78a9e6bea56bc45ca416416dd1d2b9ea400d64d0fea2b",
+      "bytes": 10211,
+      "crc32": 1928765655,
+      "mtimeNs": 1791595903386090400
+    },
+    {
+      "path": "round-07/source-before/sandbox.css",
+      "sha256": "54a56ccc9af195d7297154c5ab6da882b769587ed1d192f4868ee454b52279e7",
+      "bytes": 17914,
+      "crc32": 1992397920,
+      "mtimeNs": 1791606186435229100
+    },
+    {
+      "path": "round-07/source-before/sandbox.js",
+      "sha256": "ad799de25a8241413fb3cdf9c7e4b2d02c4537c032c6326aae24026b4fe51345",
+      "bytes": 74992,
+      "crc32": 2485934860,
+      "mtimeNs": 1791607337356334600
+    },
+    {
+      "path": "round-07/source-before/story.js",
+      "sha256": "2cd8625a616b6fb294fa7c16d6a91ee9f299d71c54574ff8abbf5b02b4de624f",
+      "bytes": 11145,
+      "crc32": 3306368633,
+      "mtimeNs": 1791607039923076500
+    },
+    {
+      "path": "round-07/update-docs.py",
+      "sha256": "625204763b38799ed9adf29ee81bcf202a7a99955873fd2753f3b94d821f0079",
+      "bytes": 8905,
+      "crc32": 3617032189,
+      "mtimeNs": 1791612682572418400
+    },
+    {
+      "path": "round-07/verification-before-event-fix.json",
+      "sha256": "15902dad6116ee85ed66af6e595d1ee00286777ec4db7f7632e09f184b62d9c1",
+      "bytes": 5190,
+      "crc32": 1501823442,
+      "mtimeNs": 1791613294824318100
+    },
+    {
+      "path": "round-07/verification.json",
+      "sha256": "37ead9cb66b02349de5b1853c20235bf543de42b4acd466f786ae82f82974e96",
+      "bytes": 6387,
+      "crc32": 3549212372,
+      "mtimeNs": 1791613365690583200
+    },
+    {
+      "path": "round-07/verify-media.py",
+      "sha256": "44ce1cce425af1b1da1f55b9734b2cd0b2d349b884822f1b72e3bf67e9245471",
+      "bytes": 2097,
+      "crc32": 3670964097,
+      "mtimeNs": 1791612921873262100
+    }
+  ],
+  "archives": []
+}

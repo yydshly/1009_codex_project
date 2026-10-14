@@ -1,0 +1,397 @@
+{
+  "verifiedAt": "2026-10-10T02:18:52.632Z",
+  "url": "http://127.0.0.1:4313/1009_codex_project/013-xinjiang-knowledge-sandbox/",
+  "engine": "Three.js 0.186.1 / MIT",
+  "implementation": {
+    "scenes": 9,
+    "shots": 36,
+    "demDatasets": 3,
+    "nasaTextures": 2
+  },
+  "checks": [
+    {
+      "check": "source video comparison",
+      "pass": true,
+      "observed": [
+        "00:16 terrain",
+        "00:39 karez",
+        "01:23 yardang",
+        "01:48 glacier"
+      ]
+    },
+    {
+      "check": "first continuous tour advanced earth to local",
+      "pass": true,
+      "observed": {
+        "scene": "local",
+        "shot": "1",
+        "playback": "playing"
+      },
+      "note": "Verification session restarted before completion."
+    },
+    {
+      "check": "scene renders earth",
+      "pass": true,
+      "observed": {
+        "heading": "地球上的新疆",
+        "rendered": "true",
+        "scene": "earth",
+        "shots": 5
+      }
+    },
+    {
+      "check": "scene renders terrain",
+      "pass": true,
+      "observed": {
+        "heading": "三山与两盆",
+        "rendered": "true",
+        "scene": "terrain",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders history",
+      "pass": true,
+      "observed": {
+        "heading": "沿绿洲穿行",
+        "rendered": "true",
+        "scene": "history",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders local",
+      "pass": true,
+      "observed": {
+        "heading": "走近天山天池",
+        "rendered": "true",
+        "scene": "local",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders ecology",
+      "pass": true,
+      "observed": {
+        "heading": "山地里的生命",
+        "rendered": "true",
+        "scene": "ecology",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders karez",
+      "pass": true,
+      "observed": {
+        "heading": "地下的水路",
+        "rendered": "true",
+        "scene": "karez",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders yardang",
+      "pass": true,
+      "observed": {
+        "heading": "雅丹是怎么形成的",
+        "rendered": "true",
+        "scene": "yardang",
+        "shots": 4
+      }
+    },
+    {
+      "check": "scene renders migration",
+      "pass": true,
+      "observed": {
+        "heading": "锡伯族西迁",
+        "rendered": "true",
+        "scene": "migration",
+        "shots": 3
+      }
+    },
+    {
+      "check": "scene renders glacier",
+      "pass": true,
+      "observed": {
+        "heading": "冰川在退缩",
+        "rendered": "true",
+        "scene": "glacier",
+        "shots": 4
+      }
+    },
+    {
+      "check": "glacier stage to 100 and explanation",
+      "observed": {
+        "phase": "对照阶段",
+        "title": "理解变化，还需要长期观测。",
+        "value": "100"
+      },
+      "pass": true
+    },
+    {
+      "check": "yardang end stage",
+      "observed": {
+        "phase": "对照阶段",
+        "title": "观察形态与风向的关系。",
+        "value": "100"
+      },
+      "pass": true
+    },
+    {
+      "check": "model category filters to two scenes",
+      "observed": [
+        "karez",
+        "yardang"
+      ],
+      "pass": true
+    },
+    {
+      "check": "migration endpoint",
+      "observed": "100%",
+      "pass": true
+    },
+    {
+      "check": "source panel opens",
+      "observed": "真实 NASA 地球影像。年代、盛京出发与伊犁抵达参考国家民委历史沿革。球面路径由沈阳、蒙古高原概念节点与伊犁近似坐标生成；不是逐站考证的真实迁徙路线，曲线长度和播放时间不能换算实际里程或历时。",
+      "pass": true
+    },
+    {
+      "check": "terrain marker opens local DEM",
+      "observed": "local",
+      "pass": true
+    },
+    {
+      "check": "local height control",
+      "observed": "1×",
+      "pass": true
+    },
+    {
+      "check": "route endpoint selects Kashgar",
+      "observed": {
+        "progress": "100",
+        "station": "05 / 喀什",
+        "title": "喀什"
+      },
+      "pass": true
+    },
+    {
+      "check": "karez cutaway and zero flow pause",
+      "observed": {
+        "cut": true,
+        "flow": "0",
+        "play": "▷ 播放水流"
+      },
+      "pass": true
+    },
+    {
+      "check": "earth wind shot switches layer",
+      "observed": {
+        "shot": "西风的方向",
+        "wind": true
+      },
+      "pass": true
+    },
+    {
+      "check": "focus mode opens",
+      "observed": "viewport focus-mode",
+      "pass": true
+    },
+    {
+      "check": "390px mobile fits",
+      "observed": {
+        "height": 844,
+        "scrollWidth": 390,
+        "shots": 5,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "continuous narration pauses",
+      "observed": {
+        "progress": "0.845429%",
+        "state": {
+          "camera": "settled",
+          "model": "real-imagery",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "earth",
+          "shot": "0",
+          "shotLabel": "经纬位置"
+        }
+      },
+      "pass": true
+    },
+    {
+      "check": "paused narrative progress holds",
+      "observed": {
+        "progress": "0.845429%",
+        "state": "paused"
+      },
+      "pass": true
+    },
+    {
+      "check": "mobile scene local",
+      "observed": {
+        "controls": {
+          "bottom": 680.0000419616699,
+          "height": 56.66666793823242,
+          "left": 12,
+          "right": 378,
+          "top": 623.3333740234375,
+          "width": 366,
+          "x": 12,
+          "y": 623.3333740234375
+        },
+        "rendered": "true",
+        "scene": "local",
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "mobile scene karez",
+      "observed": {
+        "controls": {
+          "bottom": 680.0000419616699,
+          "height": 56.66666793823242,
+          "left": 12,
+          "right": 378,
+          "top": 623.3333740234375,
+          "width": 366,
+          "x": 12,
+          "y": 623.3333740234375
+        },
+        "rendered": "true",
+        "scene": "karez",
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "mobile scene yardang",
+      "observed": {
+        "controls": {
+          "bottom": 680.0000228881836,
+          "height": 57.33333587646485,
+          "left": 12,
+          "right": 378,
+          "top": 622.6666870117188,
+          "width": 366,
+          "x": 12,
+          "y": 622.6666870117188
+        },
+        "rendered": "true",
+        "scene": "yardang",
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "mobile scene migration",
+      "observed": {
+        "controls": {
+          "bottom": 680.0000419616699,
+          "height": 56.66666793823242,
+          "left": 12,
+          "right": 378,
+          "top": 623.3333740234375,
+          "width": 366,
+          "x": 12,
+          "y": 623.3333740234375
+        },
+        "rendered": "true",
+        "scene": "migration",
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "mobile scene glacier",
+      "observed": {
+        "controls": {
+          "bottom": 680.0000228881836,
+          "height": 57.33333587646485,
+          "left": 12,
+          "right": 378,
+          "top": 622.6666870117188,
+          "width": 366,
+          "x": 12,
+          "y": 622.6666870117188
+        },
+        "rendered": "true",
+        "scene": "glacier",
+        "scrollWidth": 390,
+        "width": 390
+      },
+      "pass": true
+    },
+    {
+      "check": "full tour completes at last glacier shot",
+      "observed": {
+        "progress": "100%",
+        "state": {
+          "model": "real-dem",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "glacier",
+          "shot": "3",
+          "shotLabel": "观测与证据"
+        },
+        "status": "已暂停"
+      },
+      "pass": true
+    },
+    {
+      "check": "finished narration offers replay",
+      "observed": {
+        "label": "↺ 重播讲解",
+        "state": "paused",
+        "status": "本段讲解结束"
+      },
+      "pass": true
+    },
+    {
+      "check": "local water shot and height adjustment",
+      "observed": {
+        "height": "1×",
+        "shot": "集水的方向"
+      },
+      "pass": true
+    },
+    {
+      "check": "restored default viewport and clean console",
+      "observed": {
+        "height": 720,
+        "scrollWidth": 1280,
+        "state": {
+          "camera": "moving",
+          "model": "real-imagery",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "earth",
+          "shot": "0",
+          "shotLabel": "经纬位置"
+        },
+        "width": 1280,
+        "console": []
+      },
+      "pass": true
+    }
+  ],
+  "buildChecks": [
+    "013 npm run build / check passed",
+    "root index:sync / check passed",
+    "pages:build: 12 demos passed",
+    "git diff --check passed"
+  ],
+  "limitations": [
+    "Original source code and complete 80-minute course unavailable.",
+    "Routes, locating footprint, ecology halos, lake, glacier and yardang changes are teaching schematics.",
+    "Browser Chinese voice quality and installed voice availability not independently verified."
+  ]
+}

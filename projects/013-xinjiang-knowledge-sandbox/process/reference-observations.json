@@ -1,0 +1,22 @@
+{
+  "source": "https://x.com/readyfor2025/status/2108409664018977249",
+  "recordedAt": "2026-10-10",
+  "basis": "整理前几轮已观看片段的文字观察；不是本轮新获取的原视频帧或原应用运行记录。",
+  "originalAssetsAvailable": false,
+  "observations": [
+    {"time": "00:10", "visible": "宏观地球", "localScene": "earth"},
+    {"time": "00:16–00:18", "visible": "影像地形与三山两盆", "localScene": "terrain"},
+    {"time": "00:32", "visible": "湖泊局部模型", "localScene": "local", "mapping": "表现类型对应；未确认同一局部资产"},
+    {"time": "00:38–00:39", "visible": "坎儿井模型", "localScene": "karez"},
+    {"time": "01:13", "visible": "昆仑万山之祖专题", "localScene": null, "status": "未对应实现专题"},
+    {"time": "01:21–01:23", "visible": "雅丹初始地表与形成模型", "localScene": "yardang"},
+    {"time": "01:36", "visible": "成吉思汗宗教主题", "localScene": null, "status": "未对应实现专题"},
+    {"time": "01:48", "visible": "冰川退缩展示", "localScene": "glacier", "mapping": "变化表现对应；未取得原年度数据"},
+    {"time": "01:54", "visible": "局部山体", "localScene": "local", "mapping": "质感比较参考；原数据分辨率未知"}
+  ],
+  "limitations": [
+    "仅作为后续画面比较的定位索引，不作为地理、历史事实的独立证据。",
+    "尚未记录原镜头参数或逐帧对照，当前视觉验收未完成。",
+    "原帖封面在 assets/original-poster.webp；许可未确认，仅作标注来源的研究素材。"
+  ]
+}

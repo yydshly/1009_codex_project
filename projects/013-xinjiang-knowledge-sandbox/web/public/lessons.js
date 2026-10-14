@@ -1,0 +1,92 @@
+export const order = ['earth', 'terrain', 'history', 'local', 'ecology', 'karez', 'yardang', 'migration', 'glacier'];
+export const lessons = {
+  journey:{title:'独立荒漠动画实验',kicker:'ANIMATION EXPERIMENT',scale:'原创动画',subtitle:'此模型没有张骞出使路段的历史依据',kind:'独立实验',heading:'观察动画与环境',body:'保留行走、风沙、取水与驮载的原创动画实验；人物、地貌及动作均不归属于张骞出使。',caption:'已移出历史导演 · 无历史行程归属',next:'返回地图',source:'本地原创动画素材，没有对应历史路段的依据。R80误将其接入张骞导演，R81已纠正。',links:[]},
+  earth: {
+    title: '地球上的新疆', kicker: '01 / PLANET EARTH', scale: '全球尺度', subtitle: '五带、离海多远、西风、丝绸之路',
+    kind: '第一章 · 全球尺度', heading: '离海很远，连接很广。',
+    body: '先找到欧亚大陆，再找到新疆。从全球位置出发，理解它为什么是一个内陆的交汇地带。金色纬线是参考线，箭头只表示中纬度西风的概念方向。',
+    caption: '先在地球上找到它，再走进它的山与水。', next: '进入区域地形',
+    source: '真实影像：NASA Blue Marble Next Generation with Topography and Bathymetry，2004 年 6 月合成影像，5400 × 2700 缩为 4096 × 2048。底图包含地形与海底阴影，但球体几何未加载全球高程。新疆定位轮廓、圆环与风向为教学示意。',
+    links: [['NASA 影像与说明 ↗', 'https://science.nasa.gov/earth/earth-observatory/blue-marble-next-generation/base-topography-bathymetry/']],
+  },
+  terrain: {
+    title: '三山与两盆', kicker: '02 / REGIONAL TERRAIN', scale: '区域尺度', subtitle: '用高程读地形，用地点连接知识。',
+    kind: '第二章 · 区域尺度', heading: '山脉与盆地，塑造空间。',
+    body: '阿尔泰山、天山、昆仑山与两大盆地形成鲜明对照。拖动观察起伏，选择城市或天池。高度夸张只放大视觉起伏，地点说明中的米数保留原始高程。',
+    caption: '点击天池标记，可以从区域进入局部。', next: '走近天山天池',
+    source: '真实高程：Mapzen Terrain Tiles（USGS GMTED2010 / SRTM 等），73–96°E、35–49°N，769 × 513 网格，z=8 重采样。真实表面影像：NASA 2004 年 6 月 Blue Marble 21600 × 10800 底图按相同经纬度裁切。矩形包含新疆与周边；彩色范围为手绘定位示意，不是行政边界数据。岩层、颗粒与明暗为材质效果，不改变真实高程。',
+    links: [['Terrain Tiles 数据目录 ↗', 'https://registry.opendata.aws/terrain-tiles/'], ['采样、瓦片与文件哈希', './assets/data-sources.json']],
+  },
+  local: {
+    title: '走近天山天池', kicker: '03 / LOCAL LANDSCAPE', scale: '局部尺度', subtitle: '从区域起伏，走进一片山地。',
+    kind: '第三章 · 局部尺度', heading: '同一个地方，更近的视角。',
+    body: '真实卫星纹理沿坐标贴到天池周边高程。观察湖岸、森林与裸岩，再切换高度夸张。湖面与汇流教学叠层可独立开关。',
+    caption: '真实湖岸、森林与裸岩，贴合真实山地。', next: '探索丝路廊道',
+    source: '真实影像：Sentinel-2A L2A，2024-09-04，MGRS 45TWJ，原始 10 m 真彩色 TCI。UTM 45N 按 88.07–88.19°E、43.83–43.95°N 重投影为北向上的 963 × 1336 JPG，与 DEM 同范围。局部 SCL 云类为 0%，不代表所有像素已人工核验。Contains modified Copernicus Sentinel data 2024，分发：Element 84 / AWS。真实高程仍为 Mapzen z=13 的 321 × 289 网格。默认显示影像；湖面与汇流叠层为独立示意，未计算水深、径流或真实水文路径。',
+    links: [['Sentinel-2 · 该次观测 STAC ↗', 'https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_45TWJ_20240904_0_L2A'], ['Copernicus Sentinel 数据许可 ↗', 'https://sentinels.copernicus.eu/documents/247904/690755/Sentinel_Data_Legal_Notice'], ['影像、高程与处理记录', './assets/data-sources.json']],
+  },
+  history: {
+    title: '沿绿洲穿行', kicker: '04 / SILK ROAD CORRIDOR', scale: '历史 × 地理', subtitle: '让叙事沿着空间发生。',
+    kind: '第四章 · 地理与历史', heading: '道路不是一条直线。',
+    body: '丝绸之路是跨时期的路线网络。这里借敦煌、若羌、和田、莎车、喀什的现代定位，演示绕行盆地南缘的廊道。路线是教学插值，不代表张骞或某支队伍的已考证行程。',
+    caption: '播放行程，观察地点、路线与说明如何联动。', next: '查看坎儿井原理',
+    source: '地形沿用真实区域高程；路线为现代城市定位之间的教学插值。UNESCO 资料支持丝路网络、绿洲与南北路线的概念；本地曲线、进度与移动标记并非史料复原，也不是实际道路导航。',
+    links: [['UNESCO · 丝绸之路概述 ↗', 'https://www.unesco.org/en/silk-roads/about-silk-roads?hub=196704'], ['UNESCO · 沙漠路线考察 ↗', 'https://www.unesco.org/archives/multimedia/document-4583']],
+  },
+  karez: {
+    title: '地下的水路', kicker: '05 / KAREZ LABORATORY', scale: '原理尺度', subtitle: '把看不见的水路，展开给你看。',
+    kind: '第五章 · 原理模型', heading: '借助落差，把水带到绿洲。',
+    body: '母井取水，暗渠沿坡度输送，竖井帮助施工与维护，明渠将水引向地面。打开剖面看地下结构，调节来水强度观察动画。该模型解释构造，不计算真实流量。',
+    caption: '把抽象的结构，变成可以观察的剖面。', next: '回到地球',
+    source: '程序生成的独立教学模型：地层、井筒、暗渠、水池和水流粒子均由代码构建，没有加载真实工程模型。结构解释参考 UNESCO Karez Wells。来水强度只控制示意动画，不代表水文方程或工程预测。',
+    links: [['UNESCO · Karez Wells ↗', 'https://whc.unesco.org/en/tentativelists/5347/'], ['Three.js · MIT 开源引擎 ↗', 'https://github.com/mrdoob/three.js']],
+  },
+  ecology: {
+    title: '山地里的生命', kicker: '05 / LIVING LANDSCAPES', scale: '生态 × 地理', subtitle: '从冰雪山地，到森林与荒漠',
+    kind: '生态观察', heading: '地形，也是一种生境。', body: '山地、森林、草原与荒漠构成不同的环境。将自然保护地点放回地形里，观察海拔、来水和生境之间的关系。',
+    caption: '地点、地形与生态，在同一幅沙盘里相遇。', next: '走进地下水路',
+    source: '底座沿用真实区域 DEM 与 NASA 影像。喀纳斯、托木尔峰、卡拉麦里为近似定位点，绿色环带为提示光圈，没有绘制法定保护区边界或实测植被。生态说明参考新疆政府与自然资源厅资料。',
+    links: [['新疆政府 · 喀纳斯保护区', 'https://www.xinjiang.gov.cn/xinjiang/hbddc/202207/ef62a8d25af24b13b9f2dab4260a37ec.shtml'], ['新疆自然资源厅 · 喀纳斯', 'https://zrzyt.xinjiang.gov.cn/xjgtzy/kpjd/202010/22b9bef9e4fc47638e7eac92c2936e47.shtml']],
+  },
+  yardang: {
+    title: '雅丹是怎么形成的', kicker: '07 / WIND & WATER', scale: '原理模型', subtitle: '沉积、裂隙、侵蚀、残丘',
+    kind: '地貌实验', heading: '风与水，慢慢刻下形状。', body: '从沉积地表到沟槽、土垄与残丘。拖动演变滑块，看地貌如何从连续的地表变成一列列长形土台。',
+    caption: '观察过程，比只看最后的形状更容易理解。', next: '沿着迁徙的方向',
+    source: '独立程序模型：数学地表、侵蚀槽、风沙粒子和演变动画由代码生成。参考新疆自然资源厅龙城雅丹说明中的风蚀与雨水冲刷概念；没有运行侵蚀方程、没有真实年代标定，也不是特定雅丹的扫描模型。',
+    links: [['新疆自然资源厅 · 龙城雅丹', 'https://zrzyt.xinjiang.gov.cn/xjgtzy/dzyjxq1/202307/18a525fe156e42d8bfc1c80f6adb8947.shtml']],
+  },
+  migration: {
+    title: '锡伯族西迁', kicker: '08 / A JOURNEY WEST', scale: '历史 × 全球', subtitle: '1764—1765 · 从盛京到伊犁',
+    kind: '历史叙事', heading: '一次西行，连接两地。', body: '1764 年，锡伯官兵与家属从盛京一带启程，经过蒙古高原，1765 年抵达伊犁。让历史的时间与地理的距离，在地球上同时展开。',
+    caption: '光点表示叙事进度，弧线表示迁移方向。', next: '观察冰川变化',
+    source: '真实 NASA 地球影像。年代、盛京出发与伊犁抵达参考国家民委历史沿革。球面路径由沈阳、蒙古高原概念节点与伊犁近似坐标生成；不是逐站考证的真实迁徙路线，曲线长度和播放时间不能换算实际里程或历时。',
+    links: [['国家民委 · 锡伯族历史沿革', 'https://www.neac.gov.cn/seac/ztzl/201806/1067551.shtml']],
+  },
+  glacier: {
+    title: '冰谷里的时间', kicker: '09 / A CHANGING CRYOSPHERE', scale: '局部 × 变化', subtitle: '一段冰谷 · 六个观察时刻',
+    kind: '环境变化', heading: '把冰川，放回山谷。', body: '先观察真实冰雪、冰碛与裸岩纹理，再叠加教学冰体演示退缩原理。真实底图始终保留拍摄当天的地表。',
+    caption: '真实观测与教学动画，可以分别观察。', next: '回到地球',
+    source: '真实影像：Sentinel-2A L2A，2023-08-31，MGRS 45TVH，原始 10 m 真彩色 TCI。UTM 45N 按 86.76–86.89°E、43.04–43.17°N 重投影为北向上的 1057 × 1448 JPG，与 DEM 同范围。Contains modified Copernicus Sentinel data 2023，分发：Element 84 / AWS。真实地形为 Mapzen z=14 的 321 × 321 网格，冰谷聚焦窗口取原网格的 173 × 131 个采样点；贴图通过 UV 窗口裁取同一景影像，高度显示 1.25×。一号冰川定位参考国家科学数据中心。教学冰体的轮廓、厚度、裂隙和退缩幅度独立生成；底图固定，未加载多年边界或质量平衡序列。',
+    links: [['Sentinel-2 · 该次观测 STAC ↗', 'https://earth-search.aws.element84.com/v1/collections/sentinel-2-l2a/items/S2A_45TVH_20230831_0_L2A'], ['国家科学数据中心 · 一号冰川观测', 'https://www.ncdc.ac.cn/portal/metadata/22322d3e-e38e-427c-b979-0b8dc90fddb7'], ['影像、高程与处理记录', './assets/data-sources.json']],
+  },
+};
+
+export const places = [
+  { name: '乌鲁木齐', lon: 87.62, lat: 43.82, kind: '城市', description: '位于天山北麓，是从区域地形进入天山周边地点的一个观察入口。坐标为城市中心的近似定位。' },
+  { name: '喀什', lon: 75.99, lat: 39.47, kind: '城市 · 丝路', description: '位于塔里木盆地西缘。观察盆地、山地与绿洲的位置关系，理解历史交通为何在此汇合。' },
+  { name: '吐鲁番', lon: 89.19, lat: 42.95, kind: '城市 · 水利', description: '山地与干旱盆地相邻。坎儿井场景将解释如何利用地下通道与坡降引水。' },
+  { name: '天山天池', lon: 88.12, lat: 43.89, kind: '地点 · 局部地形', description: '从区域切换到天池周边真实高程与 10 米 Sentinel-2 纹理，观察湖岸、林地和山谷。', action: 'local' },
+  { name: '伊宁', lon: 81.32, lat: 43.92, kind: '城市', description: '位于伊犁河谷。以地点为入口，观察山脉环绕的河谷与区域位置。' },
+  { name: '阿尔泰山', lon: 88.1, lat: 47.4, kind: '地形带', landscape: true, description: '沙盘北部的山地带。山脉标签只表示概略位置，没有绘制山系边界。' },
+  { name: '准噶尔盆地', lon: 85.5, lat: 45.4, kind: '地形带', landscape: true, description: '位于天山以北、阿尔泰山以南。通过高度与色彩的对比识别盆地和山地。' },
+  { name: '天山', lon: 83.4, lat: 42.8, kind: '地形带', landscape: true, description: '天山横贯区域中部。这里的起伏来自公开高程，视觉高度按比例放大。' },
+  { name: '塔里木盆地', lon: 83.4, lat: 39.5, kind: '地形带', landscape: true, description: '位于天山以南、昆仑山以北。历史路线场景演示沿南缘绿洲连接的空间概念。' },
+  { name: '昆仑山', lon: 82.5, lat: 36.15, kind: '地形带', landscape: true, description: '沙盘南部的山地带。矩形沙盘包括新疆与周边，不作为行政地图使用。' },
+];
+export const routeStops = [
+  { name: '敦煌', lon: 94.66, lat: 40.14, description: '以河西走廊西端的现代城市定位作为演示起点。' },
+  { name: '若羌', lon: 88.17, lat: 39.02, description: '进入盆地东南缘。本段曲线只演示地理廊道，不代表考古确认的道路。' },
+  { name: '和田', lon: 79.92, lat: 37.12, description: '沿昆仑山北麓的绿洲地带向西。山地、来水与绿洲构成交通廊道的地理背景。' },
+  { name: '莎车', lon: 77.24, lat: 38.42, description: '向盆地西缘过渡。不同历史时期的具体路线与节点会发生变化。' },
+  { name: '喀什', lon: 75.99, lat: 39.47, description: '到达盆地西缘的汇合区域。这里结束的是本地教学行程，而非一条完整的历史丝路。' },
+];

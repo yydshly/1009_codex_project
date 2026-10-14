@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-10",
+  "reference": "https://x.com/readyfor2025/status/2108409664018977249",
+  "url": "http://127.0.0.1:4313/1009_codex_project/013-xinjiang-knowledge-sandbox/",
+  "checks": [
+    {
+      "check": "desktop-earth",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-imagery",
+        "rendered": "true",
+        "scene": "earth"
+      }
+    },
+    {
+      "check": "desktop-terrain",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-dem",
+        "rendered": "true",
+        "scene": "terrain"
+      }
+    },
+    {
+      "check": "desktop-history",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-dem",
+        "rendered": "true",
+        "scene": "history"
+      }
+    },
+    {
+      "check": "desktop-local",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-dem",
+        "rendered": "true",
+        "scene": "local"
+      }
+    },
+    {
+      "check": "desktop-ecology",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-dem",
+        "rendered": "true",
+        "scene": "ecology"
+      }
+    },
+    {
+      "check": "desktop-karez",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "procedural",
+        "rendered": "true",
+        "scene": "karez"
+      }
+    },
+    {
+      "check": "desktop-yardang",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "procedural",
+        "rendered": "true",
+        "scene": "yardang"
+      }
+    },
+    {
+      "check": "desktop-migration",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-imagery",
+        "rendered": "true",
+        "scene": "migration"
+      }
+    },
+    {
+      "check": "desktop-glacier",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "model": "real-dem",
+        "rendered": "true",
+        "scene": "glacier"
+      }
+    },
+    {
+      "check": "ice-continuous-retreat",
+      "pass": true,
+      "proof": {
+        "moving": {
+          "animation": "moving",
+          "camera": "moving",
+          "phase": "77.88"
+        },
+        "end": "100.00"
+      }
+    },
+    {
+      "check": "yardang-continuous-morph",
+      "pass": true,
+      "proof": {
+        "animation": "moving",
+        "phase": "80.72"
+      }
+    },
+    {
+      "check": "complete-tour",
+      "pass": true,
+      "proof": {
+        "button": "↺ 重播讲解",
+        "playback": "paused",
+        "progress": "100%",
+        "scene": "glacier",
+        "shot": "3",
+        "status": "本段讲解结束"
+      }
+    },
+    {
+      "check": "local-height-waterpaths",
+      "pass": true,
+      "proof": {
+        "playback": "paused",
+        "rendered": "true",
+        "value": "1.1×"
+      }
+    },
+    {
+      "check": "cutaway-flow-controls",
+      "pass": true,
+      "proof": {
+        "cut": true,
+        "flow": "0%",
+        "label": "▷ 播放水流"
+      }
+    },
+    {
+      "check": "route-final-station",
+      "pass": true,
+      "proof": {
+        "place": "喀什",
+        "station": "05 / 喀什",
+        "value": "100%"
+      }
+    },
+    {
+      "check": "ice-outline-state-preserved",
+      "pass": true,
+      "proof": {
+        "hiddenOutline": false,
+        "restoredOutline": false
+      }
+    },
+    {
+      "check": "drag-interrupts-auto-camera",
+      "pass": true,
+      "proof": {
+        "camera": "settled",
+        "playback": "paused"
+      }
+    },
+    {
+      "check": "mobile-terrain",
+      "pass": true,
+      "proof": {
+        "controlRight": 378,
+        "height": 844,
+        "rendered": "true",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-local",
+      "pass": true,
+      "proof": {
+        "controlRight": 378,
+        "height": 844,
+        "rendered": "true",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-karez",
+      "pass": true,
+      "proof": {
+        "controlRight": 378,
+        "height": 844,
+        "rendered": "true",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-yardang",
+      "pass": true,
+      "proof": {
+        "controlRight": 378,
+        "height": 844,
+        "rendered": "true",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-glacier",
+      "pass": true,
+      "proof": {
+        "controlRight": 378,
+        "height": 844,
+        "rendered": "true",
+        "scrollWidth": 390,
+        "width": 390
+      }
+    },
+    {
+      "check": "browser-console",
+      "pass": true,
+      "proof": {
+        "desktop": [],
+        "mobile": [],
+        "tour": []
+      }
+    }
+  ],
+  "setupNotes": [
+    "The first mobile override retained desktop dimensions. Reset and reapply produced the confirmed 390×844 checks below."
+  ],
+  "limits": [
+    "程序材质、定位范围、路线、冰体和原理模型为示意；没有原模型与局部摄影纹理。",
+    "设备语音质量未验收；未复制原课程与年度冰川数据。"
+  ],
+  "repositoryValidation": {
+    "projectBuild": "passed",
+    "projectCheck": "passed; geometry, physical units, camera path, source hashes",
+    "indexSync": "14 projects",
+    "repositoryCheck": "passed",
+    "pagesBuild": "13 local web demos",
+    "publicAndBuiltHashes": {
+      "index.html": "b998a9728ac439b79f1d46165f4df08dc90bf1def4c589564f89b11d6fe5248a",
+      "sandbox.js": "378905a7a2952d3038a76056b1ba325d1385a92a4d9efcaf89d5a5d39e4cf146",
+      "sandbox.css": "93679502c4eaad8558ef93b98bce37eaac3212ee14ff029736a96cdb1b247275",
+      "surface.js": "a7f693a80bb740484aca26ad2dbcfa782035e8364ec0be95b9a4ac5df0ba17df",
+      "motion.js": "8fa53f55d769966ba7f2afe17628b0ca52ffdcc4566785676185c27a90ddd3de",
+      "story.js": "bdbd007447b05f11439761d1d5cd8c0ef6326d7c5e2b93a2e2eb1646f7edf643",
+      "lessons.js": "55fe9272df3dcb09eb6ae5e71289abb305005633f96fe131ee4c2bdcea24186c",
+      "assets/xinjiang-dem.json": "730aaa0ec9050e63d98cea1eebe9ab11daff53a25745f407521fcd001d69da87",
+      "assets/tianchi-dem.json": "15d17dc21b3ec1d8d0885afb5dda15df603372836f8823b6ed943fcc449ba40c",
+      "assets/glacier-dem.json": "08d5373f51b98afb4aa91635cbb85e20e54d16d65e8906e03a7ee4c28cd5fa68"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "round": "round-47",
+  "pass": true,
+  "retainedPaths": 580,
+  "newlyReferencedHashesVerified": 46,
+  "newObjects": 45,
+  "newBytes": 1982455,
+  "unchangedSourcePaths": 530,
+  "sharedPreviewLinks": {
+    "earth": true,
+    "distance": true,
+    "coordinates": true,
+    "rootPreview": true
+  },
+  "oldVideoBytesCopied": 0,
+  "earthImageCopies": 0
+}

@@ -1,0 +1,19 @@
+{
+  "edition": "R50",
+  "retainedPaths": 619,
+  "newObjects": 58,
+  "newBytes": 3113792,
+  "verifiedNewReferenceHashes": 59,
+  "allNewHashesPass": true,
+  "unchangedOldMediaPaths": 59,
+  "earthImageUnchanged": true,
+  "sharedPreviewAndRecordAliases": true,
+  "videoBytesCopied": 0,
+  "sourceUnchangedPaths": 553,
+  "http": {
+    "assets/process/r50-history.png": 200,
+    "assets/learning-links-sources.json": 200,
+    "assets/records/round-50.md": 200,
+    "assets/records/round-50.json": 200
+  }
+}

@@ -1,0 +1,32 @@
+.film-reading{margin:14px 0 20px;border-top:1px solid var(--line);padding-top:13px}
+.film-reading-heading{display:flex;align-items:center;justify-content:space-between;gap:14px;font-size:11px;color:var(--muted)}
+#film-subtitles-toggle{padding:5px 12px;font-family:inherit;font-size:12px;cursor:pointer}
+#film-subtitles-toggle[aria-pressed=true]{background:var(--green);color:#fff}
+.film-context{padding:16px 0 9px;min-height:145px}
+.film-context strong{display:block;font-size:16px;font-weight:500;color:var(--ink)}
+.film-context small{display:block;font-size:11px;color:var(--muted);margin:7px 0}
+.film-context p{font-size:13px;line-height:1.9;margin:7px 0}
+.film-transcript{border-top:1px solid var(--line);padding:10px 0;font-size:12px}
+.film-transcript summary{cursor:pointer;color:var(--green)}
+.film-transcript-list{max-height:390px;overflow:auto;margin-top:15px;padding-right:8px}
+.film-transcript-list h4{font-size:14px;margin:20px 0 12px}
+.film-transcript-list p{display:grid;grid-template-columns:110px 1fr;gap:12px;align-items:start;margin:10px 0;font-size:12px;line-height:1.9}
+.film-transcript-list button{font-family:inherit;font-size:11px;line-height:1.7;color:var(--green);background:var(--soft);text-align:left;padding:5px;border:1px solid var(--line);cursor:pointer}
+.caption-download{font-size:11px;line-height:1.9;color:var(--muted);margin:7px 0}
+.caption-download a{display:inline-block;text-decoration:underline;color:var(--green);margin-right:12px}
+#current-video::cue{background:#051310e8;color:#fff;font:20px/1.5 'Microsoft YaHei',sans-serif;text-shadow:0 1px 3px #000}
+.film-player{position:relative;aspect-ratio:16/9;background:#07100d;isolation:isolate;scroll-margin-top:100px}
+.film-player video{display:block;width:100%;height:100%;object-fit:contain}
+.film-spoken-subtitle{position:absolute;left:50%;bottom:17%;transform:translateX(-50%);max-width:90%;width:max-content;box-sizing:border-box;background:#071513ed;color:white;padding:5px 12px;font:16px/1.6 'Microsoft YaHei',sans-serif;text-align:center;border-radius:3px;text-shadow:0 1px 2px #000;pointer-events:none}
+.film-spoken-subtitle[hidden]{display:none}
+.film-fullscreen{position:absolute;top:12px;right:12px;background:#10221fcc;color:#fff;border:1px solid #aec1b450;font-size:11px;padding:5px 9px;cursor:pointer}
+.film-player:fullscreen{width:100vw;height:100vh;aspect-ratio:auto;display:flex;align-items:center;justify-content:center}
+.film-player:fullscreen video{width:100%;height:100%;object-fit:contain}
+.film-player:fullscreen .film-spoken-subtitle{font-size:24px;bottom:max(11%,calc((100vh - 56.25vw)/2 + 52px));max-width:min(90%,1100px)}
+.film-player:fullscreen .film-fullscreen{font-size:15px;top:24px;right:24px}
+.audit-steps{display:grid;grid-template-columns:1fr 1fr;gap:22px;list-style:none;padding:0}
+.audit-steps li{border-top:1px solid var(--line);padding-top:14px}
+.audit-steps h3{font-size:16px;line-height:1.7;margin:0 0 8px}
+.audit-steps p{font-size:13px;color:var(--muted);margin:0;line-height:1.9}
+.audit-steps small{display:block;font-size:11px;color:var(--green);margin-top:9px}
+@media(max-width:740px){.film-context{min-height:0}.audit-steps{grid-template-columns:1fr}.film-transcript-list p{grid-template-columns:95px 1fr}#current-video::cue{font-size:18px}}

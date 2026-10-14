@@ -1,0 +1,305 @@
+{
+  "pass": true,
+  "version": "R29",
+  "durationSeconds": 642.681867,
+  "contentSeconds": 512,
+  "videoTrackReencoded": false,
+  "actualCues": 33,
+  "chapters": 8,
+  "integratedLUFS": -18.0,
+  "loudnessRangeLU": 14.0,
+  "truePeakDBFS": -1.5,
+  "audioAlignmentDelayMS": 248,
+  "masteringFilter": "adelay=248|248,dynaudnorm=f=1000:g=9:p=0.7:m=4:r=0.10:n=true,loudnorm=I=-18:TP=-1.5:LRA=11:measured_I=-20.26:measured_TP=-4.38:measured_LRA=16.60:measured_thresh=-32.57:offset=0.35:linear=true:print_format=json,afade=t=out:st=641.4535:d=1.2",
+  "firstPass": {
+    "input_i": "-20.26",
+    "input_tp": "-4.38",
+    "input_lra": "16.60",
+    "input_thresh": "-32.57",
+    "output_i": "-18.35",
+    "output_tp": "-1.80",
+    "output_lra": "13.60",
+    "output_thresh": "-29.96",
+    "normalization_type": "dynamic",
+    "target_offset": "0.35"
+  },
+  "bytes": 479996232,
+  "sha256": "776ed30fa6eb6abf866cdfbd5a846c087577f13a1fe72b58cfdba9d4f045a2b7",
+  "format": {
+    "streams": [
+      {
+        "index": 0,
+        "codec_name": "h264",
+        "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+        "profile": "Constrained Baseline",
+        "codec_type": "video",
+        "codec_tag_string": "avc1",
+        "codec_tag": "0x31637661",
+        "width": 1280,
+        "height": 720,
+        "coded_width": 1280,
+        "coded_height": 720,
+        "closed_captions": 0,
+        "film_grain": 0,
+        "has_b_frames": 0,
+        "sample_aspect_ratio": "1:1",
+        "display_aspect_ratio": "16:9",
+        "pix_fmt": "yuvj420p",
+        "level": 31,
+        "color_range": "pc",
+        "color_space": "bt709",
+        "color_transfer": "iec61966-2-1",
+        "color_primaries": "bt709",
+        "chroma_location": "left",
+        "field_order": "progressive",
+        "refs": 1,
+        "is_avc": "true",
+        "nal_length_size": "4",
+        "id": "0x1",
+        "r_frame_rate": "60/1",
+        "avg_frame_rate": "70938750/2410057",
+        "time_base": "1/30000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 19280456,
+        "duration": "642.681867",
+        "bit_rate": "5811255",
+        "bits_per_raw_sample": "8",
+        "nb_frames": "18917",
+        "extradata_size": 37,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "VideoHandler",
+          "vendor_id": "[0][0][0][0]",
+          "encoder": "AVC1 Coding"
+        }
+      },
+      {
+        "index": 1,
+        "codec_name": "aac",
+        "codec_long_name": "AAC (Advanced Audio Coding)",
+        "profile": "LC",
+        "codec_type": "audio",
+        "codec_tag_string": "mp4a",
+        "codec_tag": "0x6134706d",
+        "sample_fmt": "fltp",
+        "sample_rate": "48000",
+        "channels": 2,
+        "channel_layout": "stereo",
+        "bits_per_sample": 0,
+        "initial_padding": 0,
+        "id": "0x2",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/48000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 30847344,
+        "duration": "642.653000",
+        "bit_rate": "158912",
+        "nb_frames": "30126",
+        "extradata_size": 5,
+        "disposition": {
+          "default": 1,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "und",
+          "handler_name": "SoundHandler",
+          "vendor_id": "[0][0][0][0]"
+        }
+      },
+      {
+        "index": 2,
+        "codec_name": "bin_data",
+        "codec_long_name": "binary data",
+        "codec_type": "data",
+        "codec_tag_string": "text",
+        "codec_tag": "0x74786574",
+        "id": "0x3",
+        "r_frame_rate": "0/0",
+        "avg_frame_rate": "0/0",
+        "time_base": "1/1000",
+        "start_pts": 0,
+        "start_time": "0.000000",
+        "duration_ts": 642653,
+        "duration": "642.653000",
+        "bit_rate": "2",
+        "nb_frames": "8",
+        "extradata_size": 63,
+        "disposition": {
+          "default": 0,
+          "dub": 0,
+          "original": 0,
+          "comment": 0,
+          "lyrics": 0,
+          "karaoke": 0,
+          "forced": 0,
+          "hearing_impaired": 0,
+          "visual_impaired": 0,
+          "clean_effects": 0,
+          "attached_pic": 0,
+          "timed_thumbnails": 0,
+          "non_diegetic": 0,
+          "captions": 0,
+          "descriptions": 0,
+          "metadata": 0,
+          "dependent": 0,
+          "still_image": 0
+        },
+        "tags": {
+          "language": "eng",
+          "handler_name": "SubtitleHandler"
+        }
+      }
+    ],
+    "chapters": [
+      {
+        "id": 0,
+        "time_base": "1/1000",
+        "start": 0,
+        "start_time": "0.000000",
+        "end": 423,
+        "end_time": "0.423000",
+        "tags": {
+          "title": "开场"
+        }
+      },
+      {
+        "id": 1,
+        "time_base": "1/1000",
+        "start": 423,
+        "start_time": "0.423000",
+        "end": 69929,
+        "end_time": "69.929000",
+        "tags": {
+          "title": "01 / 地球"
+        }
+      },
+      {
+        "id": 2,
+        "time_base": "1/1000",
+        "start": 69929,
+        "start_time": "69.929000",
+        "end": 215375,
+        "end_time": "215.375000",
+        "tags": {
+          "title": "02 / 水路"
+        }
+      },
+      {
+        "id": 3,
+        "time_base": "1/1000",
+        "start": 215375,
+        "start_time": "215.375000",
+        "end": 304550,
+        "end_time": "304.550000",
+        "tags": {
+          "title": "03 / 集市"
+        }
+      },
+      {
+        "id": 4,
+        "time_base": "1/1000",
+        "start": 304550,
+        "start_time": "304.550000",
+        "end": 443440,
+        "end_time": "443.440000",
+        "tags": {
+          "title": "04 / 生活"
+        }
+      },
+      {
+        "id": 5,
+        "time_base": "1/1000",
+        "start": 443440,
+        "start_time": "443.440000",
+        "end": 559621,
+        "end_time": "559.621000",
+        "tags": {
+          "title": "05 / 关口"
+        }
+      },
+      {
+        "id": 6,
+        "time_base": "1/1000",
+        "start": 559621,
+        "start_time": "559.621000",
+        "end": 634653,
+        "end_time": "634.653000",
+        "tags": {
+          "title": "06 / 回望"
+        }
+      },
+      {
+        "id": 7,
+        "time_base": "1/1000",
+        "start": 634653,
+        "start_time": "634.653000",
+        "end": 642653,
+        "end_time": "642.653000",
+        "tags": {
+          "title": "回到地球"
+        }
+      }
+    ],
+    "format": {
+      "filename": "F:\\codex_project\\1009_codex_project\\projects\\013-xinjiang-knowledge-sandbox\\process\\round-29\\recordings\\xinjiang-spatial-story-r29.mp4",
+      "nb_streams": 3,
+      "nb_programs": 0,
+      "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+      "format_long_name": "QuickTime / MOV",
+      "start_time": "0.000000",
+      "duration": "642.681867",
+      "size": "479996232",
+      "bit_rate": "5974915",
+      "probe_score": 100,
+      "tags": {
+        "major_brand": "isom",
+        "minor_version": "512",
+        "compatible_brands": "isomiso2avc1mp41",
+        "title": "山河之间 · 生活与联系 / R29",
+        "encoder": "Lavf60.16.100",
+        "comment": "Actual uninterrupted WebGL, all spatial narration, rendered contact Foley and scene crossfades. MiniMax synthetic Mandarin voices."
+      }
+    }
+  },
+  "subjectiveListeningAcceptance": false,
+  "source": "Uninterrupted actual WebGL + all MiniMax spatial narrations + material Foley triggered by rendered contacts + authored scene beds."
+}

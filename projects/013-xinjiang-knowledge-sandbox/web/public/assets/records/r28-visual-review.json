@@ -1,0 +1,141 @@
+{
+  "status": "reviewed",
+  "frames": [
+    {
+      "version": "R27",
+      "case": "glacier",
+      "event": "water-mountains",
+      "time": 61.493,
+      "title": "冰谷：实际影像与山体层次",
+      "file": "before/r27-glacier.jpg"
+    },
+    {
+      "version": "R27",
+      "case": "water",
+      "event": "water-home",
+      "time": 110.051,
+      "title": "水到家门：抬头回应",
+      "file": "before/r27-water.jpg"
+    },
+    {
+      "version": "R27",
+      "case": "market",
+      "event": "market-cloth",
+      "time": 261.7790999999642,
+      "title": "织物穿用：接住照应",
+      "file": "before/r27-market.jpg"
+    },
+    {
+      "version": "R27",
+      "case": "family",
+      "event": "family-home",
+      "time": 364.9121999999881,
+      "title": "家书：双手与代际回应",
+      "file": "before/r27-family.jpg"
+    },
+    {
+      "version": "R27",
+      "case": "courtyard",
+      "event": "culture-listen",
+      "time": 422.7666999999881,
+      "title": "庭院：观察、回应与接续",
+      "file": "before/r27-courtyard.jpg"
+    },
+    {
+      "version": "R27",
+      "case": "gate",
+      "event": "civic-balanced",
+      "time": 534.4545,
+      "title": "关口：回应与未尽需要",
+      "file": "before/r27-gate.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "glacier",
+      "event": "water-mountains",
+      "time": 70.78360000002384,
+      "title": "冰谷：实际影像与山体层次",
+      "file": "after/r28-glacier.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "water",
+      "event": "water-home",
+      "time": 118.5415,
+      "title": "水到家门：抬头回应",
+      "file": "after/r28-water.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "market",
+      "event": "market-cloth",
+      "time": 269.9996999999881,
+      "title": "织物穿用：接住照应",
+      "file": "after/r28-market.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "family",
+      "event": "family-home",
+      "time": 373.11810000002384,
+      "title": "家书：双手与代际回应",
+      "file": "after/r28-family.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "courtyard",
+      "event": "culture-listen",
+      "time": 430.97560000002386,
+      "title": "庭院：观察、回应与接续",
+      "file": "after/r28-courtyard.jpg"
+    },
+    {
+      "version": "R28",
+      "case": "gate",
+      "event": "civic-balanced",
+      "time": 542.6929000000357,
+      "title": "关口：回应与未尽需要",
+      "file": "after/r28-gate.jpg"
+    }
+  ],
+  "method": "Unmodified actual movie frames, selected one second into the same authored response. Each version has its own measured time. No generated previews, texture enhancement or identical-pixel claim.",
+  "limits": [
+    "Original stylized teaching actors; no motion capture or ethnographic reconstruction.",
+    "Same 10m imagery and retained elevation data; lighting and view changes do not raise measurement precision."
+  ],
+  "pass": true,
+  "reviewedFrames": 12,
+  "findings": [
+    {
+      "case": "glacier",
+      "finding": "Actual imagery retained. Closer valley framing and measured-height cavity shading improve relief reading; 10m snow/rock boundaries remain visibly coarse."
+    },
+    {
+      "case": "water",
+      "finding": "Parent and child occupy a closer eye-level composition; reply is visible beside the actual channel, with head-to-object and face attention."
+    },
+    {
+      "case": "market",
+      "finding": "Parent and child remain visible during the reply. Crowd and caravan move to the rear lane; cloth is visibly worn on the child after handoff."
+    },
+    {
+      "case": "family",
+      "finding": "Letter sits between actual hands; the child and adults look into the shared exchange. Lower caption leaves hands and faces visible."
+    },
+    {
+      "case": "courtyard",
+      "finding": "Teacher and child can be seen across the table; learning record and grounded explanation marker remain visible without covering faces."
+    },
+    {
+      "case": "gate",
+      "finding": "The close reply preserves distinct participants, waiting trucks and buffer vegetation; unmet need is retained in the scene and ending."
+    }
+  ],
+  "animationEvidence": "Complete uninterrupted actual WebGL recording plus rendered hand/prop/contact logs; still images are not motion-capture or lip-sync evidence.",
+  "remaining": [
+    "Faces and construction remain stylized miniature geometry; no realistic skin anatomy or photorealistic facial performance.",
+    "Amplitude driven lips/jaw do not certify phoneme sync.",
+    "Near terrain imagery remains at the existing source resolution.",
+    "All 41 played voice clips pass waveform first/tail and timing checks; subjective listening acceptance is still false."
+  ]
+}

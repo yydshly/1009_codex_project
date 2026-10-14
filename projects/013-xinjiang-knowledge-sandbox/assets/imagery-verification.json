@@ -1,0 +1,451 @@
+{
+  "verifiedAt": "2026-10-10T03:39:39.444Z",
+  "url": "http://127.0.0.1:4313/1009_codex_project/013-xinjiang-knowledge-sandbox/",
+  "sourceManifest": "../web/public/assets/data-sources.json",
+  "checks": [
+    {
+      "check": "desktop-earth",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "real-imagery",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "earth",
+          "shot": "0",
+          "shotLabel": "经纬位置"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-terrain",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "terrain",
+          "shot": "0",
+          "shotLabel": "三山骨架"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-history",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "history",
+          "shot": "0",
+          "shotLabel": "绿洲网络"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-local",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "tianchi-sentinel-20240904.jpg",
+          "layer": "imagery",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "local",
+          "shot": "0",
+          "shotLabel": "天山中的湖"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-ecology",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "ecology",
+          "shot": "0",
+          "shotLabel": "生境的梯度"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-karez",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "procedural",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "karez",
+          "shot": "0",
+          "shotLabel": "地表与地下"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-yardang",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "procedural",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "yardang",
+          "shot": "0",
+          "shotLabel": "沉积地表"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-migration",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "regional-or-global",
+          "model": "real-imagery",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "migration",
+          "shot": "0",
+          "shotLabel": "1764 · 启程"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "desktop-glacier",
+      "pass": true,
+      "result": {
+        "canvas": true,
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "glacier-sentinel-20230831.jpg",
+          "layer": "imagery",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "glacier",
+          "shot": "0",
+          "shotLabel": "真实冰雪"
+        },
+        "fatalVisible": false,
+        "height": 720,
+        "overflow": false,
+        "width": 1280
+      }
+    },
+    {
+      "check": "glacier-default-real-image",
+      "pass": true
+    },
+    {
+      "check": "manual-glacier-phase-enables-teaching-and-copy",
+      "pass": true,
+      "result": {
+        "heading": "比较教学冰体的覆盖范围。",
+        "imagery": "glacier-sentinel-20230831.jpg",
+        "layer": "imagery-and-teaching",
+        "phase": "100.00",
+        "value": "100"
+      }
+    },
+    {
+      "check": "glacier-overlay-off-restores-real-observation-copy",
+      "pass": true
+    },
+    {
+      "check": "glacier-story-enables-teaching",
+      "pass": true
+    },
+    {
+      "check": "glacier-story-restores-real-imagery",
+      "pass": true
+    },
+    {
+      "check": "glacier-source-date-credit-and-limits",
+      "pass": true
+    },
+    {
+      "check": "tianchi-story-flow-layer",
+      "pass": true
+    },
+    {
+      "check": "tianchi-overlay-off-preserves-real-shoreline-copy",
+      "pass": true
+    },
+    {
+      "check": "tianchi-height-with-imagery",
+      "pass": true
+    },
+    {
+      "check": "tianchi-source-date-credit-and-resolution",
+      "pass": true
+    },
+    {
+      "check": "tianchi-continuous-story-with-real-imagery",
+      "pass": true,
+      "observedShot": "3"
+    },
+    {
+      "check": "mobile-local",
+      "pass": true,
+      "result": {
+        "controlsBounds": {
+          "bottom": 680.0000419616699,
+          "height": 56.66666793823242,
+          "left": 12,
+          "right": 378,
+          "top": 623.3333740234375,
+          "width": 366,
+          "x": 12,
+          "y": 623.3333740234375
+        },
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "tianchi-sentinel-20240904.jpg",
+          "layer": "imagery",
+          "model": "real-dem",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "local",
+          "shot": "0",
+          "shotLabel": "天山中的湖"
+        },
+        "height": 844,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-glacier",
+      "pass": true,
+      "result": {
+        "controlsBounds": {
+          "bottom": 680,
+          "height": 98,
+          "left": 12,
+          "right": 378,
+          "top": 582,
+          "width": 366,
+          "x": 12,
+          "y": 582
+        },
+        "dataset": {
+          "animation": "settled",
+          "camera": "settled",
+          "imagery": "glacier-sentinel-20230831.jpg",
+          "layer": "imagery",
+          "model": "real-dem",
+          "phase": "0.00",
+          "playback": "paused",
+          "rendered": "true",
+          "scene": "glacier",
+          "shot": "0",
+          "shotLabel": "真实冰雪"
+        },
+        "height": 844,
+        "overflow": false,
+        "width": 390
+      }
+    },
+    {
+      "check": "mobile-glacier-shots-clear-controls",
+      "pass": true,
+      "result": {
+        "controls": {
+          "bottom": 680,
+          "height": 98,
+          "left": 12,
+          "right": 378,
+          "top": 582,
+          "width": 366,
+          "x": 12,
+          "y": 582
+        },
+        "shots": {
+          "bottom": 567,
+          "height": 28,
+          "left": 12,
+          "right": 378,
+          "top": 539,
+          "width": 366,
+          "x": 12,
+          "y": 539
+        },
+        "width": 390
+      }
+    },
+    {
+      "check": "browser-console",
+      "pass": true,
+      "result": {
+        "desktop": [],
+        "mobile": []
+      }
+    }
+  ],
+  "screenshots": [
+    "imagery-local.png",
+    "imagery-glacier.png",
+    "imagery-local-flow.png",
+    "imagery-glacier-overlay.png",
+    "imagery-mobile-local.png",
+    "imagery-mobile-glacier.png"
+  ],
+  "limitations": [
+    "Single-date satellite TCI, not annual glacier reconstruction.",
+    "10 m source imagery; DEM display sampling approximately 30–46 m.",
+    "SCL is automatic 20 m classification, not manual pixelwise ground truth.",
+    "Independent teaching layers and height exaggeration; original application assets unavailable."
+  ],
+  "build": {
+    "subprojectBuild": "passed",
+    "subprojectCheck": "passed",
+    "indexSync": "passed",
+    "repositoryCheck": "14 projects passed",
+    "pagesBuild": "13 Web demos passed",
+    "gitDiffCheck": "passed",
+    "published": false,
+    "sourceAndBuiltHashes": [
+      {
+        "file": "index.html",
+        "sha256": "b998a9728ac439b79f1d46165f4df08dc90bf1def4c589564f89b11d6fe5248a",
+        "bytes": 5113
+      },
+      {
+        "file": "sandbox.js",
+        "sha256": "a8070db9bb6b19c46226424f1804f6405420934189e7ec3348b60da61697e845",
+        "bytes": 69098
+      },
+      {
+        "file": "sandbox.css",
+        "sha256": "84066d22f320868c303c263232c3cef570ac2ed3e371da53961abc08e13e15f1",
+        "bytes": 17036
+      },
+      {
+        "file": "surface.js",
+        "sha256": "c7320e8b7c0aa9c6ebc4e4dd9fc71e99351fe7c9b547a009302d138fbe08c690",
+        "bytes": 4283
+      },
+      {
+        "file": "story.js",
+        "sha256": "b682f86879c9733c7b9ded53dee91db75ddf191a6771f3cd934f885608c3ca86",
+        "bytes": 11259
+      },
+      {
+        "file": "lessons.js",
+        "sha256": "f53343309a7b8e1673e7be1378722d87ee5484022fdef92b88c07eb30bb73fe4",
+        "bytes": 12678
+      },
+      {
+        "file": "assets/tianchi-sentinel-20240904.jpg",
+        "sha256": "1908d5d579ab096ee398160896785603f31fc03793deec2212f3c5e6b6f43a39",
+        "bytes": 703514
+      },
+      {
+        "file": "assets/glacier-sentinel-20230831.jpg",
+        "sha256": "2ea9541fa0e3c81507efd9c40403d44b880f871156a792c70c0f3339252392fe",
+        "bytes": 816997
+      },
+      {
+        "file": "assets/tianchi-sentinel-stac.json",
+        "sha256": "2c39ad12bcca1623690a58f94c4c2f600f1104a3f5e3cd02fb67265cfefa86d4",
+        "bytes": 35318
+      },
+      {
+        "file": "assets/glacier-sentinel-stac.json",
+        "sha256": "0262d1373943003c1fcffaf1c045993b4e7a6ec50f1c1c38fa9065a488d14ed5",
+        "bytes": 35255
+      },
+      {
+        "file": "assets/data-sources.json",
+        "sha256": "b5a4d5824c51c9294f1826b934b6dfc71c256b05a9f6121ffaa164c8d0359109",
+        "bytes": 95502
+      },
+      {
+        "file": "ATTRIBUTION.md",
+        "sha256": "930593af32b01dd6c0d654d2fb8c40d88110f6e20b764d46b0c7754cc4ddbe6b",
+        "bytes": 7231
+      }
+    ]
+  }
+}

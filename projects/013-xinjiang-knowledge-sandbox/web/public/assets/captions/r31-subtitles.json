@@ -1,0 +1,978 @@
+{
+  "version": "R31 film captions",
+  "movie": "../media/current-r31.mp4",
+  "duration": 646.918333,
+  "speechCount": 41,
+  "narrations": 33,
+  "dialogues": 8,
+  "burnedNarration": true,
+  "timingMethod": "Waveform-verified speech starts; internal phrase timings estimated from source pauses and character weight. Not word-level forced alignment.",
+  "defaultTrack": "Narration and selected replies are already in the film.",
+  "phrases": [
+    {
+      "id": "earth-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 6.736,
+      "end": 12.061,
+      "text": "人怎样在这片土地上生活，并与外界联系？从地球找到新疆，"
+    },
+    {
+      "id": "earth-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 12.061,
+      "end": 14.399,
+      "text": "再沿水与道路走进去。"
+    },
+    {
+      "id": "water-inland",
+      "kind": "narration",
+      "role": "导览",
+      "start": 18.646,
+      "end": 23.223,
+      "text": "新疆位于大陆腹地。现在靠近这里，把山系与盆地展开。"
+    },
+    {
+      "id": "region-structure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 32.386,
+      "end": 39.226,
+      "text": "阿尔泰山在北，天山居中，昆仑山在南。两大盆地位于山系之间。"
+    },
+    {
+      "id": "region-structure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 39.226,
+      "end": 41.596,
+      "text": "先看整体，再找地点。"
+    },
+    {
+      "id": "region-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 46.275,
+      "end": 51.618,
+      "text": "在天山找到乌鲁木齐一号冰川。先在区域图锁定位置，"
+    },
+    {
+      "id": "region-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 51.618,
+      "end": 53.319,
+      "text": "再进入真实冰谷。"
+    },
+    {
+      "id": "water-mountains",
+      "kind": "narration",
+      "role": "导览",
+      "start": 66.807,
+      "end": 72.617,
+      "text": "从冰雪与沟谷追问用水，再转向吐鲁番。两处并非同一条实测水系。"
+    },
+    {
+      "id": "oasis-engineering",
+      "kind": "narration",
+      "role": "导览",
+      "start": 84.912,
+      "end": 90.922,
+      "text": "来到吐鲁番，先展开坎儿井。竖井连接施工与维护，"
+    },
+    {
+      "id": "oasis-engineering",
+      "kind": "narration",
+      "role": "导览",
+      "start": 90.922,
+      "end": 97.202,
+      "text": "暗渠利用坡降输水。水路接到地表，再安排送到哪里。"
+    },
+    {
+      "id": "water-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 109.606,
+      "end": 115.285,
+      "text": "家里和田里，都在等第一道水。选择先送到家里，或先送到田里，"
+    },
+    {
+      "id": "water-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 115.285,
+      "end": 117.564,
+      "text": "看工作的顺序怎样改变。"
+    },
+    {
+      "id": "water-home",
+      "kind": "dialogue",
+      "role": "家人",
+      "start": 128.647,
+      "end": 132.117,
+      "text": "水接到了。我们再帮田边打开支渠。"
+    },
+    {
+      "id": "water-flow",
+      "kind": "narration",
+      "role": "导览",
+      "start": 137.58,
+      "end": 143.49,
+      "text": "水抵达家门，也进入田垄。人的维护，让山水接上生活。"
+    },
+    {
+      "id": "oasis-use",
+      "kind": "narration",
+      "role": "导览",
+      "start": 151.566,
+      "end": 155.548,
+      "text": "水路连着田地、家庭和往来者。工程需要维护，"
+    },
+    {
+      "id": "oasis-use",
+      "kind": "narration",
+      "role": "导览",
+      "start": 155.548,
+      "end": 158.064,
+      "text": "生活也需要日复一日的协作。"
+    },
+    {
+      "id": "water-valley",
+      "kind": "narration",
+      "role": "导览",
+      "start": 167.623,
+      "end": 171.608,
+      "text": "两处都接上了水，生活还需要物品与补给。回到地图，"
+    },
+    {
+      "id": "water-valley",
+      "kind": "narration",
+      "role": "导览",
+      "start": 171.608,
+      "end": 174.509,
+      "text": "看看怎样接上外面的道路。"
+    },
+    {
+      "id": "oasis-dry",
+      "kind": "narration",
+      "role": "导览",
+      "start": 184.19,
+      "end": 187.65,
+      "text": "水路回答了怎样留下来。回到盆地边缘的绿洲，"
+    },
+    {
+      "id": "oasis-dry",
+      "kind": "narration",
+      "role": "导览",
+      "start": 187.65,
+      "end": 190.36,
+      "text": "现在追问怎样与外界联系。"
+    },
+    {
+      "id": "oasis-wind",
+      "kind": "narration",
+      "role": "导览",
+      "start": 196.204,
+      "end": 203.689,
+      "text": "沿盆地边缘向西。水、食物与补给，让远行能继续。下一处停留，"
+    },
+    {
+      "id": "oasis-wind",
+      "kind": "narration",
+      "role": "导览",
+      "start": 203.689,
+      "end": 205.485,
+      "text": "逐步靠近喀什。"
+    },
+    {
+      "id": "exchange-network",
+      "kind": "narration",
+      "role": "导览",
+      "start": 208.96,
+      "end": 213.17,
+      "text": "丝路有不同时期、多条道路。山前的停留节点，"
+    },
+    {
+      "id": "exchange-network",
+      "kind": "narration",
+      "role": "导览",
+      "start": 213.17,
+      "end": 216.359,
+      "text": "承接货物、技艺与人的往来。"
+    },
+    {
+      "id": "oasis-nodes",
+      "kind": "narration",
+      "role": "导览",
+      "start": 221.001,
+      "end": 227.071,
+      "text": "锁定喀什。把停留的问题带进集市：家人、远行者与手艺人，"
+    },
+    {
+      "id": "oasis-nodes",
+      "kind": "narration",
+      "role": "导览",
+      "start": 227.071,
+      "end": 228.589,
+      "text": "需要不同物品。"
+    },
+    {
+      "id": "exchange-stops",
+      "kind": "narration",
+      "role": "导览",
+      "start": 232.256,
+      "end": 236.706,
+      "text": "喀什位于盆地西缘。山前道路在这里交汇，"
+    },
+    {
+      "id": "exchange-stops",
+      "kind": "narration",
+      "role": "导览",
+      "start": 236.706,
+      "end": 238.978,
+      "text": "接下来走进一处绿洲集市。"
+    },
+    {
+      "id": "exchange-goods",
+      "kind": "narration",
+      "role": "导览",
+      "start": 254.526,
+      "end": 260.671,
+      "text": "家人等织物，远行者缺补给，手艺人等器物。先把哪一批货物，"
+    },
+    {
+      "id": "exchange-goods",
+      "kind": "narration",
+      "role": "导览",
+      "start": 260.671,
+      "end": 262.723,
+      "text": "送到需要的人手中？"
+    },
+    {
+      "id": "market-cloth",
+      "kind": "dialogue",
+      "role": "家人",
+      "start": 273.242,
+      "end": 277.202,
+      "text": "孩子披上了。这次停留，也留下了照应。"
+    },
+    {
+      "id": "exchange-city",
+      "kind": "narration",
+      "role": "导览",
+      "start": 280.203,
+      "end": 285.123,
+      "text": "物品留了下来，商旅还会继续走。可是，要长期留下的人，"
+    },
+    {
+      "id": "exchange-city",
+      "kind": "narration",
+      "role": "导览",
+      "start": 285.123,
+      "end": 287.018,
+      "text": "怎样重新安顿生活？"
+    },
+    {
+      "id": "exchange-question",
+      "kind": "narration",
+      "role": "导览",
+      "start": 296.747,
+      "end": 302.448,
+      "text": "先找到伊犁，再转入1764年的锡伯西迁。比较长期安顿，"
+    },
+    {
+      "id": "exchange-question",
+      "kind": "narration",
+      "role": "导览",
+      "start": 302.448,
+      "end": 305.064,
+      "text": "移动原因也变为国家调遣。"
+    },
+    {
+      "id": "memory-departure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 316.227,
+      "end": 322.376,
+      "text": "1764年，清政府为加强伊犁防务，调遣锡伯官兵及家属西行。"
+    },
+    {
+      "id": "memory-departure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 322.376,
+      "end": 327.691,
+      "text": "成年人收好文书，孩子守着行装；这一家人为创作角色，"
+    },
+    {
+      "id": "memory-departure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 327.691,
+      "end": 329.784,
+      "text": "文书也不是档案复刻。"
+    },
+    {
+      "id": "memory-journey",
+      "kind": "narration",
+      "role": "导览",
+      "start": 334.92,
+      "end": 340.72,
+      "text": "把远行放回地球。从盛京一带向西，跨过高原，抵达伊犁。"
+    },
+    {
+      "id": "memory-journey",
+      "kind": "narration",
+      "role": "导览",
+      "start": 340.72,
+      "end": 344.755,
+      "text": "弧线表示西迁方向，并非考证的逐站道路。"
+    },
+    {
+      "id": "memory-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 359.686,
+      "end": 364.551,
+      "text": "抵达之后，先引水到田，还是先安顿家人？让工具或家书，"
+    },
+    {
+      "id": "memory-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 364.551,
+      "end": 366.328,
+      "text": "接上下一代的生活。"
+    },
+    {
+      "id": "family-home",
+      "kind": "dialogue",
+      "role": "孩子",
+      "start": 378.83,
+      "end": 382.79,
+      "text": "灯亮了，家书也接到了。坐下来，讲讲来时的路。"
+    },
+    {
+      "id": "memory-muqam",
+      "kind": "narration",
+      "role": "导览",
+      "start": 392.256,
+      "end": 396.653,
+      "text": "工具与家书，让我们看见经验和记忆的接续。"
+    },
+    {
+      "id": "memory-muqam",
+      "kind": "narration",
+      "role": "导览",
+      "start": 396.653,
+      "end": 400.698,
+      "text": "带着这个问题回到新疆，转向哈密的文化案例。"
+    },
+    {
+      "id": "memory-muqam",
+      "kind": "narration",
+      "role": "导览",
+      "start": 400.698,
+      "end": 406.837,
+      "text": "锡伯西迁与维吾尔木卡姆属于不同社区，比较的是下一代怎样参与。"
+    },
+    {
+      "id": "memory-practice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 421.825,
+      "end": 427.21,
+      "text": "示范者放慢双手，留出停顿。再观察一次，还是现在参与？"
+    },
+    {
+      "id": "memory-practice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 427.21,
+      "end": 429.683,
+      "text": "看你的回应怎样被接住。"
+    },
+    {
+      "id": "culture-listen",
+      "kind": "dialogue",
+      "role": "学习者",
+      "start": 437.931,
+      "end": 441.691,
+      "text": "我看清这一次停顿了。现在接上，再慢慢练。"
+    },
+    {
+      "id": "modern-hubs",
+      "kind": "narration",
+      "role": "导览",
+      "start": 452.326,
+      "end": 457.801,
+      "text": "庭院给下一位留出停顿。当生活、运输与维护同时需要空间，"
+    },
+    {
+      "id": "modern-hubs",
+      "kind": "narration",
+      "role": "导览",
+      "start": 457.801,
+      "end": 459.496,
+      "text": "怎样听见彼此？"
+    },
+    {
+      "id": "modern-urumqi",
+      "kind": "narration",
+      "role": "导览",
+      "start": 471.806,
+      "end": 478.745,
+      "text": "车辆、吊机与信息共同转运。货物继续走，还需要维护与安排。"
+    },
+    {
+      "id": "modern-urumqi",
+      "kind": "narration",
+      "role": "导览",
+      "start": 478.745,
+      "end": 480.69,
+      "text": "下一站，霍尔果斯。"
+    },
+    {
+      "id": "modern-kashgar",
+      "kind": "narration",
+      "role": "导览",
+      "start": 490.497,
+      "end": 493.872,
+      "text": "锁定霍尔果斯。从接水、交接与学习，"
+    },
+    {
+      "id": "modern-kashgar",
+      "kind": "narration",
+      "role": "导览",
+      "start": 493.872,
+      "end": 496.798,
+      "text": "走向同一片空间里的多种需要。"
+    },
+    {
+      "id": "modern-rules",
+      "kind": "narration",
+      "role": "导览",
+      "start": 509.926,
+      "end": 513.058,
+      "text": "关口里的协作，也要听见不同需求。"
+    },
+    {
+      "id": "modern-rules",
+      "kind": "narration",
+      "role": "导览",
+      "start": 513.058,
+      "end": 518.914,
+      "text": "居民、运输工和生境维护者围桌交流，讨论生活、交接与保护。"
+    },
+    {
+      "id": "civic-resident",
+      "kind": "dialogue",
+      "role": "附近居民",
+      "start": 519.951,
+      "end": 523.071,
+      "text": "货物要走，我们也需要安静、安全的日常。"
+    },
+    {
+      "id": "civic-worker",
+      "kind": "dialogue",
+      "role": "货运工作人员",
+      "start": 524.991,
+      "end": 528.381,
+      "text": "车队还在等。能否集中交接，少跑几趟？"
+    },
+    {
+      "id": "civic-steward",
+      "kind": "dialogue",
+      "role": "生境维护者",
+      "start": 530.105,
+      "end": 533.505,
+      "text": "留下连续的绿带，也要留出维护的空间。"
+    },
+    {
+      "id": "modern-limit",
+      "kind": "narration",
+      "role": "导览",
+      "start": 535.984,
+      "end": 542.299,
+      "text": "三种需要，已经听见。轮换通行，集中交接，还是保留绿带？"
+    },
+    {
+      "id": "modern-limit",
+      "kind": "narration",
+      "role": "导览",
+      "start": 542.299,
+      "end": 544.97,
+      "text": "看安排怎样回应人们。"
+    },
+    {
+      "id": "civic-balanced",
+      "kind": "dialogue",
+      "role": "协作回应",
+      "start": 551.988,
+      "end": 557.058,
+      "text": "先轮换通行，留出缓冲。等待和维护，都继续记录。"
+    },
+    {
+      "id": "future-landscape",
+      "kind": "narration",
+      "role": "导览",
+      "start": 563.924,
+      "end": 568.952,
+      "text": "先留在关口。沿标记看谁得到了回应，谁还需要下一步安排。"
+    },
+    {
+      "id": "future-budget",
+      "kind": "narration",
+      "role": "导览",
+      "start": 573.936,
+      "end": 579.307,
+      "text": "保留刚才的选择。通行与维护都需要承担，留下的缺口，"
+    },
+    {
+      "id": "future-budget",
+      "kind": "narration",
+      "role": "导览",
+      "start": 579.307,
+      "end": 581.508,
+      "text": "是下一次协商的起点。"
+    },
+    {
+      "id": "future-evidence",
+      "kind": "narration",
+      "role": "导览",
+      "start": 588.616,
+      "end": 591.481,
+      "text": "回看各处留下的回应。案例各自独立，"
+    },
+    {
+      "id": "future-evidence",
+      "kind": "narration",
+      "role": "导览",
+      "start": 591.481,
+      "end": 593.936,
+      "text": "接续的是我们关于生活的问题。"
+    },
+    {
+      "id": "future-synthesis",
+      "kind": "narration",
+      "role": "导览",
+      "start": 602.555,
+      "end": 609.56,
+      "text": "把实际观察放回新疆。水与维护支撑停留，道路让物品和人相遇；"
+    },
+    {
+      "id": "future-synthesis",
+      "kind": "narration",
+      "role": "导览",
+      "start": 609.56,
+      "end": 615.54,
+      "text": "历史影响家庭，文化由社区接续，公共安排回应共同的空间需要。"
+    },
+    {
+      "id": "future-synthesis",
+      "kind": "narration",
+      "role": "导览",
+      "start": 615.54,
+      "end": 619.538,
+      "text": "每一处都留下变化，也留下下一步问题。"
+    },
+    {
+      "id": "future-result",
+      "kind": "narration",
+      "role": "导览",
+      "start": 626.936,
+      "end": 633.631,
+      "text": "生活与联系，需要自然条件，也需要持续回应。带着观察回到整体，"
+    },
+    {
+      "id": "future-result",
+      "kind": "narration",
+      "role": "导览",
+      "start": 633.631,
+      "end": 635.951,
+      "text": "再选另一处继续探索。"
+    }
+  ],
+  "transcript": [
+    {
+      "id": "earth-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 6.736,
+      "end": 14.399,
+      "text": "人怎样在这片土地上生活，并与外界联系？从地球找到新疆，再沿水与道路走进去。"
+    },
+    {
+      "id": "water-inland",
+      "kind": "narration",
+      "role": "导览",
+      "start": 18.646,
+      "end": 23.223,
+      "text": "新疆位于大陆腹地。现在靠近这里，把山系与盆地展开。"
+    },
+    {
+      "id": "region-structure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 32.366,
+      "end": 41.611,
+      "text": "阿尔泰山在北，天山居中，昆仑山在南。两大盆地位于山系之间。先看整体，再找地点。"
+    },
+    {
+      "id": "region-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 46.275,
+      "end": 53.319,
+      "text": "在天山找到乌鲁木齐一号冰川。先在区域图锁定位置，再进入真实冰谷。"
+    },
+    {
+      "id": "water-mountains",
+      "kind": "narration",
+      "role": "导览",
+      "start": 66.766,
+      "end": 72.655,
+      "text": "从冰雪与沟谷追问用水，再转向吐鲁番。两处并非同一条实测水系。"
+    },
+    {
+      "id": "oasis-engineering",
+      "kind": "narration",
+      "role": "导览",
+      "start": 84.867,
+      "end": 97.204,
+      "text": "来到吐鲁番，先展开坎儿井。竖井连接施工与维护，暗渠利用坡降输水。水路接到地表，再安排送到哪里。"
+    },
+    {
+      "id": "water-ice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 109.606,
+      "end": 117.564,
+      "text": "家里和田里，都在等第一道水。选择先送到家里，或先送到田里，看工作的顺序怎样改变。"
+    },
+    {
+      "id": "water-home",
+      "kind": "dialogue",
+      "role": "家人",
+      "start": 128.555,
+      "end": 132.157,
+      "text": "水接到了。我们再帮田边打开支渠。"
+    },
+    {
+      "id": "water-flow",
+      "kind": "narration",
+      "role": "导览",
+      "start": 137.576,
+      "end": 143.619,
+      "text": "水抵达家门，也进入田垄。人的维护，让山水接上生活。"
+    },
+    {
+      "id": "oasis-use",
+      "kind": "narration",
+      "role": "导览",
+      "start": 151.566,
+      "end": 158.064,
+      "text": "水路连着田地、家庭和往来者。工程需要维护，生活也需要日复一日的协作。"
+    },
+    {
+      "id": "water-valley",
+      "kind": "narration",
+      "role": "导览",
+      "start": 167.547,
+      "end": 174.509,
+      "text": "两处都接上了水，生活还需要物品与补给。回到地图，看看怎样接上外面的道路。"
+    },
+    {
+      "id": "oasis-dry",
+      "kind": "narration",
+      "role": "导览",
+      "start": 184.176,
+      "end": 190.439,
+      "text": "水路回答了怎样留下来。回到盆地边缘的绿洲，现在追问怎样与外界联系。"
+    },
+    {
+      "id": "oasis-wind",
+      "kind": "narration",
+      "role": "导览",
+      "start": 196.176,
+      "end": 205.485,
+      "text": "沿盆地边缘向西。水、食物与补给，让远行能继续。下一处停留，逐步靠近喀什。"
+    },
+    {
+      "id": "exchange-network",
+      "kind": "narration",
+      "role": "导览",
+      "start": 208.952,
+      "end": 216.359,
+      "text": "丝路有不同时期、多条道路。山前的停留节点，承接货物、技艺与人的往来。"
+    },
+    {
+      "id": "oasis-nodes",
+      "kind": "narration",
+      "role": "导览",
+      "start": 220.966,
+      "end": 228.589,
+      "text": "锁定喀什。把停留的问题带进集市：家人、远行者与手艺人，需要不同物品。"
+    },
+    {
+      "id": "exchange-stops",
+      "kind": "narration",
+      "role": "导览",
+      "start": 232.256,
+      "end": 238.978,
+      "text": "喀什位于盆地西缘。山前道路在这里交汇，接下来走进一处绿洲集市。"
+    },
+    {
+      "id": "exchange-goods",
+      "kind": "narration",
+      "role": "导览",
+      "start": 254.526,
+      "end": 262.723,
+      "text": "家人等织物，远行者缺补给，手艺人等器物。先把哪一批货物，送到需要的人手中？"
+    },
+    {
+      "id": "market-cloth",
+      "kind": "dialogue",
+      "role": "家人",
+      "start": 273.136,
+      "end": 277.277,
+      "text": "孩子披上了。这次停留，也留下了照应。"
+    },
+    {
+      "id": "exchange-city",
+      "kind": "narration",
+      "role": "导览",
+      "start": 280.136,
+      "end": 287.018,
+      "text": "物品留了下来，商旅还会继续走。可是，要长期留下的人，怎样重新安顿生活？"
+    },
+    {
+      "id": "exchange-question",
+      "kind": "narration",
+      "role": "导览",
+      "start": 296.747,
+      "end": 305.064,
+      "text": "先找到伊犁，再转入1764年的锡伯西迁。比较长期安顿，移动原因也变为国家调遣。"
+    },
+    {
+      "id": "memory-departure",
+      "kind": "narration",
+      "role": "导览",
+      "start": 316.227,
+      "end": 329.785,
+      "text": "1764年，清政府为加强伊犁防务，调遣锡伯官兵及家属西行。成年人收好文书，孩子守着行装；这一家人为创作角色，文书也不是档案复刻。"
+    },
+    {
+      "id": "memory-journey",
+      "kind": "narration",
+      "role": "导览",
+      "start": 334.915,
+      "end": 344.755,
+      "text": "把远行放回地球。从盛京一带向西，跨过高原，抵达伊犁。弧线表示西迁方向，并非考证的逐站道路。"
+    },
+    {
+      "id": "memory-arrival",
+      "kind": "narration",
+      "role": "导览",
+      "start": 359.686,
+      "end": 366.328,
+      "text": "抵达之后，先引水到田，还是先安顿家人？让工具或家书，接上下一代的生活。"
+    },
+    {
+      "id": "family-home",
+      "kind": "dialogue",
+      "role": "孩子",
+      "start": 378.667,
+      "end": 382.876,
+      "text": "灯亮了，家书也接到了。坐下来，讲讲来时的路。"
+    },
+    {
+      "id": "memory-muqam",
+      "kind": "narration",
+      "role": "导览",
+      "start": 392.256,
+      "end": 406.837,
+      "text": "工具与家书，让我们看见经验和记忆的接续。带着这个问题回到新疆，转向哈密的文化案例。锡伯西迁与维吾尔木卡姆属于不同社区，比较的是下一代怎样参与。"
+    },
+    {
+      "id": "memory-practice",
+      "kind": "narration",
+      "role": "导览",
+      "start": 421.795,
+      "end": 429.683,
+      "text": "示范者放慢双手，留出停顿。再观察一次，还是现在参与？看你的回应怎样被接住。"
+    },
+    {
+      "id": "culture-listen",
+      "kind": "dialogue",
+      "role": "学习者",
+      "start": 437.755,
+      "end": 441.768,
+      "text": "我看清这一次停顿了。现在接上，再慢慢练。"
+    },
+    {
+      "id": "modern-hubs",
+      "kind": "narration",
+      "role": "导览",
+      "start": 452.326,
+      "end": 459.496,
+      "text": "庭院给下一位留出停顿。当生活、运输与维护同时需要空间，怎样听见彼此？"
+    },
+    {
+      "id": "modern-urumqi",
+      "kind": "narration",
+      "role": "导览",
+      "start": 471.806,
+      "end": 480.69,
+      "text": "车辆、吊机与信息共同转运。货物继续走，还需要维护与安排。下一站，霍尔果斯。"
+    },
+    {
+      "id": "modern-kashgar",
+      "kind": "narration",
+      "role": "导览",
+      "start": 490.456,
+      "end": 496.798,
+      "text": "锁定霍尔果斯。从接水、交接与学习，走向同一片空间里的多种需要。"
+    },
+    {
+      "id": "modern-rules",
+      "kind": "narration",
+      "role": "导览",
+      "start": 509.926,
+      "end": 518.96,
+      "text": "关口里的协作，也要听见不同需求。居民、运输工和生境维护者围桌交流，讨论生活、交接与保护。"
+    },
+    {
+      "id": "civic-resident",
+      "kind": "dialogue",
+      "role": "附近居民",
+      "start": 519.886,
+      "end": 523.167,
+      "text": "货物要走，我们也需要安静、安全的日常。"
+    },
+    {
+      "id": "civic-worker",
+      "kind": "dialogue",
+      "role": "货运工作人员",
+      "start": 524.886,
+      "end": 528.491,
+      "text": "车队还在等。能否集中交接，少跑几趟？"
+    },
+    {
+      "id": "civic-steward",
+      "kind": "dialogue",
+      "role": "生境维护者",
+      "start": 529.91,
+      "end": 533.643,
+      "text": "留下连续的绿带，也要留出维护的空间。"
+    },
+    {
+      "id": "modern-limit",
+      "kind": "narration",
+      "role": "导览",
+      "start": 535.915,
+      "end": 544.97,
+      "text": "三种需要，已经听见。轮换通行，集中交接，还是保留绿带？看安排怎样回应人们。"
+    },
+    {
+      "id": "civic-balanced",
+      "kind": "dialogue",
+      "role": "协作回应",
+      "start": 551.936,
+      "end": 557.118,
+      "text": "先轮换通行，留出缓冲。等待和维护，都继续记录。"
+    },
+    {
+      "id": "future-landscape",
+      "kind": "narration",
+      "role": "导览",
+      "start": 563.915,
+      "end": 568.952,
+      "text": "先留在关口。沿标记看谁得到了回应，谁还需要下一步安排。"
+    },
+    {
+      "id": "future-budget",
+      "kind": "narration",
+      "role": "导览",
+      "start": 573.936,
+      "end": 581.509,
+      "text": "保留刚才的选择。通行与维护都需要承担，留下的缺口，是下一次协商的起点。"
+    },
+    {
+      "id": "future-evidence",
+      "kind": "narration",
+      "role": "导览",
+      "start": 588.616,
+      "end": 593.936,
+      "text": "回看各处留下的回应。案例各自独立，接续的是我们关于生活的问题。"
+    },
+    {
+      "id": "future-synthesis",
+      "kind": "narration",
+      "role": "导览",
+      "start": 602.555,
+      "end": 619.538,
+      "text": "把实际观察放回新疆。水与维护支撑停留，道路让物品和人相遇；历史影响家庭，文化由社区接续，公共安排回应共同的空间需要。每一处都留下变化，也留下下一步问题。"
+    },
+    {
+      "id": "future-result",
+      "kind": "narration",
+      "role": "导览",
+      "start": 626.936,
+      "end": 635.951,
+      "text": "生活与联系，需要自然条件，也需要持续回应。带着观察回到整体，再选另一处继续探索。"
+    }
+  ],
+  "contexts": [
+    {
+      "start": 0,
+      "title": "01 · 从地球找到新疆",
+      "place": "欧亚大陆 → 新疆 → 天山",
+      "era": "地理定位 / 观测影像",
+      "intro": "沿同一定位环从区域靠近一号冰川。先读山系、盆地与地点，再把来水问题带到另一个用水案例。"
+    },
+    {
+      "start": 76.57569999992847,
+      "title": "02 · 留下来：第一道水",
+      "place": "吐鲁番 · 坎儿井与绿洲用水情境",
+      "era": "原创生活案例",
+      "intro": "先看家门与田垄都在等水，再选择先后。收到水的人继续生活，另一方仍等待；接通另一支渠后，留在同一场景看田间工作和水路维护。并非冰谷下游的实测水系。"
+    },
+    {
+      "start": 179.54860000002384,
+      "title": "03 · 联系外界：行装与集市",
+      "place": "吐鲁番的行装情境 → 道路 → 喀什",
+      "era": "不同地点的比较案例",
+      "intro": "水已补足，空篮与物品需求还在。带着家庭照应或远行补给的关注进入喀什。交接之后看照护、装包或制作，另外两位仍有需要；不是同一物品的真实运输。"
+    },
+    {
+      "start": 308.78389999997614,
+      "title": "04 · 长期安顿：远行与家庭",
+      "place": "盛京一带 → 伊犁 · 察布查尔",
+      "era": "1764—1765 西迁背景 / 创作家庭",
+      "intro": "从商旅停留转向长期安顿，地点与时代同时切换。比较家庭怎样应对迁移、引水和照护；人物与文书为原创情境。"
+    },
+    {
+      "start": 387.61110000002384,
+      "title": "05 · 让下一位接上：庭院传习",
+      "place": "转入哈密的文化案例",
+      "era": "不同社区 / 原创拍点练习",
+      "intro": "家书与工具留下经验，下一代怎样参与？观察双手、停顿和学习者接续。与锡伯家庭属于不同社区的比较案例。"
+    },
+    {
+      "start": 447.69939999997615,
+      "title": "06 · 听见彼此：当代关口",
+      "place": "乌鲁木齐物流 → 霍尔果斯",
+      "era": "当代需求 / 原创协作情境",
+      "intro": "从给学习者留出停顿，转向给不同使用者留出空间。居民、运输工与维护者表达需求，再观察选择回应了谁、留下什么缺口。"
+    },
+    {
+      "start": 587.8896999999284,
+      "title": "07 · 带着回应回到整体",
+      "place": "霍尔果斯 → 新疆 → 地球",
+      "era": "自己的观察记录",
+      "intro": "回看五处案例的选择、实际回应与未尽需要。地点、年代和社区各自独立，再从整体选择下一处。"
+    }
+  ]
+}

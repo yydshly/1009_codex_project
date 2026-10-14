@@ -1,0 +1,32 @@
+{
+  "checkedAt": "2026-10-09",
+  "conclusion": "未找到与原演示建立对应关系的公开 GitHub 仓库；不等于证明未开源。",
+  "searches": [
+    {
+      "query": "readyfor2025",
+      "apiUrl": "https://api.github.com/search/repositories?q=readyfor2025&per_page=5",
+      "totalCount": 0,
+      "candidates": [],
+      "matchingOriginalRepository": false
+    },
+    {
+      "query": "\"地球上的新疆\"",
+      "apiUrl": "https://api.github.com/search/repositories?q=%22%E5%9C%B0%E7%90%83%E4%B8%8A%E7%9A%84%E6%96%B0%E7%96%86%22&per_page=5",
+      "totalCount": 0,
+      "candidates": [],
+      "matchingOriginalRepository": false
+    },
+    {
+      "query": "新疆 沙盘",
+      "apiUrl": "https://api.github.com/search/repositories?q=%E6%96%B0%E7%96%86%20%E6%B2%99%E7%9B%98&per_page=5",
+      "totalCount": 1,
+      "candidates": [
+        {
+          "url": "https://github.com/pxvr-official/1",
+          "name": "pxvr-official/1"
+        }
+      ],
+      "matchingOriginalRepository": false
+    }
+  ]
+}
