@@ -2,6 +2,17 @@
   "asOf": "2026-10-14",
   "rounds": [
     {
+      "id": "round-96",
+      "label": "R96",
+      "title": "把反思改成可执行的后续开发指南",
+      "phase": "space",
+      "summary": "用户指出上一版总结仍模糊，无法指导扩展。本轮核查现有源码后，明确地球、国界、全球介绍、四导演与场景继续复用；建议下一轮补伊犁与察布查尔的独立区域数据、地点绑定与多级返回，避免把现有视角切换误写成细地图已完成，也避免重做已有开场。",
+      "fileCount": 876,
+      "mediaCount": 371,
+      "manifest": "./assets/records/round-96.json",
+      "notes": "./assets/records/round-96.md"
+    },
+    {
       "id": "round-95",
       "label": "R95",
       "title": "用具体步骤重写开发说明",

@@ -4,7 +4,7 @@
   "status": "archived",
   "archivedAt": "2026-10-14",
   "runtimeBaseline": "round-90",
-  "reviewSnapshot": "round-95",
+  "reviewSnapshot": "round-96",
   "gitCheckpointTag": "xinjiang-stage-r90",
   "project": {
     "id": "013",
@@ -70,6 +70,7 @@
     "round-92": "geographic learning structure and user feedback",
     "round-93": "validation and root-document retention supplement",
     "round-94": "AI development brief, staged acceptance and regional reuse guidance",
-    "round-95": "Plain-language examples and folded detailed archive"
+    "round-95": "Plain-language examples and folded detailed archive",
+    "round-96": "Executable expansion plan: source-grounded Ili pilot, screen contracts, work packages, acceptance and regional reuse"
   }
 }

@@ -1,40 +1,106 @@
 <!doctype html>
 <html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<title>下次怎样让 AI 做地域 3D 网页</title><link rel="stylesheet" href="./overview.css">
-<style>.stage-document{max-width:980px;margin:auto;padding:45px 24px 70px;font-size:14px;line-height:1.9}.stage-document h1{font-size:32px;margin:0 0 24px}.stage-document h2{font-size:24px;margin:45px 0 18px}.stage-document h3{font-size:18px;margin:28px 0 12px}.stage-document p{margin:15px 0}.stage-document a{text-decoration:underline;text-underline-offset:3px}.document-table{overflow-x:auto;margin:22px 0}.stage-document table{width:100%;border-collapse:collapse;min-width:620px;font-size:13px}.stage-document th,.stage-document td{padding:12px;border:1px solid #cbd2c5;text-align:left;vertical-align:top}.stage-document th{background:#e5eadf}.stage-document li{margin:10px 0}.stage-document code{font-size:12px}.stage-document .document-actions{display:flex;flex-wrap:wrap;gap:20px;border-bottom:1px solid #cbd2c5;padding-bottom:22px;margin-bottom:30px}@media(max-width:740px){.stage-document{padding:30px 20px}.stage-document h1{font-size:27px}.stage-document h2{font-size:22px}}</style></head>
-<style>.stage-document{max-width:900px;font-size:17px;line-height:1.85}.stage-document h2{scroll-margin-top:110px}.stage-document h3{font-size:21px;margin-top:34px}.stage-document p{margin:14px 0 22px}.reading-intro{font-size:19px}.guide-links{display:flex;flex-wrap:wrap;gap:12px 25px;padding:18px 0 24px;border-bottom:1px solid #cbd2c5}.retained-notes{margin-top:50px;padding-top:24px;border-top:1px solid #cbd2c5}.retained-notes summary{cursor:pointer;font-size:16px}.retained-notes p{font-size:14px}.retained-notes h2{font-size:22px}.retained-notes h3{font-size:18px}</style>
-<body><header class="site-header"><a class="wordmark" href="./overview.html#stage-review">◈ 新疆3D沙盘 <small>下一次怎么做</small></a><a class="header-action" href="./?learn=world">打开现有3D平台 ↗</a></header>
-<main class="stage-document"><nav class="document-actions" aria-label="归档阅读"><a href="./overview.html#stage-review">返回阶段摘要</a><a href="./assets/records/stage-retrospective.md" download>下载设计说明</a><a href="./overview.html#archive">查看过程记录</a></nav>
-<h1>下次怎样让 AI 做地域 3D 网页</h1><p class="reading-intro">先说清一轮要做出的画面和操作，再逐段丰富。这里用新疆举例，回答两个问题：怎样给 AI 下任务，怎样换一个地域继续做。</p><nav class="guide-links" aria-label="说明目录"><a href="#ai-development">怎样给 AI 下任务</a><a href="#regional-expansion">怎样换一个地域</a></nav><h2 id="ai-development">如何指导 AI 开发同类项目</h2>
-<p>下次给 AI 下任务时，把“这一次要做出的画面和操作”说清楚。下面用新疆举例，换成其他地域时也可以这样安排。</p>
-<h3>第一步 先把整条观看顺序列出来</h3>
-<p>让 AI 写清：先在地球上找到新疆，再看新疆的山脉、盆地和气候，然后选择历史、文化或景点，最后进入具体地点。每一段都写出画面会怎样改变，以及用户可以点什么。</p>
-<p>例如讲新疆位置时，新疆范围亮起来；讲五带时，地球上出现分带；讲西风时，显示方向和流动；讲一个历史事件时，对应地点和有依据的路线出现。</p>
-<h3>第二步 第一轮做地球开场和新疆全图</h3>
-<p>让 AI 做出能直接操作的网页：地球上能看清大陆、国家和新疆范围；用户点击新疆，镜头进入全域地图；仍能旋转、缩放，也能回到地球。</p>
-<p>这一轮看实际画面：范围是否清楚，进入是否自然，返回是否方便。这就是第一份可以验收的成果。</p>
-<h3>第三步 第二轮把自然条件讲清楚</h3>
-<p>先选一个问题做完整，例如“地形和降水应该怎样放在一起观察”。AI 需要查资料，接入地形与对应时间的降水图，提供切换或对照，让人能在地图上看出区别。</p>
-<p>讲解说到哪个对象，画面就突出哪个对象。温度、降水和西风等主题按同样办法补充，每个主题都要有实际地图变化。</p>
-<h3>第四步 第三轮进入真实故事和地点</h3>
-<p>选择一件有资料支持的事情，把它发生的时间、地点和过程列清楚。用户选中事件后，地点与路线随进程变化；再点击一个地点，进入区域细图、聚落或具体场景，看到相关活动，最后还能返回原地图。</p>
-<p>具体行走路线、人物服饰和建筑有资料才按真实细节做；资料不足的部分明确写成示意。先做通一条这样的路线，再丰富其他线索。</p>
-<h3>每轮看成品时 检查这四件事</h3>
-<ul><li>我是否看得出当前在哪里，周边有什么？</li><li>讲解提到的对象，画面是否真的发生变化？</li><li>我能否自己缩放、选择、暂停和返回？</li><li>静音以后，我是否仍能看懂这一段在讲什么？</li></ul>
-<p>AI 同时给出本轮采用的资料和还缺哪些内容。截图、视频、声音和源码继续按增量保留。</p>
-<h3>第一轮可以直接这样给 AI 下任务</h3>
-<p>请先做一个新疆3D网页的开场。地球上显示大陆、国家名称和新疆范围，用户能自由旋转和缩放；点击新疆后，镜头自然进入完整新疆地图，再能返回地球。先把整条认识顺序列清楚，然后直接完成这个可操作开场并展示给我。已有场景和素材保留，过程按增量记录。后面的自然条件与历史地点，继续沿这条顺序展开。</p>
-<h2 id="regional-expansion">如何扩展到其他地域</h2>
-<p>比如下一次做另一个省，网页的基本操作可以沿用，这个省的地图、介绍、故事和场景需要重新准备。</p>
-<h3>可以沿用什么</h3>
-<p>地球显示、旋转缩放、地图进入和返回、自动演示、暂停、字幕、保存观察，以及素材的增量记录。这些操作应整理成各地域都能使用的功能。</p>
-<h3>需要重新准备什么</h3>
-<ul><li>新地域在哪里、范围是什么、有哪些重要分区和地点。</li><li>对应的地形、影像、温度、降水等资料，以及它们的来源和时间。</li><li>这个地方最值得先讲的几个问题。</li><li>真实历史事件、文化、景点及资料能支持的场景细节。</li><li>对应的介绍、标记、讲解和字幕。</li></ul>
-<h3>内容怎样重新安排</h3>
-<p>新疆可以围绕山脉、盆地、气候与交流来组织。换到一个沿海地区，可以先查资料，考虑海岸、港湾和聚落等问题。每个地域按自己的资料选择主题，再沿“全球位置 → 自然条件 → 人文联系 → 具体地点”逐步展开。</p>
-<p>先在新地域做通“地球定位 → 全域地图 → 一个主题 → 一个地点 → 返回”的完整路线，再增加其他内容。当前新疆网页还不能通过填一个地区名称就自动生成完整介绍，这种方便复用的结构需要在下一阶段建设。</p>
-<h3>地图做细时 也要控制占用</h3>
-<p>全域地图先加载适合看全貌的资料。用户进入某个地方后，再加载该地方的精细地形、影像和模型；离开后释放不用的内容。同一素材只保留一份，其他页面通过引用使用。</p><details class="retained-notes"><summary>查看原来的阶段总结、资料和归档记录</summary><p>2026年10月14日。当前三维运行版本停在 R90，作为可操作的探索原型保留；本次归档整理反思和后续设计依据。下一阶段以全球与区域地理认知为主干，逐步进入有史料依据的事件、文化与地点探索；多尺度地图承接这些问题，已有模型、交互、声音和素材作为可复用基础。</p>
+<title>新疆下一阶段开发与地域扩展指南</title>
+<style>
+:root{color-scheme:light;--ink:#213a34;--muted:#58685f;--line:#ccd6cc;--paper:#f6f5ee;--accent:#24634f}
+*{box-sizing:border-box}body{margin:0;background:var(--paper);color:var(--ink);font-family:system-ui,"Microsoft YaHei",sans-serif;line-height:1.8}
+a{color:var(--accent);text-underline-offset:4px}a:focus-visible,summary:focus-visible{outline:3px solid #ab6d22;outline-offset:5px}
+.site-header{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap;align-items:center;padding:16px max(22px,calc((100vw - 1100px)/2));background:#183d32;color:#f2f5ea}
+.site-header a{color:inherit;text-decoration:none}.wordmark{font-weight:700}.site-header .header-action{font-size:14px}
+.stage-document{max-width:1100px;margin:auto;padding:26px 28px 70px;font-size:17px}
+.document-actions{display:flex;gap:12px 24px;flex-wrap:wrap;font-size:14px}.plan-hero{padding:34px 0 25px}
+.eyebrow{color:var(--muted);font-size:13px;letter-spacing:1px}h1{font-size:42px;line-height:1.3;letter-spacing:-1px;margin:12px 0 24px}h2{font-size:26px;line-height:1.45;margin:0 0 22px;scroll-margin-top:24px}h3{font-size:20px}
+p{margin:14px 0 20px}.reading-intro{font-size:19px;max-width:820px}.plan-status{font-size:13px;color:var(--muted)}
+.status-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px;margin-top:24px}.status-grid>div{border:1px solid var(--line);border-radius:8px;padding:18px;background:#fffdf7}.status-grid span{display:block;font-size:12px;color:var(--muted);margin-bottom:8px}.status-grid strong{font-size:17px}.status-grid p{font-size:14px;line-height:1.65;margin-bottom:0}
+.guide-links{display:flex;flex-wrap:wrap;gap:8px;padding:20px 0;border-block:1px solid var(--line)}.guide-links a{padding:6px 13px;background:#e5ecdf;border-radius:5px;text-decoration:none;font-size:14px}
+.product-structure{display:grid;grid-template-columns:repeat(3,1fr);gap:20px;padding:26px 0;border-bottom:1px solid var(--line)}.product-structure span{font-size:13px;font-weight:700}.product-structure p{font-size:15px;margin:5px 0}
+.guide-section{padding:40px 0 22px;border-bottom:1px solid var(--line)}.guide-section>p,.step-body>p{max-width:900px}.open-hint,.back-top{font-size:13px;color:var(--muted)}.back-top{display:inline-block;margin-top:15px}
+.step-card{margin:10px 0;border:1px solid var(--line);border-radius:7px;background:#fffdf7;overflow:hidden}.step-card summary{padding:17px 20px;cursor:pointer;font-size:18px;font-weight:650;line-height:1.6}.step-card[open] summary{background:#e6eddf;border-bottom:1px solid var(--line)}.step-body{padding:6px 22px 14px}.step-body strong{color:#1f5d49}
+li{margin:12px 0}ul,ol{padding-left:25px}code{font-size:.85em;overflow-wrap:anywhere}.document-table{overflow:auto;margin:22px 0}table{width:100%;border-collapse:collapse;min-width:560px;font-size:15px}th,td{border:1px solid var(--line);padding:13px;text-align:left;vertical-align:top}th{background:#e6eddf}
+.retained-notes{margin-top:35px;font-size:14px}.retained-notes>summary{cursor:pointer;font-size:17px}.retained-notes h2{font-size:22px;margin-top:32px}.retained-notes h3{font-size:18px}.retained-notes table{font-size:13px}
+@media(max-width:760px){.stage-document{padding:23px 20px 50px;font-size:16px}h1{font-size:31px}h2{font-size:23px}.status-grid{grid-template-columns:1fr;gap:10px}.status-grid>div{padding:13px 16px}.status-grid span{display:inline;margin-right:12px}.status-grid p{margin:6px 0 0}.product-structure{grid-template-columns:1fr;gap:12px;padding:20px 0}.product-structure p{margin:0}.reading-intro{font-size:17px}.step-card summary{font-size:17px;padding:15px}.step-body{padding:4px 16px 12px}.plan-hero{padding-top:22px}.guide-section{padding-top:32px}}
+@media print{details:not([open])>.step-body{display:block}.document-actions,.guide-links,.back-top{display:none}.step-card{break-inside:avoid}body{background:white}}
+</style></head><body>
+<header class="site-header"><a class="wordmark" href="./overview.html#stage-review">◈ 新疆3D沙盘 · 后续开发</a><a class="header-action" href="./?learn=world">打开现有3D平台 ↗</a></header>
+<main class="stage-document"><nav class="document-actions" aria-label="指南资料"><a href="./assets/records/next-development-task.md" download>下载下一轮任务书</a><a href="./assets/records/stage-retrospective.md" download>下载完整指南</a><a href="./overview.html#archive">查看过程记录</a></nav>
+<header class="plan-hero" id="plan-start">
+<p class="eyebrow">阶段反思 / 后续实施指南</p>
+<h1>下一步，补两层细地图<br>让场景有清楚的来路</h1>
+<p class="reading-intro">从已有新疆平台继续：以伊犁与察布查尔为样板，把区域地理、真实事件和地点场景接起来，再把这套方法用于其他地域。</p>
+<p class="plan-status">以下是后续开发方案 · 当前3D版本仍按原归档保留</p>
+<div class="status-grid">
+<div><span>已有，继续使用</span><strong>地球、全域、场景与导演</strong><p>先检查现有能力，沿用操作和素材。</p></div>
+<div><span>下一轮重点补</span><strong>区域细图与逐层返回</strong><p>每深入一层，都增加真实可读的地理细节。</p></div>
+<div><span>有依据再展开</span><strong>历史聚落与具体活动</strong><p>先确认时间和位置，再决定模型细节。</p></div>
+</div>
+</header><nav class="guide-links" aria-label="开发指南目录"><a href="#ai-development">下一步做什么</a><a href="#sample-route">逐屏看样板</a><a href="#build-order">拆成开发任务</a><a href="#next-brief">直接用任务书</a><a href="#topic-expansion">扩充主题</a><a href="#shared-structure">复用结构</a><a href="#regional-expansion">换一个地域</a><a href="#acceptance">怎样验收</a></nav><div class="product-structure" aria-label="产品结构示意">
+<div><span>地图层级</span><p>地球 → 全域 → 区域 → 地点 → 活动</p></div>
+<div><span>可选专题</span><p>位置与五带 / 自然条件 / 历史与文化</p></div>
+<div><span>探索方式</span><p>自己操作 ↔ 自动导览 · 随时逐层返回</p></div>
+</div><section class="guide-section" aria-labelledby="ai-development"><h2 id="ai-development">如何指导 AI 开发同类项目</h2>
+<p><strong>下一步先补一条能逐层进入、逐层返回的区域样板。</strong> 建议采用“新疆全域 → 伊犁河谷 → 察布查尔地域 → 有依据的安置与生活场景”。选择这条线，是因为已有西迁、屯居和水利探索可以接用；中间的区域细图、地点关系和历史空间依据仍需补建。它是后续开发建议，当前归档版本尚未完成这条细化路径。</p>
+<p>现有地球、国界、全球介绍、场景操作和四个导演继续复用。先盘点并接通这些能力，再补缺口。地球开场已存在，后续任务应指出哪一处欠缺，避免从头再做一遍。</p>
+<p><strong>最终产品由三部分一起工作：地图负责“在哪里”，专题负责“理解什么”，引导负责“接下来观察什么”。</strong> 同一张伊犁地图可以看地形、降水，也可以看一个历史事件；切换专题时保留地点。用户自己选择路线，自动导演沿同样的地图和对象带看。</p>
+<p>“全球认识 → 自然条件 → 人文联系”是推荐的认识顺序。它不要求每次进入都重播，也不意味着气候能够解释所有历史、宗教和文化。</p><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="sample-route"><h2 id="sample-route">一条样板应该怎样走</h2>
+<p>以下是拟建样板的逐屏设计。每一步都有问题、操作、画面变化和资料要求。先读完这条线，再看后面的开发任务。</p><p class="open-hint">点开一项，查看画面、资料和完成条件。</p><details class="step-card" name="sample-route" open><summary>01 地球上先确定位置</summary><div class="step-body"><p><strong>用户的问题：</strong> 新疆在什么位置，与周边是什么关系？</p>
+<p><strong>画面与操作：</strong> 复用现有地球；大陆、国家和新疆分别显示层级，新疆有清晰范围。点击“进入新疆”，镜头始终跟随同一范围靠近，周边地理仍可辨认。纬度与五带是可选图层，选择后才出现对应色带和图例。</p>
+<p><strong>进入下一层的理由：</strong> 地球能说明位置，需要全域地图进一步观察山地、盆地和各区域。</p>
+<p><strong>需要的资料：</strong> 核对现有国界、区域轮廓的来源和表示范围；检查五带图层与既有纬度标记是否对应。已有素材合适就复用。</p>
+<p><strong>完成时看什么：</strong> 静音可以找到新疆；放大过程中目标不丢；自由旋转后仍可重新定位；能返回同一地球位置。</p></div></details><details class="step-card" name="sample-route"><summary>02 新疆全域选择一个区域问题</summary><div class="step-body"><p><strong>用户的问题：</strong> 全域有哪些差异，我为什么要去伊犁看？</p>
+<p><strong>画面与操作：</strong> 保留完整新疆及周边背景。用户选择“看伊犁的河谷与生活”，伊犁范围、相关山地和水系同时突出；其余区域降低强调但仍可见。点击目标区域后进入河谷细图。地形与降水的比较在取得同一统计时段的数据后接入。</p>
+<p><strong>进入下一层的理由：</strong> 全域图只够看大格局，河流、聚落和活动地点之间的距离与联系需要区域细图。</p>
+<p><strong>需要的资料：</strong> 覆盖伊犁及周边的地形、水系、地名和现代定位范围。气候比较另列数据时期、单位、分辨率和缺测范围。</p>
+<p><strong>完成时看什么：</strong> 从图上看得见伊犁在哪里、四周有什么；切换自然专题时仍留在这里；地图没有突然变成脱离背景的切块模型。</p></div></details><details class="step-card" name="sample-route"><summary>03 伊犁河谷显示地点之间的关系</summary><div class="step-body"><p><strong>用户的问题：</strong> 河谷中的地点怎么相连，察布查尔在其中哪里？</p>
+<p><strong>画面与操作：</strong> 载入区域精度的地形与水系，分层显示资料中确认的地名。选中察布查尔后，显示它在河谷中的位置、可进入的地点和相邻环境。保留全域位置小图，用户可自由观察，也可沿引导进入。</p>
+<p><strong>进入下一层的理由：</strong> 用户已知道地域位置，接下来需要选择“看现代地方环境”或“看西迁后的安置”，确定要看的时代和问题。</p>
+<p><strong>需要的资料：</strong> 区域高程与影像、现代地点坐标、历史节点及其定位精度。每个点应注明是精确位置、近似范围还是现代参照。</p>
+<p><strong>完成时看什么：</strong> 有独立的区域数据细节，河流、山地和目标地点能够同时辨认；放大原有全域贴图不算完成。</p></div></details><details class="step-card" name="sample-route"><summary>04 在地域细图上选择时代与事件</summary><div class="step-body"><p><strong>用户的问题：</strong> 这里的故事发生在什么时期，涉及哪些地方？</p>
+<p><strong>画面与操作：</strong> 先显示现代定位参照。用户选择西迁、抵达与安置、后续建设等资料支持的阶段，地图显示该阶段的地点与联系；前后阶段的标记、路线或设施状态实际变化。选择一个已核实节点后，先显示它的资料和空间范围，再提供进入场景的按钮。</p>
+<p><strong>进入下一层的理由：</strong> 用户要观察该节点中的具体活动，例如安置或用水；进入前已经知道时间、位置和关注对象。</p>
+<p><strong>需要的资料：</strong> 对应阶段的史料、地方资料与定位依据；古今地名对照。现代县界只负责今天的定位，不能直接充当历史聚落边界。</p>
+<p><strong>完成时看什么：</strong> 不能定位的历史节点保留为地域范围；不能把今日县城当作当时聚落。一个场景只表现资料支持的时期，不把不同年份的建设同时出现。</p></div></details><details class="step-card" name="sample-route"><summary>05 进入地点后观察一次具体活动</summary><div class="step-body"><p><strong>用户的问题：</strong> 人在这个地方怎样行动，这个行动改变了什么？</p>
+<p><strong>画面与操作：</strong> 复用合适的屯居或水利场景，入口显示它与上层地点的对应关系。有测绘依据时按地点布置；只有活动资料时使用明确标注的示意场景。选择“观察活动过程”，对象按准备、实施、结果依次变化，字幕指向正在变化的对象。</p>
+<p><strong>例如用水观察：</strong> 有资料支持设施与水路时，显示取水位置、输送方向和用水对象，再观察开闭操作后的变化。可调水量属于机制实验，和有记载的历史结果分开。</p>
+<p><strong>需要的资料：</strong> 活动、设施、服饰和建筑的时期依据；有依据的动作顺序。没有历史布局资料时，不制作号称原址还原的街巷行走。</p>
+<p><strong>完成时看什么：</strong> 静音可看懂谁在何处做什么、什么发生了变化；点中对象能查看其说明；地图定位与场景含义一致。</p></div></details><details class="step-card" name="sample-route"><summary>06 带着观察结果返回并换一个问题</summary><div class="step-body"><p><strong>用户的问题：</strong> 刚才看的活动在区域里意味着什么，还可以比较什么？</p>
+<p><strong>画面与操作：</strong> 返回依次恢复地域细图、河谷图和全域图。保留选中的地点、时期、专题、视角和观察记录；该地点带有刚才的观察提示。用户可切换自然专题，也可另选有资料的文化、景点或历史节点。</p>
+<p><strong>自动导演：</strong> 走同一条路径、调用同一组对象变化，提供暂停、选幕和自由接管。建议保留演示时的旋转缩放；主动换事件或换地点则接管，并显示“继续导览”入口。</p>
+<p><strong>完成时看什么：</strong> 地图返回后仍能指出场景在哪里；手动探索与导演到同一节点时，地点、时代和对象状态一致。</p></div></details><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="build-order"><h2 id="build-order">开发应按什么顺序交付</h2>
+<p>按下面的依赖顺序交付。每项完成后，才能把依赖它的细节当作已具备；资料不足时缩小展示范围，并留下明确缺项。</p><p class="open-hint">点开一项，查看画面、资料和完成条件。</p><details class="step-card" name="build-order"><summary>A 先把伊犁样板的资料和画面对应起来</summary><div class="step-body"><p><strong>AI 要做：</strong> 盘点已有图层、地点、屯居场景和史料；为上面六屏各写一条内容记录，列出资料来源、时间、定位精度、拟显示对象、用户操作及缺项。找出能用的区域图与地点资料，记录许可和使用范围。</p>
+<p><strong>交付物：</strong> 一份有实际条目的资料清单、一组逐屏草图、现有资产复用表。每个计划中的地名、路线、场景都能回到清单。</p>
+<p><strong>通过条件：</strong> 能区分已经取得的资料和待找资料；明确首个细地图可支持的观察距离。若聚落位置缺证据，首轮终点设为地域图加示意场景，并把原址精细复原留为缺项。</p></div></details><details class="step-card" name="build-order"><summary>B 下一轮实际开发补中间地图和进出关系</summary><div class="step-body"><p><strong>AI 要做：</strong> 复用地球与全域入口，为已有西迁全局、区域、地点三档镜头补上独立的伊犁与察布查尔地域数据。把地图上的地点与现有场景绑定；进入前后保留目标位置，返回恢复来路。先用必要的地形、水系、地名和说明把路线走通。</p>
+<p><strong>交付物：</strong> 一条真实可操作的“地球 → 新疆 → 伊犁 → 察布查尔地域 → 已有场景 → 逐层返回”路径，以及每层采用的数据说明。</p>
+<p><strong>通过条件：</strong> 区域视图有新增的地理细节；进入场景前可看见它对应的地点或范围；连续进出三次仍保留选择与视角；保存后刷新、导出再导入也能恢复来路；其他三个导演、旧探索记录和场景入口可继续使用。</p>
+<p><strong>这一轮范围：</strong> 先完成这条空间路径。五带、气候、历史细节和新人物制作按后续任务逐项接入。</p></div></details><details class="step-card" name="build-order"><summary>C 在同一地点补自然专题</summary><div class="step-body"><p><strong>AI 要做：</strong> 按“全球纬度与环流背景 → 区域地形 → 温度与降水比较”组织专题。复用已有纬度观察带和西风概念，补充完整五带及数据支持的气候图层。用户切换专题时，地点和视角保持；旁白提到的范围、流向或数值在图上对应出现。</p>
+<p><strong>交付物：</strong> 可切换、可比较的地形和气候图层，图例、单位、统计时段与来源完整；全球概念动画和区域观测数据分开标明。</p>
+<p><strong>通过条件：</strong> 使用相同统计口径比较两个区域；缺测保持空缺；同一地点切换地形与降水后仍可辨认。解释气候差异时采用资料支持的因素，不由一条风向动画直接推导全部降水结论。</p></div></details><details class="step-card" name="build-order"><summary>D 把一个真实事件的过程接进细地图</summary><div class="step-body"><p><strong>AI 要做：</strong> 从已有西迁线索中选资料充足的一段，按时间拆成背景、行动和结果节点。每个节点绑定地点或范围、路线依据、可见对象状态和字幕；把抵达、安置及后续建设分时显示。</p>
+<p><strong>交付物：</strong> 一段可暂停、可前后比较的地图事件，以及一个与之对应的活动场景。每次推进都能看到对象变化，并能查到出处。</p>
+<p><strong>通过条件：</strong> 用户静音能说清发生在何处、前后有什么不同；历史路线无法确认时显示范围或方向，不播放虚构的精确行军；场景中的人物和设施属于该节点的表示时期。</p></div></details><details class="step-card" name="build-order"><summary>E 最后接导演并检验能否复用</summary><div class="step-body"><p><strong>AI 要做：</strong> 让导演调用上述地点、专题和事件节点；按节点状态同步镜头、标记、字幕和语音。再把相同的进入与返回方式接到已有冰川线索，验证结构可复用。</p>
+<p><strong>交付物：</strong> 一条人工操作与自动导览都完整的样板；冰川线索的复用记录；其他旧入口的回归检查。</p>
+<p><strong>通过条件：</strong> 手动和导演显示一致；旋转缩放、暂停、接管、续播和返回都有明确行为；旁白未就绪时仍可用文字完成理解。共享资产只存一份，细图在进入后加载、离开后释放不用的资源。</p></div></details><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="next-brief"><h2 id="next-brief">给 AI 的下一轮任务书</h2>
+<p>请在现有新疆3D平台基础上完成伊犁区域样板，保留归档版本及原有能力。目标是让用户从地球定位新疆，进入全域地图，再进入伊犁河谷、察布查尔地域及适用的已有屯居场景，最后逐层返回。</p>
+<ol><li>先盘点现有地球、图层、地点、场景与资料；列出能复用的内容和缺失的区域地图数据，完成六屏画面与操作说明。</li><li>地图每深入一层都增加可验证的地形、水系或地点细节。镜头始终保留目标联系，场景入口显示对应地点或范围；只有地域依据时使用区域参照与示意场景。</li><li>为当前地点、地图层级、专题、时期、事件节点和返回视角建立共同记录。地图、标签、场景和导演读取同一记录，避免各模块各用一套地点或进度。</li><li>完成进入、自由观察、选点和逐层返回；保留原有四个导演、语音字幕和探索记录。先交付可操作的空间路径，气候专题与新历史动作放在后续任务。</li><li>按本页验收清单实际操作并展示结果，报告尚未取得的数据及显示精度。源码、截图和检查记录通过现有过程库增量保存，共用素材按引用使用。</li></ol>
+<p>本轮完成标志是：用户能指出每个场景在区域中的位置，能逐层观察并返回，看到的细节与资料精度相符。影片只用来保存验收过程。</p><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="topic-expansion"><h2 id="topic-expansion">样板之后怎样补全内容</h2>
+<p>伊犁只用于把做法做通。完整平台仍沿“全球认识 → 自然条件 → 人文联系”展开；每个主题都要能从介绍进入地图观察，再进入有资料的地点。</p><p class="open-hint">点开一项，查看画面、资料和完成条件。</p><details class="step-card" name="topic-expansion"><summary>全球认识先建立所有地域共用的入口</summary><div class="step-body"><p>依次补齐位置与尺度、完整五带、国家范围与周边关系。球面上使用不同层级的名称、可切换的范围与图例；用户点选新疆或其他地域后，沿同一个目标进入全域图。五带可重用，地域范围与名称由对应资料提供。</p></div></details><details class="step-card" name="topic-expansion"><summary>自然条件按问题增加可比较的图层</summary><div class="step-body"><p>先完善西风与地形的概念观察，再用有时期和单位的数据接入温度、降水。挑选两个资料可比的区域，保存同一位置进行切换或对照。接着扩展水系、绿洲、冰川、天池和雅丹等地点；进入每个地点前说明要观察哪种地理现象。</p></div></details><details class="step-card" name="topic-expansion"><summary>人文联系按资料建成不同类型的专题</summary><div class="step-body"><p><strong>丝绸之路与历史：</strong> 网络联系与个人行程分开。张骞、都护、西迁沿各自的时间、地域和证据组织节点，共用进入返回方式，采用各自的地图变化与活动。</p>
+<p><strong>宗教与文化：</strong> 从具体遗址、建筑、文物或地方活动入手，记录时期与出处；地图显示相关地点和资料支持的传播联系，近景观察具体对象。人群分布、信仰和制度不由自然环境直接推导。</p>
+<p><strong>地域特色与景点：</strong> 一个地点回答一个清楚的问题，例如如何形成、在什么时期用于什么活动、今天可观察到什么。图鉴可直接选择，导览解释它为什么与当前主题有关。</p>
+<p><strong>扩展完成条件：</strong> 每个专题至少有“一个问题、一组有来源的地图对象、一次可见变化、一个可进入或可观察的地点、一条返回路线”。只有介绍文字或现成模型，仍记为待完善。</p></div></details><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="shared-structure"><h2 id="shared-structure">底层怎样支持持续扩展</h2>
+<p>实现时，把下列内容分别组织。以下是拟建的数据约定，当前代码还没有完整采用这一结构。</p>
+<div class="document-table"><table><thead><tr><th scope="col">内容</th><th scope="col">一条记录应写什么</th><th scope="col">用在画面哪里</th></tr></thead><tbody><tr><td>地域与地点</td><td>稳定编号、上层地点、范围或坐标、适用尺度、定位精度、时代、来源</td><td>地球定位、区域地图、地点选择、返回位置</td></tr><tr><td>专题图层</td><td>问题、适用范围、数据、时期、单位、图例、可点对象</td><td>五带、地形、温度、降水、历史与文化专题</td></tr><tr><td>事件节点</td><td>时间、地点编号、行动、前后对象状态、路线依据、字幕、来源</td><td>地图上分阶段发生的变化</td></tr><tr><td>场景与素材</td><td>对应地点与节点、真实或示意、模型比例和方向、细节等级、许可、共享资源地址</td><td>地图落点、场景入口、近景与资源加载</td></tr><tr><td>导览与返回</td><td>节点顺序、进入条件、镜头、语音和字幕标记、暂停接管规则、来路视角</td><td>自动导演和自由探索共用的引导</td></tr></tbody></table></div><p class="open-hint">点开一项，查看画面、资料和完成条件。</p><details class="step-card" name="shared-structure"><summary>用一个操作说明这些记录怎样协作</summary><div class="step-body"><p>用户在伊犁图上选中察布查尔时，系统记录“当前地域、地图层级、专题与时期”。用户随后选择一个安置节点，地图读取该节点的地点范围与对象变化，字幕读取同一节点的解释，场景入口也指向同一节点。导演自动走到这里时执行相同选择。</p>
+<p>进入场景前保存上层视角。返回时恢复这条记录，用户不必重新寻找地点。只调相机远近时，事件节点保持不变；选择其他事件时才切换故事内容。</p></div></details><details class="step-card" name="shared-structure"><summary>资料不够时怎样处理</summary><div class="step-body"><p>数据清单把资源分成“已核验可用”“需要补充”“只支持示意”。没有区域细图，就不能把宏观贴图放大后称为县域精细地图；没有历史路径，就不能让人物沿任意沙路走并称为真实行程。可继续完成有证据的部分，并在对应入口说明可观察范围。</p>
+<p>素材地址引用共享资源，来源和时期跟随资源记录。原始资料、派生地形和模型分别登记，新一轮只保存改变的内容。</p></div></details><details class="step-card" name="shared-structure"><summary>实现时从哪些现有模块接入</summary><div class="step-body"><p>以下路径均相对本子项目的 <code>web/public/</code>，用于交给后续开发者定位代码。这里是源码核查结论，新增能力还需要实际运行验收。</p>
+<ul><li><strong>地球与全球介绍：</strong> <code>world-atlas.js</code>、<code>world-country-layer.js</code>、<code>world-intro-content.js</code> 已有球面、国界及全球主题。现有纬度观察带不能当作完整五带；温度与降水的区域观测图层需要补建。</li><li><strong>区域地形与空间关系：</strong> <code>regional-surface.js</code>、<code>regional-surface-data.js</code>、<code>spatial-relations.js</code>、<code>spatial-relations-geography.js</code> 已有新疆地形和西迁三档视角。下一轮补独立区域数据、地图上层关系与加载释放，不能只再加几个缩放按钮。</li><li><strong>地点和事件：</strong> <code>knowledge-content.js</code>、<code>history-content.js</code>、<code>knowledge-scenes.js</code> 已有地点、年代与模型入口。把分散的地点绑定关系整理成共用记录，保留现有地点编号的兼容。</li><li><strong>返回和保存：</strong> <code>knowledge-guide.js</code> 已有地图快照，<code>exploration-entry.js</code>、<code>exploration-memory.js</code> 已有记录恢复。下一轮扩展为多层返回，同时更新状态白名单、链接参数、导出导入及旧记录兼容；只在界面内记住来路不够。</li><li><strong>场景和导演：</strong> <code>settlement-chronology.js</code>、<code>settlement-chronology-scene.js</code> 已有分期场景；<code>exploration-director.js</code>、<code>exploration-director-paths.js</code> 和 <code>history-story-audio.js</code> 已有导演、音频与字幕。先让这些模块共享地点与节点，再添所需表现。</li></ul>
+<p>现有资料清单中的伊犁点是现代城市定位，察布查尔点是近似地域参照。下一轮需要新增区域地形、水系与细地点资料，历史村址和渠线仍需另找定位证据。现有屯居资料支持的内容，可先通过地域定位加示意场景继续使用。</p></div></details><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="regional-expansion"><h2 id="regional-expansion">如何扩展到其他地域</h2>
+<p>先用新疆样板整理共用的地图控制、地点记录和导览方式，再用第二个地域检验是否好用。当前项目还不能输入地域名称就自动生成完整平台。</p><p class="open-hint">点开一项，查看画面、资料和完成条件。</p><details class="step-card" name="regional-expansion"><summary>01 为新地域先选三个问题</summary><div class="step-body"><p>先研究资料，填写“它在哪里”“哪种自然差异值得观察”“哪件真实事情或文化案例值得追问”。例如一个沿海地域可以考虑“港湾与地形、城市与交通、某个有证据的港口事件”，这些是待核查选题，不能直接套用新疆故事。</p>
+<p>确定一条首发路径：地球 → 新地域全图 → 一个区域 → 一个有资料的地点 → 返回。暂时没有细资料的区域先保留全域认识。</p></div></details><details class="step-card" name="regional-expansion"><summary>02 准备一个地域内容包</summary><div class="step-body"><p><strong>位置资料：</strong> 地域范围、下属区域与关键地点，每条含上层关系、坐标或范围、适用年代与来源。</p>
+<p><strong>自然资料：</strong> 地形、影像及所选专题的数据；温度与降水记录单位、时间和统计口径。图例与资源一起交付。</p>
+<p><strong>故事资料：</strong> 一条有依据的事件或地方文化案例，拆成可以定位和观察的节点；区分史实、推测、现代参照与机制实验。</p>
+<p><strong>展示资料：</strong> 每个节点要用的模型、图像、说明、字幕与声音；给出许可及共享地址，注明真实采集或解释性制作。</p>
+<p><strong>验收路径：</strong> 指定从哪个入口到哪个地点、预期看到哪些变化、怎样返回。每项资源填明已取得、待补充或仅可示意。</p></div></details><details class="step-card" name="regional-expansion"><summary>03 接用共用操作并明确哪些需要新做</summary><div class="step-body"><p>地球、相机、选点、返回、专题切换、字幕语音和导演控制应由共用功能承担。地域内容包提供范围、地点、问题、节点、素材与导览顺序。</p>
+<p>新地域特有的现象，可能需要新的表现模块，例如港口装卸、潮汐或梯田用水。先说明它要解释的问题，再判断能否复用已有表现；确实需要新增时，将它做成可独立接入的能力。换名称、换贴图无法自动得到新的知识产品。</p></div></details><details class="step-card" name="regional-expansion"><summary>04 用第二个地域检验复用是否成立</summary><div class="step-body"><p>先接通新地域的一条小路径，再重复本页验收。进入返回、暂停和字幕等共用操作应沿用同一实现；只因地点和故事不同就复制一套导航或导演，说明结构还需要整理。</p>
+<p>两地共有的球面、控件和素材按引用复用。地域精细数据按需载入；截图、声音和源码按内容增量归档，切换地域不会重复保存整份旧项目。</p></div></details><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><section class="guide-section" aria-labelledby="acceptance"><h2 id="acceptance">完成时照着这张清单操作</h2>
+<ol><li><strong>定位：</strong> 从地球进入新疆，再选伊犁；进入前后能辨认同一目标及周边，名称和范围相符。</li><li><strong>细化：</strong> 进入地域细图，能看到全域视图没有的水系或地点关系；数据说明与实际可观察精度相符。</li><li><strong>换专题：</strong> 同一地点切换地形与已接入专题；地点和相机不丢，图例、时间和说明随专题变。</li><li><strong>换阶段：</strong> 在已接入的事件中前进与后退；地点、路线或设施状态变化，字幕能解释这个变化。</li><li><strong>进场景：</strong> 进入前知道所看地点、时期和目的；场景中的活动与当前节点相符，有示意标记就可查明范围。</li><li><strong>静音看：</strong> 关闭声音后仍可看懂位置、正在变化的对象和前后结果，必要标注不会被面板遮挡。</li><li><strong>自己操作：</strong> 旋转、缩放、暂停、接管、继续和逐层返回都可用；返回保留地点、专题、节点与视角。</li><li><strong>保留旧能力：</strong> 张骞、都护、西迁与冰川四个旧入口和导演能够进入、播放和返回；旧观察记录能够恢复；重复进入细图后资源占用不持续累加。</li></ol>
+<p>每轮只对本轮接入的能力宣告通过，并列出仍未接入的条目。保存实际操作截图、检查结果和改动源码；参考视频可用于观察呈现方式，不能替代地图数据与历史资料。</p><a class="back-top" href="#plan-start">回到开发路线 ↑</a></section><details class="retained-notes"><summary>查看阶段成果、早期反思与归档依据</summary><p>下列内容保留探索背景与既有成果；后续实施范围以本页上方的样板、任务和验收为准。</p><p>2026年10月14日。当前三维运行版本停在 R90，作为可操作的探索原型保留；本次归档整理反思和后续设计依据。下一阶段以全球与区域地理认知为主干，逐步进入有史料依据的事件、文化与地点探索；多尺度地图承接这些问题，已有模型、交互、声音和素材作为可复用基础。</p>
 <h2>阶段成果与适用范围</h2>
 <p>当前已经连通地球定位、新疆全域认识、历史事件、地点模型和返回地图。保留自由旋转与缩放、参数与选择、暂停与接管、探索记录恢复。张骞出使、西域都护、锡伯西迁及一号冰川共有四个导演主题、52幕，已配置讲解和字幕。其他自然、文化、家庭、庭院、关口和工程场景继续可操作；它们没有全部建设独立导演或同等深度的故事。</p>
 <p>这些成果证明了入口、对象联动和观看控制可以共用一个平台。知识覆盖仍是选取的案例，人物与建筑多为解释模型，尚未形成覆盖新疆各区域和各时代的完整知识产品。功能检查通过表示相应行为符合检查条件，不能替代内容完整性、历史考证和用户体验验收。</p>
